@@ -1,0 +1,1001 @@
+Index	English	Japanese_Translation
+20001	Insufficient cargo loaded. Unable to dispatch the ship.	積載貨物が不足しているため、船を派遣できません。
+20002	The other player has already received a friend request.	相手にはすでにフレンド申請が届いています。
+20003	You're right. Let's decide what gift to give her first.	そうだね。まずは彼女に何を贈るか決めよう。
+20004	Max support applications: <color=${3}>${1}</color>/${2}	支援申請上限：<color=${3}>${1}</color>/${2}
+20005	You successfully aided ${1}${2} using the Revive Altar.	復活の祭壇を使って${1}${2}の支援に成功しました。
+20006	Healing on targets below @{1}% Life increased by @{2}%.	HPが@{1}%未満の対象への回復量が@{2}%増加。
+20007	When 【Slashing Strike】 hits a target, gain @{1}% Haste.	【スラッシングストライク】命中時、ヘイストを@{1}%獲得。
+20008	Duration of control Protector skills +^{1}${1}^{2} sec.	行動妨害保護スキルの持続時間 +^{1}${1}^{2}秒。
+20009	Replace Personal Build ${1} with the recommended build?	個人ビルド${1}をおすすめビルドに置き換えますか？
+20010	Increases Physical DEF by ${1}% and Magic DEF by ${2}%.	物理DEFが${1}%、魔法DEFが${2}%増加。
+20011	Determines whether the BOSS is at the center of the map	BOSSがマップ中央にいるかを判定
+20012	You haven't finished today's journey. End the day early?	今日の旅をまだ終えていません。早めに一日を終了しますか？
+20013	Every journey has an end, but yours has only just begun.	どんな旅にも終わりはある。でも君の旅は、まだ始まったばかりだ。
+20014	^{1}Escape to the finish line as quickly as possible^{2}	^{1}できるだけ早くゴールまで逃げ切れ^{2}
+20015	[Reserved] Spend a total of @{1} minutes in field combat	[予約] フィールド戦闘を合計@{1}分行う
+20016	Follow the Pathfinder Ant to a mysterious cave entrance.	パスファインダーアントを追って謎の洞窟入口へ向かう。
+20017	Head to Payon and search for signs of Mushroom monsters.	フェイヨンへ向かい、キノコ系モンスターの痕跡を探す。
+20018	Defeated, Jack fled as fast as his legs could carry him.	敗れたジャックは一目散に逃げていった。
+20019	Participate in the Guild Gloom over Longguo Island event	ギルドイベント「龍国島を覆う暗雲」に参加
+20020	Read the notes for a Clue to the professor's whereabouts	教授の行方の手がかりを得るためメモを読む
+20021	You have selected ${1} cards and cannot select any more.	カードを${1}枚選択済みのため、これ以上選択できません。
+20022	Every @{1} LUK grants @{2} CRIT, @{3} FLEE, and @{4} HIT	LUK@{1}ごとにCRIT +@{2}、FLEE +@{3}、HIT +@{4}
+20023	Affects the damage of your ranged Physical Damage Skills	遠距離物理ダメージスキルの威力に影響
+20024	Return to Payon and deliver all the spoils to the client	フェイヨンへ戻り、戦利品をすべて依頼人に渡す
+20025	Not enough required items. Unable to activate the wheel.	必要アイテム不足のためホイールを起動できません。
+20026	Crafting has a Chance to produce high-quality equipment.	製作時、高品質装備ができることがあります。
+20027	Randomly grants <color=#cc762a>${1}-${2}</color> affixes	ランダムで<color=#cc762a>${1}-${2}</color>個のオプションを付与
+20028	May fortune smile on you—now hand over the red envelope!	幸運を祈るよ――さあ、お年玉を渡して！
+20029	Download speed: {@{1}:@{2}0}{1}. Estimated time: {2} sec	ダウンロード速度：{@{1}:@{2}0}{1}。推定時間：{2}秒
+20030	Trade canceled. The item has been removed automatically.	取引をキャンセルしました。アイテムは自動的に出品解除されました。
+20031	The Party Leader role cannot be transferred during Misc.	その他モード中はパーティリーダーを譲渡できません。
+20032	The supply listing price does not meet the requirements.	物資の出品価格が条件を満たしていません。
+20033	Participate in Battle of Dragon Coffin Island ${1} times	龍棺島の戦いに${1}回参加
+20034	This unit's Physical ATK and Magic ATK increase by ${1}.	このユニットの物理ATKと魔法ATKが${1}増加。
+20035	Open Mondays, Wednesdays, and Saturdays from 17:00–18:30	毎週月・水・土曜 17:00～18:30に開催
+20036	Test version. Does not represent final quality. UID:${1}	テスト版です。最終品質を示すものではありません。UID:${1}
+20037	【Mystical Amplification】 grants an Extra {1} Cast Speed.	【ミスティカルアンプリフィケーション】で詠唱速度 +{1}。
+20038	【Mystical Amplification】 grants an Extra ${1} Magic ATK.	【ミスティカルアンプリフィケーション】で魔法ATK +${1}。
+20039	This area is too dangerous to dismount from your Deniro.	このエリアは危険すぎるため、デニーロから降りられません。
+20040	You can mark up to ${1} monsters. Select one to replace.	モンスターは最大${1}体までマークできます。置き換える対象を選択してください。
+20041	Guild emblem design not unlocked. Please choose another.	ギルドエンブレムデザインが未解放です。別のものを選択してください。
+20042	The following message will be sent to all Guild Members:	以下のメッセージをギルドメンバー全員に送信します：
+20043	This player has responded to another guild's Guild Rally	このプレイヤーは別ギルドの集結要請に応答済みです。
+20044	Connect Quest - Team Up and Auto-Battle for @{1} Minutes	連携クエスト - パーティで@{1}分オートバトル
+20045	No Beginner Hatch attempts remaining. Prize Pool closed.	初心者孵化回数が残っていません。賞品プールは終了しました。
+20046	No Speed-Up Tickets remaining. Please obtain more first.	加速チケットがありません。先に入手してください。
+20047	Tap the Mount button and hop onto your dashing new ride!	マウントボタンをタップして、新しいマウントに乗ろう！
+20048	Oh! The Pet Tower is unlocked. I'll show you around, bo!	おっ！ペットタワーが解放されたよ。案内するね、ボ！
+20049	The weather's lovely today, meow~ What can I do for you?	今日はいい天気だニャ～。何か用かニャ？
+20050	I've got it! You're actually a robot! Or a magical doll!	分かった！君はロボットなんだ！それとも魔法の人形！
+20051	Master~ Have you been secretly dating an invisible girl?	師匠～、もしかして透明な女の子とこっそり付き合ってるの？
+20052	You already have a ticket? Then I'll teleport you there.	もうチケットを持ってるの？じゃあそこへ転送するね。
+20053	Oh, you know. We only nearly got eaten by the queen ant.	まあね。女王アリに食べられかけただけだけど。
+20054	Did the desert heat give you heatstroke? You look awful.	砂漠の暑さで熱中症にでもなった？顔色がひどいよ。
+20055	Since you're here, how about taking care of them for me?	せっかく来たんだし、代わりに面倒を見てくれない？
+20056	You can mix and match different outfits in the Wardrobe~	ワードローブではいろんな衣装を自由に組み合わせられるよ～
+20057	What beautiful weather! It's a perfect day for refining!	なんていい天気！精錬日和だね！
+20058	When you miss your beloved, you have to shout like this!	恋しい人を想うなら、こう叫ぶんだよ！
+20059	Humans look so strange. Are they... giant hairless cats?	人間って変な姿だね。もしかして…毛のない巨大な猫？
+20060	What are you looking at? I'm furious, so leave me alone!	何見てるの？今すごく怒ってるんだから放っておいて！
+20061	There's some travel food and an old map in the Backpack~	バックパックに旅用の食料と古い地図が入ってるよ～
+20062	This costs @{1} Zeny in our village, but it's @{2} here?	うちの村じゃ@{1}ゼニーなのに、ここでは@{2}もするの？
+20063	Ahem. It's the taking part that counts. The taking part.	コホン。参加することに意義がある。うん、参加することに。
+20064	Phew... Thank goodness you woke up in time. We almost...	ふぅ…間に合って目を覚ましてくれてよかった。もう少しで…
+20065	Skip the preparation phase and enter battle immediately?	準備フェーズをスキップして、すぐ戦闘を開始しますか？
+20066	Lightning will strike beneath players after @{1} seconds	@{1}秒後、プレイヤーの足元に雷が落ちます
+20067	^{1}【Notice】^{2}[Central Revive Point] has been captured	^{1}【通知】^{2}[中央復活ポイント]を占領しました
+20068	Enemy ^{1}${1}^{2} destroyed our ^{3}Madogear Pilot^{4}!	敵の^{1}${1}^{2}が味方の^{3}魔導ギアパイロット^{4}を破壊！
+20069	Use Lope to avoid damage from the ripples on the ground.	跳躍を使って地面の波紋ダメージを回避しよう。
+20070	Oh no, the captain looks injured! Let's go check on him!	大変、船長がけがしてる！様子を見に行こう！
+20071	You rummage through the bushes and finally find the key.	茂みを探し回り、ついに鍵を見つけた。
+20072	The Royal City Battle has ended. View the battle report?	王都戦が終了しました。戦闘レポートを確認しますか？
+20073	The Bonfire reached Lv. ${1} and unlocked a new ability.	焚き火がLv.${1}に到達し、新しい能力が解放されました。
+20074	A thrilling and fun challenge is about to begin—\n【${1}】	スリル満点の楽しいチャレンジがまもなく開始！\n【${1}】
+20075	The Guild has designated ${1} as its main garrison city.	ギルドは${1}を主要駐屯都市に指定しました。
+20076	Phew! Giving it a good beating made me feel much better!	ふぅ！思いっきり叩いたらスッキリした！
+20077	Bobo\n There's a big pit up ahead. I'll go check it out!	ボボ\n 前に大きな穴がある。ちょっと見てくる！
+20078	Moonlight Flower\nTaunt them, then start the game again!	月夜花\n挑発してから、もう一度ゲームを始めよう！
+20079	Bobo\nWhoa! W-What's happening? This compass is glowing!	ボボ\nうわっ！な、何が起きてるの？コンパスが光ってる！
+20080	Bobo\nLook! Prontera is just beyond that gate! Let's go!	ボボ\n見て！あの門の向こうがプロンテラだ！行こう！
+20081	Bobo\nHurry and Take off the compass so we can check it!	ボボ\n急いでコンパスを外して確認しよう！
+20082	All auction items are gone. Thank You for participating!	オークションアイテムはすべて売り切れました。ご参加ありがとうございました！
+20083	Have the team obtain Orange Quality equipment @{1} times	チームでオレンジ品質装備を@{1}回入手
+20084	First Prize will always be drawn from Baby Desert Wolves	1等は必ずベビーデザートウルフから抽選されます
+20085	Activate the Dinner Date Costume Appearance (Permanent).	「ディナーデート」コスチューム外見を永久解放。
+20086	Activate the Silverwing Covenant Appearance (Permanent).	「シルバーウィングの盟約」外見を永久解放。
+20087	A blue crab used in many dishes. Sometimes used as bait.	さまざまな料理に使われる青いカニ。餌に使われることもある。
+20088	Grants forging blueprints for a Tier @{1} equipment set.	Tier @{1}装備セットの鍛造設計図を獲得。
+20089	Fur skinned from a Brute. Can be exchanged for Headwear.	動物から剥ぎ取った毛皮。頭装備と交換可能。
+20090	Use to unlock the guild Frame: Hunting Emblem · Pursuer.	ギルドフレーム「狩猟エンブレム・追跡者」を解放。
+20091	Use to unlock the guild emblem frame: Dark Crystal Ring.	ギルドエンブレムフレーム「ダーククリスタルリング」を解放。
+20092	Use to unlock the guild emblem design: Primordial Chaos.	ギルドエンブレムデザイン「原初の混沌」を解放。
+20093	Toot, toot, toot! Use a Small Horn to shout to everyone.	プップー！小さな角笛でみんなに呼びかけよう。
+20094	Gloves worn on the hands that make delicate work easier.	細かい作業がしやすくなる手袋。
+20095	A bow that does not deal much damage but is easy to use.	威力は低いが扱いやすい弓。
+20096	A halberd with two sharp projections on its broad blade.	幅広い刃に鋭い突起が2本付いたハルバード。
+20097	A two-handed sword highly effective at subduing enemies.	敵の制圧に優れた両手剣。
+20098	Used exclusively for Desert Monster Collection Level-up.	砂漠モンスターコレクションのレベルアップ専用。
+20099	Used exclusively for Geffen Monster Collection Level-up.	ゲフェンモンスターコレクションのレベルアップ専用。
+20100	Survivor Battle Misc Net Victory Points (Victory Points)	サバイバルバトル その他 勝利ポイント差（勝利ポイント）
+20101	Not enough Treasure Maps. Obtain more from quests first!	宝の地図が不足しています。先にクエストで入手してください！
+20102	Reduces Vivify consumed when mining Lv. @{1} ore by @{2}	Lv.@{1}鉱石の採掘時、消費活力を@{2}軽減
+20103	Third Prize will always be drawn from Baby Desert Wolves	3等は必ずベビーデザートウルフから抽選されます
+20104	Have more than^{1}@{1}^{2}minutes remaining until enrage	激怒まで^{1}@{1}^{2}分以上残っている必要があります
+20105	This chapter can only be obtained in the scenario [${1}]	この章はシナリオ[${1}]でのみ入手できます
+20106	A Member is not a friend. Failed to create friend group.	メンバーがフレンドではないため、フレンドグループ作成に失敗しました。
+20107	Invalid request: Pre-purchase order id was not provided.	無効なリクエスト：事前購入注文IDが指定されていません。
+20108	The team includes someone from another Adventurer Group.	チームに別の冒険グループ所属者がいます。
+20109	You have reached the Adventurer Group application limit.	冒険グループ申請上限に達しました。
+20110	Treasure-digging location is beyond the maximum Distance	宝探し地点までの距離が上限を超えています
+20111	The Season server you attempted to adjust does not exist	調整対象のシーズンサーバーが存在しません
+20112	Someone did not confirm. Please start matchmaking again.	確認していないメンバーがいます。もう一度マッチングを開始してください。
+20113	${1} has not been unlocked. Unable to begin matchmaking.	${1}が未解放のためマッチングを開始できません。
+20114	Guild Territory War participation count must reach ${1}.	ギルド領地戦への参加回数が${1}回必要です。
+20115	This GM command is currently disabled and cannot be used	このGMコマンドは現在無効化されており使用できません
+20116	Capacity has reached the maximum and cannot be increased	容量が上限に達しているため、これ以上増やせません
+20117	Charges a full-screen attack for @{1}s. Deals no damage.	@{1}秒間、全画面攻撃をチャージ。ダメージはありません。
+20118	Deals extremely High Damage in a rectangular area ahead.	前方の長方形範囲に超高ダメージを与える。
+20119	Phreeoni releases acid forward, damaging players on HIT.	フリオニが前方へ酸を放ち、命中したプレイヤーにダメージ。
+20120	Revive requests are on cooldown. Please try again later~	復活要請はクールダウン中です。後でもう一度試してね～
+20121	I am a man who yearns for luck! Bring me good luuuuuuck!	俺は幸運を求める男だ！幸運を持ってきてくれぇぇぇ！
+20122	Ugh, hah, ha! I'm... fine. I can still... keep... going!	ぐっ、はっ…！だ、大丈夫…まだ…やれる…！
+20123	Party member ${1}'s current status prevents matchmaking.	パーティメンバー${1}の現在状態ではマッチングできません。
+20124	When a katar-type weapon is equipped, Physical ATK +@{1}	カタール系武器装備時、物理ATK +@{1}
+20125	Entangled in the Pharaoh's burial shroud and Cannot move	ファラオの埋葬布に絡め取られ、移動できません
+20126	Cast Time increased by @{1}, MP Cost increased by @{2}%.	詠唱時間 +@{1}、MP消費 +@{2}%。
+20127	Detects hidden enemies within @{1} meters of the Ranger.	レンジャーの@{1}m以内にいる隠れた敵を検知。
+20128	Adventure Group response recruitment posted successfully	冒険グループ応答募集を掲載しました
+20129	Get <sprite name="${3}">${4} with help from other players	他プレイヤーの支援で<sprite name="${3}">${4}を獲得
+20130	Continue chasing Dracula, and watch out for falling rocks	ドラキュラを追い続け、落石に注意しよう
+20131	Reach a total Refinement Lv. of @{1} across all equipment	全装備の精錬Lv.合計を@{1}にする
+20132	Complete the Novice Trial and obtain proof of completion.	ノービス試練を完了し、修了証を獲得。
+20133	The boy offers to predict your future job. Give it a try.	少年が将来の職業を占ってくれる。試してみよう。
+20134	You crash-land in the desert. Ask around for information.	砂漠に不時着した。周囲で情報を集めよう。
+20135	The Eden Group has received a request from the Professor.	楽園団に教授から依頼が届いた。
+20136	The Rocker took the bait, much to Grandma Gwen's delight.	ロッカーが餌に食いつき、グウェンおばあちゃんは大喜びだ。
+20137	Select the quest to learn about the Phantom Realm dungeon	クエストを選択してファントムレルムダンジョンについて学ぶ
+20138	Complete the Job Advance to unlock further Skill Learning	転職を完了して、さらなるスキル習得を解放
+20139	Affects the damage of the character's magic Damage Skills	キャラクターの魔法ダメージスキルの威力に影響
+20140	<color=#2fd3bb>[Supply Transport]</color> Escort Supplies	<color=#2fd3bb>[物資輸送]</color> 物資を護衛
+20141	Login failed. Please restart the game using the launcher.	ログインに失敗しました。ランチャーからゲームを再起動してください。
+20142	Tap the Touch button to touch the Book of Job Advancement	「触れる」ボタンをタップして転職の書に触れる
+20143	Follow the markings in the note to the indicated location	メモの印をたどって指定地点へ向かう
+20144	Get permission from the Knight guarding the Nail of Order	秩序の杭を守る騎士から許可を得る
+20145	Rent a Cart Merchant (available after you Learn Cart Use)	カート商人を借りる（カート使用習得後に利用可能）
+20146	Reset stat points. All allocated points will be refunded.	ステータスポイントをリセット。割り振り済みポイントはすべて返還されます。
+20147	Unable to view. This player has hidden their information.	閲覧できません。このプレイヤーは情報を非公開にしています。
+20148	The current skill cannot be used without a locked target.	対象をロックしていないため、このスキルは使用できません。
+20149	Blessed Refinement will not decrease the refinement level	祝福精錬では精錬レベルが下がりません
+20150	Off-hand equipment does not inherit refinement attributes	サブ装備は精錬属性を引き継ぎません
+20151	Your Reputation Score is too low to use the Trade market.	評判スコアが低すぎるため取引市場を利用できません。
+20152	Obtain by using a Normal treasure map to Dig (Deprecated)	通常の宝の地図で発掘すると入手（廃止予定）
+20153	Obtain Special Recipe - Crafting Set Mystery Box (Common)	特殊レシピ - 製作セットミステリーボックス（一般）を入手
+20154	Obtain Special Recipe - Crafting Set Mystery Box (Legend)	特殊レシピ - 製作セットミステリーボックス（レジェンド）を入手
+20155	The maximum value cannot be lower than the minimum value!	最大値を最小値より低く設定できません！
+20156	Test Limited-Time Pool @{1} - Days @{2}–@{3} After Launch	テスト期間限定プール@{1} - サーバー開始@{2}～@{3}日目
+20157	Are you sure you want to delete the current chat history?	現在のチャット履歴を削除しますか？削除後は復元できません。
+20158	The Party Leader is in an instance and cannot be followed	パーティリーダーがインスタンス内のため追従できません
+20159	Spend ${1}${2} to place an order with ${3} for ${4} ${5}?	${1}${2}を消費して${3}に${4} ${5}を注文しますか？
+20160	Initial bid cannot be lower than the minimum starting bid	初回入札額は最低開始価格を下回れません
+20161	Please wait ${1}s for the quest to complete automatically	${1}秒待つとクエストが自動完了します
+20162	This activity is unavailable on the day you change guilds	ギルド変更当日はこのアクティビティを利用できません
+20163	Not enough Guild Members from the same guild in the party	パーティ内の同一ギルドメンバー数が不足しています
+20164	Insufficient Kills of monsters at the corresponding level	該当レベルのモンスター討伐数が不足しています
+20165	^{1}【Bow】^{2} skill damage multiplier increases by ${1}%.	^{1}【弓】^{2}スキルダメージ倍率 +${1}%。
+20166	Physical damage dealt to Brute and Insect monsters +${1}%	動物・昆虫モンスターへの物理ダメージ +${1}%
+20167	Play Event Closure @{2} after Campfire Phase @{1} begins!	焚き火フェーズ@{1}開始後にイベント終了@{2}を再生！
+20168	Second Prize will always be drawn from Baby Desert Wolves	2等は必ずベビーデザートウルフから抽選されます
+20169	Cannot socket cards until the Wardrobe System is unlocked	ワードローブシステム解放前はカードを装着できません
+20170	Only cards of the same quality can be used for Collection	コレクションには同品質のカードのみ使用できます
+20171	Pharaoh's Pyramid fires ^{1}beams that track targets^{2}.	ファラオのピラミッドが^{1}対象を追尾するビーム^{2}を放つ。
+20172	Oh no, we're done for... The toughest one just showed up.	まずい、もうダメだ…一番強いやつが出てきた。
+20173	That thing's still alive—and it's gotten even stronger...	まだ生きてる――しかもさらに強くなってる…
+20174	Strouf is furious! Keep your footing and dodge the waves!	ストラウフが激怒した！足元に気をつけて波を避けろ！
+20175	Auto-battle time has ended. Return to town automatically?	オートバトル時間が終了しました。自動で街へ戻りますか？
+20176	AFK time is about to reset. Return to town automatically?	AFK時間がまもなくリセットされます。自動で街へ戻りますか？
+20177	In RO, "@{1}" is shorthand for a certain Sage-line class.	ROでは「@{1}」は特定のセージ系職業の略称です。
+20178	Please manually switch to Channel ${1} before proceeding.	続行する前に手動でチャンネル${1}へ切り替えてください。
+20179	Capture the control point, then attack the Glorious Metal	制圧ポイントを占領してから栄光の金属を攻撃
+20180	Do not accept invitations from this player for 30 minutes	このプレイヤーからの招待を30分間拒否
+20181	Connect Quest - Team Up to Defeat Normal Moonlight Flower	連携クエスト - パーティでノーマル月夜花を倒す
+20182	Connect Quest - Team Up to Defeat Isti in the Final Trial	連携クエスト - パーティで最終試練イスティを倒す
+20183	Actively cast by the pet in modes where pets are deployed	ペット配置可能モードで、ペットが能動的に使用する
+20184	Not enough materials. Please obtain more materials first.	素材が不足しています。先に必要数を集めてください。
+20185	Saved! If you accidentally reset it, don't blame me, pop~	保存したよ！間違ってリセットしてもボクのせいにしないでね、ポン～
+20186	You can allocate points to your favorite skills here, bo!	ここで好きなスキルにポイントを割り振れるよ、ボ！
+20187	It finally hatched! Let's see which adorable baby we got!	ついに孵化した！どんな可愛い子が生まれたか見てみよう！
+20188	Shh! Keep it down! I'm concentrating on refining an item.	シーッ！静かに！今、精錬に集中してるんだ。
+20189	That man is scary! Mommy! Help me find my mommy! Waaaaah!	あの男こわい！ママ！ママを探して！うわぁぁん！
+20190	You don't have a sweetheart? Then you can buy one for me!	恋人がいないの？じゃあ私に買ってくれてもいいよ！
+20191	(yawning) We agreed to meet here. Why isn't she here yet?	（あくび）ここで待ち合わせのはずなのに、まだ来ないの？
+20192	Someday, I hope they'll hang a portrait of Me here too...	いつか、ここに私の肖像も飾られるといいな…
+20193	You need a full stomach to have the energy for adventure!	冒険するには、まずお腹いっぱい食べないとね！
+20194	Please observe proper etiquette when entering the palace.	宮殿に入る際は礼儀を守ってください。
+20195	*Sigh* The child's all grown up and still such a handful!	はぁ…大人になっても本当に手がかかる子だね！
+20196	I still need to earn a fortune to make my wish come true.	願いを叶えるには、まだまだ稼がないと。
+20197	Don't... Don't kill me! I'll give them to you! Right now!	や、やめて！殺さないで！今すぐ全部渡すから！
+20198	Trouble? Don't tell me those Peco Pecos carried them off?	トラブル？まさかペコペコに連れ去られたの？
+20199	Money and EXP? What a sweet deal! Bobo wants to join too!	お金もEXPも？お得すぎる！ボボも参加する！
+20200	High-quality items are selected for dismantling. Confirm?	高品質アイテムが解体対象に選択されています。続行しますか？
+20201	Trophy Obtained: I Know You're in a Hurry, but Don't Rush	トロフィー獲得：急いでいても焦るな
+20202	^{1}【URGENT】^{2}[Right Lane City Guard] HP is below @{1}%	^{1}【緊急】^{2}[右レーン衛兵] HPが@{1}%未満
+20203	^{1}【Warning】^{2}Our [Mid-Lane Protector] is under attack	^{1}【警告】^{2}味方の[中央レーン守護者]が攻撃されています
+20204	Enemy ^{1}${1}^{2} defeated the right-lane ^{3}Guard^{4}!	敵の^{1}${1}^{2}が右レーンの^{3}衛兵^{4}を撃破！
+20205	^{1}${2}^{2}'s banner HP is below ^{3}${4}^{4}. Defend it	^{1}${2}^{2}の旗HPが^{3}${4}^{4}未満です。守ってください
+20206	The Demonic Dragon and Dragonblood Crystal have appeared!	魔竜とドラゴンブラッドクリスタルが出現しました！
+20207	^{1}${2}^{2}'s ^{3}${3}^{4}\nscored the Kill on the Boss!	^{1}${2}^{2}の^{3}${3}^{4}\nがBOSSにとどめを刺しました！
+20208	Give a big round of applause for our opening act—\n【${1}】	オープニングを飾る演目に盛大な拍手を！\n【${1}】
+20209	Bobo\nUgh, I'm filthy! I can barely even spread my wings.	ボボ\nうぅ、汚れちゃった！羽も広げられないよ。
+20210	Bobo\nHuh? It looks like Fervor stopped someone up ahead!	ボボ\nあれ？ファーヴァーが前で誰かを止めたみたい！
+20211	Auto-Bid canceled. Your funds have been refunded by mail.	自動入札をキャンセルしました。資金はメールで返金されました。
+20212	(Bidding/Pre-purchases: <color=#cc762a>${1}</color>/${2})	（入札/事前購入：<color=#cc762a>${1}</color>/${2}）
+20213	Use Medicine (HP recovery Medicine) @{1} times in a match	対戦中に回復薬（HP回復薬）を@{1}回使用
+20214	Deploy a Divine Arts Totem to increase your Combat Power.	神術トーテムを配置して戦闘力を上げよう。
+20215	Use to Activate the Path of Adventure Name Card Location.	使用すると「冒険の道」ネームカードロケーションを有効化。
+20216	Open to receive a Tier @{1} Orange weapon for your class.	開くと自職業用Tier @{1}オレンジ武器を獲得。
+20217	Whoa! A surprise drop—it looks like something incredible!	うわっ、サプライズドロップ！すごそうなものが出た！
+20218	Cannot Dig while in <color=#ec543a>Battle Status</color>.	<color=#ec543a>戦闘状態</color>では発掘できません。
+20219	Not enough times reaching the required Guild League score	必要なギルドリーグスコア到達回数が不足しています
+20220	Reward Count exhausted. Unable to obtain dungeon rewards.	報酬回数を使い切ったため、ダンジョン報酬を獲得できません。
+20221	When Vivify is below @{1}%, gain @{2} Extra main products	活力が@{1}%未満のとき、主産物を追加で@{2}個獲得
+20222	When darkness truly descends, only the best-prepared hero	真の闇が訪れたとき、最も備えた英雄だけが
+20223	Kill ${1} to automatically obtain this reward (${2}/${1})	${1}を倒すとこの報酬を自動獲得（${2}/${1}）
+20224	Dance Machine_Remove Transform Buff Remove Transform Buff	ダンスマシン_変身バフ解除 変身バフ解除
+20225	Earn a total of ${1} Personal Points in the Territory War	領地戦で個人ポイントを合計${1}獲得
+20226	Place in the top ${1} in Kafra Survival Battle ${2} times	カプラ・サバイバルバトルで上位${1}位以内に${2}回入る
+20227	Earn more than ${1} points in the Guild League ${2} times	ギルドリーグで${1}ポイント超を${2}回達成
+20228	The host has Declined your request to join the mic queue.	ホストがマイク待機列への参加申請を拒否しました。
+20229	Defeat the great dragon Fafnir at the center of the arena	アリーナ中央の巨竜ファフニールを倒す
+20230	Pet must break through before it can continue to Level-up	ペットは突破しないと、これ以上レベルアップできません
+20231	At least two Members are required for a friend Group Chat	フレンドグループチャットには2人以上のメンバーが必要です
+20232	Stall items cannot be listed on this server at this time.	現在このサーバーでは露店アイテムを出品できません。
+20233	No non-top-tier items are available at the current price.	現在価格では最高ランク以外のアイテムがありません。
+20234	The item price has changed. Please refresh and try again.	アイテム価格が変更されました。更新して再試行してください。
+20235	You cannot Repeat a Get Help request for the same player.	同じプレイヤーへ支援要請を重複送信できません。
+20236	Increases your Physical ATK by ^{1}${1}^{2} for ${2} sec.	${2}秒間、物理ATKが^{1}${1}^{2}増加。
+20237	Trade items cannot currently be purchased on this server.	現在このサーバーでは取引アイテムを購入できません。
+20238	Due to inactivity, you cannot start matchmaking for ${1}.	非アクティブのため${1}のマッチングを開始できません。
+20239	You are outside the barrier and taking continuous damage.	バリア外にいるため継続ダメージを受けています。
+20240	Go on ahead... to the glowing... place... and help out...	先へ…光っている…場所へ行って…助けて…
+20241	You cannot discard equipped items while in Battle Status.	戦闘状態では装備中のアイテムを破棄できません。
+20242	The Guild Auction will begin at ${1}. Please be prepared.	ギルドオークションは${1}に開始します。準備してください。
+20243	Each skill on this Totem increases your healing by @{1}%.	このトーテムのスキル1つにつき回復量 +@{1}%。
+20244	Maximum Floors of all your magic buffs increased by @{1}.	すべての魔法バフの最大階層 +@{1}。
+20245	Transform into a Mummy and reduce Movement Speed by @{1}%	ミイラに変身し、移動速度が@{1}%低下
+20246	Determine whether it is protected by a shield; hide later	シールドで保護されているか判定し、後で非表示にする
+20247	Reduces Attack Speed by ${1}% and Movement Speed by ${2}%	攻撃速度 -${1}%、移動速度 -${2}%
+20248	Actions cannot be played in your current state or location	現在の状態または場所ではアクションを再生できません
+20249	Craft @{1} pieces of equipment of Purple Quality or higher	紫品質以上の装備を@{1}個製作
+20250	Prepare to board the airship and search for the professor.	飛行船に乗る準備をして教授を探しに行く。
+20251	Follow the letter's instructions and head to South Morroc.	手紙の指示に従い、南モロックへ向かう。
+20252	Reduces the variable CT of the character's skills by ${1}S	キャラクターのスキルの変動詠唱時間を${1}秒短縮
+20253	Reduces the variable CT of the character's skills by ${1}%	キャラクターのスキルの変動詠唱時間を${1}%短縮
+20254	Proceed to the designated location to begin the challenge.	指定地点へ進み、チャレンジを開始する。
+20255	Ilmata, God of Nature · Desperate Speedrun Ranking Rewards	自然神イルマタ・決死のタイムアタック ランキング報酬
+20256	Season Preview Event Entire Server Progress Reward Reissue	シーズンプレビューイベント 全サーバー進捗報酬再配布
+20257	Auto Combat is being revamped and is currently unavailable	オート戦闘は改修中のため現在利用できません
+20258	Talk to the Head Job Advance Mentor about your Job Advance	転職について上位職教官と話す
+20259	Talk to the middle-aged man Nearby to confirm his identity	近くの中年男性に話しかけ、正体を確認する
+20260	Don't lose sight of Fervor. Hurry and Catch up with Jiyang	ファーヴァーを見失わないよう、急いでジアンに追いつく
+20261	Rent a Falcon (available after you Learn Falconry Mastery)	ファルコンを借りる（鷹匠マスタリー習得後に利用可能）
+20262	You've reached the follow limit and can't follow any more.	追従上限に達したため、これ以上追従できません。
+20263	You've already made a reservation and cannot make another.	すでに予約済みのため、追加予約できません。
+20264	Too late! The item has already been delisted or purchased.	遅かった！アイテムはすでに出品解除または購入済みです。
+20265	The item has been delisted or there is insufficient stock.	アイテムは出品解除済み、または在庫不足です。
+20266	To the heroic PlayerName who rescued me from the Ant Hell:	蟻地獄から救ってくれた英雄PlayerNameへ：
+20267	Cannot follow the target player at their current location.	対象プレイヤーの現在地では追従できません。
+20268	You cannot Request to Join Party while already in a Party.	すでにパーティ参加中のため参加申請できません。
+20269	Ready check will be automatically declined in ${1} seconds	準備確認は${1}秒後に自動拒否されます
+20270	You don't have permission to manage the Guild Black Market	ギルド闇市を管理する権限がありません
+20271	The auction is About to start. You can now enable Auto-Bid	オークション開始間近です。自動入札を有効化できます
+20272	Very Active: <color=#7E7361>Weekly Activity ≥ ${1}</color>	非常に活発：<color=#7E7361>週間活動度 ≥ ${1}</color>
+20273	Lowest unit price selected based on the required quantity.	必要数量に基づき最安単価を選択しました。
+20274	Current guild building level does not meet the requirement	現在のギルド施設レベルが条件を満たしていません
+20275	Searching for enemies within range who are ^{1}Hidden^{2}.	範囲内の^{1}隠れた^{2}敵を検索中。
+20276	Agility +${1}, Attack Speed +${2}%, Movement Speed +${3}%.	AGI +${1}、攻撃速度 +${2}%、移動速度 +${3}%。
+20277	^{1}^{2}【Adrenaline Rush】^{3}^{4} ignores Job Restriction.	^{1}^{2}【アドレナリンラッシュ】^{3}^{4}が職業制限を無視。
+20278	Movement Speed +@{1}%. Your next attack deals Extra damage	移動速度 +@{1}%。次の攻撃で追加ダメージ
+20279	Morale is high, granting Increase Attack and DEF by @{1}%.	士気が高まり、ATKとDEFが@{1}%増加。
+20280	Protects nearby allies, continuously restoring their Life.	周囲の味方を守り、HPを継続回復する。
+20281	Learning ^{1}^{2}[Spear Mastery]^{3}^{4} grants ${1} PATK.	^{1}^{2}[スピアマスタリー]^{3}^{4}習得でPATK +${1}。
+20282	When phase @{1} begins, set the server event phase to @{2}	フェーズ@{1}開始時、サーバーイベントフェーズを@{2}に設定
+20283	Periodically grants Bonfire Rewards when Phase @{1} begins	フェーズ@{1}開始時、定期的に焚き火報酬を付与
+20284	Create Upper-Left @{1} NPC @{2}-@{3} when the event begins	イベント開始時、左上に@{1} NPC @{2}-@{3}を生成
+20285	Create Lower-Left @{1} NPC @{2}-@{3} when the event begins	イベント開始時、左下に@{1} NPC @{2}-@{3}を生成
+20286	Starfish-shaped headwear that brings you closer to nature!	自然と一体になれそうなヒトデ形の頭装備！
+20287	Share Auto Mode rewards with party Members on the same map	同じマップのパーティメンバーとオートモード報酬を共有
+20288	【Create Adventure Group】Party Leader Hangs the Declaration	【冒険グループ作成】パーティリーダーが宣言を掲示
+20289	Connect Quest - Defeat Moonlight Flower on Hard in a Party	連携クエスト - パーティでハード月夜花を倒す
+20290	Connect Quests - Team up to defeat Ilmo in the Final Trial	連携クエスト - パーティで最終試練イルモを倒す
+20291	Passive Skills of pets in Utility slots are always active.	ユーティリティ枠のペットのパッシブスキルは常時有効。
+20292	Automatically performs a Level-up when Proficiency is full	熟練度が最大になると自動でレベルアップ
+20293	Pet Function unlocked! Let's find the perfect pet for you!	ペット機能解放！ぴったりのペットを探そう！
+20294	The challenge begins. Don't come crying to me if you lose.	チャレンジ開始だ。負けても泣きつくなよ。
+20295	Place your hand on the Crystal ball and see what you feel.	水晶玉に手を置いて、何を感じるか確かめよう。
+20296	Tap the @{1} key to send them flying with a Normal Attack!	@{1}キーをタップして通常攻撃で吹き飛ばそう！
+20297	Tap to Rent one for free. It's an exclusive Benefit, bobo~	タップすると無料でレンタルできるよ。限定特典だ、ボボ～
+20298	Black Market Merchant, I'll come by later to buy a ticket.	闇市商人、あとでチケットを買いに来るよ。
+20299	Keep at it! The future of Prontera rests on our shoulders!	頑張れ！プロンテラの未来は私たちにかかってる！
+20300	Magic mirror, tell me true: Who's the fairest of them all?	鏡よ鏡、本当のことを教えて。世界で一番美しいのは誰？
+20301	Hey, Adventurer! Good to see you again! How have you been?	やあ、冒険者！また会えたね！元気だった？
+20302	And that water flask—remember to fill it before you leave~	その水筒も、出発前にちゃんと水を入れてね～
+20303	He's in amazing form today. Just listen to that high note—	今日は絶好調だ。あの高音を聞いてみろ――
+20304	Can you feel it? The energy field here is quite unusual...	感じる？ここのエネルギーフィールドはかなり変わってる…
+20305	There's no chance it won't work. I run an honest business.	失敗するはずがない。私はまっとうな商売をしてるからね。
+20306	Do you think someone like Varmundt will ever appear again?	バルムントみたいな人が、また現れると思う？
+20307	Every Adventurer will find the path that's right for them.	冒険者なら誰でも、自分に合った道を見つけられる。
+20308	You finally found it. We're one step closer to that day...	ついに見つけた。あの日へ、また一歩近づいた…
+20309	^{1}The enemy^{2} has recaptured the central Revive Point!	^{1}敵軍^{2}が中央復活ポイントを奪還しました！
+20310	Our ^{1}${1}^{2} dealt the final blow to the ^{3}Wall^{4}!	味方の^{1}${1}^{2}が^{3}城壁^{4}にとどめを刺しました！
+20311	^{1}【Notice】^{2}Our [Right-Lane Protector] is under attack	^{1}【通知】^{2}味方の[右レーン守護者]が攻撃されています
+20312	Obtain a Red Thread and choose one player to connect with.	赤い糸を入手し、つなぐプレイヤーを1人選ぶ。
+20313	Bobo\nThis should be enough. Let's go find that giant ant!	ボボ\nこれで十分だ。あの巨大アリを探しに行こう！
+20314	Louis\nLet's start the game! Guess where my cat will move!	ルイス\nゲーム開始！猫がどこへ動くか当ててみて！
+20315	Bobo\nUgh, why do these Chonchons keep following us? Shoo!	ボボ\nもう、なんでチョンチョンがずっとついてくるの？あっち行け！
+20316	Experience the new version's smooth, seamless storytelling	新バージョンの滑らかで途切れないストーリー体験
+20317	Achieving a "@{1}-second cast" requires special equipment.	「@{1}秒詠唱」を達成するには特殊装備が必要です。
+20318	Use to Activate the Spirit Conqueror title for @{1} hours.	使用すると称号「スピリットコンカラー」を@{1}時間有効化。
+20319	Use to Activate the Ten Great Heroes title for @{1} hours.	使用すると称号「十大英雄」を@{1}時間有効化。
+20320	Use to Activate the Star of Rekenber Portrait (Permanent).	使用すると「レケンベルの星」ポートレートを永久解放。
+20321	Open the gift box to receive a random Purple Quality card.	ギフトボックスを開くと紫品質カードをランダムで1枚獲得。
+20322	A hard shell from a monster. Available from the Collector.	モンスターの硬い殻。コレクターから入手可能。
+20323	Fine Tier @{1} Blue Equipment with impressive ATK and DEF.	優れたATKとDEFを持つTier @{1}の上質な青装備。
+20324	A golden crystal that looks as though it contains the sun.	太陽を閉じ込めたように見える黄金のクリスタル。
+20325	Use to unlock the guild Frame: Hunting Emblem · Conqueror.	ギルドフレーム「狩猟エンブレム・征服者」を解放。
+20326	Shoes that are easy to put on but offer little protection.	履きやすいが、防御力は低い靴。
+20327	An axe that is Easy to use, making it suitable for anyone.	扱いやすく、誰でも使える斧。
+20328	Used exclusively for Prontera Monster Collection Level-up.	プロンテラモンスターコレクションのレベルアップ専用。
+20329	Reach the top @{1} on the Fashion Rating Ranking to obtain	ファッション評価ランキング上位@{1}位以内で獲得
+20330	Your party has fewer than 5 Members. Match with teammates?	パーティ人数が5人未満です。仲間をマッチングしますか？
+20331	For every @{1} cloth items crafted, gain @{2} Extra copies	布製品を@{1}個製作するごとに追加で@{2}個獲得
+20332	For every @{1} Metal items crafted, gain @{2} Extra copies	金属製品を@{1}個製作するごとに追加で@{2}個獲得
+20333	Increases the Chance of obtaining Rare byproducts by @{1}%	レア副産物の獲得率 +@{1}%
+20334	Advanced Rewards obtained for Card [${1}] at [${2} Stars]!	カード[${1}]が[${2}星]に到達し、上級報酬を獲得！
+20335	Monday, Wednesday, Friday, and Sunday, @{1}:@{2}~@{3}:@{4}	毎週月・水・金・日曜 @{1}:@{2}～@{3}:@{4}
+20336	Party/Raid Status and Gameplay Mechanic Alert Display Area	パーティ/レイド状態・ゲームプレイギミック通知表示エリア
+20337	The host has Agreed to your request to join the mic queue.	ホストがマイク待機列への参加申請を承認しました。
+20338	The other player has not unlocked the Tavern Function yet.	相手はまだ酒場機能を解放していません。
+20339	Failed to purchase the item. Please refresh and try again.	購入に失敗しました。更新してもう一度お試しください。
+20340	Application submitted. Awaiting Adventurer Group approval.	申請を送信しました。冒険グループの承認待ちです。
+20341	Your guild position does not meet this item's requirements	現在のギルド役職ではこのアイテムの条件を満たしません
+20342	This guild has reached the limit for responding applicants	このギルドは応答可能な申請者数の上限に達しました
+20343	Guild Recruitment can only be sent once every @{1} minutes	ギルド募集は@{1}分に1回のみ送信できます
+20344	You have already claimed today's daily Monthly Pass reward	本日の月間パスデイリー報酬は受取済みです
+20345	Action is not the completion action for the current branch	このアクションは現在分岐の完了アクションではありません
+20346	No affixes have been unlocked. Replacement is unavailable.	解放済みオプションがないため、置換できません。
+20347	The System build linked to this personal build is invalid.	この個人ビルドに連携されたシステムビルドが無効です。
+20348	Backpack weight limit reached. Unable to pick up the item.	バックパック重量が上限に達したためアイテムを拾えません。
+20349	This item is temporarily unavailable on the current server	このアイテムは現在のサーバーでは一時的に利用できません
+20350	Incorrect scene type while scenemgr is creating the scene.	scenemgrがシーン作成中にシーンタイプが不正です。
+20351	Cannot switch scenes: Player communication entity is null.	シーン切替不可：プレイヤー通信エンティティがnullです。
+20352	The Unseal quest can only be started once every @{1} hours	封印解除クエストは@{1}時間に1回のみ開始できます
+20353	Cannot Replace the Formation during a Spirit Tower Battle.	精霊の塔戦闘中は編成を変更できません。
+20354	This product does not exist. Please refresh and try again.	この商品は存在しません。更新して再試行してください。
+20355	Not enough Skill Points for the limited-time guild Tactic.	期間限定ギルド戦術に必要なスキルポイントが不足しています。
+20356	The limited-time guild Tactic draw limit has been reached.	期間限定ギルド戦術の抽選上限に達しました。
+20357	Party member ${1} is not Online. Cannot start matchmaking.	パーティメンバー${1}がオフラインのためマッチング開始不可。
+20358	Not enough Backpack space. Rewards have been sent by mail.	バックパック容量不足のため報酬をメールで送りました。
+20359	The Gala Invitation will begin in @{1} minutes. Get ready!	祭典招待は@{1}分後に開始します。準備しよう！
+20360	Each skill on this Totem increases your Magic ATK by @{1}.	このトーテムのスキル1つにつき魔法ATK +@{1}。
+20361	Carry the aura of a red note to dissolve the matching note	赤い音符のオーラをまとい、対応する音符を消去する
+20362	Damage dealt by the Prismatic Earth Dragon -^{1}${1}%^{2}.	プリズマティックアースドラゴンの与ダメージ -^{1}${1}%^{2}。
+20363	Submit this build? It cannot be modified after submission.	このビルドを提出しますか？提出後は変更できません。
+20364	Try different skill combinations and learn class synergies	さまざまなスキル構成を試して職業シナジーを学ぼう
+20365	Reduces Movement Speed by @{1}% and damage dealt by @{2}%.	移動速度 -@{1}%、与ダメージ -@{2}%。
+20366	Restores a certain amount of SP upon Killing an enemy unit	敵ユニット撃破時、一定量のSPを回復
+20367	An indicator circle appears under the clone monster's feet	分身モンスターの足元にインジケーターサークルが表示される
+20368	Pass the Dynamite to the nearest player within @{1} meters	@{1}m以内で最も近いプレイヤーへダイナマイトを渡す
+20369	You encounter some Chonchons along the way. Drive them off.	道中でチョンチョンに遭遇した。追い払おう。
+20370	The Holy Knights guarding the stone pillar block your path.	石柱を守る聖騎士たちが道を塞いでいる。
+20371	Follow the letter's instructions and head to Eastern Payon.	手紙の指示に従い、フェイヨン東部へ向かう。
+20372	Eddga is incredibly powerful and has defeated Boya and Wule	エドガは圧倒的に強く、ボヤとウーレを倒してしまった
+20373	The bespectacled middle-aged man ahead may be the professor	前方の眼鏡をかけた中年男性が教授かもしれない
+20374	Affects the CRIT chance of Damage Skills and healing skills	ダメージスキルと回復スキルのクリティカル率に影響
+20375	This item will be removed at the end of the current Season.	このアイテムは現在のシーズン終了時に削除されます。
+20376	Reset the center of the Auto Mode Range after movement ends	移動終了後、オートモード範囲の中心を再設定
+20377	You don't have any Mana Crystals yet. Go collect some more.	まだマナクリスタルを持っていません。もっと集めよう。
+20378	Tell Captain Aikuni what You think about using the handbook	ハンドブックを使った感想をアイクニ船長に伝える
+20379	Hawke has found a New Clue about the Professor. Talk to him	ホークが教授に関する新しい手がかりを見つけた。話を聞こう
+20380	Continue the Search for the Relic and the Professor's party	遺物と教授一行の捜索を続ける
+20381	Take part in events and enjoy your adventures in this world	イベントに参加して、この世界での冒険を楽しもう
+20382	Rent a Demonic Wolf (available after you Learn Wolf Taming)	魔狼をレンタル（ウルフテイミング習得後に利用可能）
+20383	Automatically Revive after <color=#76c233>${1} sec.</color>	<color=#76c233>${1}秒後</color>に自動復活
+20384	Deletion failed. This mail has been deleted or has expired.	削除に失敗しました。このメールは削除済みか期限切れです。
+20385	Like is only the beginning. My love for you will never end~	いいねは始まりにすぎない。あなたへの愛は終わらないよ～
+20386	Show today's received invitations in a notification window.	本日受信した招待を通知ウィンドウに表示。
+20387	Not all members of the five-player party have been summoned	5人パーティのメンバー全員が召喚されていません
+20388	Impeachment initiated, waiting for other members to respond	弾劾を開始しました。ほかのメンバーの応答待ちです
+20389	I helped you load ${1} ${2} during the Guild Caravan event.	ギルドキャラバンで${1} ${2}の積み込みを手伝いました。
+20390	Physical DEF and Magic DEF +${1}%, Healing Received +${2}%.	物理DEF・魔法DEF +${1}%、受ける回復量 +${2}%。
+20391	Shield mastery reduces damage taken from monsters by @{1}%.	シールドマスタリーでモンスターからの被ダメージを@{1}%軽減。
+20392	Attacks have a @{1}% Chance to recover @{2} HP. No cooldown	攻撃時@{1}%の確率でHPを@{2}回復。クールダウンなし
+20393	Self-heal, recovering @{1}% Max Life per sec. for @{2} sec.	自己回復し、@{2}秒間毎秒最大HPの@{1}%を回復。
+20394	Loses HP equal to @{1}% of the applier's Fire Magic Damage.	付与者の火属性魔法ダメージの@{1}%分のHPを失う。
+20395	Movement Speed increased by @{1}%. Stacks up to @{2} times.	移動速度 +@{1}%。最大@{2}スタック。
+20396	Unique Effect: CRIT +${1}. Each stack grants an Extra ${2}.	固有効果：CRIT +${1}。1スタックごとに追加で${2}。
+20397	For every ${1} VIT, increases Max Life by ${2}, up to ${3}.	VIT${1}ごとに最大HP +${2}、最大${3}。
+20398	【Meteor Storm】 and 【Heaven's Drive】 deal ${1}% more damage.	【メテオストーム】と【ヘヴンズドライブ】のダメージ +${1}%。
+20399	【Magic Crasher】 and 【Napalm Vulcan】 deal ${1}% more damage.	【マジッククラッシャー】と【ナパームバルカン】のダメージ +${1}%。
+20400	Create Lower-Right @{1} NPC @{2}-@{3} when the event begins	イベント開始時、右下に@{1} NPC @{2}-@{3}を生成
+20401	Off-hand cards are inactive while using a two-handed weapon	両手武器使用中、サブ装備カードは無効
+20402	s@{1} Large Card Pool - Lv. @{2} (Special Novice Card Pool)	s@{1} 大型カードプール - Lv. @{2}（特殊ノービスカードプール）
+20403	Damage against ${1} Resonance <color=#50A22B>+${2}%</color>	${1}共鳴へのダメージ <color=#50A22B>+${2}%</color>
+20404	Damage against ${1} Resonance <color=#B05142>-${2}%</color>	${1}共鳴へのダメージ <color=#B05142>-${2}%</color>
+20405	You have not joined an expedition and cannot claim rewards.	遠征に参加していないため報酬を受け取れません。
+20406	Two core classes for "Autocast" builds are Mage and Wizard.	「オートキャスト」ビルドの中心職はマジシャンとウィザードです。
+20407	Spend materials to incubate and open ${1} Pet Eggs at once?	素材を消費してペットの卵を${1}個まとめて孵化しますか？
+20408	Equipment Refining greatly improves your equipment's stats.	装備精錬で装備ステータスを大幅に強化できます。
+20409	Tap the Mount button to ride your adorable, charming mount!	マウントボタンをタップして、可愛いマウントに乗ろう！
+20410	Oh no!! Tap Struggle to break free from the Maya's grasp!!!	大変！！「もがく」をタップしてマヤーの拘束から抜け出して！！！
+20411	Having trouble? Don't worry—Bobo will show you how to play!	困った？大丈夫、ボボが遊び方を教えるよ！
+20412	It's time to put your true strength to the test. Follow me~	本当の実力を試す時だ。ついてきて～
+20413	The Dummy is in the Training Ground. Enter from here, bobo~	ダミーは訓練場にいるよ。ここから入って、ボボ～
+20414	Welcome to the ${1} guild family! Go say hello to everyone!	${1}ギルドへようこそ！みんなに挨拶しに行こう！
+20415	Unfortunately, Guild 【${1}】 declined your purchase request.	残念ながら、ギルド【${1}】が購入申請を拒否しました。
+20416	Congratulations on completing the task! Here's your reward!	任務達成おめでとう！報酬をどうぞ！
+20417	Have you seen our little Jugem bouncing around and playing?	うちの小さなジュゲムが跳ね回ってるのを見なかった？
+20418	Did you know? The Witherless Rose only grows in the desert.	知ってる？枯れないバラは砂漠にしか咲かないんだ。
+20419	Stop staring at the floor. Look up and remember this place.	床ばかり見ないで。顔を上げて、この場所を覚えておいて。
+20420	Fresh fruits and vegetables! Come take a look and buy some!	新鮮な果物と野菜だよ！見ていって、買っていって！
+20421	That little girl's bag looks just like our granddaughter's.	あの子のバッグ、うちの孫娘のとそっくりだね。
+20422	Hey, rookie! How's it feel? This view is amazing, isn't it?	やあ、新人！どうだ？この景色、最高だろ？
+20423	Hey, ^{1}PlayerName^{2} worked really hard to get all this!	ほら、^{1}PlayerName^{2}がこれを集めるために頑張ったんだ！
+20424	Could it belong to the Professor? Hurry, let's take a look.	教授のものかも？急いで見に行こう。
+20425	Congratulations! You've learned the secret of Pet Hatching.	おめでとう！ペット孵化の秘訣を習得しました。
+20426	Guild Challenge: Eternal Land - ${1} difficulty is now open	ギルドチャレンジ：永遠の地 - ${1}難易度が解放
+20427	Continuously gain large amounts of EXP during Blessing Time	祝福時間中、大量のEXPを継続獲得
+20428	Quick! Load the ice shells and shoot Fafnir out of the sky!	急げ！氷弾を装填してファフニールを空から撃ち落とせ！
+20429	Our ^{1}${1}^{2} destroyed the enemy ^{3}Battering Ram^{4}!	味方の^{1}${1}^{2}が敵の^{3}破城槌^{4}を破壊！
+20430	^{1}【Notice】^{2}Our forces are assaulting the control point	^{1}【通知】^{2}味方が制圧ポイントを攻撃中
+20431	Hurry to the blue note with your teammates and dispel it!!!	仲間と一緒に青い音符へ急ぎ、消し去れ！！！
+20432	Men! Charge! Take this ship, and everything aboard is ours!	全員突撃！この船も積荷も全部いただくぞ！
+20433	^{1}^{2}${2}^{3} terminated ^{4}${4}^{5}'s ${5}-Killstreak!	^{1}^{2}${2}^{3}が^{4}${4}^{5}の${5}連続キルを阻止！
+20434	${1} has been appointed to the ${2} position in this guild.	${1}がこのギルドの${2}役職に任命されました。
+20435	${1} has been removed from the ${2} position in this guild.	${1}がこのギルドの${2}役職から解除されました。
+20436	${1} spent ${2} Guild Supplies to Level-up the ${3} effect.	${1}がギルド物資${2}を消費して${3}効果をレベルアップしました。
+20437	Bewitched Passerby\n...Ah, I offer this to you, to... what?	魅了された通行人\n…ああ、これをあなたに捧げて…え？
+20438	(Wipes away tears) We're saved... Thank you, our saviors...	（涙を拭う）助かった…本当にありがとう、恩人たちよ…
+20439	There are more crates ahead. Let's check them out together!	この先にも箱がある。一緒に確認しよう！
+20440	Bobo\nWaaaaah! I can't keep my balance... What's happening?	ボボ\nうわぁぁ！バランスが取れない…何が起きてるの？
+20441	Bobo\nOh no! The Captain looks hurt! Let's go check on him!	ボボ\n大変！船長がけがしてる！様子を見に行こう！
+20442	Captain\nDamn... Don't tell me they have... reinforcements?	船長\nくそっ…まさか、援軍が…？
+20443	Tch... No idea what you were acting so smug about at first.	ちっ…最初に何をそんなに得意げにしてたんだか。
+20444	There are currently no Event Auctions underway. Stay tuned!	現在開催中のイベントオークションはありません。お楽しみに！
+20445	There are currently no World Auctions underway. Stay tuned!	現在開催中のワールドオークションはありません。お楽しみに！
+20446	Activate the Night Judgment Costume Appearance (Permanent).	「ナイトジャッジメント」コスチューム外見を永久解放。
+20447	Mount · Fish of the Northern Deep can be unlocked upon use.	使用するとマウント「北冥の魚」を解放。
+20448	Mount · Orchid Waterside Pavilion can be unlocked upon use.	使用するとマウント「オーキッド水辺の東屋」を解放。
+20449	Open to receive 1 random item from the following selection.	開くと以下からランダムでアイテムを1つ獲得。
+20450	Open to select and receive one T@{1} Orange equipment item.	開くとT@{1}オレンジ装備を1つ選択して獲得。
+20451	Item used to Level-up a Divine Arts Totem. Grants @{1} EXP.	神術トーテムのレベルアップに使用。EXPを@{1}獲得。
+20452	Fine Tier @{1} Green Equipment with impressive ATK and DEF.	優れたATKとDEFを持つTier @{1}の上質な緑装備。
+20453	A gemstone that glows Green. Can be exchanged for Headwear.	緑色に輝く宝石。頭装備と交換可能。
+20454	Use to unlock the Guild Emblem: Proof of the Hunt · Warden.	ギルドエンブレム「狩りの証・番人」を解放。
+20455	Wearing this on your ear fills you with a mysterious power.	耳につけると不思議な力が湧いてくる。
+20456	The Spear used by a Soldier named Longinus to kill a saint.	聖人を殺した兵士ロンギヌスが使った槍。
+20457	A Spear guaranteed to strike once it locks onto its target.	標的を捉えれば必ず命中するとされる槍。
+20458	A highly valuable Crystal infused with concentrated energy.	濃縮エネルギーを宿した非常に貴重なクリスタル。
+20459	Only Divine Art Totems of the same quality can be combined.	同品質の神術トーテムのみ合成できます。
+20460	Chance to unlock a new slot or replace an existing Enchant.	新しいスロットを解放、または既存エンチャントを置換する可能性があります。
+20461	<color=#FDAB5B>${1}</color> led the party to a First Clear!	<color=#FDAB5B>${1}</color>がパーティを率いて初回クリア！
+20462	Vigor cost for crafting Lv. @{1} recipes is reduced by @{2}	Lv.@{1}レシピ製作時の活力消費を@{2}軽減
+20463	After gathering successfully, gain @{1} Extra main products	採集成功時、主産物を追加で@{1}個獲得
+20464	Reduces Vivify consumed when logging Lv. @{1} trees by @{2}	Lv.@{1}の木を伐採時、消費活力を@{2}軽減
+20465	Go forth and train, sharpening your edge with every Battle;	進め、鍛錬せよ。戦いのたびにその刃を研ぎ澄ませろ――
+20466	Activate the brazier's invisible wall when the event begins	イベント開始時、火鉢の透明壁を有効化
+20467	Destroy the stands, NPCs, and Fireworks when the event ends	イベント終了時、スタンド・NPC・花火を破棄
+20468	Create Upper-Right @{1} NPC @{2}-@{3} when the event begins	イベント開始時、右上に@{1} NPC @{2}-@{3}を生成
+20469	Start Program @{3} @{2} ms after Campfire Phase @{1} begins	焚き火フェーズ@{1}開始後@{2}msでプログラム@{3}開始
+20470	You can switch modes later under Settings - Basic - PC Mode	モードは後から「設定 - 基本 - PCモード」で変更できます
+20471	Equipment you cannot equip cannot be placed in Quick Items.	装備できない装備はクイックアイテムに設定できません。
+20472	At Season Settlement, have ${1} Season tiers reach Lv. ${2}	シーズン精算時、${1}個のシーズンランクをLv.${2}にする
+20473	You already have a tavern. Leave your current tavern, ${1}?	すでに酒場「${1}」に所属しています。現在の酒場を退出しますか？
+20474	You cannot enter because you are on this room's Blocks list	この部屋のブロックリストに登録されているため入場できません
+20475	This item is undergoing Settlement and cannot be Withdrawn.	このアイテムは精算中のため出品取消できません。
+20476	The item has already been sold. There is nothing to delist.	アイテムはすでに売却済みです。出品解除するものがありません。
+20477	The Adventurer Guild declaration contains prohibited words.	冒険者ギルド宣言に禁止ワードが含まれています。
+20478	All materials of Purple Quality or lower have been selected	紫品質以下の素材をすべて選択しました
+20479	Life Skill Vigor will overflow. Cannot Continue using this.	生活スキル活力があふれるため、これ以上使用できません。
+20480	Another player placed a Bid at the same time. Please Retry.	ほかのプレイヤーが同時に入札しました。もう一度お試しください。
+20481	Already qualified in another region. Cannot switch regions.	別地域ですでに資格を獲得しているため、地域変更できません。
+20482	All teammates are in good health and do not need to Revive.	チームメイト全員が健康なため復活不要です。
+20483	Only Soul Echoes from the current scenario can be deployed.	現在のシナリオのソウルエコーのみ配置できます。
+20484	Wrong Job: The skill's job does not match the player's job.	職業不一致：スキルの職業とプレイヤーの職業が一致しません。
+20485	A Member is in a Dungeon. The party size cannot be changed.	メンバーがダンジョン内にいるためパーティ人数を変更できません。
+20486	Increases the skill multiplier of 【Comet】 by ^{1}${1}%^{2}.	【コメット】のスキル倍率 +^{1}${1}%^{2}。
+20487	Permanently increases Physical ATK by ${1} and DEX by ${2}.	物理ATK +${1}、DEX +${2}を永久獲得。
+20488	Purchase <color=#fe993f>30</color> days at once to receive:	<color=#fe993f>30</color>日分を一括購入すると以下を獲得：
+20489	Cannot Enter another Dungeon during Placement confirmation.	配置確認中は別のダンジョンに入れません。
+20490	Guild Technology does not meet the Requirement to level up:	ギルドテクノロジーがレベルアップ条件を満たしていません：
+20491	Gitan died long ago. Gitan has no regrets. Gitan isn't bad.	ギタンは昔死んだ。ギタンに後悔はない。ギタンは悪くない。
+20492	You are outside the barrier and continuously taking damage.	バリア外にいるため継続ダメージを受けています。
+20493	Maximum Floors of all your healing buffs increased by @{1}.	すべての回復バフの最大階層 +@{1}。
+20494	Magic damage buff: Each Floor increases Magic ATK by @{1}%.	魔法ダメージバフ：1階層ごとに魔法ATK +@{1}%。
+20495	Carry the aura of a blue note to dissolve the matching note	青い音符のオーラをまとい、対応する音符を消去する
+20496	Burrows underground, becoming immune to damage and Debuffs.	地中に潜り、ダメージとデバフを無効化。
+20497	Select a Divine Arts Totem Preset in the upper-right corner	右上で神術トーテムプリセットを選択
+20498	For every @{1}% Life lost, damage dealt increases by ${1}%.	HPを@{1}%失うごとに与ダメージ +${1}%。
+20499	Increases the CRIT of offensive pet active skills by ${1}%.	攻撃型ペットアクティブスキルのCRIT +${1}%。
+20500	Changes armor property to Water. Active only for the caster	防具属性を水属性に変更。術者のみ有効
+20501	Changes armor property to Earth. Active only for the caster	防具属性を地属性に変更。術者のみ有効
+20502	A party Member has already joined another Adventurer Group.	パーティメンバーがすでに別の冒険グループに参加しています。
+20503	You've reached today's limit for receiving gifted Crystals.	本日のクリスタルギフト受取上限に達しました。
+20504	The Party Leader selects a sapling and hangs the declaration	パーティリーダーが苗木を選び、宣言を掲示
+20505	[Reserved] Participate in the Guild Bonfire event @{1} times	[予約] ギルド焚き火イベントに@{1}回参加
+20506	Find the Head Job Advance Mentor and begin your Job Advance.	上位職教官を探し、転職を開始する。
+20507	Choose your desired job and complete your first Job Advance.	希望する職業を選び、最初の転職を完了する。
+20508	Learn about the Eden Group from the Head Job Advance Mentor.	上位職教官から楽園団について学ぶ。
+20509	The Eden Group Chief entrusts you with an important mission.	楽園団長から重要な任務を託される。
+20510	Make friends. Let's Run Dungeons together—it'll be a breeze!	フレンドを作ろう。一緒にダンジョンへ行けば楽勝！
+20511	Affects the damage of the character's Physical Damage Skills	キャラクターの物理ダメージスキルの威力に影響
+20512	Reduces the Chance of the character receiving a critical hit	キャラクターがクリティカルを受ける確率を低下
+20513	You were removed from the event area for being AFK too long.	長時間AFKのためイベントエリアから退出させられました。
+20514	Your party successfully delivered the supply transport cart.	パーティが物資輸送カートの護衛に成功しました。
+20515	Continue exploring and follow Fervor into Culvert Floor @{1}	探索を続け、ファーヴァーを追って地下水路@{1}Fへ
+20516	Tap to activate when the prerequisite Star reaches Max level	前提スターが最大レベルになるとタップで有効化
+20517	A high-quality attribute is currently available. Discard it?	高品質な属性が出ています。破棄しますか？
+20518	For every @{1} professions that reach Adept, Max Vigor +@{2}	熟練者に到達した職業@{1}個ごとに最大活力 +@{2}
+20519	^{1}^{2}^{3}Magic^{4}^{5}^{6}\n^{7}^{8}^{9}ST^{10}^{11}^{12}	^{1}^{2}^{3}魔法^{4}^{5}^{6}\n^{7}^{8}^{9}単体^{10}^{11}^{12}
+20520	Test Limited-Time Pool @{1} - Open for @{2} Days from Launch	テスト期間限定プール@{1} - サーバー開始から@{2}日間開催
+20521	Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>	活発：<color=#7E7361>${1} ≤ 週間活動度 ≤ ${2}</color>
+20522	Very Inactive: <color=#7E7361>Weekly Activity ＜ ${1}</color>	非常に非活発：<color=#7E7361>週間活動度 ＜ ${1}</color>
+20523	This message will be Sent to all Guild Members. Send it now?	このメッセージをギルドメンバー全員に送信します。送信しますか？
+20524	The caravan has departed. It will return after 5:00 Tomorrow	キャラバンは出発済みです。明日5:00以降に戻ります
+20525	You cannot help load an item you submitted through Get Help.	支援要請で自分が提出したアイテムの積み込みは手伝えません。
+20526	Party does not meet the required number of different classes	パーティが必要な異職業数の条件を満たしていません
+20527	^{1}^{2}【Crazy Uproar】^{3}^{4}Extra VIT +${1} and LUK +${2}.	^{1}^{2}【クレイジーアップロア】^{3}^{4}でVIT +${1}、LUK +${2}。
+20528	Control effects cannot interrupt casting. Variable CT +@{1}%	行動妨害で詠唱中断されない。変動詠唱時間 +@{1}%
+20529	STR, INT, and DEX each increase by @{1} points for @{2} sec.	@{2}秒間、STR・INT・DEXがそれぞれ@{1}増加。
+20530	While ^{1}^{2}[Increase AGI]^{3}^{4} is active, ASPD +${1}%.	^{1}^{2}[速度増加]^{3}^{4}中、ASPD +${1}%。
+20531	For every ${1} INT, increases Magic ATK by ${2}, up to ${3}.	INT${1}ごとに魔法ATK +${2}、最大${3}。
+20532	For every ${1} DEX, increases Magic ATK by ${2}, up to ${3}.	DEX${1}ごとに魔法ATK +${2}、最大${3}。
+20533	【Storm Gust】 and 【Lord of Vermilion】 deal ${1}% more damage.	【ストームガスト】と【ロードオブヴァーミリオン】のダメージ +${1}%。
+20534	Remove the normal brazier when the campfire reaches Lv. @{1}	焚き火がLv.@{1}に達したら通常火鉢を削除
+20535	Third-Prize Preview @{2} ms after Campfire Phase @{1} begins	焚き火フェーズ@{1}開始後@{2}msで3等プレビュー
+20536	First-Prize Preview @{2} ms after Campfire Phase @{1} begins	焚き火フェーズ@{1}開始後@{2}msで1等プレビュー
+20537	The current skill point allocation has not been saved. Exit?	現在のスキルポイント配分は未保存です。終了しますか？
+20538	You cannot change your skill point allocation during combat.	戦闘中はスキルポイント配分を変更できません。
+20539	Strouf has gone completely berserk! Watch out for the waves!	ストラウフが完全に暴走した！波に注意！
+20540	A fluffy Fox tail. Will wearing it turn you into a real Fox?	ふわふわのキツネ尻尾。これを着けたら本物のキツネになれるかな？
+20541	Your high-rate idle time has run out. Go check your rewards.	高倍率放置時間を使い切りました。報酬を確認しよう。
+20542	Spiral Pierce is one of the four main Assassin Cross builds.	スパイラルピアースはアサシンクロスの主要4ビルドの1つです。
+20543	${1}x${2} was bought by </color> <color=#63A22B>${3}</color>	${1}x${2}を</color> <color=#63A22B>${3}</color>が購入しました
+20544	Repeat pets will automatically be dismantled into Pet Shards	重複ペットは自動的にペットの欠片へ分解されます
+20545	Pick it! Pick it! It's an essential weapon for every Novice!	これを選んで！ノービス必携の武器だよ！
+20546	Pick whichever slot looks good. No need to overthink it, bo~	好きなスロットを選んで。深く考えなくていいよ、ボ～
+20547	All set—I've packed it up for you. Thanks for your business!	準備できたよ。包んでおいた。毎度あり！
+20548	If you have no business with me, please get out of my sight!	用がないなら、さっさと私の前から消えて！
+20549	You have not yet reached ${1}. Advance further to view this.	まだ${1}に到達していません。さらに進むと閲覧できます。
+20550	Set yourself a goal, work hard, and come Learn here someday.	目標を決めて頑張って、いつかここへ学びに来なさい。
+20551	Are you here on vacation? Is this your first time in Izlude?	旅行で来たの？イズルードは初めて？
+20552	One at a time! No need to rush. There's plenty for everyone.	一人ずつ！急がなくていい、みんなの分はあるから。
+20553	And You will be the only one capable of deciding their fate.	そして、その運命を決められるのは君だけだ。
+20554	^{1}【Warning】^{2}Our [Right-Lane City Guard] is under attack	^{1}【警告】^{2}味方の[右レーン衛兵]が攻撃されています
+20555	Enemy ^{1}${1}^{2} defeated the left-lane ^{3}Protector^{4}!	敵の^{1}${1}^{2}が左レーンの^{3}守護者^{4}を撃破！
+20556	Ilmatar's Shadow will appear at the edge. Defeat it quickly!	イルマタの影が端に出現します。急いで倒せ！
+20557	It's those damn sky pirates! They just won't leave us alone!	あの忌々しい空賊ども！しつこすぎる！
+20558	Heretical dancers who remain in the darkness will face Judex	闇に残る異端の踊り子にはジュデックスが下される
+20559	${1} has officially been founded. From now on, we're family!	${1}が正式に設立されました。今日から家族です！
+20560	(Panting) Rookie, you shouldn't have come... Cough, cough...	（息を切らして）新人、お前は来るべきじゃなかった…ゴホッ…
+20561	Ah! Why is the sand moving?! No good, I'm being sucked in!!!	あっ！砂が動いてる！？まずい、吸い込まれる！！！
+20562	You're no good at hide-and-seek! Hahaha! Play with me again~	かくれんぼ下手だね！ハハハ！また遊ぼう～
+20563	Merchant\nF-Fine... You win. You got the better of me today!	商人\nわ、分かった…今日は君の勝ちだ！
+20564	Bobo\nWhoa! What's going on?! There are monsters everywhere!	ボボ\nうわっ！何が起きてるの！？モンスターだらけだ！
+20565	Permanently unlocks the Grand Peco Hair Accessory appearance	グランペコのヘアアクセ外見を永久解放
+20566	Open the gift box to receive one random Refinement Material.	ギフトボックスを開くと精錬素材をランダムで1つ獲得。
+20567	Open to receive a certain number of Unclaimed Soul Crystals.	開くと未受取ソウルクリスタルを一定数獲得。
+20568	Contents vary depending on the Season in which it is opened.	開封するシーズンによって内容が変わります。
+20569	Beginner's Chest--Can be opened upon reaching Base Lv. @{1}.	初心者チェスト--Base Lv.@{1}到達で開封可能。
+20570	A roll woven from hemp cloth, used to make simple equipment.	麻布を織ったロール。簡単な装備の製作に使用。
+20571	A reward obtained by helping with Guild Caravan submissions.	ギルドキャラバン提出を手伝うと得られる報酬。
+20572	A gemstone that glows Purple. Can be exchanged for Headwear.	紫色に輝く宝石。頭装備と交換可能。
+20573	A gemstone that glows Yellow. Can be exchanged for Headwear.	黄色に輝く宝石。頭装備と交換可能。
+20574	A Plant's long, slender stem. Can be exchanged for Headwear.	植物の細長い茎。頭装備と交換可能。
+20575	Once the energy is full, you can make a Wish to the Goddess.	エネルギーが満タンになると女神に願いを捧げられます。
+20576	Use to unlock the guild Frame: Hunting Emblem · Executioner.	ギルドフレーム「狩猟エンブレム・処刑者」を解放。
+20577	Use to unlock the Guild Emblem: Proof of the Hunt · Pursuer.	ギルドエンブレム「狩りの証・追跡者」を解放。
+20578	A hard, lustrous crystal. Can be used for Equipment Forging.	硬く光沢のあるクリスタル。装備鍛造に使用可能。
+20579	A ticket that increases the maximum number of storage slots.	倉庫スロット上限を増やすチケット。
+20580	Activated Soul Echo Resonance does not meet the requirements	有効化済みソウルエコー共鳴が条件を満たしていません
+20581	Challenge unlocks at World Level <color=#dd563f>${1}</color>	ワールドレベル<color=#dd563f>${1}</color>でチャレンジ解放
+20582	After gathering successfully, gain @{1}% Extra gathering EXP	採集成功時、採集EXPを追加で@{1}%獲得
+20583	Tuesday, Thursday, Saturday, and Sunday, @{1}:@{2}~@{3}:@{4}	毎週火・木・土・日曜 @{1}:@{2}～@{3}:@{4}
+20584	Are you sure you want to remove this player from the tavern?	このプレイヤーを酒場から退出させますか？
+20585	Today's active time in the Tavern is less than ${1} seconds.	本日の酒場活動時間が${1}秒未満です。
+20586	The Tavern has been reported. You cannot speak at this time.	酒場が通報されているため現在発言できません。
+20587	Only items in the public notice period can be Pre-purchased.	告知期間中のアイテムのみ事前購入できます。
+20588	The item was Traded or delisted. Failed to change the price.	アイテムが取引または出品解除されたため価格変更に失敗しました。
+20589	The other guild is under impeachment and cannot Merge Guild.	相手ギルドは弾劾中のためギルド統合できません。
+20590	This player is not a Guild Member and cannot be set as Elite	このプレイヤーはギルドメンバーではないため精鋭に設定できません
+20591	The Guild Store level does not meet this item's requirements	ギルドショップレベルがこのアイテムの条件を満たしていません
+20592	Insufficient attribute value. Unable to perform this action.	属性値不足のため、この操作を実行できません。
+20593	Stronghold War Auction - Bid is below the Increase Bid range	拠点戦オークション - 入札額が増額範囲を下回っています
+20594	The scene is pending deletion while scenemgr is creating it.	scenemgrが作成中のシーンは削除待ちです。
+20595	Drops a meteor at the locations of the @{1} farthest players	最も遠いプレイヤー@{1}人の位置に隕石を落とす
+20596	Cannot perform this action while impeachment is in progress.	弾劾進行中はこの操作を実行できません。
+20597	There's only one thing I need! A four-leaf Lucky Cloverrrrr!	欲しいのはただ一つ！四つ葉のラッキークローバーだぁぁぁ！
+20598	When a dagger is equipped, Attack Speed +@{1} and AGI +@{2}.	短剣装備時、攻撃速度 +@{1}、AGI +@{2}。
+20599	Carry the aura of a green note to dissolve the matching note	緑の音符オーラをまとい、対応する音符を消去する
+20600	Increases Increased Damage to Medium Monsters by ${1}%~${2}%	中型モンスターへのダメージ増加量が${1}%～${2}%増加
+20601	Distance to the Treasure: <color=#FF993F>${1}</color> meters	宝までの距離：<color=#FF993F>${1}</color>m
+20602	The Distance between you is too great to perform a Duo Action	距離が離れすぎているためデュオアクションを実行できません
+20603	The other player is currently busy and cannot use Interaction	相手は現在取り込み中のためインタラクションできません
+20604	Your favorite actions have not been saved. Close this screen?	お気に入りアクションが未保存です。この画面を閉じますか？
+20605	Complete the current node to preview areas in other chapters.	現在ノードを完了すると他チャプターのエリアをプレビューできます。
+20606	The woman says some baffling things and gives you a necklace.	女性は不可解なことを言い、あなたにネックレスを渡した。
+20607	The man turns out to be the Professor. Ask him what happened.	その男は教授だった。何があったか尋ねよう。
+20608	The Elder Lady gives you a Flying mount so you won't get lost	迷わないよう、老婦人が飛行マウントをくれた
+20609	Take your first step into exploring the continent of Midgard.	ミッドガルド大陸探索への第一歩を踏み出す。
+20610	Boya and Wule are talking to someone. Go see what's happening	ボヤとウーレが誰かと話している。様子を見に行こう
+20611	Ask Hawk, the camp manager, about the professor's whereabouts	キャンプ管理人ホークに教授の行方を尋ねる
+20612	Adds an Extra attack that ignores DEF when calculating damage	DEFを無視してダメージ計算する追加攻撃を付与
+20613	Increases the effects of Shield Skills applied to you by ${1}	自身が受けるシールドスキル効果 +${1}
+20614	Increases the Shield effect of Shield skills you cast by ${1}	自身が使用するシールドスキルのシールド効果 +${1}
+20615	Unlocked after using the item "Netherworld - Shattered Tower"	アイテム「冥界 - 崩壊した塔」使用後に解放
+20616	The professor is probably at the location marked in the notes	教授はメモに記された場所にいる可能性が高い
+20617	Go to the port and help the Caravan Members arrange the cargo	港へ行き、キャラバンメンバーの貨物整理を手伝う
+20618	Refine attributes take effect once the equipment is equipped.	精錬属性は装備を装着すると有効になります。
+20619	Trade failed. All Currency has been refunded to your mailbox.	取引失敗。すべての通貨はメールで返金されました。
+20620	Complete missions during the event to earn even more rewards!	イベント期間中にミッションを完了して追加報酬を獲得！
+20621	Engraving is a reward for players who own premium appearances	刻印はプレミアム外見所持者向けの報酬です
+20622	For every @{1} professions that reach Expert, Max Vigor +@{2}	エキスパートに到達した職業@{1}個ごとに最大活力 +@{2}
+20623	^{1}^{2}^{3}Magic^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}	^{1}^{2}^{3}魔法^{4}^{5}^{6}\n^{7}^{8}^{9}範囲^{10}^{11}^{12}
+20624	After purchasing a paid item, please claim it from your mail.	有料アイテム購入後、メールから受け取ってください。
+20625	This is already the same Party type. No conversion is needed.	すでに同じパーティタイプです。変換不要です。
+20626	Former Guild Names: ${1}; ${2}; ${3}; ${4}; ${5} (Deprecated)	旧ギルド名：${1}; ${2}; ${3}; ${4}; ${5}（廃止予定）
+20627	You can only Get Help for this item 1 time every ${1} minutes	このアイテムの支援要請は${1}分に1回のみ可能
+20628	^{1}^{2}[Maximize Power]^{3}^{4} Increases your PATK by ${1}.	^{1}^{2}[マキシマイズパワー]^{3}^{4}でPATK +${1}。
+20629	Control effects cannot interrupt casting. Variable CT +@{1}%.	行動妨害で詠唱中断されない。変動詠唱時間 +@{1}%。
+20630	When hit, Deals Physical damage. Nearby enemies are affected.	被弾時に物理ダメージを与える。周囲の敵にも影響。
+20631	Increases your and your allies' Movement Speed and HP recover	自身と味方の移動速度とHP回復量が増加
+20632	Reduces damage taken by @{1}% after entering a relay station.	中継地点に入ると被ダメージを@{1}%軽減。
+20633	Immune to damage for up to @{1} sec. Ends upon using a skill.	最大@{1}秒間ダメージ無効。スキル使用で終了。
+20634	To enter the game, check the box to agree to the terms below.	ゲームに入るには、下記規約への同意にチェックしてください。
+20635	When ^{1}^{2}[Assumptio]^{3}^{4} reaches Lv. ${1}, VIT +${2}.	^{1}^{2}[アスムプティオ]^{3}^{4}がLv.${1}になるとVIT +${2}。
+20636	^{1}^{2}[Adrenaline Rush]^{3}^{4} grants an Extra ${1}% ASPD.	^{1}^{2}[アドレナリンラッシュ]^{3}^{4}でASPD +${1}%。
+20637	Create an Advanced Brazier when the Campfire reaches Lv. @{1}	焚き火がLv.@{1}に達すると上級火鉢を生成
+20638	Second-Prize Preview @{2} ms after Campfire Phase @{1} begins	焚き火フェーズ@{1}開始後@{2}msで2等プレビュー
+20639	Program @{3} Preview @{2} ms after Campfire Phase @{1} begins	焚き火フェーズ@{1}開始後@{2}msでプログラム@{3}プレビュー
+20640	Pharaoh summons ^{1}illusions^{2} that damage nearby enemies.	ファラオが^{1}幻影^{2}を召喚し、周囲の敵にダメージ。
+20641	After charging, Drake damages^{1}a fan-shaped area ahead^{2}.	チャージ後、ドレイクが^{1}前方扇形範囲^{2}にダメージ。
+20642	Your changes have not been saved. Exit skill allocation mode?	変更内容が未保存です。スキル配分モードを終了しますか？
+20643	Are you sure you want to remove this player from the channel?	このプレイヤーをチャンネルから削除しますか？
+20644	Another Stall is nearby. Please move to a different location.	近くに別の露店があります。別の場所へ移動してください。
+20645	Everyone is welcome to join! Enjoy plenty of Guild Benefits!!	誰でも大歓迎！ギルド特典もいっぱい！！
+20646	Automatically Ride the Fox Mount After the Balloon Is Removed	バルーン解除後、自動でキツネマウントに騎乗
+20647	Guild Activities - (Auction Eligibility) Regional Capital War	ギルド活動 - （オークション資格）地域首都戦
+20648	Pick this one. The rewards are better... Believe me or don't.	これを選びな。報酬がいい…信じるかは任せるよ。
+20649	Confirm deployment. This demon's tactics are never wrong. Bo~	配置確定。この悪魔の戦術は絶対に間違えない。ボ～
+20650	Unlocked! Next, I'll show you how to deploy me. Tap here, bo!	解放！次はボクの配置方法を教えるよ。ここをタップ、ボ！
+20651	"Soul Echo" is unlocked! It's incredibly powerful. Follow me!	「ソウルエコー」解放！すごく強いよ。ついてきて！
+20652	Come check out this new feature, bo! You're going to love it!	新機能を見てみよう、ボ！きっと気に入るよ！
+20653	The compass in your hand can do far more than foresee danger.	そのコンパスは危険予知以外にも多くの力を持っている。
+20654	You successfully delisted the item. Please claim it promptly!	出品解除に成功しました。早めに受け取ってください！
+20655	Please claim your unclaimed Season Settlement Trophy rewards.	未受取のシーズン精算トロフィー報酬を受け取ってください。
+20656	Congratulations! Guild 【${1}】 approved your purchase request.	おめでとう！ギルド【${1}】が購入申請を承認しました。
+20657	Come on, child. Let's go home. You need a good night's sleep.	さあ、帰ろう。しっかり眠らないとね。
+20658	Are you sure you want to teleport to ${1}? It will cost ${2}!	${1}へテレポートしますか？${2}を消費します！
+20659	I'm so bored. Hmm... Times like these call for a song. Hmm...	退屈だな。うーん…こんな時は歌でも歌うか。うーん…
+20660	Quit dawdling! We're going to pull off a big score this time!	ぐずぐずするな！今回は大仕事をやるぞ！
+20661	^{1}PlayerName^{2}, you're finally awake! I was worried sick!	^{1}PlayerName^{2}、やっと目が覚めた！心配したよ！
+20662	Enemy ^{1}${1}^{2} defeated the right-lane ^{3}Protector^{4}!	敵の^{1}${1}^{2}が右レーンの^{3}守護者^{4}を撃破！
+20663	Use the shield to block the giant blade launched by Orc Hero!	シールドでオークヒーローが放つ巨大剣を防げ！
+20664	The battle for @{1} State Capital will begin in @{2} minutes.	@{1}州都戦は@{2}分後に開始します。
+20665	The battle for @{1} State Capital has begun. Participate Now?	@{1}州都戦が始まりました。参加しますか？
+20666	Congratulations! You're a lucky star! Enter before @{1}:@{2}!	おめでとう！ラッキースターだ！@{1}:@{2}までに入場して！
+20667	Good fortune is still brewing!\nPlayers in 【${1}】, get ready!	幸運はまだ続く！\n【${1}】のプレイヤーは準備して！
+20668	This is humiliating... We actually let a rookie protect us...	情けない…新人に守ってもらうなんて…
+20669	Bobo\nMaster, watch out! Stay out of Baphomet's attack range!	ボボ\n師匠、気をつけて！バフォメットの攻撃範囲から離れて！
+20670	Professor\nI knew it! You really can activate it! Hahahahaha!	教授\nやっぱり！本当に起動できるんだ！ハハハハ！
+20671	Bobo\n(Sniff, sniff) Something's not right. I smell monsters!	ボボ\n（クンクン）何か変だ。モンスターの匂いがする！
+20672	You already have the highest bid. No need to outbid yourself!	すでに最高額です。自分で自分を上回る必要はありません！
+20673	Bring your friends and join a thrilling and fun free-for-all!	フレンドを連れて、スリル満点の乱戦に参加しよう！
+20674	Activate the Afternoon Stroll Costume Appearance (Permanent).	「午後の散歩」コスチューム外見を永久解放。
+20675	Permanently unlock the Formal Set - Face Accessory appearance	フォーマルセット - フェイスアクセサリー外見を永久解放
+20676	Permanently unlocks the Crazy Bunny Family Balloon appearance	クレイジーバニーファミリーバルーン外見を永久解放
+20677	Open this gift box to randomly obtain one Card of any Rarity.	ギフトボックスを開くと全レアリティからカードをランダムで1枚獲得。
+20678	Tap to activate when all prerequisite Talents reach Max level	前提タレントがすべて最大レベルになるとタップで有効化
+20679	A ticket that increases the maximum number of Backpack slots.	バックパックスロット上限を増やすチケット。
+20680	Part of what appears to be a map. It radiates a magical aura.	地図の一部らしい。魔力を帯びている。
+20681	Cannot perform this action while deployed or in Battle Status	配置中または戦闘状態ではこの操作を実行できません
+20682	A Spear with a curved blade that can slash as well as thrust.	斬撃にも刺突にも使える湾曲刃の槍。
+20683	Used exclusively for Mt. Mjolnir Monster Collection Level-up.	ミョルニール山モンスターコレクションのレベルアップ専用。
+20684	Dropped from Standard Reward Chests in the Commendation Vault	表彰保管庫の通常報酬チェストからドロップ
+20685	Dungeon ${1} completion count has not yet met the requirement	ダンジョン${1}のクリア回数が条件を満たしていません
+20686	Not enough Equipment Forging completions of the required rank	指定ランク装備の鍛造完了数が不足しています
+20687	Not enough members from the same Adventurer Group on the team	チーム内の同一冒険グループメンバー数が不足しています
+20688	Reward Count exhausted. Unable to participate in the auction.	報酬回数を使い切ったためオークションに参加できません。
+20689	Cannot send a party recruitment message during a boss battle.	ボス戦中はパーティ募集メッセージを送信できません。
+20690	The auction will begin in <color=#FDAB5B>${1}</color> seconds	オークション開始まで<color=#FDAB5B>${1}</color>秒
+20691	For every @{1} engraved items crafted, gain @{2} Extra copies	刻印アイテムを@{1}個製作するごとに追加で@{2}個獲得
+20692	For players who prefer mobile layouts and play on an emulator	モバイル配置を好み、エミュレーターで遊ぶプレイヤー向け
+20693	Guild summon teleportation is not allowed in the current area	現在のエリアではギルド召喚テレポートを使用できません
+20694	Soul Echo Resonance only activates for classes ${1} and above	ソウルエコー共鳴は職業${1}以上でのみ有効
+20695	Escort acceptance failed: A party Member has an invalid guild	護衛受諾失敗：パーティメンバーのギルドが無効です
+20696	This action cannot be performed during the Hunting Challenge.	ハンティングチャレンジ中はこの操作を行えません。
+20697	Cannot join matchmaking while a party Member is in a Dungeon.	パーティメンバーがダンジョン内にいるためマッチング参加不可。
+20698	Your entry contains inappropriate language. Please try again.	入力内容に不適切な表現が含まれています。修正してください。
+20699	Cannot change your Stall Skill Build while operating a Stall.	露店営業中は露店スキルビルドを変更できません。
+20700	The party recruitment message does not meet the requirements.	パーティ募集メッセージが条件を満たしていません。
+20701	Cannot be placed outside the Safe Zone. Please reposition it.	セーフゾーン外には設置できません。位置を変更してください。
+20702	Prioritize avoiding the charged Bells! They'll explode sooner	チャージ済みベルを最優先で避けろ！先に爆発するぞ
+20703	Maximum Floors of all your defensive buffs increased by @{1}.	すべての防御バフの最大階層 +@{1}。
+20704	When a dagger is equipped, Attack Speed +@{1}% and AGI +@{2}.	短剣装備時、攻撃速度 +@{1}%、AGI +@{2}。
+20705	Carry the aura of a yellow note to dissolve the matching note	黄色の音符オーラをまとい、対応する音符を消去する
+20706	Only the Party Leader can invite the party to Party Training.	パーティ訓練へ招待できるのはパーティリーダーのみ。
+20707	Inflicted by Baphomet Jr. Reduces this unit's Movement Speed.	バフォメットJr.による効果。このユニットの移動速度を低下。
+20708	Increases Ghost damage dealt by @{1}% and Cast Speed by @{2}.	念属性ダメージ +@{1}%、詠唱速度 +@{2}。
+20709	You Discover hidden enemy targets within a ${1}-meter radius.	${1}m以内の隠れた敵対象を発見します。
+20710	Launch water blades in the direction of the giant waterspout.	巨大水柱の方向へ水刃を発射。
+20711	Complete the current node to preview rewards from other nodes.	現在ノードを完了すると他ノードの報酬をプレビューできます。
+20712	^{1}Now's your chance! Reach Almakia's back and explore it^{2}	^{1}今だ！アルマキアの背中へ到達して探索しろ^{2}
+20713	The Professor is your client this time. Ask him what happened.	今回の依頼人は教授だ。何があったか聞こう。
+20714	Head to the Novice Academy and ask Mentor Alphonse about Baya.	ノービスアカデミーへ行き、教官アルフォンスにバヤについて聞く。
+20715	Continue the divide-and-conquer plan by targeting Grandpa Bob.	分断作戦を続け、今度はボブじいさんを狙う。
+20716	The Stone Pillar has been activated, and Ji has appeared again	石柱が起動し、ジが再び現れた
+20717	Reduces the global Cooldown of the character's skills by ${1}%	キャラクターのスキルの共通クールダウンを${1}%短縮
+20718	Reduces damage you take from the target's Magic Skills by ${1}	対象の魔法スキルから受けるダメージを${1}軽減
+20719	A ferocious Demonic Wolf that will Fight Alongside the Ranger!	レンジャーと共に戦う獰猛な魔狼！
+20720	Maximum Backpack capacity reached. No more slots can be added.	バックパック容量が上限です。これ以上スロットを追加できません。
+20721	Please complete Activity Misc first to obtain Arcane Crystals.	先にアクティビティその他を完了してアーケインクリスタルを獲得してください。
+20722	Fervor found another suspicious cardboard box. Investigate it*	ファーヴァーがまた怪しい段ボール箱を見つけた。調べよう*
+20723	Astral Level and Constellation data will reset between Seasons	アストラルレベルと星座データはシーズンごとにリセットされます
+20724	Chance to obtain from daily Participation Rewards (Deprecated)	デイリー参加報酬から入手することがあります（廃止予定）
+20725	Chance for all 【Crafting Chance Tag】 skills increases by @{1}%	すべての【製作確率タグ】スキルの発動率 +@{1}%
+20726	Test Always Display Pool @{1} - Open for @{2} Days from Launch	常時表示テストプール@{1} - サーバー開始から@{2}日間開催
+20727	You have not unlocked this content and cannot join this Party.	このコンテンツは未解放のため、このパーティに参加できません。
+20728	Make a total of @{1} draws from the permanent pool this Season	今シーズン、恒常プールで合計@{1}回抽選
+20729	${1}\nTotal Fatigue recovery time: <color=#FF993F>${2}</color>	${1}\n疲労全回復まで：<color=#FF993F>${2}</color>
+20730	Your bid cannot be lower than ${1} of the minimum starting bid	入札額は最低開始価格の${1}未満にできません
+20731	Request All has a ${1}-minute cooldown. Please try again later	一括申請には${1}分のクールダウンがあります。後でもう一度お試しください
+20732	You must transfer guild leadership before you can Leave Guild.	ギルド脱退前にギルドリーダーを譲渡してください。
+20733	[Guild Recruitment]【${1}】 is recruiting: ${2}【Request to Join】	[ギルド募集]【${1}】が募集中：${2}【加入申請】
+20734	Loading more goods grants more Additional rewards. Depart now?	貨物を多く積むほど追加報酬が増えます。今すぐ出発しますか？
+20735	You've already placed a bet on a Lucky Star. Don't get greedy!	すでにラッキースターに賭けています。欲張らないで！
+20736	This shield absorbs Physical damage equal to Magic ATK *${1}%.	このシールドは魔法ATK *${1}%分の物理ダメージを吸収。
+20737	^{1}^{2}【Cart Boost】^{3}^{4} duration is extended by ${1} sec.	^{1}^{2}【カートブースト】^{3}^{4}持続時間 +${1}秒。
+20738	Skills @{1}–@{2} have already been used. Don't use them again.	スキル@{1}～@{2}は使用済みです。再使用しないでください。
+20739	Kill Dragon monsters to restore @{1} MP. No internal Cooldown.	竜種族モンスター撃破時、MPを@{1}回復。内部クールダウンなし。
+20740	Become immune to all debuffs and control effects for @{1} sec.	@{1}秒間、すべてのデバフと行動妨害を無効化。
+20741	Hide-and-Seek status. Revealed after taking damage @{1} times.	かくれんぼ状態。@{1}回ダメージを受けると解除。
+20742	Each stack increases damage taken by @{1}%, up to @{2} stacks.	1スタックごとに被ダメージ +@{1}%、最大@{2}スタック。
+20743	Being hit by an allied Holy Bullet continuously restores Life.	味方の聖弾に当たるとHPを継続回復。
+20744	You are not connected to Wi-Fi. Download the resources anyway?	Wi-Fiに接続されていません。それでもリソースをダウンロードしますか？
+20745	You can enter the game once the resource download is complete.	リソースのダウンロード完了後にゲームへ入れます。
+20746	Dance Machine_Remove Transform Buff[Consecutive Transform Fix]	ダンスマシン_変身バフ解除[連続変身修正]
+20747	^{1}^{2}[Magnus Exorcismus]^{3}^{4} Variable CT -${1} seconds.	^{1}^{2}[マグヌスエクソシズム]^{3}^{4}変動詠唱時間 -${1}秒。
+20748	When HP is above ${1}%, increases healing efficiency by ${2}%.	HPが${1}%以上のとき、回復効率 +${2}%。
+20749	Wind/Earth/Water/Fire/Neutral/Ghost damage increases by ${1}%.	風/地/水/火/無/念属性ダメージ +${1}%。
+20750	The whirlpool's coming! Group up and watch out for pufferfish!	渦潮が来る！集まって、フグにも気をつけて！
+20751	Congratulations on reaching the top floor of the Spirit Tower!	精霊の塔最上階到達おめでとう！
+20752	Shuka Bain's Black Cat Ears. Exquisitely crafted and adorable.	シュカ・ベインの黒猫耳。精巧でとても可愛い。
+20753	In RO, the "Vending" Stall Function is exclusive to Merchants.	ROでは「露店」機能はマーチャント専用です。
+20754	Are you sure you want to spend ${1} to purchase ${2}×${3}${4}?	${1}を消費して${2}×${3}${4}を購入しますか？
+20755	Select an item from the Backpack list on the right to list it.	右側のバックパック一覧から出品するアイテムを選択。
+20756	There are no items left in the display, so it can't be shared~	展示アイテムが残っていないため共有できません～
+20757	Head to Redrock Fortress in the Center of Dragon Coffin Island	龍棺島中央のレッドロック要塞へ向かう
+20758	Automatically Ride the Lion Mount After the Balloon Is Removed	バルーン解除後、自動でライオンマウントに騎乗
+20759	Guild Activities - (Auction Eligibility) Ilmata, God of Nature	ギルド活動 - （オークション資格）自然神イルマタ
+20760	Insufficient items. Please obtain more Speed-Up Tickets first.	アイテム不足です。先に加速チケットを入手してください。
+20761	Tap here! Just between us, stat points are really important...	ここをタップ！内緒だけど、ステータスポイントってすごく大事なんだ…
+20762	Press the Interaction key to gather some luminescent material.	インタラクションキーを押して発光物質を採集。
+20763	Hatching takes time, but I can't wait any longer. Speed it up!	孵化には時間がかかるけど、もう待てない。加速しよう！
+20764	Select the talent page unlocked after your second Job Advance.	2次転職後に解放されたタレントページを選択。
+20765	Some players must enter the Inner Area and prepare for battle.	一部プレイヤーは内側エリアへ入り、戦闘準備をしてください。
+20766	Go ahead, Master! Bobo thinks it'll become super—powerful, bo~	行け、師匠！ボボはすっごく強くなると思う、ボ～
+20767	Your guild has Purchased a Guild Gift Pack. Please collect it!	ギルドがギフトパックを購入しました。受け取ってください！
+20768	The Effect will be spectacular! There's just one tiny problem—	効果はすごいぞ！ただ、ほんの小さな問題があって――
+20769	Uh... Hello, adventurer. I'm so exhausted I can't even move...	あ…こんにちは、冒険者。疲れすぎてもう動けない…
+20770	Once you've made your decision, touch the Book of Job Advance.	決めたら転職の書に触れてください。
+20771	Please, can you help us? We really don't have any time left...	お願い、助けて。もう時間がないの…
+20772	Enemy ^{1}${1}^{2} defeated the center-lane ^{3}Protector^{4}!	敵の^{1}${1}^{2}が中央レーンの^{3}守護者^{4}を撃破！
+20773	A swarm of Bee Infantry is approaching. Watch your positioning	ハチ兵の群れが接近中。位置取りに注意
+20774	Wonderful... Finally, someone who can keep up with my steps...	素晴らしい…やっと私のステップについて来られる人が…
+20775	Explosive barrels blast a cross-shaped area. Be sure to dodge!	爆発樽は十字範囲を吹き飛ばす。必ず避けろ！
+20776	Bobo\nCould that be the egg we're looking for in those bushes?	ボボ\nあの茂みにあるの、探してた卵じゃない？
+20777	Bobo\nHey, look at these claw marks... Baphomet may be Nearby.	ボボ\n見て、この爪痕…バフォメットが近くにいるかも。
+20778	Struggling Soldier\nThank goodness... Thank you for your help!	苦戦する兵士\n助かった…本当にありがとう！
+20779	You will obtain a Personal Skill and a Command Skill in @{1}s!	@{1}秒後に個人スキルとコマンドスキルを獲得！
+20780	Permanently unlocks the Playful Lace Kitty Headband appearance	「プレイフルレース猫カチューシャ」外見を永久解放
+20781	Randomly obtain one piece of Blue, Purple, or Orange Headwear.	青・紫・オレンジ品質の頭装備をランダムで1つ獲得。
+20782	A very revealing vest. No idea who Discarded it on the ground.	かなり露出の多いベスト。誰が地面に捨てたのかは不明。
+20783	Use to unlock the Guild Emblem: Proof of the Hunt · Conqueror.	ギルドエンブレム「狩りの証・征服者」を解放。
+20784	A sturdy yet beautiful stone used to add sockets to equipment.	装備にスロットを追加するための丈夫で美しい石。
+20785	An Easy-to-make, easy-to-use round shield that is widely used.	作りやすく扱いやすい、広く使われる丸盾。
+20786	Only Divine Art Totems of the same class tier can be combined.	同じ職業ランクの神術トーテムのみ合成できます。
+20787	Reduces Vivify consumed when gathering Lv. @{1} plants by @{2}	Lv.@{1}植物の採集時、消費活力を@{2}軽減
+20788	Pushed from the Garden of Time by Ji, you fall into the abyss.	時の庭でジに突き落とされ、奈落へ落ちる。
+20789	Phase 1 Goddess Energy Orb Charge + Burst + Idle Infinite Loop	フェーズ1 女神エネルギーオーブ：チャージ＋バースト＋待機無限ループ
+20790	Display area for Auto-Potion, Bow switching, and other actions	自動ポーション、弓切替などのアクション表示エリア
+20791	This Adventurer Group has reached the responding Member limit.	この冒険グループは応答メンバー上限に達しました。
+20792	This Account holder is already linked. Please unlink it first.	このアカウント所有者はすでに連携済みです。先に解除してください。
+20793	A party member is in an instance. Unable to start matchmaking.	パーティメンバーがインスタンス内のためマッチングを開始できません。
+20794	[Battle Royale] Check Whether the ID Tag Belongs to a Teammate	[バトルロワイヤル] IDタグがチームメイトのものか確認
+20795	Nicknames cannot contain special characters. Please try again.	ニックネームに特殊文字は使用できません。別の名前を入力してください。
+20796	After use, increases DMG Reduction by @{1}% and grants Endure.	使用後、ダメージ軽減 +@{1}%、インデュアを付与。
+20797	New evil spirit possession—pretend there's a cross behind you.	新・悪霊憑依――背後に十字があるように見せる。
+20798	Deals ${1}% Neutral Physical damage to the specified ST target	指定単体対象に${1}%の無属性物理ダメージ
+20799	The item has been refreshed. Refresh the screen and try again.	アイテムが更新されました。画面を更新して再試行してください。
+20800	${1} failed to ready up and cannot start matchmaking for ${2}.	${1}が準備完了できず、${2}のマッチングを開始できません。
+20801	<color=#594E3D>Points:</color>${1}<color=#594E3D>/${2}</color>	<color=#594E3D>ポイント：</color>${1}<color=#594E3D>/${2}</color>
+20802	Are you sure you want to remove ${1} from the Adventure Group?	${1}を冒険グループから除外しますか？
+20803	A teammate is trapped inside a Bell! Hurry and smash the Bell!	仲間がベルの中に閉じ込められた！急いでベルを壊せ！
+20804	While above @{1}% Life, healing efficiency increased by @{2}%.	HPが@{1}%以上のとき、回復効率 +@{2}%。
+20805	Increases the Physical ATK granted by 【Deadly Poison】 by ${1}.	【デッドリーポイズン】による物理ATK増加量 +${1}。
+20806	Shield: Absorbs total damage equal to ${1}% of your Magic ATK.	シールド：魔法ATKの${1}%分の総ダメージを吸収。
+20807	Granted by Angel Popo. Increases this unit's healing received.	天使ポポが付与。このユニットの受ける回復量を増加。
+20808	Increases damage reduction from Medium Monsters by ${1}%~${2}%	中型モンスターからのダメージ軽減量が${1}%～${2}%増加
+20809	After a @{1}-second warning, Launch a Dark Pulse at one player	@{1}秒の警告後、1人のプレイヤーへダークパルスを発射
+20810	Only the prospective Adventurer Group's creator can create it.	冒険グループを作成できるのは作成予定者本人のみです。
+20811	You are currently editing. Tap an action on another tab to save	編集中です。別タブのアクションをタップすると保存します
+20812	Complete Season Trophies to earn exclusive Season collectibles.	シーズントロフィーを達成して限定コレクションを獲得。
+20813	Ask around the Adventurer Camp for the Professor's whereabouts.	冒険者キャンプで教授の行方を聞き込む。
+20814	Exchange them for a Bunny Hair Band with the Headgear Merchant.	頭装備商人でバニーヘアバンドと交換。
+20815	The Job Advance Mentor gave you materials for forging equipment	転職教官から装備鍛造用の素材をもらった
+20816	Reduces damage you take from the target's Magic Skills by ${1}%	対象の魔法スキルから受けるダメージを${1}%軽減
+20817	Drag the notes to the matching positions to compose the melody.	音符を対応する位置へドラッグして旋律を完成させる。
+20818	Find the Head Job Mentor and learn about Trans. 2nd Job Advance	上位職教官を探し、転生2次転職について学ぶ
+20819	High Attack Speed, dealing Physical damage with Normal Attacks.	高攻撃速度で通常攻撃による物理ダメージを与える。
+20820	Perform rapid combos with poison skills, with some AoE options.	毒スキルで高速コンボを行い、一部は範囲攻撃も可能。
+20821	You haven't learned the required skill, so you can't rent this.	必要スキル未習得のためレンタルできません。
+20822	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}ST^{10}^{11}^{12}	^{1}^{2}^{3}物理^{4}^{5}^{6}\n^{7}^{8}^{9}単体^{10}^{11}^{12}
+20823	Fight the captured Monsters and show off your guild's strength!	捕獲されたモンスターと戦い、ギルドの力を示せ！
+20824	You do not meet this Party's Power requirement and cannot join.	このパーティの戦力条件を満たしていないため参加できません。
+20825	You're summoning too quickly! Your party members can't keep up!	召喚が速すぎます！パーティメンバーが追いつけません！
+20826	Cannot switch Factions while the Faction switch is on cooldown.	陣営切替がクールダウン中のため陣営変更できません。
+20827	Go to the designated area in ${1} and use the ${2} Emote/Action	${1}以内に指定エリアへ行き、${2}エモート/アクションを使用
+20828	You must Join a guild at least ${1} days before you can Impeach	弾劾するにはギルド加入から${1}日以上必要です
+20829	The Impeachment of Guild Leader ${1} was automatically canceled	ギルドマスター${1}への弾劾は自動キャンセルされました
+20830	Every @{1} HIT increases Physical damage by @{2}%, up to @{3}%.	HIT@{1}ごとに物理ダメージ +@{2}%、最大@{3}%。
+20831	@{1}~@{2} Do Not Use—buff used to implement the card's Function	@{1}～@{2} 使用禁止—カード機能実装用バフ
+20832	Increases your and your allies' Movement Speed and Attack Speed	自身と味方の移動速度・攻撃速度が増加
+20833	Reveals enemies in ^{1}【Hiding】^{2} within a @{1}-meter radius.	@{1}m以内の^{1}【ハイディング】^{2}中の敵を可視化。
+20834	Carrying a cannonball that can be loaded into a repaired Turret	修理済みタレットに装填できる砲弾を運搬中
+20835	A new version is available. Please update the game to continue.	新バージョンがあります。続行するにはゲームを更新してください。
+20836	Earn ${1} Extra Battle Merit Points to advance to the next rank	追加戦功ポイントを${1}獲得すると次ランクへ昇格
+20837	For every @{1} additional Stunt on all equipped gear, VIT +${1}	全装備の追加アクション@{1}個ごとにVIT +${1}
+20838	Every ${1} HIT increases Physical damage by ${2}%, up to ${3}%.	HIT${1}ごとに物理ダメージ +${2}%、最大${3}%。
+20839	Unique Effect: CRIT RES +${1}. Each stack grants an Extra ${2}.	固有効果：CRIT RES +${1}。1スタックごとに追加で${2}。
+20840	For every ${1} STR, increases Physical ATK by ${2}, up to ${3}.	STR${1}ごとに物理ATK +${2}、最大${3}。
+20841	For every ${1} AGI, increases Physical ATK by ${2}, up to ${3}.	AGI${1}ごとに物理ATK +${2}、最大${3}。
+20842	For every ${1} LUK, increases Physical ATK by ${2}, up to ${3}.	LUK${1}ごとに物理ATK +${2}、最大${3}。
+20843	For every ${1} DEX, increases Physical ATK by ${2}, up to ${3}.	DEX${1}ごとに物理ATK +${2}、最大${3}。
+20844	Destroy any existing small Porings when drawing prize tier @{1}	賞品ランク@{1}抽選時、既存の小ポリンをすべて削除
+20845	In Auto mode, skills are cast automatically in the order shown.	オートモードでは表示順にスキルを自動使用します。
+20846	You're sending messages too frequently. Please try again later.	メッセージ送信が速すぎます。後でもう一度お試しください。
+20847	We're almost at the capital. We can't afford any trouble now...	もうすぐ首都だ。今トラブルを起こすわけにはいかない…
+20848	A rather fashionable Hat adorned above with a valuable feather.	貴重な羽飾りが付いた、なかなかおしゃれな帽子。
+20849	Poring (PORING) picks up items that players drop on the ground.	ポリン（PORING）はプレイヤーが地面に落としたアイテムを拾う。
+20850	Protect the control point to keep the Glorious Metal Invincible	制圧ポイントを守り、栄光の金属の無敵状態を維持
+20851	Participate in Guild Battlefield events to earn Guild Prestige.	ギルド戦場イベントに参加してギルド名声を獲得。
+20852	Automatically Ride the Hyena Mount After the Balloon Is Removed	バルーン解除後、自動でハイエナマウントに騎乗
+20853	Passive Skills gain ranks when the pet's star rating increases.	ペットの星ランク上昇でパッシブスキルのランクも上昇。
+20854	Insufficient proficiency. Please obtain more proficiency first.	熟練度不足です。先に熟練度を獲得してください。
+20855	Here you can assign stat points to the stats that suit you, bo~	ここで自分に合ったステータスへポイントを振れるよ、ボ～
+20856	You can choose one of the following three professions to Learn.	以下3つの職業から1つを選んで習得できます。
+20857	Hurry and Rent it! Once you've rented it, remember to Tap Ride!	早くレンタルして！借りたら「騎乗」をタップするのを忘れずに！
+20858	You've already completed this quest, so claim the reward first.	このクエストは完了済みです。先に報酬を受け取ってください。
+20859	Once I make some money, I'm gonna freaking eat, eat, eat, meow~	お金ができたら、食べて食べて食べまくるニャ～
+20860	You can grow quickly by taking on requests from the Eden Group.	楽園団の依頼をこなせば、すぐに成長できます。
+20861	Have a pleasant journey. May the winds grant you clear passage.	良い旅を。風が君の道を開いてくれますように。
+20862	You have been outbid in the Stronghold War. Please take action!	拠点戦で他ギルドに高値更新されました。対応してください！
+20863	You can use an incubator to hatch an adorable pet. Want to try?	孵化器で可愛いペットを孵化できるよ。試してみる？
+20864	When I call him, of course he has to come~ Darling, I love you!	私が呼んだら当然来てもらうよ～。ダーリン、大好き！
+20865	I'm worried that if this continues, my only son will go astray.	このままだと、一人息子が道を踏み外さないか心配だ。
+20866	Phew~ It's so hot again today. Why does it have to be this hot?	ふぅ～、今日も暑いな。どうしてこんなに暑いんだ？
+20867	That's enough for today. We're low on Material, so be sensible.	今日はここまで。素材が少ないんだから無理しないで。
+20868	If you're ever in trouble, come see me. I know a lot of people.	困ったことがあれば私を訪ねな。顔は広いからね。
+20869	All right. Please gather your belongings and board immediately.	分かりました。荷物をまとめてすぐ搭乗してください。
+20870	Come. With your new job, You will face even greater Challenges.	さあ、新しい職業でさらに大きな試練に挑むのです。
+20871	We've got the bow tie! You can keep that useless piece of junk!	蝶ネクタイは手に入れた！その役立たずなガラクタはあげる！
+20872	Tap the Spectate Button on the right to Enter a teammate's view	右側の観戦ボタンをタップしてチームメイト視点へ
+20873	^{1}^{2}【Warning】^{3}^{4}The enemy's [Left Ladder] is in place.	^{1}^{2}【警告】^{3}^{4}敵の[左梯子]が設置されました。
+20874	Quickly head to the red note with your allies and destroy it!!!	味方と一緒に赤い音符へ急ぎ、破壊せよ！！！
+20875	Use the skill granted by the giant blade while facing Orc Hero!	巨大剣から得たスキルを使い、オークヒーローに立ち向かえ！
+20876	Ilmata has summoned Nebula Jellyfish! Hurry into the Safe Zone!	イルマタがネビュラジェリーフィッシュを召喚！急いでセーフゾーンへ！
+20877	The Battle of the Producers event has ended. See you next time.	プロデューサーの戦いイベントは終了しました。また次回！
+20878	The main enemy force is highly likely to attack from the south!	敵主力は南から攻めてくる可能性が高い！
+20879	Bobo\nAah! What do we do? We really can't hold out much longer!	ボボ\nああっ！どうしよう？もう長くは持たないよ！
+20880	^{1}Every great legend begins in a time of quiet obscurity.^{2}	^{1}偉大な伝説は、静かな無名の時代から始まる。^{2}
+20881	Use to Activate the Victory of the Covenant Bubble (Permanent).	使用すると「盟約の勝利」吹き出しを永久解放。
+20882	A test gift pack. Open it to receive a large number of potions.	テスト用ギフトパック。開くと大量のポーションを獲得。
+20883	A fingernail taken from the dead. Available from the Collector.	死者から取った爪。コレクターから入手可能。
+20884	A gemstone that glows turquoise. Can be exchanged for Headwear.	青緑色に輝く宝石。頭装備と交換可能。
+20885	${1} completes Overture IV, performing an incomparable movement	${1}が序曲IVを完了し、比類なき楽章を演奏
+20886	An old Treasure Map that may just be someone's idle scribbling.	古い宝の地図。誰かの落書きに見えなくもない。
+20887	Boots crafted by Goibne for a wager with his bitter rival, Dov.	ゴイブネが宿敵ドヴとの賭けのために作ったブーツ。
+20888	<color=#C26B47>This stat has reached its maximum value.</color>	<color=#C26B47>このステータスは最大値に達しました。</color>
+20889	You're sending requests too frequently. Please try again later.	リクエスト送信が速すぎます。後でもう一度お試しください。
+20890	Crafted equipment count for the corresponding Rarity is too low	該当レアリティの製作装備数が不足しています
+20891	The other player is in another instance and cannot be summoned.	相手は別のインスタンスにいるため召喚できません。
+20892	Reward Count resets every Monday at <color=#CC762A>5</color> AM	報酬回数は毎週月曜<color=#CC762A>5</color>時にリセット
+20893	Someone is currently making a purchase. Please try again later.	ほかのプレイヤーが購入処理中です。後でもう一度お試しください。
+20894	Failed to spawn the boss. This attempt is considered a failure.	ボス出現に失敗しました。この挑戦は失敗扱いです。
+20895	Stronghold War Auction - Already qualified; no auction required	拠点戦オークション - 資格取得済みのため入札不要
+20896	The maximum number of Siege Camps in this area has been reached	このエリアの攻城キャンプ数が上限に達しました
+20897	After use, increases the selected Guild Battlefield Boss's DEF.	使用後、選択したギルド戦場ボスのDEFを増加。
+20898	Summons up to @{1} guild members on the same map to the caster.	同じマップのギルドメンバーを最大@{1}人、使用者のもとへ召喚。
+20899	【Shield Block】's DEF and MDEF bonuses increase by ^{1}${1}%^{2}	【シールドブロック】のDEF・MDEFボーナス +^{1}${1}%^{2}
+20900	Can be used after leaving Battle Status to slowly restore Life.	戦闘状態解除後に使用可能。HPを徐々に回復。
+20901	Reapplying the Monthly Pass will extend it by 30 days. Reapply?	月間パスを再購入すると30日延長されます。再購入しますか？
+20902	Max Adventure Guild applications: <color=${3}>${1}</color>/${2}	冒険者ギルド申請上限：<color=${3}>${1}</color>/${2}
+20903	Healing buff: Each Floor increases healing efficiency by @{1}%.	回復バフ：1階層ごとに回復効率 +@{1}%。
+20904	Each CRIT with 【Advanced Katar Mastery】 now grants ${1} Floors.	【上級カタール修練】でクリティカルするたび${1}階層を獲得。
+20905	${1} is currently used in a build. Use it for synthesis anyway?	${1}は現在ビルドで使用中です。それでも合成に使いますか？
+20906	The requester deleted their Get Help request. Unable to submit.	依頼者が支援要請を削除したため提出できません。
+20907	Reduces Ranged Physical damage taken by ${2}% for ${3} seconds.	${3}秒間、受ける遠距離物理ダメージを${2}%軽減。
+20908	Each stack grants ^{1}${1}^{2} MATK, up to ^{3}${2}^{4} stacks.	1スタックごとに^{1}${1}^{2} MATK、最大^{3}${2}^{4}スタック。
+20909	Are you sure you want to Apply to Support this Adventure Guild?	この冒険者ギルドへの支援申請を行いますか？
+20910	You're performing actions too frequently. Please try again later	操作が速すぎます。後でもう一度お試しください
+20911	[Rift Crisis] Special Commendation has reached This Week's Limit	［リフトクライシス］特別表彰が今週の上限に達しました
+20912	Continue pursuing Dracula. Watch out for Dynamite on the ground.	ドラキュラを追い続ける。地面のダイナマイトに注意。
+20913	Follow the Pathfinder Ant to search for traces of the Professor.	パスファインダーアントを追って教授の痕跡を探す。
+20914	After overhearing some passersby, Allen gets an idea for a gift.	通行人の話を聞き、アレンがプレゼントの案を思いつく。
+20915	Affects the chance of receiving critical hits from Damage Skills	ダメージスキルからクリティカルを受ける確率に影響
+20916	Successfully Complete the Commission, then report your findings.	依頼を無事完了し、結果を報告する。
+20917	The Professor and the captain seem to have something to tell You	教授と船長があなたに話したいことがあるようだ
+20918	Fervor refuses to move. Defeat the poisonous Mushrooms it hates*	ファーヴァーが動こうとしない。嫌いな毒キノコを倒す*
+20919	You already have a Battlefield Skill and cannot Pick up another.	すでに戦場スキルを持っているため、別のものを拾えません。
+20920	Download speed: {@{1}:@{2}0}{1}. Estimated time: {2} min {3} sec	ダウンロード速度：{@{1}:@{2}0}{1}。推定時間：{2}分 {3}秒
+20921	Activate the <color=#fdab5b>${1}</color> effect to Respawn here?	<color=#fdab5b>${1}</color>効果を有効化してここで復活しますか？
+20922	The price has reached the limit and cannot be increased further.	価格が上限に達しているため、これ以上上げられません。
+20923	Too many of this item are currently for sale. Unable to consign.	このアイテムの出品数が多すぎるため委託できません。
+20924	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}AoE^{10}^{11}^{12}	^{1}^{2}^{3}物理^{4}^{5}^{6}\n^{7}^{8}^{9}範囲^{10}^{11}^{12}
+20925	If unclaimed after ${1} hr. ${2} min., the cost will be refunded	${1}時間${2}分以内に受け取らない場合、費用を返金します
+20926	Currently trying on <color=#cc762a>${1}</color> Appearance items	現在<color=#cc762a>${1}</color>個の外見アイテムを試着中
+20927	Responses to the Impeachment must be completed within ${1} hours	弾劾への応答は${1}時間以内に完了する必要があります
+20928	Are you sure you want to remove the selected ${1} Guild Members?	選択した${1}人のギルドメンバーを除外しますか？
+20929	Leave this screen?\nLeaving will automatically cancel your edits	この画面を離れますか？\n離れると編集内容は自動的にキャンセルされます
+20930	[Caravan Help] ${1} posted a request for ${2}X${3} [Tap to Help]	[キャラバン支援] ${1}が${2}X${3}を要請 [タップして支援]
+20931	^{1}^{2}【Cart Revolution】^{3}^{4}CRIT Chance increases by ${1}%.	^{1}^{2}【カートレボリューション】^{3}^{4}CRIT率 +${1}%。
+20932	Check whether this is needed; currently, it doesn't appear to be	必要か確認してください。現状では不要に見えます
+20933	Continually weakens, causing damage taken to increase over time.	継続的に弱体化し、時間経過で被ダメージが増加。
+20934	Failed to enter the area. You have been transported to Prontera.	エリア入場に失敗しました。プロンテラへ転送されました。
+20935	When ^{1}^{2}[Mace Mastery]^{3}^{4} reaches Lv. ${1}, STR +${2}.	^{1}^{2}[メイス修練]^{3}^{4}がLv.${1}になるとSTR +${2}。
+20936	Maya ^{1}slashes in front of and behind herself^{2} in sequence.	マヤーが順番に^{1}前方と後方を斬りつける^{2}。
+20937	Based on an analysis of the strange fluctuations in the Ant Hell	蟻地獄の奇妙な変動を分析した結果
+20938	Gospel Resonance is unaffected by Counters and other Resonances.	ゴスペル共鳴はカウンターや他の共鳴の影響を受けません。
+20939	Not enough Wishing Coins. Challenge Heroic Spirits to earn more.	願いのコインが不足しています。英雄の魂に挑戦して集めよう。
+20940	In Ragnarok Online, "Payon Cave" refers to the dungeon in Payon.	Ragnarok Onlineでは「フェイヨン洞窟」はフェイヨンのダンジョンを指します。
+20941	"Poporing" (Fat Poring) is best known for being incredibly fast.	「ポポリン」（太ったポリン）は驚異的な速さで有名です。
+20942	No Stall spaces are currently available. Please try again later.	現在利用可能な露店スペースがありません。後でもう一度お試しください。
+20943	Your reputation score is too low to purchase items from a Stall.	評判スコアが低すぎるため露店で購入できません。
+20944	Automatically Ride the Alpaca Mount After the Balloon Is Removed	バルーン解除後、自動でアルパカマウントに騎乗
+20945	Connect Quest - Form a Party and Defeat Nasha in the Final Trial	連携クエスト - パーティで最終試練ナーシャを倒す
+20946	Select the type of monster you want to target during auto-battle	オートバトルで狙うモンスタータイプを選択
+20947	【Soul Echo】 is unlocked. It's incredibly powerful, so follow me!	【ソウルエコー】解放！とても強力だよ、ついてきて！
+20948	Now open AFK Rewards to see all the rewards you've earned today!	AFK報酬を開いて、今日稼いだ報酬を全部確認しよう！
+20949	Have you heard the Story of the Curse on the @{1} types of gems?	@{1}種類の宝石にまつわる呪いの話を聞いたことある？
+20950	Complaining won't solve anything, Boya. We have no Other choice.	文句を言っても仕方ないよ、ボヤ。ほかに選択肢はない。
+20951	Remember—falling is not the end. It is simply another beginning.	覚えておけ。倒れることは終わりじゃない、新たな始まりだ。
+20952	This difficulty has not been unlocked yet. Unlock it to view it.	この難易度は未解放です。解放すると閲覧できます。
+20953	The Seal Defense is complete. You may proceed to the next stage.	封印防衛完了。次のステージへ進めます。
+20954	Almachia is attacking! Don't get pushed to the edge of the area!	アルマキアが攻撃中！エリア端へ押し出されないよう注意！
+20955	${1} approved ${2}'s application to Join a guild. Welcome, ${2}!	${1}が${2}のギルド加入申請を承認しました。ようこそ、${2}！
+20956	Supply Transport Begins\n${1} Guild has begun escorting supplies	物資輸送開始\n${1}ギルドが物資護衛を開始しました
+20957	${1}'s City Defense has fallen below ${2}! Bolster the defenses!	${1}の都市防衛値が${2}未満です！防御を強化しよう！
+20958	Professor Ryan\n(Checks inside his coat) Good, it's not damaged.	ライアン教授\n（上着の中を確認）よし、壊れてない。
+20959	Bobo\nLook! Fervor stopped someone. Could that guy be the thief?	ボボ\n見て！ファーヴァーが誰かを止めた。あいつが泥棒かな？
+20960	Bobo\nWhew, it's finally over~ Thank goodness we're still alive!	ボボ\nふぅ、やっと終わった～。生きててよかった！
+20961	^{1}Listen—the bard's newest song now has a verse about you.^{2}	^{1}聞いて――吟遊詩人の新曲に、君のことを歌う一節ができた。^{2}
+20962	【Create Adventure Group】Everyone Makes the Adventure Declaration	【冒険グループ作成】全員が冒険宣言を行う
+20963	"Salamander" has been a classic RO pet since the very beginning.	「サラマンダー」は昔からROで親しまれている定番ペットです。
+20964	Use to Activate the Genesis Canticle Portrait Frame (Permanent).	使用すると「創世の頌歌」ポートレートフレームを永久解放。
+20965	Grants a chance to obtain Tier @{1} Equipment of varying Rarity.	さまざまなレアリティのTier @{1}装備を獲得する可能性があります。
+20966	Use to unlock the Guild Emblem: Proof of the Hunt · Executioner.	ギルドエンブレム「狩りの証・処刑者」を解放。
+20967	The result of a cooking failure. Eating it may bring misfortune.	料理に失敗してできたもの。食べると不運を呼ぶかもしれない。
+20968	A pure cotton garment that is exceptionally comfortable to wear.	非常に着心地の良い純綿製の衣服。
+20969	A bow made from animal horns, offering high damage and accuracy.	動物の角で作った、高威力・高命中の弓。
+20970	An axe finished entirely in red, giving it a refined appearance.	全体を赤く仕上げた、洗練された印象の斧。
+20971	A two-handed sword equally effective for slashing and thrusting.	斬撃と刺突の両方に優れた両手剣。
+20972	${1}-Star or higher Enchant Scrolls have a Chance to unlock this	${1}星以上のエンチャントスクロールで解放されることがあります
+20973	You've reached today's request limit. Please try again tomorrow.	本日のリクエスト上限に達しました。明日またお試しください。
+20974	Not enough Equipment Forging completions of the required quality	指定品質装備の鍛造完了数が不足しています
+20975	Z, awaiting your arrival in shadows beyond the moonlight's reach	Z、月明かりの届かない影の向こうで君を待つ
+20976	Event Period: Sundays on odd-numbered weeks, @{1}:@{2}~@{3}:@{4}	開催期間：奇数週の日曜 @{1}:@{2}～@{3}:@{4}
+20977	Quick equipment swapping is on cooldown. Please try again later.	装備クイック切替はクールダウン中です。後でもう一度お試しください。
+20978	Head to the center of the arena and Pick up Dragonblood Crystals	アリーナ中央へ向かい、ドラゴンブラッドクリスタルを拾う
+20979	Member already exists in the friend group. Failed to add Member.	フレンドグループに同じメンバーがいます。追加に失敗しました。
+20980	This player is muted. Unmute them before performing this action.	このプレイヤーはミュート中です。解除してから操作してください。
+20981	The item was purchased by another player. Purchase unsuccessful.	ほかのプレイヤーが購入したため、購入に失敗しました。
+20982	The Merge Guild invitation does not exist. Unable to Merge into.	ギルド統合招待が存在しないため統合できません。
+20983	A party Member does not meet the Hidden Vault Unlock Requirement	パーティメンバーが隠し宝庫の解放条件を満たしていません
+20984	Matchmaking failed because a party member has an invalid status.	パーティメンバーの状態が無効なためマッチングに失敗しました。
+20985	Check the number of Revives remaining after clearing the dungeon	ダンジョンクリア後の残り復活回数を確認
+20986	Name contains inappropriate language. Please enter another name.	名前に不適切な表現が含まれています。別の名前を入力してください。
+20987	Cannot Cancel Rental while there are items in the Cart Merchant.	カート商人にアイテムがある間はレンタルをキャンセルできません。
+20988	After use, increases CRIT Chance by @{1}% and CRIT DMG by @{2}%.	使用後、CRIT率 +@{1}%、CRITダメージ +@{2}%。
+20989	You can only send once every @{1} hours. Please try again later.	送信は@{1}時間に1回のみ可能です。後でもう一度お試しください。
+20990	Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.	^{1}@{1}人のギルドメンバー^{2}と任意のファントムレルムダンジョンをクリア。
+20991	Welcome~ Oh, a new face! Looking for a gift for your girlfriend?	いらっしゃい～。あら、新顔ね！彼女へのプレゼントを探してるの？
+20992	Your Backpack is overweight. You cannot carry any more supplies.	バックパックが重量オーバーです。これ以上物資を持てません。
+20993	Star Shift will strike in ${1} seconds! Keep moving to dodge it!	スターシフトが${1}秒後に発動！動き続けて避けろ！
+20994	Increases your Crit by @{1} for @{2} seconds, up to @{3} stacks.	@{2}秒間、CRIT +@{1}。最大@{3}スタック。
+20995	Each floor grants a ^{1}【Shield】^{2} equal to @{1}% of Max Life.	1階層ごとに最大HPの@{1}%分の^{1}【シールド】^{2}を獲得。
+20996	Your guild is not yet ranked, so there are no rewards available!	ギルドはまだランクインしていないため報酬がありません！
+20997	After a brief cast, strikes players within the current grid area	短い詠唱後、現在のグリッド範囲内のプレイヤーを攻撃
+20998	[Rift Crisis] Commendation Gift Box has reached This Week's Limit	［リフトクライシス］表彰ギフトボックスが今週の上限に達しました
+20999	Go to the Grand Lecture Hall and find the Head Job Advance Mentor	大講堂へ行き、上位職教官を探す
+21000	The compass you're carrying suddenly starts glowing. Very strange	持っているコンパスが突然光り始めた。妙だ

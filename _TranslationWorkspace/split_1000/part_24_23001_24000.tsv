@@ -1,0 +1,1001 @@
+Index	English	Japanese_Translation
+23001	Guild Military Supplies are about to exceed the limit. Any excess will be discarded. Continue?	ギルド軍需物資が上限を超えそうです。上限を超えた分は破棄されます。続行しますか？
+23002	The vehicle restores a total of ${2}% HP over ${1} sec. Destroyed sections cannot be restored.	車両は${1}秒間で合計${2}%のHPを回復します。破壊された部位は回復できません。
+23003	Osiris throws several ^{1}Horongs^{2}. Upon landing, they ^{3}explode and remain in place^{4}.	オシリスが複数の^{1}ホロン^{2}を投げます。着地すると^{3}爆発し、その場に留まります^{4}。
+23004	First, check out the Suggested Preset I made for You, bobo. You can't go wrong with my advice~	まずはボボが作ったおすすめプリセットを見てみてよ。ボボのアドバイスなら間違いないボ～
+23005	Oh, please don't be so nervous. I'm Spratzi, and I welcome Novices arriving at the South Gate.	そんなに緊張しないでください。私はスプラッチ。南門に到着したノービスを案内しています。
+23006	I'm also a freshman receptionist at Criatura Academy. Rest assured, I'm not anyone suspicious.	クリトゥラ学園で新米受付係もしています。怪しい者ではありませんのでご安心ください。
+23007	You came at just the right time! I've got a fresh batch of treasures, still hot off the forge!	ちょうどいいところに来たな！鍛え上がったばかりの新しいお宝が入荷したところだ！
+23008	I thought I saw my mother. She should be in the Mjolnir Mountains. I must be dreaming again...	母さんを見た気がした。母さんはミョルニール山脈にいるはずなのに。また夢でも見ていたのかな……
+23009	We're looking for curious and courageous Adventurers. Brave souls, come take on the challenge!	好奇心と勇気にあふれた冒険者を募集しています。勇気ある者よ、ぜひ挑戦してください！
+23010	Honestly, Alberta is so far away. It's such a pain that I can't pick up the items I ordered...	アルベルタって本当に遠いんだよな。注文した品を受け取りに行けないなんて面倒だ……
+23011	Ugh, that place sounds terrifying. Let's wait for Boya and Wuhler to return, then go together.	うわぁ、そこってすごく怖そう……。ボヤとウーレが戻るのを待って、一緒に行こうよ。
+23012	Huh? No wonder they found us. Louie, Katie says these people have its bow tie! How despicable!	えっ？そりゃ見つかるわけだ。ルイ、ケイティが言ってる。この人たち、あいつの蝶ネクタイを持ってるって！なんて卑怯なんだ！
+23013	Help Me move this instrument beside the base of the Stone Pillar. Handle it with extreme care.	この装置を石柱の根元のそばまで運ぶのを手伝ってください。くれぐれも慎重に扱ってくださいね。
+23014	Something in the abyss seems to be watching you... (Only the Party Leader can select a target)	深淵の何かがあなたを見つめているようだ……（ターゲットを選択できるのはパーティリーダーのみ）
+23015	Eden Group Leader\nThis is bad. Their ship is getting closer. Wuller, Boya, prepare to defend!	楽園団団長\nまずい。奴らの船が近づいてくる。ウーレ、ボヤ、防衛準備だ！
+23016	The "Geneticist" is considered T@{1} for MVP battles because the class has the highest max HP.	「ジェネティック」は最大HPが最も高いため、MVP戦ではT@{1}として扱われます。
+23017	A specialized mold for crafting advanced rings and accessories imbued with blessed properties.	祝福の力を宿した上級リングやアクセサリーの製作に用いる専用の型。
+23018	Iron strengthened by repeatedly soaking it in a special Potion. Can be exchanged for Headwear.	特殊な薬液に何度も浸して強化した鉄。頭装備と交換できます。
+23019	Tap a note button to change its note. Play the correct melody to increase collection progress.	音符ボタンをタップすると音が変わります。正しいメロディーを奏でて収集進捗を上げましょう。
+23020	After use, the Supply Cart gains a shield equal to ${1}% of its maximum Life for ${2} seconds.	使用すると、補給カートに最大HPの${1}%に相当するシールドを${2}秒間付与します。
+23021	Maya summons a sandstorm, dealing minor damage to players throughout a large surrounding area.	マヤが砂嵐を召喚し、周囲の広範囲にいるプレイヤーへ小ダメージを与えます。
+23022	Angeling restores ^{1}${3}%^{2} ^{3}Life^{4} to self and up to ${2} allies within ${1} meters.	エンジェリングが自身および${1}m以内の味方最大${2}体の^{3}HP^{4}を^{1}${3}%^{2}回復します。
+23023	After casting Soul Destroyer @{1} times, increases your damage dealt by @{2}% for @{3} seconds	ソウルデストロイヤーを@{1}回発動すると、@{3}秒間、与ダメージが@{2}%増加します。
+23024	Complete <color=#c27b47>Echo Growth Quests</color> during the event to earn bountiful rewards!	イベント期間中に<color=#c27b47>エコー成長クエスト</color>を達成して、豪華報酬を獲得しましょう！
+23025	Extends bandages from the Horong and lashes downward, creating @{1} rectangular AOEs around it	ホロンから包帯を伸ばして下方へ叩きつけ、周囲に長方形の範囲攻撃を@{1}個生成します。
+23026	After a @{1}-second warning, damages players within @{2} meters and reduces their Attack Speed	@{1}秒の予兆後、@{2}m以内のプレイヤーにダメージを与え、攻撃速度を低下させます。
+23027	Your Reward Count has been used up. You will not receive Additional rewards from this challenge	報酬獲得回数を使い切っています。この挑戦では追加報酬を受け取れません。
+23028	Ji'ang is trying to express something. Bobo seems able to communicate with him at an Easy level	ジアンが何かを伝えようとしています。ボボなら簡単な意思疎通ができそうです。
+23029	Joining 【${1}】 voice chat will automatically mute your mic in the current voice chat. Continue?	【${1}】のボイスチャットに参加すると、現在のボイスチャットでは自動的にマイクがミュートされます。続行しますか？
+23030	When dealing damage, has a @{1}% Chance to absorb @{2}% of the damage dealt to the enemy as SP.	ダメージを与えた時、@{1}%の確率で敵に与えたダメージの@{2}%をSPとして吸収します。
+23031	Become invisible, but taking damage @{1} times or dealing damage removes 【Enhanced Camouflage】.	透明になりますが、@{1}回ダメージを受けるか、ダメージを与えると【強化カモフラージュ】が解除されます。
+23032	Blessed by the power of wind, increasing Attack Speed and Movement Speed by @{1}% for @{2} sec.	風の力の祝福を受け、@{2}秒間、攻撃速度と移動速度が@{1}%増加します。
+23033	<color=#BFC8D5>If you exit, you will need to rejoin the queue. Please choose carefully.</color>	<color=#BFC8D5>退出すると再度待機列に並ぶ必要があります。慎重に選択してください。</color>
+23034	When casting ^{1}^{2}[Bowling Bash]^{3}^{4}, there is a ${1}% Chance to cast it one Extra time.	^{1}^{2}[ボウリングバッシュ]^{3}^{4}発動時、${1}%の確率でもう1回追加発動します。
+23035	When event phase @{1} begins, @{3} Live Coal will spawn every @{2} seconds, @{4} times in total	イベントフェーズ@{1}開始時、@{2}秒ごとに生きた石炭が@{3}体出現し、合計@{4}回発生します。
+23036	At the start of Event Phase @{1}, spawn @{3} Advanced Live Coals every @{2} seconds, @{4} times	イベントフェーズ@{1}開始時、@{2}秒ごとに上級の生きた石炭が@{3}体出現し、合計@{4}回発生します。
+23037	Players must ^{1}move into the glowing circle within @{1} seconds^{2} and follow Nysha's steps.	プレイヤーは^{1}@{1}秒以内に光る円へ移動^{2}し、ニーシャの動きに合わせる必要があります。
+23038	Deal ATK * ^{1}@{4}%^{2} damage to up to @{3} enemies in a @{1}-meter by @{2}-meter area ahead.	前方の@{1}m×@{2}m範囲内の敵最大@{3}体に、攻撃力*^{1}@{4}%^{2}のダメージを与えます。
+23039	You don't currently have a Stall open.\nGo to <color=#63a22b>【Prontera】</color> and set one up?	現在、露店を開いていません。\n<color=#63a22b>【プロンテラ】</color>へ移動して露店を開きますか？
+23040	For your next task, defeat ^{1}Fabres^{2} and collect ^{3}@{1} pieces of 【Fluff】^{4} from them.	次の任務では^{1}ファブル^{2}を倒し、^{3}【綿毛】を@{1}個^{4}集めてください。
+23041	All right. Please board before the departure horn sounds. We will not wait for late passengers.	では、出航の汽笛が鳴る前に乗船してください。遅れた方を待つことはできません。
+23042	Congratulations on reaching the ${2} tier in ${1}! Please claim your tier reward from the mail!	${1}で${2}段位に到達、おめでとうございます！段位報酬をメールからお受け取りください！
+23043	Here is the quest reward you left behind in Lost Treasure. Please claim it from the attachment.	「失われた財宝」で受け取っていなかったクエスト報酬です。添付ファイルからお受け取りください。
+23044	Finished already? Young folks sure are quick on their feet. Come on, I'll take you to my house.	もう終わったのかい？若い者は足が速いねぇ。さあ、うちまで案内するよ。
+23045	Hahaha! I may be getting on in years, but I'm an elder here. My word still carries some weight.	ハハハ！歳は取ったが、これでもここの長老だからな。まだ少しは発言力があるんだ。
+23046	Ah, a sandwich! Thank you so much! I can't get delivery out here, and I'm practically starving.	ああ、サンドイッチ！本当にありがとう！こんな場所じゃ配達も頼めなくて、腹ペコだったんだよ。
+23047	This is test dialogue for a Season quest. This is the first line of the third quest. Ahahahaha!	シーズンクエストのテスト会話です。第3クエストの1行目です。アハハハハ！
+23048	Because I need to think, and I don't want to be disturbed by someone with nothing better to do.	考え事をしたいんだ。暇を持て余した人に邪魔されたくないからね。
+23049	Hello. Lovely weather, isn't it? Um... If you don't mind, may I tell you a little about myself?	こんにちは。いいお天気ですね。えっと……よろしければ、少し私のことをお話ししてもいいですか？
+23050	Ah, that's how it is with old houses. Fix one spot, and another crack appears right next to it.	ああ、古い家ってのはそういうものさ。一か所直せば、すぐ隣にまたひびが見つかる。
+23051	Come one, come all! See the finest show in Prontera! No admission fee—just a fateful encounter!	さあさあ、寄ってらっしゃい！プロンテラ一の見世物だよ！入場料はいらない、必要なのは運命の出会いだけ！
+23052	I still have to cook later. I hope that drunk at home hasn't made a complete mess of the place.	あとで料理もしなきゃ。家の酔っぱらいが部屋をめちゃくちゃにしてなきゃいいけど。
+23053	When my family saw me off, my dad said, "Work hard out there, and don't embarrass our village."	家を出る時、父さんに言われたんだ。「向こうでもしっかり働け。村の恥になるんじゃないぞ」って。
+23054	Eddga is extremely dangerous. If you find him, don't Approach. Wait for us to meet up with You.	エドガは非常に危険です。見つけても近づかず、私たちが合流するまで待ってください。
+23055	Hurry up! My patience is wearing thin! Short us even one more ticket, and I'll break your legs!	早くしろ！もう我慢の限界だ！切符があと1枚でも足りなかったら、足をへし折るぞ！
+23056	You know, the true core of your Second Job combat power lies in the new skills you've acquired.	いいか、2次職の戦闘力の真髄は、新しく習得したスキルにあるんだ。
+23057	We're gathering Material again? Will this really work? Can the Professor hold out that long...?	また素材集め？本当にこれでうまくいくの？教授、そんなに長く持ちこたえられるかな……
+23058	“The winds are calm—perfect weather for Flying. Thank You for your protection, Goddess Freyja.”	「風は穏やか――飛行には絶好の天気ね。守護に感謝します、フレイヤ女神様」
+23059	Ilmata has begun composing a movement. Watch the order of the ground warnings! @{1} more to go!	イルマタが楽章の作曲を始めました。地面の予兆が出る順番を見てください！残り@{1}回！
+23060	The lucky-star drawing is complete. All selected lucky stars, please enter as soon as possible!	ラッキースターの抽選が完了しました。選ばれたラッキースターの皆様は、できるだけ早く入場してください！
+23061	^{1}${1}^{2} and ^{3}${2}^{4} are bound by the red thread of fate, their hearts beating as one!	^{1}${1}^{2}と^{3}${2}^{4}は運命の赤い糸で結ばれ、心をひとつにしました！
+23062	Bobo\nThis Pharaoh is stronger than any monster we've faced before. Is it because of the Relic?	ボボ\nこのファラオ、今まで戦ったどのモンスターより強いよ。遺物のせいなのかな？
+23063	The White Dove and I go way back. She may be steady now, but she once saved my Life in a storm.	白鳩号とは長い付き合いだ。今でこそ安定して飛ぶが、昔は嵐の中で俺の命を救ってくれたこともある。
+23064	Boya\nSay that again! I'll kick your head around like a ball! I hate cheats more than anything!	ボヤ\nもう一度言ってみなさい！頭をボールみたいに蹴り飛ばしてやる！あたしは卑怯者が何より嫌いなの！
+23065	Bobo\nHuh? Something's wrong up ahead! The Professor and the others are surrounded by Monsters!	ボボ\nえっ？前のほうで何か起きてる！教授たちがモンスターに囲まれてるよ！
+23066	A semi-finished sacred cloth material for shoulder armor. Its blessed Orbit provides Extra DEF.	肩防具用の聖布を加工した半製品素材。祝福の力を宿した織りが追加の防御力をもたらします。
+23067	Wrapping material made from Sacred Wood, used to craft advanced equipment with blessed effects.	神木から作られた包装材。祝福効果を持つ上級装備の製作に使用されます。
+23068	Processed from Ironwood. Its hardness and resilience make it ideal for crafting fine equipment.	アイアンウッドを加工した素材。高い硬度と靭性を持ち、上質な装備の製作に最適です。
+23069	A whetstone polished multiple times to greatly improve a weapon's cutting power and durability.	何度も研磨された砥石。武器の切れ味と耐久性を大幅に高めます。
+23070	A knife-sharp scale that can be processed into many useful items. Available from the Collector.	ナイフのように鋭い鱗。様々な便利な品へ加工できます。コレクターから入手可能。
+23071	Obtained from Mine Planet Treasure Hunt. Used to purchase appearances from the Appearance Shop.	マインプラネットの宝探しで獲得できます。外見ショップで外見アイテムを購入する際に使用します。
+23072	A tuft of hair dropped by Muffin. It still has a bit of a smell. Can be exchanged for Headwear.	マフィンが落とした毛の束。まだ少し臭いが残っています。頭装備と交換できます。
+23073	Distance until S1 Season officially begins: <color=#ede79d><size=72>${1}</size></color> minutes	S1シーズン正式開始まで：<color=#ede79d><size=72>${1}</size></color>分
+23074	When both professions are gathering professions, reduces Vivify consumed when gathering by @{1}	両方の職業が採集系職業の場合、採集時に消費する活力が@{1}減少します。
+23075	After leaving, you can reenter from the Event screen. Are you sure you want to leave this area?	退出後はイベント画面から再入場できます。本当にこのエリアから退出しますか？
+23076	Deviling consecutively releases three rings of dark energy around itself, damaging players hit.	デビルリングが自身の周囲に暗黒エネルギーのリングを3回連続で放ち、命中したプレイヤーにダメージを与えます。
+23077	After use, creates a talisman in the current Guild Battlefield, granting Endure to all players.	使用すると、現在のギルド戦場に護符を生成し、全プレイヤーにインデュアを付与します。
+23078	Lock on to a player; lock on again after hitting, chaining up to three times. End if it misses.	プレイヤー1人をロックオンし、命中後に再度ロックオンして最大3回まで連鎖します。命中しなかった場合は終了します。
+23079	Chance for Normal Attack to trigger AOE damage (internal CD: @{1}s), hitting up to @{2} targets	通常攻撃時、一定確率で範囲ダメージが発動します（内部クールダウン：@{1}秒）。最大@{2}体に命中します。
+23080	Summons Sight around you, revealing hidden enemies within a ${2}-meter radius for ${1} seconds.	自身の周囲にサイトを展開し、${1}秒間、半径${2}m以内の隠れている敵を発見します。
+23081	A faint hum produced by the Song of Suffering. Lasts @{1} seconds and stacks up to @{2} floors.	「苦痛の歌」から生まれたかすかな響き。@{1}秒間持続し、最大@{2}スタックまで累積します。
+23082	The Bonfire Party has come to a wonderful close. Thank You all for spending the evening with us!	篝火パーティは素晴らしい締めくくりを迎えました。今夜を一緒に過ごしてくれた皆さん、ありがとうございました！
+23083	Failed to save the file. There may not be enough storage space. Free up some space and Retry....	ファイルの保存に失敗しました。空き容量が不足している可能性があります。容量を確保してからもう一度お試しください。
+23084	\n${1} is your favorite way to train. Training makes you stronger and earns you greater respect.	\n${1}はあなたが最も好んだ修行方法です。鍛錬はあなたを強くし、より大きな尊敬をもたらしました。
+23085	Use Invincible to block key skills, Movement to evade attacks, and combos to finish off enemies.	無敵効果で重要スキルを防ぎ、移動で攻撃をかわし、コンボで敵にとどめを刺しましょう。
+23086	A reality show hosted by the Kafra Corporation, with a grand prize awaiting the ultimate winner!	カプラコーポレーション主催のリアリティショー。最後の勝者には豪華な賞品が待っています！
+23087	Enter 【Camouflage】, becoming invisible and untargetable. Revealed after taking damage @{1} times	【カモフラージュ】状態になり、姿が見えなくなってターゲットされなくなります。@{1}回ダメージを受けると解除されます。
+23088	As more card slots are unsealed, the number of items required to unseal them will also increase.	カードスロットの封印を解除するほど、次の解除に必要なアイテム数も増加します。
+23089	Baphomet summons a ^{1}spirit^{2} that deals damage in a circular area at the target's location.	バフォメットが^{1}死霊^{2}を召喚し、ターゲット位置の円形範囲にダメージを与えます。
+23090	The long, pointed beak of a bird or other animal, ideal for catching insects or pecking at feed.	鳥などの動物に見られる細長く尖ったくちばし。虫を捕らえたり、餌をついばんだりするのに適しています。
+23091	A High Priest's "Lex Aeterna" causes the target's next incoming damage to be multiplied by @{1}.	ハイプリーストの「レックスエーテルナ」は、対象が次に受けるダメージを@{1}倍にします。
+23092	Bobo can finally make a grand entrance! Be sure to follow my instructions carefully from now on.	ついにボボの華麗な出番だよ！これからはボボの指示をしっかり聞いてね！
+23093	(Lowers voice) Ahem! O lost lamb, meeting this great prophet is the blessing of eight lifetimes!	（声を潜めて）ゴホン！迷える子羊よ、この偉大なる予言者に出会えたのは八生分の幸運だぞ！
+23094	Master, do you have another little pet when I'm not around? Boo-hoo... Bobo's being abandoned...	ご主人様、ボボがいない間に別のちっちゃいペットを飼ってるの？うえーん……ボボ、捨てられちゃうの……
+23095	Thank You for participating in the Guild League event! Here are your rewards. Please claim them!	ギルドリーグイベントへのご参加ありがとうございました！こちらが報酬です。お受け取りください！
+23096	Congratulations! You won item ${4} in ${3} with a bid of ${1}${2}. Please check the attachments.	おめでとうございます！${3}で${1}${2}を入札し、アイテム${4}を落札しました。添付ファイルをご確認ください。
+23097	This is the reward you earned from the Event Period gift. Please collect it from the attachment.	イベント期間ギフトで獲得した報酬です。添付ファイルからお受け取りください。
+23098	Your guild ranked No. @{1} in its group in the Hunting Challenge. Please claim the prizes below!	あなたのギルドはハンティングチャレンジのグループ内で第@{1}位に入りました。以下の報酬をお受け取りください！
+23099	This is test dialogue for a Season quest. This is the second line of the third quest. Ahahahaha!	シーズンクエストのテスト会話です。第3クエストの2行目です。アハハハハ！
+23100	This is Prontera, capital of the Rune-Midgarts Kingdom. Welcome! Would you like an introduction?	ここはルーンミッドガッツ王国の首都、プロンテラです。ようこそ！街についてご案内しましょうか？
+23101	Don't worry. I've sold dozens of orders, and everyone was fine once they'd emptied their bowels.	心配するな。これまで何十件も売ってきたが、みんな腹の中を空っぽにしたら元気になったさ。
+23102	It's still worth saying. They did a great job expanding it. It's much easier to come and go now.	それでも言う価値はあるよ。よくここまで拡張したもんだ。出入りがずっと楽になった。
+23103	No idea how long this place will stay popular. I should start looking for Other opportunities...	ここがいつまで人気でいられるか分からないな。そろそろ別の商売も探しておくか……
+23104	Next, I'll teach you how to Learn New Skills so you'll be prepared for more advanced Challenges.	次は、新しいスキルの習得方法を教えます。より高度な挑戦に備えましょう。
+23105	Thank You so much, Adventurer. I've marked the Relic's approximate location for you. Be careful.	本当にありがとう、冒険者さん。遺物のおおよその位置を印しておきました。気をつけてください。
+23106	You think back on everything you've experienced over the Recent few days. None of it feels real.	ここ数日で体験したことを振り返る。どれも現実だったとは思えない。
+23107	The enemies have been successfully knocked back, and all the party performances are now complete	敵の撃退に成功し、パーティの演目もすべて終了しました。
+23108	Guild Challenge: Eternal Land is now open. Guilds can enter the challenge from the Guild screen.	ギルドチャレンジ「エターナルランド」が開放されました。ギルド画面から挑戦に参加できます。
+23109	“Remember, you can never let your guard down. The skies are every bit as dangerous as the land.”	「覚えておけ。決して油断するな。空は大地と同じくらい危険なんだ」
+23110	Unfortunately, no one took first place in this Gala Invitation. Better luck next time, everyone~	残念ながら、今回の祝典の招待では1等賞の当選者はいませんでした。次回に期待しましょう～
+23111	A shimmering star fragment from the intertidal zone. Legend says its tentacles absorb moonlight.	潮間帯で見つかるきらめく星の欠片。伝説では、その触手が月光を吸収するといわれています。
+23112	High-quality silk thread made from fine silk fibers. Used to sew advanced clothing or equipment.	上質な絹繊維から作られた高品質の絹糸。上級の衣服や装備の縫製に使用します。
+23113	A superb golden Yellow Healing Potion. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	黄金色に輝く最高級の回復ポーション。使用すると即座にHPを@{1}+@{2}%回復します。クールダウン：@{3}秒。
+23114	A one-handed sword made exclusively for cavalry, though it is mostly used in cavalry ceremonies.	騎兵専用に作られた片手剣。主に騎兵隊の儀礼で使用されています。
+23115	A singing conch shell found in parts unknown. Used during the Season: Symphony of Genesis event.	どこかで見つかった、歌うような音を奏でる巻貝。シーズン「創世の交響曲」イベントで使用します。
+23116	You already have a war machine. Building another will destroy the current one.\nBuild it anyway?	すでに攻城兵器を所持しています。新たに建造すると現在の攻城兵器は破壊されます。\nそれでも建造しますか？
+23117	Angeling consecutively releases three rings of light energy around itself, damaging players hit.	エンジェリングが自身の周囲に光のエネルギーリングを3回連続で放ち、命中したプレイヤーにダメージを与えます。
+23118	Increases your damage against Undead property monsters and Demon Race monsters by ^{1}${1}%^{2}.	不死属性モンスターおよび悪魔種族モンスターへの与ダメージが^{1}${1}%^{2}増加します。
+23119	Shield skill. Expand Auto Guard, increasing your PDEF and MDEF by ^{1}${2}^{2} for ${1} seconds.	盾スキル。オートガードを強化し、${1}秒間、物理防御力と魔法防御力が^{1}${2}^{2}増加します。
+23120	Deals a total of ^{1}@{3}%^{2} damage to up to @{2} targets within a @{1}m radius over @{4} sec.	@{4}秒間、半径@{1}m以内の最大@{2}体の対象に合計^{1}@{3}%^{2}のダメージを与えます。
+23121	Removes current control effects and grants immunity to control effects for the next @{1} seconds	現在受けている行動妨害効果を解除し、@{1}秒間、行動妨害効果を無効化します。
+23122	Normal Attacks have a Chance to trigger an Extra ST Normal Attack (internal cooldown: @{1} sec.)	通常攻撃時、一定確率で単体への通常攻撃が1回追加発動します（内部クールダウン：@{1}秒）。
+23123	Sandstorm meteors will strike in ${1} seconds! Get behind a stone pillar to avoid taking damage!	${1}秒後に砂嵐の隕石が落下します！石柱の後ろに隠れてダメージを回避してください！
+23124	Sword familiarity increases HIT by @{1} and Attack Speed by @{2}% when using sword-type weapons.	剣系武器を使用時、剣修練によりHITが@{1}、攻撃速度が@{2}%増加します。
+23125	Restores Life equal to Magic ATK *^{1}${3}%^{2} to up to ${2} allies within a ${1}-meter radius.	半径${1}m以内の味方最大${2}体のHPを、魔法攻撃力*^{1}${3}%^{2}分回復します。
+23126	Deals minor damage to players within a circular @{1}-meter area and applies one stack of Petrify	半径@{1}mの円形範囲内のプレイヤーに小ダメージを与え、石化を1スタック付与します。
+23127	【Challenge】 Clear any Realm of the Gods with at least @{1} other Members of your Adventure Party.	【チャレンジ】冒険パーティの他のメンバー@{1}人以上と一緒に、いずれかの神域をクリアする。
+23128	Complete the Golden Thief Bug Dungeon*|Complete the Orc Hero Dungeon*|Complete the Drake Dungeon*	黄金蟲ダンジョンをクリア*|オークヒーローダンジョンをクリア*|ドレイクダンジョンをクリア*
+23129	Supplies are obtained only after the supply cart is successfully escorted back to the stronghold.	補給カートを拠点まで無事に護衛した場合のみ、補給物資を獲得できます。
+23130	The UI scale is too large for the current resolution and has been automatically adjusted to ${1}.	現在の解像度に対してUIスケールが大きすぎるため、自動的に${1}へ調整されました。
+23131	Allocating points manually will cancel the selected build and disable automatic point allocation.	手動でポイントを割り振ると、選択中のビルドが解除され、自動ポイント配分も無効になります。
+23132	A Helmet for true Orc heroes, proving that its wearer is the bravest and greatest among all Orcs.	真のオーク英雄のための兜。着用者がすべてのオークの中で最も勇敢で偉大な者であることを証明します。
+23133	A Hat found in a distant land, symbolizing the sun's supreme power. It is sturdier than it looks.	遠い異国で見つかった帽子。太陽の至高の力を象徴しており、見た目以上に頑丈です。
+23134	A doll Piamette uses to make attacking and defending easier?\nI could have sworn I saw it move...	ピアメットが攻撃や防御をしやすくするために使う人形？\n今、動いたような気がする……
+23135	The Toy Factory's latest rocking horse, complete with a mysterious and slightly unsettling smile.	おもちゃ工場の最新型木馬。不思議で、どこか不気味な笑顔が特徴です。
+23136	Assassin Cross's "Dark Claw" unconditionally multiplies the next damage the target takes by @{1}.	アサシンクロスの「ダーククロー」は、対象が次に受けるダメージを無条件で@{1}倍にします。
+23137	Damaged equipment has reduced effects but can still be equipped and does not need to be repaired.	破損した装備は効果が低下しますが、そのまま装備でき、修理する必要はありません。
+23138	That big cat isn't easy to find. Ask the old Hunter in the forest if he knows its exact location.	あの大きな猫はそう簡単には見つからない。森にいる老ハンターなら居場所を知っているかもしれないから聞いてみな。
+23139	Wah... Stupid Master! You scared Bobo half to death! Bobo thought the crash had broken your head!	わあん……バカなご主人様！ボボ、心臓が止まるかと思ったよ！墜落で頭が壊れちゃったのかと思った！
+23140	You didn't claim Yesterday's activity reward, so we've reissued it. Please check the attachments.	昨日の活躍度報酬を受け取っていなかったため、再配布しました。添付ファイルをご確認ください。
+23141	You closed your Stall. The items from it have been sent by mail, so please check the attachments!	露店を閉じました。露店の商品はメールで送られましたので、添付ファイルをご確認ください！
+23142	This is the reward you won from the guild campfire raffle. Please collect it from the attachment.	ギルド篝火の抽選で獲得した報酬です。添付ファイルからお受け取りください。
+23143	This is the reward you earned from the midterm Settlement. Please collect it from the attachment.	中間集計で獲得した報酬です。添付ファイルからお受け取りください。
+23144	Thank You for participating in War of Emperium! Here is your well-earned reward. Please claim it!	攻城戦へのご参加ありがとうございました！こちらが獲得した報酬です。お受け取りください！
+23145	Thanks to everyone's efforts, ${1} did not fall during this event. Please claim the prizes below!	皆さんの努力により、このイベント中${1}は陥落しませんでした。以下の報酬をお受け取りください！
+23146	This is a test dialogue for a Season quest. This is the first line of the first quest. Ahahahaha!	シーズンクエストのテスト会話です。第1クエストの1行目です。アハハハハ！
+23147	This is test dialogue for a Season quest. This is the second line of the second quest. Ahahahaha!	シーズンクエストのテスト会話です。第2クエストの2行目です。アハハハハ！
+23148	This is test dialogue for a Season quest. This is the second line of the fourth quest. Ahahahaha!	シーズンクエストのテスト会話です。第4クエストの2行目です。アハハハハ！
+23149	People couldn't even afford burials for the dead, so some bodies were secretly left in the caves.	死者を埋葬する金すらなく、一部の遺体は密かに洞窟へ置き去りにされたんだ。
+23150	Come, kindhearted Adventurer—^{1}PlayerName^{2}, are you Ready? Let's arrange the cargo together.	さあ、心優しき冒険者――^{1}PlayerName^{2}、準備はいい？一緒に積み荷を並べましょう。
+23151	Do you want to go? It's your call. But if any ants bite Me, I'm setting the whole cave on fire...	行きたいなら好きにすれば。でもアリに噛まれたら、この洞窟ごと燃やすからね……
+23152	Enough talk. Take it. Now, both of you, Return to Town. Stop standing around in this desert wind.	話はそこまでだ。これを持っていけ。二人とも、街へ戻れ。砂漠の風の中でいつまでも突っ立っているな。
+23153	Oof... Theoretically, an impact of this intensity shouldn't cause anything more serious... right?	うう……理論上、この程度の衝撃なら、これ以上深刻なことにはならない……はず、だよね？
+23154	Player, I need a little more time to launch the signal flare. Can you hold off Eddga for a while?	冒険者さん、信号弾を上げるまであと少し時間が必要です。しばらくエドガを食い止めてもらえますか？
+23155	Captain\nBah! If blood truly had to be repaid in blood, you'd have died eight hundred times over!	船長\nふん！本当に血を血で償うなら、お前なんぞ八百回は死んでるぞ！
+23156	Enjoy spectacular, immersive story quests and a smooth, polished introduction for new adventurers	壮大で没入感あふれるストーリークエストと、滑らかで洗練された初心者向け導入を楽しめます。
+23157	A wooden rune engraved with mysterious symbols. It can add basic magical properties to equipment.	謎めいた記号が刻まれた木製ルーン。装備に基本的な魔法属性を付与できます。
+23158	Your changes to the room settings haven't been saved. Are you sure you want to close this screen?	ルーム設定の変更が保存されていません。本当にこの画面を閉じますか？
+23159	Your character is temporarily unable to purchase items from the World Auction. Unseal time: ${1}.	現在、このキャラクターはワールドオークションで一時的に購入できません。解除時間：${1}。
+23160	Your character is temporarily unable to purchase items from the Guild Auction. Unseal time: ${1}.	現在、このキャラクターはギルドオークションで一時的に購入できません。解除時間：${1}。
+23161	Fewer than three responding Members are Online. You cannot proceed to create an Adventurer Group.	回答したメンバーのうちオンライン人数が3人未満です。冒険者グループを作成できません。
+23162	Detach the Supply Cart. While detached, it continuously restores HP to allies within @{1} meters.	補給カートを切り離します。切り離されている間、@{1}m以内の味方のHPを継続的に回復します。
+23163	After use, creates Sticky Mucus in the selected Guild Battlefield. Reduces MSPD. for all players.	使用すると、選択したギルド戦場に粘着質の液体を生成し、全プレイヤーの移動速度を低下させます。
+23164	Increases the Control duration of ^{1}Control-type^{2} Primary Battle Skills by ^{3}${1}^{4} sec.	^{1}妨害型^{2}のメイン戦闘スキルによる行動妨害の持続時間が^{3}${1}^{4}秒延長されます。
+23165	Damn it! The Church won't let us near the stone pillar, but they'll let monsters steal our cargo?	くそっ！教会は石柱に近づかせないくせに、モンスターに積み荷を奪わせるのは構わないってのか？
+23166	Leaving the area or dismounting will immediately end ${1}. Are you sure you want to end the skill?	エリアから離れるか乗り物から降りると、${1}は即座に終了します。スキルを終了しますか？
+23167	<color=#fdab5b>Conqueror</color> Settlement takes place first, with slots allocated to each guild.	<color=#fdab5b>征服者</color>の集計が先に行われ、各ギルドに枠が割り当てられます。
+23168	The guild has reached today's donor limit. Further donations will not increase Guild Contribution.	ギルドは本日の寄付上限に達しました。これ以上寄付してもギルド貢献度は増加しません。
+23169	Attackers: Destroy the defenders' Emperium to win.\nDefenders: Hold out until time expires to win.	攻撃側：防衛側のエンペリウムを破壊すれば勝利。\n防衛側：制限時間終了まで守り抜けば勝利。
+23170	Your current maximum bid is below the qualifying bid. Auto-Bid has stopped. Please adjust your bid	現在の最高入札額が参加条件額を下回ったため、自動入札を停止しました。入札額を調整してください。
+23171	When a bubble catches a player, it traps them, and ^{1}the bubble explodes after @{1} seconds^{2}.	泡がプレイヤーを捕らえると拘束し、^{1}@{1}秒後に泡が爆発します^{2}。
+23172	Use your Falcon to Locate enemies in ^{1}【Hiding】^{2} within a @{1}-meter radius for @{2} seconds.	ファルコンを使い、半径@{1}m以内の^{1}【ハイディング】^{2}状態の敵を@{2}秒間探知します。
+23173	The flames have burned out, but this color will never fade.\nWorldscorch Feather · Theme Hairstyle	炎は燃え尽きても、この色は決して褪せない。\n焦世の羽・テーマヘアスタイル
+23174	Floors @{1} and @{2} of the Monster Terminate Tower offer the most EXP of any field training area.	モンスター討伐塔の@{1}階と@{2}階は、フィールド狩りエリアの中で最も多くのEXPを獲得できます。
+23175	Explore Rift Gates that appear randomly throughout each region to earn abundant upgrade resources.	各地域にランダム出現する亀裂の門を探索し、豊富な育成素材を獲得しましょう。
+23176	Hmm, if you're not sure what to do, just choose a build to allocate your points automatically, bo.	うーん、どうしたらいいか分からないなら、ビルドを選んでポイントを自動配分すればいいボ。
+23177	In that dark hour, the ancestors of the Rune Kingdom's seven royal families rose to the challenge.	暗黒の時代、ルーン王国の七王家の祖先たちは立ち上がり、試練に立ち向かいました。
+23178	All items in your Stall sold out in ${1} min ${2} sec, earning you ${3} Zeny and ${4} Minted Coin!	露店の商品が${1}分${2}秒ですべて売り切れ、${3}ゼニーと${4}鋳造コインを獲得しました！
+23179	The event has ended. Your guild placed ${1} and earned the following rewards. Please collect them!	イベントが終了しました。あなたのギルドは第${1}位となり、以下の報酬を獲得しました。お受け取りください！
+23180	Congrats on Obtaining a War of Emperium victory! Here is your well-earned reward. Please claim it!	攻城戦での勝利、おめでとうございます！こちらが獲得した報酬です。お受け取りください！
+23181	Understood. I'll send out patrols to drive off any troublemakers who threaten the village's peace.	承知した。村の平穏を脅かす厄介者を追い払うため、巡回隊を出そう。
+23182	Come with me, everyone! Once you see them hard at work, you'll understand just how happy they are!	みんな、私についてきて！あの人たちが一生懸命働く姿を見れば、どれだけ幸せか分かるはずよ！
+23183	N-No need to trouble yourself. This reliable warrior here is all I need to assist with the test...	い、いえ、お手を煩わせる必要はありません。この頼れる戦士が試験を手伝ってくれれば十分です……
+23184	This is a test dialogue for a Season quest. This is the second line of the first quest. Ahahahaha!	シーズンクエストのテスト会話です。第1クエストの2行目です。アハハハハ！
+23185	This is a test dialogue for a Season quest. This is the first line of the second quest. Ahahahaha!	シーズンクエストのテスト会話です。第2クエストの1行目です。アハハハハ！
+23186	This is a test dialogue for a Season quest. This is the first line of the fourth quest. Ahahahaha!	シーズンクエストのテスト会話です。第4クエストの1行目です。アハハハハ！
+23187	As long as we possess the brilliant Metal that guides our destiny, the gods will never abandon us!	運命を導く輝く金属さえあれば、神々は決して我々を見捨てない！
+23188	Hah! Hah! Hyah!\nWhew... I'm feeling a little more confident now. Long live the Prontera Chivalry!	ハッ！ハッ！ヤァッ！\nふう……少し自信がついてきたぞ。プロンテラ騎士団、万歳！
+23189	I'm searching for treasure. I heard someone with inside information lives north of Morroc Village.	宝を探しているんだ。モロック村の北に、裏事情に詳しい奴が住んでいるらしい。
+23190	Perfect timing. Let's tackle the first Quest—getting a few fresh Snake Gallbladders from the Boas.	ちょうどいい。最初のクエストに取りかかろう――ボアから新鮮な蛇の胆嚢をいくつか手に入れるんだ。
+23191	Of course! How thoughtful of you to ask. I'll be waiting at the harbor, Adventurer. See you there.	もちろん！わざわざ気遣ってくれてありがとう。港で待っているよ、冒険者さん。それじゃ、またそこで。
+23192	This timeline is on the verge of destruction, and you're the only one who can resolve this crisis.	この時間軸は滅亡の瀬戸際にあり、この危機を解決できるのはあなただけです。
+23193	It may sound cliché, but the way the Nail of Natural Law responds to you is all the proof we need.	ありきたりに聞こえるかもしれないが、自然法則の釘が君に反応した。それこそが何よりの証拠だ。
+23194	You have no Reward Count remaining, so you will not receive Additional rewards from this challenge	報酬獲得回数が残っていないため、この挑戦では追加報酬を受け取れません。
+23195	Bobo\nWe must have entered Pharaoh's illusion. He appeared and vanished so quickly. How strange...	ボボ\nファラオの幻覚に入り込んじゃったみたい。あっという間に現れて消えたよ。変なの……
+23196	A shattered black Sobbing Starlight. Though it has lost its full power, it still has special uses.	砕けた黒い「すすり泣く星光」。完全な力は失われていますが、まだ特殊な用途があります。
+23197	A Pet Care Guide that Records how to form a close bond with a Pet. Use it to grant a Pet @{1} EXP.	ペットとの絆の深め方が記されたペット飼育ガイド。使用するとペットに@{1}EXPを付与します。
+23198	A flatbread left sitting for a long time. It can stave off hunger and provide a beneficial effect.	長い間置かれていた平たいパン。空腹をしのぎ、有益な効果を得られます。
+23199	A steel tank equipped with weapons such as a flamethrower and mortar. Operated by a crew of three.	火炎放射器や迫撃砲などの武装を搭載した鋼鉄製戦車。3人の乗員で操作します。
+23200	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Poring Transform	1等賞当選時、ポリン変身を使用している場合、報酬が追加で@{1}%増加します。
+23201	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Poring Transform	3等賞当選時、ポリン変身を使用している場合、報酬が追加で@{1}%増加します。
+23202	The Hidden Vault Dungeon is under attack by another player. You cannot Enter Dungeon at this time.	秘宝ダンジョンが他のプレイヤーに攻撃されています。現在はダンジョンに入場できません。
+23203	Unleashes the weapon's full potential, increasing your Physical DMG by ^{1}${2}%^{2} for ${1} sec.	武器の力を最大限に引き出し、${1}秒間、物理ダメージが^{1}${2}%^{2}増加します。
+23204	Launches a shockwave, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	衝撃波を放ち、@{1}m以内の指定した単体の敵に攻撃力*^{1}@{2}%^{2}のダメージを与えます。
+23205	After use, creates squid ink in the selected Guild Battlefield, obstructing every player's vision.	使用すると、選択したギルド戦場にイカ墨を生成し、全プレイヤーの視界を遮ります。
+23206	Maya releases three clouds of Petrify mist nearby. Each cloud damages players inside every second.	マヤが周囲に石化の霧を3つ放ちます。霧の中にいるプレイヤーは毎秒ダメージを受けます。
+23207	Increases FLEE by ^{1}${1}^{2}, Movement Speed by ^{3}${2}%^{4}, and Physical ATK by ^{5}${3}^{6}.	FLEEが^{1}${1}^{2}、移動速度が^{3}${2}%^{4}、物理攻撃力が^{5}${3}^{6}増加します。
+23208	Sadly, the young lady eventually passed away. I've spent years searching this area for that snake.	残念ながら、お嬢様はその後亡くなりました。私は何年もこの辺りであの蛇を探し続けています。
+23209	Battlefield matchmaking is in progress. Changing the Party Leader will stop matchmaking. Continue?	戦場のマッチング中です。パーティリーダーを変更するとマッチングが停止します。続行しますか？
+23210	When taking damage while below @{1}% Life, Physical DEF and Magic DEF increase by Base Lv. * @{2}.	HPが@{1}%未満の時にダメージを受けると、物理防御力と魔法防御力がBase Lv.*@{2}増加します。
+23211	After gaining @{1} Floors, the next 【Soul Burst】 triggers @{2} astral bodies to attack the target.	@{1}スタック獲得後、次の【ソウルバースト】で@{2}個の星幽体がターゲットを攻撃します。
+23212	Launches @{1} arrows at the designated ST enemy within @{2} m, dealing ATK * ^{1}@{3}%^{2} damage.	@{2}m以内の指定した単体の敵に矢を@{1}本放ち、攻撃力*^{1}@{3}%^{2}のダメージを与えます。
+23213	${1} is about to forge a covenant with the Lord of the Starry Sky! Hurry and watch the performance!	${1}が星空の主との契約を結ぼうとしています！急いで公演を見に行きましょう！
+23214	Every @{1} DEX grants @{2} HIT and @{3} Cast Speed. Archers gain an Extra @{4} PATK and @{5}% PATK.	DEX@{1}ごとにHITが@{2}、詠唱速度が@{3}増加します。アーチャーは追加で物理攻撃力が@{4}、物理攻撃力が@{5}%増加します。
+23215	The Battle has already started. If you Exit, you cannot Join again.\nAre you sure you want to Exit?	すでに戦闘が始まっています。退出すると再参加できません。\n本当に退出しますか？
+23216	Accept ${1}'s Revive invitation? If you decline, you will automatically return to the Revive Point.	${1}からの復活招待を承認しますか？拒否すると、自動的に復活地点へ戻ります。
+23217	\nTraining isn't everything. Balancing work and rest will take you farther. Here's how you relaxed:	\n修行だけがすべてではありません。仕事と休息のバランスを取ることで、さらに遠くへ進めます。あなたの休み方はこちら：
+23218	A core Member of the Church who has gained basic AoE Divine Light and the ability to Revive allies.	基本的な範囲ホーリーライトと味方を蘇生する能力を身につけた、教会の中核メンバー。
+23219	Carrying explosives that damage all nearby allies, enemies, and the carrier when the countdown ends	爆発物を所持しており、カウントダウン終了時に周囲の味方・敵・所持者自身へダメージを与えます。
+23220	Increases Physical damage dealt to Brute and Insect monsters by ${1}%, and Movement Speed by ${2}%.	動物系および昆虫系モンスターへの物理ダメージが${1}%、移動速度が${2}%増加します。
+23221	^{1}The Eye of the Pyramid^{2} emits a Death Ray. Players ^{3}hit by the ray^{4} take heavy damage.	^{1}ピラミッドの目^{2}が死の光線を放ちます。^{3}光線に命中したプレイヤー^{4}は大ダメージを受けます。
+23222	Pharaoh summons ^{1}illusions^{2} that damage nearby enemies, with ^{3}more illusions summoned^{4}.	ファラオが^{1}幻影^{2}を召喚し、周囲の敵にダメージを与えます。^{3}召喚される幻影の数が増加します^{4}。
+23223	This serves as your party Locate indicator only when participating in party or matchmaking content.	パーティまたはマッチングコンテンツ参加時のみ、パーティ位置表示として機能します。
+23224	Stay Away from the edge of the ship. If you fall overboard, you'll automatically climb back aboard!	船の端には近づかないでください。船外へ落ちても自動的に船へ戻れます！
+23225	Calling it animal poop or excrement sounds rather crude, so it is collectively referred to as dung.	動物のフンや排泄物では言い方が少々下品なので、まとめて「糞」と呼びます。
+23226	You have disabled Bonus Time. When you Kill a Field Monster, it will only drop Accessory Materials.	ボーナスタイムを無効にしています。フィールドモンスターを倒しても、アクセサリー素材のみドロップします。
+23227	You cannot lower the level of the "Vending" skill while your Stall is open. Close your Stall first.	露店を開いている間は「露店」スキルのレベルを下げられません。先に露店を閉じてください。
+23228	After your Job Advance, try ^{1}allocating stat and skill points^{2} to unlock your newfound power.	転職後は^{1}ステータスポイントとスキルポイントを割り振って^{2}、新たな力を解放してみましょう。
+23229	You're a new face. This forest's been dangerous lately, so don't wander around without good reason.	見ない顔だな。最近この森は危険だから、用もないのにうろつかないほうがいいぞ。
+23230	I line up here at 6 every morning, rain or shine. You youngsters sleep in, so you end up behind me.	雨の日も晴れの日も、毎朝6時からここに並んでるんだ。若いもんは寝坊するから、俺の後ろになるんだよ。
+23231	The skies are calm. It's perfect weather for Flying. Thank You for your protection, Goddess Freyja.	空は穏やか。飛行には絶好の天気ね。守護に感謝します、フレイヤ女神様。
+23232	When night falls, we'll camp atop the dunes, and I'll treat you to the strongest desert ale around!	夜になったら砂丘の上で野営して、この辺で一番強い砂漠の酒を飲ませてやるよ！
+23233	Yeah, yeah, I know! Fancy tricks aren't enough. You're only strong if you put your STR to good use!	はいはい、分かってるよ！小手先の技だけじゃダメなんだろ。STRをしっかり活かしてこそ強いってことだ！
+23234	Wow, new equipment! The Eden Group is pretty generous. Hurry and choose something that feels right~	わあ、新しい装備！楽園団って太っ腹だね。早く自分に合うものを選んでみて～
+23235	Where did you come from? I've claimed this whole territory! If you want to hunt, go somewhere else!	どこから来た！この辺りは全部俺の縄張りだ！狩りたいならよそへ行け！
+23236	But... now that you have a new Pet, why not give Bobo to Me? I promise I'll take good care of Bobo~	でも……新しいペットを手に入れたなら、ボボは私にくれない？大事にするって約束するよ～
+23237	Higher difficulty unlocked! A higher difficulty brings greater challenges, but also richer rewards.	高難易度が解放されました！難易度が上がるほど挑戦は厳しくなりますが、報酬も豪華になります。
+23238	Content Description Content Description Content Description Content Description Content Description	コンテンツ説明 コンテンツ説明 コンテンツ説明 コンテンツ説明 コンテンツ説明
+23239	Bobo\nOoh, what does riding a giant ant feel like? Does it make You dizzy? Bobo wants to try too...	ボボ\nわあ、巨大なアリに乗るってどんな感じ？目が回ったりする？ボボも乗ってみたい……
+23240	In War of Emperium (GvG), "set" refers to a complete equipment setup exclusive to the Knight class.	攻城戦（GvG）において「セット」とは、ナイト専用の装備一式を指します。
+23241	A beautiful Crystal Fragment. Look closely, and you'll see an eye-shaped Astral Sign at its center.	美しいクリスタルの欠片。よく見ると、中心に目の形をした星の印が見えます。
+23242	The Reward Count for this boss has been exhausted. You will not receive any rewards for continuing.	このボスの報酬獲得回数を使い切っています。続けても報酬は獲得できません。
+23243	Ki shows you an animation of the massive gate to the Garden of Time coming together piece by piece.	キが、時の庭園へ続く巨大な門が一つずつ組み上がっていく映像を見せてくれます。
+23244	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Lunatic Transform	1等賞当選時、ルナティック変身を使用している場合、報酬が追加で@{1}%増加します。
+23245	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Lunatic Transform	3等賞当選時、ルナティック変身を使用している場合、報酬が追加で@{1}%増加します。
+23246	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Poring Transform	2等賞当選時、ポリン変身を使用している場合、報酬が追加で@{1}%増加します。
+23247	Take on a squad Challenge against the Phantom Realm BOSS with @{1} players to earn tons of rewards.	@{1}人で幻影の領域BOSSに挑むチームチャレンジに参加し、大量の報酬を獲得しましょう。
+23248	Summons an ambulance nearby that can be used to Revive teammates. The ambulance lasts for @{1} sec.	近くに救急車を召喚します。救急車は味方の蘇生に使用でき、@{1}秒間持続します。
+23249	Pulls enemies inward toward yourself, damaging enemies hit and inflicting 【Gastric Acid Corrosion】.	敵を自身の方へ引き寄せ、命中した敵にダメージを与え、【胃酸腐食】を付与します。
+23250	They should have remained asleep, yet your touch awakened them... What a fascinating twist of fate.	本来なら眠り続けるはずだったのに、あなたの接触で目覚めた……実に興味深い運命の巡り合わせですね。
+23251	Due to ${1}'s unsportsmanlike conduct in this mode, they must wait ${2} before starting matchmaking	${1}がこのモードでスポーツマンシップに反する行為をしたため、マッチング開始まで${2}待つ必要があります。
+23252	Healing has a @{1}% Chance to trigger an Extra heal equal to @{2}% Magic ATK. (Cooldown: @{3} sec.)	回復時、@{1}%の確率で魔法攻撃力の@{2}%に相当する追加回復が発動します。（クールダウン：@{3}秒）
+23253	Causes all Horongs in the arena to Launch @{1} energy orbs around them, damaging players on contact	アリーナ内のすべてのホロンが周囲へエネルギー弾を@{1}個放ち、接触したプレイヤーにダメージを与えます。
+23254	Insufficient points in the prerequisite Constellation. This Constellation's attributes are inactive.	前提星座のポイントが不足しています。この星座のステータスは無効です。
+23255	Gain one chance to Instant respawn upon death, excluding deaths caused by certain dungeon mechanics.	死亡時に即時復活できる機会を1回獲得します。特定のダンジョンギミックによる死亡は対象外です。
+23256	^{1}^{2}【Cart Revolution】^{3}^{4}: Percentage damage multiplier +${1}%; Fixed Damage Increase +${2}.	^{1}^{2}【カートレボリューション】^{3}^{4}：ダメージ倍率+${1}%、固定ダメージ+${2}。
+23257	When ^{1}^{2}[Sanctuary]^{3}^{4} or ^{5}^{6}[Magnus Exorcismus]^{7}^{8} reaches Lv. ${1}, INT +${2}.	^{1}^{2}[サンクチュアリ]^{3}^{4}または^{5}^{6}[マグナスエクソシズム]^{7}^{8}がLv.${1}に到達すると、INT+${2}。
+23258	Cards of the same quality can be used for Collection, producing Collection Cards of the same quality	同じ品質のカードをコレクションに使用すると、同じ品質のコレクションカードを作成できます。
+23259	This activity looks fun! Give it a try, and don't forget to Claim the chest reward when you're done!	このイベント、面白そう！挑戦してみて、終わったら宝箱の報酬を受け取るのも忘れないでね！
+23260	You can Learn @{1} Life Skills at once. Let's start by choosing a Primary Profession. Give it a try~	同時に@{1}個の生活スキルを習得できます。まずはメイン職業を選んでみましょう～
+23261	So don't worry. Just follow my lead. I'll bring every one of you back safely. I always Keep my word.	だから心配するな。俺についてくればいい。全員を必ず無事に連れ帰る。俺は約束を破らない。
+23262	Because your Backpack is full, unclaimed items have been sent by mail. Please check the attachments.	バックパックがいっぱいのため、未受取アイテムをメールで送りました。添付ファイルをご確認ください。
+23263	Your guild participated in this Epic Campaign and earned the following rewards. Please collect them.	あなたのギルドはこの壮大な戦役に参加し、以下の報酬を獲得しました。お受け取りください。
+23264	Mousetraps? Those are so old-fashioned! Take us to the fields, and we'll take care of it right away!	ネズミ捕り？そんなの時代遅れよ！畑へ連れていって、私たちがすぐ片付けてあげる！
+23265	Professor, are you saying you plan to continue your research? That thing nearly ate all three of us!	教授、研究を続けるつもりなんですか？あれ、私たち3人を丸ごと食べかけたんですよ！
+23266	Welcome! We just brewed a fresh pot of coffee today. You could smell it from the door, couldn't you?	いらっしゃいませ！今日は淹れたてのコーヒーがありますよ。入口からでも香りがしたでしょう？
+23267	You are carrying ${1} supplies, which will add ${2} Military Supplies to the Guild. Submit them all?	${1}個の物資を所持しています。提出するとギルド軍需物資が${2}増加します。すべて提出しますか？
+23268	After you Revive, you can only travel to the ramparts and cannot reenter the Inner Area. Revive now?	復活後は城壁へしか移動できず、内部エリアへ再入場できません。今すぐ復活しますか？
+23269	Fafnir's Molten Gold Breath deals massive damage! Use the scales to build a Shield Wall immediately!	ファフニールの溶金ブレスは大ダメージを与えます！鱗を使ってすぐにシールドウォールを築いてください！
+23270	Numerous invading monsters have been discovered in the Inn area. Nearby Adventurers, eliminate them!	宿屋エリアに多数の侵攻モンスターが出現しました。近くの冒険者は直ちに討伐してください！
+23271	Crude mineral powder commonly used in basic alchemy or Easy Enchant, though its effects are limited.	基礎的な錬金術や簡易エンチャントでよく使われる粗い鉱石粉末。効果は限定的です。
+23272	Obtained through Pet Hatching and Pet Shard Dismantling. Can be exchanged for items in the Pet Shop.	ペット孵化およびペットの欠片分解で獲得できます。ペットショップでアイテムと交換できます。
+23273	The Red heart of an Obeaune. It always looks like it's still beating. Can be exchanged for Headwear.	オボンヌの赤い心臓。今にも鼓動しているように見えます。頭装備と交換できます。
+23274	A short pine staff entwined with fresh green vines, with a dormant Forest Crystal set into its head.	新緑の蔓が絡みついた短い松の杖。先端には眠れる森のクリスタルがはめ込まれています。
+23275	An axe stained with blood from being swung across the battlefield, radiating a terrifying bloodlust.	戦場を駆け抜けるうちに血に染まった斧。恐ろしい殺気を放っています。
+23276	You can continue participating in the auction even if you switch instances or leave the current one.	インスタンスを切り替えたり、現在のインスタンスから退出したりしても、オークションへの参加を続けられます。
+23277	You arrive at your destination, but no one is there. There's only an adorable little kitten meowing.	目的地に到着しましたが、誰もいません。かわいらしい子猫がニャーニャー鳴いているだけです。
+23278	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Lunatic Transform	2等賞当選時、ルナティック変身を使用している場合、報酬が追加で@{1}%増加します。
+23279	Event Period: During the Ignition Test, opens Tuesday, Thursday, and Sunday from @{1}:@{2}~@{3}:@{4}	イベント期間：点火テスト期間中、毎週火・木・日曜日の@{1}:@{2}～@{3}:@{4}に開催。
+23280	Your character is temporarily unable to purchase items from the Instance Auction. Unseal time: ${1}.	現在、このキャラクターはインスタンスオークションで一時的に購入できません。解除時間：${1}。
+23281	Because you are under @{1}, the anti-addiction System limits each purchase to no more than @{2} yuan	@{1}歳未満のため、依存防止システムにより1回の購入額は@{2}元までに制限されます。
+23282	Increases the Physical ATK of up to @{2} allies within a @{1} m radius by ^{1}${1}^{2} for ${2} sec.	半径@{1}m以内の味方最大@{2}体の物理攻撃力を、${2}秒間^{1}${1}^{2}増加させます。
+23283	Deals Holy ranged magic damage equal to Magic ATK *^{1}${2}%^{2} to up to ${1} enemies within range.	範囲内の敵最大${1}体に、魔法攻撃力*^{1}${2}%^{2}の聖属性遠距離魔法ダメージを与えます。
+23284	Lock onto an enemy at a Distance of ${1} cells and deal ${11}% melee Physical damage. No Translation	${1}セル離れた敵をロックオンし、${11}%の近接物理ダメージを与えます。
+23285	After Ragnarök, its branches gradually began to decay... and countless timelines are withering away.	ラグナロクの後、その枝は次第に朽ち始め……無数の時間軸が枯れつつあります。
+23286	My explanation may sound clichéd, but the Nail of Cosmic Law reacted to you just now. That is proof.	ありきたりな説明に聞こえるかもしれないが、先ほど宇宙法則の釘が君に反応した。それが証拠だ。
+23287	Blades. Every @{1} blades increases the number of blades 【Cross Ripper Slasher】 can Launch by +@{2}.	ブレード。ブレード@{1}枚ごとに、【クロスリッパースラッシャー】が放てるブレード数が+@{2}増加します。
+23288	Collect @{1} Sticky Mucus from Porings and deliver it to the Medicine Workshop as a basic ingredient.	ポリンから粘着質の液体を@{1}個集め、基礎材料として薬品工房へ届けてください。
+23289	The Party Leader has recognized your strength and will invite you to join a top-secret new Commission	パーティリーダーがあなたの実力を認め、極秘の新任務へ招待しようとしています。
+23290	A novice practitioner and new Member of the Church who can use Divine Light on themselves and allies.	自身と味方にホーリーライトを使用できる、教会に入ったばかりの修行者。
+23291	Hold down the Mouse Button and drag cargo onto the carpet, or Tap the cargo icon for quick placement.	マウスボタンを押したまま貨物を絨毯へドラッグするか、貨物アイコンをタップして素早く配置します。
+23292	The team can only appoint ${1} deputy leaders. The maximum number of deputy leaders has been reached.	チームで任命できる副リーダーは${1}人までです。副リーダー数が上限に達しています。
+23293	Cancel the Impeachment of Guild Leader ${1}? You cannot Impeach again for ${2} hours after canceling.	ギルドマスター${1}への弾劾を取り消しますか？取り消すと${2}時間は再度弾劾できません。
+23294	The player moves at @{1} m/sec while transporting valuable Military Supplies. Be sure to move slowly.	貴重な軍需物資を運搬中、プレイヤーの移動速度は@{1}m/秒になります。ゆっくり移動してください。
+23295	Increases DMG Reduction by ${1}%. Each Floor of the Defense buff grants an Extra ${2}% DMG Reduction.	被ダメージ軽減が${1}%増加します。防御バフが1スタック累積するごとに、追加で被ダメージ軽減が${2}%増加します。
+23296	This skill has prerequisites. Spend <color=#cc762a>${1}</color> skill points to use Quick Allocation?	このスキルには前提条件があります。<color=#cc762a>${1}</color>スキルポイントを消費してクイック配分を使用しますか？
+23297	Folded from cloth into a circular shape and set with a gemstone, this headpiece looks truly majestic.	布を円形に折り畳み、宝石をあしらった頭装備。実に威厳のある見た目です。
+23298	To help you survive the battles ahead, I have some spare materials you can use to repair your weapon.	これからの戦いを生き抜けるよう、武器の修理に使える余った素材を少し用意しておいた。
+23299	Sniff... You're right, Master. The professor can't wait that long! Bobo... Bobo will protect you, bo!	ぐすっ……ご主人様の言う通りだよ。教授はそんなに待てない！ボボ……ボボがご主人様を守るボ！
+23300	Auto-Bid for ${1} has been canceled, and your funds have been returned. Please check the attachments.	${1}の自動入札をキャンセルし、資金を返還しました。添付ファイルをご確認ください。
+23301	Congratulations! You finished ${2} in the ${1} challenge. Here are your rewards. Please collect them!	おめでとうございます！${1}チャレンジで第${2}位となりました。こちらが報酬です。お受け取りください！
+23302	Welcome to the Producer's Lair! The Kafra Corporation is here to provide you with the finest service.	プロデューサーの隠れ家へようこそ！カプラコーポレーションが最高のサービスをご提供します。
+23303	Hey, quit bragging! These guys look like a bunch of dimwits. There's no way they're stronger than Me!	おい、威張るのはやめろよ！こいつら、みんな間抜けそうじゃないか。俺より強いわけないだろ！
+23304	That's right. Tritura Academy does work with me, so every Adventurer can come here to receive a gift.	そうです。クリトゥラ学園とは提携しているので、冒険者なら誰でもここでプレゼントを受け取れます。
+23305	Unfortunately, there are no players with that transformation type on the field, so there is no winner	残念ながら、フィールドに該当する変身タイプのプレイヤーがいないため、当選者はいません。
+23306	“Once night falls, we'll camp atop the dunes, and I'll treat you to the strongest desert ale around!”	「夜になったら砂丘の上で野営して、この辺で一番強い砂漠の酒を飲ませてやるよ！」
+23307	Bobo\nAh, it's Maya! (Covers mouth with wings) I don't see the professor. Did she hide him somewhere?	ボボ\nあっ、マヤだ！（翼で口を覆う）教授が見当たらないよ。どこかに隠したのかな？
+23308	In RO, the classic War of Emperium (WoE) is usually held every Wednesday from @{1}:@{2} to @{3}:@{4}.	ROのクラシックな攻城戦（WoE）は、通常毎週水曜日の@{1}:@{2}～@{3}:@{4}に開催されます。
+23309	Obtained by Dismantling Divine Arts Totems. Used to exchange for items in the Divine Arts Totem Shop.	神術トーテムの分解で獲得できます。神術トーテムショップでアイテムと交換する際に使用します。
+23310	After being released, the Pathfinder Ant crawled off in one direction, leaving a trail of Footprints.	放たれた探索アリは一方向へ這っていき、足跡を残しました。
+23311	Launch a shockwave that deals ATK * ^{1}@{2}%^{2} damage to a designated ST enemy within @{1} meters.	衝撃波を放ち、@{1}m以内の指定した単体の敵に攻撃力*^{1}@{2}%^{2}のダメージを与えます。
+23312	Launches a rocket punch, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	ロケットパンチを放ち、@{1}m以内の指定した単体の敵に攻撃力*^{1}@{2}%^{2}のダメージを与えます。
+23313	Deals PATK * ^{1}${2}%^{2} Neutral Ranged Physical DMG to the designated ST enemy within ${1} meters.	${1}m以内の指定した単体の敵に、物理攻撃力*^{1}${2}%^{2}の無属性遠距離物理ダメージを与えます。
+23314	Extends the duration of Shields granted by ^{1}Shield-type^{2} Primary Battle Skills by ${1} seconds.	^{1}シールド型^{2}のメイン戦闘スキルで付与されるシールドの持続時間を${1}秒延長します。
+23315	Choco leaps up and scratches an enemy, dealing ^{1}${1}%^{2} Neutral Physical damage to an ST target.	チョコが跳び上がって敵を引っかき、単体の対象に^{1}${1}%^{2}の無属性物理ダメージを与えます。
+23316	The young lady I served was in poor health and always coughing, so she regularly took cough medicine.	私がお仕えしていたお嬢様は体が弱く、いつも咳をしていたので、よく咳止め薬を飲んでいました。
+23317	Due to your unsportsmanlike conduct in this mode, you must wait ${1} before you can start matchmaking	このモードでスポーツマンシップに反する行為をしたため、マッチング開始まで${1}待つ必要があります。
+23318	I've taken first place ${2} times using 【${1}】, with a longest survival time of ${3}. I'll carry you!	【${1}】を使って${2}回1位を獲得したよ。最長生存時間は${3}！私に任せて！
+23319	Follow Bobo to learn about the Build Handbook (where you can Learn about each Build's unique features)	ボボについていき、ビルドハンドブックについて学びましょう（各ビルドの特徴を確認できます）。
+23320	Are you sure you want to spend the following items to unlock 5 Backpack slots? Remaining unlocks: ${1}	以下のアイテムを消費してバックパックスロットを5枠解放しますか？残り解放回数：${1}
+23321	The Professor and the others appear to be surrounded by monsters. Hurry over and see what's happening.	教授たちがモンスターに囲まれているようです。急いで様子を見に行きましょう。
+23322	\n${1} was the work you loved most. You've carved out a place of your own on the continent of Midgard.	\n${1}はあなたが最も愛した仕事でした。ミッドガルド大陸に自分だけの居場所を築き上げました。
+23323	A vibrant Green Healing Potion brimming with Life that instantly restores @{1} HP. Cooldown: @{2} sec.	生命力に満ちた鮮やかな緑色の回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+23324	Fight alongside your Pet to Challenge a tower teeming with Monsters and push your Floors to the limit!	ペットと共にモンスターがひしめく塔へ挑み、到達階層の限界を目指しましょう！
+23325	Increases Physical Damage by @{1}% and the percentage damage multiplier bonus of 【Aimed Bolt】 by @{2}%	物理ダメージが@{1}%増加し、【エイムドボルト】のダメージ倍率ボーナスが@{2}%増加します。
+23326	Holy Light Baptism blesses you, reducing ^{1}^{2}[Magnus Exorcismus]^{3}^{4} Cooldown by ${1} seconds.	聖光の洗礼による加護を受け、^{1}^{2}[マグナスエクソシズム]^{3}^{4}のクールダウンを${1}秒短縮します。
+23327	While ^{1}^{2}[Cart Boost]^{3}^{4} is active, [High Speed Cart Ram]'s damage bonus increases by ${1}%.	^{1}^{2}[カートブースト]^{3}^{4}発動中、[ハイスピードカートアタック]のダメージボーナスが${1}%増加します。
+23328	Maya launches ^{3}cross-shaped blades^{4} in ^{1}@{1} directions^{2}, damaging enemies in their paths.	マヤが^{1}@{1}方向^{2}へ^{3}十字型の刃^{4}を放ち、経路上の敵にダメージを与えます。
+23329	"Berserk Potion" can be used by all classes and provides the highest Attack Speed boost of any potion.	「バーサークポーション」は全職業が使用でき、ポーションの中で最も高い攻撃速度上昇効果を持ちます。
+23330	Taking this item off will leave your Stall empty, so the Stall will automatically Show less.\nProceed?	このアイテムを外すと露店の商品がなくなるため、露店は自動的に表示数が減ります。\n続行しますか？
+23331	The invitation will automatically expire if no action is taken within <color=#C27B47>24 hours</color>.	<color=#C27B47>24時間</color>以内に操作しない場合、招待は自動的に期限切れになります。
+23332	Chance of a Complete S-Rank Pet: 3%\nChance of an S-Rank Pet Shard: 37%\nChance of a Pet EXP Book: 60%	Sランクペット本体の確率：3%\nSランクペットの欠片の確率：37%\nペットEXPブックの確率：60%
+23333	Doesn't that mean you have to Repeat the same lines hundreds of times? Don't you ever get tired of it?	それって、同じ台詞を何百回も繰り返すってこと？飽きたりしないの？
+23334	Congratulations! You placed No. ${1} in the Fashion Rating Ranking. Please claim your Ranking Rewards!	おめでとうございます！ファッション評価ランキングで第${1}位にランクインしました。ランキング報酬をお受け取りください！
+23335	Here is the reward from your Wish in the Goddess's Prelude event. Please claim it from the attachment.	「女神のプレリュード」イベントで願いをかけて獲得した報酬です。添付ファイルからお受け取りください。
+23336	Although ${1} fell during this event, your efforts deserve recognition. Please claim the prizes below!	このイベント中に${1}は陥落してしまいましたが、皆さんの努力は称賛に値します。以下の報酬をお受け取りください！
+23337	(Clutches chest) You drive a harder bargain than this sword's edge! That wouldn't even cover the cost!	（胸を押さえて）この剣の刃より容赦ない値切り方だな！そんな金額じゃ原価にもならないよ！
+23338	Every weapon here is certified by the assessment board for its respective class. Shop with confidence!	ここにある武器はすべて、各職業の査定委員会による認証済みです。安心してお買い求めください！
+23339	I'll send you a Notification if I Discover a Clue. For now, stay by the campfire and don't wander off.	手がかりを見つけたら連絡するよ。それまでは篝火のそばにいて、勝手に歩き回らないでくれ。
+23340	Is this really a Clue? I bet this dumb dog only tricked us into coming here because he wanted a snack!	これが本当に手がかりなの？このバカ犬、おやつが欲しくて私たちをここまで騙して連れてきただけじゃないの！
+23341	So, in accordance with our Alternate plan, we've decided to move out immediately. Until we meet again~	では、代替案に従って、直ちに出発することにしました。またお会いしましょう～
+23342	Enemy forces are harassing Prontera West Gate. Nearby defenders, suppress them before the flank falls!	敵軍がプロンテラ西門を襲撃しています。近くの防衛兵は側面を突破される前に撃退してください！
+23343	Bobo\nHuh? He stopped. Is there another Monster up ahead that he's afraid of? Are all dogs this timid?	ボボ\nん？止まったよ。前にまた怖いモンスターでもいるのかな？犬ってみんなこんなに臆病なの？
+23344	A semi-finished material made from initially processed raw silk. Used to craft fine clothing or armor.	生糸を一次加工した半製品素材。上質な衣服や防具の製作に使用します。
+23345	A mysterious plant stem infused with nature's energy. It is said to give fabric an affinity for magic.	自然のエネルギーを宿した不思議な植物の茎。布地に魔力との親和性を与えるといわれています。
+23346	A wooden rune imbued with the power of blessings that grants equipment Extra advanced magical effects.	祝福の力を宿した木製ルーン。装備に追加の上級魔法効果を付与します。
+23347	A tiny bow that looks like it could only fit around a cat's or dog's neck. It smells a little funky...	猫や犬の首にしか合わなそうな小さなリボン。少し変な臭いがする……
+23348	Check the BOSS's location and head there for the Kill! Other players can compete for it too, so hurry.	BOSSの位置を確認して討伐に向かいましょう！他のプレイヤーも争奪に参加できるので急いでください。
+23349	Event Period: During the Ignition Test, opens Monday, Wednesday, and Saturday from @{1}:@{2}~@{3}:@{4}	イベント期間：点火テスト期間中、毎週月・水・土曜日の@{1}:@{2}～@{3}:@{4}に開催。
+23350	Only Cooking, potions, Voice Message Items, Treasure Maps, and equipment can be placed in Quick Items.	クイックアイテムに設定できるのは、料理、ポーション、ボイスメッセージアイテム、宝の地図、装備のみです。
+23351	Charges one of the @{1} Bells on the field, then shuffles them. Players must destroy the charged Bell.	フィールド上の@{1}個の鈴のうち1つを帯電させた後、位置をシャッフルします。プレイヤーは帯電した鈴を破壊する必要があります。
+23352	When a ^{1}Dispel-type^{2} Primary Battle Skill is cast, restores ^{3}${1}% of the owner's Max HP^{4}.	^{1}解除型^{2}のメイン戦闘スキル発動時、主人の最大HPの^{3}${1}%^{4}を回復します。
+23353	Tap a teammate's Portrait to spectate them. (Spectator Mode will begin automatically in ${1} seconds.)	味方のアイコンをタップすると、その味方を観戦できます。（${1}秒後に自動で観戦モードへ移行します。）
+23354	Magic damage increased by @{1}%. Each Floor of a magic damage buff grants an Extra @{2}% Magic damage.	魔法ダメージが@{1}%増加します。魔法ダメージバフが1スタック累積するごとに、追加で魔法ダメージが@{2}%増加します。
+23355	Reach <color=#97e553>${1}/${2}</color> Personal Contribution to receive the following ranking rewards.	個人貢献度が<color=#97e553>${1}/${2}</color>に到達すると、以下のランキング報酬を受け取れます。
+23356	Reach <color=#ec543a>${1}/${2}</color> Personal Contribution to receive the following ranking rewards.	個人貢献度が<color=#ec543a>${1}/${2}</color>に到達すると、以下のランキング報酬を受け取れます。
+23357	Deals ranged Magic Damage equal to Magic ATK * ^{1}@{2}%^{2} to the designated ST enemy within @{1} m.	@{1}m以内の指定した単体の敵に、魔法攻撃力*^{1}@{2}%^{2}の遠距離魔法ダメージを与えます。
+23358	This heavily-armored, fully-equipped Peco Peco is the exclusive combat mount exclusive for Lord Knight.	重装甲で完全武装したこのペコペコは、ロードナイト専用の戦闘乗り物です。
+23359	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Ranged^{10}^{11}^{12}\n^{13}^{14}^{15}Buff^{16}^{17}^{18}	^{1}^{2}^{3}物理^{4}^{5}^{6}\n^{7}^{8}^{9}遠距離^{10}^{11}^{12}\n^{13}^{14}^{15}バフ^{16}^{17}^{18}
+23360	A Healing Potion imbued with the power of Blessing that instantly restores @{1} HP. Cooldown: @{2} sec.	祝福の力を宿した回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+23361	A Fountain of Life surging with boundless vitality that instantly restores @{1} HP. Cooldown: @{2} sec.	尽きることのない生命力が湧き出す生命の泉。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+23362	^{1}^{2}【High Speed Cart Ram】^{3}^{4} percentage damage multiplier +${1}%; Fixed Damage Increase +${2}.	^{1}^{2}【ハイスピードカートアタック】^{3}^{4}のダメージ倍率+${1}%、固定ダメージ+${2}。
+23363	Increases Hunting Protection by ${1}. Each skill on this Totem grants an Extra ${2} Hunting Protection.	狩猟保護が${1}増加します。このトーテムのスキル1つにつき、追加で狩猟保護が${2}増加します。
+23364	Pharaoh summons the ^{1}Hand of the Dead^{2}, dealing damage in a circular area at the target location.	ファラオが^{1}死者の手^{2}を召喚し、ターゲット位置の円形範囲にダメージを与えます。
+23365	<color=#99FF9F>Current Server Level Cap: Lv. ${1}\n${2}: Server Level Cap increases to Lv. ${3}</color>	<color=#99FF9F>現在のサーバーレベル上限：Lv.${1}\n${2}：サーバーレベル上限がLv.${3}に上昇</color>
+23366	This chest does not currently have an opening bonus. You may want to save it for later. Open it anyway?	現在、この宝箱には開封ボーナスがありません。後で開けることをおすすめします。それでも開けますか？
+23367	Tap to Rent one for free. It's an exclusive Benefit, bobo~ Once you've rented it, remember to Tap Ride!	タップすると無料で1体レンタルできます。限定特典だボ～。レンタルしたら忘れずに「騎乗」をタップしてね！
+23368	That beast is clever and always on the move. It won't just sit in one place waiting for you to find it.	あの獣は賢く、常に動き回っている。同じ場所で見つけてもらうのを待っているような奴じゃない。
+23369	Could you be under some kind of illusion? Maybe there's a fox spirit or something lurking near Payon...	何かの幻覚にかかってるんじゃない？フェイヨンの近くに狐の妖怪か何かが潜んでるのかも……
+23370	All right, no more questions, then. Keep your ticket handy, rookie. Prepare to board—next stop, Morroc!	よし、質問はもうないな。切符はなくすなよ、新人。乗船準備だ――次の目的地はモロック！
+23371	Because the auction Function has been disabled, your bid funds have been refunded. Please collect them~	オークション機能が無効化されたため、入札資金を返還しました。お受け取りください～
+23372	Here is the reward you left behind in the Tribute of Echoes event. Please claim it from the attachment.	「エコーの献上」イベントで受け取っていなかった報酬です。添付ファイルからお受け取りください。
+23373	Hello! I'm a voting campaign representative sent here by the Zonda Planning Agency. How may I help you?	こんにちは！ゾンダ企画社から派遣された投票キャンペーン担当です。どのようなご用件でしょうか？
+23374	Hello! I'm Nia, the fifth disciple of the Demon Lord, who creates fun games and brings joy to everyone.	こんにちは！私はみんなが楽しめるゲームを作り、笑顔を届ける魔王の五番弟子、ニアです。
+23375	But while developing a new weapon, all four of his sons tragically lost their lives. He alone survived.	しかし新兵器の開発中、彼の4人の息子は全員命を落とし、彼だけが生き残りました。
+23376	Before I joined the army, I thought being stationed in a forest would be nice—cool shade and fresh air.	軍に入る前は、森の駐屯地なら涼しい木陰と新鮮な空気があって快適だと思ってたんだ。
+23377	Bread, grilled meat, fruit, soup dumplings—hot or cold, we've got it all. Just tell me what you'd like.	パン、焼き肉、果物、小籠包――温かいものも冷たいものも何でもあるよ。好きなものを言ってくれ。
+23378	It's finally over. Without your help, I probably would've gone down with this swarm of Chonchons today.	やっと終わった……。君が助けてくれなかったら、今日はこのチョンチョンの群れと一緒に倒れてたよ。
+23379	You all go on ahead. ^{1}PlayerName^{2} and I still have something to take care of. We'll return later.	みんなは先に行って。^{1}PlayerName^{2}と私はまだやることがあるから、あとで戻るわ。
+23380	It says you have some evidence on you, and it wants to sniff it. It probably means that bow tie, right?	何か証拠品を持ってるから匂いを嗅がせてほしいって。たぶん、あの蝶ネクタイのことだよね？
+23381	Stop! Fervor, don't you dare! You can't eat that! It's poop! Poop, understand?! Aaaah, I'm going blind!	やめて！ファーヴァー、ダメ！それ食べちゃダメ！うんちよ！うんち、分かる？！あああ、目が潰れる！
+23382	Hmph. You talk as if you're so responsible, but weren't you the ones who lost the instrument last time?	ふん。ずいぶん責任感があるような口をきくけど、この前装置をなくしたのはあんたたちじゃなかった？
+23383	Wow, it's you again! We've gotten lots of new equipment Recent. What do you think? Do we look stronger?	わあ、また会ったね！最近、新しい装備がたくさん増えたんだ。どう？強くなったように見える？
+23384	This action will consume ${1} to supply the missing synthesis materials, ${2}. Perform Quick Synthesis?	この操作では${1}を消費して、不足している合成素材${2}を補います。クイック合成を実行しますか？
+23385	Bobo\n(Flies around in circles) Hehe! We got to help people and Complete the Commission! We're amazing!	ボボ\n（くるくる飛び回る）えへへ！人助けもできて依頼も達成したよ！ボボたち、すごいね！
+23386	Captain\nIf you're set on staying on deck instead of going inside, you'd better hold on to the railing.	船長\n船室に入らず甲板に残るっていうなら、手すりにしっかりつかまってろよ。
+23387	This instrument is said to extract particles of longing, and it's the only one on the entire continent.	この装置は思慕の粒子を抽出できるといわれていて、大陸にたった1台しかないんだ。
+23388	Toot, toot, toot! Use this special Lunatic Horn to shout to everyone and trigger a special shout effect	プップップー！この特製ルナティックホーンを使ってみんなに叫び、特別なシャウト演出を発動しよう！
+23389	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Savage Babe Transform	1等賞当選時、サベージベベ変身を使用している場合、報酬が追加で@{1}%増加します。
+23390	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Savage Babe Transform	3等賞当選時、サベージベベ変身を使用している場合、報酬が追加で@{1}%増加します。
+23391	Take on a Party Challenge against the Realm of the Gods BOSS with @{1} players to earn tons of rewards.	@{1}人で神域BOSSに挑むパーティチャレンジに参加し、大量の報酬を獲得しましょう。
+23392	A musical note formed from condensed natural energy. Used during the Season: Symphony of Genesis event.	自然エネルギーを凝縮して生まれた音符。シーズン「創世の交響曲」イベントで使用します。
+23393	Increases your damage against ^{3}Undead^{4} Monsters and ^{5}Demon Race^{6} Monsters by ^{1}${1}%^{2}.	^{3}不死属性^{4}モンスターおよび^{5}悪魔種族^{6}モンスターへの与ダメージが^{1}${1}%^{2}増加します。
+23394	Deepens your understanding of weapons, increasing Physical ATK by ^{1}${1}^{2} and HIT by ^{3}${2}^{4}.	武器への理解を深め、物理攻撃力が^{1}${1}^{2}、HITが^{3}${2}^{4}増加します。
+23395	When equipped with an axe or mace, increases your Physical ATK by ^{1}${1}^{2} and HIT by ^{3}${2}^{4}.	斧またはメイス装備時、物理攻撃力が^{1}${1}^{2}、HITが^{3}${2}^{4}増加します。
+23396	Summon an ambulance nearby that can be used to Revive teammates. The ambulance lasts ^{1} @{1}^{2} sec.	近くに救急車を召喚します。救急車は味方の蘇生に使用でき、^{1}@{1}^{2}秒間持続します。
+23397	Increases the Skill Damage Multiplier of ^{1}Offensive-type^{2} Primary Battle Skills by ^{3}${1}%^{4}.	^{1}攻撃型^{2}のメイン戦闘スキルのスキルダメージ倍率が^{3}${1}%^{4}増加します。
+23398	The Goddess of Hope swings her spear, dealing ^{1}${1}%^{2} Neutral melee Physical damage to the enemy.	希望の女神が槍を振るい、敵に^{1}${1}%^{2}の無属性近接物理ダメージを与えます。
+23399	Passive: Empowers your attacks, increasing your Crit Chance by ^{1}${1}%^{2} and PATK by ^{3}${2}%^{4}.	パッシブ：攻撃を強化し、クリティカル率が^{1}${1}%^{2}、物理攻撃力が^{3}${2}%^{4}増加します。
+23400	We meet again, Adventurer from afar. It seems the 【Nail of Cosmic Law】 has taken quite a liking to you.	また会いましたね、遠方から来た冒険者さん。どうやら【宇宙法則の釘】はあなたをずいぶん気に入ったようです。
+23401	The challenge against Ilmata, God of Nature, is now open. Guilds can enter through the Guild interface.	自然の神イルマタへの挑戦が開放されました。ギルド画面から参加できます。
+23402	When dealing damage while above @{1}% Life, Magic ATK is treated as being increased by Base Lv. * @{2}.	HPが@{1}%を上回っている状態でダメージを与える時、魔法攻撃力がBase Lv.*@{2}増加したものとして扱われます。
+23403	Every third cast of 【Soul Destroyer】 becomes 【Advanced Soul Destroyer】, increasing its damage by ${1}%.	【ソウルデストロイヤー】を3回発動するごとに【上級ソウルデストロイヤー】となり、ダメージが${1}%増加します。
+23404	^{1}^{2}【Gravitation Field】^{3}^{4} DMG multiplier +^{5}${1}%^{6} and fixed skill damage +^{7}${2}^{8}.	^{1}^{2}【グラビテーションフィールド】^{3}^{4}のダメージ倍率+^{5}${1}%^{6}、固定スキルダメージ+^{7}${2}^{8}。
+23405	Professional artisans skilled in Cooking and one of the key professions for creating restorative dishes.	料理に精通した職人。回復料理を作るうえで欠かせない生活職業の一つです。
+23406	Failed to refresh the update files. Some cache files may be in use, or there may be a Permissions issue.	アップデートファイルの更新に失敗しました。一部のキャッシュファイルが使用中か、権限に問題がある可能性があります。
+23407	If a team has a Member with no Reward Count remaining, its score will be reduced by a certain percentage	報酬獲得回数が残っていないメンバーがチームにいる場合、スコアが一定割合減少します。
+23408	You must claim your currently accumulated expedition time rewards before switching maps. Claim them now?	マップを切り替える前に、現在蓄積している遠征時間の報酬を受け取る必要があります。今すぐ受け取りますか？
+23409	*View recent Hatching Records. Results may be slightly delayed. Up to 50 pages of records can be stored.	*最近の孵化記録を確認できます。結果の反映には多少時間がかかる場合があります。最大50ページ分の記録を保存できます。
+23410	Once a pet with an Active Skill is deployed in the Active Slot, you can manually use its skill in battle	アクティブスキルを持つペットをアクティブスロットに配置すると、戦闘中にそのスキルを手動で使用できます。
+23411	Here, you can view your job's talent branches. Max out the prerequisite talent to unlock and select one!	ここでは職業のタレント分岐を確認できます。前提タレントを最大まで上げると解放され、選択できるようになります！
+23412	(Shakes head with feigned solemnity) The worst thing a Novice can do is have no idea what their goal is.	（わざとらしく厳粛に首を振る）ノービスにとって一番よくないのは、自分の目標が分からないことだ。
+23413	Why is it just the two of you? Where are the captain and the others? ...You didn't find Professor Levin?	どうして二人だけなんだ？隊長たちはどこにいる？……レビン教授は見つからなかったのか？
+23414	Your guild ranked No. @{1} on the Entire Server in the Hunting Challenge. Please claim the prizes below!	あなたのギルドはハンティングチャレンジの全サーバーランキングで第@{1}位に入りました。以下の報酬をお受け取りください！
+23415	Come now, Professor, please calm down. It's just an instrument. We'll certainly compensate you for it...	まあまあ、教授、落ち着いてください。ただの装置でしょう。きちんと弁償しますから……
+23416	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	「龍棺島を覆う暗雲」- ${1}チャレンジが開放されました！ドラゴン討伐に参加しましょう！
+23417	A blue-backed fish from Frozen waters that's very nutritious. Feed for the Pet [Leafy Cat]. Weight: @{1}	凍てつく海で獲れる、背中が青く栄養豊富な魚。ペット[リーフキャット]のエサ。重量：@{1}
+23418	A precious flower that murmurs to itself even when no one is listening. It's the Rocker's favorite item.	誰も聞いていなくてもひそひそと囁く貴重な花。ロッカーの大好物です。
+23419	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Savage Babe Transform	2等賞当選時、サベージベベ変身を使用している場合、報酬が追加で@{1}%増加します。
+23420	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	1等賞当選時、バフォメット.Jr変身を使用している場合、報酬が追加で@{1}%増加します。
+23421	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	3等賞当選時、バフォメット.Jr変身を使用している場合、報酬が追加で@{1}%増加します。
+23422	You are responding to too many Get Help requests. Submit a response before responding to another player.	「助けを求める」への回答数が多すぎます。先に回答を送信してから、別のプレイヤーへ回答してください。
+23423	Rapidly attacks the target, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	素早くターゲットを攻撃し、@{1}m以内の指定した単体の敵に攻撃力*^{1}@{2}%^{2}のダメージを与えます。
+23424	Cat o' Nine-Tail swings its Bell down on the enemy, dealing ^{1}${1}%^{2} Neutral melee Physical damage.	九尾狐が鈴を敵へ振り下ろし、^{1}${1}%^{2}の無属性近接物理ダメージを与えます。
+23425	Once that's done, take the device to the stone pillar and attach the wire to ^{1}【the stone pillar】^{2}.	終わったら装置を石柱へ運び、ケーブルを^{1}【石柱】^{2}に接続してください。
+23426	Changes the armor element of yourself and up to ${3} allies within ${1} meters to Holy for ${2} seconds.	自身および${1}m以内の味方最大${3}体の鎧属性を${2}秒間、聖属性に変更します。
+23427	[Competition] Complete Kafra: Battle of the Survivors with at least @{1} Member from your Adventure Party	[競技] 冒険パーティのメンバー@{1}人以上と一緒に「カプラ：生存者の戦い」をクリアする。
+23428	<color=#FA983A>${1} Function</color> is temporarily unavailable. Please check the official announcements.	<color=#FA983A>${1}機能</color>は一時的に利用できません。公式のお知らせをご確認ください。
+23429	Failed to Download the resource package. This may be a Network issue. Check your connection and Retry....	リソースパッケージのダウンロードに失敗しました。ネットワークに問題がある可能性があります。接続を確認してもう一度お試しください。
+23430	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Melee^{10}^{11}^{12}\n^{13}^{14}^{15}Control^{16}^{17}^{18}	^{1}^{2}^{3}物理^{4}^{5}^{6}\n^{7}^{8}^{9}近接^{10}^{11}^{12}\n^{13}^{14}^{15}妨害^{16}^{17}^{18}
+23431	Lemon and herbs infused in Alcohol until as clear as Crystal. Increases Life by @{1}~@{2} for @{3} hours.	レモンとハーブを水晶のように澄むまでアルコールに漬け込んだもの。@{3}時間、HPが@{1}～@{2}増加します。
+23432	Temporarily increases DEX by @{1} and AGI by @{2}, and detects hidden enemies within a @{3}-meter radius.	一時的にDEXが@{1}、AGIが@{2}増加し、半径@{3}m以内の隠れている敵を探知します。
+23433	Does not actively attack players. Prioritizes charging toward the center of the island to attack the seal	プレイヤーを自発的には攻撃しません。島の中央へ突進して封印を攻撃することを優先します。
+23434	Increases the Chance for ^{1}^{2}【Arrow Attack】^{3}^{4} to trigger ^{5}^{6}【Blitz Beat】^{7}^{8} by ${1}%.	^{1}^{2}【アローアタック】^{3}^{4}が^{5}^{6}【ブリッツビート】^{7}^{8}を発動する確率が${1}%増加します。
+23435	You're strong enough to quickly advance to higher Floors. Do you want to continue challenging this Floor?	より高い階層へ素早く進めるだけの実力があります。この階層への挑戦を続けますか？
+23436	"SP Battery" is a nickname for Sages/Sorcerers, as their Soul Change skill can restore party members' SP.	「SPバッテリー」はセージ／ソーサラーの通称で、スキル「ソウルチェンジ」でパーティメンバーのSPを回復できることに由来します。
+23437	Here you can view the rewards for clearing each floor. Rewards are sent automatically after you clear it!	ここでは各階層のクリア報酬を確認できます。クリア後、報酬は自動的に送られます！
+23438	Sorry for the lengthy explanation. The Eden Group staff should be waiting for you, so please hurry along.	長々と説明してしまってすみません。楽園団のスタッフが待っているはずなので、急いで向かってください。
+23439	Hello, Adventurer. If you wish to undergo your Job Advance, you must first submit your trial certificate.	こんにちは、冒険者さん。転職を希望するなら、まず試練の証明書を提出してください。
+23440	You're the Chonchon! Your whole family's made of soot! Bobo is a noble Demon Poring! Get a good look, bo!	お前こそチョンチョンだ！家族みんな煤まみれだろ！ボボは高貴なデビルポリンなんだぞ！よーく見るボ！
+23441	The ${1} Misc Auction has Ended. Please claim the Dividends earned from this auction from the attachment.	${1}雑貨オークションが終了しました。このオークションで獲得した配当金を添付ファイルからお受け取りください。
+23442	You've worked hard traveling from Geffen to Morroc and all the way back. Geffen owes You one, Adventurer.	ゲフェンからモロックまで行って戻って、本当にお疲れ様。ゲフェンはあなたに借りができたね、冒険者さん。
+23443	Welcome! I'm a voting campaign representative sent to Prontera by Kafra Headquarters. How may I help you?	いらっしゃいませ！カプラ本社からプロンテラへ派遣された投票キャンペーン担当です。どのようなご用件でしょうか？
+23444	Not so fast. Your Job Advance granted you Newfound Power, but you must learn to understand and master it.	まだだ。転職で新たな力を得たが、その力を理解し、使いこなすことを学ばなければならない。
+23445	Ant Hell? Just hearing that gives me the creeps. What's that old guy doing in a horrible place like that?	蟻地獄？聞いただけでゾッとするよ。あの爺さん、そんな恐ろしい場所で何をしてるんだ？
+23446	You're here. Perfect timing—the instrument has just finished starting up, so we can begin the field test.	来てくれたか。ちょうどいい。装置の起動が終わったところだ。さっそく現地試験を始めよう。
+23447	"The White Dove's an old friend of mine. She may sail steady now, but she once saved my life in a storm."	「白鳩号とは長い付き合いだ。今でこそ安定して飛ぶが、昔は嵐の中で俺の命を救ってくれたこともある」
+23448	If you insist on staying on deck instead of going into the cabin, you'd better hold tight to the railing.	船室に入らず甲板に残るっていうなら、手すりにしっかりつかまってろよ。
+23449	Guide Golden Thief Bug toward a wormhole! Sandstorms will soon strike randomly from all sides of the map!	黄金蟲をワームホールへ誘導してください！まもなくマップの四方からランダムに砂嵐が襲ってきます！
+23450	${1}'s party successfully escorted @{1} Basic Supply Cart(s), adding ${3} Military Supplies to the Guild.	${1}のパーティがベーシック補給カート@{1}台の護衛に成功し、ギルド軍需物資が${3}増加しました。
+23451	The situation at the Inn is critical! If it falls, the enemy will directly threaten the central district!	宿屋の状況が危機的です！ここが陥落すれば、敵が中央地区を直接脅かします！
+23452	A crystal imbued with magical energy. It powers Magic Equipment and is used to prepare for the New World.	魔力を宿したクリスタル。魔法装置の動力源となり、新世界への準備に使用されます。
+23453	Enhanced sacred armor plating combining high durability with holy protection, providing top-tier defense.	高い耐久性と聖なる加護を兼ね備えた強化聖装甲板。最高クラスの防御性能を誇ります。
+23454	A Metal bar smelted from mithril. Both tough and lightweight, it can be used to forge standard equipment.	ミスリルを精錬して作られた金属棒。頑丈かつ軽量で、標準的な装備の鍛造に使用できます。
+23455	Adventure Party EXP obtained by completing Adventure Party quests. Increases the Adventure Party's level.	冒険パーティのクエスト達成で獲得する冒険パーティEXP。冒険パーティのレベルを上昇させます。
+23456	Every Monday at 5:00 AM, ${1} reward claim attempts will be added for the highest-level unlocked dungeon.	毎週月曜日の午前5:00に、解放済みの最高レベルダンジョンの報酬獲得回数が${1}回追加されます。
+23457	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	2等賞当選時、バフォメット.Jr変身を使用している場合、報酬が追加で@{1}%増加します。
+23458	Extremely pure Elunium Metal.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Armor and Accessories^{2}	極めて純度の高いエルニウム。\n^{1}効果：+@{1}～+@{2}の防具およびアクセサリーの精錬に使用可能^{2}
+23459	Phreeoni detonates the acid around itself, damaging players on HIT and applying 【Stomach Acid Corrosion】.	フリオニが自身の周囲の酸を爆発させ、命中したプレイヤーにダメージを与えて【胃酸腐食】を付与します。
+23460	After your ^{1}【Stigmata】^{2} ends, trigger ^{3}^{4}【Organum】^{5}^{6} once more in the reverse direction.	自身の^{1}【スティグマータ】^{2}終了後、逆方向へ^{3}^{4}【オルガヌム】^{5}^{6}をもう1回発動します。
+23461	Deals Poison-element melee Physical damage equal to Physical ATK*^{1}${1}%^{2} to the specified ST enemy.	指定した単体の敵に、物理攻撃力*^{1}${1}%^{2}の毒属性近接物理ダメージを与えます。
+23462	I know why you tried talking to me. It's because the Black Cat Ears I'm wearing are so cute, right? Hehe.	私に話しかけた理由、分かってるよ。私がつけてる黒猫耳が可愛いからでしょ？えへへ。
+23463	He and this old lady were childhood sweethearts, you know. Hehehe~ Perhaps I'll tempt him with my beauty?	あの人とこの婆さんは幼なじみだったんだよ。ふふふ～この美貌で誘惑してみようかね？
+23464	That's way too unfair. No, we have to think of something. We can't let them keep pushing everyone around.	それはあまりにも不公平だよ。ダメ、何か考えないと。あいつらの横暴をこのまま許すわけにはいかない。
+23465	Please take this necklace. Think of it as a protective charm. It will keep you safe on the journey ahead.	このネックレスを受け取ってください。お守りだと思って。これからの旅であなたを守ってくれます。
+23466	After requesting support, you need at least 3 supporting Members before you can create an Adventure Guild	支援要請後、冒険ギルドを作成するには支援メンバーが3人以上必要です。
+23467	Physical/Magic ATK and DEF -^{1}${1}%^{2}, Attack Speed -^{3}${2}%^{4}, and Movement Speed -^{5}${3}%^{6}	物理／魔法攻撃力・防御力-^{1}${1}%^{2}、攻撃速度-^{3}${2}%^{4}、移動速度-^{5}${3}%^{6}
+23468	Every @{1} STR grants @{2} melee-class Physical ATK, @{3} Physical DEF, and @{4}% melee-class Physical ATK	STR@{1}ごとに近接職の物理攻撃力が@{2}、物理防御力が@{3}、近接職の物理攻撃力が@{4}%増加します。
+23469	Disbanding the party will immediately destroy the escort cart. Are you sure you want to disband the party?	パーティを解散すると護衛カートが即座に破壊されます。本当にパーティを解散しますか？
+23470	Your client version is too old to ensure a stable gameplay experience. Please Download the latest version.	安定したゲーム体験を確保するにはクライアントのバージョンが古すぎます。最新版をダウンロードしてください。
+23471	Compete against other Adventurers. The team that ultimately defeats YU will receive the following rewards.	他の冒険者と競い合いましょう。最終的にYUを倒したチームが以下の報酬を獲得します。
+23472	\nYou earned a total of ^{1}${1}^{2} Adventure Coins during your travels, making you quite the moneymaker.	\n旅の中で合計^{1}${1}^{2}冒険コインを獲得しました。なかなかの稼ぎ上手ですね。
+23473	Rune Spear can ride a dragon and excels at Killing lone enemies while offering both durability and damage.	ルーンスピアはドラゴンに騎乗でき、耐久力と火力を兼ね備え、単体の敵を倒すことに長けています。
+23474	Both sides gain a same-Guild Member bonus: damage dealt to Bosses +@{1}%, damage taken from Bosses -@{2}%.	双方が同一ギルドメンバーのボーナスを獲得：ボスへの与ダメージ+@{1}%、ボスからの被ダメージ-@{2}%。
+23475	^{1}^{2}【Blitz Beat】^{3}^{4} increases its percentage damage multiplier by ${1}% and fixed damage by ${2}.	^{1}^{2}【ブリッツビート】^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23476	^{1}^{2}[Spiral Pierce]^{3}^{4} can also Deals DMG to ${2} Other enemies within ${1} meters of the target.	^{1}^{2}[スパイラルピアース]^{3}^{4}は、ターゲットから${1}m以内の他の敵${2}体にもダメージを与えます。
+23477	When 【Fire Ball】 hits the primary target, deals Splash damage to up to ${2} enemies within a ${1}m radius.	【ファイアボール】が主目標に命中した時、${1}m以内の最大${2}体の敵に範囲ダメージを与えます。
+23478	See the chest below? Participate in Daily activities to increase your Activity, then you can Claim it, bo!	下の宝箱が見える？デイリーコンテンツに参加して活躍度を上げれば受け取れるボ。忘れずにね！
+23479	This is the MVP reward you earned during the Wedding Crashers event. Please claim it from the attachments.	「ウェディングクラッシャー」イベントで獲得したMVP報酬です。添付ファイルからお受け取りください。
+23480	Here is the reward you left behind in the Symphony of Creation event. Please claim it from the attachment.	「創世の交響曲」イベントで受け取っていなかった報酬です。添付ファイルからお受け取りください。
+23481	I hear that if you travel south from Geffen, you'll reach a vast forest inhabited by monsters called Orcs.	ゲフェンから南へ進むと、オークというモンスターが住む広大な森に着くらしい。
+23482	If they experienced things that were familiar to them in life, could that possibly restore their memories?	生前になじみのあったものを体験すれば、記憶が戻る可能性はあるのかな？
+23483	Those two idiots always make Easy things complicated. If we want to pull off something big, it's up to me.	あの二人のバカは、簡単なことまでいつもややこしくする。大仕事をやり遂げるなら、俺がやるしかないな。
+23484	Hahaha! Judging by your face, you must be nervous about your first airship ride. Relax—I've got your back!	ハハハ！その顔を見るに、初めての飛行船で緊張してるな？安心しろ、俺がついてる！
+23485	Excellent. From this day forward, you officially walk your own path. Remember, this is only the beginning.	見事だ。今日から正式に自分の道を歩むことになる。覚えておけ、これは始まりにすぎない。
+23486	My instruction in Prontera ends here. True growth requires You to hone your skills out in the wider world.	プロンテラでの私の指導はここまでだ。真の成長には、広い世界へ出て己の腕を磨く必要がある。
+23487	What a terrible waste... Fine, until we meet again. And we will meet again, little Poring. I know we will.	なんてもったいない……まあいい。また会う日まで。きっとまた会えるよ、ちびポリン。私はそう信じてる。
+23488	It's finally over! Today was even more exhausting than being chased by a Peco Peco! Time to get some rest~	やっと終わった～！今日はペコペコに追いかけられるより疲れたよ！そろそろ休もう～
+23489	Why are you looking at Me? Didn't the queen order you to give Me your full cooperation? Is that a problem?	何を見てるの？女王様から私に全面協力するよう命令されてるでしょ？何か問題でも？
+23490	Guild Challenge: Eternal Land is now open. The Guild Master or Vice Guild Master must start the challenge.	ギルドチャレンジ「エターナルランド」が開放されました。ギルドマスターまたはサブギルドマスターが挑戦を開始する必要があります。
+23491	Isti invites you to perform an Ocean Concerto! Quickly touch the bubble matching your note to gain a buff.	イスティが「海の協奏曲」へ招待しています！自分の音符と同じ泡に素早く触れてバフを獲得しましょう。
+23492	Guild Member ${1} has chosen to Impeach the Guild Leader. Please respond and help keep the guild thriving.	ギルドメンバー${1}がギルドマスターへの弾劾を選択しました。回答して、ギルドの発展を支えてください。
+23493	A semi-finished silk material designed for shoulder armor. Used to craft fine shoulder equipment or armor.	肩防具用に加工された絹の半製品素材。上質な肩装備や防具の製作に使用します。
+23494	Toot, toot, toot! Use this special Deviruchi Horn to shout to everyone and trigger a special shout effect.	プップップー！この特製デビルチホーンを使ってみんなに叫び、特別なシャウト演出を発動しよう！
+23495	A dagger made of Damascus steel. When it reflects light, beautiful wave-like patterns appear on its blade.	ダマスカス鋼で作られた短剣。光を反射すると、刃に美しい波紋のような模様が浮かびます。
+23496	Use even more powerful Magic. Master Earth and Fire to cast massive AoE spells that greatly aid the party.	さらに強力な魔法を使いこなしましょう。地・火属性を極め、パーティを大きく支援する強力な範囲魔法を放ちます。
+23497	Use even more powerful Magic. Master Wind and Water to cast massive AoE spells that greatly aid the party.	さらに強力な魔法を使いこなしましょう。風・水属性を極め、パーティを大きく支援する強力な範囲魔法を放ちます。
+23498	Don celestial robes and dance in the Moonlight.\nExclusive performance action for the Nine-Tone Mantra set	天衣をまとい、月光の下で舞う。\n九音真言セット専用の演奏アクション
+23499	Reduces the damage you take from ^{3}Undead^{4} Monsters and ^{5}Demon Race^{6} Monsters by ^{1}${1}%^{2}.	^{3}不死属性^{4}モンスターおよび^{5}悪魔種族^{6}モンスターから受けるダメージが^{1}${1}%^{2}減少します。
+23500	Unleashes an evil spirit, dealing ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1} m radius.	悪霊を解き放ち、半径@{1}m以内の敵最大@{2}体に攻撃力*^{1}@{3}%^{2}のダメージを与えます。
+23501	After use, creates a Chain in the selected Guild Battlefield, inflicting Movement Disabled on all players.	使用すると、選択したギルド戦場に鎖を生成し、すべてのプレイヤーを移動不能にする。
+23502	I'll tell you, but on one condition—you'll be my partner for the opening dance at the royal banquet later.	教えてあげる。でも条件があるわ――この後の王宮晩餐会で、オープニングダンスの相手をしてちょうだい。
+23503	When dealing damage while above @{1}% Life, Physical ATK is treated as being increased by Base Lv. * @{2}.	HPが@{1}%を超えている状態でダメージを与えると、物理攻撃力がBase Lv.*@{2}増加したものとして扱われる。
+23504	Character ASPD: ${1}%.\nASPD reduces the animation time of the character's Basic Attacks and certain skills	キャラクターASPD：${1}%。\nASPDはキャラクターの通常攻撃および一部スキルのモーション時間を短縮する
+23505	When a skill lands a critical hit, Damage Skills deal ${1}% damage and Healing Skills provide ${2}% healing	スキルがクリティカルになると、攻撃スキルは${1}%のダメージを与え、回復スキルは${2}%の回復量になる
+23506	Wild beasts have recently been prowling around the village. Help the Elder Lady find her missing livestock.	最近、村の周辺を野獣がうろついている。おばあさんの行方不明の家畜探しを手伝おう。
+23507	Your Account has been 【banned】. If you are Confused, please contact Customer Support.\nBan End Time: 【${1}】	あなたのアカウントは【利用停止】されています。心当たりがない場合はカスタマーサポートへお問い合わせください。\n利用停止終了日時：【${1}】
+23508	\nThroughout your travels, you never stopped training and improving yourself. Here's what you accomplished:	\n旅の途中でも鍛錬と成長を怠らなかった。これまでに達成した成果はこちら：
+23509	As a mid- to high-ranking cleric of the Church, they further enhance their Healing and team Buff abilities.	教会の中～上位聖職者として、回復能力とチームへのバフ能力をさらに強化する。
+23510	Are you sure you want to leave the Grand Celebration Invitation event?\n(Leaving will count as forfeiting.)	祝典招待イベントから退出しますか？\n（退出すると棄権扱いになります。）
+23511	When taking damage, changes your armor's element to Holy for @{1} seconds. Internal Cooldown: @{2} seconds.	ダメージを受けると、防具の属性が@{1}秒間聖属性になる。内部クールダウン：@{2}秒。
+23512	^{1}^{2}[Brandish Spear]^{3}^{4} can also Deals DMG to ${2} Other enemies within ${1} meters of the target.	^{1}^{2}[ブランディッシュスピア]^{3}^{4}は、対象から${1}m以内にいる他の敵${2}体にもダメージを与える。
+23513	Learning ^{1}^{2}[Katar Mastery]^{3}^{4} and ^{5}^{6}[Dual-Wield Mastery]^{7}^{8} grants an Extra ${1} AGI.	^{1}^{2}[カタール修練]^{3}^{4}と^{5}^{6}[二刀修練]^{7}^{8}を習得すると、AGIが追加で${1}増加する。
+23514	Drake^{1}performs @{1} consecutive Movement thrusts toward the player^{2}, damaging targets along his path.	ドレイクが^{1}プレイヤーに向かって@{1}回連続で突進し^{2}、経路上の対象にダメージを与える。
+23515	(Looks down in thought) Hmm, fascinating. I've never heard of a crystal ball shining so brilliantly before.	（考え込みながらうつむく）ふむ、興味深い。これほどまばゆく輝く水晶玉は聞いたことがないな。
+23516	Good afternoon. Please present your boarding pass and confirm that your carry-on luggage is not overweight.	こんにちは。搭乗券をご提示のうえ、機内持ち込み手荷物が重量超過していないかご確認ください。
+23517	Aquinnie and the others haven't returned yet, and there's no one at the camp to spare for a rescue mission.	アイクニたちはまだ戻っていないし、キャンプには救助に回せる人員も残っていない。
+23518	Well, well. Looks like someone's already forgotten the time the ants carried you off like a takeout order??	やれやれ。アリにテイクアウトみたいに運び去られたこと、もう忘れたのかい？？
+23519	^{1}PlayerName^{2}, here—take my precious [Pseudo-Queen Pheromone]. Don't drop it! Just sprinkle it on You.	^{1}PlayerName^{2}、ほら――私の大事な[擬女王フェロモン]を持っていけ。落とすなよ！自分に振りかければいい。
+23520	Welcome! Would you like a bouquet for someone special? The birds of paradise look especially vibrant today!	いらっしゃいませ！大切な方への花束はいかがですか？今日は極楽鳥花がひときわ鮮やかですよ！
+23521	They say that Honey isn't just sweet and delicious—it's also highly nutritious and sells for a hefty price.	ハチミツは甘くておいしいだけじゃなく、栄養価も高くて高値で売れるらしい。
+23522	Let's run away~ Just the two of us, leaving everything behind~ Beneath Java's blue skies and starry nights~	逃げちゃおう～　二人きりで、何もかも置いて～　ジャワの青空と星降る夜の下へ～
+23523	To celebrate our @{1}th wedding anniversary, we've decided to return to Java, where we spent our honeymoon!	結婚@{1}周年を記念して、新婚旅行で訪れたジャワへもう一度行くことにしたの！
+23524	We'll have to walk this street again this afternoon. We went too fast earlier, so I didn't get a good look.	午後にもう一度この通りを歩かないとな。さっきは急ぎすぎて、よく見られなかった。
+23525	I never expected Goblins to be this noisy. They chatter from morning till night. It's louder than the city!	ゴブリンがこんなに騒がしいとは思わなかった。朝から晩までしゃべりっぱなしで、街よりうるさいよ！
+23526	Before I left home, my neighbor said Prontera has everything, everything's expensive, and everything's fun.	家を出る前、近所の人が「プロンテラには何でもあって、何でも高くて、何でも楽しい」って言ってたんだ。
+23527	There's no reasoning with a crooked merchant like that. All right, we have the tickets. We can set out now.	ああいう悪徳商人に理屈は通じない。よし、チケットは手に入った。これで出発できるな。
+23528	No, no, no! This alchemical hatching method is all the rage across the entire Midgard continent. Go try it!	違う違う違う！この錬金孵化法は、今やミッドガルド大陸中で大流行なんだ。さあ試してみろ！
+23529	${1}'s party successfully escorted @{1} Elite Treasure Cart(s), adding ${3} Military Supplies to the Guild.	${1}のパーティが精鋭財宝カート@{1}台の護送に成功し、ギルドに軍需物資${3}を追加しました。
+23530	Wule, this is an emergency! Use the signal flare, quickly! If Eddga reaches town, we're in serious trouble!	ウーレ、緊急事態だ！早く信号弾を使え！エドガが街まで来たら大変なことになる！
+23531	Bobo\nHey, hey~ Master! That Elder Lady over there seems to be waving us over. Let's go see what she wants.	ボボ\nねえねえ～ご主人！あそこにいるおばあさん、こっちに手招きしてるみたい。何の用か見に行こうよ。
+23532	Enhance the Bonfire Blessing, granting a @{2}% Chance for rewards received every @{1} seconds to be doubled	焚き火の祝福を強化し、@{1}秒ごとに獲得する報酬が@{2}%の確率で2倍になる
+23533	A coin formed from the crystallized faith of Valhalla. Used to increase the level of Heroic Spirit statues.	ヴァルハラへの信仰が結晶化して生まれたコイン。英霊像のレベルアップに使用する。
+23534	Listen to the Nine-Tone Mantra and await the moonlight.\nExclusive Idle Action for the Nine-Tone Mantra set	九音真言に耳を傾け、月光を待つ。\n九音真言セット専用待機アクション
+23535	A purer grade of Elunium Metal.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Armor and Accessories^{2}	より純度の高いエルニウム。\n^{1}効果：+@{1}～+@{2}の防具およびアクセサリーの精錬に使用できる^{2}
+23536	Grants allies within a @{1} m radius ^{1}【Endure】^{2} and reduces their damage taken by @{2}% for @{3} sec.	半径@{1}m以内の味方に^{1}【インデュア】^{2}を付与し、@{3}秒間、受けるダメージを@{2}%軽減する。
+23537	After use, creates a Nightmare Mystery Box in the selected Guild Battlefield. All players Cannot use skill.	使用すると、選択したギルド戦場にナイトメアミステリーボックスを生成する。すべてのプレイヤーがスキル使用不能になる。
+23538	Increases the STR, INT, and DEX of yourself and allies within a @{1}-meter radius by @{2} for @{3} seconds.	自身および半径@{1}m以内の味方のSTR、INT、DEXを@{3}秒間@{2}増加させる。
+23539	Permanently increases Physical ATK by ^{1}${1}^{2}, AGI by ^{3}${2}^{4}, and Attack Speed by ^{5}${3}%^{6}.	物理攻撃力が永続的に^{1}${1}^{2}、AGIが^{3}${2}^{4}、攻撃速度が^{5}${3}%^{6}増加する。
+23540	This location cannot be selected as your drop point. You have been automatically switched to a nearby area.	この場所は降下地点に指定できません。近くのエリアへ自動的に変更されました。
+23541	(Grins foolishly) Instructor touched my head... and is going to teach me how to roast rabbit heads. Hehe...	（にやけながら）教官が頭を撫でてくれた……それにウサギの頭の焼き方も教えてくれるって。へへ……
+23542	Damage reduction increased by @{1}%. Each Floor of a defensive buff grants an Extra @{2}% damage reduction.	ダメージ軽減が@{1}%増加する。防御バフ1スタックごとに、さらにダメージ軽減が@{2}%増加する。
+23543	^{1}【Radiant Holy Light】^{2}'s ATK coefficient for percentage-based HP recovery increases by ^{3}${1}%^{4}.	^{1}【輝く聖光】^{2}の割合HP回復におけるATK係数が^{3}${1}%^{4}増加する。
+23544	Individual rewards are distributed based on rankings on the <color=#fdab5b>Battle Merit Leaderboard</color>.	個人報酬は<color=#fdab5b>戦功ランキング</color>の順位に応じて配布されます。
+23545	With matters in Sograt Desert settled for now, go to the Eden Group and see what new requests are available.	ソグラト砂漠の件はひとまず片付いた。楽園団へ行って、新しい依頼がないか確認しよう。
+23546	Due to multiple violations, your suspension periods have been combined. Please refer to the latest end time.	複数回の違反により、利用停止期間が合算されました。最新の終了日時をご確認ください。
+23547	Unused cards that are not Tier @{1} can use the ^{1}Return^{2} button to return their advancement materials.	Tier @{1}ではない未使用カードは、^{1}返還^{2}ボタンで進化素材を返還できます。
+23548	Protected by the power of light, granting Endure and immunity to control effects and Knockback for @{1} sec.	光の力に守られ、@{1}秒間インデュアを獲得し、行動妨害とノックバックを無効化する。
+23549	Protected by the power of light, granting Endure and immunity to control effects and knockback for @{1} sec.	光の力に守られ、@{1}秒間インデュアを獲得し、行動妨害とノックバックを無効化する。
+23550	^{1}^{2}【Arrow Attack】^{3}^{4} increases its percentage damage multiplier by ${1}% and fixed damage by ${2}.	^{1}^{2}【アローアタック】^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
+23551	^{1}^{2}【Arrow Shower】^{3}^{4} increases its percentage damage multiplier by ${1}% and fixed damage by ${2}.	^{1}^{2}【アローシャワー】^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
+23552	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Baby Desert Wolf Transform	ベビーデザートウルフ変身を使用している場合、1等抽選時の報酬が追加で@{1}%増加する
+23553	The Boss now uses skills based on the previously recorded actions. Players must ^{1}dodge them in order^{2}.	ボスが先ほど記録された行動に基づいてスキルを使用する。プレイヤーは^{1}順番に回避^{2}しなければならない。
+23554	Unleash an evil spirit, dealing ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1}-meter radius.	悪霊を解き放ち、半径@{1}m以内の最大@{2}体の敵に攻撃力*^{1}@{3}%^{2}のダメージを与える。
+23555	I created the guild <color=#FCAA5B>${1}</color> and invite you to respond (<color=#FCAA5B>${2}</color>/${3})	ギルド<color=#FCAA5B>${1}</color>を作成しました。参加表明をお願いします（<color=#FCAA5B>${2}</color>/${3}）
+23556	For some reason, your MVP reward got lost along the way. We've reissued it, so please check the attachments.	何らかの理由でMVP報酬が配送途中に紛失してしまいました。再送しましたので、添付をご確認ください。
+23557	You successfully participated in the Gloom over Dragoncasket Island event and earned a participation reward.	「竜棺島を覆う暗雲」イベントに参加し、参加報酬を獲得しました。
+23558	All right, great scientist. Should I send a team of Adventurers with you so you don't get carried off again?	はいはい、偉大な科学者さん。今度はまたさらわれないよう、冒険者の護衛隊でも付けようか？
+23559	Demon King Morroc has apparently returned through a Revive, emerging from a rift in time and space... Hic...	魔王モロックが復活して、時空の裂け目から戻ってきたらしい……ヒック……
+23560	Once we reach the desert, I'll show you a real sunrise over the sea of sand. Now that's a magnificent sight!	砂漠に着いたら、本物の砂海の日の出を見せてやる。あれこそ絶景だぞ！
+23561	The Dragonblood Crystal has appeared in the center of the arena! Pick it up to Score points and gain a Buff.	アリーナ中央に竜血のクリスタルが出現した！拾うとポイントを獲得し、バフも得られる。
+23562	A Rift Stone has appeared on Channel ^{3}${2}^{4} in ^{1}${1}^{2}. Adventurers, hurry over and challenge it~	^{1}${1}^{2}のチャンネル^{3}${2}^{4}に亀裂の石が出現しました。冒険者のみなさん、急いで挑戦しに行きましょう～
+23563	Good news! Prontera's central defenses have held, and the Goddess Legion's latest assault has been repelled!	朗報だ！プロンテラ中央防衛線は持ちこたえ、女神軍団の最新の襲撃を退けた！
+23564	Bobo\n(Flies up from the ground) We tried to help, but we got beaten up instead! Huh? Where's the Professor?	ボボ\n（地面から飛び上がる）助けようとしたのに、逆にやられちゃった！あれ？教授はどこ？
+23565	A high-strength coating applied in multiple layers, providing excellent protection and corrosion resistance.	高強度のコーティングを幾重にも施した素材。優れた防護性能と耐腐食性を備えている。
+23566	Soaking iron several times in a special solution increases its strength, producing harder weapons and armor.	鉄を特殊な溶液に何度も浸して強度を高めることで、より硬い武器や防具を作れる。
+23567	Lightweight yet sturdy boots reinforced with iron plates around the ankles to protect the feet from impacts.	軽量ながら丈夫なブーツ。足首周りを鉄板で補強し、衝撃から足を守る。
+23568	Can learn High Speed Cart Ram, Cart Boost, and other skills to further Enhance damage and buff capabilities.	ハイスピードカートラム、カートブーストなどのスキルを習得し、ダメージ能力とバフ能力をさらに強化できる。
+23569	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Baby Desert Wolf Transform	ベビーデザートウルフ変身を使用している場合、3等抽選時の報酬が追加で@{1}%増加する
+23570	Great! We've recovered most of our cargo too, though quite a few pieces of valuable porcelain were broken...	よし！積み荷もほとんど回収できた。ただ、貴重な磁器がかなり割れてしまったけど……
+23571	Have the Falcon scan the area, revealing all enemies on the Mini Map to you and your teammates for @{1} sec.	ファルコンに周囲を索敵させ、@{1}秒間、自身とチームメンバーのミニマップにすべての敵を表示する。
+23572	Choco lets out an encouraging cheer, increasing the master's Attack Speed by ^{1}${1}%^{2} for ${2} seconds.	チョコが励ましの声を上げ、${2}秒間、主人の攻撃速度を^{1}${1}%^{2}増加させる。
+23573	(Steps forward and forces a smile) Grandma Gwen, we're back. We'd like to talk things over with you again...	（一歩前に出て無理に笑顔を作る）グウェンおばあさん、戻りました。もう一度お話ししたいことがあって……
+23574	Rest assured, I am here to help you. I have been searching for you in this world for a very, very long time.	安心してください。私はあなたを助けるために来たのです。この世界であなたを、ずっとずっと長い間探していました。
+23575	When taking damage from a player, HP Recovery increases by @{1}% of Max HP for @{2} sec. Cooldown: @{3} sec.	プレイヤーからダメージを受けると、@{2}秒間HP回復量が最大HPの@{1}%増加する。クールダウン：@{3}秒。
+23576	A new scenario has begun. Your Skill Build and Soul Echo build have been reset. Please configure them again.	新しいシナリオが開始されました。スキルビルドとソウルエコービルドがリセットされています。再設定してください。
+23577	Create or Join a guild (once you've joined, you can participate in evening events and earn Auction Dividends)	ギルドを作成または加入する（加入後は夜のギルドイベントに参加し、オークション配当を獲得できます）
+23578	Leaving the battlefield will cause you to lose all undelivered Military Supplies. Do you still want to leave?	戦場から退出すると、未納品の軍需物資をすべて失います。それでも退出しますか？
+23579	Your Character has been 【banned】. If you are Confused, please contact Customer Support.\nBan End Time: 【${1}】	あなたのキャラクターは【利用停止】されています。心当たりがない場合はカスタマーサポートへお問い合わせください。\n利用停止終了日時：【${1}】
+23580	Your Character has been 【muted】. If you are Confused, please contact Customer Support.\nMute End Time: 【${1}】	あなたのキャラクターは【発言禁止】されています。心当たりがない場合はカスタマーサポートへお問い合わせください。\n発言禁止終了日時：【${1}】
+23581	No suitable equipment available. You can obtain equipment by defeating monsters, completing quests, and more.	装備可能な装備がありません。モンスター討伐やクエスト達成などで装備を入手できます。
+23582	A common mineral vein rich in iron. Mine it to obtain basic ore. ^{1}Can be used to Craft T@{1} equipment^{2}	鉄を豊富に含む一般的な鉱脈。採掘すると基本鉱石を獲得できる。^{1}T@{1}装備の製作に使用可能^{2}
+23583	In the previous auction, your guild finished in the top @{1}, successfully qualifying for this Stronghold War	前回のオークションでギルドが上位@{1}位に入り、今回の拠点戦への参加資格を獲得しました
+23584	^{1}^{2}【Double Strafe】^{3}^{4} increases its percentage damage multiplier by ${1}% and fixed damage by ${2}.	^{1}^{2}【ダブルストレイフィング】^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
+23585	You have Entered the Battlefield. Exiting before the match ends will result in a penalty and point deduction.	戦場に入りました。試合終了前に退出するとペナルティが科され、ポイントが減少します。
+23586	Excels at long-range magical combat and can command the five elements of Water, Fire, Wind, Earth, and Ghost.	遠距離魔法戦闘を得意とし、水・火・風・地・念の5属性を操ることができる。
+23587	A mask with a hearty laugh. Wearing it prevents others from reading your Emotes or emotions beneath the mask.	豪快な笑顔をかたどった仮面。装備すると、仮面の下の表情や感情を他人に読み取られにくくなる。
+23588	It has been ${1} since you last checked your idle rewards. You obtained the following items during that time:	前回放置報酬を確認してから${1}が経過しました。その間に以下のアイテムを獲得しました：
+23589	You had unclaimed Search Rebate rewards this Season. They have now been reissued to you. Please collect them.	今シーズン未受取の検索還元報酬があります。再送しましたので、お受け取りください。
+23590	Because the Guild Auction Function has been disabled, your bid funds have been refunded. Please collect them~	ギルドオークション機能が無効化されたため、入札資金が返還されました。お受け取りください～
+23591	Oh my gosh! It's my ring! The ring my mother left me! Thank goodness! I really, truly can't thank you enough!	まあ！私の指輪！母が残してくれた指輪だわ！よかった！本当に、本当にありがとう！
+23592	Welcome! The Kafra Corporation is always here to provide you with the finest service.\nHow may we assist you?	いらっしゃいませ！カプラサービスはいつでも最高のサービスをご提供いたします。\nご用件をお伺いします。
+23593	I hear the Hornets living on the plains spend their entire lives gathering Honey under the Mistress's orders.	平原に棲むホーネットは、ミストレスの命令で一生ハチミツを集め続けるらしい。
+23594	Heh heh heh! At last, I Discover the truth! Magic that makes mushrooms grow on your head is truly terrifying!	へっへっへ！ついに真相を突き止めたぞ！頭にキノコを生やす魔法とは、なんと恐ろしい！
+23595	Hehe~ Let's go complete your Job Advance! I can't believe you're this strong. I sure know how to spot talent~	へへ～、転職しに行こう！こんなに強いなんて、やっぱり私、人を見る目があるね～
+23596	Find the Eden Group Trial Officer ^{1}outside the South Gate^{2}. They'll have Quests suitable for Beginners.	^{1}南門の外^{2}にいる楽園団試練担当官を探そう。初心者向けのクエストを用意しているはずだ。
+23597	Okay, okay~ It says it really is an investigator with the Knight Order and that we shouldn't look down on it.	はいはい～。本人いわく本当に騎士団の調査員で、見くびるなってさ。
+23598	Time it right! Click as the pointer crosses the green area. The closer to the center, the higher your Rating!	タイミングを合わせよう！ポインターが緑のエリアを通過した瞬間にクリック。中央に近いほど評価が高くなる！
+23599	Tap the button rapidly to fill the gauge. The more energy you have when time runs out, the higher your score!	ボタンを素早く連打してゲージを満たそう。制限時間終了時にエネルギーが多いほど高得点！
+23600	Elite enemy forces have appeared in the central area! All combat-ready personnel, assemble there immediately!	中央エリアに敵の精鋭部隊が出現！戦闘可能な全員は直ちに中央へ集合せよ！
+23601	A fragment of a star cluster suspended in the sky. It can increase a weapon's strength when used in crafting.	空に浮かぶ星団の欠片。製作に使うことで武器の強度を高められる。
+23602	A catalytic medium created from the theoretical "fifth Element." It can Accelerate the creation of a Pet Egg.	理論上の「第五元素」から作られた触媒媒体。ペットの卵の生成を加速できる。
+23603	An orb symbolizing the sun god. Its dazzling Gold radiance is almost blinding. Can be exchanged for Headwear.	太陽神を象徴するオーブ。まばゆい黄金の輝きは目がくらむほど。頭装備と交換できる。
+23604	Use to create a Madogear Pilot repair zone for @{1} seconds. Madogear Pilots within the zone can be repaired.	使用すると@{1}秒間、魔導ギア修理エリアを展開する。エリア内の魔導ギアを修理できる。
+23605	An exceptionally ornate dagger. Those of noble status often carry it as an accessory or use it in ceremonies.	極めて華美な短剣。貴族が装飾品として携えたり、儀式に使用したりすることが多い。
+23606	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Baby Desert Wolf Transform	ベビーデザートウルフ変身を使用している場合、2等抽選時の報酬が追加で@{1}%増加する
+23607	No Guild: A Guild is required to enter this area. Players who leave their Guild while inside will be removed.	ギルド未加入：このエリアへの入場にはギルド加入が必要です。エリア内でギルドを脱退したプレイヤーは退出させられます。
+23608	Removes ^{1}^{2}【Silence】^{3}^{4} and ^{5}^{6}【Blind】^{7}^{8} from the designated ST ally within ${1} meters.	${1}m以内の指定した味方単体から^{1}^{2}【沈黙】^{3}^{4}と^{5}^{6}【暗黒】^{7}^{8}を解除する。
+23609	Increases Physical ATK for you and up to @{1} allies within a ${1}-meter radius by ^{1}${2}^{2} for ${3} sec.	${3}秒間、自身および半径${1}m以内の味方最大@{1}人の物理攻撃力を^{1}${2}^{2}増加させる。
+23610	Summon a vending cart nearby where you can purchase Battle Royale items. The vending cart lasts for @{1} sec.	近くに自動販売カートを召喚し、バトルロイヤル用アイテムを購入できる。カートは@{1}秒間持続する。
+23611	Deals Physical ATK*^{1}${2}%+${3}^{2} as Neutral melee Physical damage to the targeted ST enemy within ${1}m.	${1}m以内の対象の敵単体に物理攻撃力*^{1}${2}%+${3}^{2}の無属性近接物理ダメージを与える。
+23612	Deals Physical ATK * ^{1}${2}%^{2} Neutral melee Physical damage to the targeted ST enemy within ${1} meters.	${1}m以内の対象の敵単体に物理攻撃力*^{1}${2}%^{2}の無属性近接物理ダメージを与える。
+23613	When casting 【Cross Ripper Slasher】, the blades become discs of light, each dealing @{1}% of a blade's damage	【クロスリッパースラッシャー】使用時、ブレードが光の円盤となり、1枚につきブレードダメージの@{1}%を与える
+23614	Some System builds have not been selected for Personal Build ${1}. Recommend only the selected System builds?	個人ビルド${1}で一部のシステムビルドが選択されていません。選択済みのシステムビルドのみおすすめしますか？
+23615	Failed to read the remote configuration file. This may be a Network issue. Check your connection and Retry....	リモート設定ファイルの読み込みに失敗しました。ネットワークに問題がある可能性があります。接続を確認して再試行してください……
+23616	A thick pink milkshake blended from strawberries and Milk. Increases Physical DEF by @{1}~@{2} for @{3} hours.	イチゴとミルクを混ぜた濃厚なピンク色のミルクシェイク。@{3}時間、物理防御力が@{1}～@{2}増加する。
+23617	Rally your guild's strength and crush the enemy formation in one fell swoop! Victory or defeat—it's up to you!	ギルドの力を結集し、一気に敵陣を打ち砕け！勝敗は君たち次第だ！
+23618	Confirm Exit from Festival Invitation?\n(You may enter or leave the Location at any time while getting Ready.)	祝典招待から退出しますか？\n（準備中はいつでも会場への出入りが可能です。）
+23619	^{1}^{2}【Sharp Shooting】^{3}^{4} increases its percentage damage multiplier by ${1}% and fixed damage by ${2}.	^{1}^{2}【シャープシューティング】^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
+23620	When ^{1}^{2}[Sanctuary]^{3}^{4} is cast, it restores MATK*${2}%+${3} HP to up to ${1} allies within the area.	^{1}^{2}[サンクチュアリ]^{3}^{4}発動時、範囲内の味方最大${1}人のHPをMATK*${2}%+${3}回復する。
+23621	When receiving a fatal attack from a player, there is a ${1}% Chance to Revive with ${2}% Life (Unique Effect)	プレイヤーから致命的な攻撃を受けた時、${1}%の確率でHP${2}%の状態で復活する（固有効果）
+23622	The Chance for ^{1}^{2}【Deadly Poison】^{3}^{4} to trigger ^{5}^{6}【Venom Sting】^{7}^{8} is increased by ${1}%.	^{1}^{2}【デッドリーポイズン】^{3}^{4}が^{5}^{6}【ヴェノムスティング】^{7}^{8}を発動する確率が${1}%増加する。
+23623	Isty summons bubbles of various colors from the edge of the arena. They chase players until they make contact.	イスティーがアリーナの端から色とりどりの泡を召喚する。泡はプレイヤーに接触するまで追尾する。
+23624	Each spread of its wings brings fire, and every feather burns eternally.\nWorldscorch Feather · Theme Backwear	翼を広げるたび炎が舞い、羽根の一枚一枚が永遠に燃え続ける。\n世界を焦がす羽・テーマ背中装備
+23625	Passive Skills of pets in Utility slots are always active.\nOnly 1 Core Passive Skill can be active at a time.	支援枠に配置したペットのパッシブスキルは常時有効。\nコアパッシブスキルは同時に1つだけ有効にできる。
+23626	Guaranteed to obtain an <color=#FF993F>S-Class</color> Pet within the next <color=#FF993F>${1} Hatches</color>	次の<color=#FF993F>${1}回の孵化</color>以内に<color=#FF993F>S級</color>ペットを必ず獲得
+23627	Your Reputation Score has fallen below ${1}. Please follow proper Trade practices to avoid unnecessary losses.	信用スコアが${1}を下回りました。不要な損失を避けるため、適切な取引を心がけてください。
+23628	Is it that important? If necessary, we can find a way to get you another one. I have some connections in Juno—	そんなに大事なものなのか？必要なら別のものを手に入れる方法を考えよう。ジュノーには少し伝手がある――
+23629	Past events will never return. Even the greatest magic cannot change that—as we speak, time continues to flow.	過ぎ去った出来事は二度と戻らない。どんな大魔法でも変えられない――こうしている間にも、時間は流れ続けている。
+23630	Curious, are you? She asked me to help you grow stronger, since we have an important commission for you later.	気になるのか？あの人から、後で重要な依頼があるから君をもっと強くしてほしいと頼まれていてね。
+23631	Understood. I've marked the direction of the Relic on your map. Good luck, Adventurer... May Odin be with you.	わかった。地図に遺物の方向を記しておいた。健闘を祈る、冒険者よ……オーディンの加護があらんことを。
+23632	The selected difficulty is not the highest difficulty unlocked. Start the challenge at the current difficulty?	選択した難易度は解放済みの最高難易度ではありません。現在の難易度で挑戦を開始しますか？
+23633	“Once we reach the desert, I'll show you a real sunrise over the sea of sand. Now that's a magnificent sight.”	「砂漠に着いたら、本物の砂海の日の出を見せてやる。あれこそ絶景だぞ！」
+23634	The central area is under relentless assault! All defenders, fight with everything you have! Do not Move back!	中央エリアが猛攻を受けている！防衛側は全力で応戦せよ！絶対に退くな！
+23635	Bobo\nI Discover you, crate thief! You dared to steal our cargo, so today we're turning you into lamb skewers!	ボボ\n見つけたぞ、木箱泥棒！僕たちの積み荷を盗むなんて、今日はラム串にしてやる！
+23636	Bobo\nThe Elder Lady said we could use the Fly Wing once we reached the forest. This must be the place, right?	ボボ\nおばあさんが、森に着いたらハエの羽を使えばいいって言ってたよね。ここで合ってるよね？
+23637	This Quest is obtained when the player first enters the game. Its completion requirements are the same as @{1}	このクエストはプレイヤーが初めてゲームに入った時に獲得する。達成条件は@{1}と同じ
+23638	A semi-finished sacred cloth material for footwear, offering both a blessing bonus and comfortable protection.	靴用の半製品となる聖布素材。祝福効果と快適な防護性を兼ね備えている。
+23639	Damaged Metal fragments of low purity. They can be smelted down for Reforge or used in alchemical experiments.	純度の低い損傷した金属片。溶かして再鍛造したり、錬金実験に使用したりできる。
+23640	Increases your MATK by ^{1}${1}^{2} and increases the damage of ^{3}^{4}[Turn Undead]^{5}^{6} by ^{7}${2}^{8}.	自身のMATKを^{1}${1}^{2}増加させ、^{3}^{4}[ターンアンデッド]^{5}^{6}のダメージを^{7}${2}^{8}増加させる。
+23641	Grants the specified ST ally within ^{1}${1} meters^{2} ^{3}immunity to ^{4}^{5}^{6}【Poisoned】^{7}^{8} damage.	^{1}${1}m以内^{2}の指定した味方単体に、^{3} ^{4}^{5}^{6}【毒】^{7}^{8}ダメージ無効を付与する。
+23642	Which one do you like? (Picks up the Bunny Hair Band) This one's really popular lately, especially with girls~	どれが好き？（ウサギのヘアバンドを手に取る）これは最近すごく人気なの。特に女の子にね～
+23643	The ritual can take up to 5 hours. Invite fellow Adventurers to participate and speed up the summoning process.	儀式には最大5時間かかります。他の冒険者を招待して参加してもらうと、召喚時間を短縮できます。
+23644	You have new mail, but your mailbox is full and cannot receive it. Please delete mail you've already processed.	新しいメールがありますが、メールボックスがいっぱいで受信できません。処理済みのメールを削除してください。
+23645	Everyone must help protect the game environment, reject rule violations, and maintain a fair Trade environment.	すべてのプレイヤーがゲーム環境を守り、違反行為を拒否し、公平な取引環境の維持に努めましょう。
+23646	Once Movement completion reaches @{1}%, you can claim the ^{1}Movement Reward^{2} from the event's main screen.	楽章完成度が@{1}%に達すると、イベントメイン画面で^{1}楽章報酬^{2}を受け取れる。
+23647	Once all prerequisite Talents reach Max level, pay the Material Cost: to allocate points to the current Talent.	前提タレントがすべて最大レベルになると、必要素材を消費して現在のタレントにポイントを割り振れる。
+23648	Rally your guild's strength and crush the enemy formation in one fell swoop! Victory or defeat—it's up to you!!	ギルドの力を結集し、一気に敵陣を打ち砕け！勝敗は君たち次第だ！！
+23649	Grants ${1} DMG Reduction vs All Job, plus an Extra ${2} DMG Reduction vs All Job for each skill on this Totem.	全職業から受けるダメージを${1}軽減し、このトーテム上のスキル1つにつき、さらに全職業から受けるダメージを${2}軽減する。
+23650	A Romantic Leaf that flutters in the wind when held in your mouth, evoking the feeling of a wandering traveler.	口にくわえると風になびくロマンチックな葉。さすらいの旅人の風情を感じさせる。
+23651	A mechanical ship's wheel with gears at its center. Powered by the central furnace core, it spins continuously.	中央に歯車を備えた機械式の舵輪。中央炉心を動力に、絶えず回転し続ける。
+23652	Among RO players, "flying a plane" means having an Acolyte-class character use Warp Portal to teleport players.	ROプレイヤーの間で「飛行機を飛ばす」とは、アコライト系キャラクターがワープポータルでプレイヤーを転送することを指す。
+23653	A Sage's "Spell Breaker" is most useful in the War of Emperium for removing an Enemy Team Priest's Safety Wall.	セージの「スペルブレイカー」は攻城戦で、敵チームのプリーストが使うセイフティウォールを解除するのに最も役立つ。
+23654	Your guild placed in the top @{1} on the Entire Server in the Hunting Challenge. Please claim the prizes below!	狩猟チャレンジでギルドが全サーバー上位@{1}位に入りました。以下の報酬をお受け取りください！
+23655	As soon as you and Lemon approach, old Bob straightens his back and pretends to be diligently holding the spot.	あなたとレモンが近づくと、ボブ爺さんはすぐに背筋を伸ばし、真面目に場所取りしているふりをした。
+23656	The Royal Criatura Academy was founded to help the many young people taking their first steps\ninto this world.	王立クリトゥラ学園は、この世界へ第一歩を踏み出す多くの若者を支援するため\n設立された。
+23657	Even with sand and dust swirling through the air, I'd recognize you like the one shining star in the night sky.	砂埃が舞っていても、夜空に輝くたった一つの星みたいに、君ならすぐ見つけられるよ。
+23658	Hey, Fervor! Have you no shame?! You forgot all about the job for two lousy sandwiches? That guy is a criminal!	おい、ファーヴァー！恥を知れ！たったサンドイッチ2つで仕事をすっかり忘れたのか？あいつは犯罪者だぞ！
+23659	All right, let's begin. Place your hand on the Book of Job Advance, and I'll guide you through your Second Job.	よし、始めよう。転職の書に手を置け。私が2次職への道を導こう。
+23660	What astonishing growth! You're ready for your third job change. Continue onward along your chosen career path!	なんという成長だ！もう3次転職の準備ができている。選んだ道をさらに進め！
+23661	Bobo\nIt seems to like those glowing things—I've got it! Let's gather some to bribe it into carrying us across.	ボボ\nあいつ、あの光るものが好きみたい――わかった！いくつか集めて、向こうまで運んでもらえるよう買収しよう。
+23662	A roll woven from high-quality silk. Its smooth yet durable texture makes it ideal for crafting fine equipment.	上質な絹から織られた巻物。滑らかでありながら丈夫で、高品質装備の製作に最適。
+23663	Thread imbued with a sacred blessing, used to weave sacred cloth or blessed armor with a faint shimmering glow.	神聖な祝福を宿した糸。ほのかに輝く聖布や祝福された防具を織るために使用する。
+23664	A soft bundle of Cotton that can be processed into Cotton cloth or used as stuffing. Commonly used in textiles.	柔らかな綿の束。綿布に加工したり、詰め物に使ったりできる。繊維製品によく用いられる。
+23665	A blade forged from radiant gold with exceptional sharpness and durability. Suitable for crafting fine weapons.	輝金から鍛えられた刃。優れた切れ味と耐久性を備え、高品質な武器の製作に適している。
+23666	A Metal bar smelted from radiant gold. Lightweight yet hard, it is a core material for crafting fine equipment.	輝金を精錬して作った金属棒。軽量ながら硬く、高品質装備の製作に欠かせない素材。
+23667	As a Madogear Pilot equipped with various cannons, deal ranged Physical damage through both ST and AoE attacks.	多彩な砲を装備した魔導ギアとして、単体・範囲攻撃で遠距離物理ダメージを与える。
+23668	Are you sure you want to consume Soul Echoes of Orange Quality or higher and upgraded Soul Echoes for Level-up?	橙品質以上のソウルエコーや強化済みソウルエコーを、レベルアップ素材として消費しますか？
+23669	The shadow left by 【Move back Shadow Echo】 mimics your 【Piercing Shadow】, dealing @{1}% of the original damage.	【バックスライド・シャドウエコー】が残した影が【ピアーシングシャドウ】を模倣し、元の@{1}%のダメージを与える。
+23670	You've reached the stockpiling limit for both the Standard and Premium Monthly Passes and cannot purchase more.	通常月間パスとプレミアム月間パスの両方が保有上限に達しているため、これ以上購入できません。
+23671	My name is Phoenix. In this world tainted by evil, I strive to purify myself and remain devoted to my training.	私の名はフェニックス。邪悪に染まったこの世界で己を清め、ひたすら修行に励んでいる。
+23672	If you are defeated for the first time within 180 seconds of the battle starting, you can rejoin once for free.	戦闘開始から180秒以内に初めて倒された場合、1回だけ無料で再参加できる。
+23673	Perfect timing! The music just started. (Extends a hand invitingly) Come on. You promised me the opening dance.	ちょうどいいところに来たわ！音楽も始まったところよ。（誘うように手を差し出す）さあ。オープニングダンス、約束したでしょ？
+23674	Oh~ You want to know about Boya? (Leans in for a closer look) Are you asking for yourself, or for someone else?	あら～、ボヤのことが知りたいの？（顔を近づけて覗き込む）それって自分のため？それとも誰かのためかしら？
+23675	Spear specialization increases Physical damage by @{1}% and Crit Chance by @{2}% when using Spear-type weapons.	槍系武器の使用時、槍専門化により物理ダメージが@{1}%、クリティカル率が@{2}%増加する。
+23676	The BOSS targets all players and tracks them with rectangular AOEs after a @{1}-second warning (guaranteed HIT)	BOSSが全プレイヤーを対象にし、@{1}秒の予兆後に長方形範囲攻撃で追尾する（必中）
+23677	Surrounds itself with blades for @{1} seconds, dealing area damage within a @{3}-foot radius every @{2} seconds	@{1}秒間、自身を刃で包み、@{2}秒ごとに半径@{3}フィート以内へ範囲ダメージを与える
+23678	Watch for the question in the center, decide whether it's true or false, and stand in the corresponding circle.	中央の問題を確認し、正誤を判断して対応する円の中に立とう。
+23679	You've reached the end of the current main Quests. Check out the events and enjoy your adventures in this world!	現在のメインクエストはここまでです。イベントもチェックして、この世界での冒険を楽しみましょう！
+23680	Collect Live Coal in the territory and add it to the bonfire to trigger a Level-up and unlock bonfire abilities.	領地内で燃える石炭を集めて焚き火へ投入し、レベルアップを発生させて焚き火能力を解放しよう。
+23681	[Guild Response] I created a new guild, 【${1}】! All Adventurers are invited to respond (${2}/${3}) 【Respond Now】	[ギルド参加表明] 新ギルド【${1}】を作成しました！冒険者のみなさん、ぜひ参加表明してください（${2}/${3}）【今すぐ参加】
+23682	Cannot use skill or move, and Physical and Magic DEF are reduced by @{1}%. Removed when hit, then inflicts Slow.	スキル使用・移動ができず、物理防御力と魔法防御力が@{1}%低下する。攻撃を受けると解除され、その後減速を付与する。
+23683	^{1}^{2}【Falcon Assault】^{3}^{4} skill damage multiplier increases by ${1}%, and fixed damage increases by ${2}.	^{1}^{2}【ファルコンアサルト】^{3}^{4}のスキルダメージ倍率が${1}%、固定ダメージが${2}増加する。
+23684	Melee Physical damage +${1}%. Each Floor of the Physical Damage buff grants an Extra ${2}% melee Physical damage	近接物理ダメージ+${1}%。物理ダメージバフ1スタックごとに、さらに近接物理ダメージ+${2}%
+23685	Mistress throws ^{1}@{1} Beehives^{2} at the target. The Beehives continuously Launch ^{3}Honey^{4} around them.	ミストレスが対象へ^{1}@{1}個の蜂の巣^{2}を投げる。蜂の巣は周囲へ継続的に^{3}ハチミツ^{4}を放出する。
+23686	Our best friend on a hectic morning. It brings to mind someone rushing out the door with it held in their mouth.	慌ただしい朝の心強い味方。口にくわえたまま家を飛び出す誰かの姿を思い起こさせる。
+23687	A pacifier placed in a Child's mouth to soothe them. It should look adorable when equipped by a Child character!	子どもをあやすために口にくわえさせるおしゃぶり。子どもキャラクターが装備したら、きっと可愛い！
+23688	A hot-air balloon brimming with Goblin spirit! Unfortunately, flaws in its construction keep it from taking off.	ゴブリン魂あふれる熱気球！ただし構造上の欠陥のせいで、残念ながら飛び立てない。
+23689	In RO, the classic look for Archer classes is the "Apple of Archer" because it grants DEX +@{1} and looks great.	ROでアーチャー系の定番装備といえば「名射手のりんご」。DEX+@{1}で、見た目も抜群だからだ。
+23690	Here's a little secret: your Refine Level transfers without any loss, so changing equipment won't affect it, bo!	ちょっとした秘密だけど、精錬値は一切損失なく引き継がれるから、装備を変えても影響ないよ、ボ～！
+23691	Oh, that's right. This is adventuring gear issued to beginners by the Eden Group. It should help with your task.	ああ、そうだ。これは初心者向けに楽園団から支給された冒険装備だ。任務の役に立つはずだ。
+23692	All right, everyone's here. Looks like the White Dove is a total loss, and there's no point going to Morroc now.	よし、全員そろったな。白鳩号はもう駄目そうだし、今からモロックへ行っても仕方ない。
+23693	Don't worry. I won't let Jack rope me into any more of his nonsense. I'll tell my old friends not to go, either.	心配するな。もうジャックのくだらない話には付き合わないよ。昔の仲間にも行かないよう伝えておく。
+23694	She'll love it. If you ever need anything, just come find me here by the fountain. My name is Reia. Remember it.	きっと気に入るわ。何か必要なことがあったら、いつでもこの噴水のそばにいる私を訪ねて。私はレイア。覚えておいてね。
+23695	Do you believe in the miracles of Hacha? If you do, repeat this spell after me! Hachabra, Hachabra, Hachabra~~!!	ハチャの奇跡を信じる？信じるなら、私の後に続いてこの呪文を唱えて！ハチャブラ、ハチャブラ、ハチャブラ～～！！
+23696	Refining can Enhance items. Weapons in particular gain ATK, so a successful refinement can be a tremendous help.	精錬でアイテムを強化できる。特に武器はATKが上昇するため、精錬に成功すれば大きな助けになる。
+23697	Ciphers are works of art! Do you know the thrill of unraveling every layer until the secret is finally revealed?	暗号は芸術だ！何重もの仕掛けを解きほぐし、ついに秘密が明かされる瞬間の興奮を知ってるか？
+23698	That's disgusting. It says it isn't full, and... that the sandwiches aren't as Delicious as the "chocolate bar."	うわ、気持ち悪い。お腹はいっぱいじゃないし……サンドイッチはあの「チョコバー」ほどおいしくないってさ。
+23699	Unfortunately, there are no players with the corresponding transformation type here.\nThe drawing has no winner.	残念ながら、対応する変身タイプのプレイヤーがいません。\n今回の抽選に当選者はいません。
+23700	Bobo\nWe found them. It's this shiny thing right here~ Let's hurry back. That old man must be getting impatient!	ボボ\n見つけたよ。このキラキラしたやつだ～。早く戻ろう。あのお爺さん、きっと待ちくたびれてるよ！
+23701	Congratulations! You've completed your entire growth journey. Tap Finish to permanently close the Growth Emblem.	おめでとうございます！すべての成長過程を完了しました。「完了」をタップすると、成長エンブレムは永久に閉じられます。
+23702	In the Taiwan, Hong Kong, and Macau version of RO, the "Eden Group" is an exclusive club for high-level players.	台湾・香港・マカオ版ROでは、「楽園団」は高レベルプレイヤー限定のクラブです。
+23703	A Rare Material used to Advance titles.\nIt can also be Dismantled into a lower-Rarity ^{1}Crest of Freedom^{2}.	称号の昇格に使用するレア素材。\n低レアリティの^{1}自由の紋章^{2}に分解することもできる。
+23704	A Butterfly Wing imbued with spatial Magic. Use it to Move to a selected town or Field on the Midgard continent.	空間魔法を宿した蝶の羽。使用するとミッドガルド大陸の選択した街またはフィールドへ移動できる。
+23705	Your current party does not meet the dungeon's recommended role setup and is missing ${1}. Enter Dungeon anyway?	現在のパーティはダンジョンの推奨ロール構成を満たしておらず、${1}が不足しています。それでもダンジョンに入りますか？
+23706	Charges to a point @{2} m in front of the designated ST enemy within @{1} m, dealing ATK * ^{1}@{3}%^{2} damage.	@{1}m以内の指定した単体の敵の前方@{2}m地点まで突進し、攻撃力*^{1}@{3}%^{2}のダメージを与える。
+23707	When Virus Spread is cast, cast mini “Virus Spread” @{1} more times at the target location\n(No Chance required)	【ウイルススプレッド】発動時、対象地点に小型の「ウイルススプレッド」を追加で@{1}回発動する\n（確率判定なし）
+23708	Help? What could you possibly do? A gang of bandits moved into my attic, and they haven't let me sleep for days.	助ける？あんたに何ができるっていうんだい？盗賊の一団がうちの屋根裏に居座って、もう何日も眠れてないんだよ。
+23709	I-It's only a thank-you gift! I'm definitely not trying to confess my feelings! Do you know what she likes best?	こ、これはただのお礼の贈り物だから！告白しようとしてるわけじゃない！教官が一番好きなもの、知ってる？
+23710	Removes up to ${3} ground effects from a designated area with a radius of ${2} meters within ${1} meters of you.	自身から${1}m以内の半径${2}mの指定エリアにある地面効果を最大${3}個解除する。
+23711	Guilds that excel in the Territory War receive a certain number of <color=#fdab5b>Conqueror</color> reward slots.	領地戦で優秀な成績を収めたギルドには、<color=#fdab5b>征服者</color>報酬枠が一定数与えられる。
+23712	Players who obtain a Throne Token can purchase throne-exclusive items from the Season Shop during the new Season.	王座トークンを獲得したプレイヤーは、新シーズン中にシーズンショップで王座限定アイテムを購入できる。
+23713	Thick hot cocoa flavored with vanilla and topped with fine Milk foam. Increases Life by @{1}~@{2} for @{3} hours.	バニラ風味の濃厚ホットココアに、きめ細かなミルクフォームをのせた一杯。@{3}時間、HPが@{1}～@{2}増加する。
+23714	Removing player <color=#FA983A>${1}</color> will make you strangers and permanently reset your Intimacy. Confirm?	プレイヤー<color=#FA983A>${1}</color>を削除すると他人同士になり、親密度は永久にリセットされます。よろしいですか？
+23715	This Season-themed, high-difficulty dungeon challenge requires a party of ^{1}at least @{1} Members^{2} to enter.	このシーズンテーマの高難易度ダンジョンに挑戦するには、^{1}少なくとも@{1}人^{2}のパーティが必要です。
+23716	Reduces the Physical and Magic ATK of nearby enemies while increasing the Physical and Magic DEF of nearby allies	周囲の敵の物理攻撃力と魔法攻撃力を減少させ、周囲の味方の物理防御力と魔法防御力を増加させる
+23717	Gain a slowing Orbit that reduces the Movement Speed of enemies within a @{1}-meter radius by @{2}% for @{3} sec.	減速オービットを獲得し、@{3}秒間、半径@{1}m以内の敵の移動速度を@{2}%低下させる。
+23718	^{1}^{2}[Smite]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.	^{1}^{2}[スマイト]^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
+23719	Some synthesis materials are untradeable, so the resulting item will also be untradeable. Proceed with synthesis?	一部の合成素材は取引不可のため、合成後のアイテムも取引不可になります。合成を続行しますか？
+23720	A bandage Hat that wraps around the head. It makes your injuries look serious enough to earn a healer's sympathy.	頭にぐるぐる巻く包帯の帽子。治療役に同情されるくらい重傷に見せられる。
+23721	A Hat modeled after a Deviruchi. Its fresh, adorable look brings joy to both the wearer and everyone who sees it.	デビルチを模した帽子。新鮮で可愛らしい見た目が、装備した本人にも見る人にも喜びを与える。
+23722	While under full Petrify, equipment DEF is reduced by @{1}%, and the target's property changes to Earth Lv. @{2}.	完全石化中、装備DEFが@{1}%減少し、対象の属性が地属性Lv.@{2}に変化する。
+23723	First, look here to see this round's placement goal. Place the required number of goods on the board to clear it!	まずここで今回の配置目標を確認しよう。必要数の荷物を盤面に置けばクリア！
+23724	...Fine, fine. Since you insist, I'll go back with you. But give me a little more time to finish one last sample.	……わかった、わかった。そこまで言うなら一緒に戻るよ。でも最後のサンプルだけ仕上げさせてくれ。
+23725	Congratulations on placing ${1} in last Season's Hero Registry! This is the reward you earned. Please collect it!	前シーズンの英雄名簿で第${1}位、おめでとうございます！獲得した報酬をお受け取りください！
+23726	Wonderful, that's really it! Thank You so much—you've done both me and one of my longtime customers a huge favor!	素晴らしい、これで間違いない！本当にありがとう。私だけじゃなく、長年の常連客まで助かったよ！
+23727	Hmm... There are still mysteries left unsolved. Talk to other Adventurers, and you may find the answers you seek.	ふむ……まだ解けていない謎が残っている。他の冒険者に話を聞けば、探している答えが見つかるかもしれない。
+23728	You haven't used one before, have you? A Fly Wing can randomly Teleport You to another location within this area.	使ったことないだろ？ハエの羽を使うと、このエリア内の別の場所へランダムでテレポートできるんだ。
+23729	You can continue participating in the auction after switching dungeons, leaving the dungeon, or leaving the party	ダンジョンを切り替えたり、退出したり、パーティを抜けたりしても、引き続きオークションに参加できます
+23730	Great news! Our Guild Member “${1}” is today's Festival Invitation lucky star! Let's go cheer them on! Go Support	朗報！ギルドメンバー「${1}」が本日の祝典招待ラッキースターに選ばれました！みんなで応援しに行こう！応援する
+23731	The long-awaited grand prize is about to be revealed! Who will be tonight's luckiest winner?\nFirst Prize Drawing	待ちに待った豪華賞品がまもなく発表！今夜一番幸運なのは誰だ？\n1等抽選
+23732	Numerous invading monsters have appeared at Prontera South Gate. Nearby Adventurers, provide support immediately!	プロンテラ南門に多数の侵入モンスターが出現！近くの冒険者は直ちに支援せよ！
+23733	Without looking back, Jack ran into the woods. In the distance, a scream rang out as a branch tore his clothes...	ジャックは振り返りもせず森へ逃げ込んだ。遠くから、枝に服を引き裂かれた悲鳴が響いた……
+23734	Empowers yourself with the power of the Sanctuary, increasing your ^{1}Holy damage by ${1}%^{2} for ${2} seconds.	サンクチュアリの力を自身に宿し、${2}秒間、^{1}聖属性ダメージを${1}%^{2}増加させる。
+23735	Can only be used while riding Madogear. Use the thrusters to Move ^{1}${1}^{2} meters in the specified direction.	魔導ギア騎乗中のみ使用可能。スラスターを使用し、指定方向へ^{1}${1}^{2}m移動する。
+23736	Learn riding techniques to unlock the Peco Peco mount and increase Movement Speed by ^{1}${1}%^{2} while mounted.	騎乗技術を習得してペコペコの乗り物を解放し、騎乗中の移動速度を^{1}${1}%^{2}増加させる。
+23737	Phreeoni sprays its stomach acid, applying 【Stomach Acid Corrosion】 to players within a large area around itself.	フリオニが胃酸を噴射し、自身の周囲広範囲のプレイヤーに【胃酸腐食】を付与する。
+23738	Grants yourself ^{1}${1}^{2} to all base stats, ^{3}${2}^{4} HIT, and ^{5}${3}%^{6} Physical damage for ${4} sec.	自身の全基礎ステータスを^{1}${1}^{2}、命中を^{3}${2}^{4}、物理ダメージを^{5}${3}%^{6}、${4}秒間増加させる。
+23739	Golden Thief Bug harnesses the power of lava and Launches magma at multiple nearby players, damaging players hit.	黄金蟲が溶岩の力を操り、周囲の複数プレイヤーへマグマを放ち、命中したプレイヤーにダメージを与える。
+23740	Orc Hero lets out an enraged roar, damaging nearby players and reducing their Attack Speed by @{1}% for @{2} sec.	オークヒーローが怒りの咆哮を上げ、周囲のプレイヤーにダメージを与え、@{2}秒間攻撃速度を@{1}%低下させる。
+23741	Is deals Physical ATK*^{1}${2}%^{2} Neutral ranged Physical damage to the designated ST enemy within ${1} meters.	イズが${1}m以内の指定した単体の敵に物理攻撃力*^{1}${2}%^{2}の無属性遠距離物理ダメージを与える。
+23742	Eve deals Physical ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	イヴが${1}m以内の指定した単体の敵に物理攻撃力*^{1}${2}%^{2}の無属性近接物理ダメージを与える。
+23743	After briefly charging, Bongun strikes forward, dealing ^{1}${1}%^{2} Neutral melee Physical damage to the enemy.	ボンゴンが短く力を溜めて前方を攻撃し、敵に^{1}${1}%^{2}の無属性近接物理ダメージを与える。
+23744	Magic damage buff: Skills mark enemies when dealing damage. Each Floor of 【Magic Mark】 grants @{1}% Magic damage.	魔法ダメージバフ：スキルでダメージを与えると敵にマークを付与する。【マジックマーク】1スタックごとに魔法ダメージ+@{1}%。
+23745	When a damage/control Protector skill deals damage, adds ${2} hit(s) of ^{1}${3}%^{2} Fire melee Physical damage.	攻撃/行動妨害型の守護スキルがダメージを与えると、^{1}${3}%^{2}の火属性近接物理ダメージを${2}回追加する。
+23746	When a damage/control Protector skill deals damage, adds ${1} hit(s) of ^{1}${2}%^{2} Fire melee Physical damage.	攻撃/行動妨害型の守護スキルがダメージを与えると、^{1}${2}%^{2}の火属性近接物理ダメージを${1}回追加する。
+23747	You no longer own some items in the recommended preset. Replace personal preset ${1} with the recommended preset:	おすすめプリセット内の一部アイテムを所持していません。個人プリセット${1}をおすすめプリセットに置き換えますか：
+23748	When using certain Job Talents, consumes corresponding ^{1}【Pages】^{2} Floors to cast them an Extra @{1} time(s).	一部の職業タレント使用時、対応する^{1}【ページ】^{2}を消費し、追加で@{1}回発動する。
+23749	Participate in the Tower of Spirits during the event. Rewards will be issued based on rankings during Settlement.	イベント期間中に精霊の塔へ参加しよう。集計時のランキングに応じて報酬が配布されます。
+23750	Amplifies your magic power, increasing Magic ATK by ^{1}${1}^{2} and Cast Speed by ^{3}${2}^{4} for ${3} seconds.	魔力を増幅し、${3}秒間、魔法攻撃力を^{1}${1}^{2}、詠唱速度を^{3}${2}^{4}増加させる。
+23751	Every @{1} DEX grants @{2} HIT, @{3} ranged-class Physical ATK, @{4}% ranged-class Physical ATK, and @{5} CT Speed	DEXが@{1}増えるごとに、命中+@{2}、遠距離系物理攻撃力+@{3}、遠距離系物理攻撃力+@{4}%、CT速度+@{5}
+23752	Adorned with fresh flowers and brimming with the spirit of spring. (Requires the Cart Remodeling skill to switch.)	鮮やかな花々で飾られ、春の息吹に満ちている。（切り替えにはカート改造スキルが必要）
+23753	Complete quests and Kill monsters to earn EXP. Star Deity Level and constellation data will reset between Seasons.	クエスト達成やモンスター討伐でEXPを獲得できる。星神レベルと星座データはシーズン切り替え時にリセットされる。
+23754	Cards can be obtained by defeating monsters, completing quests, and through Trade. MVPs drop ultra-Rare MVP Cards.	カードはモンスター討伐、クエスト達成、取引などで入手できる。MVPからは超レアなMVPカードがドロップする。
+23755	Heaven's Bounty Stone ×@{1} Chance: @{2}%\nHeaven's Bounty Stone ×@{3} Chance: @{4}%\nBlue Pet Shard Chance: @{5}%	天恵の石×@{1} 確率：@{2}%\n天恵の石×@{3} 確率：@{4}%\n青品質ペット欠片 確率：@{5}%
+23756	Cannot use skill or move, and Physical and Magic DEF are reduced by @{1}%. Removed when hit, then inflicts Freeze.	スキル使用・移動ができず、物理防御力と魔法防御力が@{1}%低下する。攻撃を受けると解除され、その後凍結を付与する。
+23757	Ranged Physical damage +${1}%. Each Floor of the Physical Damage buff grants an Extra ${2}% ranged Physical damage	遠距離物理ダメージ+${1}%。物理ダメージバフ1スタックごとに、さらに遠距離物理ダメージ+${2}%
+23758	Players removed via Leave Channel will be Auto-added to Blocks and cannot Enter this Channel again for ${1} hours.	チャンネル退出で除外されたプレイヤーは自動的にブロックリストへ追加され、${1}時間このチャンネルへ再入場できない。
+23759	A hardworking little kitty pushes its cart... You are the most valuable treasure aboard, yet you'll never be sold.	働き者の小さな猫がカートを押している……その荷台で最も価値ある宝物はあなた。決して売り物にはならない。
+23760	That's a relief. At least he's safe. But Ant Hell is dangerous. We need to find him and make sure nothing happens.	それなら安心だ。少なくとも無事ではいる。でも蟻地獄は危険だ。何か起きる前に見つけ出さないと。
+23761	Congratulations! You won the auction for ${2} in ${1}. Please check the attachments, and have a wonderful journey!	おめでとうございます！${1}のオークションで${2}を落札しました。添付をご確認のうえ、素敵な旅をお楽しみください！
+23762	These are your unclaimed Cumulative Rewards from the Lost Treasure event. Please collect them from the attachment.	「失われた財宝」イベントの未受取累積報酬です。添付からお受け取りください。
+23763	Wow, that's strict! We just defeated Eddga and haven't even caught our breath, and now we already have new Quests?	うわ、厳しいな！エドガを倒したばかりで息をつく暇もないのに、もう次のクエストがあるの？
+23764	Guild Challenge: Epic Battle is now open. Head to the Guild Event panel to provide Utility support to your allies!	ギルドチャレンジ：エピックバトルが開放されました。ギルドイベント画面から仲間を支援しよう！
+23765	Bobo\nThe place circled in red in the notes must be the Professor's destination. Looks like we need to keep going.	ボボ\nメモで赤丸が付いてる場所が教授の目的地に違いないよ。まだ先へ進まなきゃ。
+23766	A hilt forged from a dense Radiant Gold block. Its smooth, sturdy finish makes it ideal for crafting fine weapons.	高密度の輝金ブロックから鍛えた柄。滑らかで丈夫な仕上がりで、高品質武器の製作に最適。
+23767	Use an Enhanced Cross Ripper Slasher after Dark Illusion to deal Burst damage, then use Back Slide to evade skills	ダークイリュージョン後に強化クロスリッパースラッシャーで瞬間火力を出し、その後バックスライドでスキルを回避する
+23768	After using Interaction on the Chrono Compass, you see a brief vision of all the Nails of World Order lighting up.	時空コンパスにインタラクトすると、すべての世界法則の釘が一斉に光る短い幻視が見える。
+23769	The Chrono Compass absorbs the Thoughtform, space trembles, time is set to Pause, and the player enters the Abyss.	時空コンパスが思念体を吸収し、空間が震え、時間が停止状態になり、プレイヤーは深淵へ入る。
+23770	Lock onto an allied target within @{1} meters, restoring Life equal to ^{1}@{2}%^{2} of ATK for you and the target	@{1}m以内の味方をロックオンし、自身と対象のHPを攻撃力の^{1}@{2}%^{2}分回復する
+23771	Elio deals Physical ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	エリオが${1}m以内の指定した単体の敵に物理攻撃力*^{1}${2}%^{2}の無属性近接物理ダメージを与える。
+23772	All right, it's easy to get lost in the forest. Take this Flying mount—it'll help you cross the forest in no time!	よし、森は迷いやすい。これを持っていけ――飛行マウントなら、あっという間に森を抜けられる！
+23773	I have traveled through many worlds, but this is the first time I've met someone like you who can awaken a 【Nail】.	私は数多くの世界を旅してきたけれど、【釘】を目覚めさせられるあなたのような人に会ったのは初めてよ。
+23774	The worst part is, that cargo contained parts I ordered from Juno... Without them, I can't even start this device.	何より困るのは、あの積み荷にジュノーから取り寄せた部品が入っていたことだ……あれがなければ、この装置は起動すらできない。
+23775	Parries enemy attacks, increasing Physical and Magic DEF by @{1}. Auto Counters when taking melee Physical damage.	敵の攻撃を受け流し、物理防御力と魔法防御力を@{1}増加させる。近接物理ダメージを受けるとオートカウンターを発動する。
+23776	Follow Bobo to start Learning the Professions (you can Produce Equipment Forging materials and various Consumables)	ボボについて生活職を学び始めよう（装備鍛造素材や各種消耗品を製作できます）
+23777	An error occurred while updating the client. Select Ignore to temporarily Start Game, but you may encounter issues.	クライアントの更新中にエラーが発生しました。「無視」を選ぶと一時的にゲームを起動できますが、問題が発生する可能性があります。
+23778	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Payon Cave】\n@{2}.【Abandoned Village】	以下のマップで対象モンスターを倒すとカウントされる：\n@{1}.【フェイヨンダンジョン】\n@{2}.【廃村】
+23779	This is the Guild Level. It governs guild growth and Benefits and determines the Level-up limit for other buildings	これはギルドレベルです。ギルドの成長と恩恵を左右し、他の建物のレベル上限を決定します
+23780	^{1}^{2}[Pierce]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	^{1}^{2}[ピアース]^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
+23781	When a sword-type Weapon is equipped, PATK increases by ${1} for each Learn Lv. of ^{1}^{2}[Sword Quicken]^{3}^{4}.	剣系武器装備時、^{1}^{2}[ソードクイッケン]^{3}^{4}の習得Lv.1ごとに物理攻撃力が${1}増加する。
+23782	^{1}^{2}【Virus Spread】^{3}^{4} Damage Increase: ${1}% to the percentage damage multiplier and ${2} to fixed damage.	^{1}^{2}【ウイルススプレッド】^{3}^{4}のダメージ増加：割合ダメージ倍率+${1}%、固定ダメージ+${2}。
+23783	Osiris commands ^{1}all Horongs in the arena^{2} to move toward the target, damaging ^{3}targets in their path^{4}.	オシリスが^{1}アリーナ内のすべてのホロン^{2}を対象へ移動させ、^{3}経路上の対象にダメージを与える^{4}。
+23784	A powerful presence that saves allies from danger. Reduces the damage allies take while providing powerful Healing.	危機から味方を救う頼もしい存在。味方の被ダメージを軽減しながら、強力な回復を行う。
+23785	A Golden Coronet engraved with mysterious runes. Legend says it was blessed during the coronation of a former pope.	神秘的なルーンが刻まれた金の冠。かつての教皇の戴冠式で祝福を受けたという伝説がある。
+23786	Dazzling earrings modeled after beautiful Angel wings. Wearing them seems to grant mysterious power from the wings.	美しい天使の羽を模したきらびやかなイヤリング。身につけると羽から不思議な力を得られそうだ。
+23787	Guild Member ${1} left the Guild, automatically canceling the impeachment of Guild Leader ${2}. Failed Impeachment.	ギルドメンバー${1}がギルドを脱退したため、ギルドマスター${2}への弾劾は自動的に取り消されました。弾劾失敗。
+23788	You had unclaimed rewards from the Novice Handbook event. We've sent them by mail, so please check the attachments!	初心者手帳イベントの未受取報酬があります。メールで送付しましたので、添付をご確認ください！
+23789	Come on, tell me—who was it? How did they pull off something so skillful? I still can't figure out how they did it.	さあ教えてくれ――誰だった？どうやってあんな鮮やかな手口を？今でも仕組みが全然わからないんだ。
+23790	I've prepared a [Complete Version] archive and a [Condensed Version] for the host. Remember, don't lose them again.	司会者用に[完全版]の資料と[簡略版]を用意しておいた。今度こそ失くすなよ。
+23791	We couldn't have a child for many years, but ten years ago, we were unexpectedly blessed with a son in our old age.	長年子宝に恵まれなかったけれど、10年前、思いがけず年老いてから息子を授かったんです。
+23792	Is this wreck going to fall out of the sky? The wind's so strong, it's going to blow away Bobo's precious feathers!	このボロ船、空から落ちたりしないよね？風が強すぎて、ボボの大事な羽まで吹き飛ばされそう！
+23793	Fine... For the sake of that precious device, I'll trust this glutton one last time. Let's go, before I throw up...	わかった……あの大事な装置のためだ。この食いしん坊を最後にもう一度だけ信じる。行こう、吐き気がする前に……
+23794	That's it? You're just dismissing us? We crawled through filthy sewers and saw things we were never meant to see...	それだけ？これで帰れっていうの？汚い下水道を這い回って、見たくもないものまで見たのに……
+23795	Your compass... It should begin collecting Soul Echoes soon, shouldn't it? They're more important than you realize.	あなたのコンパス……もうすぐソウルエコーを集め始めるはずよね？あれは、あなたが思っている以上に重要なの。
+23796	Eat <color=#C27B47>Special Dishes</color> to increase base stats. These bonuses are cleared when the Season changes	<color=#C27B47>特別料理</color>を食べると基礎ステータスが増加する。このボーナスはシーズン切り替え時にリセットされる
+23797	Kafra Battlefield Manager\nReceive the Blessing of Baldur, God of Light, increasing MSPD by @{1}% for @{2} minutes.	カプラ戦場管理人\n光の神バルドルの加護を受け、@{2}分間、移動速度が@{1}%増加する。
+23798	Congratulations to ${1} for winning First Place in the Festival Invitation! What an impressive wealth of knowledge!	祝典招待で1位を獲得した${1}さん、おめでとうございます！見事な知識量でした！
+23799	${1} will begin the Dragon's Descent ritual in Prontera in ${2} seconds and invites all Adventurers to participate!	${1}が${2}秒後にプロンテラで「竜の降臨」の儀式を開始し、すべての冒険者を招待します！
+23800	The enemy has pushed into the central district! Head to the central perimeter defenses and engage them immediately!	敵が中央地区へ侵入した！直ちに中央外周の防衛線へ向かい、迎撃せよ！
+23801	Open this gift box for a chance to obtain a large amount of Diamonds, Equipment Refining Materials, and Rare Cards.	このギフトボックスを開けると、大量のダイヤ、装備精錬素材、レアカードなどを獲得できることがある。
+23802	A partially finished piece made from an Ironwood block. It can be further polished into a fine equipment component.	鉄木ブロックから加工した半製品。さらに磨き上げることで高品質な装備部品になる。
+23803	A geometrically shaped fragment of Sobbing Starlight. It might be restored if the pieces are carefully reassembled.	「すすり泣く星明かり」の幾何学的な欠片。丁寧に組み直せば元に戻せるかもしれない。
+23804	Cow's milk, considered the most nutritious food for a Child during the Growth Stage. Can be exchanged for Headwear.	成長期の子どもに最も栄養価が高いとされる牛乳。頭装備と交換できる。
+23805	Even a tiny balloon can express your feelings~\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}	小さな風船でも気持ちは伝えられるよ～\n^{1}親密度+@{1}、受取人の人気度+@{2}、自分のハート+@{3}
+23806	Instantly restores the character's Life by ^{1}@{1}%^{2} of their maximum HP. ^{3}Life^{4}. Cooldown: @{2} seconds.	キャラクターのHPを最大HPの^{1}@{1}%^{2}分、即座に回復する。^{3}HP^{4}。クールダウン：@{2}秒。
+23807	Summons a vending cart nearby where you can purchase Battle Royale items. The vending cart lasts ^{1} @{1}^{2} sec.	近くに自動販売カートを召喚し、バトルロイヤル用アイテムを購入できる。カートは^{1}@{1}^{2}秒間持続する。
+23808	When 【Melody Vulcan】 triggers 【Firepower Reload】, 【Melody Cannon - Enhance】 Crit Chance increases by ^{1}@{1}%^{2}.	【メロディーバルカン】で【ファイアパワーリロード】が発動すると、【メロディーキャノン・強化】のクリティカル率が^{1}@{1}%^{2}増加する。
+23809	Then we found the three 【Keys】 left behind by the gods—the Realm Sandbox, the Nail of Cosmic Law, and your compass.	そして私たちは、神々が残した3つの【鍵】――領域サンドボックス、宇宙法則の釘、そしてあなたのコンパスを見つけた。
+23810	A group of uniquely talented individuals has appeared throughout the world. Find them to trigger mysterious events.	世界各地に個性的な才能を持つ者たちが現れている。彼らを探し出すと、不思議な出来事が起こる。
+23811	Increases 【Sonic Blow】 damage by ${1}%. Raises the target HP threshold for 【Sonic Blow】's damage increase by ${2}%.	【ソニックブロー】のダメージが${1}%増加する。【ソニックブロー】のダメージ増加が適用される対象HP上限が${2}%上昇する。
+23812	Grants a shield equal to ${1}% of the user's Life, reducing ranged Physical damage taken by ${2}% for ${3} seconds.	使用者のHP${1}%分のシールドを付与し、${3}秒間、受ける遠距離物理ダメージを${2}%軽減する。
+23813	Each cosmetic has its own Fashion Points, which are automatically added to your total when the cosmetic is unlocked.	各コスチュームにはファッションポイントがあり、解放すると自動的に合計値へ加算される。
+23814	This is the system's Suggested route. You may freely choose another route based on the Battle conditions. Good luck!	これはシステムのおすすめルートです。戦況に応じて別のルートを自由に選べます。健闘を祈ります！
+23815	Reflects @{1}% of damage taken for @{2} sec. Reflection cooldown: @{3} sec. (Each reflected hit cannot exceed @{4}W)	@{2}秒間、受けたダメージの@{1}%を反射する。反射クールダウン：@{3}秒。（1回の反射ダメージは最大@{4}W）
+23816	Afflicted by the Curse of darkness, reducing Movement Speed by @{1}% and inflicting Silence and Disarm for @{2} sec.	闇の呪いに侵され、@{2}秒間、移動速度が@{1}%低下し、沈黙と武装解除を受ける。
+23817	When ^{1}^{2}[Resurrection]^{3}^{4} Revives a target below Base ${1}, its HP and SP recovery are increased by ${2}%.	^{1}^{2}[リザレクション]^{3}^{4}でBase ${1}未満の対象を復活させると、HPとSPの回復量が${2}%増加する。
+23818	^{1}^{2}【Deadly Poison】^{3}^{4} Damage Increase: ${1}% to the percentage damage multiplier and ${2} to fixed damage.	^{1}^{2}【デッドリーポイズン】^{3}^{4}のダメージ増加：割合ダメージ倍率+${1}%、固定ダメージ+${2}。
+23819	Mistress summons ^{1}Hornets that charge horizontally and vertically^{2}, damaging players. Players must evade them.	ミストレスが^{1}横方向と縦方向に突進するホーネット^{2}を召喚し、プレイヤーにダメージを与える。プレイヤーは回避する必要がある。
+23820	Mistress summons a ^{1}swarm of bees^{2} around herself, dealing damage first in a circular area and then in a ring.	ミストレスが自身の周囲に^{1}蜂の群れ^{2}を召喚し、まず円形範囲、その後ドーナツ状範囲にダメージを与える。
+23821	Mistress summons a ^{1}Hornet formation^{2} to perform ^{3}@{1}^{4} charges, followed by ^{5}@{2}^{6} wider charges.	ミストレスが^{1}ホーネット部隊^{2}を召喚し、^{3}@{1}回^{4}突進した後、さらに広い範囲へ^{5}@{2}回^{6}突進する。
+23822	Baphomet summons a ^{1}lightning strike^{2} that damages targets in a circular area, then damages targets in a ring.	バフォメットが^{1}落雷^{2}を召喚し、円形範囲にダメージを与えた後、ドーナツ状範囲にもダメージを与える。
+23823	A unique Hat with enormous wings symbolizing the sun. Please don't ask how you're supposed to walk while wearing it.	太陽を象徴する巨大な羽が付いた個性的な帽子。これをかぶってどう歩くのかは聞かないでほしい。
+23824	The rabbit family of Fairy-Tale Town loves curling up inside teacups for afternoon naps whenever the sun is shining.	童話の町のウサギ一家は、晴れた午後になるとティーカップの中で丸まって昼寝するのが大好き。
+23825	Not enough <sprite name="${1}"> <#cc762a>X${2}</color>. Spend <sprite name="${3}"><#cc762a>${4}</color> to purchase?	<sprite name="${1}"> <#cc762a>X${2}</color>が不足しています。<sprite name="${3}"><#cc762a>${4}</color>を消費して購入しますか？
+23826	Look here! You can use the Trade Exchange to buy or sell equipment, Cards, and other Rare items. Take a look around~	ほら！取引所では装備やカードなどのレアアイテムを売買できるよ。見ていってね～
+23827	The Demon King Morroc invaded these lands, while Jormungand, the colossal World Serpent, sought to devour the world.	魔王モロックがこの地へ侵攻し、巨大な世界蛇ヨルムンガンドは世界を呑み込もうとした。
+23828	Oh, you must be the newcomer Rhine mentioned. You've certainly got courage, but otherwise you look pretty average...	ああ、ラインが話していた新人か。度胸はあるようだが、それ以外はごく普通に見えるな……
+23829	It's a common trick among Adventurers. You rely on luck to cross paths with it. Whether you find it is up to chance.	冒険者ならよく使う手さ。出会えるかどうかは運任せ。見つかるかはその時次第だ。
+23830	Congratulations on ranking ${1} on the Combat Power Ranking—Mages! Here are your Ranking Rewards. Please claim them!	戦闘力ランキング―マジシャン系で第${1}位、おめでとうございます！ランキング報酬をお受け取りください！
+23831	Your bid on ${2} in the ${1} auction was surpassed, and your funds have been returned. Please check the attachments.	${1}オークションの${2}への入札が更新されたため、入札資金が返還されました。添付をご確認ください。
+23832	Dear Player, the review result for your appeal regarding Order No.:【${7}】 has been confirmed.\nReview Result:Denied.	プレイヤー様、注文番号：【${7}】に関する異議申立ての審査結果が確定しました。\n審査結果：却下。
+23833	These are your rewards for defeating an Elite Monster while Treasure Hunting. Please claim them from the attachment.	財宝探索中に精鋭モンスターを討伐した報酬です。添付からお受け取りください。
+23834	Thank You for handing out Red Packets during the Dragon Quest. Here are the unclaimed portions. Please collect them!	ドラゴンクエスト中にお年玉を配っていただき、ありがとうございます。未受取分を返還しますので、お受け取りください！
+23835	These are the Personal Rewards you earned during the Wedding Crashers event. Please claim them from the attachments.	「ウェディングクラッシャー」イベントで獲得した個人報酬です。添付からお受け取りください。
+23836	Getting completely drunk every night is making my head hurt~ I could really use a bottle of pale yellow Potion~ Hic~	毎晩べろんべろんに酔ってたら頭が痛くなってきた～。薄黄色のポーションが1本欲しいな～、ヒック～
+23837	Don't worry. Take this Red Potion. Remember to restore your HP promptly in the Field, and don't let You become Weak.	心配するな。このレッドポーションを持っていけ。フィールドではこまめにHPを回復して、弱ったままにするなよ。
+23838	Ahem, well... You two were working together so well that rushing in might've thrown off your rhythm... Yes, exactly!	ゴホン、まあ……二人の連携があまりに良かったから、途中で入ったら調子を崩すかもしれないと思ってな……そう、それだけだ！
+23839	You're deliberately finding fault with everything! We risked our lives to get these, and now you're telling us this?	何でもかんでも難癖つけてるだけじゃないか！命がけで取ってきたのに、今さらそんなこと言うのかよ！
+23840	Orc Hero will unleash its ultimate skill in ${1} seconds. Pick up the Giant Blade and interrupt Orc Hero's charging!	オークヒーローが${1}秒後に必殺技を発動します。巨大な剣を拾い、オークヒーローのチャージを中断してください！
+23841	Alert! The enemy is nearing Prontera's core, and the central defensive line is about to become the Main Battlefield!	警報！敵がプロンテラ中枢へ接近中。中央防衛線がまもなく主戦場になる！
+23842	Bobo\nHmph! Maya wasn't so tough! I heard monsters hide their treasures in their nests. Could the professor be here?	ボボ\nふん！マヤなんて大したことなかったね！モンスターは巣に宝物を隠すって聞いたよ。教授もここにいるかな？
+23843	Air Pirate Boss\nDon't... celebrate just yet... By the Desert Eagles, I swear... Blood... will be repaid in blood...	空賊団長\nまだ……勝った気になるな……デザートイーグルに誓って……血には……血で報いる……
+23844	Cockroach Researcher\nT-That was terrifying... I've been afraid of dogs since I was little. I'm getting out of here!	ゴキブリ研究者\nこ、怖かった……子どもの頃から犬が苦手なんだ。もうここから逃げる！
+23845	Bobo\nW-What's going on? Why is that compass on your chest glowing? That's scary! It's not going to explode, is it?!	ボボ\nな、何これ？胸のコンパスがどうして光ってるの？怖いよ！爆発したりしないよね？！
+23846	A grip forged from mithril that improves a weapon's handling and durability. Suitable for crafting standard weapons.	ミスリルで鍛えたグリップ。武器の扱いやすさと耐久性を高め、標準武器の製作に適している。
+23847	A long Feather from a raven's tail that shimmers with colorful light. One of the Materials used to create a Pet Egg.	虹色の光を放つカラスの長い尾羽。ペットの卵を作るための素材の1つ。
+23848	A mysterious liquid shimmering with every color of the rainbow. Instantly restores @{1}% HP. Cooldown: @{2} seconds.	虹の七色にきらめく神秘的な液体。HPを@{1}%即座に回復する。クールダウン：@{2}秒。
+23849	A superb Healing Potion imbued with the power of Blessing. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	祝福の力を宿した高級回復ポーション。HPを@{1}+@{2}%即座に回復する。クールダウン：@{3}秒。
+23850	Made from the shoulder section of a suit of armor, this protective shoulder covering offers considerable protection.	鎧の肩部分を加工して作られた肩当て。十分な防御力を備えている。
+23851	A long-handled dagger once used in an ancient kingdom. Its blade is slightly longer than that of an ordinary dagger.	古代王国で使われていた長い柄の短剣。刃は一般的な短剣よりやや長い。
+23852	Event Period: During the Ignition Test, opens Saturday and the following Monday and Tuesday from @{1}:@{2}~@{3}:@{4}	イベント期間：点火テスト中、土曜日と翌週の月曜・火曜の@{1}:@{2}～@{3}:@{4}に開放
+23853	Releases a pulse within a ${1} m radius, dealing Physical ATK * ^{1}${3}%^{2} Neutral melee Physical DMG ${2} times.	半径${1}m以内へ衝撃波を放ち、物理攻撃力*^{1}${3}%^{2}の無属性近接物理ダメージを${2}回与える。
+23854	After leaving, you can re-enter from the Territory War event screen. Are you sure you want to leave the battlefield?	退出後も領地戦イベント画面から再入場できます。本当に戦場から退出しますか？
+23855	After use, creates a magnetic field in the selected Guild Battlefield that continuously affects every player's Move.	使用すると、選択したギルド戦場に磁場を生成し、すべてのプレイヤーの移動へ継続的に影響を与える。
+23856	Vocal begins singing, healing up to ${3} allies within a ${2}-meter radius for *^{1}${4}%^{2} of their maximum Life.	ボーカルが歌い始め、半径${2}m以内の味方最大${3}人のHPを最大HPの*^{1}${4}%^{2}分回復する。
+23857	The Watcher flaps its wings, dealing Neutral melee Physical damage equal to Physical ATK*^{1}${1}%^{2} to the enemy.	ウォッチャーが翼を羽ばたかせ、敵に物理攻撃力*^{1}${1}%^{2}の無属性近接物理ダメージを与える。
+23858	【Twilight Light】damage multiplier increases by ^{1}${1}%^{2} and applies 【Over Brand】 for an Extra ^{3}${2}^{4} sec.	【トワイライトライト】のダメージ倍率が^{1}${1}%^{2}増加し、【オーバーブランド】の持続時間が追加で^{3}${2}^{4}秒延長される。
+23859	Deals ST Neutral melee Physical damage equal to Physical ATK * ^{1}${2}%^{2} to the target enemy within ${1} meters.	${1}m以内の対象の敵単体に物理攻撃力*^{1}${2}%^{2}の無属性近接物理ダメージを与える。
+23860	Let's split up. ^{1}PlayerName^{2} and I will deal with the hardest one to persuade, while Kiki talks to the others.	手分けしよう。^{1}PlayerName^{2}と私は一番説得が難しい相手を担当する。キキは他の人たちを頼む。
+23861	We reported them to the guards, but they said this is a public area and they can't stop people from waiting in line.	衛兵にも通報したんだが、ここは公共の場所だから並ぶこと自体は止められないと言われたよ。
+23862	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.	いずれかの守護スキル使用時、主人に[神聖な希望]（物理/魔法防御力+^{1}${1}%^{2}）を${2}%秒間付与する。
+23863	You no longer own some items in the recommended build. Replace the selected System build with the recommended build?	おすすめビルド内の一部アイテムを所持していません。選択中のシステムビルドをおすすめビルドに置き換えますか？
+23864	Every @{1} seconds, Live Coals will appear in the territory. Gather them and add them to the Bonfire to earn rewards.	@{1}秒ごとに領地内へ燃える石炭が出現する。集めて焚き火へ投入すると報酬を獲得できる。
+23865	A highest-ranking cleric with greatly improved field auto-battle capabilities, battlefield damage, and crowd control.	最高位の聖職者。フィールドオート戦闘能力、戦場での火力、行動妨害能力が大幅に向上している。
+23866	Rune Sword can ride a dragon, initiate team fights, and charge into battle while offering both durability and damage.	ルーンソードはドラゴンに騎乗し、集団戦の起点となって敵陣へ突撃できる。耐久力と火力を兼ね備える。
+23867	While Cooking, there is a Chance to trigger ^{1}Flash of Inspiration^{2} and obtain a higher-rarity ^{3}Rare item^{4}	料理中、確率で^{1}ひらめき^{2}が発生し、より高レアリティの^{3}レアアイテム^{4}を獲得できる
+23868	Using 【Axe Smash】 or 【Axe Tornado】 grants stacks of 【Blade Mark】. At @{1} stacks, triggers 【Axe Boomerang - Enhance】.	【アックススマッシュ】または【アックストルネード】使用時に【ブレードマーク】を獲得する。@{1}スタックで【アックスブーメラン・強化】が発動する。
+23869	Each Member gains a different Class Resonance effect: damage dealt to Bosses +@{1}%, damage taken from Bosses -@{2}%.	メンバーごとに異なる職業共鳴効果を獲得：ボスへの与ダメージ+@{1}%、ボスからの被ダメージ-@{2}%。
+23870	^{1}^{2}【Meteor Assault】^{3}^{4} Damage Increase: ${1}% to the percentage damage multiplier and ${2} to fixed damage.	^{1}^{2}【メテオアサルト】^{3}^{4}のダメージ増加：割合ダメージ倍率+${1}%、固定ダメージ+${2}。
+23871	Drake repeatedly summons^{1}@{1} ghost ships^{2}that sail across the battlefield, damaging targets along their paths.	ドレイクが^{1}@{1}隻の幽霊船^{2}を繰り返し召喚し、戦場を横切らせて経路上の対象にダメージを与える。
+23872	Deals Damage over Time to enemies within a @{1}-meter radius, dealing ^{1}@{2}%^{2} damage per tick for @{3} seconds.	半径@{1}m以内の敵に@{3}秒間、1回ごとに^{1}@{2}%^{2}の持続ダメージを与える。
+23873	A Hat coveted by every talented mage. It looks a little odd, but it's comfortable to wear and gives off a lively air.	優秀なマジシャンなら誰もが欲しがる帽子。少し変わった見た目だが、かぶり心地がよく活発な印象を与える。
+23874	A mask imbued with the strong will of a Goblin Leader. But no matter how you dress it up, a Goblin is still a Goblin.	ゴブリンリーダーの強い意志が宿った仮面。どれだけ着飾っても、ゴブリンはゴブリンだけどね。
+23875	Enable Follow under [Wardrobe - Pet Follow]. Once enabled, ${1} will follow close behind you in non-battle locations.	[ワードローブ - ペット追従]で追従を有効にすると、非戦闘エリアで${1}があなたの後ろをついてくる。
+23876	(Suddenly notices something) Grandpa, why are your pant legs all torn up? It looks like something's been biting them.	（ふと何かに気づく）おじいちゃん、どうしてズボンの裾がこんなにボロボロなの？何かに噛まれたみたい。
+23877	Oh! I get it now! It's one of those "can't say too much" situations, right? Like with certain high-level commissions.	あっ、わかった！「詳しくは言えない」ってやつでしょ？上級任務なんかでよくあるやつ！
+23878	These little ones are timid enough already. If you don't help, I'll never get them to tell me where the spicewood is.	この子たちはただでさえ臆病なんだ。手伝ってくれないと、スパイスウッドの場所なんて絶対に教えてくれないよ。
+23879	With a Magic Staff, even someone who isn't naturally strong can convert mental energy into tremendous physical power.	魔法の杖があれば、もともと力が強くない人でも精神力を莫大な物理力へ変換できる。
+23880	The village is half destroyed, yet people are still coming here... That shouldn't affect the secret base much, right?	村は半壊してるのに、まだ人が来るんだ……秘密基地にはそんなに影響ないよね？
+23881	Someone posted a wanted notice here—a white four-legged creature carried off a fish in its mouth and is very agile...	ここに手配書が貼ってある――白い四足の生き物が魚をくわえて逃げた。とても素早いらしい……
+23882	Don't let the quiet fool you. Calm doesn't mean everything's fine. Sometimes, Calm is the most dangerous sign of all.	静かだからって安心するな。何も起きてないとは限らない。時には、この静けさこそが一番危険な兆候なんだ。
+23883	The White Dove has been my trusty companion for years. She may fly steady now, but she once saved my life in a storm.	白鳩号は長年連れ添った相棒だ。今は安定して飛んでるが、昔は嵐の中で俺の命を救ってくれたこともある。
+23884	Excellent. It seems you've learned to control your own STR. That's the foundation of becoming a Qualified Adventurer.	素晴らしい。自分のSTRを制御できるようになったようだ。それこそ一人前の冒険者になるための基礎だ。
+23885	What? They're that venomous? What if we get bitten?! It's way too dangerous to send a rookie like ^{1}PlayerName^{2}!	なに？そんなに毒が強いの？噛まれたらどうするの？！^{1}PlayerName^{2}みたいな新人を行かせるなんて危険すぎるよ！
+23886	This is for you. Consider it a token of my gratitude and... something to help you recognize Me the next time we meet.	これはあなたに。感謝のしるしと……次に会った時、私だと気づくための目印にして。
+23887	Hey! You stingy old man! ^{1}PlayerName^{2} got hurt because of you, and all you're offering is a room for the night?	ちょっと！ケチなおじいさん！^{1}PlayerName^{2}はあんたのせいで怪我したのに、泊まる部屋だけで済ませるつもり？！
+23888	“This route used to be the lifeline of merchant caravans. Now... those damned sky pirates have thrown it into chaos.”	「この道はかつて商隊の生命線だった。今では……忌々しい空賊どものせいでめちゃくちゃだ。」
+23889	“Hahaha! Judging by the look on your face, is this your first time on an airship? Nervous? Relax—I’ve got your back!”	「ハハハ！その顔を見るに、飛行船は初めてか？緊張してる？安心しろ――俺がついてる！」
+23890	Kafra Battlefield Administrator\n[Evil Eye Messenger] has airdropped a ^{1}[Surprise Chest]^{2} onto the battlefield!	カプラ戦場管理者\n[イビルアイメッセンジャー]が戦場に^{1}[サプライズチェスト]^{2}を空中投下しました！
+23891	Kafra Battlefield Manager\nReceive the Blessing of Tyr, God of War, increasing Crit Chance by @{1}% for @{2} minutes.	カプラ戦場管理人\n戦の神テュールの加護を受け、@{2}分間、クリティカル率が@{1}%増加する。
+23892	Bobo\n(Gasps) W-w-why is it Eddga?!!! (Squeezes eyes shut) Never mind! Saving them comes first! Adventurer, let's go!	ボボ\n（息をのむ）な、な、なんでエドガなの？！！！（ぎゅっと目を閉じる）もういい！まず助けるのが先！冒険者、行こう！
+23893	A large carnivorous fish that requires high-quality water. Its meat is delicious and said to be good for your health.	良質な水を必要とする大型の肉食魚。肉は美味で、健康にもよいと言われている。
+23894	A versatile carp raised for food, medicine, and decoration. In some regions, it is considered a sign of good fortune.	食用・薬用・観賞用と幅広く飼育されるコイ。一部の地域では幸運の象徴とされている。
+23895	Spirit-infused thread used to sew robes or craft Enchant equipment, enhancing the equipment's magical responsiveness.	霊力を宿した糸。法衣の縫製やエンチャント装備の製作に使われ、装備の魔力感応性を高める。
+23896	A partially finished piece processed from a Sacred Wood block, retaining the wood's resilience and sacred properties.	聖木ブロックから加工した半製品。木材のしなやかさと神聖な性質を残している。
+23897	Leaving the dungeon during the boss battle will prevent you from rejoining the fight. Are you sure you want to leave?	ボス戦中にダンジョンを退出すると、戦闘へ再参加できません。本当に退出しますか？
+23898	Listen to the question at the quiz station, decide whether it is true or false, and stand in the corresponding circle	クイズ台の問題を聞き、正誤を判断して対応する円の中に立とう
+23899	The dragon breathes fire across the full-screen. Players who aren't behind an intact shield will be killed instantly.	ドラゴンが画面全体へ炎を吐く。無傷の盾の後ろに隠れていないプレイヤーは即死する。
+23900	Baby Ktullanux rolls forward, dealing Neutral melee Physical damage equal to Physical ATK*^{1}${1}%^{2} to the enemy.	ベビークトルラナックスが前方へ転がり、敵に物理攻撃力*^{1}${1}%^{2}の無属性近接物理ダメージを与える。
+23901	[Melody Vulcan] Damage Increase ^{1}@{1}%^{2}. When attacking a target with [Melody Bubble], DMG Bonus ^{3}@{2}%^{4}.	[メロディーバルカン]のダメージが^{1}@{1}%^{2}増加します。[メロディーバブル]状態の対象を攻撃すると、与ダメージが^{3}@{2}%^{4}増加します。
+23902	You are not connected to Wi-Fi. The game has a {@{1}:@{2}0}MB update. Downloading it may incur Data charges. Continue?	Wi-Fiに接続されていません。ゲームには{@{1}:@{2}0}MBのアップデートがあります。ダウンロードするとデータ通信料が発生する場合があります。続行しますか？
+23903	Base Combat Power is permanent.\nEquipment, refinement, cards, pets, and Divine Totems can increase Base Combat Power.	基礎戦闘力は恒久的に維持されます。\n装備、精錬、カード、ペット、神術トーテムによって基礎戦闘力を上昇させることができます。
+23904	The Spirit Tower's pet lineup is separate from the pet deployment lineup used in the open world, so keep that in mind!	精霊の塔のペット編成は、オープンワールドで使用するペット出撃編成とは別なので注意してください！
+23905	Mushrooms and tomatoes simmered together into a fragrant amber broth. Increases Magic ATK by @{1}~@{2} for @{3} hours.	キノコとトマトを一緒に煮込み、香り豊かな琥珀色のスープに仕上げた料理。魔法攻撃力が@{1}～@{2}、@{3}時間増加します。
+23906	After casting ^{1}^{2}【Blitz Beat】^{3}^{4}, ASPD increases by ${1}% for ${2} seconds. Internal Cooldown: ${3} seconds.	^{1}^{2}【ブリッツビート】^{3}^{4}発動後、攻撃速度が${1}%増加し、${2}秒間持続します。内部クールダウン：${3}秒。
+23907	When equipped with a Two-Handed Spear, ^{1}^{2}[Holy Cross]^{3}^{4}'s percentage damage multiplier increases by ${1}%.	両手槍を装備している時、^{1}^{2}[ホーリークロス]^{3}^{4}のダメージ倍率が${1}%増加します。
+23908	^{1}^{2}[Grimtooth]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	^{1}^{2}[グリムトゥース]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23909	(After initiating a Guild Rally, all Guild Members will receive the rally notification and teleport to your location.)	（ギルド集結を開始すると、すべてのギルドメンバーに集結通知が届き、あなたの位置へテレポートします。）
+23910	You need to learn how to set up Auto-Potion. This Demon can't Fortify you. Tapping and holding have different effects!	オートポーションの設定方法を覚える必要があります。このデーモンでは強化できません。タップと長押しでは効果が異なります！
+23911	Meowcici Mining Company at your service~ Oh, you're still a new adventurer! Come play with me once you reach Lv. @{1}~	ニャウシシ鉱業がお手伝いするニャ～あっ、まだ新米冒険者なんだね！Lv.@{1}になったら遊びに来てニャ～
+23912	We're very sorry, but your purchase failed. The following items have been returned to you. Please claim them promptly!	申し訳ありません。購入に失敗しました。以下のアイテムを返却しましたので、お早めにお受け取りください！
+23913	Congratulations! Guild building ${1} has completed a Level-up from Lv. ${2} to Lv. ${3}. Go see what's new! [View Now]	おめでとうございます！ギルド施設${1}がLv.${2}からLv.${3}へレベルアップしました。新しい内容を確認しましょう！[今すぐ確認]
+23914	Congratulations! You ranked No. ${1} in this season's Pinnacle Top Ten Ranking. Please claim your well-earned rewards!	おめでとうございます！今シーズンの頂上十傑ランキングで第${1}位を獲得しました。報酬をお受け取りください！
+23915	Congratulations on clearing the Gloom over Dragoncasket Island event on ${1} difficulty! You've earned a clear reward.	「龍棺島を覆う暗雲」イベントの${1}難易度クリア、おめでとうございます！クリア報酬を獲得しました。
+23916	Your listing for [${1}] on the Exchange expired and was removed automatically. Please collect it from the attachments.	取引所に出品していた[${1}]が期限切れとなり、自動的に出品取り下げとなりました。添付ファイルからお受け取りください。
+23917	Thank You for helping Defeat the treasure-guarding Monster. Please claim your assistance rewards from the attachments.	財宝を守るモンスターの討伐にご協力いただきありがとうございます。援助報酬を添付ファイルからお受け取りください。
+23918	All right, your second Trial Quests is to Defeat ^{1}@{1} Fabres^{2}. These monsters are more dangerous, so stay safe.	よし、2つ目の試練クエストは^{1}@{1}体のファブル^{2}を倒すことだ。さっきより危険なモンスターだから、十分気をつけろよ。
+23919	Take some time to familiarize You with your new skills. They'll be the most reliable Weapon on your future adventures.	新しく覚えたスキルに慣れておきましょう。これからの冒険で最も頼れる武器になります。
+23920	The battle has already begun. If you leave the dungeon, you cannot rejoin the battle.\nAre you sure you want to leave?	戦闘はすでに始まっています。ダンジョンから退出すると、戦闘に再参加できません。\n本当に退出しますか？
+23921	The Demonic Dragon Soul is about to appear! Pick it up to gain a powerful Buff. Kill its holder to Score Extra points.	魔竜の魂がまもなく出現します！拾うと強力なバフを獲得できます。所持者を倒すと追加ポイントを獲得できます。
+23922	Scattered enemies have also appeared to the east and west, but Prontera South Gate remains our primary defensive line.	東西にも散発的に敵が出現していますが、プロンテラ南門が引き続き最優先の防衛線です。
+23923	Rare mane taken from a monster. Tough and magical, it can be used to make high-grade fabric or in alchemical formulas.	モンスターから採取した希少なたてがみ。丈夫で魔力を帯びており、高級布地の製作や錬金術の素材に使用できます。
+23924	A Madogear Pilot crafted from Steel refined and combined from Iron Ore. The Material is @{1}% stronger than pure iron.	鉄鉱石から精錬した鋼鉄で製作された魔導ギア。素材強度は純鉄より@{1}%高くなっています。
+23925	A coat made from soft animal fur. It has drawn heavy criticism from conservation groups, so please be kind to animals.	柔らかな動物の毛皮で作られたコート。自然保護団体から厳しい批判を受けているので、動物には優しくしましょう。
+23926	The Divine Arts Totem already has a skill with a stronger unique effect. Do you want to continue using the Skill Book?	神術トーテムには、すでにより強力な固有効果を持つスキルがあります。それでもスキルブックを使用しますか？
+23927	Because you are under @{1}, the anti-addiction System limits your total purchases this month to no more than @{2} yuan	あなたは@{1}未満のため、依存防止システムにより今月の購入総額は@{2}元までに制限されます。
+23928	Increases Physical ATK and Magic ATK by ^{1}${3}^{2} for you and up to ${2} allies within a ${1}m radius for ${4} sec.	自身および${1}m以内の味方最大${2}人の物理攻撃力と魔法攻撃力を^{1}${3}^{2}増加させ、${4}秒間持続します。
+23929	Controls the Madogear Pilot to spin its weapon, dealing ^{1}@{3}%^{2} damage to up to @{2} enemies within @{1} meters.	魔導ギアを操って武器を回転させ、@{1}m以内の最大@{2}体の敵に^{1}@{3}%^{2}のダメージを与えます。
+23930	Angeling deals Physical ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	エンジェリングが${1}m以内の指定した単体の敵に、物理攻撃力*^{1}${2}%^{2}の無属性近接物理ダメージを与えます。
+23931	Extends the Control duration of ^{1}Control-type^{2} Primary Battle Skills against the Enemy Team by ^{3}${1}^{4} sec.	敵チームに対する^{1}行動妨害型^{2}のメイン戦闘スキルの行動妨害時間を^{3}${1}^{4}秒延長します。
+23932	The BOSS throws @{1} phantom Kunai. If players are within @{2} meters of one another, the Kunai ricochet between them.	BOSSが@{1}本の幻影クナイを投げます。プレイヤー同士の距離が@{2}m以内の場合、クナイがプレイヤー間を跳ね返ります。
+23933	Increases Physical DEF and Magic DEF by ^{1}${1}^{2} for ${2} sec. and grants ^{3} ^{4}【Endure】^{5} ^{6} for ${3} sec.	物理防御力と魔法防御力が^{1}${1}^{2}増加し、${2}秒間持続します。さらに^{3} ^{4}【インデュア】^{5} ^{6}を${3}秒間付与します。
+23934	It turned out we both felt the same way, and we started dating. Oh my! I'm getting a little Shy just talking about it!	実は私たち、両想いだったの。それから付き合い始めてね。まあ！話しているだけでちょっと恥ずかしくなってきたわ！
+23935	(Looks down and wrings his hands) That would still be a little embarrassing. Let's decide what gift to give her first.	（うつむいて手をもじもじさせる）それはやっぱり少し恥ずかしいよ。まずは何を贈るか決めよう。
+23936	Challenge Irmata, God of Nature during the event. Rankings are based on the shortest Clear Time for a single full run.	イベント期間中に自然神イルマタへ挑戦します。ランキングは1回の完全クリアにおける最短クリアタイムで決定されます。
+23937	Capture the control point to remove the Glorious Metal's Invincible status and gain access to the nearest Revive point.	制圧地点を占領すると、グロリアスメタルの無敵状態を解除し、最寄りの復活地点を利用できるようになります。
+23938	Donate Arcane Crystals during the event. When the progress bar reaches ${1}, the gateway to an unknown realm will open…	イベント期間中に秘術クリスタルを寄付しましょう。進捗バーが${1}に達すると、未知の領域へのゲートが開きます…
+23939	After the Event Over, Rankings will be determined by damage dealt, both within each group and across the Entire Server.	イベント終了後、与えたダメージに基づいて、各グループ内および全サーバーのランキングが決定されます。
+23940	Slow-fermented Grape wine with a deep purple hue and herbal finish. Increases Physical ATK by @{1}~@{2} for @{3} hours.	じっくり発酵させた濃い紫色のブドウ酒。ハーブの余韻が残る一杯。物理攻撃力が@{1}～@{2}、@{3}時間増加します。
+23941	^{1}^{2}【Cart Boost】^{3}^{4} increases the damage bonus of ^{5}^{6}【High Speed Cart Ram】^{7}^{8} by ${1}% while active.	^{1}^{2}【カートブースト】^{3}^{4}発動中、^{5}^{6}【ハイスピードカートアタック】^{7}^{8}の与ダメージボーナスが${1}%増加します。
+23942	Cannot use skill or move, and Physical and Magic DEF are reduced by ${1}. Removed when hit, then inflicts ^{1}Slow^{2}.	スキル使用および移動ができなくなり、物理防御力と魔法防御力が${1}減少します。攻撃を受けると解除され、その後^{1}減速^{2}を付与します。
+23943	Increases the duration of 【Frozen】, 【Blind】, and 【Immobilize】 inflicted by ^{1}【Trap Hunter】^{2} skills by ${1} second.	^{1}【トラップハンター】^{2}スキルが付与する【凍結】、【暗黒】、【移動不可】の持続時間が${1}秒延長されます。
+23944	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Tap Confirm to download.	${1}個のリソースのダウンロードが完了していません。約${2}MBのデータをダウンロードする必要があります。「確認」をタップしてダウンロードしてください。
+23945	When equipped with a ^{1}【Mace】^{2} weapon, gain ^{3}${1}^{4} Physical ATK and ^{5}${2}%^{6} Normal Attack Crit Chance.	^{1}【メイス】^{2}を装備している時、物理攻撃力が^{3}${1}^{4}、通常攻撃のクリティカル率が^{5}${2}%^{6}増加します。
+23946	^{1}^{2}[Sanctuary]^{3}^{4}'s percentage Healing multiplier increases by ${1}% and its fixed Healing increases by ${2}.	^{1}^{2}[サンクチュアリ]^{3}^{4}の回復倍率が${1}%増加し、固定回復量が${2}増加します。
+23947	^{1}^{2}[Hammer Fall]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.	^{1}^{2}[ハンマーフォール]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23948	^{1}^{2}[Grand Cross]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.	^{1}^{2}[グランドクロス]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23949	^{1}^{2}[Joint Beat]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	^{1}^{2}[ジョイントビート]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23950	^{1}^{2}[Sonic Blow]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	^{1}^{2}[ソニックブロー]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23951	Osiris causes each Horong on the battlefield^{1}to Split off @{1} ghost flames^{2}, damaging^{3}targets they touch^{4}.	オシリスが戦場にいる各ホロンに^{1}@{1}個の鬼火を分裂させ^{2}、^{3}接触した対象にダメージを与えます^{4}。
+23952	Deals ATK * ^{1}@{4}%^{2} damage @{3} times to up to @{2} enemies within a @{1} m radius and ^{3}pulls them closer^{4}.	半径@{1}m以内の最大@{2}体の敵に、攻撃力*^{1}@{4}%^{2}のダメージを@{3}回与え、^{3}自身の方へ引き寄せます^{4}。
+23953	After the Guild Master successfully uses "Emergency Call," every Online Guild Member is teleported to the Guild Master.	ギルドマスターが「緊急招集」の使用に成功すると、オンライン中の全ギルドメンバーがギルドマスターの元へテレポートします。
+23954	Congratulations! Your item has been sold, and the proceeds have been delivered. Please check that you've received them!	おめでとうございます！アイテムが売却され、売上金が届きました。受け取りをご確認ください！
+23955	You didn't Claim the rewards from your Daily Quests Yesterday, so we've reissued them by mail. Please check your inbox!	昨日のデイリークエスト報酬を受け取っていなかったため、メールで再送しました。受信箱をご確認ください！
+23956	Your purchase of [${1}] from the Trade Exchange failed. All costs have been returned as attachments. Please claim them.	取引所での[${1}]の購入に失敗しました。消費した費用はすべて添付で返却しましたので、お受け取りください。
+23957	But he already returned to the Morroc Ruins. Head there. The sandstorms are fierce, but the Clue should still be there.	でも、彼はもうモロック遺跡へ戻ったよ。そっちへ向かいな。砂嵐はひどいが、手がかりはまだ残っているはずだ。
+23958	You're finally here. Once this fragment is back in place, the magical field beneath the tower will become stable again.	やっと来たな。この欠片を元の位置に戻せば、塔の地下にある魔法陣も再び安定するはずだ。
+23959	The Prontera Chivalry regularly hunts monsters. It keeps their skills sharp and the city safe—two birds with one stone.	プロンテラ騎士団は定期的にモンスター討伐を行っている。腕も鈍らず、街の安全も守れる。一石二鳥ってわけだ。
+23960	I'm Leavren, the technician in charge of Enhance services for weapons and armor. It's hard work, but also a lot of fun.	私はリーヴレン。武器や防具の強化サービスを担当している技術者だ。大変な仕事だが、なかなか楽しいぞ。
+23961	It was foggy this morning. This place was beautiful when the fog lifted. Too bad you didn't get here in time to see it.	今朝は霧が出ていたんだ。霧が晴れた時の景色は本当に綺麗だったよ。君にも見せたかったな。
+23962	Ahem! That was... tactical observation! All right, all right. We have all the Materials, so let's get down to business.	ゴホン！あれは…戦術的な観察だ！まあいい。材料は全部揃ったんだし、本題に入ろう。
+23963	Beautiful! That sheen, that feel—this is top-quality work. With my craftsmanship and your Material, you can't go wrong.	素晴らしい！この艶、この手触り――まさに最高品質だ。私の腕と君の素材があれば、間違いない仕上がりになる。
+23964	I'll explain the details of that top-secret commission later. For now, we need to head to Izlude and board the airship.	その極秘任務の詳細は後で説明する。今はイズルードへ向かい、飛行船に乗る必要がある。
+23965	Sigh... Why put yourself through this? Fine, if you insist. We found this at the scene. The thief must have dropped it.	はぁ…そこまでしなくてもいいのに。わかった、そこまで言うなら。現場でこれを見つけた。泥棒が落としたに違いない。
+23966	Nothing, nothing. We were just discussing having this esteemed Knight carry you back to Prontera if you didn't wake up.	いや、何でもない。もし目を覚まさなかったら、この立派な騎士様にプロンテラまで運んでもらおうって話していただけだ。
+23967	I've been waiting for you, Adventurer. I'm a Monsterologist dedicated to creating a Record of every creature's ecology.	待っていましたよ、冒険者さん。私はあらゆる生物の生態記録を作ることに人生を捧げているモンスター学者です。
+23968	If the Challenge difficulty is too high, you can abandon the stage from within the Dungeon and select a new difficulty.	挑戦難易度が高すぎる場合は、ダンジョン内からステージを放棄し、別の難易度を選択できます。
+23969	Guild Challenge: Eternal Land - ${1} difficulty is now open. Join your fellow Guild Members in battle! Click to join >>	ギルドチャレンジ：エターナルランド - ${1}難易度が開放されました。ギルドメンバーと共に戦いましょう！クリックして参加 >>
+23970	The selected difficulty is not the highest difficulty you have unlocked. Start the challenge at the current difficulty?	選択した難易度は現在解放済みの最高難易度ではありません。この難易度で挑戦を開始しますか？
+23971	I'm amazing! I snagged First Place in the Festival Invitation! To all my darlings who picked me—you've got a great eye!	私ってすごい！祝典の招待で1位になっちゃった！私を選んでくれたみんな、見る目があるね！
+23972	Bobo\nThere are so many ant eggs, and I can just make out pieces of armor... It looks like a lot of people died here...	ボボ\nアリの卵がこんなにたくさん…それに鎧の破片まで見えるよ。ここで大勢の人が死んだみたい…
+23973	Bobo\nWhere's the Professor? These ants didn't bury them in the sand, did they?! Hurry and drive these pesky ants away!	ボボ\n教授はどこ？まさか、このアリたちが砂の中に埋めちゃったんじゃないよね？！早くこの邪魔なアリたちを追い払おう！
+23974	Some of your Pre-purchase bids are currently the highest. You can only cancel those that are not the highest. Continue?	事前購入の入札のうち、一部が現在最高額になっています。最高額ではない入札のみキャンセルできます。続行しますか？
+23975	High-quality compressed coal that burns at extremely high temperatures. Combining it with iron produces stronger steel.	高品質に圧縮された石炭。非常に高温で燃焼し、鉄と組み合わせることでより強靭な鋼鉄を作れます。
+23976	A silver arrow imbued with holy power.\n^{1}Equipping Silver Arrow with a bow changes your attack property to Holy.^{2}	聖なる力を宿した銀の矢。\n^{1}弓にシルバーアローを装備すると、攻撃属性が聖属性に変化します。^{2}
+23977	Charge to a point @{2} meters in front of a designated ST enemy within @{1} meters and deal ATK * ^{1}@{3}%^{2} damage.	@{1}m以内の指定した単体の敵の前方@{2}m地点まで突進し、攻撃力*^{1}@{3}%^{2}のダメージを与えます。
+23978	Fox Immortal deals Magic ATK*^{1}${2}%^{2} Neutral melee Physical damage to the designated ST enemy within ${1} meters.	狐仙が${1}m以内の指定した単体の敵に、魔法攻撃力*^{1}${2}%^{2}の無属性近接物理ダメージを与えます。
+23979	Curses up to ${2} enemies within ${1} meters of the master, reducing their Cast Speed by ^{1}${3}^{2} for ${4} seconds.	主人から${1}m以内の最大${2}体の敵を呪い、詠唱速度を^{1}${3}^{2}減少させ、${4}秒間持続します。
+23980	Deals Earth-property ranged magic damage equal to a total of Magic ATK*^{1}${2}%^{2} to a target ST enemy within ${1}m.	${1}m以内の指定した単体の敵に、合計で魔法攻撃力*^{1}${2}%^{2}の地属性遠距離魔法ダメージを与えます。
+23981	If you dance poorly and step on my feet... (Wags a finger) then I won't say a word about what Marika likes or dislikes.	ダンスが下手で私の足を踏んだら…（指を振る）マリカの好き嫌いについては、何も教えてあげないからね。
+23982	The guild that ultimately occupies the Royal City and its Members will receive 1 <color=#fdab5b>Realm Starlight</color>.	最終的に王都を占領したギルドとそのメンバーには、<color=#fdab5b>王国の星光</color>が1個ずつ贈られます。
+23983	Every @{1} INT grants @{2} Magic ATK, @{3} Magic DEF, @{4}% Magic ATK, @{5}% Max MP, and a certain amount of MP recovery	INT@{1}ごとに魔法攻撃力が@{2}、魔法防御力が@{3}、魔法攻撃力が@{4}%、最大MPが@{5}%増加し、さらに一定量のMP回復を獲得します。
+23984	Escort the supply transport cart to the <color=#FDAB5B><u> Supply Depot</u></color> and repel raiders from other guilds.	補給輸送車を<color=#FDAB5B><u> 補給拠点</u></color>まで護衛し、他ギルドの襲撃者を撃退してください。
+23985	You set out from ^{1}Prontera^{2} and traveled through ^{3}@{1}^{4} regions, leaving your footprints all across Midgard.	^{1}プロンテラ^{2}を出発し、^{3}@{1}^{4}の地域を巡り、ミッドガルド各地に足跡を残しました。
+23986	Round strawberry-and-cocoa-filled candies coated in a hard sugar shell. Increases Magic ATK by @{1}~@{2} for @{3} hours.	イチゴとココアを詰め、硬い砂糖でコーティングした丸いキャンディ。魔法攻撃力が@{1}～@{2}、@{3}時間増加します。
+23987	^{1}^{2}[Basic Attack]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.	^{1}^{2}[通常攻撃]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23988	^{1}^{2}[Spear Throw]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	^{1}^{2}[槍投げ]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
+23989	Mistress summons ^{1}Hornets^{2} that charge at players from random directions with ^{3}increased numbers and speed^{4}.	ミストレスが^{1}ホーネット^{2}を召喚し、ランダムな方向からプレイヤーへ突進させます。^{3}数と速度が増加しています^{4}。
+23990	Summon a monsoon, dealing ^{1}@{2}%^{2} damage to enemies within a @{1}-meter radius and inflicting ^{3}【Knockback】^{4}.	モンスーンを召喚し、半径@{1}m以内の敵に^{1}@{2}%^{2}のダメージを与え、^{3}【ノックバック】^{4}を付与します。
+23991	In RO's early days, Strawberries were a major source of SP recovery, so players farmed them in large quantities to sell.	RO初期では、イチゴは主要なSP回復手段だったため、大量に狩って販売するプレイヤーが多くいました。
+23992	RO players use two accounts to level a Priest, mainly because Priests have high attack power and are great for leveling.	ROでは、プリースト育成のために2アカウントを使うプレイヤーがいます。主な理由は、プリーストの支援性能が高く、育成効率が良いためです。
+23993	Concentration Potion has the least restrictive requirements of RO's Attack Speed potions and can be used by all classes.	集中力向上ポーションは、ROの攻撃速度上昇ポーションの中で使用条件が最も緩く、全職業で使用できます。
+23994	A large 10-player Dungeon that puts your strength and teamwork to the test. Clear it to earn abundant upgrade resources.	実力とチームワークが試される10人用の大型ダンジョン。クリアすると豊富な育成素材を獲得できます。
+23995	During auto-battle, the System casts skills in the order shown by the arrows. Drag skills to change their casting order.	オートバトル中、システムは矢印で示された順番にスキルを発動します。スキルをドラッグすると発動順を変更できます。
+23996	Tap to Rent one for free. It's an exclusive Benefit, bobo~ The Cart Merchant has storage space where you can keep items!	タップすると無料でレンタルできます。特別サービスだよ、ボボ～カート商人にはアイテムを保管できる収納スペースもあるよ！
+23997	So, how accurate was Erpi's reading? Don't dawdle—go complete your Job Advance! The legend of Midgard is yours to write.	さて、エルピの占いはどれくらい当たってたかな？ぐずぐずしてないで、早く転職を完了しよう！ミッドガルドの伝説は君が作るんだ。
+23998	If you... if you really have a plan, old Bob here will get up and go right now! Sitting in this dump is killing my back!	も、もし本当に策があるなら、このボブじいさんも今すぐ立って行くぞ！こんな場所に座り続けていたら腰が壊れちまう！
+23999	Tell me, have you ever gazed up at the stars and wondered how you could finally live up to your gifts and truly... live?	教えてくれ。星空を見上げて、自分の才能をどうすれば活かしきれるのか、本当の意味で…生きられるのか、考えたことはあるか？
+24000	Odin be praised, the seal is completely intact... Thank You! You prevented what could have been an academic catastrophe!	オーディンに感謝を。封印は完全に無傷です…ありがとう！あなたのおかげで、学術史に残る大惨事を防ぐことができました！

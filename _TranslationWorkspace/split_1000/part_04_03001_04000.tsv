@@ -1,0 +1,1001 @@
+Index	English	Japanese_Translation
+3001	My Auctions	私のオークション
+3002	Current bid	現在の入札額
+3003	Bidding Cap	入札上限
+3004	Final Price	最終価格
+3005	Style +${1}	スタイル +${1}
+3006	Select Plan	プランを選択
+3007	Warrior III	戦士Ⅲ
+3008	Eligibility	資格
+3009	7-8 Players	7～8人のプレイヤー
+3010	First Match	最初の試合
+3011	Daily Quest	デイリークエスト
+3012	Quest Items	クエストアイテム
+3013	Event Items	イベントアイテム
+3014	Class Mount	クラスマウント
+3015	Sage Branch	セージブランチ
+3016	Bard Branch	吟遊詩人の枝
+3017	Dancer Line	ダンサーライン
+3018	Rogue Class	ローグクラス
+3019	Two Affixes	2 つの接辞
+3020	Payon Areas	フェイヨン地域
+3021	Job Talents	職業タレント
+3022	Tavern Gift	酒場の贈り物
+3023	Collector's	コレクターズ
+3024	Need a Tank	タンクが必要です
+3025	Current Job	現在の職業
+3026	Skill-Based	スキルベース
+3027	Transfigure	変身
+3028	Thunderclap	雷鳴
+3029	Flame Storm	フレイムストーム
+3030	Flame Combo	炎コンボ
+3031	Exit Turret	砲台から降りる
+3032	Sword Smash	ソードスマッシュ
+3033	Spell Smash	スペルスマッシュ
+3034	Arrow Smash	アロースマッシュ
+3035	Staff Smash	スタッフスマッシュ
+3036	Blade Smash	ブレードスマッシュ
+3037	Vast Wealth	莫大な富
+3038	Crit Chance	クリティカルチャンス
+3039	Progression	進行状況
+3040	Cotton Tuft	コットンタフト
+3041	Woolly Moss	ウーリーモス
+3042	Spirit Silk	スピリットシルク
+3043	Sacred Silk	神聖な絹
+3044	Purple @{1}	紫 @{1}
+3045	Orange @{1}	オレンジ @{1}
+3046	Bright Star	ブライトスター
+3047	Suffocation	窒息
+3048	Forced Stun	強制スタン
+3049	Interaction	インタラクション
+3050	War Machine	ウォーマシン
+3051	Mithril Ore	ミスリル鉱石
+3052	Grandmaster	グランドマスター
+3053	Niu Niu Niu	牛牛牛
+3054	BTN_RESTART	BTN_RESTART
+3055	Connect@{1}	@{1} に接続してください
+3056	(Collected)	(回収済み)
+3057	Totem Skill	トーテムスキル
+3058	Healing Cap	ヒーリングキャップ
+3059	Defense Cap	ディフェンスキャップ
+3060	Magic Blade	マジックブレード
+3061	Elunium-Use	エルニウム使用
+3062	Octopus Axe	タコの斧
+3063	Armor Plate	アーマープレート
+3064	Yellow Herb	黄ハーブ
+3065	Honing Iron	ホーニングアイロン
+3066	Steel Ingot	鋼鉄インゴット
+3067	Solid Stone	硬い石
+3068	Rough Stone	原石
+3069	Sharp Scale	シャープスケール
+3070	MVP Costume	MVP コスチューム
+3071	Green Cards	グリーンカード
+3072	Purple Card	パープルカード
+3073	Red Bow Tie	赤い蝶ネクタイ
+3074	Round Shell	ラウンドシェル
+3075	Royal Jelly	ローヤルゼリー
+3076	Euler Euler	オイラー オイラー
+3077	Apple Juice	アップルジュース
+3078	Solid Shell	ソリッドシェル
+3079	Talent Mark	タレントマーク
+3080	Hand of God	神の手
+3081	Single Cell	単一細胞
+3082	Mold Powder	モールドパウダー
+3083	Animal Skin	動物の皮
+3084	Gingerbread	ジンジャーブレッド
+3085	Lord's Mane	主のたてがみ
+3086	Outpost Key	前哨基地の鍵
+3087	Stone Arrow	ストーンアロー
+3088	Steel Arrow	スチールアロー
+3089	Dead Branch	古木の枝
+3090	Blue Potion	青ポーション
+3091	Basic Katar	基本的なカタル
+3092	Flower Ring	フラワーリング
+3093	Novice Ring	ノービスリング
+3094	Steel Armor	鋼鉄の鎧
+3095	Novice Coat	ノービスコート
+3096	Loki's Nail	ロキの爪
+3097	Infiltrator	インフィルトレーター
+3098	Skull Staff	スカルスタッフ
+3099	Doom Slayer	ドゥームスレイヤー
+3100	Novice Pike	ノービスパイク
+3101	Battle Hook	バトルフック
+3102	Arans Sword	アランの剣
+3103	Executioner	エクスキューショナー
+3104	Main Gauche	メインゴーシュ
+3105	Carving EXP	彫刻EXP
+3106	Logging EXP	ロギングEXP
+3107	Card: Munak	カード：ムナック
+3108	Card: Aster	カード：アスター
+3109	Card: Golem	カード：ゴーレム
+3110	Card: Flora	カード：フローラ
+3111	Card: Vadon	カード：バドン
+3112	Card: Andre	カード：アンドレ
+3113	Card: Tarou	カード：タロウ
+3114	Card: Spore	カード：スポア
+3115	Card: Picky	カード：ピッキー
+3116	Stat Reset:	ステータスのリセット:
+3117	Skill Build	スキルビルド
+3118	Card Preset	カードプリセット
+3119	Event Rules	イベントルール
+3120	Match Rules	試合ルール
+3121	Boss Skills	ボススキル
+3122	First Clear	ファーストクリア
+3123	In Position	インポジション
+3124	Discard All	すべて破棄
+3125	Entry Alert	エントリーアラート
+3126	Source @{1}	ソース @{1}
+3127	Outfit Draw	衣装抽選
+3128	Bell Charge	ベルチャージ
+3129	Summon Bell	サモンベル
+3130	Horong Lash	ホロンラッシュ
+3131	Hell Charge	ヘルチャージ
+3132	Pyramid Ray	ピラミッド・レイ
+3133	Hornet Army	ホーネット軍団
+3134	Memory Game	メモリーゲーム
+3135	Beat Prison	ビートプリズン
+3136	Cross Score	クロススコア
+3137	Bubble Link	バブルリンク
+3138	Summon Evil	悪を召喚する
+3139	Hidden Bell	隠し鐘
+3140	Coffin Trap	棺の罠
+3141	Shield Cast	シールドキャスト
+3142	Earth Drive	アースドライブ
+3143	Earthshaker	アースシェイカー
+3144	BOSS Damage	ボスダメージ
+3145	Unstoppable	止められない
+3146	First Blood	ファーストブラッド
+3147	Tier 4 Cart	ティア 4 カート
+3148	Tier 3 Cart	ティア 3 カート
+3149	Tier 2 Cart	ティア 2 カート
+3150	Scholar Lv.	学者Lv.
+3151	Level Stats	レベル統計
+3152	Theme Style	テーマのスタイル
+3153	Rift Impact	リフトインパクト
+3154	Shadow Step	シャドウステップ
+3155	Advertising	広告
+3156	Dark Forest	暗い森
+3157	High Damage	高ダメージ
+3158	CHAPTER III	第 3 章
+3159	Outstanding	優れた
+3160	City Fallen	シティ・フォールン
+3161	Second Wind	セカンドウィンド
+3162	Limit Break	リミットブレイク
+3163	HP Listener	HPリスナー
+3164	Flame Blast	フレイムブラスト
+3165	High Morale	高い士気
+3166	Carry Scale	キャリースケール
+3167	Select Mode	モードの選択
+3168	Full-screen	全画面表示
+3169	Player Info	プレイヤー情報
+3170	Event Alert	イベントアラート
+3171	Quick Items	クイックアイテム
+3172	Target Info	ターゲット情報
+3173	Penetration	浸透
+3174	Flame Chain	フレイムチェーン
+3175	Flame Burst	フレイムバースト
+3176	Frost Burst	フロストバースト
+3177	Raging Gale	荒れ狂う疾風
+3178	Armor Break	アーマーブレイク
+3179	Silver Moon	シルバームーン
+3180	Demon Flame	デモンフレイム
+3181	Divine Hope	神聖な希望
+3182	Soul Siphon	ソウルサイフォン
+3183	Stone Blade	ストーンブレード
+3184	Minion Buff	ミニオンバフ
+3185	Shroud Link	シュラウドリンク
+3186	Yellow Note	イエローノート
+3187	Target Mark	ターゲットマーク
+3188	Multi-Rhyme	マルチライム
+3189	Blood Spear	ブラッドスピア
+3190	Prison Slow	プリズンスロー
+3191	Dragon Wing	ドラゴンウイング
+3192	Dark Charge	ダークチャージ
+3193	${1}'s ${2}	${1}'s ${2}
+3194	Tavern Type	酒場タイプ
+3195	Tavern Name	酒場名
+3196	Turn On Mic	マイクをオンにする
+3197	Permissions	権限
+3198	Tavern Info	酒場情報
+3199	Pornography	ポルノ
+3200	Consumables	消耗品
+3201	Defeat Ilmo	イルモを倒す
+3202	Defeat Isti	イスティを倒す
+3203	Stage Rules	ステージルール
+3204	Codex Guide	コーデックスガイド
+3205	Pet Upgrade	ペットのアップグレード
+3206	Stall Guide	露店ガイド
+3207	Stall ended	露店終了
+3208	Any 1 Affix	任意の 1 つの接辞
+3209	Swift Sword	スウィフトソード
+3210	Rapid Throw	ラピッドスロー
+3211	Sharp Spear	鋭い槍
+3212	Quick Hands	クイックハンズ
+3213	Virus Boost	ウイルスブースト
+3214	${1}Faction	${1}派閥
+3215	Player Name	プレイヤー名
+3216	Out of ammo	弾切れ
+3217	Drag Member	ドラッグメンバー
+3218	${1}d ${2}h	${1}d ${2}h
+3219	Peak Season	ピークシーズン
+3220	Select Mood	気分を選択してください
+3221	Claim Daily	デイリー報酬を受け取る
+3222	Wrong Level	間違ったレベル
+3223	Unlock Pass	ロック解除パス
+3224	Gift a Pass	パスをプレゼントする
+3225	Mail error.	メールエラーです。
+3226	New Arrival	新着情報
+3227	Five Mounts	ファイブマウント
+3228	First Mount	最初のマウント
+3229	Fashionista	ファッショニスタ
+3230	Inseparable	切り離せない
+3231	Old Friends	旧友
+3232	MVP Nemesis	MVP ネメシス
+3233	MVP Regular	MVPレギュラー
+3234	Card Chorus	カードコーラス
+3235	Hollgrehenn	ホルグレン
+3236	Mage Mentor	マジシャンの師範
+3237	Masked Girl	仮面の少女
+3238	Malaya Girl	マラヤの女の子
+3239	Kunlun Girl	崑崙の女の子
+3240	Rank Reward	ランク報酬
+3241	Party Queue	パーティ待機列
+3242	All Matches	すべての試合
+3243	Pick Up All	すべてピックアップ
+3244	Revive Info	リバイブ情報
+3245	Send (${1})	送信 (${1})
+3246	Skill Level	スキルレベル
+3247	Um... wait!	えーっと…待って！
+3248	No worries.	心配ありません。
+3249	Preset Name	プリセット名
+3250	Quick Apply	クイック適用
+3251	Select Pets	ペットの選択
+3252	Not Reached	到達していません
+3253	Maximum DPS	最大DPS
+3254	SP restored	SP回復
+3255	Stun effect	気絶効果
+3256	Electrified	電気を帯びた
+3257	Shield Buff	シールドバフ
+3258	Soul Prayer	魂の祈り
+3259	Rocker Rock	ロッカーロック
+3260	Curse Slash	カーススラッシュ
+3261	AoE Surgery	AoE 手術
+3262	Arrow Flash	アローフラッシュ
+3263	Sonic Slash	ソニックスラッシュ
+3264	Flame Surge	フレイムサージ
+3265	[Hard-Maya]	【ハードマヤ】
+3266	[Hard-Isti]	【ハードイスティ】
+3267	[Hard-Ilmo]	【ハードイルモ】
+3268	Port Malaya	ポートマラヤ
+3269	Call Issued	発信されたコール
+3270	Vivify Cost	活力消費
+3271	Daily Uses:	日常的な用途:
+3272	Quiz Starts	クイズが始まります
+3273	First Place	1位
+3274	Confirm Save	保存の確認
+3275	Tap to close	タップして閉じます
+3276	Natural Land	自然の土地
+3277	Hidden Realm	隠された領域
+3278	Group Report	グループレポート
+3279	Drooping Cat	たれ猫
+3280	Smiling Mask	スマイリーマスク
+3281	Chicken Beak	チキンビーク
+3282	Lucky Clover	ラッキークローバー
+3283	Grand Voyage	大航海
+3284	Fluffy Bunny	ふわふわバニー
+3285	Magic Carpet	魔法のじゅうたん
+3286	Forest Fairy	森の妖精
+3287	Fox Immortal	フォックス・イモータル
+3288	Baphomet Jr.	バフォメットJr.
+3289	Ancient Tree	古代の木
+3290	Server Level	サーバーレベル
+3291	Reward Count	報酬数
+3292	Notification	お知らせ
+3293	Ten Thousand	10,000
+3294	Poison Spore	ポイズンスポア
+3295	Hedgehog Bug	ヘッジホッグバグ
+3296	Elder Willow	エルダーウィロー
+3297	Goblin (Axe)	ゴブリン(斧)
+3298	Orc Skeleton	オークスケルトン
+3299	Go challenge	挑戦してみよう
+3300	Guild Master	ギルドマスター
+3301	Healing Done	回復量
+3302	Crit Damage%	クリティカルダメージ%
+3303	Crit Chance%	クリティカル率%
+3304	Wind Damage%	風属性ダメージ%
+3305	Fire Damage%	火属性ダメージ%
+3306	Holy Damage%	聖属性ダメージ%
+3307	Stun Enhance	スタン強化
+3308	Burn Enhance	火傷強化
+3309	Blind Attack	ブラインドアタック
+3310	Slow Enhance	スロー強化
+3311	MP Recovery%	MP回復%
+3312	Skill Energy	スキルエネルギー
+3313	Attack Range	攻撃範囲
+3314	Season Theme	シーズンテーマ
+3315	Yet to start	まだ始まっていない
+3316	Shop Preview	ショッププレビュー
+3317	Past Seasons	過去の季節
+3318	MVP-Angeling	MVP-アンゲリング
+3319	MVP-Deviling	MVP-デビルリング
+3320	MVP-Orc Hero	MVP-オークヒーロー
+3321	MVP-Orc Lord	MVP-オークロード
+3322	MVP-Mistress	MVP-ミストレス
+3323	MVP-Baphomet	MVP-バフォメット
+3324	MVP-Phreeoni	MVP-フリオニ
+3325	Join a guild	ギルドに参加する
+3326	Kill Bigfoot	ビッグフットを倒す
+3327	Current Deck	現在のデッキ
+3328	Defeat Eddga	エドガを倒す
+3329	Go to Izlude	イズルードへ行く
+3330	Raid Auction	レイドオークション
+3331	Guild League	ギルドリーグ
+3332	Poring Chest	ポリンチェスト
+3333	Profile Card	プロフィールカード
+3334	Basic Attack	基本攻撃
+3335	Trade Review	トレードレビュー
+3336	Stall Closed	露店閉店
+3337	Monster Hunt	モンスターハント
+3338	Monster List	モンスター一覧
+3339	Monster Shop	モンスターショップ
+3340	Kill Rewards	キル報酬
+3341	${1} Rewards	${1} 報酬
+3342	Mount Riding	マウントライディング
+3343	Queue Notice	順番待ちのお知らせ
+3344	Escort Ended	エスコート終了
+3345	${1} (${2}s)	${1} (${2}s)
+3346	Silence Test	静音テスト
+3347	Maya Petrify	マヤ石化
+3348	Fantasy Shop	ファンタジーショップ
+3349	Preview Shop	プレビューショップ
+3350	Connect Shop	コネクトショップ
+3351	Crystal Shop	クリスタルショップ
+3352	Spirit Tower	精霊の塔
+3353	Demonic Wolf	魔狼
+3354	Sort by Tier	階層ごとに並べ替え
+3355	Divine Totem	ディバイントーテム
+3356	Novice Trial	ノービストライアル
+3357	Unidentified	未鑑定
+3358	Blue Quality	ブルークオリティ
+3359	All Monsters	すべてのモンスター
+3360	Tavern Gifts	酒場の贈り物
+3361	Log In Again	再度ログインしてください
+3362	Reach Izlude	イズルードに到達
+3363	Help the Man	男を助けて
+3364	Talk to Boya	ボヤと話す
+3365	Life Skills:	ライフスキル:
+3366	Astral Level	アストラルレベル
+3367	Reset Points	リセットポイント
+3368	Test STR@{1}	STR@{1} をテストします
+3369	Test AGI@{1}	AGI をテスト@{1}
+3370	Lance Knight	ランスナイト
+3371	Downloading:	ダウンロード中:
+3372	${1} Refresh	${1} リフレッシュ
+3373	Refine Level	精錬レベル
+3374	Success Rate	成功率
+3375	Not Equipped	未装備
+3376	Enhance once	1回強化
+3377	Reforge Cost	再鍛造費用
+3378	Emote/Action	エモート/アクション
+3379	Gift of Time	時間の贈り物
+3380	Exact Search	完全一致検索
+3381	Pre-purchase	事前購入
+3382	System Stall	システム露店
+3383	Novice Guide	ノービスガイド
+3384	Switch Build	スイッチビルド
+3385	Guild Branch	ギルド支部
+3386	Create Guild	ギルドを作成する
+3387	Guild Events	ギルドイベント
+3388	Combat Mount	コンバットマウント
+3389	Learn Skills	スキルを学ぶ
+3390	Pet Hatching	ペットの孵化
+3391	Block Friend	友達をブロックする
+3392	Edit Profile	プロフィールの編集
+3393	Battle Merit	戦闘功績
+3394	NPC Shop@{1}	NPCショップ@{1}
+3395	Solo Actions	ソロアクション
+3396	Display Case	ディスプレイケース
+3397	Card Display	カードの表示
+3398	Book Display	ブックディスプレイ
+3399	Attachments:	添付ファイル:
+3400	Fashion Gala	ファッションガラ
+3401	Under Review	審査中
+3402	My Watchlist	私のウォッチリスト
+3403	Lowest Price	最低価格
+3404	Custom Price	カスタム価格
+3405	Update Price	価格を更新する
+3406	Siege Points	包囲ポイント
+3407	Damage Taken	被ダメージ
+3408	Growth Stage	成長段階
+3409	Mature Stage	成熟期
+3410	Add Multiple	複数追加
+3411	Go to Rental	レンタルへ行く
+3412	Search Items	検索項目
+3413	Friend Gifts	フレンドギフト
+3414	Confirm Gift	ギフトの確認
+3415	Gift claimed	ギフト受取済み
+3416	Cross-server	クロスサーバー
+3417	Create Group	グループの作成
+3418	Select Group	グループの選択
+3419	Gift Message	ギフトメッセージ
+3420	Delete Group	グループの削除
+3421	Gift History	ギフト履歴
+3422	Mount Skills	マウントスキル
+3423	Friends Info	友達の情報
+3424	Gifting Info	ギフト情報
+3425	Create Party	パーティ作成
+3426	Search Party	パーティ検索
+3427	Disable Chat	チャットを無効にする
+3428	Unmute Voice	音声のミュートを解除する
+3429	${1}'s Party	${1}のパーティ
+3430	Guild Member	ギルドメンバー
+3431	Party Invite	パーティ招待
+3432	No Objective	目標なし
+3433	Refresh Time	リフレッシュ時間
+3434	Free to Join	参加無料
+3435	Party Marker	パーティマーカー
+3436	Revive Point	リバイブポイント
+3437	Increase Bid	入札額を引き上げる
+3438	Request sent	リクエストを送信しました
+3439	Announcement	お知らせ
+3440	Item Details	アイテム詳細
+3441	Trading Hall	トレーディングホール
+3442	Supply Trade	供給貿易
+3443	Order Status	注文状況
+3444	Send Request	リクエストの送信
+3445	Go to Escort	エスコートへ行く
+3446	Open Bidding	公開入札
+3447	Auto-Bidding	自動入札
+3448	Not Required	不要
+3449	Rating: ${1}	評価: ${1}
+3450	${1} Assists	${1} アシスト
+3451	Introduction	はじめに
+3452	Guild Emblem	ギルドエンブレム
+3453	Title Earned	獲得したタイトル
+3454	Pet Obtained	ペットを入手しました
+3455	Request List	リクエストリスト
+3456	Combat Power	戦闘力
+3457	Contribution	貢献
+3458	Offline Time	オフライン時間
+3459	Refresh List	リストを更新
+3460	My Position:	自分の役職：
+3461	Item expired	アイテムの有効期限が切れました
+3462	Opens Monday	月曜日営業
+3463	Opens Friday	金曜営業
+3464	Opens Sunday	日曜営業
+3465	Load Rewards	報酬をロードする
+3466	Open All Day	終日営業
+3467	Total Price:	合計価格:
+3468	Order Number	注文番号
+3469	Unknown Area	未知の領域
+3470	Royal Palace	王宮
+3471	Payon Forest	フェイヨンの森
+3472	RO Survivors	RO生存者
+3473	Pyramid Maze	ピラミッド迷路
+3474	Card: Hornet	カード：ホーネット
+3475	Card: Zenorc	カード：ゼノルク
+3476	Best Healing	最大回復量
+3477	First Strike	ファーストストライク
+3478	Card: Anubis	カード：アヌビス
+3479	Card: Savage	カード：サベージ
+3480	Card: Merman	カード：マーマン
+3481	Card: Vitata	カード：ヴィタータ
+3482	Card: Smokie	カード：スモーキー
+3483	Card: Horong	カード：ホロン
+3484	Card: Bongun	カード：ボングン
+3485	Card: Mantis	カード：マンティス
+3486	Card: Kobold	カード：コボルト
+3487	Card: Wraith	カード：レイス
+3488	Card: Martin	カード：マーティン
+3489	Card: Dokebi	カード：ドケビ
+3490	Card: Pasana	カード：パサーナ
+3491	Card: Creamy	カード：クリーミー
+3492	Card: Marduk	カード：マルドゥク
+3493	Card: Kraken	カード：クラーケン
+3494	Card: Osiris	カード：オシリス
+3495	Trail effect	軌跡効果
+3496	Flying Magic	フライングマジック
+3497	Lope-related	ロペ関連
+3498	Increase AGI	AGIの増加
+3499	Angel Strike	エンジェルストライク
+3500	Mace Mastery	メイスマスタリー
+3501	Resurrection	リザレクション
+3502	Crazy Uproar	クレイジー大騒ぎ
+3503	Hilt Binding	ヒルトバインディング
+3504	Power Thrust	パワースラスト
+3505	Spinning Axe	スピニングアックス
+3506	Poring Split	ポリンスプリット
+3507	Fallen Sweep	フォールン・スイープ
+3508	SP Reduction	SP減少
+3509	Magnum Break	マグナムブレイク
+3510	Cross Thrust	クロススラスト
+3511	Battle Chant	ゴスペル
+3512	Moon Slasher	ムーンスラッシャー
+3513	Sniping Shot	スナイピングショット
+3514	Key Settings	キー設定
+3515	Quick Potion	クイックポーション
+3516	Classic Mode	クラシックモード
+3517	Do Not Chase	追いかけないでください
+3518	Same Faction	同じ派閥
+3519	Adjust Scale	スケールを調整する
+3520	Cursor Style	カーソルのスタイル
+3521	Cursor Scale	カーソルスケール
+3522	Dracula Grab	ドラキュラグラブ
+3523	Abyss Magnet	アビスマグネット
+3524	Hunter Slash	ハンタースラッシュ
+3525	Hunter Spawn	ハンタースポーン
+3526	Hunter Death	ハンターデス
+3527	Build Turret	タレットを構築する
+3528	Seismic Wave	地震波
+3529	Acceleration	加速
+3530	Arrow Shower	アローシャワー
+3531	Steady Focus	安定したフォーカス
+3532	Greedy Ifrit	貪欲なイフリート
+3533	Divine Light	神聖な光
+3534	Arrow Attack	アローアタック
+3535	Vocal Skills	ボーカルスキル
+3536	Fallen Swipe	フォールン・スワイプ
+3537	Shatterblade	シャッターブレード
+3538	Beehive Toss	蜂の巣投げ
+3539	Bandage Lash	包帯ラッシュ
+3540	Summon Mummy	ミイラを召喚する
+3541	Spear Thrust	槍突き
+3542	Summon Spear	サモンスピア
+3543	Mummy's Hand	ミイラの手
+3544	Scarab Swarm	スカラベの群れ
+3545	Funeral Beat	フューネラルビート
+3546	Triple Quake	トリプルクエイク
+3547	Sonic Impact	ソニックインパクト
+3548	Falling Bell	落ちる鐘
+3549	Summon Clone	クローンを召喚する
+3550	Battle Score	バトルスコア
+3551	Ends in ${1}	${1}で終了
+3552	Choco Antics	チョコのおふざけ
+3553	Agility Song	アジリティーソング
+3554	Sinister Cry	邪悪な叫び
+3555	Full Barrage	フルバラージ
+3556	Fear Returns	恐怖の再来
+3557	Curse Puppet	呪いの人形
+3558	Branch Guard	ブランチガード
+3559	Lava Erosion	溶岩の浸食
+3560	Fierce Blade	激しい刃
+3561	Echoing Bell	響く鐘
+3562	Radiant Moon	輝く月
+3563	Drake Thrust	ドレイクスラスト
+3564	New Ultimate	ニューアルティメット
+3565	Cancel Skill	キャンセルスキル
+3566	Horong Split	ホロン スプリット
+3567	Astral Shift	アストラルシフト
+3568	Horong Pulse	ホロンパルス
+3569	Laser Summon	レーザー召喚
+3570	Remove Curse	呪いを解く
+3571	P@{1} Action	P@{1} アクション
+3572	Linked Skill	連動スキル
+3573	Melodic Flow	メロディックフロー
+3574	Melody Burst	メロディバースト
+3575	Moonlit Echo	月明かりのエコー
+3576	Sweep Attack	スイープアタック
+3577	Pixel Thrust	ピクセル推力
+3578	Electro Rock	エレクトロ・ロック
+3579	Shadow Guard	シャドウガード
+3580	Thomas Flare	トーマス・フレア
+3581	Triple Rhyme	トリプルライム
+3582	Comet (Copy)	コメット（コピー）
+3583	Disco Accent	ディスコアクセント
+3584	Titan's Fury	タイタンの怒り
+3585	Spear Expert	槍の達人
+3586	Bowling Bash	ボウリングバッシュ
+3587	Auto Counter	オートカウンター
+3588	Rapid Pierce	ラピッドピアス
+3589	Triple Slash	トリプルスラッシュ
+3590	Rune Mastery	ルーンマスタリー
+3591	Virus Spread	ウイルスの蔓延
+3592	Cross Impact	クロスインパクト
+3593	Sneak Attack	急所攻撃
+3594	Hidden Blade	隠し刃
+3595	Shadow Break	シャドウブレイク
+3596	Thunderstorm	雷雨
+3597	Meteor Storm	メテオストーム
+3598	Sight Sprout	サイトスプラウト
+3599	Magic Cannon	マジックキャノン
+3600	Stop Reading	読書をやめる
+3601	Confirm Exit	終了の確認
+3602	Tap to read.	タップして読んでください。
+3603	Rank Preview	ランクプレビュー
+3604	Not Unsealed	未開封
+3605	Not Deployed	未出撃
+3606	Bond Removed	絆を解除しました
+3607	Current Rank	現在のランク
+3608	Card Effects	カードの効果
+3609	Filter Cards	フィルターカード
+3610	Change Right	右に変更
+3611	Delete ${1}?	${1}を削除しますか?
+3612	Equip (${1})	装備する (${1})
+3613	Related Tips	関連するヒント
+3614	No monsters.	モンスターはいない。
+3615	Mining Tribe	鉱山部族
+3616	Geffen Tower	ゲフェンタワー
+3617	Sphinx Crypt	スフィンクスの地下室
+3618	Skill Points	スキルポイント
+3619	Select Build	ビルドの選択
+3620	Exit (${1}s)	終了 (${1}s)
+3621	Beginner Map	初心者マップ
+3622	Gameplay Map	ゲームプレイマップ
+3623	Hold to Talk	押し続けて話す
+3624	Melody Conch	メロディコンチ
+3625	Poporing@{1}	ポポリン@{1}
+3626	Swift Knight	スウィフトナイト
+3627	Stage Object	ステージオブジェクト
+3628	Magma Poring	マグマポリン
+3629	Doppelganger	ドッペルゲンガー
+3630	Thundercloud	雷雲
+3631	Musical Note	音符
+3632	Siege Ladder	包囲梯子
+3633	Flying Raven	フライングレイブン
+3634	Jet Backpack	ジェットバックパック
+3635	Evil Warrior	悪の戦士
+3636	Ancient Nest	古代の巣
+3637	Party Leader	パーティリーダー
+3638	Timid Poring	臆病なポリン
+3639	Poison Dummy	ポイズンダミー
+3640	Shadow Dummy	シャドウダミー
+3641	Undead Dummy	アンデッドダミー
+3642	Ranged Dummy	遠距離ダミー
+3643	Pet Merchant	ペット販売業者
+3644	Pile of Junk	がらくたの山
+3645	Morroc Nomad	モロックの遊牧民
+3646	Quest Failed	クエスト失敗
+3647	Palace Guard	宮殿の衛兵
+3648	Larva Canyon	ラーバキャニオン
+3649	Geffen Field	ゲフェンフィールド
+3650	Kordt Forest	コルトの森
+3651	South Morroc	南モロック
+3652	Stone Pillar	石柱
+3653	Unknown Boss	未知のボス
+3654	Little Mummy	リトル・ミイラ
+3655	Nasha - Hard	ナーシャ - ハード
+3656	Mirko - Hard	ミルコ - ハード
+3657	Green Bubble	グリーンバブル
+3658	Crimson Rock	クリムゾンロック
+3659	Osiris-Final	オシリス-ファイナル
+3660	Pharaoh-Easy	ファラオ-イージー
+3661	Pharaoh-Hard	ファラオ・ハード
+3662	Drake-Normal	ドレイク-ノーマル
+3663	Monster Info	モンスター情報
+3664	Acquaintance	知人
+3665	Field Battle	フィールドバトル
+3666	Map Appeared	マップが登場
+3667	Enable Bonus	ボーナスを有効にする
+3668	Chance Drops	チャンスドロップ
+3669	Rescue Wagon	レスキューワゴン
+3670	Rename Stall	露店名変更
+3671	${1}'s Stall	${1}の露店
+3672	In Progress…	進行中…
+3673	Format: ${1}	形式: ${1}
+3674	Earth Damage	地属性ダメージ
+3675	Water Damage	水属性ダメージ
+3676	Ghost Damage	念属性ダメージ
+3677	${1} to ${2}	${1} to ${2}
+3678	Points Used:	使用ポイント:
+3679	Elite Preset	エリートプリセット
+3680	Quick Remove	クイックリムーブ
+3681	Quick Deploy	クイックデプロイ
+3682	Quick Cancel	クイックキャンセル
+3683	Join Method:	結合方法:
+3684	Cancel Merge	結合のキャンセル
+3685	Defeat Fabre	ファブルを倒す
+3686	Strange Girl	ストレンジガール
+3687	Time to Rest	休息の時間
+3688	Close Friend	親友
+3689	Open CG @{1}	CG を開く @{1}
+3690	Second Trial	第2試練
+3691	Turn In Bark	樹皮を提出する
+3692	Airship Port	飛行船港
+3693	Stolen Cargo	盗難貨物
+3694	Bobo's Shock	ボボのショック
+3695	Pet unlocked	ペットのロックが解除されました
+3696	Gain 1 Level	レベルが 1 上がります
+3697	Quick Select	クイック選択
+3698	Normal Hatch	ノーマルハッチング
+3699	Core Passive	コアパッシブ
+3700	Growth Rate:	成長率:
+3701	Breakthrough	画期的な
+3702	Core Rewards	コア報酬
+3703	Coming soon!	もうすぐ登場します！
+3704	Monster Wave	モンスターウェーブ
+3705	Help Bobo up	ボボを助けて起こしてください
+3706	Here you go.	どうぞ。
+3707	Who are you?	あなたは誰ですか？
+3708	What? Alive?	何？生きている？
+3709	What was it?	それは何でしたか？
+3710	I miss you!!	会いたいです!!
+3711	Almost what?	ほとんど何ですか？
+3712	Open Dungeon	オープンダンジョン
+3713	Confirm Skip	スキップの確認
+3714	Hide Markers	マーカーを非表示にする
+3715	Show Markers	マーカーを表示
+3716	[Weak Value]	[弱い値]
+3717	Start Battle	戦闘開始
+3718	Second Class	2次職
+3719	Map Tracking	マップトラッキング
+3720	View Auction	オークションを見る
+3721	Auction List	オークションリスト
+3722	Unlock  ${1}	${1}のロックを解除する
+3723	Bonfire ${1}	たき火 ${1}
+3724	${1} Lv.${2}	${1} Lv.${2}
+3725	Scratch Head	スクラッチヘッド
+3726	Give Flowers	花を贈る
+3727	Play It Cool	クールにプレイしてください
+3728	Blow Trumpet	トランペットを吹く
+3729	Confirm Cost	費用の確認
+3730	Attack Orbit	アタックオービット
+3731	Frozen Orbit	凍結軌道
+3732	Auto-Bid set	自動入札セット
+3733	Source Event	ソースイベント
+3734	Stop Bidding	入札を停止する
+3735	Bid on ${1}?	${1} に入札しますか?
+3736	Go to Unseal	封印解除に移動
+3737	Initial Plan	当初計画
+3738	Apprentice V	見習いV
+3739	Apprentice I	見習いI
+3740	Kill Players	プレイヤーを殺す
+3741	Total Points	合計ポイント
+3742	Eliminations	予選
+3743	Grand Finals	グランドファイナル
+3744	Total Score:	合計スコア:
+3745	Points Match	ポイントマッチ
+3746	Locate Match	ロケートマッチ
+3747	Guild Quests	ギルドクエスト
+3748	Treasure Map	宝の地図
+3749	Siege Weapon	攻城兵器
+3750	Heart Points	ハートポイント
+3751	Guild Points	ギルドポイント
+3752	Knight Class	ナイト系
+3753	Priest Class	プリースト系
+3754	Hunter Class	ハンター系
+3755	Single Affix	単一の接辞
+3756	Geffen Areas	ゲフェン地域
+3757	Lv.@{1}-@{2}	Lv.@{1}-@{2}
+3758	Wooden Goods	木製品
+3759	Flying Mount	フライングマウント
+3760	Emote Skills	エモートスキル
+3761	Idle Actions	アイドルアクション
+3762	Need Support	サポートが必要です
+3763	Special Item	スペシャルアイテム
+3764	Exit Vehicle	車両の出口
+3765	Tetra Vortex	テトラ ボルテックス
+3766	Earth Strain	アースストレイン
+3767	Charge Arrow	チャージアロー
+3768	Falcon's Eye	ファルコンズアイ
+3769	Poring Magic	ポリンマジック
+3770	Set Red Team	レッドチームを設定する
+3771	Blessed Wind	祝福の風
+3772	Shield - AOE	シールド - 範囲
+3773	Mount Turret	マウントタレット
+3774	Petrify Mist	石化ミスト
+3775	Kun Entrance	クン入口
+3776	Kun Movement	クンの移動
+3777	Summon Notes	召喚ノート
+3778	Linear Laser	リニアレーザー
+3779	Water Pillar	水柱
+3780	Elapsed Time	経過時間
+3781	Rune Fashion	ルーンファッション
+3782	Payon Region	フェイヨン地域
+3783	Magic Powder	魔法の粉
+3784	Special Mane	特別なたてがみ
+3785	GVE Speedrun	GVE スピードラン
+3786	Season Story	シーズンストーリー
+3787	Shadow Claws	シャドークロー
+3788	Spirit Glyph	スピリットグリフ
+3789	Sacred Glyph	セイクリッドグリフ
+3790	Silk Padding	シルクパッド
+3791	Radiant Star	ラディアントスター
+3792	The Solution	解決策
+3793	Kill Ranking	キルランキング
+3794	Win Rankings	優勝ランキング
+3795	Hall of Fame	殿堂入り
+3796	Untargetable	対象外
+3797	Golden Touch	ゴールデンタッチ
+3798	Crafting Set	クラフトセット
+3799	One for Many	1 対多
+3800	Gameplay@{1}	ゲームプレイ@{1}
+3801	Wish Preview	ウィッシュプレビュー
+3802	Current Wish	現在の願い
+3803	Parting Gift	餞別の贈り物
+3804	Dragonslayer	ドラゴンスレイヤー
+3805	Tree of Life	生命の樹
+3806	Innate Skill	生来のスキル
+3807	Upgrade Cost	アップグレードコスト
+3808	Boar's Feast	猪の饗宴
+3809	Multi Strike	マルチストライク
+3810	Decapitation	斬首
+3811	Low-Tier HIT	低層ヒット
+3812	Ice Guardian	アイスガーディアン
+3813	Savage Blade	サベージブレード
+3814	Medusa Shard	メデューサの欠片
+3815	Veteran Pack	ベテランパック
+3816	Green Potion	緑ポーション
+3817	Enhance Pack	強化パック
+3818	Hopping Frog	ホッピングカエル
+3819	Basilac Clam	バシラッククラム
+3820	Honing Stone	ホーニングストーン
+3821	Mithril Grip	ミスリルグリップ
+3822	Moongaze Gem	ムーンゲイズジェム
+3823	Turtle Shell	亀の甲羅
+3824	Orange Cards	オレンジカード
+3825	Glossy Scell	光沢のあるセル
+3826	Soft Feather	ソフトフェザー
+3827	Pocket Watch	懐中時計
+3828	Sticky Mucus	粘着性の粘液
+3829	Worm Peeling	ワームの皮むき
+3830	Crest of Sun	太陽の紋章
+3831	Undying Root	不滅の根
+3832	Dragon Scale	ドラゴンの鱗
+3833	Empty Bottle	空のボトル
+3834	Teleport Key	テレポートキー
+3835	Lunatic Horn	ルナティックの角
+3836	Silver Arrow	シルバーアロー
+3837	Life Crystal	ライフクリスタル
+3838	Mana Crystal	マナクリスタル
+3839	White Potion	白ポーション
+3840	Take It Easy	テイク・イット・イージー
+3841	Lv. @{1} Bow	Lv. @{1} 弓
+3842	Superior Rod	スーペリアロッド
+3843	Advanced Rod	アドバンストロッド
+3844	Basic Dagger	基本的なダガー
+3845	Diamond Ring	ダイヤモンドリング
+3846	Enchant Cost	エンチャントコスト
+3847	Safety Shoes	安全靴
+3848	Novice Boots	初心者ブーツ
+3849	Falcon Cloak	ファルコンマント
+3850	Vali's Cloak	ヴァリのマント
+3851	Novice Cloak	初心者のマント
+3852	Cotton Shirt	コットンシャツ
+3853	Wraith Katar	レイス・カタール
+3854	Novice Katar	ノービスカタール
+3855	Pinewood Rod	パインウッドロッド
+3856	Novice Staff	ノービススタッフ
+3857	Morning Star	モーニングスター
+3858	Knight Spear	ナイトスピア
+3859	Novice Blade	ノービスブレード
+3860	Novice Sword	ノービスソード
+3861	Gorsk's Horn	ゴルスクの角笛
+3862	Smithing EXP	鍛冶経験値
+3863	Card: Sropho	カード：スロフォ
+3864	Card: Petite	カード：プチ
+3865	Card: Strouf	カード：ストルフ
+3866	Card: Goblin	カード：ゴブリン
+3867	Card: Marina	カード：マリーナ
+3868	Card: Willow	カード：ウィロー
+3869	Card: Eggyra	カード：エギラ
+3870	Card: Zombie	カード：ゾンビ
+3871	Card: Condor	カード：コンドル
+3872	Card: Rocker	カード：ロッカー
+3873	Throne Token	玉座トークン
+3874	Shop Details	店舗詳細
+3875	Gift Details	ギフト詳細
+3876	Basic Rules:	基本ルール:
+3877	Using Cards:	カードの使用:
+3878	Praised you!	褒めてくれた！
+3879	Card: Poring	カード：ポリン
+3880	Starting Bid	入札開始
+3881	Ilmo's Trial	イルモの試練
+3882	Isti's Trial	イスティの試練
+3883	Bonding Oath	絆の誓い
+3884	Rapid Thrust	急速な推力
+3885	Scythe Throw	鎌投げ
+3886	Coffin Blast	コフィンブラスト
+3887	Bubble Burst	バブルバースト
+3888	Scythe Dance	サイスダンス
+3889	Bubble Dream	バブルドリーム
+3890	Shield Press	シールドプレス
+3891	King's Grace	キングス・グレース
+3892	Shield Break	シールドブレイク
+3893	Shield Block	シールドブロック
+3894	Block Impact	ブロックインパクト
+3895	Assist Score	アシストスコア
+3896	Top Occupier	上位占有者
+3897	Top Defender	トップディフェンダー
+3898	Near-Godlike	神のようなもの
+3899	Revive X${1}	X${1} を復活させます
+3900	@{1} Assists	@{1} がサポートします
+3901	Most Assists	最多アシスト数
+3902	Drop Rewards	ドロップ報酬
+3903	Lv.${1}-${2}	Lv.${1}-${2}
+3904	Kafra's Ring	カプラの指輪
+3905	Speed Potion	スピードポーション
+3906	Animal World	アニマルワールド
+3907	Stigma Count	スティグマカウント
+3908	Earthshatter	アースシャッター
+3909	HP Lock Buff	HPロックバフ
+3910	Size Reduced	サイズ縮小
+3911	Osiris (Red)	オシリス（赤）
+3912	Leave Combat	戦闘を離れる
+3913	(Deprecated)	(非推奨)
+3914	Fire Release	ファイアリリース
+3915	Severe Wound	重傷
+3916	Magic Immune	魔法の免疫
+3917	Flame Scorch	フレイムスコーチ
+3918	HP Lock@{1}%	HPロック@{1}%
+3919	Status Alert	ステータスアラート
+3920	Quagmire SFX	泥沼SFX
+3921	Arcane Study	難解な研究
+3922	Gravity Trap	重力トラップ
+3923	Slime Ground	スライムグラウンド
+3924	Dark Sorcery	ダークソーサリー
+3925	Trauma Drain	トラウマドレイン
+3926	Scythe Slash	サイススラッシュ
+3927	Clear Breeze	クリアブリーズ
+3928	Bell Miracle	ベルの奇跡
+3929	Demonic Aura	悪魔のオーラ
+3930	Fairy Shield	フェアリーシールド
+3931	Flame Breath	フレイムブレス
+3932	Block Shield	ブロックシールド
+3933	Arrow Effect	矢の効果
+3934	Coffin Skill	コフィンスキル
+3935	Laser Marker	レーザーマーカー
+3936	Warning Link	警告リンク
+3937	Charged Bell	チャージベル
+3938	Green Marker	緑のマーカー
+3939	Switch Thorn	スイッチソーン
+3940	Frenzy S@{1}	フレンジー S@{1}
+3941	Switch Comet	スイッチコメット
+3942	Extreme Slow	極端に遅い
+3943	Chest Effect	チェストエフェクト
+3944	Battle Ready	戦闘準備完了
+3945	Mic Controls	マイクコントロール
+3946	Mic Requests	マイクリクエスト
+3947	Make Friends	友達を作る
+3948	Verbal Abuse	言葉による虐待
+3949	Talk to ${1}	${1} と話す
+3950	Defeat Mirko	ミルコを倒す
+3951	Defeat Nasha	ナーシャを倒す
+3952	Misc Rules 3	その他のルール 3
+3953	Misc Rules 2	その他のルール 2
+3954	Misc Rules 1	その他のルール 1
+3955	Costume Draw	コスチューム抽選会
+3956	Eternal Vows	永遠の誓い
+3957	Invalid name	無効な名前です
+3958	Stall closed	露店閉店
+3959	Random Affix	ランダムな接辞
+3960	Mighty Sword	マイティソード
+3961	Spiral Blast	スパイラルブラスト
+3962	Urd's Spring	ウルドの春
+3963	Advanced HIT	アドバンストHIT
+3964	Dagger Throw	ダガースロー
+3965	Cold-Blooded	冷血
+3966	Dark Stalker	ダークストーカー
+3967	Black Market	ブラックマーケット
+3968	Base Defense	基地防衛
+3969	Like History	歴史のように
+3970	No likes yet	まだ「いいね！」はありません
+3971	Borrow Books	本を借りる
+3972	Already Read	既読
+3973	Set Template	テンプレートの設定
+3974	Me - Profile	私 - プロフィール
+3975	Select Theme	テーマの選択
+3976	Three Mounts	3つのマウント
+3977	A Pack of 20	20個入り
+3978	Card Synergy	カードシナジー
+3979	Thief Mentor	盗賊のメンター
+3980	Amatsu Guide	アマツガイド
+3981	Malaya Woman	マラヤの女性
+3982	Dewata Woman	デワタウーマン
+3983	Chungwolmang	忠月望
+3984	Granny Broom	おばあさんほうき
+3985	Event Period	イベント期間
+3986	Revive Altar	復活の祭壇
+3987	No Equipment	装備なし
+3988	Close Defeat	惜敗
+3989	Battle Start	バトルスタート
+3990	Total Limit:	合計制限:
+3991	Confirm Oath	宣誓の確認
+3992	Edit message	メッセージを編集する
+3993	Golden Orbit	ゴールデンオービット
+3994	Apply Preset	プリセットを適用する
+3995	Submit Build	ビルドを送信する
+3996	Select Cards	カードを選択する
+3997	Blind effect	ブラインド効果
+3998	Generic Slow	一般的な遅い
+3999	Generic Stun	汎用スタン
+4000	Guard Domain	ガードドメイン

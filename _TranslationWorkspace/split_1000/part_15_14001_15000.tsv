@@ -1,0 +1,1001 @@
+Index	English	Japanese_Translation
+14001	Double Strafe【Trigger Effect】	ダブルストレイフィング【発動効果】
+14002	Target: <#ffffff>${1}</color>	対象: <#ffffff>${1}</color>
+14003	Glast Heim Culvert Floor @{1}	グラストヘイム地下水路 @{1}F
+14004	Skills refresh in ${1} seconds	スキル更新まで${1}秒
+14005	Sweetheart Tea Party · Soufflé	スイートハート・ティーパーティ・スフレ
+14006	Eden Group: Commendation Vault	楽園団：表彰保管庫
+14007	Acquisition Progress This Week	今週の獲得進捗
+14008	Current Unseal Progress: ${1}%	現在の封印解除進捗: ${1}%
+14009	Leave the dungeon in ${1} sec.	${1}秒後にダンジョンを退出
+14010	Ranged Magic Damage Reduction%	遠距離魔法ダメージ軽減%
+14011	Continue Investigating Deeper…	さらに奥を調査する…
+14012	^{1}Defend the Dragon Seal^{2}	^{1}竜の封印を守れ^{2}
+14013	This event has not opened yet.	このイベントはまだ開催されていません。
+14014	${1} remaining in this chapter	このチャプターの残り${1}
+14015	Allocate @{1} Free Stat Points	自由ステータスポイントを@{1}割り振る
+14016	Participate in @{1} MVP events	MVPイベントに@{1}回参加
+14017	Continue exploring Orc Village	オーク村の探索を続ける
+14018	Guild League Preliminary Quest	ギルドリーグ予選クエスト
+14019	Rare Reward-Angeling-MVP Limit	レア報酬-エンジェリング-MVP制限
+14020	Rare Reward-Deviling-MVP Limit	レア報酬-デビルリング-MVP制限
+14021	Rare Reward-Orc Hero-MVP Limit	レア報酬-オークヒーロー-MVP制限
+14022	Rare Reward-Phreeoni-MVP Limit	レア報酬-フリオニ-MVP制限
+14023	Rare Reward-Orc Lord-MVP Limit	レア報酬-オークロード-MVP制限
+14024	Rare Reward-Mistress-MVP Limit	レア報酬-ミストレス-MVP制限
+14025	Rare Reward-Baphomet-MVP Limit	レア報酬-バフォメット-MVP制限
+14026	Hidden Treasure--Earthly Fiend	隠された宝--地上の魔物
+14027	Defeat MVP Angeling in a Party	パーティでMVPエンジェリングを倒す
+14028	Defeat MVP Orc Hero in a party	パーティでMVPオークヒーローを倒す
+14029	Defeat MVP Phreeoni in a party	パーティでMVPフリオニを倒す
+14030	Defeat Hard Pharaoh in a party	パーティでハード・ファラオを倒す
+14031	Defeat Normal Ishti in a party	パーティでノーマル・イスティを倒す
+14032	Defeat Normal Nesha in a party	パーティでノーマル・ナーシャを倒す
+14033	Defeat Normal Mirko in a party	パーティでノーマル・ミルコを倒す
+14034	Complete all Genesis Movements	ジェネシスの全楽章を完了
+14035	Tell Rhine how your trial went	試練の結果をラインに伝える
+14036	Bobo has something to tell you	ボボが話したいことがある
+14037	Pick up the strange instrument	奇妙な楽器を拾う
+14038	Listen to the Soldier's Report	兵士の報告を聞く
+14039	Ask Bragis about the situation	状況についてブラギスに尋ねる
+14040	Increases your healing by ${1}	回復量が${1}増加
+14041	Affects your Wind skill damage	風属性スキルダメージに影響
+14042	Affects your Fire skill damage	火属性スキルダメージに影響
+14043	Affects your Holy skill damage	聖属性スキルダメージに影響
+14044	Find Louis, Martha, and Katie.	ルイ、マーサ、ケイティを探す。
+14045	Gift of Time Crystal Gift Mail	時間の贈り物クリスタル ギフトメール
+14046	Wedding Crashers Event Rewards	結婚式乱入者イベント報酬
+14047	Prontera Defense Effort Reward	プロンテラ防衛貢献報酬
+14048	War of Emperium Activity Quest	攻城戦アクティビティクエスト
+14049	Like Temporary Activity Quests	いいね期間限定アクティビティクエスト
+14050	Revive Point Protection Effect	復活ポイント保護効果
+14051	Battle of Dragon Coffin Island	ドラゴンコフィン島の戦い
+14052	Member Arrivals and Departures	メンバー加入・脱退
+14053	Member Joined Adventurer Guild	冒険者ギルドにメンバー加入
+14054	Equipment has not been smelted	装備はまだ精錬されていません
+14055	Equipment requirements not met	装備条件を満たしていません
+14056	^{1}Champion at the Summit^{2}	^{1}頂上の覇者^{2}
+14057	5-Player Challenge - Dark Land	5人チャレンジ - ダークランド
+14058	The donation period has ended.	寄付期間は終了しました。
+14059	Incorrect Username or Password	ユーザー名またはパスワードが正しくありません
+14060	Head to the Grand Lecture Hall	大講堂へ向かう
+14061	Pick up the Research Notebook.	研究ノートを拾う。
+14062	Complete Your First Job Change	初めての転職を完了
+14063	Days since server launch: ${1}	サーバー開設から${1}日
+14064	No Star Cores in your Backpack	バックパックにスターコアがありません
+14065	Stronghold War Auction - Ready	拠点戦オークション - 準備
+14066	Stronghold War Auction - Final	拠点戦オークション - 最終
+14067	Royal City War Auction - Ready	王都戦オークション - 準備
+14068	Royal City War Auction - Final	王都戦オークション - 最終
+14069	Guild GvE · Desperate Speedrun	ギルドGvE・決死のタイムアタック
+14070	Gloom over Dragoncoffin Island	ドラゴンコフィン島を覆う暗雲
+14071	Shoot an arrow to deal damage.	矢を放ってダメージを与える。
+14072	Trade Yet to start description	取引未開始時の説明
+14073	Beginner Challenge Event Rules	初心者チャレンジイベントルール
+14074	Complete event Activity Quests	イベントアクティビティクエストを完了
+14075	No rewards available to claim.	受け取れる報酬がありません。
+14076	Search results can't be empty.	検索結果を空にはできません。
+14077	${1} received ${2} ${3} * ${4}	${1}が${2} ${3} * ${4}を受け取りました
+14078	Welcome ${1} to the Group Chat	${1}さん、グループチャットへようこそ
+14079	Friends and Guild Members Only	フレンドとギルドメンバーのみ
+14080	This party has been disbanded.	このパーティは解散しました。
+14081	${1} moved ${2} to Party ${3}.	${1}が${2}をパーティ${3}へ移動しました。
+14082	The inviter has left the party	招待者がパーティを退出しました
+14083	No longer a Deputy Raid Leader	レイド副リーダーを解任されました
+14084	No players available to invite	招待可能なプレイヤーがいません
+14085	Daily Activity Point Reward II	デイリーアクティビティポイント報酬II
+14086	Stronghold War - Auction Phase	拠点戦 - オークションフェーズ
+14087	A bid has already been placed.	すでに入札済みです。
+14088	Supply Transport - Trade Phase	物資輸送 - 取引フェーズ
+14089	Displayed after bidding begins	入札開始後に表示
+14090	Activate ${1} refinement slots	精錬スロットを${1}個有効化
+14091	That character does not exist.	そのキャラクターは存在しません。
+14092	${1}: Character does not exist	${1}: キャラクターが存在しません
+14093	Load 5 or more items to depart	アイテムを5個以上積み込んで出発
+14094	Recent Average Trade Price${1}	直近平均取引価格${1}
+14095	Guild League - Sub-Battlefield	ギルドリーグ - サブ戦場
+14096	Eastern Prontera State Capital	プロンテラ東部州都
+14097	Western Prontera State Capital	プロンテラ西部州都
+14098	Southern Alberta State Capital	アルベルタ南部州都
+14099	Main Combat - Control Immunity	メイン戦闘 - 行動阻害無効
+14100	Today's Remaining Reward Count	本日の残り報酬回数
+14101	Today's Remaining Claim Count:	本日の残り受取回数:
+14102	Requires job type ^{1}${1}^{2}	職業タイプ ^{1}${1}^{2} が必要
+14103	Server age requirement not met	サーバー経過日数の条件を満たしていません
+14104	Specified area not yet reached	指定エリアにまだ到達していません
+14105	Friendship requirement not met	親密度条件を満たしていません
+14106	Requires ${1} class level ${2}	${1}のクラスレベル${2}が必要
+14107	Not Yet Available (Deprecated)	未公開（廃止予定）
+14108	Blocks ranged Physical damage.	遠距離物理ダメージを無効化。
+14109	Permanently triggers Charge-Up	チャージアップを常時発動
+14110	Shield equal to @{1}% Max Life	最大HPの@{1}%分のシールド
+14111	Change Armor to Earth Property	防具属性を地属性に変更
+14112	Change Armor to Water Property	防具属性を水属性に変更
+14113	Convert Armor to Fire Property	防具属性を火属性に変更
+14114	Change Armor to Ghost Property	防具属性を念属性に変更
+14115	Convert Armor to Holy Property	防具属性を聖属性に変更
+14116	No settings Function available	利用可能な設定機能がありません
+14117	Shift+Mouse Right Tap and Drag	Shift+マウス右ボタンを押しながらドラッグ
+14118	Orc Hero Normal Attack - Earth	オークヒーロー通常攻撃 - 地属性
+14119	Skill@{1}Harp Performance-Easy	スキル@{1}ハープ演奏-イージー
+14120	Skill@{1} Kun Water Vortex@{2}	スキル@{1} クン・ウォーターボルテックス@{2}
+14121	Skill@{1} Circular Sonic Blast	スキル@{1} 円形ソニックブラスト
+14122	Summon Airship Monsters-Normal	飛行船モンスター召喚-ノーマル
+14123	Generic Downed Corrosion Skill	汎用ダウン時腐食スキル
+14124	Cat o' Nine-Tail Normal Attack	キャットオーナインテイル通常攻撃
+14125	Phreeoni Normal Attack-Neutral	フリオニ通常攻撃-無属性
+14126	Moonlight Flower Normal Attack	月夜花通常攻撃
+14127	Character banned. Unseal time:	キャラクターは利用停止中。解除時刻:
+14128	Ringblade Kunai-Add Player Tag	リングブレードクナイ-プレイヤータグ追加
+14129	Hornet Assault+Falling Beehive	ホーネットアサルト+落下する蜂の巣
+14130	Stone Glyph Slash (Deprecated)	ストーングリフスラッシュ（廃止予定）
+14131	Moonlight Flower Bell Incoming	月夜花ベル接近
+14132	Launch Stationary Green Bubble	固定グリーンバブルを発射
+14133	@{1} Color Tracks @{2} Players	@{1}色の軌跡で@{2}人を追跡
+14134	Skill@{1}_Flash Bomb Hell Mode	スキル@{1}_フラッシュボム ヘルモード
+14135	Exorciser Spell: Enlightenment	エクソシスト呪文：エンライトメント
+14136	S@{1}Camouflage Enhance Dragon	S@{1}カモフラージュ強化ドラゴン
+14137	Current Total Deployment Stats	現在の配置ステータス合計
+14138	Current Total Collection Stats	現在のコレクションステータス合計
+14139	Maximum message length reached	メッセージ文字数が上限です
+14140	${1}[Members: ${2}/${3}]\n${4}	${1}[メンバー: ${2}/${3}]\n${4}
+14141	No voice input device detected	音声入力デバイスが見つかりません
+14142	Guild Voice Channel Invitation	ギルドボイスチャンネル招待
+14143	Treasure Hunt Point Locate NPC	宝探しポイント案内NPC
+14144	Single-Cluster Crystalline Ore	単結晶鉱石
+14145	Double-Cluster Crystalline Ore	二重結晶鉱石
+14146	Clue Treasure Map: Odin Statue	手がかり宝の地図：オーディン像
+14147	Clue Treasure Map: Marketplace	手がかり宝の地図：市場
+14148	Note Pillar@{1}-Mjolnir Garden	ノートピラー@{1}-ミョルニアガーデン
+14149	Note Pillar@{1}-Western Morroc	ノートピラー@{1}-西モロック
+14150	Vine Puppet Type β - Destroyer	ヴァインパペットβ型 - デストロイヤー
+14151	Sand Puppet Type β - Destroyer	サンドパペットβ型 - デストロイヤー
+14152	Rock Puppet Type β - Destroyer	ロックパペットβ型 - デストロイヤー
+14153	Wraith Storm Gust Magic Circle	レイス ストームガスト魔法陣
+14154	Failed to accept quest [${1}].	クエスト[${1}]の受注に失敗しました。
+14155	Failed to abandon quest [${1}]	クエスト[${1}]の放棄に失敗しました
+14156	Failed to turn in quest [${1}]	クエスト[${1}]の報告に失敗しました
+14157	Quest [${1}] progress updated.	クエスト[${1}]の進捗を更新しました。
+14158	Teleport Station Administrator	テレポートステーション管理人
+14159	Shipwreck Labyrinth Floor @{1}	難破船の迷宮 @{1}F
+14160	Southeast Payon-Flying Trigger	フェイヨン南東部飛行トリガー
+14161	Magic Circle_Maya Petrify Mist	魔法陣_マヤー石化ミスト
+14162	Magic Circle_Maya Stone Pillar	魔法陣_マヤー石柱
+14163	Level up to unlock more slots.	レベルアップでさらにスロットを解放。
+14164	Field Combat Time in Progress…	フィールド戦闘時間進行中…
+14165	"Megingjard" grants STR +@{1}.	「メギンギョルド」でSTR +@{1}。
+14166	Melee Physical Damage Increase	近接物理ダメージ増加
+14167	Work Together to Defeat Fafnir	協力してファフニールを倒す
+14168	The Passage Beneath the Vortex	渦の下の通路
+14169	A Greeting from a Group Member	グループメンバーからの挨拶
+14170	Tower Climb Activity Task @{1}	塔登りアクティビティクエスト @{1}
+14171	【Symphony of Creation】Epilogue	【創造のシンフォニー】エピローグ
+14172	Faction Combination Attributes	陣営組み合わせステータス
+14173	Accelerated! Open the Pet Egg!	加速完了！ペットの卵を開けよう！
+14174	Obtain Card for the first time	初めてカードを入手
+14175	Hatch a total of @{1} Pet Eggs	ペットの卵を合計@{1}個孵化
+14176	Unlock the Solar Chariot Mount	ソーラーチャリオットマウントを解放
+14177	Go open the Auto-Battle screen	オートバトル画面を開く
+14178	Tap here to open the Pet menu.	ここをタップしてペットメニューを開く。
+14179	Open Mining Star Treasure Hunt	採掘スター宝探しを開く
+14180	The road to the ancient castle	古城へ続く道
+14181	I'm here to collect the mount.	マウントを受け取りに来ました。
+14182	What do you mean by “special”?	「特別」ってどういう意味？
+14183	All right, I'll be there soon.	分かった、すぐ行くよ。
+14184	Hey! Professor, are you okay?!	教授！大丈夫？！
+14185	A distant cousin's apprentice?	遠い親戚の弟子？
+14186	Hello! What can I get for you?	いらっしゃい！何にする？
+14187	I won't sing for you. Go away.	歌ってあげない。あっち行って。
+14188	Come on, let's Dance together!	さあ、一緒に踊ろう！
+14189	Why does that seem familiar...	どうして見覚えがあるんだろう…
+14190	Vehicles can be repaired here.	ここで乗り物を修理できます。
+14191	I want to get stronger faster.	もっと早く強くなりたい。
+14192	Who exactly is Professor Ryan?	ライアン教授って一体誰？
+14193	Who commissioned this mission?	この任務を依頼したのは誰？
+14194	I'm the Professor's assistant.	私は教授の助手です。
+14195	Dragon Casket Isle Gloom Guide	ドラゴンコフィン島・暗雲ガイド
+14196	Vivify is full. Unable to use!	活力が満タンです。使用できません！
+14197	The party has officially begun	パーティが正式に始まりました
+14198	No filter conditions selected.	フィルター条件が選択されていません。
+14199	Phase II\nDefeat the Protector	フェーズII\n守護者を倒せ
+14200	Phase II\nDefend the Protector	フェーズII\n守護者を守れ
+14201	Our ^{1}${2}^{2} was destroyed	味方の^{1}${2}^{2}が破壊されました
+14202	Note collection is on cooldown	ノート収集はクールダウン中です
+14203	Your teammate ${1} rescued you	チームメイト${1}に救助されました
+14204	Central supplies have Spawned!	中央物資が出現しました！
+14205	Huh? What's Eddga doing here?!	えっ？どうしてエドガがここに？！
+14206	Bobo\nGreat! Our bribe worked!	ボボ\nよし！賄賂が効いた！
+14207	Captain\nDamn! Could it be...?	船長\nくそっ！まさか…？
+14208	Bobo\nDon't worry! We're here!	ボボ\n心配しないで！僕たちがいる！
+14209	Why are you walking so slowly—	なんでそんなにゆっくり歩いてるの—
+14210	Place the part in the machine.	部品を機械に入れる。
+14211	, and learn Luna's dance moves	、そしてルナのダンスを覚える
+14212	Not enough crafting materials.	製作素材が不足しています。
+14213	Time Until Eliminations Begin:	撃破開始まで:
+14214	No Members on the Rankings Yet	ランキングにメンバーがまだいません
+14215	Looking for a Social Butterfly	盛り上げ上手を募集中
+14216	Secret History of Prontera@{1}	プロンテラ秘史@{1}
+14217	Destructive Flame (Deprecated)	破壊の炎（廃止予定）
+14218	Young Dragon Normal Attack@{1}	幼竜通常攻撃@{1}
+14219	Fire Turret Sync Status Effect	ファイアタレット同期ステータス効果
+14220	First Movement · Majestic Hymn	第1楽章・荘厳なる賛歌
+14221	Learn About the Build Handbook	ビルドハンドブックについて学ぶ
+14222	Learn About the Trade Exchange	取引所について学ぶ
+14223	The Knight Order's Obstruction	騎士団の妨害
+14224	Continue Exploring the Culvert	地下水路の探索を続ける
+14225	The Mysterious Middle-Aged Man	謎の中年男性
+14226	Equipment - Equipment Refining	装備 - 装備精錬
+14227	Character Basics - Stat Points	キャラクター基礎 - ステータスポイント
+14228	^{1}Horse Racing GM Window^{2}	^{1}競馬GMウィンドウ^{2}
+14229	Defeat MVP Baphomet in a party	パーティでMVPバフォメットを倒す
+14230	Defeat MVP Mistress in a party	パーティでMVPミストレスを倒す
+14231	Defeat MVP Orc Lord in a party	パーティでMVPオークロードを倒す
+14232	Say hello to Shansi for Dumby.	ダンビーの代わりにシャンシーへ挨拶
+14233	Emerald · Realm-Breaking Power	エメラルド・境界突破の力
+14234	Crimson · Realm-Breaking Power	クリムゾン・境界突破の力
+14235	Power of the Mountains - Green	山の力 - 緑
+14236	PATCH_CLIENT_FILE_MISSING_TIPS	PATCH_CLIENT_FILE_MISSING_TIPS
+14237	PATCH_LOAD_REMOTE_CONFIG_ERROR	PATCH_LOAD_REMOTE_CONFIG_ERROR
+14238	Open to receive Soul Echo EXP.	開くとソウルエコーEXPを獲得。
+14239	Item used to Level-up a title.	称号のレベルアップに使用するアイテム。
+14240	A sturdy-looking Insect shell.	丈夫そうな昆虫の殻。
+14241	A clear, transparent gemstone.	透き通った透明な宝石。
+14242	Used to unlock various Emotes.	各種エモートの解放に使用。
+14243	Pet is not assigned as support	ペットは支援枠に設定されていません
+14244	Armor woven from sturdy Metal.	丈夫な金属で編まれた鎧。
+14245	Standard Monthly Pass Currency	スタンダード月間パス通貨
+14246	Ore containing special energy.	特殊なエネルギーを含む鉱石。
+14247	Job EXP used for Job Level-up.	ジョブレベルアップに使用するJOB EXP。
+14248	The Scent of Fruit in the Tent	テントに漂う果実の香り
+14249	No Divine Art Totems available	利用可能な神術トーテムがありません
+14250	Requested ${1} from your guild	ギルドに${1}をリクエストしました
+14251	Candle of Contemplation - Life	思索のキャンドル - HP
+14252	Caravan Escort (Auction Check)	キャラバン護衛（オークション確認）
+14253	Stronghold War (Auction Check)	拠点戦（オークション確認）
+14254	Royal City War (Auction Check)	王都戦（オークション確認）
+14255	【Adventure Party】Phantom Realm	【冒険パーティ】ファントムレルム
+14256	High-Density Enriched Oridecon	高密度濃縮オリデコン
+14257	Treasure Clue: Bookshelf Relic	宝の手がかり：本棚の遺物
+14258	Treasure Clue: Courtyard Cache	宝の手がかり：中庭の隠し場所
+14259	Arcane Scroll · Accessory-Blue	アーケインスクロール・アクセサリー-青
+14260	Life Percentage · Shoes-Orange	HP割合・靴-オレンジ
+14261	Life Percentage · Shoes-Purple	HP割合・靴-紫
+14262	Magic Ward Scroll · Shoes-Blue	マジックワードスクロール・靴-青
+14263	Life Percentage · Cloak-Orange	HP割合・マント-オレンジ
+14264	Life Percentage · Cloak-Purple	HP割合・マント-紫
+14265	Hummingbird Scroll·Armor-Green	ハミングバードスクロール・防具-緑
+14266	Hawkeye Scroll·Off-Hand-Orange	ホークアイスクロール・サブ装備-オレンジ
+14267	Hawkeye Scroll·Off-Hand-Purple	ホークアイスクロール・サブ装備-紫
+14268	Eagle Eye Scroll·Off-Hand-Blue	イーグルアイスクロール・サブ装備-青
+14269	Life Percentage·Off-Hand-Green	HP割合・サブ装備-緑
+14270	Mountain Scroll·Off-Hand-Green	マウンテンスクロール・サブ装備-緑
+14271	Giant Scroll·One-Handed-Orange	ジャイアントスクロール・片手武器-オレンジ
+14272	Giant Scroll·One-Handed-Purple	ジャイアントスクロール・片手武器-紫
+14273	Giant Scroll·Dual-Wield-Orange	ジャイアントスクロール・二刀流-オレンジ
+14274	Giant Scroll·Dual-Wield-Purple	ジャイアントスクロール・二刀流-紫
+14275	Lv. @{1} @{2} Two-Handed Spear	Lv. @{1} @{2} 両手槍
+14276	Lv. @{1} @{2} One-Handed Spear	Lv. @{1} @{2} 片手槍
+14277	Lv. @{1} @{2} Two-Handed Sword	Lv. @{1} @{2} 両手剣
+14278	Lv. @{1} @{2} One-Handed Sword	Lv. @{1} @{2} 片手剣
+14279	Super Arena Earth Spirit Spear	スーパーアリーナ・アーススピリットスピア
+14280	Novice Secret Blade: Dark Howl	ノービス秘剣：ダークハウル
+14281	Warrior's Staff of Destruction	ウォリアー・スタッフオブデストラクション
+14282	Refine Resonance Level too low	精錬共鳴レベルが不足しています
+14283	Item usage requirement not met	アイテム使用条件を満たしていません
+14284	Rare Items remain Unidentified	レアアイテムが未鑑定のままです
+14285	Guild Contribution Information	ギルド貢献情報
+14286	Challenge unlocks in ${1} days	チャレンジ解放まで${1}日
+14287	Kafra: Battle of the Survivors	カプラ：サバイバルバトル
+14288	<color=#CC762A>LV.${1}</color>	<color=#CC762A>LV.${1}</color>
+14289	, learn the Boss's dance moves	、ボスのダンスを覚える
+14290	Please select a challenge role	チャレンジ役割を選択してください
+14291	${1} declined to Enter Dungeon	${1}がダンジョン入場を拒否しました
+14292	Combine Treasure Map Fragments	宝の地図の欠片を合成
+14293	Most Guard Commanders Defeated	衛兵司令官最多討伐
+14294	Chapter Reading Reward claimed	チャプター読書報酬を受取済み
+14295	Soliciting Contact Information	連絡先を募集中
+14296	@{1} VS @{2} Competition Match	@{1} VS @{2} 対戦
+14297	Basic Attack [Triggered Skill]	通常攻撃［発動スキル］
+14298	Divine Light [Triggered Skill]	ディバインライト［発動スキル］
+14299	Tree Spirit's Blessing Trigger	ツリースピリットの祝福発動
+14300	Crazy Uproar - Self-Motivation	クレイジーアップロア - 自己鼓舞
+14301	High-Energy Impact Mode Switch	ハイエネルギーインパクト モード切替
+14302	Advanced Live Coal - Live Coal	上級燃えさし - 燃えさし
+14303	Holy Cross Triggers AoE Damage	ホーリークロスで範囲ダメージ発動
+14304	Divine Suppression Triggers ST	ディバインサプレッションで単体攻撃発動
+14305	Spear Mastery - Increased ASPD	スピアマスタリー - ASPD増加
+14306	Increased Rapid Smiting Damage	ラピッドスマイティングのダメージ増加
+14307	Reduce Shield Defense Cooldown	シールドディフェンスのクールダウン短縮
+14308	Special Casting/Chanting State	特殊詠唱/チャント状態
+14309	Gravitation Field Sound Effect	グラビテーションフィールド効果音
+14310	Protection Orbit Effect (Full)	プロテクションオービット効果（完全版）
+14311	Small Note Clockwise Skill@{1}	小ノート時計回りスキル@{1}
+14312	Select at least 1 chat channel	チャットチャンネルを1つ以上選択してください
+14313	Dungeon Matchmaking Penalty II	ダンジョンマッチングペナルティII
+14314	BUFF While Protected by Shield	シールド保護中BUFF
+14315	A Green Bubble Is Tracking You	グリーンバブルに追跡されています
+14316	Launch Cross Compression Field	クロス圧縮フィールドを発射
+14317	Damage Increase (Magnum Break)	ダメージ増加（マグナムブレイク）
+14318	Friendship must reach Lv. ${1}	親密度Lv.${1}以上が必要
+14319	Complete ${1} Cargo Placements	貨物配置を${1}回完了
+14320	Pet Promotion and Breakthrough	ペット昇格・突破
+14321	Cannot Job Advance to this Job	この職業には転職できません
+14322	Job Advance quest not accepted	転職クエストを受注していません
+14323	Daily Pet Search limit reached	本日のペット検索上限に達しました
+14324	This shop does not allow gifts	このショップではギフトを送れません
+14325	Bonus time has been activated.	ボーナスタイムを有効化しました。
+14326	The item stack does not exist.	アイテムスタックが存在しません。
+14327	Invalid Adventurer Group name.	冒険グループ名が無効です。
+14328	Insufficient Guild Reputation.	ギルド名声が不足しています。
+14329	Select a Soul Echo on the left	左側でソウルエコーを選択
+14330	Player does not have this Clue	この手がかりを所持していません
+14331	Incorrect Life Skill activated	有効化された生活スキルが正しくありません
+14332	Insufficient Life Skill Vivify	生活スキルの活力が不足しています
+14333	Life Skill Configuration Error	生活スキル設定エラー
+14334	Life Skill title skill too low	生活スキル称号スキルレベルが不足しています
+14335	Treasure chest is already open	宝箱はすでに開いています
+14336	Too far from the Quartermaster	補給官から離れすぎています
+14337	Maximum Trade quantity reached	取引数量が上限に達しました
+14338	There is no rune in this slot.	このスロットにルーンがありません。
+14339	You are not in the same party.	同じパーティにいません。
+14340	Profile preset does not exist.	プロフィールプリセットが存在しません。
+14341	Soul Echo is already deployed.	ソウルエコーはすでに配置済みです。
+14342	^{1}Earthshattering Strike^{2}	^{1}アースシャッタリングストライク^{2}
+14343	^{1}Unlimited Acceleration^{2}	^{1}無限加速^{2}
+14344	^{1}Sustained Acceleration^{2}	^{1}持続加速^{2}
+14345	Low-grade Magic-Breaking Curse	下級マジックブレイキングカース
+14346	Minor DMG Reduction vs All Job	全職業からのダメージ軽減（小）
+14347	Golden Boundary-Breaking Power	黄金の境界突破の力
+14348	Golden Boundary-Guarding Power	黄金の境界守護の力
+14349	^{1}Intermediate Mana Rune^{2}	^{1}中級マナルーン^{2}
+14350	Must be in the designated area	指定エリア内にいる必要があります
+14351	No player data found on server	サーバーにプレイヤーデータがありません
+14352	Distance from NPC is too great	NPCから離れすぎています
+14353	Single-exchange limit exceeded	1回の交換上限を超えています
+14354	Player instance already exists	プレイヤーインスタンスはすでに存在します
+14355	Instance requirements not met.	インスタンス条件を満たしていません。
+14356	A skill is already being cast.	すでに別のスキルを詠唱中です。
+14357	Incorrect equipped skill type.	装備中のスキルタイプが正しくありません。
+14358	Insufficient casting Distance.	詠唱距離が不足しています。
+14359	Skill configuration not found.	スキル設定が見つかりません。
+14360	Artillery Used This Week: ${1}	今週の砲兵使用回数: ${1}
+14361	Vehicles Used This Month: ${1}	今月の乗り物使用回数: ${1}
+14362	Load the shell into the Turret	砲弾をタレットに装填
+14363	Switch to launching ice shells	氷弾発射に切り替え
+14364	Use Lope to clear the obstacle	跳躍を使って障害物を越える
+14365	Click to enter a template name	クリックしてテンプレート名を入力
+14366	Invalid Luxury Dragon location	高級ドラゴンの位置が無効です
+14367	Not enough Refinement Material	精錬素材が不足しています
+14368	The target is currently alive.	対象は現在生存しています。
+14369	Guild Activity Reward claimed.	ギルド活動報酬を受取済みです。
+14370	Unlock to Receive Immediately:	解放すると即時受取:
+14371	The Caravan ship has departed.	キャラバン船は出発しました。
+14372	The Caravan quest has expired.	キャラバンクエストの期限が切れました。
+14373	Hey there, rookie. What is it?	やあ、新人。どうした？
+14374	No Solo Mode information found	ソロモード情報が見つかりません
+14375	<#6890d2>${1}</color> or lower	<#6890d2>${1}</color>以下
+14376	<#9f74c4>${1}</color> or lower	<#9f74c4>${1}</color>以下
+14377	<#ec8c2f>${1}</color> or lower	<#ec8c2f>${1}</color>以下
+14378	Responding Members (${1}/${2})	応答メンバー（${1}/${2}）
+14379	This item is already equipped.	このアイテムはすでに装備中です。
+14380	Damage taken reduced by @{1}%.	受けるダメージ -@{1}%。
+14381	Attack Speed reduced by @{1}%.	攻撃速度 -@{1}%。
+14382	Shield equal to Max HP * @{1}%	最大HP * @{1}%分のシールド
+14383	Dummy type switched to Player.	ダミータイプをプレイヤーに変更しました。
+14384	Restores ${1} Life per second.	毎秒${1}HP回復。
+14385	Crit Chance increases by ${1}.	クリティカル率が${1}増加。
+14386	Triggers Call Thunder Lv. @{1}	コールサンダー Lv. @{1}を発動
+14387	Applies Petrify at @{1} stacks	@{1}スタックで石化を付与
+14388	Wind Element Damage Boost Buff	風属性ダメージ増加バフ
+14389	Fire Element Damage Boost Buff	火属性ダメージ増加バフ
+14390	Please obtain the shard first.	先に欠片を入手してください。
+14391	Falcon Assault【Trigger Effect】	ファルコンアサルト【発動効果】
+14392	Trap Hunter Skill【Buff Effect】	トラップハンタースキル【バフ効果】
+14393	Solo Madogear Pilot Monitoring	ソロ魔導ギアパイロット監視
+14394	Force-display targeted players	対象プレイヤーを強制表示
+14395	Goblin Archer Rectangle-Poison	ゴブリンアーチャー長方形攻撃-毒属性
+14396	Petrify Dimension (Unreleased)	石化ディメンション（未実装）
+14397	Glast Heim Chivalry Floor @{1}	グラストヘイム騎士団 @{1}F
+14398	Bonfire Lv. ${1} Unlock Effect	たき火Lv.${1}解放効果
+14399	Abandon this crafting attempt?	このクラフトを放棄しますか？
+14400	Question Timer: ${1}/${2} sec.	問題タイマー: ${1}/${2}秒
+14401	Failed to retrieve information.	情報の取得に失敗しました。
+14402	Silverwing Covenant: Discipline	シルバーウィングの盟約：規律
+14403	JOB <color=#FFEF95>${1}</color>	JOB <color=#FFEF95>${1}</color>
+14404	Clear all items from the board?	ボード上のアイテムをすべて消去しますか？
+14405	Melee Physical Damage Increase%	近接物理ダメージ増加%
+14406	The Battle temporarily subsides	戦闘が一時的に沈静化しました
+14407	The Season has not started yet.	シーズンはまだ開始していません。
+14408	Conqueror Slot Allocation Rules	征服者スロット割り振りルール
+14409	Waiting for the battle to start	戦闘開始待ち
+14410	Reach the title Wind's Voyage I	称号「風の旅立ちI」に到達
+14411	Listen to the boy's prediction.	少年の予言を聞く。
+14412	The Hunter Who Retrieves Mounts	マウント回収ハンター
+14413	Claim the South Gate map reward	南門マップ報酬を受け取る
+14414	Use the pheromones on yourself.	自分にフェロモンを使用する。
+14415	Guild League Semifinals Mission	ギルドリーグ準決勝ミッション
+14416	Rare Reward-Maya-Illusion Limit	レア報酬-マヤー幻影制限
+14417	Participate in the Guild League	ギルドリーグに参加
+14418	Participate in Wedding Crashers	結婚式乱入者に参加
+14419	Team up to defeat Normal Osiris	パーティでノーマル・オシリスを倒す
+14420	Defeat Hard Baphomet in a party	パーティでハード・バフォメットを倒す
+14421	Give the collected bark to Boya	集めた樹皮をボヤに渡す
+14422	Enter the depths of the Culvert	地下水路の奥へ入る
+14423	Chivalry Members block your way	騎士団員が行く手を阻む
+14424	Follow Bobo to Rent a Peco Peco	ボボについて行きペコペコをレンタル
+14425	Affects your Earth skill damage	地属性スキルダメージに影響
+14426	Affects your Water skill damage	水属性スキルダメージに影響
+14427	Affects Wind skill damage taken	受ける風属性スキルダメージに影響
+14428	Affects Fire skill damage taken	受ける火属性スキルダメージに影響
+14429	Affects Holy skill damage taken	受ける聖属性スキルダメージに影響
+14430	Life % restored every @{1} sec.	@{1}秒ごとにHPを割合回復
+14431	Increases melee Physical damage	近接物理ダメージ増加
+14432	Talk to Luna to leave the ball.	ルナに話しかけて舞踏会を退出
+14433	Gift of Time Event Reissue Mail	時間の贈り物イベント再配布メール
+14434	Spirit Tower Sweep Reissue Mail	精霊の塔掃討再配布メール
+14435	Midterm Settlement Mail Reissue	中間精算メール再配布
+14436	Dungeon Auction No-Sale Rewards	ダンジョンオークション不成立報酬
+14437	Prontera Defense Victory Reward	プロンテラ防衛勝利報酬
+14438	Daily Commission Activity Quest	デイリー依頼アクティビティクエスト
+14439	Complete your second job change	2次転職を完了
+14440	Next Event Auto-Start Countdown	次イベント自動開始カウントダウン
+14441	Insufficient crafting materials	クラフト素材が不足しています
+14442	Kafra · Battle of the Survivors	カプラ・サバイバルバトル
+14443	5-Player Challenge - Dark Realm	5人チャレンジ - ダークレルム
+14444	Realm of the Gods - Final Trial	神々の領域 - 最終試練
+14445	An unknown queue error occurred	不明なキューエラーが発生しました
+14446	Complete Equipment Forging once	装備製作を1回完了
+14447	Go to the Scene of the Argument	口論の現場へ向かう
+14448	Complete the hide-and-seek game	かくれんぼをクリア
+14449	Clear the Phantom Realm dungeon	ファントムレルムダンジョンをクリア
+14450	The investigator is actually a…	調査員の正体は実は…
+14451	Leave the depths of the Culvert	地下水路の奥から退出
+14452	Bragis wants to speak with you.	ブラギスがあなたと話したがっています。
+14453	You haven't joined a guild yet.	まだギルドに加入していません。
+14454	No way! Is today my lucky day?!	まさか！今日はツイてるの？！
+14455	Download speed: {@{1}:@{2}0}{1}	ダウンロード速度: {@{1}:@{2}0}{1}
+14456	Current Enhance Level Cap: ${1}	現在の強化レベル上限: ${1}
+14457	Class-Specific Item - Peco Peco	職業専用アイテム - ペコペコ
+14458	Covers the content of Chapter 1	チャプター1の内容を収録
+14459	Covers the content of Chapter 2	チャプター2の内容を収録
+14460	The price has not been changed.	価格は変更されていません。
+14461	No Last Battle Report available	前回の戦闘レポートがありません
+14462	Warm-Up Event Shop (Deprecated)	ウォームアップイベントショップ（廃止予定）
+14463	Daily Purchase Limit: ${1}/${2}	1日の購入上限: ${1}/${2}
+14464	Set as Close Friends Group Chat	親しいフレンド用グループチャットに設定
+14465	No Online members in this group	このグループにオンラインメンバーはいません
+14466	Source: <#b05142><${1}></color>	入手元: <#b05142><${1}></color>
+14467	Group Chat name cannot be empty	グループチャット名を空欄にはできません
+14468	Cancel Close Friends Group Chat	親しいフレンド用グループチャットを解除
+14469	Anonymous gifting mode disabled	匿名ギフトモードを無効化しました
+14470	This Group Chat has been muted.	このグループチャットはミュートされています。
+14471	Hidden Treasure PVP Placeholder	隠された宝PVPプレースホルダー
+14472	Learned Moonlit Challenger-@{1}	ムーンリットチャレンジャー-@{1}を習得
+14473	Guild Weekly Activity Reward II	ギルド週間アクティビティ報酬II
+14474	Stronghold Battle - In Progress	拠点戦 - 進行中
+14475	Select a region to bid on first	先に入札地域を選択してください
+14476	No guilds are currently bidding	現在入札中のギルドはありません
+14477	Reach ${2}% completion for ${1}	${1}を${2}%達成
+14478	Attempt requirement Not Reached	挑戦回数条件を満たしていません
+14479	You have already joined a guild	すでにギルドに加入しています
+14480	Please enter a guild name first	先にギルド名を入力してください
+14481	Guild name changed successfully	ギルド名を変更しました
+14482	Last Week's Active rating: ${1}	先週の活動評価: ${1}
+14483	Sent to the World Chat channel.	ワールドチャットへ送信しました。
+14484	Please enter a multiple of ${1}	${1}の倍数を入力してください
+14485	Guild League - Main Battlefield	ギルドリーグ - メイン戦場
+14486	Southern Prontera State Capital	プロンテラ南部州都
+14487	Portrait Card: Golden Thief Bug	ポートレートカード：黄金蟲
+14488	Portrait Card: Moonlight Flower	ポートレートカード：月夜花
+14489	Guild League Season Rank Points	ギルドリーグシーズンランクポイント
+14490	You have not Learned this skill	このスキルをまだ習得していません
+14491	Must be mounted on ^{1}${1}^{2}	^{1}${1}^{2}に騎乗する必要があります
+14492	World Level requirement not met	ワールドレベル条件を満たしていません
+14493	Not enough Soul Echoes Deployed	配置中のソウルエコーが不足しています
+14494	Changes armor property to Wind.	防具属性を風属性に変更。
+14495	Changes armor property to Fire.	防具属性を火属性に変更。
+14496	Damage against Starfish +@{1}%.	ヒトデへのダメージ +@{1}%。
+14497	MP Cost -@{1}%, Healing +@{2}%.	MP消費 -@{1}%、回復量 +@{2}%。
+14498	Damage dealt to Goblins +@{1}%.	ゴブリンへのダメージ +@{1}%。
+14499	Reduces Movement Speed by @{1}%	移動速度 -@{1}%
+14500	Immune to Knockback and Launch.	ノックバックと打ち上げを無効化。
+14501	Skill@{1}Converging Goblet Spin	スキル@{1}収束ゴブレットスピン
+14502	Skill@{1}Flying Goblet Row Slam	スキル@{1}飛翔ゴブレット列叩き
+14503	Skill@{1} First Movement - Easy	スキル@{1} 第1楽章 - イージー
+14504	Battle Royale Gravity Field@{1}	バトルロワイヤル重力場@{1}
+14505	Skill@{1} Eight-Way Sonic Blast	スキル@{1} 8方向ソニックブラスト
+14506	Skill@{1} Grand Cross Formation	スキル@{1} グランドクロス陣形
+14507	Skill@{1} Eight-Way@{2} Players	スキル@{1} 8方向@{2}人
+14508	Skill@{1} Fin Dimensional Slash	スキル@{1} フィン次元斬り
+14509	Mandragora Ranged Normal Attack	マンドラゴラ遠距離通常攻撃
+14510	Light Poring Normal Attack-Holy	ライトポリン通常攻撃-聖属性
+14511	Updating the game. Please wait.	ゲームを更新中です。お待ちください。
+14512	Tap to enter an invitation code	タップして招待コードを入力
+14513	Ring Blade Kunai - Boss Landing	リングブレードクナイ - ボス着地
+14514	Watch Out for Explosive Barrels	爆発樽に注意
+14515	Drake Waterspout (No Animation)	ドレイク水柱（アニメーションなし）
+14516	Petrifying Mist Tracking - Easy	追尾石化ミスト - イージー
+14517	Moonlight Flower Spotlight Game	月夜花スポットライトゲーム
+14518	Launch Stationary Yellow Bubble	固定イエローバブルを発射
+14519	Straight-Line Bubble Action@{1}	直線バブルアクション@{1}
+14520	Makes the armor indestructible.	防具を破壊不能にする。
+14521	Play Cheers when the BOSS dies!	BOSS撃破時に歓声を再生！
+14522	0-star cards cannot be returned	0星カードは返却できません
+14523	Card slot has not been unsealed	カードスロットは未開封です
+14524	Repeat insertion is not allowed	重複挿入はできません
+14525	Prontera Defense Guild Garrison	プロンテラ防衛ギルド駐屯
+14526	This title is not yet unlocked.	この称号はまだ解放されていません。
+14527	<color=#b4a797>(Recent)</color>	<color=#b4a797>（最近）</color>
+14528	No messages have been sent yet.	まだメッセージは送信されていません。
+14529	Deals damage to a single enemy.	単体の敵にダメージを与える。
+14530	Recruitment message has expired	募集メッセージの期限が切れました
+14531	Clue Treasure Map: Great Bridge	手がかり宝の地図：大橋
+14532	Note Pillar@{1}-Southern Sograt	ノートピラー@{1}-ソグラト南部
+14533	Magic Circle_Phreeoni Slow Area	魔法陣_フリオニ減速エリア
+14534	Sand Puppet Type A - Dust Storm	サンドパペットA型 - ダストストーム
+14535	Sand Puppet Type A - Flameburst	サンドパペットA型 - フレイムバースト
+14536	Magic Circle_Mistress Slow Area	魔法陣_ミストレス減速エリア
+14537	Tower-Climbing Mode Description	塔登りモード説明
+14538	Event is currently unavailable.	現在イベントを利用できません。
+14539	Ranged Physical Damage Increase	遠距離物理ダメージ増加
+14540	Damage Reduction from Fish Race	魚種族からのダメージ軽減
+14541	Bobo was sucked into the vortex	ボボが渦に吸い込まれた
+14542	The enemy has boarded the ship!	敵が船に乗り込んだ！
+14543	Total Guild Activity Last Week:	先週のギルド活動合計:
+14544	Automatically refreshes in ${1}	${1}後に自動更新
+14545	Welcome to the guild, everyone!	みんな、ギルドへようこそ！
+14546	Please enter the player's name.	プレイヤー名を入力してください。
+14547	Artillery Privileges: ${1}/${2}	砲兵権限: ${1}/${2}
+14548	No dividends available to claim	受け取れる配当がありません
+14549	Divine Totem Metric - Synthesis	神術トーテム指標 - 合成
+14550	Visit the Young Man (@{1}/@{2})	青年を訪ねる（@{1}/@{2}）
+14551	Observe the Alternate Dimension	異次元を観察
+14552	(Test) Conquest Map Reward Test	（テスト）征服マップ報酬テスト
+14553	Guild Event - Stronghold Battle	ギルドイベント - 拠点戦
+14554	Obtain a Pet for the first time	初めてペットを入手
+14555	Log in for a total of @{1} days	累計@{1}日ログイン
+14556	Choose the build you like best.	一番好きなビルドを選ぶ。
+14557	Clear out the nearby Chonchons.	近くのチョンチョンを一掃する。
+14558	Eliminate the elite Mandragora.	エリートマンドラゴラを倒す。
+14559	^{1}Defeat Golden Thief Bug^{2}	^{1}黄金蟲を倒す^{2}
+14560	^{1}Defeat Moonlight Flower^{2}	^{1}月夜花を倒す^{2}
+14561	Proceed to the marked location.	マークされた場所へ向かう。
+14562	...Of course not. It's my duty.	…もちろん違う。これが私の務めだから。
+14563	Would you like to buy a ticket?	チケットを購入しますか？
+14564	Buy a ring for your sweetheart.	恋人に指輪を買う。
+14565	Objectives Completed: ${1}/${2}	目標達成数: ${1}/${2}
+14566	Meow, canned food is delicious~	ニャー、缶詰おいしい～
+14567	No data from the previous event	前回イベントのデータがありません
+14568	One-Tap Congratulations (${1}s)	ワンタップ祝福（${1}s）
+14569	Ilmata has summoned her minions	イルマタが配下を召喚しました
+14570	Combine Materials Across Levels	レベルをまたいで素材を合成
+14571	Phase I\nDestroy the Outer Gate	フェーズI\n外門を破壊せよ
+14572	^{1}The Commander has appeared!	^{1}司令官が出現した！
+14573	Ta-da! It's time for your test!	ジャーン！試験の時間だよ！
+14574	${1} died outside the Safe Zone	${1}がセーフゾーン外で死亡しました
+14575	The central Boss has respawned!	中央ボスが復活しました！
+14576	The party has officially begun!	パーティが正式に始まりました！
+14577	You have been muted until ${1}.	${1}までミュートされています。
+14578	Help! Help! Can anyone save us?	助けて！誰か助けて！
+14579	Fervor! Fervor! Where are you?!	ファーヴァー！ファーヴァー！どこにいるの？！
+14580	Huh? The investigator is a dog?	えっ？調査員って犬なの？
+14581	Insufficient remaining attempts	残り挑戦回数が不足しています
+14582	Guild Supplies in Territory War	領地戦のギルド物資
+14583	Guild Store Guildwide Gift Pack	ギルドストア全体ギフトパック
+14584	Designated Channel Announcement	指定チャンネル告知
+14585	The Princess Ascends the Throne	王女即位
+14586	Divine Retribution (Deprecated)	神罰（廃止予定）
+14587	Full-screen Fire Setup - Charge	全画面炎設定 - チャージ
+14588	Welcome to the Adventure Group!	冒険グループへようこそ！
+14589	Fourth Movement · Desert Rhythm	第4楽章・砂漠のリズム
+14590	Growth Training: First Training	成長訓練：初回訓練
+14591	Enjoy the exciting Season story	刺激的なシーズンストーリーを楽しむ
+14592	Venture Deeper into the Ant Den	蟻地獄のさらに奥へ
+14593	Character Basics - Skill Points	キャラクター基礎 - スキルポイント
+14594	^{1}Above the Sea of Clouds^{2}	^{1}雲海の彼方^{2}
+14595	Raise any @{1} pets to Lv. @{2}	任意のペット@{1}体をLv.@{2}にする
+14596	Reach Talent Lv. @{1} in total.	タレントLv.@{1}に合計到達。
+14597	Say hello to Antonio for Dumby.	ダンビーの代わりにアントニオへ挨拶
+14598	Gathering Expert - Horticulture	採集エキスパート - 園芸
+14599	PATCH_REPAIR_CLIENT_FINISH_TIPS	PATCH_REPAIR_CLIENT_FINISH_TIPS
+14600	Supplies used in Territory War.	領地戦で使用する物資。
+14601	Obtain the specified Soul Echo.	指定のソウルエコーを入手。
+14602	An unidentified viscous liquid.	未鑑定の粘性液体。
+14603	Obtained by skinning an animal.	動物の皮剥ぎで入手。
+14604	A hard, crystal-clear gemstone.	硬く透明な宝石。
+14605	Used to unlock Deviling Emotes.	デビルリングのエモート解放に使用。
+14606	Prelude I: Song of the Deep Sea	前奏曲I：深海の歌
+14607	Not enough cards for Collection	コレクションに必要なカードが不足しています
+14608	Not enough materials to unlock.	解放素材が不足しています。
+14609	Not enough materials to advance	昇級素材が不足しています
+14610	No pet is deployed in this slot	このスロットにペットが配置されていません
+14611	Tap to gift a pass to a friend.	タップしてフレンドにパスを贈る。
+14612	A staff forged from lost souls.	失われた魂から鍛えられた杖。
+14613	A wand steeped in an evil aura.	邪悪なオーラを宿すワンド。
+14614	An axe used to butcher animals.	動物解体用の斧。
+14615	A Spear with a hook-shaped tip.	先端が鉤状の槍。
+14616	A widely used one-handed Spear.	広く使われている片手槍。
+14617	The Lone Pine at the South Gate	南門の一本松
+14618	Minor Ghost Property Resistance	念属性耐性（小）
+14619	Pet Shard: Rainbow Earth Dragon	ペットの欠片：レインボーアースドラゴン
+14620	Eggshell Chubby Chick - Limited	卵殻ぽっちゃりヒヨコ - 期間限定
+14621	Wind-Up Rocking Chair - Limited	ゼンマイ式ロッキングチェア - 期間限定
+14622	Deluxe Gift Box@{1}(Deprecated)	デラックスギフトボックス@{1}（廃止予定）
+14623	T@{1} Pet Shard Selection Chest	T@{1} ペットの欠片選択チェスト
+14624	Request ${1} from your friends?	フレンドに${1}をリクエストしますか？
+14625	Tier @{1} Equipment Forging Set	Tier @{1} 装備製作セット
+14626	Tier @{1} Blueprint - Accessory	Tier @{1} 設計図 - アクセサリー
+14627	Proof of the Hunt · Executioner	狩りの証・処刑人
+14628	Guild Design - Primordial Chaos	ギルド設計 - 原初の混沌
+14629	Primordial Transmutation Manual	原初転換マニュアル
+14630	【Adventure Party】Watering Quest	【冒険パーティ】水やりクエスト
+14631	Treasure Clue: Artisan's Legacy	宝の手がかり：職人の遺産
+14632	Arcane Scroll · Accessory-Green	アーケインスクロール・アクセサリー-緑
+14633	Magic Ward Scroll · Shoes-Green	マジックワードスクロール・靴-緑
+14634	Hummingbird Scroll·Armor-Orange	ハミングバードスクロール・防具-オレンジ
+14635	Hummingbird Scroll·Armor-Purple	ハミングバードスクロール・防具-紫
+14636	Life Percentage·Off-Hand-Orange	HP割合・サブ装備-オレンジ
+14637	Mountain Scroll·Off-Hand-Orange	マウンテンスクロール・サブ装備-オレンジ
+14638	Life Percentage·Off-Hand-Purple	HP割合・サブ装備-紫
+14639	Mountain Scroll·Off-Hand-Purple	マウンテンスクロール・サブ装備-紫
+14640	Eagle Eye Scroll·Off-Hand-Green	イーグルアイスクロール・サブ装備-緑
+14641	Mountain Scroll·One-Handed-Blue	マウンテンスクロール・片手武器-青
+14642	Ymir Scroll · Dual Wield - Blue	ユミルスクロール・二刀流-青
+14643	Lv. @{1} Two-Handed Axe (No BD)	Lv. @{1} 両手斧（BDなし）
+14644	Lv. @{1} One-Handed Axe (No BD)	Lv. @{1} 片手斧（BDなし）
+14645	Super Arena Beck Battle Axe@{1}	スーパーアリーナ・ベックバトルアックス@{1}
+14646	Intermediate Earth Spirit Spear	中級アーススピリットスピア
+14647	Not enough Soul Echoes deployed	配置中のソウルエコーが不足しています
+14648	Specified item not yet obtained	指定アイテムをまだ入手していません
+14649	Overall Soul Echo level too low	ソウルエコー総合レベルが不足しています
+14650	Not enough area rewards claimed	受取済みエリア報酬数が不足しています
+14651	Required point tier not reached	必要ポイントランクに達していません
+14652	Codex Points (Monsters - Payon)	コーデックスポイント（モンスター - フェイヨン）
+14653	Teammate Shared Rewards Details	チームメイト共有報酬詳細
+14654	War of Emperium Statistics Info	攻城戦統計情報
+14655	<color=#B05142>Inactive</color>	<color=#B05142>非アクティブ</color>
+14656	<color=#97E553>(Active)</color>	<color=#97E553>（アクティブ）</color>
+14657	Continuous Crafting - Tailoring	連続クラフト - 裁縫
+14658	Kafra - Battle of the Survivors	カプラ - サバイバルバトル
+14659	Glast Heim Underground Cemetery	グラストヘイム地下墓地
+14660	Spear Formation - Crescent Moon	槍陣 - 三日月
+14661	Growth Support Lv. @{1} Rewards	成長サポートLv.@{1}報酬
+14662	Maximize Power - Weapon Enhance	戦力最大化 - 武器強化
+14663	Transform into Baby Desert Wolf	ベビーデザートウルフに変身
+14664	Divine Suppression Triggers AoE	ディバインサプレッションで範囲攻撃発動
+14665	Reduced Martyr's Reckoning Cost	マーターズレコニング消費軽減
+14666	Auto Guard Reduces Damage Taken	オートガードで被ダメージ軽減
+14667	Activate Holy Light Suppression	ホーリーライトサプレッションを有効化
+14668	BDTarget_AttriTransformRule_Tag	BDTarget_AttriTransformRule_Tag
+14669	Blessing of Baldr, God of Light	光神バルドルの祝福
+14670	Auto-Battle Button display area	オートバトルボタン表示エリア
+14671	Tower Boss Stat Adjustment @{1}	塔ボスステータス調整 @{1}
+14672	Alicel - Damage Passive Monitor	アリセル - ダメージパッシブ監視
+14673	Transform into Golden Thief Bug	黄金蟲に変身
+14674	Dungeon Matchmaking Penalty III	ダンジョンマッチングペナルティIII
+14675	NPC Only Receives Damage Effect	NPC専用被ダメージ効果
+14676	Cumulative Time Under the Light	光を浴びた累積時間
+14677	Continuously Apply Stealth Buff	ステルスバフを継続付与
+14678	A Yellow Bubble Is Tracking You	イエローバブルに追跡されています
+14679	Green Energy Barrier Activation	グリーンエネルギーバリア起動
+14680	Soul Burst Skill Detection Buff	ソウルバーストスキル検知バフ
+14681	Owner Sets Speaking Permissions	オーナーが発言権限を設定
+14682	No report Description provided.	通報内容が入力されていません。
+14683	Log in for a total of ${1} days	累計${1}日ログイン
+14684	Did you find the missing items?	なくした品は見つかった？
+14685	Eww, no Yor's Kitchen Creation!	うわっ、ヨルの料理じゃない！
+14686	Divine Realm - Challenge Rules:	神域 - チャレンジルール:
+14687	Cannot Job Advance across tiers	ランクを跨いで転職できません
+14688	Invalid bidding Parameter error	入札パラメータが無効です
+14689	Friend Group Chat limit reached	フレンドグループチャット上限に達しました
+14690	Item price verification failed.	アイテム価格の検証に失敗しました。
+14691	Reward Configuration not found.	報酬設定が見つかりません。
+14692	Tavern data communication error	酒場データ通信エラー
+14693	${1}: Insufficient consumption.	${1}: 消費量が不足しています。
+14694	Skill target cannot be selected	スキル対象を選択できません
+14695	Already in an Adventurer Group.	すでに冒険グループに参加しています。
+14696	Level too low to create a guild	ギルド作成に必要なレベルが不足しています
+14697	No Level-up materials available	使用可能なレベルアップ素材がありません
+14698	Invalid total prize pool weight	賞品プールの合計重みが無効です
+14699	Abnormal Life Skill server data	生活スキルのサーバーデータが異常です
+14700	Previous Life Skill not learned	前提生活スキルを習得していません
+14701	Life Skill level does not exist	生活スキルレベルが存在しません
+14702	Gathering resource not unlocked	採集資源が未解放です
+14703	Life Skill title does not exist	生活スキル称号が存在しません
+14704	Auction Settlement is complete.	オークション精算が完了しました。
+14705	You already have a supply wagon	すでに補給ワゴンを所持しています
+14706	Matchmaking rules do not exist.	マッチングルールが存在しません。
+14707	No free Revive attempts remain.	無料復活回数が残っていません。
+14708	The selected preset is invalid.	選択したプリセットが無効です。
+14709	High-grade Magic-Breaking Curse	上級マジックブレイキングカース
+14710	Emerald Boundary-Breaking Power	エメラルドの境界突破の力
+14711	Emerald Boundary-Guarding Power	エメラルドの境界守護の力
+14712	Azure Boundary-Breaking Remnant	アズール境界突破の残滓
+14713	Crimson Boundary-Breaking Power	クリムゾンの境界突破の力
+14714	Crimson Boundary-Guarding Power	クリムゾンの境界守護の力
+14715	^{1}Ice and Thunder Mastery^{2}	^{1}氷雷マスタリー^{2}
+14716	Backpack sorting is on cooldown	バックパック整理はクールダウン中です
+14717	No items available to dismantle	解体可能なアイテムがありません
+14718	Instance recruitment is closed.	インスタンス募集は終了しました。
+14719	The skill is still on cooldown.	スキルはまだクールダウン中です。
+14720	The skill is not in the Lineup.	スキルが編成に入っていません。
+14721	Artillery Used This Month: ${1}	今月の砲兵使用回数: ${1}
+14722	Vehicles Used This Season: ${1}	今シーズンの乗り物使用回数: ${1}
+14723	Wrong NPC for this Interaction.	このインタラクションのNPCが違います。
+14724	Connect to them with a red line	赤い線で接続する
+14725	Discard the shell being carried	運搬中の砲弾を破棄
+14726	Switch to launching fire shells	火炎弾発射に切り替え
+14727	Tap to enter a personal message	タップして個人メッセージを入力
+14728	Revive is currently prohibited.	現在復活できません。
+14729	No suitable Revive Point found.	適切な復活ポイントが見つかりません。
+14730	Impeachment is not in progress.	弾劾は進行中ではありません。
+14731	This is the Payon Palace Annex.	ここはフェイヨン宮殿別館です。
+14732	Item bar is full. Cannot equip.	アイテムバーがいっぱいです。装備できません。
+14733	Bandits?! We'll get the guards!	盗賊だって？！衛兵を呼ぼう！
+14734	From Juno? Isn't he from Payon?	ジュノーから？彼はフェイヨン出身じゃないの？
+14735	${1} just obtained 【${2}】: ${3}	${1}が【${2}】を獲得: ${3}
+14736	This skill is already equipped.	このスキルはすでに装備中です。
+14737	Reduces Healing Volume by @{1}%	回復量 -@{1}%
+14738	Physical DEF increased by ${1}.	物理DEFが${1}増加。
+14739	Greatsword effect on the ground	地面上のグレートソード効果
+14740	Dummy Faction switched to Ally.	ダミー陣営を味方に変更しました。
+14741	Dummy type switched to Monster.	ダミータイプをモンスターに変更しました。
+14742	The preset name cannot be empty	プリセット名を空欄にはできません
+14743	This class has no class talents	この職業には職業タレントがありません
+14744	Increases damage taken by @{1}%	受けるダメージ +@{1}%
+14745	Increases Physical ATK by @{1}%	物理ATK +@{1}%
+14746	Savage Babe Reward Boost Lv@{1}	サベージベベ報酬ブースト Lv@{1}
+14747	Sandstorm Inner and Outer Rings	サンドストーム内外周
+14748	Orc Hero Normal Attack - Ground	オークヒーロー通常攻撃 - 地面
+14749	Cloaking Dimension (Unreleased)	クロークディメンション（未実装）
+14750	Modify recruitment information?	募集情報を変更しますか？
+14751	Afternoon Stroll · Warm Sunshine	午後の散歩・暖かな陽射し
+14752	Nine-Hued Sacred Melody · Apsara	九彩の聖なる旋律・天女
+14753	BASE <color=#FFEF95>${1}</color>	BASE <color=#FFEF95>${1}</color>
+14754	Press and Hold to Charge Support	長押しでサポートをチャージ
+14755	Ranged Physical Damage Increase%	遠距離物理ダメージ増加%
+14756	Complete the Instance Objectives	インスタンス目標を完了
+14757	^{1}The Most Dangerous Place^{2}	^{1}最も危険な場所^{2}
+14758	Complete Moonlight Flower's game	月夜花のゲームをクリア
+14759	Ultimately occupy the Royal City	最終的に王都を占領
+14760	Finish Downloading While Playing	プレイしながらダウンロードを完了
+14761	Say hello to Aorufeng for Dumby.	ダンビーの代わりにアオルフェンへ挨拶
+14762	Complete a Title Promotion once.	称号昇格を1回完了。
+14763	Continue exploring Goblin Forest	ゴブリンの森の探索を続ける
+14764	10-Player Dungeon Activity Quest	10人ダンジョンアクティビティクエスト
+14765	Rare Reward-Drake-Illusion Limit	レア報酬-ドレイク幻影制限
+14766	Rare Reward-Eddga-Illusion Limit	レア報酬-エドガ幻影制限
+14767	Remaining on the current channel	現在のチャンネルに残る
+14768	Meet up with Party Leader Eikuni	パーティリーダーのアイクニと合流
+14769	Professor Ryan sent you a letter	ライアン教授から手紙が届いた
+14770	Ji'ang found a suspicious object	ジアンが怪しい物を見つけた
+14771	Some skills consume MP when cast	一部スキルは使用時にMPを消費
+14772	Recovers ${1} MP every @{1} sec.	@{1}秒ごとにMPを${1}回復。
+14773	Increases damage dealt by skills	スキルで与えるダメージが増加
+14774	Reduces damage taken from skills	スキルから受けるダメージを軽減
+14775	Affects your Poison skill damage	毒属性スキルダメージに影響
+14776	Affects your Shadow skill damage	闇属性スキルダメージに影響
+14777	Affects your Undead skill damage	不死属性スキルダメージに影響
+14778	Affects Earth skill damage taken	受ける地属性スキルダメージに影響
+14779	Affects Water skill damage taken	受ける水属性スキルダメージに影響
+14780	Increases ranged Physical damage	遠距離物理ダメージ増加
+14781	Reduces melee Magic damage taken	受ける近接魔法ダメージを軽減
+14782	Auction Dividend Settlement Mail	オークション配当精算メール
+14783	Stronghold War Individual Reward	拠点戦個人報酬
+14784	Midterm Settlement Guild Rewards	中間精算ギルド報酬
+14785	No guild is currently escorting.	現在護衛中のギルドはありません。
+14786	Unlocks on Day @{1} after launch	サーバー開設@{1}日目に解放
+14787	Organize Function is on cooldown	整理機能はクールダウン中です
+14788	5-Player Challenge - Hidden Land	5人チャレンジ - 隠された地
+14789	Complete the mouse-catching game	ネズミ捕りゲームをクリア
+14790	Go Take Part in the Novice Trial	ノービス試練に参加
+14791	Return to Camp and talk to Hawke	キャンプへ戻りホークと話す
+14792	Talk to Captain Aikuni and Hawke	アイクニ隊長とホークに話す
+14793	Watch the prophecy in your dream	夢の中で予言を見る
+14794	Save your stat allocation first?	先にステータス割り振りを保存しますか？
+14795	Seriously? I can't stop smiling!	本当に？笑いが止まらない！
+14796	Accept ${1}'s Revive invitation?	${1}の復活招待を受けますか？
+14797	Regional Capital War Preparation	地域首都戦準備
+14798	The upgrade cap has been reached	強化上限に達しました
+14799	New levels unlock after Base${1}	Base${1}到達後に新レベル解放
+14800	\nYou managed a guild ${1} times	\nギルドを${1}回管理しました
+14801	Starshatter Dragon Summon Ritual	スターシャッタードラゴン召喚儀式
+14802	You must be in a party to share.	共有するにはパーティに参加する必要があります。
+14803	Introduction Album Theme Content	アルバムテーマ内容紹介
+14804	Cosmetic Draw Instructions (TBD)	コスチューム抽選説明（未定）
+14805	Beginner Challenge Reversi Rules	初心者チャレンジ・リバーシルール
+14806	Treasure chests contain Crystals	宝箱にはクリスタルが入っています
+14807	Purchase from the Trade Exchange	取引所で購入
+14808	Monster Drops Test (For Testing)	モンスタードロップテスト（テスト用）
+14809	Weekly Purchase Limit: ${1}/${2}	週間購入上限: ${1}/${2}
+14810	Season Purchase Limit: ${1}/${2}	シーズン購入上限: ${1}/${2}
+14811	Global Purchase Limit: ${1}/${2}	全体購入上限: ${1}/${2}
+14812	A small token of my appreciation	ほんのお礼です
+14813	Maximum number of groups reached	グループ数が上限に達しました
+14814	Party members summoned to follow	パーティメンバーを追従召喚しました
+14815	Supply Transport - Not Available	物資輸送 - 利用不可
+14816	<color=#fdab5b>${1}</color> Ends	<color=#fdab5b>${1}</color> 終了
+14817	No players are currently ranked.	現在ランクインしているプレイヤーはいません。
+14818	Equip ${1} items with an Enchant	エンチャント済みアイテムを${1}個装備
+14819	Deploy ${1} Lv. ${1} Soul Echoes	Lv. ${1}のソウルエコーを${1}個配置
+14820	No guilds are awaiting responses	応答待ちのギルドはありません
+14821	Guild Master cannot self-impeach	ギルドマスターは自分を弾劾できません
+14822	Required Historical Contribution	必要累積貢献度
+14823	Upgrade to unlock more new items	アップグレードで新しいアイテムをさらに解放
+14824	No cargo currently needs loading	現在積み込みが必要な貨物はありません
+14825	Tap to enter a Guild Declaration	タップしてギルド宣言を入力
+14826	No content available to refresh.	更新できる内容がありません。
+14827	Mock Battle - Registration Phase	模擬戦 - 登録フェーズ
+14828	S@{1} 10-Player Dungeon No. @{2}	S@{1} 10人ダンジョン No. @{2}
+14829	Requires Base Level ^{1}${1}^{2}	Base Level ^{1}${1}^{2} が必要
+14830	Available starting in Phase ${1}	フェーズ${1}から利用可能
+14831	Conqueror qualification required	征服者資格が必要
+14832	Changes armor property to Earth.	防具属性を地属性に変更。
+14833	Changes armor property to Water.	防具属性を水属性に変更。
+14834	Changes armor property to Ghost.	防具属性を念属性に変更。
+14835	Damage against Shellfish +@{1}%.	貝類へのダメージ +@{1}%。
+14836	Movement Speed reduced by @{1}%.	移動速度 -@{1}%。
+14837	Please choose an appropriate key	適切なキーを選択してください
+14838	Phreeoni Normal Attack - Neutral	フリオニ通常攻撃 - 無属性
+14839	Skill@{1}Repeated Goblet Shatter	スキル@{1}ゴブレット連続粉砕
+14840	Skill@{1}Drumbeat Ring Explosion	スキル@{1}ドラムビートリング爆発
+14841	Skill@{1}Harp Performance-Normal	スキル@{1}ハープ演奏-ノーマル
+14842	Skill@{1} Universal Wave Stealth	スキル@{1} 汎用ウェーブステルス
+14843	Skill@{1} Cone Attack @{2} Times	スキル@{1} コーン攻撃を@{2}回
+14844	Goblin Leader Normal Attack-Wind	ゴブリンリーダー通常攻撃-風属性
+14845	Heavy Shield Defense - Alternate	ヘビーシールドディフェンス - 別版
+14846	Cross Bombardment (No Animation)	クロス砲撃（アニメーションなし）
+14847	Tile-Occupying Derived Skill@{1}	タイル占有派生スキル@{1}
+14848	Rhythmic Moonlit Challenger@{1}s	リズミック・ムーンリットチャレンジャー@{1}s
+14849	Battle Chant Harmony - Resonance	バトルチャントハーモニー - 共鳴
+14850	Rhythmic Warg Minion (Warg Bite)	リズミックワーグミニオン（ワーグバイト）
+14851	Psychokinetic Astral Body (Copy)	念動アストラルボディ（コピー）
+14852	Interwoven Light and Dark: Magic	光と闇の交錯：魔法
+14853	Praiser Priest Hymn: Equal Grace	賛美プリースト賛歌：平等の恵み
+14854	S@{1}Cross Ripper Slasher Frenzy	S@{1}クロスリッパースラッシャー・フレンジー
+14855	Makes the weapon indestructible.	武器を破壊不能にする。
+14856	Proof of Novice Trial Completion	ノービス試練修了証
+14857	Card is already at max star rank	カードはすでに最大星ランクです
+14858	s@{1} Large Card Pool - Lv. @{2}	s@{1} 大型カードプール - Lv. @{2}
+14859	High-Reward Auto Mode: ${1}/${2}	高報酬オートモード: ${1}/${2}
+14860	Tap an unlocked map to teleport.	解放済みマップをタップしてテレポート。
+14861	Clue Treasure Map: Wooden Bridge	手がかり宝の地図：木橋
+14862	Note Pillar@{1}-Geffen East Gate	ノートピラー@{1}-ゲフェン東門
+14863	Note Pillar@{1}-Geffen West Gate	ノートピラー@{1}-ゲフェン西門
+14864	Note Pillar@{1}-Geffen Outskirts	ノートピラー@{1}-ゲフェン郊外
+14865	Note Pillar@{1}-Desert Crossroad	ノートピラー@{1}-砂漠の交差点
+14866	Parasitic Divine Vessel - Ilmata	寄生する神の器 - イルマタ
+14867	Monster Ecology Research Scholar	モンスター生態研究学者
+14868	This big one must be their Boss.	この大きいのがボスに違いない。
+14869	Magic Circle_Petrifying Mist new	魔法陣_新・石化ミスト
+14870	Available after reaching Lv.${1}	Lv.${1}到達後に利用可能
+14871	Climb ${1} more floors to obtain	あと${1}階登ると獲得
+14872	Thinking of You, Longing for You	君を想い、君を恋う
+14873	Cumulative Chest Opening Rewards	累積宝箱開封報酬
+14874	${1}<color=#957846>/180m</color>	${1}<color=#957846>/180m</color>
+14875	Ranged Physical Damage Reduction	遠距離物理ダメージ軽減
+14876	Damage Reduction from Brute Race	動物種族からのダメージ軽減
+14877	Damage Reduction from Demon Race	悪魔種族からのダメージ軽減
+14878	Damage Reduction from Plant Race	植物種族からのダメージ軽減
+14879	Damage Reduction from Angel Race	天使種族からのダメージ軽減
+14880	Damage Reduction from Non-Bosses	非ボスからのダメージ軽減
+14881	Maximum Guild Institute Level: 3	ギルド研究所最大Lv.: 3
+14882	Application requirements not met	申請条件を満たしていません
+14883	Divine Totem Metric - Refinement	神術トーテム指標 - 精錬
+14884	Monster Not Configured—Skip @{1}	モンスター未設定—@{1}をスキップ
+14885	(Test) Conquest Area Reward Test	（テスト）征服エリア報酬テスト
+14886	The Enthusiastic Weapon Merchant	熱心な武器商人
+14887	Codename: Battle Royale Unlocked	コードネーム：バトルロワイヤル解放
+14888	Ragnarok Online Pet Encyclopedia	ラグナロクオンライン ペット図鑑
+14889	Tap to learn how to equip skills	タップしてスキル装備方法を確認
+14890	This skill can Revive teammates.	このスキルで仲間を復活できます。
+14891	Click it to become stronger, bo.	クリックしてもっと強くなるんだ、ボ。
+14892	Water from the Spring of Renewal	再生の泉の水
+14893	Is this... really going to work?	これ…本当にうまくいくの？
+14894	Here are the rewards you earned.	獲得した報酬はこちらです。
+14895	Hmm... I need to put the song...	うーん…歌を入れないと…
+14896	I didn't Sound impatient, did I?	急かしてるように聞こえなかったよね？
+14897	Those monsters are despicable...	あのモンスターたち、ひどい…
+14898	It looks like an ordinary chest.	普通の宝箱に見える。
+14899	My poor child, please come home.	かわいそうな我が子よ、帰っておいで。
+14900	Let's see some special effects!!	特殊効果を見てみよう！！
+14901	Unlocks on Day ${1} of the event	イベント${1}日目に解放
+14902	All right. For honor and duty...	分かった。名誉と使命のために…
+14903	Ability Gained: Lightning Domain	能力獲得：ライトニングドメイン
+14904	The East Gate has been breached!	東門が突破された！
+14905	The west gate has been breached!	西門が突破された！
+14906	Fear, sacrifice chosen by blood!	恐れよ、血が選んだ生贄を！
+14907	Forward! Let's rescue our bride!	前進！花嫁を救い出そう！
+14908	Bobo\nWhoa, there's a hole here!	ボボ\nうわっ、ここに穴がある！
+14909	Lose HP to increase DMG by @{1}%	HPを失い、ダメージを@{1}%増加
+14910	No Auction Information Available	オークション情報がありません
+14911	Silverwing Covenant - Discipline	シルバーウィングの盟約 - 規律
+14912	Growth Training: Second Training	成長訓練：第2訓練
+14913	Black Sobbing Starlight Fragment	黒きすすり泣くスターライトの欠片
+14914	Search for Traces of the Soldier	兵士の痕跡を探す
+14915	A Clever Use for Pathfinder Ants	パスファインダーアントの賢い使い方
+14916	Reach Pet Hatching Room Lv. @{1}	ペット孵化室をLv.@{1}にする
+14917	Description of the Karazhan Harp	カラザンハープの説明
+14918	Power of the Hummingbird - Green	ハミングバードの力 - 緑
+14919	High-Tenacity Sacred Armor Plate	高耐久の聖なる防具プレート
+14920	Pet configuration does not exist	ペット設定が存在しません
+14921	Pet is not in the specified slot	ペットが指定スロットにいません
+14922	A Rod containing magical powers.	魔力を秘めたロッド。
+14923	Base EXP used for Base Level-up.	Baseレベルアップに使用するBase EXP。
+14924	Can be obtained by Killing MVPs.	MVP討伐で入手可能。
+14925	No matching Divine Totem skills.	一致する神術トーテムスキルがありません。
+14926	Requested ${1} from your friends	フレンドに${1}をリクエストしました
+14927	Military Supplies (Intermediate)	軍需物資（中級）
+14928	Candle of Contemplation - M. ATK	思索のキャンドル - MATK
+14929	Candle of Contemplation - P. ATK	思索のキャンドル - PATK
+14930	Basic All-Member Guild Gift Pack	基本全員向けギルドギフトパック
+14931	Guild Emblem - Dark Crystal Ring	ギルドエンブレム - ダーククリスタルリング
+14932	Treasure Clue: Cache by the Wall	宝の手がかり：壁際の隠し場所
+14933	Treasure Map Fragment (Guidance)	宝の地図の欠片（ガイド）
+14934	Arcane Scroll · Accessory-Orange	アーケインスクロール・アクセサリー-オレンジ
+14935	Arcane Scroll · Accessory-Purple	アーケインスクロール・アクセサリー-紫
+14936	Life Percentage · Accessory-Blue	HP割合・アクセサリー-青
+14937	Magic Ward Scroll · Shoes-Orange	マジックワードスクロール・靴-オレンジ
+14938	Magic Ward Scroll · Shoes-Purple	マジックワードスクロール・靴-紫
+14939	Magic Ward Scroll · Cloak-Orange	マジックワードスクロール・マント-オレンジ
+14940	Magic Ward Scroll · Cloak-Purple	マジックワードスクロール・マント-紫
+14941	Hummingbird Scroll·Off-Hand-Blue	ハミングバードスクロール・サブ装備-青
+14942	Eagle Eye Scroll·One-Handed-Blue	イーグルアイスクロール・片手武器-青
+14943	Mountain Scroll·One-Handed-Green	マウンテンスクロール・片手武器-緑
+14944	Giant Scroll · Dual Wield - Blue	ジャイアントスクロール・二刀流-青
+14945	Ymir Scroll · Dual Wield - Green	ユミルスクロール・二刀流-緑
+14946	Intermediate Beck Battle Axe@{1}	中級ベックバトルアックス@{1}
+14947	Please complete your Job Advance	転職を完了してください
+14948	Earn ${1} individual MVP rewards	個人MVP報酬を${1}回獲得
+14949	Required Season rank not reached	必要なシーズンランクに達していません
+14950	Not enough Expedition challenges	遠征チャレンジ回数が不足しています
+14951	Target not successfully defeated	対象を正常に撃破できませんでした
+14952	Pet Faction effect not activated	ペット陣営効果が有効化されていません
+14953	Codex Points (Monsters - Desert)	コーデックスポイント（モンスター - 砂漠）
+14954	Codex Points (Monsters - Geffen)	コーデックスポイント（モンスター - ゲフェン）
+14955	Parasitic Divine Vessel · Ilmata	寄生する神の器・イルマタ
+14956	Meditate on the spot to recover.	その場で瞑想して回復。
+14957	Covered the content of Chapter 2	チャプター2の内容を収録済み
+14958	Cross Exorciser [Triggered Buff]	クロスエクソシスト［発動バフ］
+14959	Play Season Melody Bubble Effect	シーズン・メロディバブル効果を再生
+14960	Heavy Axe Strike - Set Mode @{1}	ヘビーアックスストライク - モード設定 @{1}
+14961	Red Thread Heart Effect Overhead	頭上の赤い糸ハートエフェクト
+14962	Auto Guard Increases Attack Life	オートガードで攻撃時HP増加
+14963	Blessing of Thor, God of Thunder	雷神トールの祝福
+14964	Escort Cart Catch-Up Speed Boost	護衛カート追いつき速度アップ
+14965	Dynamic Event Alert Display Area	動的イベント警告表示エリア
+14966	Flying Mount Skills display area	飛行マウントスキル表示エリア
+14967	Continuous Slow While Channeling	詠唱中に継続減速
+14968	Hard Prismatic Nightmare Passive	ハード・プリズマティックナイトメア パッシブ
+14969	Blade Mountain-Greatsword Effect	ブレードマウンテン-グレートソード効果
+14970	Use a Revive to cancel Transform	復活を使用して変身を解除
+14971	Original Melody Chorus Self Buff	オリジナルメロディコーラス自己バフ
+14972	Season Axe Tornado Switch BD@{1}	シーズン・アックストルネード切替 BD@{1}
+14973	Enhanced Gravity Impact Listener	強化グラビティインパクト監視
+14974	Joint Beat Damage Taken Increase	ジョイントビート 被ダメージ増加
+14975	Trade on the Exchange ${1} times	取引所で${1}回取引
+14976	The Tavern name cannot be empty.	酒場名を空欄にはできません。
+14977	Please select a Tavern language.	酒場の言語を選択してください。
+14978	Tavern room information updated.	酒場の部屋情報を更新しました。
+14979	Phantom Realm - Challenge Rules:	ファントムレルム - チャレンジルール:
+14980	Cannot mount while using a skill	スキル使用中は騎乗できません
+14981	Required Fashion Lv. not reached	必要ファッションLv.に達していません
+14982	Auction Dividend already claimed	オークション配当は受取済みです
+14983	Invalid friend relationship type	フレンド関係タイプが無効です
+14984	Group Chat Member limit exceeded	グループチャットメンバー上限を超えています
+14985	Friend Group Chat does not exist	フレンドグループチャットが存在しません
+14986	Appearance preset does not exist	外見プリセットが存在しません
+14987	Your class cannot use this Totem	現在の職業ではこのトーテムを使用できません
+14988	No request is required to speak.	発言に申請は不要です。
+14989	Monster Favorites limit reached.	お気に入りモンスター上限に達しました。
+14990	No Objective within skill range.	スキル範囲内に目標がありません。
+14991	Item information does not exist.	アイテム情報が存在しません。
+14992	Failed to lock item information.	アイテム情報のロックに失敗しました。
+14993	The target player is not Online.	対象プレイヤーはオフラインです。
+14994	Do not have Permission to speak.	発言権限がありません。
+14995	Already on the application list.	すでに申請リストに登録されています。
+14996	Insufficient Guild Contributions	ギルド貢献度が不足しています
+14997	Prerequisite stage not completed	前提ステージを完了していません
+14998	Life Skill recipe does not exist	生活スキルレシピが存在しません
+14999	Faction switching is on cooldown	陣営切替はクールダウン中です
+15000	Progress Reward already claimed.	進捗報酬は受取済みです。

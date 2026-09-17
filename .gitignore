@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Generator caches / backups
+_TranslationWorkspace/translations_cache.json
+_TranslationWorkspace/import/*.bak
+Client/BepInEx/Translation/ja/Text/*.before-import-*.bak
+
+# Diagnostics / local outputs
+tools/diagnostics/*.dll
+*.log
+*.tmp
+*.bak
+
+# Build/distribution outputs
+dist/
+release/
+*.zip
+*.7z
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

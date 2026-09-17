@@ -1,0 +1,1001 @@
+Index	English	Japanese_Translation
+5001	Defending Aura	ディフェンスオーラ
+5002	Absolute Judex	アブソリュート・ジュデックス
+5003	Shield Pursuit	シールド追撃
+5004	Crest of Light	光の紋章
+5005	Chase Distance	チェイスディスタンス
+5006	Go to Settings	設定へ
+5007	Casting Method	詠唱方式
+5008	Normal Casting	通常詠唱
+5009	Damage Numbers	ダメージ数値
+5010	Sound Settings	サウンド設定
+5011	Semi-Soft Lock	セミソフトロック
+5012	Full Soft Lock	フルソフトロック
+5013	Skill Callouts	スキル通知
+5014	Always Display	常に表示
+5015	Self and Party	自分とパーティ
+5016	Mouse Left Tap	マウス左クリック
+5017	Powerful Drain	強力ドレイン
+5018	Fan-Shaped AOE	扇形範囲
+5019	Horizontal AOE	水平AOE
+5020	Brass Talisman	真鍮のタリスマン
+5021	Clone Entrance	分身登場
+5022	Kun Moves @{1}	クンの動き @{1}
+5023	Spotlight @{1}	スポットライト @{1}
+5024	Rift Knockback	リフトノックバック
+5025	Launch Missile	ミサイル発射
+5026	Rapidness Shot	ラピッドネスショット
+5027	Battle Command	戦闘コマンド
+5028	Emergency Call	緊急招集
+5029	Falcon Assault	ファルコンアサルト
+5030	Sharp Shooting	シャープシューティング
+5031	Yggdrasil Leaf	イグドラシルの葉
+5032	Doragon Launch	ドラゴン発射
+5033	Lightning Bolt	ライトニングボルト
+5034	Fire@{1}-Rapid	ファイア@{1}-ラピッド
+5035	Greedy Bigfoot	貪欲なビッグフット
+5036	Greedy Phoenix	貪欲なフェニックス
+5037	Live Ammo Test	実弾テスト
+5038	Eclipse Skills	エクリプスのスキル
+5039	Gryphon Skills	グリフォンのスキル
+5040	Realm of Light	光の領域
+5041	Petrify Cleave	石化斬り
+5042	Hornet Assault	ホーネットアサルト
+5043	Summon Pyramid	ピラミッド召喚
+5044	Dark Corrosion	ダークコロージョン
+5045	Bell Resonance	ベルレゾナンス
+5046	Charging Blade	チャージングブレード
+5047	Likes Received	獲得いいね数
+5048	Heaven's Drive	ヘヴンズドライブ
+5049	Dance of Death	死のダンス
+5050	Blazing Thrust	ブレイジングスラスト
+5051	Flame Eruption	フレイムエラプション
+5052	Nether Phantom	ネザーファントム
+5053	Dancing Blades	ダンシングブレード
+5054	Lingering Echo	残響
+5055	${1} Resources	${1} リソース
+5056	Privacy Policy	プライバシーポリシー
+5057	Summon Puppets	パペット召喚
+5058	Dark Pulse@{1}	ダークパルス@{1}
+5059	Refresh Horong	ホロンを更新
+5060	Furious Strike	フューリアスストライク
+5061	Rhythmic Stomp	リズミックストンプ
+5062	Hold Skill VFX	スキルVFXを保持
+5063	Skill@{1}Shout	スキル@{1}シャウト
+5064	Final Movement	ファイナルムーブメント
+5065	Musical Phrase	楽句
+5066	Brilliant Nova	ブリリアントノヴァ
+5067	Rhythmic Arrow	リズミックアロー
+5068	Flowing Shadow	流れる影
+5069	Neon Spotlight	ネオンスポットライト
+5070	Divine Remnant	ディバイン・レムナント
+5071	Seismic Cleave	セイスミッククリーブ
+5072	Hellhound King	ヘルハウンドキング
+5073	Brandish Spear	ブランディッシュスピア
+5074	Piercing Blast	ピアシングブラスト
+5075	Double Counter	ダブルカウンター
+5076	Dragon Howling	ドラゴンハウリング
+5077	Pickup Trigger	取得トリガー
+5078	Increase Dodge	回避率アップ
+5079	Venom Splasher	ベナムスプラッシャー
+5080	Chain Reaction	連鎖反応
+5081	Fireball Burst	ファイアボールバースト
+5082	Fire Explosion	ファイアエクスプロージョン
+5083	Trophy Journey	トロフィージャーニー
+5084	Create Bonfire	焚き火を作る
+5085	Card Promotion	カード昇級
+5086	Card Taken off	カード解除
+5087	Confirm Return	返却確認
+5088	Bulk Dismantle	一括分解
+5089	Result Preview	結果プレビュー
+5090	Elite Settings	エリート設定
+5091	Run a Business	商売を始める
+5092	Reward: Random	報酬: ランダム
+5093	Male Character	男性キャラクター
+5094	${1} Tradeable	${1} 取引可能
+5095	Abandoned Mine	廃坑
+5096	Master Effects	マスターエフェクト
+5097	Key Attributes	主要ステータス
+5098	Cooldown: ${1}	クールダウン: ${1}
+5099	Build Counters	ビルド対策
+5100	Current Stage:	現在のステージ:
+5101	Go Add Friend!	フレンドを追加しよう！
+5102	Tap to type...	タップして入力...
+5103	Blue Light Orb	ブルーライトオーブ
+5104	Strange Device	奇妙な装置
+5105	Spear Crusader	槍クルセイダー
+5106	Elemental Mage	エレメンタルメイジ
+5107	Revival Mirror	リバイバルミラー
+5108	Steel Madogear	鋼鉄のマドギア
+5109	Field of Light	光の領域
+5110	Guard Guardian	ガード・ガーディアン
+5111	Raydric Archer	レイドリック・アーチャー
+5112	Lv. @{1} Plant	Lv. @{1} 植物
+5113	Allied Airship	連合軍の飛行船
+5114	The ⑦th Summer	⑦回目の夏
+5115	Moonlit Beauty	月夜の美女
+5116	Training Dummy	トレーニングダミー
+5117	Novice - Andre	ノービス - アンドレ
+5118	Crazy Gift Box	クレイジーギフトボックス
+5119	Berserk Poring	ベルセルクポリン
+5120	Wraith Phantom	レイスファントム
+5121	Lv. @{1} Dummy	Lv. @{1} ダミー
+5122	Deviling Clone	デビルリングの分身
+5123	Elite Skeleton	エリートスケルトン
+5124	Fruit Merchant	果物商人
+5125	Sharp-Eyed Boy	鋭い目の少年
+5126	Trade Merchant	交易商人
+5127	Person Resting	休憩中の人
+5128	Sound Asleeper	熟睡中の人
+5129	Mjolnir Garden	ミョルニール庭園
+5130	Archer Village	アーチャーの村
+5131	Western Morroc	モロック西部
+5132	Professor Ryan	ライアン教授
+5133	Caravan Member	キャラバンメンバー
+5134	Suspicious Man	不審な男
+5135	Sandstorm@{1}m	砂嵐@{1}m
+5136	Red Bubble NPC	レッドバブルNPC
+5137	Nasha - Normal	ナーシャ - ノーマル
+5138	Nasha - Finale	ナーシャ - フィナーレ
+5139	Mirko - Normal	ミルコ - ノーマル
+5140	Mirko - Finale	ミルコ - フィナーレ
+5141	Marsh of Abyss	アビスの沼地
+5142	Mistress-Final	ミストレス-ファイナル
+5143	Maya-Very Hard	マヤ-ベリーハード
+5144	Maya-Nightmare	マヤ-ナイトメア
+5145	Pharaoh-Normal	ファラオ-ノーマル
+5146	Baphomet-Final	バフォメット-ファイナル
+5147	Current Level:	現在のレベル:
+5148	Edit Formation	編成を編集
+5149	Invalid Floors	無効な階層
+5150	Honor Rankings	名誉ランキング
+5151	Reward Preview	報酬プレビュー
+5152	Male Hairstyle	男性の髪型
+5153	Platinum Range	プラチナ帯
+5154	Treasure Chest	宝箱
+5155	Teammate: ${1}	チームメイト: ${1}
+5156	Attack Enhance	攻撃強化
+5157	Monsterologist	モンスター学者
+5158	Stall Duration	露店時間
+5159	Player Message	プレイヤーメッセージ
+5160	Event Calendar	イベントカレンダー
+5161	Daily Must-Dos	毎日やること
+5162	Starts in ${1}	${1}後に開始
+5163	Starts at ${1}	${1}に開始
+5164	Event Rewards:	イベント報酬:
+5165	Skill Cooldown	スキルクールダウン
+5166	Neutral Damage	ニュートラルダメージ
+5167	Garden of Time	時の庭
+5168	Currency Cost:	必要通貨：
+5169	Tactic Details	戦術の詳細
+5170	Tactic Library	戦術ライブラリー
+5171	Escort Station	護衛拠点
+5172	Claim Dividend	配当を受け取る
+5173	About to start	まもなく開始
+5174	In Progress...	進行中...
+5175	Player invited	プレイヤーを招待しました
+5176	Guild Dividend	ギルド配当
+5177	War Technology	戦争技術
+5178	Guild Activity	ギルド活動
+5179	Guild Prestige	ギルド名声
+5180	Guild Supplies	ギルド用品
+5181	Send an Invite	招待を送る
+5182	No Invitations	招待状はありません
+5183	Inviting Party	招待中のパーティ
+5184	Pets - Star Up	ペット - 星アップ
+5185	Go, Kafra, Go!	行け、カプラ、行け！
+5186	Equip a Weapon	武器を装備する
+5187	Job Prediction	職業予測
+5188	Newfound Power	新たな力
+5189	The Road Ahead	これからの道
+5190	Rescue Mission	救出ミッション
+5191	Reach Lv. @{1}	Lv. @{1}に到達
+5192	Helpful Hunter	頼れるハンター
+5193	Boarding Alert	搭乗警告
+5194	Together Again	もう一度一緒に
+5195	Find the Relic	遺物を探せ
+5196	Return to Gwen	グウェンに戻る
+5197	At the Banquet	宴会にて
+5198	Night Watchman	夜警の人
+5199	Unleash Talent	才能を解放
+5200	Obtain a Mount	乗り物を入手
+5201	Fly, Fly Wing!	飛べ、ハエの羽！
+5202	Novice's Trial	ノービスの試練
+5203	Request Reward	報酬を受け取る
+5204	Next Objective	次の目標
+5205	Landing Failed	着陸失敗
+5206	Crisis Strikes	危機の襲来
+5207	Danger Averted	危機回避
+5208	Boarding Check	搭乗チェック
+5209	Return to Camp	キャンプに戻る
+5210	Gain 10 Levels	10レベル上げる
+5211	Support Effect	支援効果
+5212	Utility Slot 1	ユーティリティスロット1
+5213	Utility Slot 2	ユーティリティスロット2
+5214	Utility Slot 3	ユーティリティスロット3
+5215	Advanced Hatch	上級孵化
+5216	Free This Time	今回無料
+5217	Permanent Pool	常設召喚
+5218	Level-up Time:	レベルアップ時間：
+5219	Hatching Notes	孵化について
+5220	Growth Preview	成長プレビュー
+5221	Skill Level-up	スキルレベルアップ
+5222	(${1} seconds)	(${1} 秒)
+5223	Elite@{1} Tier	エリート@{1}層
+5224	Select Alpaca.	アルパカを選択。
+5225	Choosing a Job	職業を選ぶ
+5226	Loading Video…	ビデオを読み込み中…
+5227	Demonic Dragon	魔竜
+5228	Battle Fafnir.	ファフニールと戦う。
+5229	I'm not ready.	まだ準備できていない。
+5230	Turn and Leave	引き返して立ち去る
+5231	Enter the Lair	巣穴に入る
+5232	Take me there.	そこへ連れていって。
+5233	No, I haven't.	いいえ、まだです。
+5234	Getting Better	成長中
+5235	Growth Rewards	成長報酬
+5236	Title Overview	称号概要
+5237	To the Academy	アカデミーへ
+5238	Daily Requests	デイリー依頼
+5239	Use Group Warp	グループワープを使う
+5240	What happened?	どうしたの？
+5241	Need any help?	何か手伝おうか？
+5242	Y-you're okay?	だ、大丈夫？
+5243	Wave ${1}/${2}	ウェーブ ${1}/${2}
+5244	Resets in ${1}	${1}後にリセット
+5245	Confirm Revive	復活確認
+5246	Manage Markers	マーカー管理
+5247	Gathering Area	採集エリア
+5248	Nightmare Mode	ナイトメアモード
+5249	${1} EXP +${2}	${1} 経験値 +${2}
+5250	Return to Game	ゲームへ戻る
+5251	Expressionless	無表情
+5252	Auto-Dismantle	自動分解
+5253	Battle Starts!	バトル開始！
+5254	I'll help you!	手伝うよ！
+5255	Soaring Sky II	ソアリングスカイ II
+5256	Soaring Sky IV	ソアリングスカイ IV
+5257	It's so hot...	暑い...
+5258	Reward claimed	報酬受取済み
+5259	Reflect Damage	ダメージ反射
+5260	Radiance Orbit	ラディアンスオービット
+5261	Auctioned item	出品アイテム
+5262	Bid Multiplier	入札倍率
+5263	Current Price:	現在の価格:
+5264	Auction Status	オークション状況
+5265	Start Crafting	製作開始
+5266	Engraving Plan	刻印プラン
+5267	Current Preset	現在のプリセット
+5268	No ranking yet	ランキング未登録
+5269	Apprentice III	見習いIII
+5270	Welcome to RO3	RO3へようこそ
+5271	Battle Results	戦闘結果
+5272	Guild Members:	ギルドメンバー:
+5273	Final Matchups	最終対戦組み合わせ
+5274	Kill the Guard	衛兵を倒す
+5275	Current Points	現在のポイント
+5276	One-Handed Axe	片手斧
+5277	Two-Handed Axe	両手斧
+5278	Book Page Item	スキルブックのページ
+5279	Enchant Scroll	エンチャントスクロール
+5280	Valhalla Items	ヴァルハラアイテム
+5281	Arcane Crystal	秘術のクリスタル
+5282	Character name	キャラクター名
+5283	Equipment Name	装備名
+5284	Random Dungeon	ランダムダンジョン
+5285	Prontera Areas	プロンテラ地域
+5286	Medicine Items	回復アイテム
+5287	Collector Card	コレクターカード
+5288	Normal Message	通常メッセージ
+5289	Location Share	位置情報共有
+5290	System Message	システムメッセージ
+5291	Tavern Message	酒場メッセージ
+5292	Featured Event	注目のイベント
+5293	Need a Big Bro	お兄ちゃん募集中
+5294	Poison Attacks	毒攻撃
+5295	Open Ambulance	救急車を開く
+5296	Take her hand.	彼女の手を取る。
+5297	Cleaving Slash	クリービングスラッシュ
+5298	Phantom Thrust	ファントムスラスト
+5299	Rain of Spears	槍の雨
+5300	Magic Infusion	マジックインフュージョン
+5301	Vehicle Shield	搭乗物シールド
+5302	Area Detection	範囲検知
+5303	Soul Expansion	ソウルエクスパンション
+5304	White Imprison	ホワイトインプリズン
+5305	Crystal Prison	クリスタルプリズン
+5306	Blooming Flame	ブルーミングフレイム
+5307	Shield - Spawn	シールド - 出現
+5308	Lava Heat Wave	溶岩熱波
+5309	Shaking Bubble	揺れる泡
+5310	Explosive Tide	エクスプローシブタイド
+5311	Exalted Status	高揚状態
+5312	Air-Drop Point	物資投下地点
+5313	Prontera S@{1}	プロンテラ S@{1}
+5314	Current Battle	現在の戦闘
+5315	Blackhole Mode	ブラックホールモード
+5316	Skill Training	スキルトレーニング
+5317	Frame Rate Cap	フレームレート上限
+5318	Ironwood Chunk	アイアンウッドの塊
+5319	Ironwood Blank	アイアンウッド材
+5320	Woolen Padding	ウール中綿
+5321	Sacred Padding	聖なる中綿
+5322	Celestial Star	天の星
+5323	Learn Refining	精錬を学ぶ
+5324	Seek the Truth	真実を探る
+5325	Crisis Averted	危機回避
+5326	Nagging Doubts	拭えない疑念
+5327	The Final Step	最後の一歩
+5328	Lost and Found	落とし物
+5329	Time to Deduce	推理する時間
+5330	Watch Cutscene	カットシーンを見る
+5331	Skill Learning	スキル学習
+5332	Repair Station	修理ステーション
+5333	Forced Petrify	強制石化
+5334	Skill Movement	スキル移動
+5335	Party Assembly	パーティ集合
+5336	Wild Hemp Vine	野生の麻ツル
+5337	Expert Forager	採集の達人
+5338	Rapid Crafting	高速製作
+5339	Yellow quartz.	黄色い水晶。
+5340	Save Selection	選択を保存
+5341	Goddess's Hint	女神のヒント
+5342	Stellar Matrix	ステラマトリックス
+5343	Hunting Season	狩猟の季節
+5344	The Hanged Man	吊るされた男
+5345	Supreme Throne	至高の玉座
+5346	Disguise Trick	変装トリック
+5347	Abundant Magic	豊穣の魔力
+5348	Vengeful Magic	復讐の魔力
+5349	Divine Message	神託
+5350	Baron Fragment	バロンの欠片
+5351	Alien Fragment	異形の欠片
+5352	Einherjar Coin	エインヘルヤルコイン
+5353	MVP Loot Chest	MVP戦利品箱
+5354	Old Card Album	古いカード帖
+5355	Surprise Chest	サプライズチェスト
+5356	Headgear Chest	頭装備箱
+5357	Conqueror Pack	征服者パック
+5358	Oridecon-Clear	オリデオコン・クリア
+5359	Requested ${2}	リクエスト済み ${2}
+5360	Moon Jellyfish	ムーンクラゲ
+5361	Thief Portrait	シーフの肖像
+5362	Meteorite Grip	メテオライトグリップ
+5363	Crafting Notes	製作メモ
+5364	Legendary Pelt	伝説の毛皮
+5365	Test Skill@{1}	テストスキル@{1}
+5366	Totem Fragment	トーテムの欠片
+5367	Blue Equipment	青品質装備
+5368	Airship Ticket	飛行船チケット
+5369	Glossy Jellopy	つややかなゼロピー
+5370	Talent Remnant	才能の残滓
+5371	Pulsating Mass	脈動する塊
+5372	Lipid Tentacle	脂肪の触手
+5373	Dopey Pink Gem	ドーピーピンクジェム
+5374	Deviling Emoji	デビルリング絵文字
+5375	Star Diamond V	スターダイヤモンドV
+5376	Star Diamond I	スターダイヤモンドⅠ
+5377	Crystal of Joy	喜びの結晶
+5378	Proof of Trial	試練の証
+5379	Pathfinder Ant	先導アリ
+5380	Deviruchi Horn	デビルチの角
+5381	Quest Fly Wing	クエスト用ハエの羽
+5382	Shield Crystal	シールドクリスタル
+5383	Feather Spirit	フェザースピリット
+5384	Lv. @{1} Katar	Lv. @{1} カタル
+5385	Lv. @{1} Staff	Lv. @{1} スタッフ
+5386	Superior Katar	上級カタル
+5387	Advanced Katar	高級カタル
+5388	Replace (${1})	置換 (${1})
+5389	Bunny Slippers	バニースリッパ
+5390	Fricco's Shoes	フリッコの靴
+5391	Novice Greaves	ノービスグリーブ
+5392	Novice Sandals	ノービスサンダル
+5393	Leather Jacket	レザージャケット
+5394	Thorny Buckler	ソーンバックラー
+5395	Novice Buckler	ノービスバックラー
+5396	Wizardry Staff	ウィザードスタッフ
+5397	Smash's Hammer	スマッシュのハンマー
+5398	Dragutin Spear	ドラグティンの槍
+5399	Treasure Sword	宝剣
+5400	Already firing	すでに発射中
+5401	Novice Credits	ノービス通貨
+5402	Card: Penomena	カード: ペノメナ
+5403	Card: Metaller	カード: メタラー
+5404	Card: Orc Lady	カード: オークレディ
+5405	Card: Plankton	カード: プランクトン
+5406	Card: Scorpion	カード: スコーピオン
+5407	Card: Poporing	カード：ポポリン
+5408	Card: Chonchon	カード：チョンチョン
+5409	Weekly Rewards	週間報酬
+5410	Ranking Rules:	ランキングルール:
+5411	Select a Build	ビルドを選択
+5412	Revive Details	復活詳細
+5413	Reward Details	報酬詳細
+5414	Ilmatar Turret	イルマタル砲台
+5415	Average Power:	平均戦力：
+5416	Shared Rewards	共通報酬
+5417	Lv. ${1}: ${2}	Lv. ${1}: ${2}
+5418	Enter Directly	直接入場
+5419	Challenge Role	挑戦ロール
+5420	Daily Activity	デイリーアクティビティ
+5421	Echo Dismantle	エコー分解
+5422	Naisha's Trial	ナーシャの試練
+5423	Blooming Waves	ブルーミングウェーブ
+5424	Musical Frenzy	ミュージカルフレンジー
+5425	Dance together	一緒に踊る
+5426	Backup Dancers	バックダンサー
+5427	Demonic Pillar	デモニックピラー
+5428	Ocean Concerto	オーシャンコンチェルト
+5429	Hornet Advance	ホーネットアドバンス
+5430	Shield Defense	シールド防御
+5431	Divine Insight	ディバインインサイト
+5432	Revive Players	プレイヤーを復活させる
+5433	Highest Rating	最高レート
+5434	Miracle Healer	ミラクルヒーラー
+5435	Test of Mettle	勇気の試練
+5436	Mighty War God	強き軍神
+5437	Oracle Revival	オラクルリバイバル
+5438	Backcap Expert	バックキャップエキスパート
+5439	Point Captured	拠点占領
+5440	Triple Triumph	トリプルトライアンフ
+5441	Fastest Runner	最速走者
+5442	Initial Effect	初期効果
+5443	Unlock Rewards	報酬を解放
+5444	Codex Unlocked	図鑑を解放しました
+5445	Meteor Assault	メテオアサルト
+5446	Soul Destroyer	ソウルブレイカー
+5447	Stellar Vortex	ステラーヴォルテックス
+5448	Swift Blessing	スウィフトブレッシング
+5449	Cart Accessory	カートアクセサリ
+5450	Terminate Stun	スタン解除
+5451	Body Tempering	身体鍛錬
+5452	Weapon Mastery	武器マスタリー
+5453	Finishing Blow	とどめの一撃
+5454	Weapon Enhance	武器強化
+5455	Cannon Refresh	キャノンリフレッシュ
+5456	Size Increased	サイズ増加
+5457	Shrinking Item	縮小アイテム
+5458	SP Consumption	SP消費量
+5459	Add Attributes	ステータス追加
+5460	Swift Movement	高速移動
+5461	Poring Poring!	ポリン ポリン！
+5462	Gain DEF Boost	DEFブーストを獲得
+5463	Back to Bottom	最下部へ戻る
+5464	Tab Management	タブ管理
+5465	Gameplay Phase	ゲームプレイ段階
+5466	Gameplay Alert	ゲームプレイ通知
+5467	Merge All Tabs	全タブを統合
+5468	Soul Combo SFX	ソウルコンボSFX
+5469	Storm Gust SFX	ストームガストSFX
+5470	Ganbantein SFX	ガンバンテインSFX
+5471	Earthfire Mark	アースファイアマーク
+5472	Acid Corrosion	アシッドコロージョン
+5473	Undead Phantom	アンデッドファントム
+5474	Taunting Tease	挑発
+5475	Scorched Armor	焼け焦げた鎧
+5476	Alicel - Blade	アリセル - ブレイド
+5477	Fairy Blessing	フェアリーの祝福
+5478	Fairy - Shield	フェアリー - シールド
+5479	Stat Reduction	ステータス低下
+5480	Samurai Charge	サムライチャージ
+5481	Same Old Trick	いつもの手
+5482	Sandstorm Slow	砂嵐スロウ
+5483	Increase Aggro	ヘイト増加
+5484	Initial Shield	初期シールド
+5485	Slash Mode@{1}	スラッシュモード@{1}
+5486	Shoot an arrow	矢を放つ
+5487	Missile Charge	ミサイルチャージ
+5488	Reduce Healing	回復量低下
+5489	Sand Puff Slow	砂煙スロウ
+5490	Venom Creation	ヴェノムクリエーション
+5491	Filter Taverns	酒場を絞り込む
+5492	Switch Taverns	酒場を切り替える
+5493	Mic Management	マイク管理
+5494	Tavern Members	酒場のメンバー
+5495	Speaking Order	発言順
+5496	Kill ${1} ${2}	${1} ${2} を倒す
+5497	We found them.	見つけた。
+5498	Talent Upgrade	才能強化
+5499	Dummy Settings	ダミー設定
+5500	Challenge Mode	チャレンジモード
+5501	Misc Objective	その他の目的
+5502	Search Details	検索詳細
+5503	Ranking Repeat	ランキング再挑戦
+5504	No empty slots	空きスロットがありません
+5505	Open Your Eyes	目を開けて
+5506	Unknown error.	不明なエラー。
+5507	Invalid talent	無効なタレント
+5508	Request failed	リクエストが失敗しました
+5509	Item inserted.	アイテムが挿入されました。
+5510	Revive failed.	蘇生に失敗しました。
+5511	Item unlocked.	アイテムのロックを解除しました。
+5512	Fortifying Cry	強化の叫び
+5513	Pierce Enhance	ピアスエンハンス
+5514	Hela's Bargain	ヘラの取引
+5515	Player is dead	プレイヤーは死亡しました
+5516	Season Rewards	シーズン報酬
+5517	Vehicle Access	車両アクセス
+5518	Allied Players	同盟プレイヤー
+5519	Healing Volume	回復量
+5520	War Management	戦争管理
+5521	Revive Point A	復活ポイントA
+5522	Revive Point B	復活ポイントB
+5523	Revive Point C	復活ポイントC
+5524	Revive Point D	復活ポイントD
+5525	Revive Point E	復活ポイントE
+5526	Use the Turret	タレットを使用する
+5527	End Transform.	変身を解除します。
+5528	${1}'s Profile	${1}のプロフィール
+5529	NPC not found.	NPCが見つかりません。
+5530	Item not found	アイテムが見つかりません
+5531	Mail conflict.	メールが競合しています。
+5532	Three Costumes	3つのコスチューム
+5533	Fashion Legend	ファッションレジェンド
+5534	Fashion Leader	ファッションリーダー
+5535	Fashion Rookie	ファッションルーキー
+5536	Wine and Tales	ワインと物語
+5537	Savor the Wine	ワインを味わう
+5538	MVP Terminator	MVPターミネーター
+5539	Talent Mastery	タレントマスタリー
+5540	Refine: Legend	精錬：レジェンド
+5541	Refine: Expert	精錬：エキスパート
+5542	First Illusion	ファーストイリュージョン
+5543	Crimson Legend	真紅の伝説
+5544	Acolyte Mentor	アコライト教官
+5545	Lord of Amatsu	アマツの領主
+5546	Rhine sent me.	ラインに言われて来た。
+5547	Damage/Healing	ダメージ/回復
+5548	Skill Supplies	スキル補給品
+5549	Victory Points	勝利ポイント
+5550	Spectator Mode	観戦モード
+5551	R-Rabbit head?	ウ、ウサギの頭？
+5552	Cancel Changes	変更をキャンセルする
+5553	Sapling Status	苗木の状態
+5554	Quest accepted	クエストを受注しました
+5555	Skill upgraded	スキルを強化しました
+5556	Pirate Phantom	海賊ファントム
+5557	Damage Sharing	ダメージシェアリング
+5558	Birchwood Cart	バーチウッドカート
+5559	Party Training	パーティトレーニング
+5560	Not Configured	未設定
+5561	PATK increased	物攻増加
+5562	Generic Freeze	汎用凍結
+5563	Potion Healing	ポーション回復
+5564	Luck Resonance	ラックレゾナンス
+5565	Warg Accessory	ワーグアクセサリー
+5566	Not Challenged	未挑戦
+5567	Rising Resolve	ライジングリゾルブ
+5568	Continual Burn	持続燃焼
+5569	Blackhole Pull	ブラックホール吸引
+5570	Turn Left @{1}	左折 @{1}
+5571	Outer Ring AOE	外輪AOE
+5572	Silk Spit @{1}	シルクスピット @{1}
+5573	Enter Wormhole	ワームホールに入る
+5574	Haze Formation	ヘイズフォーメーション
+5575	Samurai's Fury	サムライの怒り
+5576	Execution Time	実行時間
+5577	Demonic Miasma	悪魔の瘴気
+5578	Law of Offense	攻撃の法則
+5579	Life Extension	ライフエクステンション
+5580	Rapid Recovery	ラピッドリカバリー
+5581	Stunning Smash	スタニングスマッシュ
+5582	Falcon's Might	ファルコンの力
+5583	Entrapping Net	拘束の網
+5584	Double Assault	ダブルアサルト
+5585	Stroke of Luck	幸運の一撃
+5586	Rolling Cutter	ローリングカッター
+5587	Slow Dimension	スローディメンション
+5588	[Hard-Pharaoh]	【ハードファラオ】
+5589	[Normal-Nasha]	【ノーマル・ナーシャ】
+5590	[Normal-Mirko]	【ノーマル・ミルコ】
+5591	[Normal-Drake]	【ノーマル・ドレイク】
+5592	Dewata Village	デワタ村
+5593	Level Increased	レベルアップ
+5594	${1}${2} X ${3}	${1}${2} X ${3}
+5595	Function locked	機能はロック中です
+5596	Forbidden Wilds	禁断の荒野
+5597	Feature Preview	機能プレビュー
+5598	Speedrun Report	スピードランレポート
+5599	Bunny Hair Band	うさ耳ヘアバンド
+5600	Golden Headwear	黄金の頭飾り
+5601	Vampire Hairpin	ヴァンパイアヘアピン
+5602	Academy Journal	アカデミー日誌
+5603	Reaper's Scythe	死神の大鎌
+5604	Giant Bow Scarf	ジャイアントボウスカーフ
+5605	Goddess of Hope	希望の女神
+5606	Hodremlin Sword	ホドレムリンソード
+5607	Hundred Million	一億
+5608	Redemption Rate	交換レート
+5609	Skeleton Worker	スケルワーカー
+5610	Pirate Skeleton	パイレーツスケルトン
+5611	Archer Skeleton	アーチャースケルトン
+5612	Goblin (Dagger)	ゴブリン（ダガー）
+5613	Goblin (Hammer)	ゴブリン（ハンマー）
+5614	Unseal for Free	無料で封印解除
+5615	Advanced Unseal	上級封印解除
+5616	Ultimate Unseal	究極封印解除
+5617	Begin Unsealing	封印解除を開始
+5618	Not enough ${1}	${1}が足りません
+5619	Cargo Placement	貨物配置
+5620	View My Journey	旅の記録を見る
+5621	Trophy Showcase	トロフィー展示
+5622	Stage ${1}/${2}	ステージ ${1}/${2}
+5623	Totem Magic ATK	トーテム魔法攻撃
+5624	Crit Resistance	クリティカル耐性
+5625	Hunting Mastery	狩猟マスタリー
+5626	Neutral Damage%	無属性ダメージ率%
+5627	Stun Resistance	スタン耐性
+5628	Burn Resistance	火傷耐性
+5629	Fear Resistance	恐怖耐性
+5630	Dark Resistance	闇耐性
+5631	Slow Resistance	スロー耐性
+5632	Can Take Damage	ダメージを受ける
+5633	Darkness Radius	暗闇範囲
+5634	Selection Range	選択範囲
+5635	Encounter Eddga	エドガと遭遇
+5636	Feed the Deniro	デニーロに餌をあげる
+5637	Monsters Attack	モンスター襲来
+5638	Season Overview	シーズン概要
+5639	Season Trophies	シーズントロフィー
+5640	Veteran Rewards	ベテラン報酬
+5641	Ranks ${1}-${2}	ランク ${1}-${2}
+5642	Appearance Gift	外見ギフト
+5643	Advanced Attack	上級攻撃
+5644	% FLEE Increase	FLEE増加率%
+5645	% CRIT Increase	CRIT増加率%
+5646	% Skill MP Cost	スキルMP消費率%
+5647	Ride the Deniro	デニーロに乗る
+5648	Defeat Baphomet	バフォメットを倒す
+5649	Prototype Trial	プロトタイプ試練
+5650	Listing Removed	出品を取り下げました
+5651	Guild disbanded	ギルドが解散しました
+5652	Ranking Rewards	ランキング報酬
+5653	Cancel Auto-Bid	自動入札をキャンセル
+5654	Purchase Failed	購入に失敗しました
+5655	Guild Gift Pack	ギルドギフトパック
+5656	Revive Disabled	復活不可
+5657	Sylvanas Statue	シルヴァナス像
+5658	Redemption Code	交換コード
+5659	Enter gift code	ギフトコードを入力
+5660	Survey Deadline	アンケート期限
+5661	Participate Now	今すぐ参加
+5662	Valhalla Trials	ヴァルハラの試練
+5663	Organize (${1})	整理する (${1})
+5664	Sort by Quality	品質順に並べ替え
+5665	Job Restriction	ジョブ制限
+5666	Attribute Range	属性範囲
+5667	Faceless Singer	顔なき歌手
+5668	Starlight Crown	スターライトクラウン
+5669	Moonlight Crown	ムーンライトクラウン
+5670	Potion Settings	ポーション設定
+5671	Exploration Map	探索マップ
+5672	Donate Crystals	クリスタルを寄付
+5673	Obtain Crystals	クリスタルを入手
+5674	Invite to Party	パーティに招待
+5675	Invite to Guild	ギルドに招待
+5676	Return to Login	ログイン画面に戻る
+5677	Earn a C rating	C評価を獲得
+5678	Earn a B Rating	B評価を獲得
+5679	Find the Client	依頼人を探す
+5680	Go to the Scene	現場へ向かう
+5681	Attack No. @{1}	攻撃No. @{1}
+5682	Face the crisis	危機に立ち向かう
+5683	Read the letter	手紙を読む
+5684	Reset succeeded	リセットに成功しました
+5685	Tap to activate	タップして有効化
+5686	Level-up Effect	レベルアップエフェクト
+5687	Shadow Assassin	シャドウアサシン
+5688	Ice and Thunder	氷と雷
+5689	Increase Attack	攻撃力増加
+5690	Points Are King	ポイントこそ正義
+5691	Instant respawn	即時リスポーン
+5692	Teleport Prompt	テレポート確認
+5693	Right Accessory	右アクセサリ
+5694	Don't Downgrade	ダウングレードしない
+5695	Enhance Lv.${1}	強化 Lv.${1}
+5696	MINI Activities	MINIアクティビティ
+5697	War of Emperium	攻城戦
+5698	Standard Search	通常検索
+5699	Dracula's Bride	ドラキュラの花嫁
+5700	Universal Mount	共通マウント
+5701	Stat Priorities	ステータス優先度
+5702	Survivor Battle	サバイバーバトル
+5703	Dumby's Request	ダンビーの依頼
+5704	Book Collection	図鑑コレクション
+5705	Appearance Shop	外見ショップ
+5706	Rift in the Sky	天空の裂け目
+5707	Pending Listing	出品待ち
+5708	Free after ${1}	${1}後に無料
+5709	Penalty Details	ペナルティ詳細
+5710	Frozen Proceeds	凍結中の売上金
+5711	Purchase Price:	購入価格:
+5712	Collection Card	コレクションカード
+5713	Other Materials	その他の素材
+5714	Deluxe Gift Box	デラックスギフトボックス
+5715	Max Vigor +@{1}	最大活力 +@{1}
+5716	Player is dead.	プレイヤーは死亡しました。
+5717	Dear PlayerName	PlayerNameさんへ
+5718	Sprout Emblem I	スプラウトエンブレムI
+5719	Sprouting Stage	発芽段階
+5720	Rental Canceled	レンタルをキャンセルしました
+5721	Dummy Challenge	ダミーチャレンジ
+5722	Search History:	検索履歴:
+5723	Remaining: ${1}	残り: ${1}
+5724	Exchange failed	交換に失敗しました
+5725	No chat history	チャット履歴がありません
+5726	${1} is online!	${1}がオンラインです！
+5727	Search Results:	検索結果:
+5728	Intimacy Level:	親密度レベル:
+5729	Already Friends	すでにフレンドです
+5730	Top Ten Players	トップ10プレイヤー
+5731	Mute Voice Chat	ボイスチャットをミュート
+5732	Convert to Raid	レイドに変更
+5733	Lv.${1}~Lv.${2}	Lv.${1}~Lv.${2}
+5734	Party Objective	パーティ目標
+5735	${1}d ${2}h ago	${1}d ${2}h前
+5736	${1}h ${2}m ago	${1}h ${2}m前
+5737	Confirm Changes	変更を確定
+5738	Purchase Orders	購入注文
+5739	Supply Quantity	補給数量
+5740	Process Request	リクエストを処理
+5741	Escort Supplies	護衛物資
+5742	Stored Supplies	保管物資
+5743	Resetting: ${1}	リセットまで: ${1}
+5744	Enable Auto-Bid	自動入札を有効化
+5745	Wind Resistance	風属性耐性
+5746	Fire Resistance	火属性耐性
+5747	Holy Resistance	聖属性耐性
+5748	Cancel Response	応答をキャンセル
+5749	Valid for: ${1}	有効期間: ${1}
+5750	Display Filters	表示フィルター
+5751	Weekly Activity	週間アクティビティ
+5752	Confirm Removal	削除を確認
+5753	Over ${1} hours	${1}時間以上
+5754	Change Position	位置を変更
+5755	${1} months ago	${1}か月前
+5756	Loading...${1}%	読み込み中...${1}%
+5757	Opens Wednesday	水曜日に開放
+5758	My Aid Requests	自分の支援要請
+5759	Guild Inventory	ギルド倉庫
+5760	Actual Earnings	実収益
+5761	Online Members:	オンラインメンバー:
+5762	Multiplayer PvP	マルチプレイヤーPvP
+5763	Training Ground	訓練場
+5764	Whaleback Chute	ホエールバックシュート
+5765	Yggdrasil Totem	イグドラシルトーテム
+5766	Card: Ambernite	カード: アンバーナイト
+5767	Healing Ranking	回復ランキング
+5768	Card: Peco Peco	カード: ペコペコ
+5769	Card: Dustiness	カード: ダスティネス
+5770	Card: Frilldora	カード: フリルドラ
+5771	Card: Wild Rose	カード: ワイルドローズ
+5772	Card: Stem Worm	カード: ステムワーム
+5773	Card: Alligator	カード: アリゲーター
+5774	Card: Sasquatch	カード: サスカッチ
+5775	Card: Swordfish	カード: ソードフィッシュ
+5776	Card: Ghostring	カード: ゴーストリング
+5777	Card: Pot Dofle	カード: ポットドフル
+5778	Card: Mastering	カード: マスタリング
+5779	Card: Nine-Tail	カード: 九尾狐
+5780	Card: Nightmare	カード: ナイトメア
+5781	Card: Deviruchi	カード: デビルチ
+5782	Ball Catch Buff	ボールキャッチバフ
+5783	Reply @{1}% HP.	HPを@{1}%回復。
+5784	Transform: Blue	トランスフォーム：ブルー
+5785	Impositio Manus	イムポシティオマヌス
+5786	Cart Remodeling	カート改造
+5787	Cart Revolution	カートレボリューション
+5788	Gunpowder Throw	火薬投げ
+5789	Adrenaline Rush	アドレナリンラッシュ
+5790	Heavy Axe Smash	ヘビーアックススマッシュ
+5791	Throw Live Coal	燃える石炭を投げる
+5792	Jupitel Thunder	ユピテルサンダー
+5793	Double Pressure	ダブルプレッシャー
+5794	Pinpoint Attack	ピンポイントアタック
+5795	Attack in Place	その場で攻撃
+5796	Character Voice	キャラクターボイス
+5797	Target Priority	ターゲット優先度
+5798	Selected Target	選択中のターゲット
+5799	You and Enemies	自分と敵
+5800	General Display	一般表示
+5801	System Settings	システム設定
+5802	Follow-Up Logic	追撃ロジック
+5803	Restore default	デフォルトに戻す
+5804	Slide Shockwave	スライドショックウェーブ
+5805	Jellyfish Spawn	クラゲ召喚
+5806	Skill@{1} Sleep	スキル@{1} 睡眠
+5807	Cluster Missile	クラスターミサイル
+5808	Chain Lightning	チェーンライトニング
+5809	Explosive Arrow	エクスプローシブアロー
+5810	Wobbling Goblin	よろめくゴブリン
+5811	Doragon Landing	ドラゴンランディング
+5812	Greedy Fire Ant	貪欲なファイアアント
+5813	Summon Bombring	ボムポリンを召喚
+5814	Terrifying Roar	恐怖の咆哮
+5815	Blade Whirlwind	ブレードワールウィンド
+5816	Petrifying Mist	石化の霧
+5817	Stinger Assault	スティンガーアサルト
+5818	Stinger Barrage	スティンガーバラージ
+5819	Tracking Horong	追尾ホロン
+5820	Falling Beehive	落下する蜂の巣
+5821	Coffin Eruption	コフィンエラプション
+5822	Roaming Tempest	ローミングテンペスト
+5823	Tap to continue	タップして続ける
+5824	Overall Ranking	総合ランキング
+5825	Faction Ranking	派閥ランキング
+5826	Available Time:	利用可能時間:
+5827	Stunning Tremor	スタニングトレマー
+5828	Abominable Roar	忌まわしき咆哮
+5829	Spreading Curse	拡散する呪い
+5830	Malicious Curse	悪意の呪い
+5831	Nightmare Stomp	ナイトメアストンプ
+5832	Lightning Surge	ライトニングサージ
+5833	Iron Ball Smash	アイアンボールスマッシュ
+5834	Multiple Damage	多段ダメージ
+5835	Beginner Season	初心者シーズン
+5836	Americas Server	アメリカサーバー
+5837	Invitation Code	招待コード
+5838	Blink Alternate	ブリンク切替
+5839	Rockbreaker@{1}	ロックブレイカー@{1}
+5840	Mark Target@{1}	ターゲットマーク@{1}
+5841	Player Link@{1}	プレイヤーリンク@{1}
+5842	Ultimate - Easy	アルティメット - イージー
+5843	Horong Tracking	ホロン追尾
+5844	Full-Arena Wave	全アリーナウェーブ
+5845	Obtain Red Note	レッドノートを入手
+5846	Knight Note@{1}	ナイトノート@{1}
+5847	Hunter Note@{1}	ハンターノート@{1}
+5848	Priest Note@{1}	プリーストノート@{1}
+5849	Unyielding Will	不屈の意志
+5850	Wolf Pack Disco	ウルフパックディスコ
+5851	Piercing Shadow	ピアシングシャドウ
+5852	Remix Resonance	リミックスレゾナンス
+5853	Resonance Focus	レゾナンスフォーカス
+5854	Angel Incarnate	天使の化身
+5855	S@{1}Soul Burst	S@{1}ソウルバースト
+5856	Eddga New Skill	エドガ新スキル
+5857	Dragon Training	ドラゴントレーニング
+5858	Supersonic Blow	スーパーソニックブロー
+5859	Envenomed Blade	毒を帯びた刃
+5860	Elemental Shock	エレメンタルショック
+5861	Frost Explosion	フロストエクスプロージョン
+5862	Element Control	属性制御
+5863	(Trophy Series)	（トロフィーシリーズ）
+5864	Trophy Level-up	トロフィーレベルアップ
+5865	Six Stats +${1}	6ステータス +${1}
+5866	Letter Received	手紙を受け取りました
+5867	${1} Conditions	${1}条件
+5868	Card Leveled up	カードがレベルアップしました
+5869	Currently Using	使用中
+5870	No active Bonds	有効な絆なし
+5871	No Bonds active	有効な絆はありません
+5872	Active (${1}/3)	有効 (${1}/3)
+5873	${1} Collection	${1}コレクション
+5874	Prefecture @{1}	都道府県 @{1}
+5875	Growth Training	成長トレーニング
+5876	Change Off-Hand	オフハンドを変更
+5877	Batch Appraisal	一括鑑定
+5878	Costume Preview	コスチュームプレビュー
+5879	EXP Gain: ${1}%	EXP獲得量: ${1}%
+5880	Gathering Tribe	採集部族
+5881	Undersea Tunnel	海底トンネル
+5882	Map Coordinates	マップ座標
+5883	Recovery Skills	回復スキル
+5884	Priority Skills	優先スキル
+5885	Lineup Settings	編成設定
+5886	Build Resonance	ビルド共鳴
+5887	System Function	システム機能
+5888	No new messages	新しいメッセージはありません
+5889	Release to Send	離して送信
+5890	Channel Members	チャンネルメンバー
+5891	Note Pillar@{1}	ノートピラー@{1}
+5892	Shield Crusader	シールドクルセイダー
+5893	Ambush Assassin	アンブッシュアサシン
+5894	Blessing Priest	ブレッシングプリースト
+5895	Greedy Oshitose	貪欲なオシトセ
+5896	Fafnir's Scales	ファフニールの鱗
+5897	Fixed Direction	固定方向
+5898	Singing NPC@{1}	歌唱NPC@{1}
+5899	Rocket Launcher	ロケットランチャー
+5900	Lightning Raven	ライトニングレイブン
+5901	Knight Guardian	ナイトガーディアン
+5902	Archer Guardian	アーチャーガーディアン
+5903	Stronghold Flag	拠点旗
+5904	Zombie Prisoner	ゾンビ囚人
+5905	Kindhearted Man	心優しい男
+5906	Focused Fengbao	集中フェンバオ
+5907	Combat Supplies	戦闘物資
+5908	Elite Megalodon	エリートメガロドン
+5909	HP Dragon Blood	HPドラゴンブラッド
+5910	Knight's Member	騎士団員
+5911	Shrimp Merchant	エビ商人
+5912	Rewards Manager	報酬管理人
+5913	Morroc Villager	モロックの村人
+5914	Quest Timed Out	クエストが時間切れになりました
+5915	Southeast Payon	フェイヨン南東部
+5916	Southern Sograt	ソグラト南部
+5917	Grand Cathedral	大聖堂
+5918	Territory War-I	領地戦-I
+5919	Territory War-V	領地戦-V
+5920	Strange Machine	奇妙な機械
+5921	Puddle of Honey	ハチミツの水たまり
+5922	Marching Hornet	進軍するホーネット
+5923	Blue Bubble NPC	ブルーバブルNPC
+5924	Demo Test Dummy	デモ用テストダミー
+5925	Mistress-Normal	ミストレス-ノーマル
+5926	Baphomet-Normal	バフォメット-ノーマル
+5927	Drake-Very Hard	ドレイク-ベリーハード
+5928	Drake-Nightmare	ドレイク-ナイトメア
+5929	Starting Lineup	初期編成
+5930	Clear Time ${1}	クリアタイム ${1}
+5931	Go to Formation	フォーメーションへ
+5932	Quick Challenge	クイックチャレンジ
+5933	Confirm Filters	フィルターを確定
+5934	Back to Current	現在位置に戻る
+5935	Ragnarok Online	ラグナロクオンライン
+5936	Fated Encounter	運命の出会い
+5937	Kindred Spirits	気の合う仲間
+5938	Matching Hearts	通じ合う心
+5939	Challenge Again	再挑戦
+5940	Total Earnings:	総収益:
+5941	About to start…	まもなく開始…
+5942	Level: No Limit	レベル: 制限なし
+5943	Damage Increase	ダメージ増加
+5944	Critical Chance	クリティカル率
+5945	Current Ability	現在の能力
+5946	Challenge Eddga	エドガに挑戦
+5947	Tritura Academy	クリトゥラ学園
+5948	Core Management	コア管理
+5949	Approval Method	承認方法
+5950	Guild Prestige:	ギルド名声:
+5951	Cancel Creation	作成をキャンセル
+5952	Donation Amount	寄付額
+5953	Guild Activity:	ギルド活動:
+5954	Invite Not Sent	招待を送信できませんでした
+5955	After the merge	統合後
+5956	No Applications	申請はありません
+5957	Adventurer Camp	冒険者キャンプ
+5958	Battle Baphomet	バフォメットと戦う
+5959	A Fond Farewell	名残惜しい別れ
+5960	Monsters Appear	モンスター出現
+5961	Space-Time Gate	時空ゲート
+5962	New Inspiration	新たなひらめき
+5963	Allen's Request	アレンの依頼
+5964	Plan Successful	計画成功
+5965	Bob's Thank You	ボブからのお礼
+5966	Strivers' Guild	ストライバーズギルド
+5967	Return the Ring	指輪を返す
+5968	Wine Like Blood	血のようなワイン
+5969	Fight Alongside	共に戦う
+5970	Typewriter @{1}	タイプライター @{1}
+5971	Learning Skills	スキル習得
+5972	Glowing Compass	光るコンパス
+5973	Crashed Airship	墜落した飛行船
+5974	Activated Stats	有効ステータス
+5975	Can be unlocked	ロック解除可能
+5976	Next Star Level	次の星レベル
+5977	After Unlocking	ロック解除後
+5978	Go to Dismantle	解体へ
+5979	Hatching Chance	孵化確率
+5980	Cooldown: ${1}s	クールダウン: ${1}s
+5981	Draw ${1} Times	${1}回引く
+5982	Rookie@{1} Rank	ルーキー@{1} ランク
+5983	Enter here, bo~	ここから入るんだ、ボ〜
+5984	Select Ostrich.	ダチョウを選択。
+5985	Ready to Enter!	入場準備完了！
+5986	Enter Realm Map	領域マップへ
+5987	Please be safe.	気をつけて。
+5988	Phew... Phew...	ふぅ... ふぅ...
+5989	Deliver Vehicle	車両を届ける
+5990	Submit Supplies	物資を提出
+5991	I like you too!	私も好き！
+5992	Cough, cough...	ゴホン、ゴホン...
+5993	Reset Challenge	チャレンジをリセット
+5994	Auction Rewards	オークション報酬
+5995	Start Challenge	チャレンジ開始
+5996	Confirm Abandon	放棄を確認
+5997	Bonfire Ability	たき火アビリティ
+5998	Cooking Rewards	料理報酬
+5999	Large Emote@{1}	大型エモート@{1}
+6000	Nothing, really	いや、別に

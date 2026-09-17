@@ -1,0 +1,1001 @@
+Index	English	Japanese_Translation
+4001	Sandman Slow	サンドマンスロー
+4002	Morale Surge	士気の高まり
+4003	Morale Boost	士気向上
+4004	Respawn Buff	リスポーンバフ
+4005	Filler Skill	フィラースキル
+4006	Rock Shatter	ロックシャッター
+4007	Frost Breath	フロストブレス
+4008	Dead Silence	デッドサイレンス
+4009	Bell Rampage	ベルランペイジ
+4010	Death Scythe	デスサイズ
+4011	Normal Punch	ノーマルパンチ
+4012	Perfect Shot	パーフェクトショット
+4013	Enhanced Bow	強化弓
+4014	Hunting Trap	ハンティングトラップ
+4015	[Hard-Nasha]	[ハード・ナーシャ]
+4016	[Hard-Mirko]	【ハードミルコ】
+4017	[Hard-Drake]	【ハードドレイク】
+4018	Main Reward:	主な報酬:
+4019	Sort by Type	タイプ別に並べ替え
+4020	Poring Party	ポリンパーティ
+4021	Weekly Uses:	毎週の使用:
+4022	Idle Settings	アイドル設定
+4023	Save and Exit	保存して終了
+4024	Hands on Hips	腰に手を当てる
+4025	Function Menu	機能メニュー
+4026	Total Ratings	合計評価数
+4027	How to Obtain	入手方法
+4028	Not Available	利用できません
+4029	Group Rewards	グループ報酬
+4030	Boss Appeared	ボス登場
+4031	Bread Bag Hat	ブレッドバッグハット
+4032	Student's Cap	学生帽
+4033	Deviruchi Hat	デビルーチハット
+4034	Grand Circlet	グランドサークレット
+4035	Majestic Goat	雄大なヤギ
+4036	Spinning Eyes	スピニングアイズ
+4037	Small Ribbons	小さなリボン
+4038	Romantic Leaf	ロマンティックリーフ
+4039	Baby Pacifier	赤ちゃんのおしゃぶり
+4040	Fish In Mouth	口の中の魚
+4041	Wheel of Time	時の輪
+4042	Solar Chariot	ソーラーチャリオット
+4043	Hairstyle@{1}	髪型@{1}
+4044	Rainbow Ferus	レインボーフェルス
+4045	Ancient Mummy	古代のミイラ
+4046	Defense Build	防御ビルド
+4047	Defense Boost	防御力ブースト
+4048	Dialogue Test	対話テスト
+4049	Supply Escort	補給護衛
+4050	Peco Peco Egg	ペコペコの卵
+4051	Thief Bug Egg	盗蟲の卵
+4052	Marine Sphere	マリンスフィア
+4053	Goblin Archer	ゴブリンアーチャー
+4054	Goblin (Mace)	ゴブリン（メイス）
+4055	Hammer Kobold	ハンマーコボルト
+4056	Kobold Archer	コボルトアーチャー
+4057	Killer Mantis	キラーマンティス
+4058	Normal Unseal	通常の開封
+4059	Thanks, Boss!	ありがとう、ボス！
+4060	Charisma Baby	カリスマベイビー
+4061	Healing Taken	被回復量
+4062	Ranged PDMG.R	遠距離PDMG.R
+4063	Earth Damage%	地属性ダメージ%
+4064	Water Damage%	水属性ダメージ%
+4065	Ghost Damage%	念属性ダメージ%
+4066	Silent Attack	サイレントアタック
+4067	Freeze Attack	フリーズアタック
+4068	Cursed Attack	呪われた攻撃
+4069	Bleed Enhance	出血強化
+4070	Sleep Enhance	睡眠強化
+4071	Fixed HP Lock	固定HPロック
+4072	Status Bitmap	ステータスビットマップ
+4073	All EXP Bonus	全EXPボーナス
+4074	Work Together	一緒に働く
+4075	Season Events	シーズンイベント
+4076	Territory War	領土戦争
+4077	Royal Capital	王都
+4078	Emblems: ${1}	エンブレム: ${1}
+4079	Kill Baphomet	バフォメットを倒す
+4080	Talk to Rhine	ラインと話す
+4081	Defeat Morroc	モロックを倒す
+4082	Guild Auction	ギルドオークション
+4083	World Auction	ワールドオークション
+4084	Event Auction	イベントオークション
+4085	God of Nature	自然の神
+4086	Basic Defense	基本的な防御力
+4087	Skill MP Cost	スキルMP消費
+4088	Explore ahead	先を探索する
+4089	Purchase Item	アイテムを購入する
+4090	Trade Penalty	取引ペナルティ
+4091	Trade Warning	貿易に関する警告
+4092	Search Rebate	検索還元
+4093	(Kills: ${1})	(キル数: ${1})
+4094	Masked Figure	マスク姿の人物
+4095	[${1}]'s ${2}	[${1}]'s ${2}
+4096	Supplies Lost	消耗品の紛失
+4097	Napalm Vulcan	ナパームバルカン
+4098	Karazhan Harp	カラザン・ハープ
+4099	Magic Fashion	マジックファッション
+4100	Phantom Realm	ファントムレルム
+4101	Unlock Notice	ロック解除通知
+4102	Crafting Info	クラフト情報
+4103	No Card Slots	カードスロットなし
+4104	Filter by Job	ジョブでフィルターする
+4105	Night Watcher	夜警
+4106	Blazing Dance	ブレイジングダンス
+4107	Bronze Emblem	ブロンズエンブレム
+4108	Silver Emblem	シルバーエンブレム
+4109	Manual Combat	手動戦闘
+4110	Battle Royale	バトルロワイヤル
+4111	Click to View	クリックして表示
+4112	Add to Blocks	ブロックに追加
+4113	Report Player	プレーヤーを報告する
+4114	Go to the Boy	少年のところへ行く
+4115	Life No. @{1}	人生No. @{1}
+4116	General Stats	一般的な統計
+4117	Astral Points	アストラルポイント
+4118	Stat Overview	ステータスの概要
+4119	No attributes	属性なし
+4120	Cart Merchant	カートマーチャント
+4121	Falcon Hunter	ファルコンハンター
+4122	Sharpshooting	狙撃
+4123	Speedy Hunter	高速ハンター
+4124	AGI Swordsman	AGIソードマン
+4125	Increases DEF	DEFが増加します
+4126	Opens in ${1}	${1}にオープン
+4127	Battle Points	バトルポイント
+4128	Match History	試合履歴
+4129	Repair Client	クライアントを修復する
+4130	Network Error	ネットワークエラー
+4131	Main/Off-Hand	メイン/オフハンド
+4132	Current Level	現在のレベル
+4133	Footwear Slot	履物スロット
+4134	Idle Grinding	放置狩り
+4135	Growth Emblem	成長のエンブレム
+4136	Lost Treasure	失われた宝物
+4137	Guild Caravan	ギルドキャラバン
+4138	Bonfire Party	焚き火パーティ
+4139	Job Selection	ジョブの選択
+4140	Hero Registry	ヒーロー登録
+4141	Basic Editing	基本的な編集
+4142	Mail claimed.	メールを受け取りました。
+4143	All Qualities	全品質
+4144	Clear History	履歴をクリアする
+4145	Trade History	取引履歴
+4146	Sales History	販売履歴
+4147	My Reputation	私の評判
+4148	Trade Details	取引内容
+4149	Credit Points	クレジットポイント
+4150	Tap to Appeal	タップして異議を申し立てます
+4151	Surprise Pack	サプライズパック
+4152	Unknown error	不明なエラー
+4153	Cancel Rental	レンタルをキャンセルする
+4154	Revive Prompt	復活プロンプト
+4155	Ode to Echoes	エコーズへのオード
+4156	Top 10 Guilds	トップ10ギルド
+4157	Delete Prompt	プロンプトの削除
+4158	Sorting Rules	並べ替えルール
+4159	Shopping Cart	ショッピングカート
+4160	Global Attack	グローバルアタック
+4161	Disband Group	グループの解散
+4162	Intimacy Help	親密さに関するヘルプ
+4163	Change Friend	友達を変更する
+4164	Gift Quantity	ギフト数量
+4165	Max: Lv. ${1}	最大：Lv. ${1}
+4166	Select Friend	友達を選択
+4167	Intimacy Info	親密さに関する情報
+4168	Similar Level	同様のレベル
+4169	Full Rankings	完全なランキング
+4170	My Rank: ${1}	私のランク: ${1}
+4171	Follow Leader	リーダーに従う
+4172	End Following	フォローを終了する
+4173	Close Friends	親しい友達
+4174	Party is full	パーティは満員です
+4175	Players: ${1}	プレイヤー: ${1}
+4176	Tap to Invite	タップして招待
+4177	Players: 1-40	プレイヤー: 1-40
+4178	War Continent	戦争大陸
+4179	Go to Auction	オークションへ行く
+4180	Final Bidding	最終入札
+4181	Purchase Time	購入時間
+4182	Order History	注文履歴
+4183	Transport Map	交通地図
+4184	Conflict Zone	紛争地帯
+4185	${1} Selected	${1} 選択済み
+4186	Bidding Style	入札スタイル
+4187	Queuing: ${1}	キューイング: ${1}
+4188	Guild Benefit	ギルド特典
+4189	Emblem Design	エンブレムデザイン
+4190	Emblem Border	エンブレムの枠線
+4191	Invalid input	無効な入力
+4192	Level too low	レベルが低すぎます
+4193	Guild is full	ギルドは満員です
+4194	Activity Info	活動情報
+4195	Trophy Earned	獲得したトロフィー
+4196	Very Inactive	非常に非アクティブ
+4197	Appoint Elite	エリートを任命する
+4198	Changes saved	変更が保存されました
+4199	${1} days ago	${1} 日前
+4200	Opens Tuesday	火曜日営業
+4201	Quest Expired	クエストの期限が切れました
+4202	Guild Leader:	ギルドマスター：
+4203	Royal Caravan	ロイヤルキャラバン
+4204	Trade Fee${1}	取引手数料${1}
+4205	Stall updated	露店を更新しました
+4206	Test Instance	テストインスタンス
+4207	Eastern Payon	東フェイヨン
+4208	Goblin Forest	ゴブリンの森
+4209	Break Stealth	ステルスを破る
+4210	Card: Lunatic	カード：ルナティック
+4211	Card: Driller	カード：ドリラー
+4212	Card: Ant Egg	カード：アントの卵
+4213	Refresh Time:	リフレッシュ時間:
+4214	Best Attacker	最優秀アタッカー
+4215	Score Ranking	スコアランキング
+4216	Death Ranking	死亡ランキング
+4217	Card: Whisper	カード：ウィスパー
+4218	Card: Raggler	カード：ラグラ
+4219	Card: Ladybug	カード：レディバグ
+4220	Card: Gryphon	カード：グリフォン
+4221	Card: Sandman	カード：サンドマン
+4222	Card: Argiope	カード：アルギオペ
+4223	Card: Eclipse	カード：エクリプス
+4224	Card: Obeaune	カード：オボンヌ
+4225	Card: Giearth	カード：ガイアス
+4226	Card: Dracula	カード：ドラキュラ
+4227	Card: Pharaoh	カード：ファラオ
+4228	${1} is full!	${1} はいっぱいです!
+4229	Shield Stance	シールドスタンス
+4230	Freeze effect	フリーズ効果
+4231	Signum Crucis	シグナム・クルシス
+4232	Kyrie Eleison	カイリー・エレイソン
+4233	Mana Recharge	マナリチャージ
+4234	Highness Heal	ハイネスヒール
+4235	Knuckle Boost	ナックルブースト
+4236	Radiant Orbit	ラジアントオービット
+4237	Monster Fruit	モンスターフルーツ
+4238	Mole Teleport	モグラテレポート
+4239	Splash - Card	スプラッシュ - カード
+4240	Spear Mastery	槍マスタリー
+4241	Gloria Domini	グロリア・ドミニ
+4242	Rapid Smiting	シールドチェイン
+4243	Chat Settings	チャット設定
+4244	Switch Target	ターゲットの切り替え
+4245	Interaction 1	インタラクション 1
+4246	Interaction 2	インタラクション 2
+4247	Interaction 3	インタラクション 3
+4248	Smart Healing	スマートヒーリング
+4249	Quick Casting	クイックキャスト
+4250	Your Position	あなたの立場
+4251	Smart Casting	スマートキャスト
+4252	Name Position	名前の役職
+4253	Custom Layout	カスタムレイアウト
+4254	Pick Up Scale	ピックアップスケール
+4255	Discard Scale	スケールを捨てる
+4256	Anti-Aliasing	アンチエイリアス
+4257	Adjust Camera	カメラを調整する
+4258	Eight-Way AOE	8方向のAOE
+4259	DEF Injection	DEFインジェクション
+4260	Bubble Bullet	バブルバレット
+4261	Hunter Charge	ハンターチャージ
+4262	Jellyfish AoE	クラゲの範囲
+4263	DMG Reduction	ダメージ軽減
+4264	Hammer Strike	ハンマーストライク
+4265	Focused Blade	集中ブレード
+4266	Self-Destruct	自爆
+4267	Vulture's Eye	ワシの目
+4268	Double Strafe	ダブルストレイフィング
+4269	Claymore Trap	クレイモア・トラップ
+4270	Freezing Trap	フリージングトラップ
+4271	Triple Strafe	トリプルストレイフィング
+4272	Falcon Strike	ファルコンストライク
+4273	Greedy Willow	貪欲なヤナギ
+4274	Greedy Ositos	貪欲なオシトス
+4275	Greedy Comodo	貪欲なコモド
+4276	Blazing Fiend	ブレイジング・フィーンド
+4277	Normal Attack	通常攻撃
+4278	Ring of Light	光のリング
+4279	Lava Heatwave	溶岩熱波
+4280	Swarming Bees	群がるミツバチ
+4281	Summon Horong	ホロンを召喚する
+4282	Hornet Attack	スズメバチの攻撃
+4283	Spear Barrage	スピア・バラージ
+4284	Summon Scythe	サモンサイズ
+4285	Summon Coffin	召喚棺
+4286	Shadow Siphon	シャドウサイフォン
+4287	Gravity Totem	グラビティトーテム
+4288	Total Matches	総試合数
+4289	Class Ranking	クラスランキング
+4290	Battle Begins	戦いの始まり
+4291	Savage Shield	サベージシールド
+4292	Demonic Curse	悪魔の呪い
+4293	Eternal Curse	永遠の呪い
+4294	Mummy's Curse	ミイラの呪い
+4295	Blade Rampage	ブレードランペイジ
+4296	Account Login	アカウントログイン
+4297	Client Repair	クライアントの修復
+4298	Visitor Login	訪問者ログイン
+4299	Select Gender	性別を選択してください
+4300	Auto-Download	自動ダウンロード
+4301	Select Server	サーバー選択
+4302	Obtain Shield	シールドを入手する
+4303	Silk Spit@{1}	シルクスピット@{1}
+4304	Sandstorm@{1}	砂嵐@{1}
+4305	Asset Library	アセットライブラリ
+4306	Dance Machine	ダンスマシン
+4307	Mage Note@{1}	メイジノート@{1}
+4308	Melody Cannon	メロディキャノン
+4309	Melody Vulcan	メロディバルカン
+4310	Melody Impact	メロディインパクト
+4311	Melody Vortex	メロディーヴォルテックス
+4312	Radiant Bloom	ラディアントブルーム
+4313	Rhythmic Warg	リズミックワーグ
+4314	Double Volume	ダブルボリューム
+4315	Freestyle Rap	フリースタイルラップ
+4316	Petrify Curse	石化の呪い
+4317	Meteor (Copy)	メテオ（コピー）
+4318	Finale Impact	フィナーレインパクト
+4319	Enlightenment	啓蒙
+4320	Holy Judgment	聖なる裁き
+4321	Manifestation	顕現
+4322	Black Phantom	ブラックファントム
+4323	Rolling Blade	ローリングブレード
+4324	Gryphon Skill	グリフォンスキル
+4325	Sword Mastery	ソードマスタリー
+4326	Sword Quicken	ソードクイッケン
+4327	Charge Attack	チャージアタック
+4328	Concentration	集中力
+4329	Spiral Pierce	スパイラルピアス
+4330	Enchant Blade	エンチャントブレード
+4331	Slash Monitor	スラッシュモニター
+4332	Double Attack	ダブルアタック
+4333	Katar Mastery	カタルマスタリー
+4334	Deadly Poison	猛毒
+4335	Shadow Strike	シャドウストライク
+4336	Toxic Rampage	毒の暴走
+4337	Magic Crasher	マジッククラッシャー
+4338	Thunder Blast	サンダーブラスト
+4339	Trophy Points	トロフィーポイント
+4340	Hidden Trophy	隠されたトロフィー
+4341	Obtained ${1}	${1}を取得しました
+4342	Maximum Stars	マキシマムスター
+4343	Select a Card	カードを選択してください
+4344	Card Inserted	カードが挿入されました
+4345	Card Restored	カードが復元されました
+4346	Bond Deployed	ボンドの展開
+4347	No appearance	外見なし
+4348	Novice Search	初心者検索
+4349	Mount Preview	マウントプレビュー
+4350	Monster Drops	モンスタードロップ
+4351	Go to Monster	モンスターへ行く
+4352	Logging Tribe	伐採部族
+4353	Hidden Forest	隠れた森
+4354	Damage Skills	ダメージスキル
+4355	Build Details	ビルドの詳細
+4356	Skill Preview	スキルプレビュー
+4357	Change Locate	場所を変更する
+4358	Build Preview	ビルドプレビュー
+4359	Unlock Level:	ロック解除レベル:
+4360	Enter text...	テキストを入力してください...
+4361	Golden Orchid	ゴールデンオーキッド
+4362	Recently used	最近使用した
+4363	Preview Style	プレビュースタイル
+4364	Leave Channel	チャンネルを離れる
+4365	Channel Three	チャンネル 3
+4366	Group Whisper	グループささやき
+4367	Red Light Orb	レッドライトオーブ
+4368	Dragon Knight	ドラゴンナイト
+4369	Greedy Atroce	貪欲なアトロセ
+4370	Sustain Giant	サステイン・ジャイアント
+4371	Battering Ram	破城槌
+4372	Poring Cannon	ポリンキャノン
+4373	Barrier Stele	結界の石碑
+4374	Overload Core	オーバーロードコア
+4375	Goblin Leader	ゴブリンのリーダー
+4376	Kobold Leader	コボルトリーダー
+4377	Common Timber	一般的な木材
+4378	Sturdy Timber	丈夫な木材
+4379	Hard Ironwood	ハードアイアンウッド
+4380	Sacred Timber	聖なる木材
+4381	Enemy Airship	敵の飛行船
+4382	Skel Prisoner	スケルの囚人
+4383	Brave Jiaxing	勇敢な嘉興
+4384	Osiris Horong	オシリス・ホロン
+4385	Water Tornado	ウォータートルネード
+4386	Neutral Dummy	ニュートラルダミー
+4387	Vagabond Wolf	バガボンドウルフ
+4388	Gift Merchant	ギフト販売者
+4389	Item Merchant	アイテム商人
+4390	Chief Officer	最高責任者
+4391	Inn Attendant	宿屋の係員
+4392	Food Merchant	食品商人
+4393	Milk Merchant	牛乳商人
+4394	Forest Ranger	フォレストレンジャー
+4395	Hungry Person	お腹が空いた人
+4396	Current Quest	現在のクエスト
+4397	Quest Rewards	クエスト報酬
+4398	Dungeon Quest	ダンジョンクエスト
+4399	Quartermaster	補給官
+4400	Byalan Island	ビャラン島
+4401	Poring Island	ポリン島
+4402	Sograt Desert	ソグラト砂漠
+4403	Airship Staff	飛行船スタッフ
+4404	Church Knight	教会騎士
+4405	Joanne's Wife	ジョアンの妻
+4406	Isti - Normal	イスティ - ノーマル
+4407	Ilmo - Normal	イルモ - ノーマル
+4408	Ilmo - Finale	イルモ - フィナーレ
+4409	Yellow Bubble	黄色い泡
+4410	Arc Lightning	アークライトニング
+4411	Ember Zone-BD	エンバーゾーン-BD
+4412	Mistress-Easy	ミストレス・イージー
+4413	Mistress-Hard	ミストレスハード
+4414	Osiris-Normal	オシリス-ノーマル
+4415	Pharaoh-Final	ファラオ-ファイナル
+4416	Baphomet-Easy	バフォメット-イージー
+4417	Baphomet-Hard	バフォメットハード
+4418	Current Stage	現在の段階
+4419	Familiar Face	見慣れた顔
+4420	Unforgettable	忘れられない
+4421	Powerful Card	強力なカード
+4422	Lv. ${1}-${2}	Lv. ${1}-${2}
+4423	Disable Bonus	ボーナスを無効にする
+4424	${1}'s ID Tag	${1} の ID タグ
+4425	Knight Leader	ナイトリーダー
+4426	Stall Details	出店詳細
+4427	Sales Details	販売内容
+4428	Stall Shared.	ストールは共有されています。
+4429	World Channel	ワールドチャンネル
+4430	Guild Channel	ギルドチャンネル
+4431	Party Channel	パーティチャンネル
+4432	Level: Lv${1}	レベル：Lv${1}
+4433	Poison Damage	毒ダメージ
+4434	Shadow Damage	シャドウダメージ
+4435	Undead Damage	アンデッドダメージ
+4436	Event Period:	イベント期間：
+4437	Guild Details	ギルド詳細
+4438	Fund Rankings	ファンドランキング
+4439	Confirm Rally	ラリーの確認
+4440	Online Status	オンラインステータス
+4441	Guild Member:	ギルドメンバー:
+4442	Confirm Entry	エントリーの確認
+4443	Save Settings	設定の保存
+4444	Guild Members	ギルドメンバー
+4445	Active rating	アクティブレーティング
+4446	[Guild Rally]	【ギルドラリー】
+4447	No effect yet	まだ効果はありません
+4448	Defeat Poring	ポリンを倒す
+4449	Flee in Panic	パニックになって逃げる
+4450	Major Courage	大きな勇気
+4451	Burning Dance	バーニングダンス
+4452	Faction Quest	ファクションクエスト
+4453	Line B Begins	B 行目の始まり
+4454	Skill Mastery	スキルマスタリー
+4455	Find the Camp	キャンプを探す
+4456	Active Effect	アクティブエフェクト
+4457	Seek 10 Times	10回シークする
+4458	Auto-Purchase	自動購入
+4459	Passive Skill	パッシブスキル
+4460	Skill Upgrade	スキルアップグレード
+4461	Pet Promotion	ペットプロモーション
+4462	${1} Increase	${1} 増加
+4463	Combat Skills	戦闘スキル
+4464	Enable Effect	効果を有効にする
+4465	Assist Slot 1	アシストスロット1
+4466	Assist Slot 2	アシストスロット2
+4467	Assist Slot 3	アシストスロット3
+4468	Assist Slot 4	アシストスロット4
+4469	Assist Slot 5	アシストスロット5
+4470	Select Hyena.	ハイエナを選択します。
+4471	Tap here, bo!	ここをタップしてください、ボー！
+4472	Confirm Class	クラスの確認
+4473	Leave quietly	静かに去ってください
+4474	An Encounter?	出会い？
+4475	Sultry Beauty	妖艶な美女
+4476	Unknown Thief	未知の泥棒
+4477	What's wrong?	どうしたの？
+4478	Go to Upgrade	アップグレードに進む
+4479	Current Title	現在のタイトル
+4480	Resource List	リソースリスト
+4481	Just a guess.	単なる推測です。
+4482	What is that?	それは何ですか？
+4483	High Platform	ハイプラットフォーム
+4484	Abandon Event	イベントを放棄する
+4485	Clear Markers	クリアマーカー
+4486	Exit Spectate	観戦を終了する
+4487	Next Recovery	次の回復
+4488	Title Level ≥	タイトルレベル ≥
+4489	Enter Dungeon	ダンジョンに入る
+4490	Title Advance	タイトルアドバンス
+4491	Recipe Unlock	レシピのロック解除
+4492	Beg for Mercy	慈悲を乞う
+4493	Quick Combine	クイック結合
+4494	Statue Ready!	彫像の準備完了!
+4495	Hey, not bad!	やあ、悪くないよ！
+4496	Soaring Sky I	空を翔けるⅠ
+4497	Soaring Sky V	ソアリングスカイV
+4498	Title Preview	タイトルプレビュー
+4499	All-New Story	まったく新しいストーリー
+4500	Default Theme	デフォルトのテーマ
+4501	Magnification	倍率
+4502	Current Price	現在の価格
+4503	Bid Increment	入札増分
+4504	Reset Filters	フィルターをリセットする
+4505	Pre-purchased	事前購入済み
+4506	Starting Bid:	開始入札:
+4507	Use This Plan	このプランを利用する
+4508	Apprentice IV	見習い IV
+4509	Apprentice II	見習いⅡ
+4510	Divine Assist	ディバインアシスト
+4511	Killing Spree	キリング・スプリー
+4512	Vivify Potion	ビビファイポーション
+4513	Pet Materials	ペット素材
+4514	Assassin Line	アサシンライン
+4515	Desert Region	砂漠地帯
+4516	Talent Skills	タレントスキル
+4517	Standard Card	標準カード
+4518	Voice Message	ボイスメッセージ
+4519	Need a Healer	ヒーラーが必要です
+4520	Weekends Only	週末のみ
+4521	Always Online	常にオンライン
+4522	No Thin Skins	薄い皮はありません
+4523	Collect Coins	コインを集める
+4524	Hide-and-Seek	かくれんぼ
+4525	Second Emotes	2番目のエモート
+4526	Throw Vehicle	投擲車両
+4527	Set Blue Team	ブルーチームを設定する
+4528	Greed's Wrath	強欲の怒り
+4529	Repair Turret	修理タレット
+4530	Shatter Blade	シャッターブレード
+4531	Final Chapter	最終章
+4532	Total Healing	トータルヒーリング
+4533	Tension Relax	テンション・リラックス
+4534	Relax at Home	家でリラックス
+4535	Common Powder	コモンパウダー
+4536	Vertical Sync	垂直同期
+4537	Ironwood Core	アイアンウッドコア
+4538	Plain Balloon	プレーンバルーン
+4539	Rent a Falcon	ファルコンをレンタルする
+4540	Meeting Again	再会
+4541	Nail of Order	秩序の釘
+4542	Happy to Help	喜んでお手伝いします
+4543	A New Request	新しいリクエスト
+4544	Mentor's Gift	メンターの贈り物
+4545	Begin Brewing	醸造を始める
+4546	The Onlookers	傍観者たち
+4547	A Sudden Turn	突然の転機
+4548	Obtain a Clue	手がかりを得る
+4549	Learn Talents	才能を学ぶ
+4550	Crystal Burst	クリスタルバースト
+4551	Forced Freeze	強制フリーズ
+4552	Forced Launch	強制起動
+4553	Vehicle State	車両の状態
+4554	Battle Status	戦闘状況
+4555	Skill Casting	スキルキャスト
+4556	Meteorite Ore	隕石鉱石
+4557	NETWORK_ERROR	ネットワークエラー
+4558	Pass Currency	パス通貨
+4559	Unique Effect	ユニークな効果
+4560	Low-Tier FLEE	低Tier FLEE
+4561	Low-Tier Life	低Tier HP
+4562	Holy Fortress	聖なる要塞
+4563	Elio Fragment	エリオの欠片
+4564	Yellow Potion	イエローポーション
+4565	Herb Porridge	ハーブ粥
+4566	Orange Potion	オレンジポーション
+4567	Cocoa Pudding	ココアプリン
+4568	Select Scroll	選択スクロール
+4569	Enchant Affix	エンチャント・アフィックス
+4570	Crafting Pack	クラフトパック
+4571	Mandarin Fish	マンダリンフィッシュ
+4572	Mage Portrait	魔術師の肖像
+4573	Sage Portrait	賢者の肖像
+4574	Bard Portrait	吟遊詩人の肖像
+4575	Monk Portrait	僧侶の肖像
+4576	Mithril Ingot	ミスリルインゴット
+4577	Test Buff@{1}	テストバフ@{1}
+4578	Red Equipment	赤い装備
+4579	Blue Headwear	青い帽子
+4580	Egg Incubator	孵化器
+4581	Fabre's Mucus	ファブル粘液
+4582	Sweet Bananas	スイートバナナ
+4583	Large Jellopy	大きなゼリー
+4584	Skeleton Bone	スケルトンボーン
+4585	Eye of Wisdom	知恵の目
+4586	Light Granule	ライト顆粒
+4587	Crest of Moon	月の紋章
+4588	Pale Sediment	青白い沈殿物
+4589	Cute Pet Coin	かわいいペットコイン
+4590	Alice's Apron	アリスのエプロン
+4591	Bill of Birds	鳥のくちばし
+4592	Arrow of Wind	風の矢
+4593	Crystal Arrow	クリスタルアロー
+4594	Bloody Branch	血まみれの枝
+4595	Blade Crystal	ブレードクリスタル
+4596	Feather Flame	フェザーフレイム
+4597	Constellation	星座
+4598	Lv. @{1} Wand	Lv. @{1} 杖
+4599	Lv. @{1} Mace	Lv. @{1} メイス
+4600	Basic Bow@{1}	基本の弓@{1}
+4601	Vidar's Boots	ヴィダールのブーツ
+4602	Ancient Cloak	古代のマント
+4603	Strong Shield	強い盾
+4604	Stone Buckler	ストーンバックラー
+4605	Composite Bow	複合弓
+4606	Golden Hammer	ゴールデンハンマー
+4607	Novice Buster	ノービスバスター
+4608	Empowered Axe	強化された斧
+4609	Schulte Spear	シュルテ・スピア
+4610	Dreyn Halberd	ドレイン・ハルバード
+4611	Hunting Spear	狩猟の槍
+4612	Novice Rapier	初心者レイピア
+4613	Ornate Dagger	華やかな短剣
+4614	Novice Cutter	初心者カッター
+4615	Novice Dagger	初心者のダガー
+4616	Drum of Dread	恐怖のドラム
+4617	Join a guild.	ギルドに参加してください。
+4618	Tailoring EXP	仕立て経験値
+4619	Gardening EXP	園芸経験値
+4620	Card: Bigfoot	カード：ビッグフット
+4621	Card: Deviace	カード：デビアス
+4622	Card: Caramel	カード：キャラメル
+4623	Card: Requiem	カード：レクイエム
+4624	Fashion Score	ファッションスコア
+4625	${1} Achieved	${1} 達成
+4626	Reward Rules:	報酬ルール:
+4627	Card Sources:	カードのソース:
+4628	Card Effects:	カード効果:
+4629	Card Returns:	カードの返却:
+4630	Buff Effects:	バフ効果:
+4631	Party Auction	パーティオークション
+4632	Attempt Count	試行回数
+4633	Mirko's Trial	ミルコの試練
+4634	Phantom Clone	ファントムクローン
+4635	Horong Impact	ホロンインパクト
+4636	Hornet Thrust	ホーネットスラスト
+4637	Meteor Shower	流星群
+4638	Rhythmic Leap	リズミカルな飛躍
+4639	Unknown Skill	未知のスキル
+4640	Cat and Mouse	猫とネズミ
+4641	Hornet Charge	ホーネットチャージ
+4642	Tidal Tornado	タイダルトルネード
+4643	Incoming Wave	到来波
+4644	Spirit Melody	スピリットメロディー
+4645	Circling Fins	サークリングフィン
+4646	Healing Score	ヒーリングスコア
+4647	Defeat Bosses	ボスを倒す
+4648	Raid Supplies	襲撃物資
+4649	Gifted Healer	才能あるヒーラー
+4650	World-Shaking	世界を揺るがす
+4651	Flag Captured	フラグをキャプチャしました
+4652	Assist Expert	アシストエキスパート
+4653	Assists X${1}	X${1} を支援します
+4654	Critical Kill	クリティカルキル
+4655	Peerless Five	ピアレスファイブ
+4656	Reading Bonus	読書ボーナス
+4657	First Reading	最初の読書
+4658	Knowledgeable	知識豊富
+4659	Read the Book	本を読む
+4660	Kafra's Sword	カプラの剣
+4661	Dark Illusion	ダークイリュージョン
+4662	Long Distance	長距離
+4663	Status Effect	ステータス効果
+4664	Earth's Power	地球の力
+4665	Melody Bubble	メロディーバブル
+4666	Trigger Split	トリガースプリット
+4667	Spawn Stealth	スポーンステルス
+4668	Union Passive	ユニオンパッシブ
+4669	Gryphon State	グリフォン状態
+4670	Status Potion	ステータスポーション
+4671	Healing Orbit	ヒーリングオービット
+4672	Fafnir's Fury	ファフニールの怒り
+4673	Ring of Frost	フロストのリング
+4674	Tiamat Effect	ティアマト効果
+4675	Basic Profile	基本プロフィール
+4676	Mouse Turning	マウスの回転
+4677	Fire Wall SFX	ファイアウォール効果音
+4678	Fixed Casting	固定キャスト
+4679	Flame Enhance	炎強化
+4680	Stone Coating	ストーンコーティング
+4681	Frequent Pull	頻繁なプル
+4682	Moonlit Curse	月夜の呪い
+4683	Spirit Shield	精霊の盾
+4684	ATK Reduction	攻撃力減少
+4685	Gunshot Wound	銃創
+4686	Clock Passive	クロックパッシブ
+4687	MATK Increase	MATK増加
+4688	Rocker Rocker	ロッカーロッカー
+4689	Flame of Hope	希望の炎
+4690	Cleaning Time	清掃時間
+4691	Phreeoni Slow	フリオニ・スロー
+4692	Red Line Link	赤い線のリンク
+4693	Summon Marker	サモンマーカー
+4694	Enrage Marker	激怒マーカー
+4695	Pyramid Laser	ピラミッドレーザー
+4696	Enrage Effect	激怒エフェクト
+4697	Linked Debuff	連動デバフ
+4698	Perfect State	完璧な状態
+4699	Rhythm Button	リズムボタン
+4700	Frenzy BD VFX	フレンジー BD VFX
+4701	Note Mark@{1}	ノートマーク@{1}
+4702	Switch Vortex	スイッチボルテックス
+4703	Enhance Guard	ガード強化
+4704	Replace Block	ブロックを置き換える
+4705	Magic Release	マジックリリース
+4706	ElementBD@{1}	ElementBD@{1}
+4707	DEF increased	DEF増加
+4708	Mounted State	装着状態
+4709	Furious Storm	猛烈な嵐
+4710	Sturdy Strike	頑丈なストライク
+4711	Phantom Arrow	ファントムアロー
+4712	Shield Charge	シールドチャージ
+4713	Effect (Test)	効果（テスト）
+4714	Premeditation	計画性
+4715	Escort Battle	護衛戦
+4716	Entire Server	サーバー全体
+4717	Create Tavern	酒場の作成
+4718	Report Tavern	酒場を通報
+4719	Tavern Trophy	酒場のトロフィー
+4720	Battle Pledge	戦いの誓い
+4721	Count Details	カウントの詳細
+4722	Reversi Rules	リバーシのルール
+4723	Collect Notes	メモを集める
+4724	Auction Rules	オークションルール
+4725	Cargo Loading	貨物の積み込み
+4726	Fortification	要塞化
+4727	Divine Vessel	神の器
+4728	Moonlit Bonds	月夜の絆
+4729	Mount expired	マウントの有効期限が切れました
+4730	Network error	ネットワークエラー
+4731	Any 2 Affixes	任意の 2 つの接辞
+4732	Any 3 Affixes	任意の 3 つの接辞
+4733	Any 4 Affixes	任意の 4 つの接辞
+4734	Invalid level	無効なレベル
+4735	Invalid party	無効なパーティ
+4736	Invalid slot.	無効なスロットです。
+4737	Like removed.	いいねを解除しました。
+4738	Guard Enhance	ガード強化
+4739	Potent Elixir	強力なエリクサー
+4740	Advanced Life	アドバンストライフ
+4741	Advanced FLEE	アドバンスドフリー
+4742	Invalid token	無効なトークン
+4743	Revoke Access	アクセスの取り消し
+4744	Winning Guild	勝利ギルド
+4745	Rally at ${1}	${1} に集合
+4746	Defense Value	防御値
+4747	Device Damage	デバイスの損傷
+4748	Command Skill	コマンドスキル
+4749	Contest Phase	コンテストフェーズ
+4750	Check on Bobo	ボボをチェックする
+4751	My Card Album	マイカードアルバム
+4752	Already liked	すでに気に入っています
+4753	Five Costumes	5つのコスチューム
+4754	First Costume	最初のコスチューム
+4755	Tavern Legend	酒場の伝説
+4756	Archer Mentor	アーチャーの師範
+4757	Muay Thai Man	ムエタイマン
+4758	First 5 Times	最初の5回
+4759	Item Supplies	アイテムの供給
+4760	Return (${1})	戻る (${1})
+4761	Skill Details	スキル詳細
+4762	Spectate Mode	観戦モード
+4763	Limit Reached	限界に達しました
+4764	CRIT RES Stat	クリティカル耐性ステータス
+4765	CRIT DMG Stat	クリティカルダメージステータス
+4766	For designers	デザイナー向け
+4767	Rename Preset	プリセット名の変更
+4768	Solo Training	ソロトレーニング
+4769	Type Settings	タイプ設定
+4770	Challenge DPS	チャレンジDPS
+4771	Reduces MSPD.	MSPDを軽減します。
+4772	Generic Blind	ジェネリックブラインド
+4773	Wishes Shared	共有された願い
+4774	View Rankings	ランキングを見る
+4775	Power of Tide	潮の力
+4776	Mount Vehicle	マウントビークル
+4777	Repeat Action	アクションを繰り返す
+4778	Pyroblast@{1}	パイロブラスト@{1}
+4779	Easy Movement	簡単な移動
+4780	Piercing Hope	希望を貫く
+4781	Crimson Storm	クリムゾン・ストーム
+4782	Bunny Brigade	バニー旅団
+4783	Bunny Arrival	バニーの到着
+4784	Mavka's Dance	マヴカのダンス
+4785	Battle Charge	バトルチャージ
+4786	Whirling Whip	ワーリングウィップ
+4787	Staff Mastery	スタッフマスタリー
+4788	Shrined Judex	シュラインド・ジュデックス
+4789	Arrow Barrage	アロー・バラージ
+4790	Falcon Patrol	ファルコンパトロール
+4791	[Normal-Maya]	【ノーマル・マヤ】
+4792	[Hard-Osiris]	【ハードオシリス】
+4793	[Normal-Isti]	【ノーマル・イスティ】
+4794	[Normal-Ilmo]	【ノーマル・イルモ】
+4795	Material Type	材質の種類
+4796	Monthly Uses:	毎月の使用量:
+4797	Bonfire Affix	たき火のアフィックス
+4798	In ${1}d ${2}h	In ${1}d ${2}h
+4799	In ${1}h ${2}m	In ${1}h ${2}m
+4800	Growth Support	成長サポート
+4801	Speed Rankings	スピードランキング
+4802	Partywide Slow	パーティ全体スロー
+4803	Fruit Peel Hat	フルーツピールハット
+4804	Black Cat Ears	黒猫耳
+4805	Feather Bonnet	フェザーボンネット
+4806	Apple Headwear	リンゴの帽子
+4807	Golden Coronet	黄金の宝冠
+4808	Sun God Helmet	太陽神の兜
+4809	Evil Wing Ears	邪悪な翼の耳
+4810	Kitty's Charge	キティのチャージ
+4811	Night Judgment	夜の審判
+4812	Old Television	古いテレビ
+4813	Blossom Sprite	ブロッサムスプライト
+4814	Goblin Balloon	ゴブリンバルーン
+4815	Alice the Maid	メイドのアリス
+4816	Scout Basilisk	スカウトバジリスク
+4817	Raging Shinobi	荒れ狂う忍
+4818	Wildcat Knight	山猫の騎士
+4819	Enter password	パスワード入力
+4820	Thief Bug Male	雄盗蟲
+4821	Goblin (Flail)	ゴブリン（フレイル）
+4822	Steel Chonchon	スチールチョンチョン
+4823	${1}% Complete	${1}% 完了
+4824	Ritual Funding	儀式資金提供
+4825	Confirm Ritual	儀式の確認
+4826	Review Journey	レビューの旅
+4827	Title Acquired	獲得したタイトル
+4828	DMG vs All Job	ダメージ vs 全ジョブ
+4829	Poison Damage%	毒属性ダメージ%
+4830	Shadow Damage%	闇属性ダメージ%
+4831	Undead Damage%	不死属性ダメージ%
+4832	Petrify Attack	石化攻撃
+4833	Shield Effect%	シールド効果%
+4834	Is in Darkness	暗闇の中にいる
+4835	Transform Flag	変換フラグ
+4836	Current Energy	現在のエネルギー
+4837	HP Bar Display	HPバー表示
+4838	Encounter Maya	マヤとの出会い
+4839	No. ${1} Guild	第${1}ギルド
+4840	Closes in ${1}	${1}後に終了
+4841	Current Season	現在のシーズン
+4842	Not Yet Ranked	まだランクされていません
+4843	Defeat Wraith.	レイスを倒す。
+4844	Defeat Dracula	ドラキュラを倒す
+4845	Kill @{1} Boas	@{1} ボアスを殺してください
+4846	Kill Peco Peco	ペコペコを倒す
+4847	Effect Details	エフェクトの詳細
+4848	No buff effect	バフ効果なし
+4849	Portrait Frame	アイコンフレーム
+4850	Outfit Details	衣装の詳細
+4851	% HIT Increase	% HIT 増加
+4852	Satellite City	サテライトシティ
+4853	Auction Closed	オークション終了
+4854	Return to Town	街に戻る
+4855	Destroyed ${1}	${1}を破壊
+4856	Normal Caravan	ノーマルキャラバン
+4857	New Meditation	新しい瞑想
+4858	Skip Animation	アニメーションをスキップ
+4859	Special Offers	特別オファー
+4860	Madogear Pilot	魔導ギアパイロット
+4861	Failed to sell	販売に失敗しました
+4862	Sort by Rating	評価順
+4863	Purple Quality	パープルクオリティ
+4864	Orange Quality	オレンジの品質
+4865	Smelting Cost:	製錬コスト:
+4866	Filter by Slot	スロットによるフィルター
+4867	Headless Giant	首なし巨人
+4868	Bloodlike Wine	血のようなワイン
+4869	Test Gift Pack	テストギフトパック
+4870	Diamond Emblem	ダイヤモンドエンブレム
+4871	Skill Settings	スキル設定
+4872	Chapter Reward	章の報酬
+4873	Invite to Raid	レイドに招待する
+4874	Apply to Guild	ギルド申請
+4875	Recovery Build	リカバリビルド
+4876	Go to Ant Hell	蟻地獄へ行く
+4877	Defeat Pharaoh	ファラオを倒す
+4878	Fuse @{1} Pets	ヒューズ @{1} ペット
+4879	Discover Eddga	エドガを発見
+4880	Talk to Fervor	ファーバーと話す
+4881	Current Effect	現在の効果
+4882	Star Core List	スターコア一覧
+4883	Praiser Priest	賛美プリースト
+4884	Speed Assassin	スピードアサシン
+4885	Burst Assassin	バーストアサシン
+4886	Venom Assassin	ベノムアサシン
+4887	Earthfire Mage	アースファイアメイジ
+4888	Start Matching	マッチング開始
+4889	Caravan Escort	キャラバンエスコート
+4890	Stronghold War	拠点戦争
+4891	Royal City War	ロイヤルシティ戦争
+4892	Left Accessory	左のアクセサリ
+4893	Material Cost:	材料費:
+4894	Auto Skill Bar	オートスキルバー
+4895	Butterfly Wing	蝶の羽
+4896	Trade Exchange	貿易取引所
+4897	Character Info	キャラクター情報
+4898	Fashion Rating	ファッションの評価
+4899	Class Overview	職業概要
+4900	Season Cooking	シーズン料理
+4901	Evenly Matched	均等に一致
+4902	Guild Rankings	ギルドランキング
+4903	Attributes Tab	「属性」タブ
+4904	Assassin Cross	アサシンクロス
+4905	Novice's Pride	ノービスの誇り
+4906	Available Only	利用可能のみ
+4907	Search History	検索履歴
+4908	Contact Seller	販売者に連絡する
+4909	Shop Item Name	ショップアイテム名
+4910	For Sale: ${1}	販売中: ${1}
+4911	Filter Options	フィルターオプション
+4912	Battery: ${1}%	バッテリー: ${1}%
+4913	Defense Points	防御ポイント
+4914	Machine Damage	機械の損傷
+4915	Juvenile Stage	少年期
+4916	Base Lv.: ${1}	基本レベル: ${1}
+4917	Effect Preview	エフェクトのプレビュー
+4918	Go to Wardrobe	ワードローブに移動
+4919	No valid items	有効なアイテムがありません
+4920	Global Defense	グローバルディフェンス
+4921	My Group Chats	マイルームチャット
+4922	Current Server	現在のサーバー
+4923	Group Settings	グループ設定
+4924	Gifting Record	ギフト記録
+4925	Selected: ${1}	選択済み: ${1}
+4926	Do Not Disturb	取り込み中
+4927	Intimacy Tier:	親密度レベル:
+4928	Group Members:	グループメンバー:
+4929	Rank ${1}–${2}	ランク ${1}–${2}
+4930	Leave the raid	レイドから退出
+4931	Recent Parties	最近のパーティ
+4932	Nearby Parties	近くのパーティ
+4933	Stop Following	フォローをやめる
+4934	Voice Settings	ボイス設定
+4935	All Objectives	すべての目標
+4936	Increasing Bid	入札額引き上げ
+4937	Bid Successful	入札成功
+4938	Preset Message	プリセットメッセージ
+4939	Opens in: ${1}	オープン日: ${1}
+4940	Eastern Forest	東の森
+4941	Western Desert	西部砂漠
+4942	Confirm Travel	旅行の確認
+4943	Creation Cost:	作成コスト:
+4944	Previous Name:	以前の名前:
+4945	Confirm Change	変更確認
+4946	No former name	旧名は無し
+4947	Go to Guild HQ	ギルド拠点へ行く
+4948	Event Activity	イベント活動
+4949	Honor Position	名誉役職
+4950	Cancel Removal	削除のキャンセル
+4951	Total Activity	総活動量
+4952	Recruit Member	メンバーを募集する
+4953	Over ${1} days	${1} 日以上
+4954	Search Members	メンバー検索
+4955	Cancel Editing	編集のキャンセル
+4956	${1} hours ago	${1} 時間前
+4957	${1} years ago	${1}年前
+4958	Start Level-up	レベルアップを開始する
+4959	Asking for Aid	救援要請
+4960	Item submitted	提出されたアイテム
+4961	Get Help Cargo	ヘルプカーゴを入手
+4962	Opens Thursday	木曜開放
+4963	Opens Saturday	土曜営業
+4964	List Resources	資源一覧
+4965	Southern Payon	南フェイヨン
+4966	Payon Instance	フェイヨンインスタンス
+4967	Dracula's Lair	ドラキュラの隠れ家
+4968	Pirate Captain	海賊船長
+4969	Boss Challenge	ボスチャレンジ
+4970	Detect Stealth	ステルスを検出
+4971	Card: Familiar	カード：ファミリアー
+4972	Card: Skeleton	カード：スケルトン
+4973	Card: Magnolia	カード：マグノリア
+4974	Damage Ranking	ダメージランキング
+4975	Card: Cornutus	カード：コルヌトゥス
+4976	Card: Minorous	カード：ミノタウロス
+4977	Card: Orc Baby	カード：オークベイビー
+4978	Card: Phreeoni	カード：フリオーニ
+4979	Card: Baphomet	カード：バフォメット
+4980	Card: Angeling	カード：エンジェリング
+4981	Card: Orc Lord	カード：オークロード
+4982	Card: Deviling	カード：デビリング
+4983	Card: Orc Hero	カード：オークヒーロー
+4984	Card: Mistress	カード：ミストレス
+4985	Strength +@{1}	強さ+@{1}
+4986	Gain a shield.	シールドを獲得します。
+4987	Inflicts Blind	視覚障害を与える
+4988	Equipment Drop	装備ドロップ
+4989	Transform: Red	トランスフォーム：レッド
+4990	Healing Skills	治癒スキル
+4991	Arcane Mastery	秘術マスタリー
+4992	Holy Reckoning	ホーリーレコニング
+4993	Skin Tempering	スキンテンパリング
+4994	Maximize Power	マキシマイズパワー
+4995	Crescent Wheel	三日月ホイール
+4996	Flame Launcher	フレイムランチャー
+4997	Energy Release	エネルギー放出
+4998	Poporing Split	ポポリンスプリット
+4999	Sightless Mind	サイトレス・マインド
+5000	Shield Reflect	シールドリフレクト

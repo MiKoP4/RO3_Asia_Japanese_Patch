@@ -1,0 +1,1001 @@
+Index	English	Japanese_Translation
+9001	Configuration Error	設定エラー
+9002	Incorrect draw cost	抽選コストが正しくありません
+9003	Insufficient points	ポイントが不足しています
+9004	Guild doesn't exist	ギルドが存在しません
+9005	Rune type mismatch.	ルーンタイプが一致しません。
+9006	Not Enough Stickers	ステッカーが不足しています
+9007	^{1}Earth Spike^{2}	^{1}アーススパイク^{2}
+9008	^{1}Second Wind^{2}	^{1}セカンドウィンド^{2}
+9009	^{1}Limit Break^{2}	^{1}リミットブレイク^{2}
+9010	Charged Shield Bash	チャージドシールドバッシュ
+9011	Cross Judex Enhance	クロスジュデックス強化
+9012	Spear Throw Enhance	スピアスロー強化
+9013	Basic Magic Defense	基本魔法防御
+9014	Normal Attack Boost	通常攻撃強化
+9015	^{1}Flame Chain^{2}	^{1}フレイムチェーン^{2}
+9016	^{1}Soul Reaper^{2}	^{1}ソウルリーパー^{2}
+9017	Conqueror Exclusive	征服者限定
+9018	Invalid message UID	メッセージUIDが無効です
+9019	Character is banned	キャラクターは利用停止中です
+9020	Item does not exist	アイテムが存在しません
+9021	Duplicate potion ID	ポーションIDが重複しています
+9022	Item already exists	アイテムはすでに存在します
+9023	Item cannot be used	このアイテムは使用できません
+9024	Item use prohibited	アイテムの使用は禁止されています
+9025	Go to Revival Point	復活ポイントへ移動
+9026	Revive in ${1} sec.	${1}秒後に復活
+9027	Command Marker ${1}	コマンドマーカー ${1}
+9028	Invasion Intensity:	侵攻強度:
+9029	Battlefield Changes	戦場の変化
+9030	Board this vehicle.	この乗り物に乗る。
+9031	Gains DMG Reduction	ダメージ軽減を獲得
+9032	Dismount the Deniro	デニーロから降りる
+9033	Available to Borrow	貸出可能
+9034	Lu Bu's First Skill	呂布の第1スキル
+9035	Unsupported action.	未対応の操作です。
+9036	Interaction failed.	インタラクションに失敗しました。
+9037	Trade request error	取引リクエストエラー
+9038	Trade data is empty	取引データがありません
+9039	Equipment Appraisal	装備鑑定
+9040	Unlock Premium Pass	プレミアムパスを解放
+9041	Switch Gift Message	ギフトメッセージを切り替え
+9042	Mail body is empty.	メール本文が空です。
+9043	Mail doesn't exist.	メールが存在しません。
+9044	Six Months Together	一緒になって6か月
+9045	Four-Month Flourish	4か月目の実り
+9046	One Season Together	一緒になって1シーズン
+9047	Two Months Together	一緒になって2か月
+9048	One-Month Milestone	1か月記念
+9049	A Drink for a Story	物語のための一杯
+9050	A Few Close Friends	気心の知れた友人たち
+9051	Defeat Mirko · Hard	ミルコ・ハードを倒す
+9052	Defeat Nasha · Hard	ナーシャ・ハードを倒す
+9053	Spirit Tower Legend	精霊の塔・レジェンド
+9054	5 Pets at Your Side	5匹のペットを連れて
+9055	100-Card Collection	カード100枚コレクション
+9056	Refine: First Steps	精錬：はじめの一歩
+9057	Illusion's Radiance	幻影の輝き
+9058	Tough-Looking Woman	強そうな女性
+9059	Safe zone shrinking	安全地帯が縮小中
+9060	【${1} Ten Thousand】	【${1}万】
+9061	Season end time TBD	シーズン終了時刻：未定
+9062	Last Death Location	最後に倒れた場所
+9063	Share the findings.	調査結果を共有する。
+9064	Thank you, Grandma!	ありがとう、おばあちゃん！
+9065	Matchmaking started	マッチングを開始しました
+9066	Crimson-Black Orbit	紅黒オービット
+9067	Crimson Flame Orbit	紅炎オービット
+9068	Spring Blossom Cart	春花カート
+9069	【Dark Night】 floors	【暗夜】フロア
+9070	Locks Life at @{1}%	HPを@{1}%に固定
+9071	Dance Move Backward	ダンス移動・後退
+9072	Recommended Affixes	おすすめアフィックス
+9073	Confirm Replacement	交換を確認
+9074	Enter Get Help Code	ヘルプコードを入力
+9075	Tap to select cards	タップしてカードを選択
+9076	Tap to Select a Pet	タップしてペットを選択
+9077	Current Battle Data	現在の戦闘データ
+9078	Suggested Resonance	おすすめ共鳴
+9079	Attack Speed +${1}%	攻撃速度 +${1}%
+9080	Enters Blind status	暗闇状態になる
+9081	Lucky Poring Lv@{1}	ラッキーポリン Lv@{1}
+9082	Dexterity Resonance	DEX共鳴
+9083	Warg Strike Trigger	ワーグストライク発動
+9084	Arrow Shower【Timer】	アローシャワー【タイマー】
+9085	Settlement in ${1}h	${1}時間後に精算
+9086	My guild Rank: ${1}	自ギルド順位: ${1}
+9087	Death Immunity Buff	死亡無効バフ
+9088	Sonic Barrier Field	ソニックバリアフィールド
+9089	Party-Wipe Mechanic	全滅ギミック
+9090	Salted Fish Thrust.	塩漬け魚スラスト
+9091	Golem AOE - Neutral	ゴーレム範囲攻撃・無属性
+9092	Dokebi AOE - Shadow	ドケビ範囲攻撃・闇属性
+9093	Obeaune AOE - Water	オボンヌ範囲攻撃・水属性
+9094	Matyr Charge-Shadow	マーターチャージ・闇属性
+9095	Orc Archer ST-Earth	オークアーチャー単体攻撃・地属性
+9096	Restorative Craving	回復への渇望
+9097	Executioner's Blade	処刑人の刃
+9098	Divine Resurrection	神聖なる復活
+9099	Recruit New Members	新メンバーを募集
+9100	Publish a New Issue	新しい募集を掲載
+9101	Create Vending Cart	露店カートを作成
+9102	[Final Trial-Nasha]	[最終試練-ナーシャ]
+9103	[Final Trial-Mirko]	[最終試練-ミルコ]
+9104	Cancel application?	申請を取り消しますか？
+9105	No Adventure Groups	冒険グループがありません
+9106	Tap to Congratulate	タップして祝福
+9107	Questions ${1}/${2}	問題 ${1}/${2}
+9108	Obtained ${1} X ${2}	${1} X ${2} を獲得
+9109	Entire Server Report	全サーバーレポート
+9110	Partywide Immobilize	パーティ全体を移動不能
+9111	Pirate Captain's Hat	海賊船長の帽子
+9112	Moonlight Flower Hat	月夜花の帽子
+9113	Sweetheart Tea Party	スイートハート・ティーパーティ
+9114	Corrupted Wander Man	堕落したワンダーマン
+9115	Darkheart Hunter Eve	ダークハートハンター・イブ
+9116	Stage reward claimed	ステージ報酬を受取済み
+9117	Reward Count Used Up	報酬回数を使い切りました
+9118	Event Time Remaining	イベント残り時間
+9119	Physical Penetration	物理貫通
+9120	Melee PDMG Reduction	近接物理ダメージ軽減
+9121	Item Healing Effect%	アイテム回復効果%
+9122	Shield Bonus Effect%	シールドボーナス効果%
+9123	Energy Recovery Time	エネルギー回復時間
+9124	Energy Recovery Rate	エネルギー回復速度
+9125	Conqueror Settlement	征服者精算
+9126	MVP-Golden Thief Bug	MVP-黄金蟲
+9127	MVP-Moonlight Flower	MVP-月夜花
+9128	Kill @{1} Roda Frogs	ロッダフロッグを@{1}体倒す
+9129	Kill @{1} Thief Bugs	盗蟲を@{1}体倒す
+9130	Kill @{1} Orc Ladies	オークレディを@{1}体倒す
+9131	Play the shell game.	シェルゲームで遊ぶ。
+9132	Ride the Hyena mount	ハイエナマウントに乗る
+9133	Obtain the Fox mount	キツネマウントを入手
+9134	Tower Activity Quest	塔アクティビティクエスト
+9135	Equip the Soul Echo.	ソウルエコーを装備する。
+9136	No Current Encounter	現在の遭遇なし
+9137	Defeat the Peco Peco	ペコペコを倒す
+9138	Observe what happens	何が起こるか観察する
+9139	Intermediate Defense	中級防御
+9140	% Magic ATK Increase	魔法攻撃 %増加
+9141	% Magic DEF Increase	魔法防御 %増加
+9142	Defeat all monsters.	すべてのモンスターを倒す。
+9143	Check on the captain	船長の様子を見る
+9144	Close Stall Manually	手動で露店を閉じる
+9145	Guild League Rewards	ギルドリーグ報酬
+9146	Game Mode Bid Outbid	ゲームモード入札・高値更新
+9147	Guild Auction Closed	ギルドオークション終了
+9148	Kill Orc Warrior@{1}	オークウォリアー@{1}を倒す
+9149	Daily Activity Quest	デイリーアクティビティクエスト
+9150	Can escort ${1} more	あと${1}回護衛可能
+9151	Campfire Interaction	焚き火インタラクション
+9152	Mining Star Treasure	採掘スター宝箱
+9153	New Feature Unlocked	新機能解放
+9154	Bind Invitation Code	招待コードを連携
+9155	Expedition Challenge	遠征チャレンジ
+9156	Faction @{1} Players	陣営@{1}のプレイヤー
+9157	Break Time Remaining	休憩残り時間
+9158	Refinement Resonance	精錬共鳴
+9159	Smelting Restoration	精錬復元
+9160	Premium Monthly Pass	プレミアム月間パス
+9161	Movement Speed Build	移動速度ビルド
+9162	DNS Resolution Check	DNS名前解決チェック
+9163	TCP Connection Check	TCP接続チェック
+9164	Head toward Prontera	プロンテラへ向かう
+9165	Rescue the Professor	教授を救出する
+9166	Caress the Stray Cat	野良猫を撫でる
+9167	Refine a weapon once	武器を1回精錬する
+9168	Accept A New Request	新しい依頼を受ける
+9169	Catch up with Fervor	ファーヴァーに追いつく
+9170	Catch up with Jiyang	ジヤンに追いつく
+9171	Character UID Copied	キャラクターUIDをコピーしました
+9172	Rank Function locked	ランキング機能はロックされています
+9173	Selected build: ${1}	選択中のビルド: ${1}
+9174	Career Total Assists	通算アシスト数
+9175	Career Total Healing	通算回復量
+9176	Return to checkpoint	チェックポイントに戻る
+9177	Regional Capital War	地域首都戦
+9178	Success Rate Details	成功率詳細
+9179	Right Accessory Slot	右アクセサリースロット
+9180	Guild Funds Rankings	ギルド資金ランキング
+9181	Impeach Guild Master	ギルドマスターを弾劾
+9182	Help Configure Build	ビルド設定をサポート
+9183	Profile Book Display	プロフィールブック表示
+9184	Expires in ${1} days	残り${1}日で期限切れ
+9185	Expires in ${1} min.	残り${1}分で期限切れ
+9186	Default Profile Card	デフォルトプロフィールカード
+9187	Life Skill Materials	生活スキル素材
+9188	Listed successfully.	出品しました。
+9189	Enter Shop Item Name	ショップアイテム名を入力
+9190	My Stand (${1}/${2})	マイ露店 (${1}/${2})
+9191	Go to Trade Exchange	取引所へ移動
+9192	Totem (Unidentified)	トーテム（未鑑定）
+9193	Base EXP: ${1} /${2}	Base EXP: ${1} /${2}
+9194	Battle Merit Details	戦功詳細
+9195	Abnormal Trade price	異常な取引価格
+9196	Ripe Fruit Emblem II	熟した果実の紋章II
+9197	Skill Unlocked: ${1}	スキル解放: ${1}
+9198	Season Preview Event	シーズンプレビューイベント
+9199	Daily Purchase Limit	1日の購入上限
+9200	${1} hours remaining	残り${1}時間
+9201	First Purchase Bonus	初回購入ボーナス
+9202	Confirm and purchase	確認して購入
+9203	Insufficient Balance	残高が不足しています
+9204	Cross-server Friends	クロスサーバーフレンド
+9205	All-Time Popularity:	歴代人気度:
+9206	Enter a gift message	ギフトメッセージを入力
+9207	Affinity Level Bonus	親密度レベルボーナス
+9208	Current Effect: ${1}	現在の効果: ${1}
+9209	Friend request sent.	フレンド申請を送信しました。
+9210	No rewards available	受け取れる報酬がありません
+9211	Remove Deputy Leader	副リーダーを解任
+9212	Gather Party Members	パーティメンバーを集合
+9213	Request List is Full	リクエストリストが上限です
+9214	Follow Party Leader?	パーティリーダーについて行きますか？
+9215	Status Change Notice	ステータス変更通知
+9216	Erudite Scholar-@{1}	博識な学者-@{1}
+9217	Bidding ends in ${1}	入札終了まで ${1}
+9218	Reference Sale Price	参考販売価格
+9219	Reject this request?	このリクエストを拒否しますか？
+9220	Requirements not met	条件を満たしていません
+9221	No Guild Information	ギルド情報がありません
+9222	Responses: ${1}/${2}	回答: ${1}/${2}
+9223	Content is too long.	内容が長すぎます。
+9224	Position Appointment	役職任命
+9225	Departure successful	出発しました
+9226	Stage Test Blueprint	ステージテスト設計図
+9227	Main Combat - Debuff	メイン戦闘 - デバフ
+9228	Main Combat - Shield	メイン戦闘 - シールド
+9229	The bet has expired.	賭けの有効期限が切れました。
+9230	Damage Taken Ranking	被ダメージランキング
+9231	Contact Guild Master	ギルドマスターに連絡
+9232	Card: Steel Chonchon	カード: スチールチョンチョン
+9233	Sketch Card: Pharaoh	スケッチカード: ファラオ
+9234	Sketch Card: Dracula	スケッチカード: ドラキュラ
+9235	Portrait Card: Eddga	ポートレートカード: エドガ
+9236	Portrait Card: Drake	ポートレートカード: ドレイク
+9237	Shadow Card: Dracula	シャドウカード: ドラキュラ
+9238	Shadow Card: Pharaoh	シャドウカード: ファラオ
+9239	Sacred Relic Crystal	聖遺物クリスタル
+9240	Guild Auction locked	ギルドオークションはロックされています
+9241	Attack Speed +${1}%.	攻撃速度 +${1}%。
+9242	Attack Speed +@{1}%.	攻撃速度 +@{1}%。
+9243	Poring Counterattack	ポリンカウンター
+9244	Increase SP Recovery	SP回復量増加
+9245	Radiant Resurrection	輝く復活
+9246	Arm Cannon - Enhance	アームキャノン - 強化
+9247	Primal Monster Fruit	原初のモンスターフルーツ
+9248	Link with Red Thread	赤い糸でリンク
+9249	Magic Reflect - Card	魔法反射 - カード
+9250	Lock Skill Indicator	スキルインジケーターを固定
+9251	Right-Click Movement	右クリック移動
+9252	Farthest Point Ahead	前方最遠地点
+9253	Shift+Mouse Left Tap	Shift+マウス左クリック
+9254	Dracula's Blood Pool	ドラキュラの血の池
+9255	Movement Speed Boost	移動速度アップ
+9256	Tiamat Spawn Warning	ティアマト出現警告
+9257	Melody Sprite Attack	メロディスプライト攻撃
+9258	Hunter Normal Attack	ハンター通常攻撃
+9259	Skill@{1} Ripple Fin	スキル@{1} リップルフィン
+9260	Circular Sonic Blast	円形ソニックブラスト
+9261	Ring Drum Phase @{1}	リングドラム フェーズ @{1}
+9262	Earth-Splitting Blow	大地を裂く一撃
+9263	Jump off the Rampart	城壁から飛び降りる
+9264	Goblin Spiral Launch	ゴブリンスパイラル発射
+9265	Poring Normal Attack	ポリン通常攻撃
+9266	Greedy Headless Mule	貪欲なヘッドレスミュール
+9267	Dummy Hits Self@{1}%	ダミーが自身に@{1}%命中
+9268	Vagabond Wolf Skills	バガボンドウルフのスキル
+9269	Kobold Leader Skills	コボルドリーダーのスキル
+9270	Osiris Normal Attack	オシリス通常攻撃
+9271	Orc Lord-Placeholder	オークロード-プレースホルダー
+9272	Blazing Fist Rampage	ブレイジングフィスト暴走
+9273	Alert Reconnaissance	警戒偵察
+9274	Silver Moon Descends	銀月降臨
+9275	Sign in with Twitter	Twitterでサインイン
+9276	Enter Character name	キャラクター名を入力
+9277	Europe/Russia Server	欧州/ロシアサーバー
+9278	Pyramid Laser Damage	ピラミッドレーザーダメージ
+9279	Launch Yellow Bubble	イエローバブルを発射
+9280	Launch Homing Bubble	追尾バブルを発射
+9281	Homing Bubble Action	追尾バブルアクション
+9282	Unstable Blue Bubble	不安定なブルーバブル
+9283	P@{1} Red Bubble@{2}	P@{1} レッドバブル@{2}
+9284	Eight-Direction Wave	8方向ウェーブ
+9285	Ground Yellow Bubble	地上イエローバブル
+9286	Skill@{1}Memory Game	スキル@{1}メモリーゲーム
+9287	Cross Ripper Slasher	クロスリッパースラッシャー
+9288	Soul Burst Technique	ソウルバースト技法
+9289	S@{1}Piercing Shadow	S@{1}ピアシングシャドウ
+9290	Crimson Rock Lv.@{1}	クリムゾンロック Lv.@{1}
+9291	Dragon Breath (Fire)	ドラゴンブレス（火）
+9292	Create Deadly Poison	クリエイトデッドリーポイズン
+9293	Poisoned to the Core	猛毒が骨身まで染みる
+9294	Requires ${1} points	${1}ポイント必要
+9295	${1} Trophy Level-up	${1} トロフィーレベルアップ
+9296	Draw prize tier @{1}	賞品ランク@{1}を抽選
+9297	Test Large Card Pool	大規模カードプールテスト
+9298	Unknown Skill Effect	不明なスキル効果
+9299	Kill MVPs: ${1}/${2}	MVP討伐数: ${1}/${2}
+9300	Material Gain: ${1}%	素材獲得量: ${1}%
+9301	Request Voice Access	ボイス権限を申請
+9302	Invite Guild Members	ギルドメンバーを招待
+9303	Music Orb@{1}-Izlude	音楽オーブ@{1}-イズルード
+9304	Music Orb@{1}-Geffen	音楽オーブ@{1}-ゲフェン
+9305	Music Orb@{1}-Morroc	音楽オーブ@{1}-モロック
+9306	Bone-Spiked Mountain	骨棘の山
+9307	Bone-Spiked Barnacle	骨棘のフジツボ
+9308	Golden Rune Mountain	黄金ルーンの山
+9309	Large Roulette Laser	大型ルーレットレーザー
+9310	Holy Rocket Launcher	ホーリーロケットランチャー
+9311	Madogear Repair Zone	魔導ギア修理エリア
+9312	Forest Puppet Type α	森のパペット タイプα
+9313	Forest Puppet Type β	森のパペット タイプβ
+9314	Forest Puppet Type γ	森のパペット タイプγ
+9315	Desert Puppet Type α	砂漠のパペット タイプα
+9316	Desert Puppet Type β	砂漠のパペット タイプβ
+9317	Desert Puppet Type γ	砂漠のパペット タイプγ
+9318	Give It All for Love	愛のためにすべてを
+9319	Traveler-Looking Man	旅人風の男
+9320	Nervous-Looking Bard	緊張した吟遊詩人
+9321	You must be careful!	気をつけて！
+9322	Exhausted Adventurer	疲れ果てた冒険者
+9323	Supply Station Staff	補給所スタッフ
+9324	Guild Services Staff	ギルドサービス担当
+9325	Undersea Tunnel@{1}F	海底トンネル@{1}F
+9326	Payon-Flying Trigger	フェイヨン飛行トリガー
+9327	Territory War - Nine	領地戦 - 9
+9328	Caravan Party Leader	キャラバンパーティリーダー
+9329	Wind Lord Storm Rift	風の王ストームリフト
+9330	Projectile_Sandstorm	Projectile_Sandstorm
+9331	Empty Unit_Summoning	Empty Unit_Summoning
+9332	Side-by-Side Horongs	並列ホロン
+9333	P@{1} Red Bubble NPC	P@{1} レッドバブルNPC
+9334	Spawn Animation Test	出現アニメーションテスト
+9335	Freezing Trap Hunter	フリージングトラップハンター
+9336	Expedition Adventure	遠征アドベンチャー
+9337	Auto-Battle Duration	オートバトル時間
+9338	Monsters Encountered	遭遇したモンスター
+9339	Monster Kills Today:	本日のモンスター討伐数:
+9340	Today's Top 10 Kills	本日の討伐数トップ10
+9341	Teleport to Prontera	プロンテラへテレポート
+9342	Eden Group Secretary	楽園団秘書
+9343	Purchase successful.	購入しました。
+9344	Stall Time Remaining	露店残り時間
+9345	Available: ${1}~${2}	利用可能: ${1}~${2}
+9346	DMG vs Earth Enemies	地属性の敵へのダメージ
+9347	DMG vs Water Enemies	水属性の敵へのダメージ
+9348	DMG vs Ghost Enemies	念属性の敵へのダメージ
+9349	Damage to Brute Race	動物種族へのダメージ
+9350	Damage to Demon Race	悪魔種族へのダメージ
+9351	Damage to Plant Race	植物種族へのダメージ
+9352	Damage to Angel Race	天使種族へのダメージ
+9353	DMG vs Small Enemies	小型の敵へのダメージ
+9354	Damage to Non-Bosses	非ボスへのダメージ
+9355	No Approval Required	承認不要
+9356	Start a Guild Rally?	ギルドラリーを開始しますか？
+9357	Current Floors: ${1}	現在のフロア: ${1}
+9358	Artillery Privileges	砲撃権限
+9359	Select Elite Members	エリートメンバーを選択
+9360	This Week's Activity	今週のアクティビティ
+9361	Last Week's Activity	先週のアクティビティ
+9362	Response Application	申請への回答
+9363	Limited-Time Tactics	期間限定戦術
+9364	No Members available	利用可能なメンバーがいません
+9365	Activity Points Info	アクティビティポイント情報
+9366	Recruitment Settings	募集設定
+9367	Contribution History	貢献履歴
+9368	Go to the Eden Group	楽園団へ
+9369	Repair the Gyroscope	ジャイロスコープを修理
+9370	Disheveled Professor	身なりの乱れた教授
+9371	Go to Ant Hell Again	再び蟻地獄へ
+9372	An Unexpected Letter	思いがけない手紙
+9373	Keep the Appointment	約束を守る
+9374	Return the Spellbook	魔法書を返す
+9375	Auto-Battle Unlocked	オートバトル解放
+9376	Begin the Next Trial	次の試練を開始
+9377	Adventure Essentials	冒険の必需品
+9378	Aikuni's Recognition	アイクニの認定
+9379	Job Advance Training	転職訓練
+9380	Primary Battle Skill	主力戦闘スキル
+9381	Pet not yet unlocked	ペットはまだ解放されていません
+9382	Promotion succeeded!	昇格成功！
+9383	Dismantle to receive	解体して獲得
+9384	Get ${1} Off Summons	召喚を${1}回分獲得
+9385	Growth Rate Increase	成長率アップ
+9386	Unlock 4 Extra Slots	追加スロット4枠解放
+9387	Required Proficiency	必要熟練度
+9388	Battle Skill Effects	戦闘スキル効果
+9389	Level-up to Lv. ${1}	Lv. ${1}までレベルアップ
+9390	Breakthrough Success	突破成功
+9391	Stats are increased.	ステータスが上昇しました。
+9392	Draw ${1} More Times	あと${1}回引く
+9393	Apprentice Tier @{1}	見習いランク @{1}
+9394	Now we can take off~	これで出発できるね～
+9395	^{1}Defeat Drake^{2}	^{1}ドレイクを倒す^{2}
+9396	Jump into the vortex	渦へ飛び込む
+9397	Defeat the Evil Boss	邪悪なボスを倒す
+9398	Opening Dialogue@{1}	開始時会話@{1}
+9399	Dialogue with Button	ボタン付き会話
+9400	Why did you call us?	どうして私たちを呼んだの？
+9401	Bobo, that's enough.	ボボ、もういいよ。
+9402	Tell him your intent	彼に目的を伝える
+9403	Take the Memory Form	記憶の姿を受け取る
+9404	Darling, I love you!	ダーリン、愛してる！
+9405	Oh... Oh... Waaaaah!	あっ…あっ…うわああん！
+9406	...How did you know?	…どうして分かったの？
+9407	Hey, don't touch me!	ちょっと、触らないで！
+9408	Yes, I want to leave	はい、帰りたいです
+9409	Enter the Next Stage	次のステージへ入る
+9410	Are we under attack?	襲撃されてるの？
+9411	Who are you, really?	あなた、本当は誰なの？
+9412	Challenge difficulty	チャレンジ難易度
+9413	Marker limit reached	マーカー数が上限です
+9414	Recommended Players:	推奨人数:
+9415	Dungeon Closing Time	ダンジョン終了時刻
+9416	Learned successfully	習得しました
+9417	Party About to start	パーティ開始間近
+9418	Second-Prize Winners	2等当選者
+9419	More monsters appear	さらにモンスターが出現
+9420	^{1}Defend the Flag!	^{1}旗を守れ！
+9421	${1} eliminated ${2}	${1}が${2}を撃破
+9422	Wind's Departure III	風の旅立ちIII
+9423	Cloud's Splendor III	雲の栄華III
+9424	Graceful dance moves	優雅なダンスムーブ
+9425	Where are you going?	どこへ行くの？
+9426	Records Damage Dealt	与ダメージを記録
+9427	Appearance Engraving	外見刻印
+9428	Moonlit Challenger V	月夜の挑戦者V
+9429	Moonlit Challenger I	月夜の挑戦者I
+9430	Near the Water Point	給水地点の近く
+9431	Selectable Item Pack	選択式アイテムパック
+9432	Martial Artist Class	武闘家クラス
+9433	Identity Badge Items	身分証アイテム
+9434	Wide-Area High Burst	広範囲高火力
+9435	Activate Trap Hunter	トラップハンターを起動
+9436	Priest Normal Attack	プリースト通常攻撃
+9437	Wind Style - Tornado	風属性 - トルネード
+9438	Earth Style - Burrow	地属性 - 潜行
+9439	Wind Style - Monsoon	風属性 - モンスーン
+9440	Talk Style - Monsoon	トークスタイル - モンスーン
+9441	Identity Card Revive	身分証カード復活
+9442	Gravitational Impact	重力衝撃
+9443	Switch to Ice Turret	アイスタレットに切り替え
+9444	Kun Spit Out Players	クンがプレイヤーを吐き出す
+9445	Trigger Linear Laser	リニアレーザーを発動
+9446	One Random Shockwave	ランダム衝撃波1回
+9447	Scorched Earth Brand	焦土の刻印
+9448	Abyssal Cross Impact	深淵のクロスインパクト
+9449	Super Lightning Bolt	スーパーライトニングボルト
+9450	Focused Arrow Strike	集中アローストライク
+9451	Sacred Wood Wrapping	聖なる木材の包装
+9452	Blessed Sacred Glyph	祝福された聖なるグリフ
+9453	Sacred Garment Blank	聖衣の素体
+9454	^{1}[Side Quest]^{2}	^{1}[サブクエスト]^{2}
+9455	^{1}[Main Quest]^{2}	^{1}[メインクエスト]^{2}
+9456	^{1}[Commission]^{2}	^{1}[依頼]^{2}
+9457	Rent a Cart Merchant	カート商人を雇う
+9458	Make Lots of Friends	友達をたくさん作る
+9459	Generous Yet Selfish	気前が良くて自分勝手
+9460	Approaching the Core	コアへ接近
+9461	The Perilous Pyramid	危険なピラミッド
+9462	A Strange Phenomenon	奇妙な現象
+9463	An Unprovoked Attack	突然の襲撃
+9464	Dragon Coffin Island	ドラゴンコフィン島
+9465	Cargo Delivery Point	貨物配送地点
+9466	Prepare Emote/Action	エモート/アクションを準備
+9467	Arcane Power - Green	秘術の力 - 緑
+9468	Oak's Power - Orange	オークの力 - オレンジ
+9469	Oak's Power - Purple	オークの力 - 紫
+9470	Power of Fate - Blue	運命の力 - 青
+9471	Power of Ymir - Blue	ユミルの力 - 青
+9472	Ymir's Power - Green	ユミルの力 - 緑
+9473	Age-appropriate tips	年齢に応じたヒント
+9474	A radiant Soul Echo.	輝くソウルエコー。
+9475	An ornate Soul Echo.	華麗なソウルエコー。
+9476	A shimmering liquid.	きらめく液体。
+9477	Please choose a wish	願いを選んでください
+9478	Awaiting Performance	演奏待機中
+9479	Goddess's Overture I	女神の序曲I
+9480	Card exchange failed	カード交換に失敗しました
+9481	Invalid support slot	サポートスロットが無効です
+9482	A ring made of gold.	金で作られた指輪。
+9483	A club made of gold.	金で作られた棍棒。
+9484	An axe used by Orcs.	オークが使う斧。
+9485	An axe made of iron.	鉄で作られた斧。
+9486	Thunderous Hammering	轟くハンマー
+9487	Search by Skill Name	スキル名で検索
+9488	Ranged Amplification	遠距離強化
+9489	Pet Shard: Wind Lord	ペットの欠片: 風の王
+9490	Pet Shard: Fire Lord	ペットの欠片: 炎の王
+9491	Pet Shard: Wild Rose	ペットの欠片: ワイルドローズ
+9492	Pet Shard: Nepenthes	ペットの欠片: ネペンテス
+9493	Pet Shard: Garm Baby	ペットの欠片: ガルムベビー
+9494	Pet Shard: Baby Isis	ペットの欠片: ベビーイシス
+9495	Pet Shard: Nightmare	ペットの欠片: ナイトメア
+9496	Random Card Gift Box	ランダムカードギフトボックス
+9497	Dig - Precious Chest	発掘 - 貴重な宝箱
+9498	Mushroom Tomato Soup	キノコとトマトのスープ
+9499	Strawberry Milkshake	ストロベリーミルクシェイク
+9500	Green Lemon Cocktail	グリーンレモンカクテル
+9501	Citruswood Fruit Tea	シトラスウッドフルーツティー
+9502	Mainstay Potion Pack	主力ポーションパック
+9503	Lord Knight Portrait	ロードナイトの肖像
+9504	Rune Knight Portrait	ルーンナイトの肖像
+9505	Royal Guard Portrait	ロイヤルガードの肖像
+9506	High Wizard Portrait	ハイウィザードの肖像
+9507	High Priest Portrait	ハイプリーストの肖像
+9508	Mastersmith Portrait	ホワイトスミスの肖像
+9509	Artisan's Mark Badge	職人の印章バッジ
+9510	Masterless Soul Core	主なきソウルコア
+9511	Live Coal of Insight	洞察の燃えさし
+9512	Nothing of substance	特に意味のあるものはない
+9513	Energy Control Valve	エネルギー制御バルブ
+9514	Necklace of Oblivion	忘却のネックレス
+9515	Peco Peco's Feathers	ペコペコの羽
+9516	Supreme Pet EXP Book	最高級ペットEXPブック
+9517	Pet Training Diary I	ペット育成日記I
+9518	Basic Ignition Agent	基本点火剤
+9519	Moon Star Core - Red	ムーンスターコア - 赤
+9520	Royal City War S@{1}	王都戦 S@{1}
+9521	【Adventure Party】MVP	【冒険パーティ】MVP
+9522	Sun Star Core - Blue	サンスターコア - 青
+9523	Legendary Weapon Ore	伝説の武器鉱石
+9524	Crystal of Confusion	混乱のクリスタル
+9525	Lv. @{1} Bow (No BD)	Lv. @{1} 弓（BDなし）
+9526	Lv. @{1} @{2} Shield	Lv. @{1} @{2} シールド
+9527	Lv. @{1} @{2} Dagger	Lv. @{1} @{2} ダガー
+9528	Super Tournament Rod	スーパートーナメントロッド
+9529	Intermediate Bow@{1}	中級弓@{1}
+9530	Novice Composite Bow	初心者用コンポジットボウ
+9531	Staff of Destruction	スタッフオブディストラクション
+9532	Survivor's Rod (Dex)	サバイバルロッド（DEX）
+9533	Two-Tone - Green/Red	ツートーン - 緑/赤
+9534	Allocate Base Points	Baseポイントを割り振る
+9535	Not enough item uses	アイテム使用回数が不足しています
+9536	Talent Level too low	タレントレベルが低すぎます
+9537	Codex Points (Books)	コーデックスポイント（本）
+9538	Codex Points (Cards)	コーデックスポイント（カード）
+9539	Card: Thief Bug Male	カード：雄盗蟲
+9540	Equipment Appraisal:	装備鑑定:
+9541	Auction Pre-purchase	オークション事前購入
+9542	How to Gain Intimacy	親密度の上げ方
+9543	Team Auction Details	チームオークション詳細
+9544	Pet Deployment Guide	ペット配置ガイド
+9545	My Party (${1}/${2})	マイパーティ (${1}/${2})
+9546	(Progress ${1}/@{1})	（進行度 ${1}/@{1}）
+9547	Continuous Gathering	連続採集
+9548	Request from Friends	フレンドからのリクエスト
+9549	Outfit-Only Sequence	衣装専用シーケンス
+9550	Underwater Fireworks	水中花火
+9551	Powerful Shield Bash	強力なシールドバッシュ
+9552	Terminate Killstreak	キルストリーク終了
+9553	Unrivaled Killstreak	無双キルストリーク
+9554	Clutch Crowd Control	土壇場のクラウドコントロール
+9555	Consecutive Captures	連続占領
+9556	Defeat the Commander	司令官を倒す
+9557	Most Bosses Defeated	ボス最多討伐
+9558	Most Flags Delivered	旗最多運搬
+9559	No Matching Monsters	一致するモンスターがいません
+9560	Theme Unlocked: ${1}	テーマ解放: ${1}
+9561	Card [${1}] unlocked	カード [${1}] を解放
+9562	Otherworldly Arrival	異界からの到来
+9563	Revive [Buff Effect]	復活 [バフ効果]
+9564	Movement Restriction	移動制限
+9565	High-Energy Eruption	高エネルギー噴出
+9566	New Lv. @{1} Bonfire	新しいLv. @{1} 焚き火
+9567	Switch Transform@{1}	変身切替@{1}
+9568	Increased Spear ASPD	槍ASPD上昇
+9569	Shield Defense Orbit	シールド防御オービット
+9570	Extra Skill Critical	追加スキルクリティカル
+9571	Skill Area of Effect	スキル効果範囲
+9572	Healing Orbit Effect	回復オービット効果
+9573	Fixed-Direction Buff	固定方向バフ
+9574	System Function Menu	システム機能メニュー
+9575	Gameplay Information	ゲームプレイ情報
+9576	Elemental Attunement	属性同調
+9577	Continuous Page Gain	継続ページ獲得
+9578	Wall of Darkness SFX	ダークウォールSFX
+9579	Ice and Thunder Mark	氷雷マーク
+9580	Check Whether Killed	撃破済みか確認
+9581	Bongun Passive Check	ボンゴンパッシブ確認
+9582	Bloodthirsty Impulse	血に飢えた衝動
+9583	Ancient Tree Passive	古木パッシブ
+9584	Warrior Lola Passive	戦士ローラパッシブ
+9585	New Player Link Node	新規プレイヤーリンクノード
+9586	Curse of the Pyramid	ピラミッドの呪い
+9587	Shield Cooldown Buff	シールドクールダウンバフ
+9588	Reset Rift Impact CD	リフトインパクトCDをリセット
+9589	Enhance Auto Counter	オートカウンター強化
+9590	Shield Visual Effect	シールド視覚効果
+9591	Frenzy Visual Effect	フレンジー視覚効果
+9592	Mounted State-Dragon	騎乗状態-ドラゴン
+9593	Hundred Spear Charge	ハンドレッドスピア・チャージ
+9594	Self-Destruct Charge	自爆チャージ
+9595	Black Phantom Floors	ブラックファントムフロア
+9596	Strength Convergence	力の収束
+9597	Phase Three Strategy	フェーズ3戦略
+9598	Speaking Permissions	発言権限
+9599	Allocate Job Talents	ジョブタレントを割り振る
+9600	Already in a Tavern.	すでに酒場にいます。
+9601	Complete ${1} quests	クエストを${1}件完了
+9602	^{1}Defeat Eddga^{2}	^{1}エドガを倒す^{2}
+9603	^{1}Defeat Vocal^{2}	^{1}ボーカルを倒す^{2}
+9604	Competition Currency	競技通貨
+9605	Cooking Success Rate	料理成功率
+9606	Caravan Escort Route	キャラバン護衛ルート
+9607	Season Rank Overview	シーズンランク概要
+9608	Raiding Instructions	レイド説明
+9609	Wish We'd Met Sooner	もっと早く出会いたかった
+9610	Pet Search not found	ペット検索が見つかりません
+9611	Appearance activated	外見を有効化しました
+9612	Incorrect item price	アイテム価格が正しくありません
+9613	Order does not exist	注文が存在しません
+9614	Invalid gift message	ギフトメッセージが無効です
+9615	Invalid Tavern name.	酒場名が無効です。
+9616	${1} is not mounted.	${1}は騎乗していません。
+9617	${1} is on cooldown.	${1}はクールダウン中です。
+9618	Invalid skill target	スキル対象が無効です
+9619	Invalid skill height	スキル高度が無効です
+9620	Skill raycast failed	スキルのレイキャストに失敗しました
+9621	System Not Available	システムは利用できません
+9622	Not in this channel.	このチャンネルにはいません。
+9623	The data has changed	データが変更されました
+9624	Chapter not unlocked	チャプターが未解放です
+9625	Prize pool is closed	賞金プールは終了しました
+9626	Player list is empty	プレイヤーリストが空です
+9627	Invalid event period	イベント期間が無効です
+9628	Loading not complete	読み込みが完了していません
+9629	Rune does not exist.	ルーンが存在しません。
+9630	The event has ended.	イベントは終了しました。
+9631	Like is on cooldown.	いいねはクールダウン中です。
+9632	Cross Attack Enhance	クロスアタック強化
+9633	Battle Chant Enhance	バトルチャント強化
+9634	Flame Attack Enhance	フレイムアタック強化
+9635	Stunt-Affected Stats	スタント影響ステータス
+9636	Magic-Tempered Blade	魔力強化ブレード
+9637	Magic-Breaking Curse	魔法破りの呪い
+9638	Minor DMG vs All Job	全職業へのダメージ（小）
+9639	Seize the Initiative	先手を取る
+9640	Double Attack LV@{1}	ダブルアタック LV@{1}
+9641	^{1}Magic Cannon^{2}	^{1}マジックキャノン^{2}
+9642	^{1}Gravity Trap^{2}	^{1}グラビティトラップ^{2}
+9643	Item transfer failed	アイテム転送に失敗しました
+9644	Player level too low	プレイヤーレベルが低すぎます
+9645	Map group not found.	マップグループが見つかりません。
+9646	The scene is locked.	シーンはロックされています。
+9647	Invalid cast target.	詠唱対象が無効です。
+9648	Siege Duration: ${1}	攻城戦時間: ${1}
+9649	Confirm Construction	建設を確認
+9650	Adjust Gun Elevation	砲身角度を調整
+9651	Battlefield Backpack	戦場バックパック
+9652	You are already here	すでにここにいます
+9653	Not enough supplies.	物資が不足しています。
+9654	No Guild garrisoned.	駐屯中のギルドがありません。
+9655	Lu Bu's first skill.	呂布の第1スキル。
+9656	Displayed: ${1}/${2}	表示: ${1}/${2}
+9657	Current Preset saved	現在のプリセットを保存しました
+9658	Purchase Pass Levels	パスレベルを購入
+9659	Guild group is full.	ギルドグループが満員です。
+9660	Mail title is empty.	メール件名が空です。
+9661	Failed to send mail.	メール送信に失敗しました。
+9662	Friends Far and Wide	世界に広がる友情
+9663	One-Spirit Resonance	一心共鳴
+9664	First Talent Loadout	初めてのタレント構成
+9665	Another Star Upgrade	さらなる星アップ
+9666	Blue Gear Collection	青装備コレクション
+9667	First-Place Finishes	優勝回数
+9668	Select a build: ${1}	ビルドを選択: ${1}
+9669	Right-click to equip	右クリックで装備
+9670	Any recommendations?	何かおすすめある？
+9671	You finally made it.	やっと来たね。
+9672	Farewell, my friend.	さようなら、友よ。
+9673	Join Adventure Guild	冒険者ギルドに加入
+9674	Adventure Group Oath	冒険グループの誓い
+9675	Matchmaking canceled	マッチングをキャンセルしました
+9676	Immune to 【Poisoned】	【毒状態】無効
+9677	Get Help from Others	他の人に助けを求める
+9678	Tap to Preset Skills	タップしてスキルをプリセット
+9679	Select Divine Totems	ディバイントーテムを選択
+9680	Damage data cleared.	ダメージデータを消去しました。
+9681	Enable Announcements	アナウンスを有効化
+9682	Lucky Lunatic Lv@{1}	ラッキールナティック Lv@{1}
+9683	Total Treasure Hunts	宝探し総回数
+9684	Normal Chest Rewards	通常宝箱報酬
+9685	Gryphon Skill Shield	グリフォンスキルシールド
+9686	Goddess's Protection	女神の加護
+9687	Player Aggro Control	プレイヤーのヘイト管理
+9688	Skill @{1}—Rectangle	スキル @{1}—長方形
+9689	Left Rectangular AOE	左側長方形AOE
+9690	Rear Rectangular AOE	後方長方形AOE
+9691	Summon Thief Bug@{1}	盗蟲@{1}を召喚
+9692	Move back Afterimage	後退残像
+9693	Spawn Effect - Elite	出現エフェクト - エリート
+9694	Holy Cross Exorciser	ホーリークロス・エクソシスト
+9695	Sanctuary Redemption	サンクチュアリ救済
+9696	Prayer of Holy Might	聖なる力の祈り
+9697	Expand the Territory	領地を拡大
+9698	Enhanced Trap Hunter	強化トラップハンター
+9699	Immobilize Dimension	移動不能ディメンション
+9700	Glast Heim Monastery	グラストヘイム修道院
+9701	Adventure Group Call	冒険グループ招集
+9702	Recipe ${1} unlocked	レシピ ${1} を解放
+9703	【Tap to Participate】	【タップして参加】
+9704	Festival Predictions	祭典予想
+9705	Failed to play action	アクション再生に失敗しました
+9706	Resting in meditation	瞑想して休息中
+9707	Baphomet PDEF Enhance	バフォメットPDEF強化
+9708	Pointed Horn Headband	尖った角のヘアバンド
+9709	Flying Goblin Balloon	空飛ぶゴブリンバルーン
+9710	Wind-Up Rocking Chair	ゼンマイ式ロッキングチェア
+9711	Eggshell Chubby Chick	卵殻ぽっちゃりヒヨコ
+9712	Seconds Until Berserk	バーサークまでの秒数
+9713	Defense Fortification	防御要塞化
+9714	Identical buffs stack	同一バフは重複します
+9715	No more Notifications	これ以上通知はありません
+9716	Otherworldly Invasion	異界侵攻
+9717	Help Present the Gift	プレゼントを渡すのを手伝う
+9718	Physical Penetration%	物理貫通%
+9719	MP Recovery Received%	受けるMP回復量%
+9720	Damage to Fish Race %	魚種族へのダメージ %
+9721	Immobilize Resistance	移動不能耐性
+9722	Energy Recovery Time%	エネルギー回復時間%
+9723	Monster Battle Status	モンスター戦闘状態
+9724	View Duo Player Count	デュオ人数を確認
+9725	^{1}United as One^{2}	^{1}心をひとつに^{2}
+9726	Help the Professor Up	教授を起こすのを手伝う
+9727	Complete Louie's game	ルイのゲームをクリア
+9728	This event has ended.	このイベントは終了しました。
+9729	Royal City Settlement	王都戦精算
+9730	Defeat the Marionette	マリオネットを倒す
+9731	Click Me to Start Now	ここをクリックして開始
+9732	Head toward Prontera.	プロンテラへ向かう。
+9733	Kill @{1} Orc Zombies	オークゾンビを@{1}体倒す
+9734	Prepare for the race.	レースの準備をする。
+9735	Allocate Stat Points.	ステータスポイントを割り振る。
+9736	Obtain the Lion Mount	ライオンマウントを入手
+9737	Ride the Alpaca mount	アルパカマウントに乗る
+9738	Encounter Cards: ${1}	遭遇カード: ${1}
+9739	Talk to Boya and Wule	ボヤとウーレに話す
+9740	Cannot refresh again.	これ以上更新できません。
+9741	Impeachment initiated	弾劾を開始しました
+9742	Expired Item Delisted	期限切れアイテムを出品解除
+9743	Trade Review Approved	取引審査承認済み
+9744	Ilmata, God of Nature	自然神イルマタ
+9745	Trade Listing Removed	取引出品を削除
+9746	Escort Activity Quest	護衛アクティビティクエスト
+9747	Personal Points: ${1}	個人ポイント: ${1}
+9748	Maya Vine Link Effect	マヤの蔓リンク効果
+9749	Dumby's Request Wheel	ダンビーの依頼ルーレット
+9750	This item has expired	このアイテムは期限切れです
+9751	Enhancement Resonance	強化共鳴
+9752	Standard Monthly Pass	標準月間パス
+9753	Tempered Steel Emblem	鍛鋼の紋章
+9754	^{1}Making a Name^{2}	^{1}名を上げる^{2}
+9755	^{1}Rising Renown^{2}	^{1}名声上昇^{2}
+9756	Request to Join Party	パーティ参加を申請
+9757	CRIT & CRIT DMG Build	CRIT＆CRITダメージビルド
+9758	Find the Guild Leader	ギルドリーダーを探す
+9759	Attack Star Core @{1}	攻撃スターコア @{1}
+9760	Spray the pheromones.	フェロモンを噴霧する。
+9761	Talk to the Professor	教授に話しかける
+9762	Title Function locked	タイトル機能はロックされています
+9763	Soul Breaker Assassin	ソウルブレイカーアサシン
+9764	Participation Rewards	参加報酬
+9765	Refinement Successful	精錬成功
+9766	Skill Build Resonance	スキルビルド共鳴
+9767	Assign Guild Position	ギルド役職を割り当て
+9768	Life Skill - Gardener	生活スキル - ガーデナー
+9769	Enhancement Materials	強化素材
+9770	Public Listings: ${1}	公開出品数: ${1}
+9771	Pre-purchase canceled	事前購入をキャンセルしました
+9772	Internal server error	内部サーバーエラー
+9773	Insufficient Currency	通貨が不足しています
+9774	S@{1} Large Card Pool	S@{1} 大型カードプール
+9775	Weekly Purchase Limit	週間購入上限
+9776	Confirm and purchase?	確認して購入しますか？
+9777	Enter a friend's name	フレンド名を入力
+9778	Intimacy Points +${1}	親密度ポイント +${1}
+9779	Edit Group Chat Name…	グループチャット名を編集…
+9780	Party is already full	パーティはすでに満員です
+9781	Appoint Deputy Leader	副リーダーを任命
+9782	Confirm announcement:	アナウンスを確認:
+9783	Incorrect Party type.	パーティタイプが正しくありません。
+9784	${1} joined the party	${1}がパーティに参加しました
+9785	Beginner Scholar-@{1}	初心者学者-@{1}
+9786	The mode ends in ${1}	モード終了まで ${1}
+9787	Supply Trade Quantity	補給取引数量
+9788	Approve this request?	このリクエストを承認しますか？
+9789	Guild Supply Quantity	ギルド補給数量
+9790	Stronghold War Record	拠点戦記録
+9791	Qualification Bidding	参加資格入札
+9792	Current Bidding Phase	現在の入札フェーズ
+9793	Current Bidding Stage	現在の入札ステージ
+9794	No bidding permission	入札権限がありません
+9795	Spend ${1} ${2} times	${1}を${2}回消費
+9796	Activate ${1} talents	${1}個のタレントを有効化
+9797	No Member info found.	メンバー情報が見つかりません。
+9798	Permission Management	権限管理
+9799	This position is full	この役職は満員です
+9800	Event not yet started	イベントはまだ開始していません
+9801	This item is Sold out	このアイテムは売り切れです
+9802	Opens in ${1} minutes	${1}分後に開放
+9803	Opens within 1 minute	1分以内に開放
+9804	Keep up to 20 records	最大20件の記録を保持
+9805	Main Combat - Assault	メイン戦闘 - 強襲
+9806	Main Battle - Control	メイン戦闘 - 制御
+9807	Pet Protection Access	ペット保護アクセス
+9808	Place Bet: Successful	賭けに成功しました
+9809	Sketch Card: Orc Hero	スケッチカード: オークヒーロー
+9810	Sketch Card: Mistress	スケッチカード: ミストレス
+9811	Sketch Card: Baphomet	スケッチカード: バフォメット
+9812	Sketch Card: Deviling	スケッチカード: デビルリング
+9813	Sketch Card: Angeling	スケッチカード: エンジェリング
+9814	Sketch Card: Orc Lord	スケッチカード: オークロード
+9815	Sketch Card: Phreeoni	スケッチカード: フリオニ
+9816	Card: Archer Skeleton	カード: アーチャースケルトン
+9817	Card: Skeleton Worker	カード: スケルワーカー
+9818	Card: Pirate Skeleton	カード: パイレーツスケルトン
+9819	Portrait Card: Osiris	ポートレートカード: オシリス
+9820	Portrait Card: Kraken	ポートレートカード: クラーケン
+9821	Shadow Card: Phreeoni	シャドウカード: フリオニ
+9822	Shadow Card: Baphomet	シャドウカード: バフォメット
+9823	Shadow Card: Angeling	シャドウカード: エンジェリング
+9824	Shadow Card: Orc Lord	シャドウカード: オークロード
+9825	Shadow Card: Deviling	シャドウカード: デビルリング
+9826	Shadow Card: Orc Hero	シャドウカード: オークヒーロー
+9827	Shadow Card: Mistress	シャドウカード: ミストレス
+9828	Invalid Ritual status	儀式状態が無効です
+9829	Movement Speed -@{1}%	移動速度 -@{1}%
+9830	Movement Speed +@{1}%	移動速度 +@{1}%
+9831	Purifying Light Orbit	浄化の光オービット
+9832	Axe Tornado - Enhance	アックストルネード - 強化
+9833	High-Speed Propulsion	高速推進
+9834	Cancel Transformation	変身を解除
+9835	Monster Self-Destruct	モンスター自爆
+9836	You and Party Members	自分とパーティメンバー
+9837	Ultimate Skill Camera	アルティメットスキルカメラ
+9838	HP Bar Color Settings	HPバー色設定
+9839	Shift+Mouse Right Tap	Shift+マウス右クリック
+9840	Nightmare Mystery Box	ナイトメアミステリーボックス
+9841	Skill@{1}Goblet Throw	スキル@{1}ゴブレット投げ
+9842	Skill@{1}Goblet Toast	スキル@{1}ゴブレット乾杯
+9843	Skill@{1}Dancing Bell	スキル@{1}ダンシングベル
+9844	Skill@{1} Fin Missile	スキル@{1} フィンミサイル
+9845	Skill@{1} Four Elites	スキル@{1} 四天王
+9846	Statue Rectangle @{1}	像の長方形 @{1}
+9847	Summon Madogear Pilot	魔導ギアパイロットを召喚
+9848	Madogear Pilot Repair	魔導ギアパイロット修理
+9849	Jump onto the Rampart	城壁へ飛び乗る
+9850	Dracula Normal Attack	ドラキュラ通常攻撃
+9851	Scatter Red Envelopes	赤い封筒をばらまく
+9852	Bobo Bubble Animation	ボボバブルアニメーション
+9853	Lunatic Normal Attack	ルナティック通常攻撃
+9854	Eclipse Normal Attack	エクリプス通常攻撃
+9855	Gryphon Normal Attack	グリフォン通常攻撃
+9856	Spinning Blade Strike	回転ブレード攻撃
+9857	Pharaoh Normal Attack	ファラオ通常攻撃
+9858	Quicksand Trap Hunter	流砂トラップハンター
+9859	Corrupted Soul Impact	堕落した魂の衝撃
+9860	Fruit Blossom Healing	果実の花の回復
+9861	Sign in with Facebook	Facebookでサインイン
+9862	Sign in with Joymaker	Joymakerでサインイン
+9863	Activation successful	有効化しました
+9864	Ringblade Kunai-Kunai	リングブレード・クナイ-クナイ
+9865	Blade Deflection Easy	ブレードディフレクション・イージー
+9866	Two Drake Waterspouts	ドレイクの水柱2本
+9867	Six Drake Waterspouts	ドレイクの水柱6本
+9868	Drake Water Blade@{1}	ドレイクウォーターブレード@{1}
+9869	Stone Glyph Slash@{1}	ストーングリフスラッシュ@{1}
+9870	Silk Spit@{1} Players	シルクスピット@{1} プレイヤー
+9871	Laser Summons Coffins	レーザーが棺を召喚
+9872	Unstable Green Bubble	不安定なグリーンバブル
+9873	P@{1} Blue Bubble@{2}	P@{1} ブルーバブル@{2}
+9874	Skill@{1}Intoxication	スキル@{1}酩酊
+9875	Enhanced Shield Press	強化シールドプレス
+9876	Dance Move: Wolf Pack	ダンスムーブ: ウルフパック
+9877	Move back Shadow Echo	後退シャドウエコー
+9878	Hip-Hop Impersonation	ヒップホップものまね
+9879	Black Feather Barrage	黒羽バラージ
+9880	True Dragon's Descent	真・ドラゴンズディセント
+9881	S@{1}Thousand Shadows	S@{1}サウザンドシャドウ
+9882	Dragon Breath (Water)	ドラゴンブレス（水）
+9883	Black Phantom Passive	ブラックファントムパッシブ
+9884	(Multiple Conditions)	（複数条件）
+9885	Event Closure Message	イベント終了メッセージ
+9886	Bond already deployed	絆はすでに配置済みです
+9887	Equipment Insert Card	装備にカードを挿入
+9888	You have enough cards	カードは十分あります
+9889	Collection successful	コレクション成功
+9890	Convoy Escort Auction	護送オークション
+9891	Daily Uses Remaining:	本日の残り使用回数:
+9892	Select a reward item.	報酬アイテムを選択してください。
+9893	Not enough Fly Wings.	ハエの羽が不足しています。
+9894	Confirm Teleportation	テレポートを確認
+9895	${1} Point Allocation	${1}ポイント割り振り
+9896	Global Cooldown: ${1}	グローバルクールダウン: ${1}
+9897	Mysterious Adventurer	謎の冒険者
+9898	Treasure Dig Site NPC	宝探し発掘地点NPC
+9899	Transformation Manual	変身マニュアル
+9900	【Greedy Dragon】Fafnir	【貪欲なドラゴン】ファフニール
+9901	【Charge】Blazing Demon	【チャージ】ブレイジングデーモン
+9902	【Boss】Greedy Orc Hero	【ボス】貪欲なオークヒーロー
+9903	【Boss】Greedy Phreeoni	【ボス】貪欲なフリオニ
+9904	Resonant Clam Cluster	共鳴する貝の群れ
+9905	Ring-Shaped Shockwave	リング状衝撃波
+9906	Baphomet Magic Circle	バフォメット魔法陣
+9907	MVP Dracula Tombstone	MVPドラキュラ墓石
+9908	Friendly Player Dummy	味方プレイヤーダミー
+9909	Phreeoni Magic Circle	フリオニ魔法陣
+9910	Large Combat Supplies	大型戦闘物資
+9911	Rogue Guild Informant	ローグギルドの情報屋
+9912	Lovey-Dovey Boyfriend	ラブラブな彼氏
+9913	Sand-Something Bandit	砂なんとか盗賊
+9914	Kafra Voting Promoter	カプラ投票PR担当
+9915	Collectibles Merchant	コレクション商人
+9916	Time Limit: ${1} Days	制限時間: ${1}日
+9917	Military Supply Staff	軍需物資担当
+9918	Outpost Administrator	前哨基地管理人
+9919	Izlude-Flying Trigger	イズルード飛行トリガー
+9920	Territory War - Seven	領地戦 - 7
+9921	Territory War - Eight	領地戦 - 8
+9922	Interaction Quest NPC	インタラクションクエストNPC
+9923	To Prontera East Gate	プロンテラ東門へ
+9924	P@{1} Blue Bubble NPC	P@{1} ブルーバブルNPC
+9925	Enhance Claymore Trap	クレイモアトラップ強化
+9926	Enhance Freezing Trap	フリージングトラップ強化
+9927	Moonlight Flower-Easy	月夜花-イージー
+9928	Moonlight Flower-Hard	月夜花-ハード
+9929	Difficulty Reduction:	難易度軽減:
+9930	Daily Teammate Kills:	本日のチームメイト討伐数:
+9931	Shared Teammate Kills	共有チームメイト討伐数
+9932	Apprentice Adventurer	見習い冒険者
+9933	Eden Group Instructor	楽園団教官
+9934	No Trade records yet.	取引記録はまだありません。
+9935	Updates daily at 5:00	毎日5:00に更新
+9936	Magic Damage Increase	魔法ダメージ増加
+9937	Skill Damage Increase	スキルダメージ増加
+9938	Wind Damage Reduction	風属性ダメージ軽減
+9939	Fire Damage Reduction	火属性ダメージ軽減
+9940	Holy Damage Reduction	聖属性ダメージ軽減
+9941	DMG vs Poison Enemies	毒属性の敵へのダメージ
+9942	DMG vs Shadow Enemies	闇属性の敵へのダメージ
+9943	DMG vs Undead Enemies	不死属性の敵へのダメージ
+9944	Damage to Undead Race	不死種族へのダメージ
+9945	Damage to Insect Race	昆虫種族へのダメージ
+9946	Damage to Dragon Race	竜種族へのダメージ
+9947	DMG vs Medium Enemies	中型の敵へのダメージ
+9948	Ability Recovery Rate	アビリティ回復速度
+9949	Protect the Protector	守護者を守れ
+9950	Go to the Guild Base?	ギルド拠点へ移動しますか？
+9951	Transfer Guild Leader	ギルドマスターを譲渡
+9952	Please select a guild	ギルドを選択してください
+9953	Enter your message...	メッセージを入力してください...
+9954	Guild Rally Initiated	ギルドラリー開始
+9955	Pet Metric - Level-up	ペット指標 - レベルアップ
+9956	Eden Group Commission	楽園団依頼
+9957	Hull Repair Materials	船体修理素材
+9958	Clear Munak Cave @{1}	ムナック洞窟 @{1} をクリア
+9959	Control the Giant Ant	ジャイアントアントを制御
+9960	Investigate the Theft	盗難事件を調査
+9961	Rusty Bell Hammer@{1}	錆びたベルハンマー@{1}
+9962	First Supply Delivery	初回補給配送
+9963	New Combat Techniques	新たな戦闘技術
+9964	Training in the Craft	職人修行
+9965	Danger in the Silence	静寂の中の危機
+9966	Ferocious Mother Bird	凶暴な母鳥
+9967	Maximum level reached	最大レベルに到達しました
+9968	Pet Shard Dismantling	ペットの欠片を解体
+9969	Congrats on Obtaining	獲得おめでとう
+9970	Beginner Hatch Limit:	初心者孵化上限:
+9971	Upgrade All Skills to	すべてのスキルをレベルアップ
+9972	Unlocks at ${1} stars	${1}星で解放
+9973	Passive Skill Effects	パッシブスキル効果
+9974	Reach Talent Lv. @{1}	タレントLv. @{1}に到達
+9975	Clear the Dark Domain	ダークドメインをクリア
+9976	Advance to Trans. 2nd	転生2次職へ転職
+9977	Select the Red Potion	レッドポーションを選択
+9978	Tap to unlock the pet	タップしてペットを解放
+9979	Tap to hatch the egg!	タップして卵を孵化！
+9980	Now click here again!	もう一度ここをクリック！
+9981	Traveler's Plush Cart	旅人のぬいぐるみカート
+9982	^{1}Defeat Osiris^{2}	^{1}オシリスを倒す^{2}
+9983	Hold a farewell party	送別会を開く
+9984	A forbidden spellbook	禁断の魔法書
+9985	Knock it off, Bobo...	もうやめてよ、ボボ…
+9986	Wait a little longer.	もう少し待って。
+9987	Explain What Happened	何が起きたか説明する
+9988	Accept the Invitation	招待を受ける
+9989	One sandwich, please.	サンドイッチを1つください。
+9990	What Did the Lady Do?	あの女性は何をした？
+9991	Down-on-His-Luck Hunk	運に見放されたイケメン
+9992	A diamond is forever.	ダイヤモンドは永遠の輝き。
+9993	Currently Owned: ${1}	現在の所持数: ${1}
+9994	When I was their age—	私があの子たちくらいの頃は—
+9995	Um... is that a nail?	えっと…それ、釘？
+9996	@{1}，@{2}，@{3}，@{4}……	@{1}，@{2}，@{3}，@{4}……
+9997	Yes, I want to leave.	はい、帰りたいです。
+9998	Let me think about it	ちょっと考えさせて
+9999	Go Back and Try Again	戻ってもう一度試す
+10000	You finally found it.	やっと見つけたね。
