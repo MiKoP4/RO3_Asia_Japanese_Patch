@@ -34,6 +34,7 @@ PRIORITY_OVERRIDE_FILE = TEXT_DIR / "RO3_PriorityOverrides.txt"
 RUNTIME_REGEX_FILE = TEXT_DIR / "RO3_RuntimePlaceholders.txt"
 CACHE_FILE = WORKSPACE / "translations_cache.json"
 CONFIG_FILE = ROOT / "Client" / "BepInEx" / "config" / "AutoTranslatorConfig.ini"
+LOCALIZATION_PATCH_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.LocalizationOverrides.tsv"
 LANGUAGE_KV_FILE = WORKSPACE / "LanguageKV_full_en.tsv"
 
 
@@ -54,6 +55,7 @@ RUNTIME_TOKEN_RE = re.compile(
 FORCED_RUNTIME_KEYS = {
     "${1}%:JOB",
     "BASE:${1}%",
+    "Reach Lv. @{1} to Unlock New Main Quests",
 }
 
 # The known basic-attack description from the reported screenshot. Keeping it
@@ -79,19 +81,66 @@ KNOWN_RICH_LABEL = "<color=#9ae35a>[Party Blessing]</color>"
 KNOWN_RICH_STATUS = "<color=#9ae35a>Reward Count limit reached</color>"
 KNOWN_MAIN_QUEST_MARKER = "^{1}[Main Quest]^{2}"
 KNOWN_SIDE_QUEST_MARKER = "^{1}[Side Quest]^{2}"
+KNOWN_COMMISSION_QUEST_MARKER = "^{1}[Commission]^{2}"
 KNOWN_MAIN_QUEST_TITLE = "Job Advance Training"
 KNOWN_SIDE_QUEST_TITLE = "Learn About Auto-Battle"
 KNOWN_WORLD_LABELS = ("Welcome to RO3", "Picky")
 KNOWN_BUILD_TEMPLATE = "Suggested Build: ${1}"
 KNOWN_BUILD_NAME = "Exorciser"
+KNOWN_TALK_TEMPLATE = "Talk to ${1}"
+KNOWN_TALK_NAME = "Alphonse"
 KNOWN_BUILD_EFFECT_TEMPLATE = (
     "^{1}^{2}【Turn Undead】^{3}^{4}'s percentage-based damage multiplier "
     "increases by ${1}%, and its fixed damage increases by ${2}."
 )
 KNOWN_SPIRIT_TOWER_FLOOR_TEMPLATE = "Floor ${1}"
 KNOWN_SPIRIT_TOWER_CLIMB_TEMPLATE = "Climb ${1} more floors to obtain"
+KNOWN_SERVER_LEVEL_TEMPLATE = (
+    "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
+    "${2}: Server Level Cap increases to Lv. ${3}</color>"
+)
 OBSERVED_CHOOSE_LABEL = "请选择"
 OBSERVED_CHOOSE_TRANSLATION = "選択してください"
+LOCALIZATION_PATCH_PREFIXES = (
+    # Skill names/descriptions and linked tooltips. Some combat callouts bypass
+    # XUnity after the LanguageKV lookup (for example "Focused Arrow Strike!!").
+    "101102",
+    "101103",
+    "102203",
+    # NPC/monster/world entity names used by MeshUI overhead nameplates.
+    "104700",
+    "105300",
+    # Suggested-build effect descriptions.
+    "108001",
+    # Generic task/objective templates such as "Talk to ${1}".
+    "111901",
+    # Event/guild headings and descriptions that are sometimes preformatted.
+    "124001",
+    "124002",
+    # Quest titles, descriptions, objective strings and quest-type markers.
+    "1315",
+    # Recommended-build heading, server-level dynamic label, Spirit Tower.
+    "250091",
+    "35031",
+    "360",
+)
+KNOWN_WORLD_NAME_PAIRS = {
+    "Piere": "ピエール",
+    "Magnolia": "マグノリア",
+    "Ahn Gu-ho": "アン・グホ",
+}
+KNOWN_LOCALIZATION_PATCH_IDS = {
+    "10530000045": "Piere",
+    "10530000058": "Magnolia",
+    "10530000067": "Isis",
+    "10470000446": "Piere",
+    "10470000759": "Ahn Gu-ho",
+    "10470000828": "Alphonse",
+    "10470000996": "Caravan Member",
+    "10110200265": "Focused Arrow Strike",
+    "13150600321": "Take part in events and enjoy your adventures in this world",
+    "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
+}
 
 
 class ImportErrorWithContext(RuntimeError):
@@ -348,11 +397,11 @@ def build_runtime_regex(source: str, translated: str, *, force: bool = False) ->
     return f'r:"{pattern}"={replacement}'
 
 
-def load_language_kv_texts(prefixes: tuple[str, ...]) -> set[str]:
-    """Return LanguageKV English texts whose numeric IDs match prefixes."""
+def load_language_kv_rows(prefixes: tuple[str, ...]) -> list[tuple[str, str]]:
+    """Return ``(ID, English)`` rows whose LanguageKV IDs match prefixes."""
     if not LANGUAGE_KV_FILE.is_file():
         raise ImportErrorWithContext(f"missing LanguageKV source: {LANGUAGE_KV_FILE}")
-    result: set[str] = set()
+    result: list[tuple[str, str]] = []
     with LANGUAGE_KV_FILE.open("r", encoding="utf-8-sig") as handle:
         for line_number, line in enumerate(handle, start=1):
             line = line.rstrip("\r\n")
@@ -365,8 +414,13 @@ def load_language_kv_texts(prefixes: tuple[str, ...]) -> set[str]:
                     f"{LANGUAGE_KV_FILE.name}:{line_number}: expected ID<TAB>English"
                 ) from exc
             if key.startswith(prefixes):
-                result.add(english)
+                result.append((key, english))
     return result
+
+
+def load_language_kv_texts(prefixes: tuple[str, ...]) -> set[str]:
+    """Return LanguageKV English texts whose numeric IDs match prefixes."""
+    return {english for _, english in load_language_kv_rows(prefixes)}
 
 
 def load_runtime_keys() -> set[str]:
@@ -383,7 +437,16 @@ def load_runtime_keys() -> set[str]:
     game-side expansions.
     """
     return load_language_kv_texts(
-        ("101103", "102203", "108001", "124002", "250091", "360")
+        (
+            "101103",
+            "102203",
+            "108001",
+            "124002",
+            "131501",
+            "250091",
+            "35031",
+            "360",
+        )
     )
 
 
@@ -396,6 +459,112 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
         line = build_runtime_regex(english, japanese, force=True)
         if line:
             lines.append(line)
+
+        # A number of UI paths strip TMP rich-text before the runtime-expanded
+        # string reaches XUnity. Priority exact variants cannot match after the
+        # placeholders have already been expanded, so emit a regex derivative
+        # from the same canonical pair when rich text is present.
+        plain_english = strip_rich_text(english)
+        if plain_english != english:
+            plain_japanese = strip_rich_text(japanese)
+            line = build_runtime_regex(plain_english, plain_japanese, force=True)
+            if line:
+                lines.append(line)
+
+    # ID 35031 is authored as one rich-text block with a literal "\\n", but the
+    # task/server HUD renders its two lines as separate TextMeshPro strings. The
+    # live values therefore never match either the canonical exact key or the
+    # full multiline runtime regex. Derive both rendered lines directly from the
+    # canonical template, plus a date-less second-line form used by some layouts.
+    server_japanese = translations.get(KNOWN_SERVER_LEVEL_TEMPLATE)
+    if server_japanese:
+        server_plain = strip_rich_text(KNOWN_SERVER_LEVEL_TEMPLATE)
+        server_japanese_plain = strip_rich_text(server_japanese)
+        server_parts = server_plain.split("\\n")
+        server_japanese_parts = server_japanese_plain.split("\\n")
+        if len(server_parts) == 2 and len(server_japanese_parts) == 2:
+            for english, japanese in zip(server_parts, server_japanese_parts):
+                line = build_runtime_regex(english, japanese, force=True)
+                if line:
+                    lines.append(line)
+
+            second_source = server_parts[1]
+            second_japanese = server_japanese_parts[1]
+            if second_source.startswith("${2}: ") and second_japanese.startswith("${2}："):
+                line = build_runtime_regex(
+                    second_source[len("${2}: ") :],
+                    second_japanese[len("${2}：") :],
+                    force=True,
+                )
+                if line:
+                    lines.append(line)
+
+    # The task HUD can concatenate a quest-type marker and a placeholder-bearing
+    # quest title after expanding the title's runtime values. Exact combined
+    # variants cannot cover strings such as
+    # "[Main Quest] Reach Lv. 40 to Unlock New Main Quests", so emit combined
+    # regexes for all 131501 placeholder titles and all three observed markers.
+    quest_markers = (
+        KNOWN_MAIN_QUEST_MARKER,
+        KNOWN_SIDE_QUEST_MARKER,
+        KNOWN_COMMISSION_QUEST_MARKER,
+    )
+    quest_titles = load_language_kv_texts(("131501",))
+    for marker in quest_markers:
+        marker_japanese = translations.get(marker)
+        if not marker_japanese:
+            continue
+        marker_plain = strip_style_placeholders(marker)
+        marker_japanese_plain = strip_style_placeholders(marker_japanese)
+        for english in quest_titles:
+            if not RUNTIME_TOKEN_RE.search(english):
+                continue
+            japanese = translations.get(english)
+            if not japanese:
+                continue
+            line = build_runtime_regex(
+                f"{marker_plain} {english}",
+                f"{marker_japanese_plain} {japanese}",
+                force=True,
+            )
+            if line:
+                lines.append(line)
+
+    # 131506 objective strings use a trailing '*' as a game-side progress
+    # marker. The HUD removes the '*' and appends a runtime counter such as
+    # "0/1" or "0/15". Synthesize that rendered form from canonical data.
+    for english in load_language_kv_texts(("131506",)):
+        japanese = translations.get(english)
+        if not japanese or not english.endswith("*") or not japanese.endswith("*"):
+            continue
+        line = build_runtime_regex(
+            english[:-1].rstrip() + " ${1}",
+            japanese[:-1].rstrip() + " ${1}",
+            force=True,
+        )
+        if line:
+            lines.append(line)
+
+    # Generic talk objectives are materialized with an NPC name before XUnity
+    # and can then receive a progress counter. Generate exact NPC-name regexes
+    # from 104700 so both the NPC name and the counter are preserved without
+    # enabling global partial translation.
+    talk_template_translation = translations.get(KNOWN_TALK_TEMPLATE)
+    if talk_template_translation:
+        for npc_name in load_language_kv_texts(("104700",)):
+            translated_npc_name = translations.get(npc_name)
+            if not translated_npc_name or translated_npc_name == npc_name:
+                continue
+            line = build_runtime_regex(
+                KNOWN_TALK_TEMPLATE.replace("${1}", npc_name) + " ${2}",
+                talk_template_translation.replace("${1}", translated_npc_name) + " ${2}",
+                force=True,
+            )
+            if line:
+                lines.append(line)
+
+    # Preserve deterministic order while discarding duplicate derivatives.
+    lines = list(dict.fromkeys(lines))
     return lines
 
 
@@ -462,6 +631,10 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     main_marker_jp = strip_style_placeholders(translations.get(KNOWN_MAIN_QUEST_MARKER, ""))
     side_marker = strip_style_placeholders(KNOWN_SIDE_QUEST_MARKER)
     side_marker_jp = strip_style_placeholders(translations.get(KNOWN_SIDE_QUEST_MARKER, ""))
+    commission_marker = strip_style_placeholders(KNOWN_COMMISSION_QUEST_MARKER)
+    commission_marker_jp = strip_style_placeholders(
+        translations.get(KNOWN_COMMISSION_QUEST_MARKER, "")
+    )
     for english in load_language_kv_texts(("131501",)):
         japanese = translations.get(english)
         if not japanese:
@@ -470,6 +643,11 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
             add_variant(f"{main_marker} {english}", f"{main_marker_jp} {japanese}")
         if side_marker_jp:
             add_variant(f"{side_marker} {english}", f"{side_marker_jp} {japanese}")
+        if commission_marker_jp:
+            add_variant(
+                f"{commission_marker} {english}",
+                f"{commission_marker_jp} {japanese}",
+            )
 
     # A few world-space labels are repeatedly rewritten by the game. Keep
     # their canonical translations in the highest-priority manual file too.
@@ -500,6 +678,22 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
                     build_template_translation.replace("${1}", translated_build_name),
                 )
 
+    # Some quest objectives are built from the generic "Talk to ${1}"
+    # template after the NPC name has already been resolved to English. XUnity
+    # therefore sees strings such as "Talk to Alphonse" rather than the
+    # canonical placeholder form. Generate complete variants from the same
+    # 104700 world-entity names used by the overhead-name fallback so the NPC
+    # name itself is translated too.
+    talk_template_translation = translations.get(KNOWN_TALK_TEMPLATE)
+    if talk_template_translation:
+        for npc_name in load_language_kv_texts(("104700",)):
+            translated_npc_name = translations.get(npc_name)
+            if translated_npc_name and translated_npc_name != npc_name:
+                add_variant(
+                    KNOWN_TALK_TEMPLATE.replace("${1}", npc_name),
+                    talk_template_translation.replace("${1}", translated_npc_name),
+                )
+
     # This recommended-build screen contains one Simplified-Chinese prompt
     # that bypasses the English LanguageKV table entirely. Keep the observed
     # runtime alias in the priority file so the surrounding UI is consistent.
@@ -516,6 +710,36 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
         "// -----------------------------------------------------",
     ]
     return header + [f"{key}={value}" for key, value in sorted(variants.items())]
+
+
+def build_localization_patch_lines(translations: dict[str, str]) -> list[str]:
+    """Build ID-aware overrides for runtime paths that bypass XUnity setters.
+
+    The production client exposes ``Localization_en`` through its Lua runtime.
+    Several MeshUI/task/callout paths consume that table upstream and never pass
+    the final rendered text through a setter that XUnity 5.6.2 can reliably
+    hook. Keep this map ID-aware so duplicate English strings remain distinct,
+    and verify the expected English value at runtime before replacing it.
+    """
+    lines = [
+        "# RO3 runtime Localization_en overrides",
+        "# Generated by _TranslationWorkspace/import_translations.py",
+        "# ID<TAB>English<TAB>Japanese; canonical source is split_1000 parts 01-27",
+    ]
+    for key, english in load_language_kv_rows(LOCALIZATION_PATCH_PREFIXES):
+        japanese = translations.get(english)
+        if not japanese or japanese == english:
+            continue
+        if (
+            "\t" in key
+            or "\t" in english
+            or "\n" in english
+            or "\t" in japanese
+            or "\n" in japanese
+        ):
+            continue
+        lines.append(f"{key}\t{english}\t{japanese}")
+    return lines
 
 
 def atomic_write_text(path: Path, text: str, encoding: str = "utf-8-sig") -> None:
@@ -544,12 +768,14 @@ def write_outputs(
     translations: dict[str, str],
     regex_lines: list[str],
     priority_override_lines: list[str],
+    localization_patch_lines: list[str],
 ) -> None:
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     backup_if_exists(OUTPUT_FILE, timestamp)
     backup_if_exists(CANONICAL_MANUAL_FILE, timestamp)
     backup_if_exists(PRIORITY_OVERRIDE_FILE, timestamp)
     backup_if_exists(RUNTIME_REGEX_FILE, timestamp)
+    backup_if_exists(LOCALIZATION_PATCH_FILE, timestamp)
 
     dictionary_lines = [
         "// RO3 Asia Master Japanese Translation Dictionary",
@@ -575,6 +801,10 @@ def write_outputs(
         "// -----------------------------------------------------",
     ]
     atomic_write_text(RUNTIME_REGEX_FILE, "\n".join(regex_header + regex_lines) + "\n")
+    atomic_write_text(
+        LOCALIZATION_PATCH_FILE,
+        "\n".join(localization_patch_lines) + "\n",
+    )
 
     cache_text = json.dumps(translations, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
     atomic_write_text(CACHE_FILE, cache_text, encoding="utf-8")
@@ -649,6 +879,7 @@ def run(check_only: bool) -> int:
     imported_pairs, changed_pairs = apply_import_overrides(translations, index_to_english)
     regex_lines = build_runtime_regex_lines(translations)
     priority_override_lines = build_priority_override_lines(translations)
+    localization_patch_lines = build_localization_patch_lines(translations)
 
     if translations.get("JOB") != "JOB":
         raise ImportErrorWithContext(
@@ -704,6 +935,20 @@ def run(check_only: bool) -> int:
                 f"known Spirit Tower template did not generate a regex rule: {known_tower_template!r}"
             )
 
+    server_japanese = translations.get(KNOWN_SERVER_LEVEL_TEMPLATE)
+    if not server_japanese:
+        raise ImportErrorWithContext("known server-level template is missing from translations")
+    server_parts = strip_rich_text(KNOWN_SERVER_LEVEL_TEMPLATE).split("\\n")
+    server_japanese_parts = strip_rich_text(server_japanese).split("\\n")
+    if len(server_parts) != 2 or len(server_japanese_parts) != 2:
+        raise ImportErrorWithContext("known server-level template did not split into two rendered lines")
+    for english, japanese in zip(server_parts, server_japanese_parts):
+        server_regex = build_runtime_regex(english, japanese, force=True)
+        if not server_regex or server_regex not in regex_lines:
+            raise ImportErrorWithContext(
+                f"known server-level rendered line did not generate a regex rule: {english!r}"
+            )
+
     priority_text = "\n".join(priority_override_lines)
     expected_priority_pairs = {
         f"[{KNOWN_EVENT_TITLE}]": f"[{translations[KNOWN_EVENT_TITLE]}]",
@@ -716,6 +961,9 @@ def run(check_only: bool) -> int:
         strip_style_placeholders(KNOWN_SIDE_QUEST_MARKER): strip_style_placeholders(
             translations[KNOWN_SIDE_QUEST_MARKER]
         ),
+        strip_style_placeholders(KNOWN_COMMISSION_QUEST_MARKER): strip_style_placeholders(
+            translations[KNOWN_COMMISSION_QUEST_MARKER]
+        ),
         f"{strip_style_placeholders(KNOWN_MAIN_QUEST_MARKER)} {KNOWN_MAIN_QUEST_TITLE}": (
             f"{strip_style_placeholders(translations[KNOWN_MAIN_QUEST_MARKER])} "
             f"{translations[KNOWN_MAIN_QUEST_TITLE]}"
@@ -727,6 +975,9 @@ def run(check_only: bool) -> int:
         KNOWN_BUILD_TEMPLATE.replace("${1}", KNOWN_BUILD_NAME): translations[
             KNOWN_BUILD_TEMPLATE
         ].replace("${1}", translations[KNOWN_BUILD_NAME]),
+        KNOWN_TALK_TEMPLATE.replace("${1}", KNOWN_TALK_NAME): translations[
+            KNOWN_TALK_TEMPLATE
+        ].replace("${1}", translations[KNOWN_TALK_NAME]),
         OBSERVED_CHOOSE_LABEL: OBSERVED_CHOOSE_TRANSLATION,
     }
     for source in KNOWN_WORLD_LABELS:
@@ -737,8 +988,52 @@ def run(check_only: bool) -> int:
                 f"known runtime variant did not generate: {source!r} -> {translated!r}"
             )
 
+    localization_patch_text = "\n".join(localization_patch_lines)
+    for source, expected in KNOWN_WORLD_NAME_PAIRS.items():
+        actual = translations.get(source)
+        if actual != expected:
+            raise ImportErrorWithContext(
+                f"known world name translation changed: {source!r} -> {actual!r}; expected {expected!r}"
+            )
+        matching_ids = [
+            key
+            for key, english in load_language_kv_rows(("104700", "105300"))
+            if english == source
+        ]
+        if not matching_ids or not any(
+            f"{key}\t{source}\t{expected}" in localization_patch_text
+            for key in matching_ids
+        ):
+            raise ImportErrorWithContext(
+                f"known localization-table world name did not generate: {source!r} -> {expected!r}"
+            )
+
+    language_kv_by_id = dict(load_language_kv_rows(("",)))
+    for key, expected_english in KNOWN_LOCALIZATION_PATCH_IDS.items():
+        actual_english = language_kv_by_id.get(key)
+        if actual_english != expected_english:
+            raise ImportErrorWithContext(
+                f"LanguageKV regression row changed: {key} -> {actual_english!r}; "
+                f"expected {expected_english!r}"
+            )
+        expected_japanese = translations.get(expected_english)
+        if not expected_japanese:
+            raise ImportErrorWithContext(
+                f"known localization patch row lacks canonical Japanese: {key} {expected_english!r}"
+            )
+        expected_line = f"{key}\t{expected_english}\t{expected_japanese}"
+        if expected_line not in localization_patch_text:
+            raise ImportErrorWithContext(
+                f"known localization patch row did not generate: {expected_line!r}"
+            )
+
     if not check_only:
-        write_outputs(translations, regex_lines, priority_override_lines)
+        write_outputs(
+            translations,
+            regex_lines,
+            priority_override_lines,
+            localization_patch_lines,
+        )
         hot_reload, static_disabled, getter_compat, partial_disabled, tmp_fallback = configure_xunity()
     else:
         config_text = (
@@ -760,6 +1055,7 @@ def run(check_only: bool) -> int:
     print(f"  import pairs:           {imported_pairs} ({changed_pairs} changed)")
     print(f"  runtime regex rules:    {len(regex_lines)}")
     print(f"  priority variants:      {max(0, len(priority_override_lines) - 5)}")
+    print(f"  localization overrides: {max(0, len(localization_patch_lines) - 3)}")
     print(f"  JOB canonical value:    {translations['JOB']}")
     print(f"  hot reload enabled:     {hot_reload}")
     print(f"  XUnity static disabled: {static_disabled}")
@@ -773,6 +1069,7 @@ def run(check_only: bool) -> int:
         print(f"  canonical manual:       {CANONICAL_MANUAL_FILE}")
         print(f"  priority overrides:     {PRIORITY_OVERRIDE_FILE}")
         print(f"  runtime regex:          {RUNTIME_REGEX_FILE}")
+        print(f"  localization map:       {LOCALIZATION_PATCH_FILE}")
         print(f"  cache:                  {CACHE_FILE}")
     return 0
 

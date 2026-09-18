@@ -7,7 +7,7 @@ echo ========================================================
 echo   RO3 Asia Japanese Translation Builder
 echo ========================================================
 echo.
-py "_TranslationWorkspace\import_translations.py"
+py -3 "_TranslationWorkspace\import_translations.py"
 set "RC=%ERRORLEVEL%"
 
 echo.

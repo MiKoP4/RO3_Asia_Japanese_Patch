@@ -25,10 +25,15 @@ RO3_Asia_Japanese_Patch/
 │  └─ import/                      # optional override input
 ├─ Client/
 │  ├─ BepInEx/config/
-│  │  └─ AutoTranslatorConfig.ini
+│  │  ├─ AutoTranslatorConfig.ini
+│  │  └─ RO3.LocalizationOverrides.tsv # LanguageKV ID単位のruntime補助マップ
+│  ├─ BepInEx/plugins/
+│  │  └─ RO3.LocalizationTablePatcher.dll # Localization_en補助パッチ
 │  ├─ BepInEx/Translation/ja/Text/ # 生成済みXUnity辞書
 │  └─ arialuni_sdf_u2022           # TMP日本語fallback font asset
+├─ src/RO3.LocalizationTablePatcher/ # Localization_en補助プラグインのソース
 ├─ scripts/
+│  ├─ Build-LocalizationTablePatcher.ps1 # runtime補助DLLをビルド
 │  ├─ Deploy-To-Game.ps1           # 実ゲームへ必要ファイルだけコピー
 │  └─ Build-Release.ps1            # 導入用Release ZIPを生成
 ├─ packaging/                       # Release用 installer / uninstaller
@@ -40,7 +45,7 @@ RO3_Asia_Japanese_Patch/
 └─ Build-And-Deploy.bat
 ```
 
-BepInEx / XUnity AutoTranslator / ResourceRedirector 本体の第三者DLLは、このGit正本には含めません。完全配布ZIPは `dist/` のビルド成果物として別管理します。
+BepInEx / XUnity AutoTranslator / ResourceRedirector の配布用ランタイム一式は、このGit正本には含めません。`third_party/reference/BepInEx.dll` のみ、補助プラグインを再ビルドするためのクリーンなコンパイル参照として保持します。完全配布ZIPは `dist/` のビルド成果物として別管理します。
 
 第三者コンポーネントの出自・ライセンスは `THIRD_PARTY_NOTICES.md` と `third_party/` を参照してください。Release ZIPにも同じライセンス文書を同梱します。
 
@@ -54,6 +59,10 @@ BepInEx / XUnity AutoTranslator / ResourceRedirector 本体の第三者DLLは、
 
 ## Release ZIP
 
+公開済みReleaseは次から取得できます。
+
+https://github.com/MiKoP4/RO3_Asia_Japanese_Patch/releases
+
 現在インストール済みで動作確認したBepInEx/XUnityランタイムと、このリポジトリから再生成した最新辞書を組み合わせて配布ZIPを作ります。
 
 ```powershell
@@ -61,6 +70,14 @@ powershell -ExecutionPolicy Bypass -File scripts\Build-Release.ps1 -Version 2026
 ```
 
 生成物は `dist/` に作られ、Gitでは追跡しません。`Install-Japanese.bat` は初回導入だけでなく、以前のReleaseを導入済みの環境への**上書き更新**にも対応しています。
+
+## XUnity を通らない runtime 表示
+
+RO3 には、XUnity 5.6.2 の TextMeshPro setter hook を通らない表示経路があります。代表例はモンスター/NPCの頭上ネーム、戦闘時の一部スキル吹き出し、タスクHUDの一部です。
+
+`RO3.LocalizationTablePatcher.dll` は、XUnity を迂回する表示経路を追跡するための runtime 補助プラグインです。`RO3.LocalizationOverrides.tsv` の形式は `ID<TAB>English<TAB>Japanese` で、canonical Japanese は `_TranslationWorkspace/split_1000/` parts 1–27 から生成します。C# 側の LanguageKV キャッシュにはこのIDマップを安全に反映しますが、モンスター/NPCの頭上ネームは別の Lua/MeshUI 経路を通ることが確認されており、そこへの適用は現在も調査中です。
+
+対象には、報告済みの不具合に関係する namespace（スキル名/説明、NPC・モンスター名、イベント、クエスト、Suggested Build、Spirit Tower など）だけを含めます。プラグイン側に第二の手書き辞書は持ちません。`Piere → ピエール`、`Magnolia → マグノリア`、`Ahn Gu-ho → アン・グホ`、`Alphonse → アルフォンス` などは生成時の回帰ガードに含まれます。
 
 ## 実ゲームへの反映先
 

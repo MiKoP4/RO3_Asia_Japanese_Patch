@@ -9,3 +9,5 @@
 
 # Binary font asset: keep byte-for-byte and do not diff as text.
 Client/arialuni_sdf_u2022 binary
+Client/BepInEx/plugins/RO3.LocalizationTablePatcher.dll binary
+third_party/reference/BepInEx.dll binary

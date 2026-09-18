@@ -12,6 +12,8 @@ The installable release ZIP contains third-party runtime components required by 
 
 The distributed BepInEx runtime has compatibility adjustments for this RO3 client. The historical patching scripts used to produce/debug those adjustments are kept under `tools/legacy-runtime-patching/`.
 
+`third_party/reference/BepInEx.dll` is an unmodified build-time reference used to compile `RO3.LocalizationTablePatcher.dll`; it is covered by the same BepInEx license above.
+
 ## XUnity AutoTranslator / XUnity ResourceRedirector
 
 - Project: bbepis/XUnity.AutoTranslator

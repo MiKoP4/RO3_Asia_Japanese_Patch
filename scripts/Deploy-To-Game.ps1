@@ -27,6 +27,8 @@ $files = @(
     'BepInEx\Translation\ja\Text\RO3_PriorityOverrides.txt',
     'BepInEx\Translation\ja\Text\RO3_RuntimePlaceholders.txt',
     'BepInEx\config\AutoTranslatorConfig.ini',
+    'BepInEx\config\RO3.LocalizationOverrides.tsv',
+    'BepInEx\plugins\RO3.LocalizationTablePatcher.dll',
     'arialuni_sdf_u2022'
 )
 
@@ -43,6 +45,22 @@ foreach ($relative in $files) {
     Write-Host "[COPIED] $relative"
 }
 
+# Remove obsolete development implementations after the replacement has been
+# copied successfully. These files were never part of the public v2026.09.17.1
+# release, but may exist in a developer/test installation.
+$obsoleteFiles = @(
+    'BepInEx\config\RO3.WorldNameTranslations.tsv',
+    'BepInEx\plugins\RO3.WorldNameTranslator.dll',
+    'BepInEx\plugins\RO3.LuaNameplateModuleInspector.dll'
+)
+foreach ($relative in $obsoleteFiles) {
+    $path = Join-Path $TargetClient $relative
+    if (Test-Path -LiteralPath $path -PathType Leaf) {
+        Remove-Item -LiteralPath $path -Force
+        Write-Host "[REMOVED obsolete] $relative"
+    }
+}
+
 Write-Host ""
 Write-Host "[OK] Japanese translation payload deployed to: $TargetClient"
-Write-Host "     If RO3 is running, use XUnity reload where applicable; restart for config/font changes."
+Write-Host "     Restart RO3 to load the localization-table patcher DLL."
