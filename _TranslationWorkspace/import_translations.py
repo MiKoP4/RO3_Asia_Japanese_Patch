@@ -95,6 +95,8 @@ KNOWN_BUILD_EFFECT_TEMPLATE = (
 )
 KNOWN_SPIRIT_TOWER_FLOOR_TEMPLATE = "Floor ${1}"
 KNOWN_SPIRIT_TOWER_CLIMB_TEMPLATE = "Climb ${1} more floors to obtain"
+KNOWN_PREREQUISITE_SKILL_TEMPLATE = "Prerequisite Skill <color=#cc762a>${1}</color>"
+KNOWN_PREREQUISITE_SKILL_NAME = "Heal"
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
     "${2}: Server Level Cap increases to Lv. ${3}</color>"
@@ -418,9 +420,9 @@ def load_language_kv_rows(prefixes: tuple[str, ...]) -> list[tuple[str, str]]:
     return result
 
 
-def load_language_kv_texts(prefixes: tuple[str, ...]) -> set[str]:
-    """Return LanguageKV English texts whose numeric IDs match prefixes."""
-    return {english for _, english in load_language_kv_rows(prefixes)}
+def load_language_kv_texts(prefixes: tuple[str, ...]) -> list[str]:
+    """Return unique LanguageKV English texts in stable source-file order."""
+    return list(dict.fromkeys(english for _, english in load_language_kv_rows(prefixes)))
 
 
 def load_runtime_keys() -> set[str]:
@@ -436,16 +438,19 @@ def load_runtime_keys() -> set[str]:
     loading thousands of unrelated rules while still covering the known
     game-side expansions.
     """
-    return load_language_kv_texts(
-        (
-            "101103",
-            "102203",
-            "108001",
-            "124002",
-            "131501",
-            "250091",
-            "35031",
-            "360",
+    return set(
+        load_language_kv_texts(
+            (
+                "101103",
+                "102203",
+                "108001",
+                "124002",
+                "131501",
+                "250091",
+                "33001",
+                "35031",
+                "360",
+            )
         )
     )
 
@@ -470,6 +475,43 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
             line = build_runtime_regex(plain_english, plain_japanese, force=True)
             if line:
                 lines.append(line)
+
+    # ID 33001 receives a rendered prerequisite string such as
+    # "Prerequisite Skill Heal Lv.5" inside its single ${1} placeholder.
+    # The generic plain-text derivative above localizes the label while keeping
+    # unknown placeholder content intact. For known 101102 skill names, emit a
+    # more specific rule so the prerequisite skill name is localized too while
+    # preserving the runtime level value.
+    prerequisite_japanese = translations.get(KNOWN_PREREQUISITE_SKILL_TEMPLATE)
+    if prerequisite_japanese:
+        prerequisite_plain = strip_rich_text(KNOWN_PREREQUISITE_SKILL_TEMPLATE)
+        prerequisite_japanese_plain = strip_rich_text(prerequisite_japanese)
+        source_prefix = prerequisite_plain.replace("${1}", "")
+        japanese_prefix = prerequisite_japanese_plain.replace("${1}", "")
+        for skill_name in load_language_kv_texts(("101102",)):
+            translated_skill_name = translations.get(skill_name)
+            if (
+                not translated_skill_name
+                or translated_skill_name == skill_name
+                or RUNTIME_TOKEN_RE.search(skill_name)
+                or '"' in skill_name
+                or '"' in translated_skill_name
+                or "=" in skill_name
+                or "=" in translated_skill_name
+                or "\n" in skill_name
+                or "\n" in translated_skill_name
+            ):
+                continue
+            level_group = "ro3_prerequisite_level_i"
+            source_pattern = (
+                "^"
+                + regex_escape_literal(f"{source_prefix}{skill_name} Lv.")
+                + rf" ?(?<{level_group}>[\s\S]+?)$"
+            )
+            lines.append(
+                f'r:"{source_pattern}"='
+                f"{japanese_prefix}{translated_skill_name} Lv.${{{level_group}}}"
+            )
 
     # ID 35031 is authored as one rich-text block with a literal "\\n", but the
     # task/server HUD renders its two lines as separate TextMeshPro strings. The
@@ -934,6 +976,45 @@ def run(check_only: bool) -> int:
             raise ImportErrorWithContext(
                 f"known Spirit Tower template did not generate a regex rule: {known_tower_template!r}"
             )
+
+    prerequisite_japanese = translations.get(KNOWN_PREREQUISITE_SKILL_TEMPLATE)
+    if not prerequisite_japanese:
+        raise ImportErrorWithContext("known prerequisite-skill template is missing from translations")
+    prerequisite_plain = strip_rich_text(KNOWN_PREREQUISITE_SKILL_TEMPLATE)
+    prerequisite_japanese_plain = strip_rich_text(prerequisite_japanese)
+    prerequisite_regex = build_runtime_regex(
+        prerequisite_plain,
+        prerequisite_japanese_plain,
+        force=True,
+    )
+    if not prerequisite_regex or prerequisite_regex not in regex_lines:
+        raise ImportErrorWithContext(
+            "known prerequisite-skill rendered template did not generate a runtime regex"
+        )
+    prerequisite_skill_japanese = translations.get(KNOWN_PREREQUISITE_SKILL_NAME)
+    if not prerequisite_skill_japanese:
+        raise ImportErrorWithContext(
+            f"known prerequisite skill is missing from translations: {KNOWN_PREREQUISITE_SKILL_NAME!r}"
+        )
+    prerequisite_source_prefix = prerequisite_plain.replace("${1}", "")
+    prerequisite_japanese_prefix = prerequisite_japanese_plain.replace("${1}", "")
+    prerequisite_level_group = "ro3_prerequisite_level_i"
+    prerequisite_skill_pattern = (
+        "^"
+        + regex_escape_literal(
+            f"{prerequisite_source_prefix}{KNOWN_PREREQUISITE_SKILL_NAME} Lv."
+        )
+        + rf" ?(?<{prerequisite_level_group}>[\s\S]+?)$"
+    )
+    prerequisite_skill_regex = (
+        f'r:"{prerequisite_skill_pattern}"='
+        f"{prerequisite_japanese_prefix}{prerequisite_skill_japanese} "
+        f"Lv.${{{prerequisite_level_group}}}"
+    )
+    if prerequisite_skill_regex not in regex_lines:
+        raise ImportErrorWithContext(
+            "known prerequisite-skill name/level runtime variant did not generate"
+        )
 
     server_japanese = translations.get(KNOWN_SERVER_LEVEL_TEMPLATE)
     if not server_japanese:
