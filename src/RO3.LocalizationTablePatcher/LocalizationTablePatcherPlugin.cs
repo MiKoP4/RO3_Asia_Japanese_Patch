@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace RO3.JapaneseMod
 {
-    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.5.1")]
+    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.6.1")]
     public sealed class LocalizationTablePatcherPlugin : BaseUnityPlugin
     {
         private sealed class ReferenceComparer<T> : IEqualityComparer<T> where T : class
@@ -97,6 +97,16 @@ namespace RO3.JapaneseMod
         private void Awake()
         {
             _mapPath = Path.Combine(Paths.ConfigPath, "RO3.LocalizationOverrides.tsv");
+            try
+            {
+                string recoveryStatus = RecoveryLocalizationPatcher.Apply(Paths.GameRootPath, _mapPath);
+                Logger.LogInfo("[LocalizationTablePatcher][Recovery] " + recoveryStatus);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogWarning(
+                    "[LocalizationTablePatcher][Recovery] Upstream skill-name patch was skipped: " + ex);
+            }
             LoadEntries();
             _current = this;
             _unityContext = SynchronizationContext.Current;

@@ -13,6 +13,7 @@ if ([string]::IsNullOrWhiteSpace($GameRoot)) {
 $GameRoot = [System.IO.Path]::GetFullPath($GameRoot)
 $Managed = Join-Path $GameRoot 'Client\ro3_Data\Managed'
 $Source = Join-Path $RepoRoot 'src\RO3.LocalizationTablePatcher\LocalizationTablePatcherPlugin.cs'
+$RecoverySource = Join-Path $RepoRoot 'src\RO3.LocalizationTablePatcher\RecoveryLocalizationPatcher.cs'
 $Output = Join-Path $RepoRoot 'Client\BepInEx\plugins\RO3.LocalizationTablePatcher.dll'
 $BepInExReference = Join-Path $RepoRoot 'third_party\reference\BepInEx.dll'
 $HarmonyReference = Join-Path $GameRoot 'Client\BepInEx\core\0Harmony.dll'
@@ -20,6 +21,7 @@ $Csc = Join-Path $env:WINDIR 'Microsoft.NET\Framework\v4.0.30319\csc.exe'
 
 $required = @(
     $Source,
+    $RecoverySource,
     $BepInExReference,
     $HarmonyReference,
     (Join-Path $Managed 'UnityEngine.dll'),
@@ -44,7 +46,7 @@ $references = @(
 
 $compilerArgs = @('/nologo', '/target:library', "/out:$Output")
 $compilerArgs += $references | ForEach-Object { "/reference:$_" }
-$compilerArgs += $Source
+$compilerArgs += @($Source, $RecoverySource)
 
 & $Csc @compilerArgs
 

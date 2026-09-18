@@ -70,6 +70,11 @@ KNOWN_TOOLTIP_TEMPLATE = (
     "You are revealed after taking damage @{1} times or dealing damage."
 )
 
+KNOWN_ATTRIBUTE_TOOLTIP_TEMPLATE = (
+    "Every @{1} DEX grants @{2} HIT and @{3} Cast Speed. "
+    "Archers gain an Extra @{4} PATK and @{5}% PATK."
+)
+
 KNOWN_EVENT_TEMPLATE = (
     "Every @{1} seconds, Monsters will cause trouble. Defeat them to earn rewards. "
     "Draw First Prize during the final @{2} minutes."
@@ -96,7 +101,6 @@ KNOWN_BUILD_EFFECT_TEMPLATE = (
 KNOWN_SPIRIT_TOWER_FLOOR_TEMPLATE = "Floor ${1}"
 KNOWN_SPIRIT_TOWER_CLIMB_TEMPLATE = "Climb ${1} more floors to obtain"
 KNOWN_PREREQUISITE_SKILL_TEMPLATE = "Prerequisite Skill <color=#cc762a>${1}</color>"
-KNOWN_PREREQUISITE_SKILL_NAME = "Heal"
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
     "${2}: Server Level Cap increases to Lv. ${3}</color>"
@@ -428,6 +432,8 @@ def load_language_kv_texts(prefixes: tuple[str, ...]) -> list[str]:
 def load_runtime_keys() -> set[str]:
     """Return texts known to have placeholders expanded before XUnity lookup.
 
+    IDs beginning with 100105 are character-attribute display/tooltip records;
+    their numeric placeholders are expanded before hover tooltips reach XUnity.
     IDs beginning with 101103 are skill-description records. IDs beginning
     with 102203 are linked skill/effect tooltip records. IDs beginning with
     108001 are recommended-build synergy descriptions, and 250091 is the
@@ -441,6 +447,7 @@ def load_runtime_keys() -> set[str]:
     return set(
         load_language_kv_texts(
             (
+                "100105",
                 "101103",
                 "102203",
                 "108001",
@@ -475,43 +482,6 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
             line = build_runtime_regex(plain_english, plain_japanese, force=True)
             if line:
                 lines.append(line)
-
-    # ID 33001 receives a rendered prerequisite string such as
-    # "Prerequisite Skill Heal Lv.5" inside its single ${1} placeholder.
-    # The generic plain-text derivative above localizes the label while keeping
-    # unknown placeholder content intact. For known 101102 skill names, emit a
-    # more specific rule so the prerequisite skill name is localized too while
-    # preserving the runtime level value.
-    prerequisite_japanese = translations.get(KNOWN_PREREQUISITE_SKILL_TEMPLATE)
-    if prerequisite_japanese:
-        prerequisite_plain = strip_rich_text(KNOWN_PREREQUISITE_SKILL_TEMPLATE)
-        prerequisite_japanese_plain = strip_rich_text(prerequisite_japanese)
-        source_prefix = prerequisite_plain.replace("${1}", "")
-        japanese_prefix = prerequisite_japanese_plain.replace("${1}", "")
-        for skill_name in load_language_kv_texts(("101102",)):
-            translated_skill_name = translations.get(skill_name)
-            if (
-                not translated_skill_name
-                or translated_skill_name == skill_name
-                or RUNTIME_TOKEN_RE.search(skill_name)
-                or '"' in skill_name
-                or '"' in translated_skill_name
-                or "=" in skill_name
-                or "=" in translated_skill_name
-                or "\n" in skill_name
-                or "\n" in translated_skill_name
-            ):
-                continue
-            level_group = "ro3_prerequisite_level_i"
-            source_pattern = (
-                "^"
-                + regex_escape_literal(f"{source_prefix}{skill_name} Lv.")
-                + rf" ?(?<{level_group}>[\s\S]+?)$"
-            )
-            lines.append(
-                f'r:"{source_pattern}"='
-                f"{japanese_prefix}{translated_skill_name} Lv.${{{level_group}}}"
-            )
 
     # ID 35031 is authored as one rich-text block with a literal "\\n", but the
     # task/server HUD renders its two lines as separate TextMeshPro strings. The
@@ -941,6 +911,15 @@ def run(check_only: bool) -> int:
     )
     if not known_tooltip_regex or known_tooltip_regex not in regex_lines:
         raise ImportErrorWithContext("known Cloaking tooltip template did not generate a regex rule")
+    if KNOWN_ATTRIBUTE_TOOLTIP_TEMPLATE not in translations:
+        raise ImportErrorWithContext("known DEX attribute tooltip template is missing from translations")
+    known_attribute_tooltip_regex = build_runtime_regex(
+        KNOWN_ATTRIBUTE_TOOLTIP_TEMPLATE,
+        translations[KNOWN_ATTRIBUTE_TOOLTIP_TEMPLATE],
+        force=True,
+    )
+    if not known_attribute_tooltip_regex or known_attribute_tooltip_regex not in regex_lines:
+        raise ImportErrorWithContext("known DEX attribute tooltip template did not generate a regex rule")
     if KNOWN_EVENT_TEMPLATE not in translations:
         raise ImportErrorWithContext("known party-event template is missing from translations")
     known_event_regex = build_runtime_regex(
@@ -991,31 +970,6 @@ def run(check_only: bool) -> int:
         raise ImportErrorWithContext(
             "known prerequisite-skill rendered template did not generate a runtime regex"
         )
-    prerequisite_skill_japanese = translations.get(KNOWN_PREREQUISITE_SKILL_NAME)
-    if not prerequisite_skill_japanese:
-        raise ImportErrorWithContext(
-            f"known prerequisite skill is missing from translations: {KNOWN_PREREQUISITE_SKILL_NAME!r}"
-        )
-    prerequisite_source_prefix = prerequisite_plain.replace("${1}", "")
-    prerequisite_japanese_prefix = prerequisite_japanese_plain.replace("${1}", "")
-    prerequisite_level_group = "ro3_prerequisite_level_i"
-    prerequisite_skill_pattern = (
-        "^"
-        + regex_escape_literal(
-            f"{prerequisite_source_prefix}{KNOWN_PREREQUISITE_SKILL_NAME} Lv."
-        )
-        + rf" ?(?<{prerequisite_level_group}>[\s\S]+?)$"
-    )
-    prerequisite_skill_regex = (
-        f'r:"{prerequisite_skill_pattern}"='
-        f"{prerequisite_japanese_prefix}{prerequisite_skill_japanese} "
-        f"Lv.${{{prerequisite_level_group}}}"
-    )
-    if prerequisite_skill_regex not in regex_lines:
-        raise ImportErrorWithContext(
-            "known prerequisite-skill name/level runtime variant did not generate"
-        )
-
     server_japanese = translations.get(KNOWN_SERVER_LEVEL_TEMPLATE)
     if not server_japanese:
         raise ImportErrorWithContext("known server-level template is missing from translations")
