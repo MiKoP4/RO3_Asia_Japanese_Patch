@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 10001	Woof! Woof woof woof!	ワン！ワンワンワン！
 10002	Wait! I'm coming too!	待って！私も行く！
 10003	Current Battle Report	現在の戦闘レポート
@@ -222,7 +222,7 @@ Index	English	Japanese_Translation
 10221	Trigger type mismatch	トリガー種別が一致しません
 10222	Mace Mastery Lv. @{1}	メイスマスタリー Lv. @{1}
 10223	^{1}Rousing Cheer^{2}	^{1}奮い立つ歓声^{2}
-10224	Gloria Domini Enhance	グロリアドミニ強化
+10224	Gloria Domini Enhance	グロリア・ドミニ強化
 10225	Rapid Smiting Enhance	ラピッドスマイティング強化
 10226	Spiral Pierce Enhance	スパイラルピアース強化
 10227	Spiral Pierce Mastery	スパイラルピアースマスタリー
@@ -684,7 +684,7 @@ Index	English	Japanese_Translation
 10683	Card: Baby Desert Wolf	カード：ベビーデザートウルフ
 10684	Divine Totem Synthesis	神聖トーテム合成
 10685	Card Slotting Details:	カードスロット詳細：
-10686	Codex Function Details	コーデックス機能詳細
+10686	Codex Function Details	図鑑機能詳細
 10687	Match Gameplay Details	対戦ルール詳細
 10688	Challenge Requirements	挑戦条件
 10689	I Have the Highest Bid	現在最高入札者です
@@ -929,7 +929,7 @@ Index	English	Japanese_Translation
 10928	Keep up to ${1} records	最大${1}件まで保持
 10929	Pre-purchase successful	事前購入に成功しました
 10930	Deduct Illicit Earnings	不正収益を差し引く
-10931	Introducing Codex Cards	コーデックスカード紹介
+10931	Introducing Codex Cards	図鑑カード紹介
 10932	Bond Points Information	絆ポイント情報
 10933	Details Details Details	詳細 詳細 詳細
 10934	Advanced Treasure Chest	上級宝箱

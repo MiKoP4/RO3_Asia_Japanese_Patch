@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 20001	Insufficient cargo loaded. Unable to dispatch the ship.	積載貨物が不足しているため、船を派遣できません。
 20002	The other player has already received a friend request.	相手にはすでにフレンド申請が届いています。
 20003	You're right. Let's decide what gift to give her first.	そうだね。まずは彼女に何を贈るか決めよう。
@@ -871,7 +871,7 @@ Index	English	Japanese_Translation
 20870	Come. With your new job, You will face even greater Challenges.	さあ、新しい職業でさらに大きな試練に挑むのです。
 20871	We've got the bow tie! You can keep that useless piece of junk!	蝶ネクタイは手に入れた！その役立たずなガラクタはあげる！
 20872	Tap the Spectate Button on the right to Enter a teammate's view	右側の観戦ボタンをタップしてチームメイト視点へ
-20873	^{1}^{2}【Warning】^{3}^{4}The enemy's [Left Ladder] is in place.	^{1}^{2}【警告】^{3}^{4}敵の[左梯子]が設置されました。
+20873	^{1}^{2}【Warning】^{3}^{4}The enemy's [Left Ladder] is in place.	^{1}^{2}【警告】^{3}^{4}敵の[左はしご]が設置されました。
 20874	Quickly head to the red note with your allies and destroy it!!!	味方と一緒に赤い音符へ急ぎ、破壊せよ！！！
 20875	Use the skill granted by the giant blade while facing Orc Hero!	巨大剣から得たスキルを使い、オークヒーローに立ち向かえ！
 20876	Ilmata has summoned Nebula Jellyfish! Hurry into the Safe Zone!	イルマタがネビュラジェリーフィッシュを召喚！急いでセーフゾーンへ！
@@ -902,7 +902,7 @@ Index	English	Japanese_Translation
 20901	Reapplying the Monthly Pass will extend it by 30 days. Reapply?	月間パスを再購入すると30日延長されます。再購入しますか？
 20902	Max Adventure Guild applications: <color=${3}>${1}</color>/${2}	冒険者ギルド申請上限：<color=${3}>${1}</color>/${2}
 20903	Healing buff: Each Floor increases healing efficiency by @{1}%.	回復バフ：1階層ごとに回復効率 +@{1}%。
-20904	Each CRIT with 【Advanced Katar Mastery】 now grants ${1} Floors.	【上級カタール修練】でクリティカルするたび${1}階層を獲得。
+20904	Each CRIT with 【Advanced Katar Mastery】 now grants ${1} Floors.	【上級カタールマスタリー】でクリティカルするたび${1}階層を獲得。
 20905	${1} is currently used in a build. Use it for synthesis anyway?	${1}は現在ビルドで使用中です。それでも合成に使いますか？
 20906	The requester deleted their Get Help request. Unable to submit.	依頼者が支援要請を削除したため提出できません。
 20907	Reduces Ranged Physical damage taken by ${2}% for ${3} seconds.	${3}秒間、受ける遠距離物理ダメージを${2}%軽減。
@@ -933,7 +933,7 @@ Index	English	Japanese_Translation
 20932	Check whether this is needed; currently, it doesn't appear to be	必要か確認してください。現状では不要に見えます
 20933	Continually weakens, causing damage taken to increase over time.	継続的に弱体化し、時間経過で被ダメージが増加。
 20934	Failed to enter the area. You have been transported to Prontera.	エリア入場に失敗しました。プロンテラへ転送されました。
-20935	When ^{1}^{2}[Mace Mastery]^{3}^{4} reaches Lv. ${1}, STR +${2}.	^{1}^{2}[メイス修練]^{3}^{4}がLv.${1}になるとSTR +${2}。
+20935	When ^{1}^{2}[Mace Mastery]^{3}^{4} reaches Lv. ${1}, STR +${2}.	^{1}^{2}[メイスマスタリー]^{3}^{4}がLv.${1}になるとSTR +${2}。
 20936	Maya ^{1}slashes in front of and behind herself^{2} in sequence.	マヤーが順番に^{1}前方と後方を斬りつける^{2}。
 20937	Based on an analysis of the strange fluctuations in the Ant Hell	蟻地獄の奇妙な変動を分析した結果
 20938	Gospel Resonance is unaffected by Counters and other Resonances.	ゴスペル共鳴はカウンターや他の共鳴の影響を受けません。

@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 2001	Lv.81-100	Lv.81-100
 2002	Filtering	フィルタリング
 2003	Kaka Coin	カカコイン
@@ -85,7 +85,7 @@ Index	English	Japanese_Translation
 2084	Vietnamese	ベトナム語
 2085	Rare Items	レアアイテム
 2086	Mandragora	マンドラゴラ
-2087	Thara Frog	タラ・フロッグ
+2087	Thara Frog	タラフロッグ
 2088	Sword Fish	ソードフィッシュ
 2089	Orc Zombie	オークゾンビ
 2090	Hunter Fly	ハンターフライ
@@ -212,7 +212,7 @@ Index	English	Japanese_Translation
 2211	FLEE +@{1}	FLEE +@{1}
 2212	DEX +${1}.	DEX +${1}。
 2213	LUK +${1}.	LUK +${1}。
-2214	Holy Light	聖なる光
+2214	Holy Light	ホーリーライト
 2215	Magnificat	マニフィカト
 2216	Lex Divina	レックス・ディヴィナ
 2217	Suffragium	参政権
@@ -281,7 +281,7 @@ Index	English	Japanese_Translation
 2280	Frost Nova	フロストノヴァ
 2281	Soul Drain	ソウルドレイン
 2282	Ganbantein	ガンバンテイン
-2283	Ember Zone	残り火ゾーン
+2283	Ember Zone	エンバーゾーン
 2284	Hodgepodge	ごった煮
 2285	To-Do List	やることリスト
 2286	Spawn Boss	スポーンボス
@@ -442,7 +442,7 @@ Index	English	Japanese_Translation
 2441	Into Peril	危険へ
 2442	Settlement	集計
 2443	Spectating	観戦中
-2444	Immobilize	動けなくする
+2444	Immobilize	移動不能
 2445	Apprentice	見習い
 2446	Journeyman	ジャーニーマン
 2447	BTN_IGNORE	BTN_IGNORE
@@ -588,7 +588,7 @@ Index	English	Japanese_Translation
 2587	Mount Buff	マウントバフ
 2588	Idle Speed	アイドル速度
 2589	Ride Mount	ライドマウント
-2590	Deprecated	廃止されました
+2590	Deprecated	廃止予定
 2591	Great Leap	大躍進
 2592	Fairy Ward	フェアリーウォード
 2593	Vile Drain	ヴァイル・ドレイン
@@ -625,9 +625,9 @@ Index	English	Japanese_Translation
 2624	Miyabi Doll	みやび人形
 2625	Unavailable	利用不可
 2626	Super Picky	超こだわり派
-2627	Savage Babe	サベージベイブ
-2628	Rotar Zairo	ローターザイロ
-2629	Orc Warrior	オーク戦士
+2627	Savage Babe	サベージベベ
+2628	Rotar Zairo	ロータージャイロ
+2629	Orc Warrior	オークウォリアー
 2630	Beetle King	カブトムシ王
 2631	Side Winder	サイドワインダー
 2632	Mace Kobold	メイス・コボルト
@@ -693,7 +693,7 @@ Index	English	Japanese_Translation
 2692	Competition	競争
 2693	Auto-Potion	オートポーション
 2694	Share Stall	シェアストール
-2695	Guild Rally	ギルド集合
+2695	Guild Rally	ギルド集結
 2696	Guild Bonus	ギルドボーナス
 2697	Tree Hollow	ツリーホロウ
 2698	Reset Stats	ステータスリセット

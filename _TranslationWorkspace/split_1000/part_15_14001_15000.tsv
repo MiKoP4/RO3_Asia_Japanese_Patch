@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 14001	Double Strafe【Trigger Effect】	ダブルストレイフィング【発動効果】
 14002	Target: <#ffffff>${1}</color>	対象: <#ffffff>${1}</color>
 14003	Glast Heim Culvert Floor @{1}	グラストヘイム地下水路 @{1}F
@@ -97,7 +97,7 @@ Index	English	Japanese_Translation
 14096	Eastern Prontera State Capital	プロンテラ東部州都
 14097	Western Prontera State Capital	プロンテラ西部州都
 14098	Southern Alberta State Capital	アルベルタ南部州都
-14099	Main Combat - Control Immunity	メイン戦闘 - 行動阻害無効
+14099	Main Combat - Control Immunity	メイン戦闘 - 行動妨害無効
 14100	Today's Remaining Reward Count	本日の残り報酬回数
 14101	Today's Remaining Claim Count:	本日の残り受取回数:
 14102	Requires job type ^{1}${1}^{2}	職業タイプ ^{1}${1}^{2} が必要
@@ -444,7 +444,7 @@ Index	English	Japanese_Translation
 14443	5-Player Challenge - Dark Realm	5人チャレンジ - ダークレルム
 14444	Realm of the Gods - Final Trial	神々の領域 - 最終試練
 14445	An unknown queue error occurred	不明なキューエラーが発生しました
-14446	Complete Equipment Forging once	装備製作を1回完了
+14446	Complete Equipment Forging once	装備製造を1回完了
 14447	Go to the Scene of the Argument	口論の現場へ向かう
 14448	Complete the hide-and-seek game	かくれんぼをクリア
 14449	Clear the Phantom Realm dungeon	ファントムレルムダンジョンをクリア
@@ -584,7 +584,7 @@ Index	English	Japanese_Translation
 14583	Guild Store Guildwide Gift Pack	ギルドストア全体ギフトパック
 14584	Designated Channel Announcement	指定チャンネル告知
 14585	The Princess Ascends the Throne	王女即位
-14586	Divine Retribution (Deprecated)	神罰（廃止予定）
+14586	Divine Retribution (Deprecated)	ディバインリトリビューション（廃止予定）
 14587	Full-screen Fire Setup - Charge	全画面炎設定 - チャージ
 14588	Welcome to the Adventure Group!	冒険グループへようこそ！
 14589	Fourth Movement · Desert Rhythm	第4楽章・砂漠のリズム
@@ -623,7 +623,7 @@ Index	English	Japanese_Translation
 14622	Deluxe Gift Box@{1}(Deprecated)	デラックスギフトボックス@{1}（廃止予定）
 14623	T@{1} Pet Shard Selection Chest	T@{1} ペットの欠片選択チェスト
 14624	Request ${1} from your friends?	フレンドに${1}をリクエストしますか？
-14625	Tier @{1} Equipment Forging Set	Tier @{1} 装備製作セット
+14625	Tier @{1} Equipment Forging Set	Tier @{1} 装備製造セット
 14626	Tier @{1} Blueprint - Accessory	Tier @{1} 設計図 - アクセサリー
 14627	Proof of the Hunt · Executioner	狩りの証・処刑人
 14628	Guild Design - Primordial Chaos	ギルド設計 - 原初の混沌
@@ -650,7 +650,7 @@ Index	English	Japanese_Translation
 14649	Overall Soul Echo level too low	ソウルエコー総合レベルが不足しています
 14650	Not enough area rewards claimed	受取済みエリア報酬数が不足しています
 14651	Required point tier not reached	必要ポイントランクに達していません
-14652	Codex Points (Monsters - Payon)	コーデックスポイント（モンスター - フェイヨン）
+14652	Codex Points (Monsters - Payon)	図鑑ポイント（モンスター - フェイヨン）
 14653	Teammate Shared Rewards Details	チームメイト共有報酬詳細
 14654	War of Emperium Statistics Info	攻城戦統計情報
 14655	<color=#B05142>Inactive</color>	<color=#B05142>非アクティブ</color>
@@ -951,8 +951,8 @@ Index	English	Japanese_Translation
 14950	Not enough Expedition challenges	遠征チャレンジ回数が不足しています
 14951	Target not successfully defeated	対象を正常に撃破できませんでした
 14952	Pet Faction effect not activated	ペット陣営効果が有効化されていません
-14953	Codex Points (Monsters - Desert)	コーデックスポイント（モンスター - 砂漠）
-14954	Codex Points (Monsters - Geffen)	コーデックスポイント（モンスター - ゲフェン）
+14953	Codex Points (Monsters - Desert)	図鑑ポイント（モンスター - 砂漠）
+14954	Codex Points (Monsters - Geffen)	図鑑ポイント（モンスター - ゲフェン）
 14955	Parasitic Divine Vessel · Ilmata	寄生する神の器・イルマタ
 14956	Meditate on the spot to recover.	その場で瞑想して回復。
 14957	Covered the content of Chapter 2	チャプター2の内容を収録済み

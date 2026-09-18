@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 15001	Matchmaking data does not exist.	マッチングデータが存在しません。
 15002	Matchmaking data already exists.	マッチングデータはすでに存在します。
 15003	Repeat items cannot be inserted.	同じアイテムは挿入できません。
@@ -268,7 +268,7 @@ Index	English	Japanese_Translation
 15267	Basic Card Album@{1} (Deprecated)	基本カードアルバム@{1}（廃止予定）
 15268	Nine-Tone Mantra Costume Gift Box	九音真言コスチュームギフトボックス
 15269	Deluxe Pack-Test Cross-Season Use	デラックスパック-クロスシーズン使用テスト
-15270	【Guild Joint Battle】Phantom Realm	【ギルド共同戦】ファントムレルム
+15270	【Guild Joint Battle】Phantom Realm	【ギルド共闘】ファントムレルム
 15271	Skill Reset Rod (No Function Yet)	スキルリセットロッド（未実装）
 15272	Treasure Clue: Silver-Clad Shadow	宝の手がかり：銀装の影
 15273	Life Percentage · Accessory-Green	HP割合・アクセサリー-緑
@@ -295,7 +295,7 @@ Index	English	Japanese_Translation
 15294	Codex Points (Monsters - Mjolnir)	図鑑ポイント（モンスター - ミョルニール）
 15295	${1} declined the dungeon summons	${1}がダンジョン召喚を拒否しました
 15296	You've already given this a Like.	すでに「いいね」済みです。
-15297	<color=#EC543A>(Inactive)</color>	<color=#EC543A>（無効）</color>
+15297	<color=#EC543A>(Inactive)</color>	<color=#EC543A>（非アクティブ）</color>
 15298	Divine Blessing effect increased!	神聖な祝福の効果が増加！
 15299	Adventure Handbook Reward Preview	冒険ハンドブック報酬プレビュー
 15300	Tap to Search the Book Collection	タップしてブックコレクションを検索
@@ -315,7 +315,7 @@ Index	English	Japanese_Translation
 15314	Move back Afterimage State Season	後退残像状態・シーズン
 15315	Joint Beat Attack Speed Reduction	ジョイントビート・攻撃速度低下
 15316	Joint Beat Physical DEF Reduction	ジョイントビート・物理DEF低下
-15317	Aura Blade Max Stack Sound Effect	オーラブレイド最大スタック効果音
+15317	Aura Blade Max Stack Sound Effect	オーラブレード最大スタック効果音
 15318	${1} invited you to join a tavern	${1}から酒場への招待が届きました
 15319	Enhance all equipment to Lv. ${1}	すべての装備をLv. ${1}まで強化
 15320	Go to the designated area in ${1}	${1}以内に指定エリアへ移動
@@ -893,7 +893,7 @@ Index	English	Japanese_Translation
 15892	Open to obtain a Card: Savage Babe.	開くとカード：サベージベベを獲得。
 15893	Invalid request. Invalid signature.	無効なリクエストです。署名が無効です。
 15894	The finest Tier @{1} Red Equipment.	最高級のTier @{1}赤装備。
-15895	Grants Equipment Forging materials.	装備製作素材を獲得。
+15895	Grants Equipment Forging materials.	装備製造素材を獲得。
 15896	A high-quality silver Pocket Watch.	高品質な銀の懐中時計。
 15897	Rare materials for title promotion.	称号昇級用のレア素材。
 15898	Invalid Collection card star rating	コレクションカードの星ランクが無効です

@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 3001	My Auctions	私のオークション
 3002	Current bid	現在の入札額
 3003	Bidding Cap	入札上限
@@ -179,7 +179,7 @@ Index	English	Japanese_Translation
 3178	Armor Break	アーマーブレイク
 3179	Silver Moon	シルバームーン
 3180	Demon Flame	デモンフレイム
-3181	Divine Hope	神聖な希望
+3181	Divine Hope	ディヴァインホープ
 3182	Soul Siphon	ソウルサイフォン
 3183	Stone Blade	ストーンブレード
 3184	Minion Buff	ミニオンバフ
@@ -202,7 +202,7 @@ Index	English	Japanese_Translation
 3201	Defeat Ilmo	イルモを倒す
 3202	Defeat Isti	イスティを倒す
 3203	Stage Rules	ステージルール
-3204	Codex Guide	コーデックスガイド
+3204	Codex Guide	図鑑ガイド
 3205	Pet Upgrade	ペットのアップグレード
 3206	Stall Guide	露店ガイド
 3207	Stall ended	露店終了
@@ -496,11 +496,11 @@ Index	English	Japanese_Translation
 3495	Trail effect	軌跡効果
 3496	Flying Magic	フライングマジック
 3497	Lope-related	ロペ関連
-3498	Increase AGI	AGIの増加
+3498	Increase AGI	速度増加
 3499	Angel Strike	エンジェルストライク
 3500	Mace Mastery	メイスマスタリー
 3501	Resurrection	リザレクション
-3502	Crazy Uproar	クレイジー大騒ぎ
+3502	Crazy Uproar	クレイジーアップロア
 3503	Hilt Binding	ヒルトバインディング
 3504	Power Thrust	パワースラスト
 3505	Spinning Axe	スピニングアックス
@@ -531,7 +531,7 @@ Index	English	Japanese_Translation
 3530	Arrow Shower	アローシャワー
 3531	Steady Focus	安定したフォーカス
 3532	Greedy Ifrit	貪欲なイフリート
-3533	Divine Light	神聖な光
+3533	Divine Light	ディバインライト
 3534	Arrow Attack	アローアタック
 3535	Vocal Skills	ボーカルスキル
 3536	Fallen Swipe	フォールン・スワイプ
@@ -606,7 +606,7 @@ Index	English	Japanese_Translation
 3605	Not Deployed	未出撃
 3606	Bond Removed	絆を解除しました
 3607	Current Rank	現在のランク
-3608	Card Effects	カードの効果
+3608	Card Effects	カード効果
 3609	Filter Cards	フィルターカード
 3610	Change Right	右に変更
 3611	Delete ${1}?	${1}を削除しますか?
@@ -701,7 +701,7 @@ Index	English	Japanese_Translation
 3700	Growth Rate:	成長率:
 3701	Breakthrough	画期的な
 3702	Core Rewards	コア報酬
-3703	Coming soon!	もうすぐ登場します！
+3703	Coming soon!	近日公開予定！
 3704	Monster Wave	モンスターウェーブ
 3705	Help Bobo up	ボボを助けて起こしてください
 3706	Here you go.	どうぞ。
@@ -911,7 +911,7 @@ Index	English	Japanese_Translation
 3910	Size Reduced	サイズ縮小
 3911	Osiris (Red)	オシリス（赤）
 3912	Leave Combat	戦闘を離れる
-3913	(Deprecated)	(非推奨)
+3913	(Deprecated)	(廃止予定)
 3914	Fire Release	ファイアリリース
 3915	Severe Wound	重傷
 3916	Magic Immune	魔法の免疫

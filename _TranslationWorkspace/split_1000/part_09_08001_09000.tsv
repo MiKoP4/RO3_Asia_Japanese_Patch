@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 8001	Death Supply Crate	死亡時補給箱
 8002	Evil Eye Messenger	邪眼の使者
 8003	Large Thundercloud	巨大な雷雲
@@ -234,7 +234,7 @@ Index	English	Japanese_Translation
 8233	Card: Orc Skeleton	カード：オークスケルトン
 8234	Shadow Card: Hydra	シャドウカード：ヒドラ
 8235	Card: Poison Spore	カード：ポイズンスポア
-8236	Equipment Forging:	装備製作：
+8236	Equipment Forging:	装備製造：
 8237	Guild League Elite	ギルドリーグ・エリート
 8238	Class Item Details	職業アイテム詳細
 8239	Soul Echo Overview	ソウルエコー概要
@@ -330,7 +330,7 @@ Index	English	Japanese_Translation
 8329	Swift Cross Strike	スウィフトクロスストライク
 8330	Auto Guard Enhance	オートガード強化
 8331	Enhanced Endurance	耐久力強化
-8332	Aura Blade Enhance	オーラブレイド強化
+8332	Aura Blade Enhance	オーラブレード強化
 8333	Joint Beat Enhance	ジョイントビート強化
 8334	^{1}Two Skills^{2}	^{1}2つのスキル^{2}
 8335	Basic Magic Attack	基本魔法攻撃
@@ -590,7 +590,7 @@ Index	English	Japanese_Translation
 8589	Holy Light Bludgeon	ホーリーライトブロウ
 8590	Sacred Divine Light	セイクリッドディバインライト
 8591	Prayer of Gratitude	感謝の祈り
-8592	High Speed Cart Ram	高速カートラム
+8592	High Speed Cart Ram	ハイスピードカートラム
 8593	Maximum Over Thrust	オーバートラストマックス
 8594	Emergency Treatment	応急手当
 8595	Recoil Auto Counter	リコイルオートカウンター
@@ -615,7 +615,7 @@ Index	English	Japanese_Translation
 8614	Fabre Normal Attack	ファブル通常攻撃
 8615	Greedy Fallen Angel	貪欲な堕天使
 8616	Vocal Normal Attack	ボーカル通常攻撃
-8617	Stinger Barrage@{1}	スティンガー連射@{1}
+8617	Stinger Barrage@{1}	スティンガーバラージ@{1}
 8618	Scythe Sweep Attack	大鎌なぎ払い
 8619	Brutal Sweep Attack	ブルータルスイープ
 8620	Brute Force Rupture	ブルートフォースラプチャー
@@ -632,7 +632,7 @@ Index	English	Japanese_Translation
 8631	Link Distance Check	リンク距離チェック
 8632	Rotating Dark Pulse	回転ダークパルス
 8633	Tear Off the Shroud	覆いを引き剥がす
-8634	Coffin Eruption@{1}	棺の噴出@{1}
+8634	Coffin Eruption@{1}	コフィンエラプション@{1}
 8635	Mummy Normal Attack	マミー通常攻撃
 8636	Launch Green Bubble	緑のバブルを発射
 8637	P@{1} Yellow Bubble	P@{1} イエローバブル
@@ -811,7 +811,7 @@ Index	English	Japanese_Translation
 8810	Local Server League	同一サーバーリーグ
 8811	Group Division:${1}	グループ分け：${1}
 8812	Rank Among the Best	上位ランク入り
-8813	Codex Stat Overview	コーデックスステータス概要
+8813	Codex Stat Overview	図鑑ステータス概要
 8814	Placement Criteria:	順位決定条件：
 8815	Battleground Rating	戦場評価
 8816	Decorative Stickers	装飾ステッカー
@@ -917,7 +917,7 @@ Index	English	Japanese_Translation
 8916	Card: Peco Peco Egg	カード：ペコペコの卵
 8917	Leaderboard Details	ランキング詳細
 8918	Bonus Point Details	ボーナスポイント詳細
-8919	Monster Codex Guide	モンスターコーデックスガイド
+8919	Monster Codex Guide	モンスター図鑑ガイド
 8920	Auto-Revive Details	自動復活詳細
 8921	Waiting for Auction	オークション待機中
 8922	Reward Count Lookup	報酬回数確認

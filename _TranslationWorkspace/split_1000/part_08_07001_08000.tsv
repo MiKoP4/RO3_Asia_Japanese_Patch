@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 7001	Leave the Turret	砲台から離れる
 7002	Cannot Be Marked	マーク不可
 7003	Treasure Hunting	宝探し
@@ -234,7 +234,7 @@ Index	English	Japanese_Translation
 7233	Transform: Poring	変身：ポリン
 7234	Immune to damage.	ダメージ無効。
 7235	Damage Reduction.	ダメージ軽減。
-7236	Magnus Exorcismus	マグナスエクソシズム
+7236	Magnus Exorcismus	マグヌスエクソシズム
 7237	Radiant Sanctuary	輝けるサンクチュアリ
 7238	Double Holy Light	ダブルホーリーライト
 7239	Holy Spirit Surge	ホーリースピリットサージ
@@ -268,7 +268,7 @@ Index	English	Japanese_Translation
 7267	Greedy Black Kite	強欲なブラックカイト
 7268	Dragon Fly Skills	ドラゴンフライスキル
 7269	Realm of Darkness	闇の領域
-7270	Stone Glyph Slash	石紋斬り
+7270	Stone Glyph Slash	ストーングリフスラッシュ
 7271	Intimidating Roar	威圧の咆哮
 7272	Inferno Explosion	インフェルノエクスプロージョン
 7273	Dark Magnum Break	ダークマグナムブレイク
@@ -336,7 +336,7 @@ Index	English	Japanese_Translation
 7335	Research Notebook	研究ノート
 7336	Military Supplies	軍需物資
 7337	Musical Note Clue	音符の手がかり
-7338	【Boss】Greedy Maya	【Boss】強欲なマヤー
+7338	【Boss】Greedy Maya	【BOSS】強欲なマヤー
 7339	Anti-Aircraft Gun	対空砲
 7340	Lv. @{1} Ore Vein	Lv. @{1} 鉱脈
 7341	Sanctified Ground	聖別された大地
@@ -908,7 +908,7 @@ Index	English	Japanese_Translation
 7907	Crit Chance +@{1}%	CRIT確率 +@{1}%
 7908	Not currently used	現在未使用
 7909	Radiant Holy Light	輝けるホーリーライト
-7910	Divine Retribution	神の報復
+7910	Divine Retribution	ディバインリトリビューション
 7911	High-Energy Impact	高エネルギーインパクト
 7912	Aerial Bombardment	空中砲撃
 7913	Collect Live Coals	生きた炭を集める
@@ -931,7 +931,7 @@ Index	English	Japanese_Translation
 7930	Dark Priest Skills	ダークプリーストスキル
 7931	Toad Normal Attack	ヒキガエル通常攻撃
 7932	Bombring Explosion	ボムポリン爆発
-7933	Gravity Totem Pull	重力トーテム吸引
+7933	Gravity Totem Pull	グラビティトーテム吸引
 7934	Highest Killstreak	最高連続撃破数
 7935	Rending Tiger Roar	裂虎の咆哮
 7936	Enraged Tiger Roar	激昂する虎の咆哮

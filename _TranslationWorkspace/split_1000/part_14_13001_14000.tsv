@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 13001	Recipe Type and Description	レシピ種類と説明
 13002	Armakia is nearly exhausted	アルマキアはもう限界だ
 13003	Reach Floor @{1} with a pet	ペットを連れて@{1}階に到達
@@ -52,7 +52,7 @@ Index	English	Japanese_Translation
 13051	Strawberry Cocoa Crunch Bar	ストロベリーココアクランチバー
 13052	Legendary Weapon Ore-Expire	伝説の武器鉱石-期限切れ
 13053	Advanced Chest (Deprecated)	上級チェスト（廃止予定）
-13054	Equipment Forging Blueprint	装備製作設計図
+13054	Equipment Forging Blueprint	装備製造設計図
 13055	Divine Art Totem Skill Book	神術トーテムスキルブック
 13056	Tier @{1} Blueprint - Shoes	Tier @{1} 設計図 - 靴
 13057	Tier @{1} Blueprint - Armor	Tier @{1} 設計図 - 防具
@@ -98,7 +98,7 @@ Index	English	Japanese_Translation
 13097	Transform into Baphomet Jr.	バフォメットJr.に変身
 13098	Battle Chant Orbit - Allies	バトルチャント軌道 - 味方
 13099	Holy Cross Attack Frequency	ホーリークロス攻撃頻度
-13100	Spear Mastery Increased ATK	槍修練ATK増加
+13100	Spear Mastery Increased ATK	スピアマスタリーATK増加
 13101	Enhance Shield Bash Passive	シールドバッシュ強化パッシブ
 13102	Blessing of Tyr, God of War	軍神テュールの祝福
 13103	Battle Royale HP Drain Buff	バトルロワイヤルHP吸収バフ
@@ -518,7 +518,7 @@ Index	English	Japanese_Translation
 13517	Normal Live Coal - Live Coal	通常の燃えさし - 燃えさし
 13518	Shield Boomerang Triggers ST	シールドブーメランで単体攻撃発動
 13519	Increased Grand Cross Damage	グランドクロスのダメージ増加
-13520	Spear Mastery Increased ASPD	槍修練ASPD増加
+13520	Spear Mastery Increased ASPD	スピアマスタリーASPD増加
 13521	Shield Boomerang Becomes AoE	シールドブーメランを範囲攻撃化
 13522	Casting Shield Trigger Check	詠唱シールド発動チェック
 13523	King's Grace Counter Display	キングスグレイスカウンター表示
@@ -723,7 +723,7 @@ Index	English	Japanese_Translation
 13722	Immune to damage and debuffs.	ダメージとデバフを無効化。
 13723	Change Armor to Wind Property	防具を風属性に変更
 13724	Blessing Angel Overhead Arrow	祝福の天使頭上矢印
-13725	High Speed Cart Ram - Enhance	高速カートラム - 強化
+13725	High Speed Cart Ram - Enhance	ハイスピードカートラム - 強化
 13726	Spear Formation - Blood Cross	スピアフォーメーション - ブラッドクロス
 13727	Switch Selected Target by Key	キーで選択対象を切替
 13728	Skill Callout Display Density	スキルコールアウト表示密度
@@ -754,7 +754,7 @@ Index	English	Japanese_Translation
 13753	Multi-Cluster Crystalline Ore	マルチクラスター結晶鉱石
 13754	Clue Treasure Map: Watchtower	手がかり宝の地図：見張り塔
 13755	Note Pillar@{1}-Sograt Desert	ノートピラー@{1}-ソグラト砂漠
-13756	【Boss】Greedy Golden Thief Bug	【Boss】貪欲な黄金蟲
+13756	【Boss】Greedy Golden Thief Bug	【BOSS】貪欲な黄金蟲
 13757	Vine Puppet Type β - Guardian	ヴァインパペットβ型 - ガーディアン
 13758	Sand Puppet Type A - Wanderer	サンドパペットA型 - ワンダラー
 13759	Sand Puppet Type β - Guardian	サンドパペットβ型 - ガーディアン
@@ -908,7 +908,7 @@ Index	English	Japanese_Translation
 13907	Battle Axe High-Energy Shield	バトルアックス高エネルギーシールド
 13908	Enhanced Axe Tornado Listener	強化アックストルネード監視
 13909	Crescent Blade Wheel Listener	クレセントブレードホイール監視
-13910	Spear Mastery - Increased ATK	槍修練 - ATK増加
+13910	Spear Mastery - Increased ATK	スピアマスタリー - ATK増加
 13911	BDDictionary_enum@{1}_Tag_Set	BDDictionary_enum@{1}_Tag_Set
 13912	Damage Reduction Orbit Effect	ダメージ軽減オービット効果
 13913	Gain increased Movement Speed	移動速度増加

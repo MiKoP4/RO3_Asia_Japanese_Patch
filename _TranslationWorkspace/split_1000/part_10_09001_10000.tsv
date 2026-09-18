@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 9001	Configuration Error	設定エラー
 9002	Incorrect draw cost	抽選コストが正しくありません
 9003	Insufficient points	ポイントが不足しています
@@ -354,7 +354,7 @@ Index	English	Japanese_Translation
 9353	DMG vs Small Enemies	小型の敵へのダメージ
 9354	Damage to Non-Bosses	非ボスへのダメージ
 9355	No Approval Required	承認不要
-9356	Start a Guild Rally?	ギルドラリーを開始しますか？
+9356	Start a Guild Rally?	ギルド集結を開始しますか？
 9357	Current Floors: ${1}	現在のフロア: ${1}
 9358	Artillery Privileges	砲撃権限
 9359	Select Elite Members	エリートメンバーを選択
@@ -535,8 +535,8 @@ Index	English	Japanese_Translation
 9534	Allocate Base Points	Baseポイントを割り振る
 9535	Not enough item uses	アイテム使用回数が不足しています
 9536	Talent Level too low	タレントレベルが低すぎます
-9537	Codex Points (Books)	コーデックスポイント（本）
-9538	Codex Points (Cards)	コーデックスポイント（カード）
+9537	Codex Points (Books)	図鑑ポイント（本）
+9538	Codex Points (Cards)	図鑑ポイント（カード）
 9539	Card: Thief Bug Male	カード：雄盗蟲
 9540	Equipment Appraisal:	装備鑑定:
 9541	Auction Pre-purchase	オークション事前購入
@@ -549,7 +549,7 @@ Index	English	Japanese_Translation
 9548	Request from Friends	フレンドからのリクエスト
 9549	Outfit-Only Sequence	衣装専用シーケンス
 9550	Underwater Fireworks	水中花火
-9551	Powerful Shield Bash	強力なシールドバッシュ
+9551	Powerful Shield Bash	パワフルシールドバッシュ
 9552	Terminate Killstreak	キルストリーク終了
 9553	Unrivaled Killstreak	無双キルストリーク
 9554	Clutch Crowd Control	土壇場のクラウドコントロール
@@ -900,8 +900,8 @@ Index	English	Japanese_Translation
 9899	Transformation Manual	変身マニュアル
 9900	【Greedy Dragon】Fafnir	【貪欲なドラゴン】ファフニール
 9901	【Charge】Blazing Demon	【チャージ】ブレイジングデーモン
-9902	【Boss】Greedy Orc Hero	【ボス】貪欲なオークヒーロー
-9903	【Boss】Greedy Phreeoni	【ボス】貪欲なフリオニ
+9902	【Boss】Greedy Orc Hero	【BOSS】貪欲なオークヒーロー
+9903	【Boss】Greedy Phreeoni	【BOSS】貪欲なフリオニ
 9904	Resonant Clam Cluster	共鳴する貝の群れ
 9905	Ring-Shaped Shockwave	リング状衝撃波
 9906	Baphomet Magic Circle	バフォメット魔法陣
@@ -952,7 +952,7 @@ Index	English	Japanese_Translation
 9951	Transfer Guild Leader	ギルドマスターを譲渡
 9952	Please select a guild	ギルドを選択してください
 9953	Enter your message...	メッセージを入力してください...
-9954	Guild Rally Initiated	ギルドラリー開始
+9954	Guild Rally Initiated	ギルド集結開始
 9955	Pet Metric - Level-up	ペット指標 - レベルアップ
 9956	Eden Group Commission	楽園団依頼
 9957	Hull Repair Materials	船体修理素材

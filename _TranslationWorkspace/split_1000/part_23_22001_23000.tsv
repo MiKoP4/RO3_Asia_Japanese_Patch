@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 22001	Wow! What an exquisite treasure chest! Hurry and see what goodies are inside!	わあ！なんて立派な宝箱！早く中身を見てみよう！
 22002	You need to learn how to configure Auto-Potion. This Demon can't Fortify you.	オートポーションの設定方法を習得する必要があります。このデーモンでは強化できません。
 22003	Only @{1} steps to go. For step @{2}, tap this item to place it on the board.	あと@{1}ステップ。ステップ@{2}では、このアイテムをタップして盤面に配置します。
@@ -43,7 +43,7 @@ Index	English	Japanese_Translation
 22042	Hehe, clothes really do make the Adventurer. You look much more reliable now!	ふふ、やっぱり服装って大事ね。ずいぶん頼もしく見えるようになった！
 22043	On our fortieth anniversary, he went out to buy me a ring and never returned.	40周年の日、指輪を買いに出かけたまま帰ってこなかったの。
 22044	If you're here, stop wasting time and show me the equipment you want refined!	来たならぼーっとしてないで、精錬したい装備を見せな！
-22045	The shadow left behind by 【Move Back Afterimage】 mimics your 【Shadow Pierce】.	【後退残像】で残した影が、あなたの【シャドウピアス】を模倣する。
+22045	The shadow left behind by 【Move Back Afterimage】 mimics your 【Shadow Pierce】.	【後退残像】で残した影が、あなたの【シャドウピアース】を模倣する。
 22046	Increases Attack Speed. Normal Attacks have a Chance to trigger Cursed Slash.	攻撃速度が上昇。通常攻撃時、確率で呪いの斬撃を発動。
 22047	Log in for a total of 7 days during the event to unlock all check-in rewards!	イベント期間中に累計7日ログインすると、すべてのログイン報酬を解放！
 22048	Increases Magic ATK based on DEX. Every ${1} DEX increases Magic ATK by ${2}.	DEXに応じて魔法ATKが増加。DEX${1}ごとに魔法ATK +${2}。
@@ -57,7 +57,7 @@ Index	English	Japanese_Translation
 22056	Enrage time remaining after clearing the dungeon does not meet the requirement	ダンジョンクリア後の激怒残り時間が条件を満たしていません
 22057	^{1}^{2}【Maximum Over Thrust】^{3}^{4}increases Physical damage dealt by ${1}%.	^{1}^{2}【オーバートラストマックス】^{3}^{4}により与える物理ダメージ +${1}%。
 22058	Ignores monster Size. Damage against Small, Medium, and Large monsters +@{1}%.	モンスターサイズを無視。小型・中型・大型モンスターへのダメージ +@{1}%。
-22059	While ^{1}^{2}[Battle Chant]^{3}^{4} is active, your Max HP increases by ${1}.	^{1}^{2}[バトルチャント]^{3}^{4}中、最大HP +${1}。
+22059	While ^{1}^{2}[Battle Chant]^{3}^{4} is active, your Max HP increases by ${1}.	^{1}^{2}[ゴスペル]^{3}^{4}中、最大HP +${1}。
 22060	For every ${1} additional skills on this Divine Arts Totem, Physical ATK +${2}	この神術トーテムに追加スキルが${1}個あるごとに、物理ATK +${2}
 22061	For every ${1} Stunts on equipped gear, Physical ATK +${2} (up to ${3} Stunts)	装備中のアクション${1}個ごとに物理ATK +${2}（最大${3}個）
 22062	Baphomet summons a ^{1}charging illusion^{2} that damages targets in its path.	バフォメットが^{1}突進する幻影^{2}を召喚し、進路上の対象にダメージ。
@@ -110,7 +110,7 @@ Index	English	Japanese_Translation
 22109	Once learned, Mechanics can ride a Madogear in battle and use Madogear skills.	習得すると、メカニックは戦闘中に魔導ギアへ搭乗し、魔導ギアスキルを使用できます。
 22110	Once learned, Mechanics can use the Kinetic Battle Axe and its related skills.	習得すると、メカニックはキネティックバトルアックスと関連スキルを使用できます。
 22111	Deals ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1} m radius.	@{1}m以内の最大@{2}体の敵にATK * ^{1}@{3}%^{2}のダメージ。
-22112	^{1}【Focused Arrow Strike】^{2}'s damage multiplier increases by ^{3}${1}%^{4}.	^{1}【フォーカストアローストライク】^{2}のダメージ倍率 +^{3}${1}%^{4}。
+22112	^{1}【Focused Arrow Strike】^{2}'s damage multiplier increases by ^{3}${1}%^{4}.	^{1}【集中アローストライク】^{2}のダメージ倍率 +^{3}${1}%^{4}。
 22113	Increases the percentage damage multiplier of ^{1}【Bash】^{2} by ^{3}${1}%^{4}.	^{1}【バッシュ】^{2}の割合ダメージ倍率 +^{3}${1}%^{4}。
 22114	After casting Meteor Assault, cast a mini Meteor Assault at the same location.	メテオアサルト使用後、同じ位置に小型メテオアサルトを発動。
 22115	Server instability detected. Please try starting the conversation again later.	サーバーが不安定です。時間をおいて会話を開始し直してください。
@@ -171,7 +171,7 @@ Index	English	Japanese_Translation
 22170	A precision mold carved from Ironwood, used to make strong yet resilient rings.	アイアンウッドから削り出した精密な型。丈夫でしなやかなリング作りに使う。
 22171	A by-product of alchemical Pet Hatching. Dismantle to receive @{1} Proficiency.	ペット孵化の錬金過程で生じる副産物。分解すると熟練度@{1}を獲得。
 22172	Level-up is only available after all prerequisite talent nodes reach Max level.	前提タレントノードがすべて最大Lv.になった後にレベルアップできます。
-22173	An Astral Sign imbued with mysterious power. Can be used for Equipment Forging.	神秘的な力を宿すアストラルサイン。装備製作に使用可能。
+22173	An Astral Sign imbued with mysterious power. Can be used for Equipment Forging.	神秘的な力を宿すアストラルサイン。装備製造に使用可能。
 22174	An Undead katar made from the bones of Osiris and shrouded in an aura of death.	オシリスの骨で作られ、死の気配をまとった不死属性のカタール。
 22175	Guild Contribution used by Guild Members to purchase items from the Guild Shop.	ギルドメンバーがギルドショップでアイテム購入に使用するギルド貢献度。
 22176	Bidding begins after this <color=#FDAB5B>Dungeon Settlement is complete</color>	この<color=#FDAB5B>ダンジョン精算完了後</color>に入札開始
@@ -741,7 +741,7 @@ Index	English	Japanese_Translation
 22740	Changing the price requires another Trade review, just like relisting the item. Continue?	価格変更には再出品と同様に再審査が必要です。続行しますか？
 22741	You cannot Teleport to the quiz Location while in a Cross-server area, Dungeon, or plane.	クロスサーバーエリア、ダンジョン、飛行中はクイズ地点へテレポートできません。
 22742	^{1}^{2}【Maximum Over Thrust】^{3}^{4} is Active for up to ${2} allies within ${1} meters.	${1}m以内の最大${2}人の味方に^{1}^{2}【オーバートラストマックス】^{3}^{4}が有効。
-22743	Spear mastery increases Crit by @{1}, Crit Resistance by @{2}, and Attack Speed by @{3}%.	槍修練でCRIT +@{1}、クリティカル耐性 +@{2}、攻撃速度 +@{3}%。
+22743	Spear mastery increases Crit by @{1}, Crit Resistance by @{2}, and Attack Speed by @{3}%.	スピアマスタリーでCRIT +@{1}、クリティカル耐性 +@{2}、攻撃速度 +@{3}%。
 22744	Reduces damage taken from monsters by @{1}% and increases Physical and Magic DEF by @{2}%	モンスターからの被ダメージ -@{1}%、物理・魔法DEF +@{2}%
 22745	Immune to Knockback, Launch, Stun, Freeze, Petrify, Silence, Immobilize, Blind, and Slow.	ノックバック、打ち上げ、スタン、凍結、石化、沈黙、移動不能、暗闇、鈍足を無効化。
 22746	A close friend is in the party. Life +@{1}%, Physical Attack +@{2}%, Magic Attack +@{3}%.	親しいフレンドがパーティにいる。HP +@{1}%、物理ATK +@{2}%、魔法ATK +@{3}%。

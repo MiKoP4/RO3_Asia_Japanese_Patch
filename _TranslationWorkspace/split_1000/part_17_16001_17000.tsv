@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 16001	Increases Physical DEF by ${1}~${2}	物理DEFが${1}～${2}増加
 16002	Increases Physical ATK by ${1}~${2}	物理ATKが${1}～${2}増加
 16003	Physical Damage increased by ${1}%.	物理ダメージが${1}%増加。
@@ -225,7 +225,7 @@ Index	English	Japanese_Translation
 16224	Divine Light/Sanctuary [Buff Effect]	ディバインライト/サンクチュアリ［バフ効果］
 16225	Basilica [Cast Completion Detection]	バシリカ［詠唱完了検知］
 16226	Crazy Uproar - Mind and Body Renewal	クレイジーアップロア - 心身リフレッシュ
-16227	High Speed Cart Ram Replacement Mode	高速カートラム置換モード
+16227	High Speed Cart Ram Replacement Mode	ハイスピードカートラム置換モード
 16228	Season Vulcan Cannon CRIT Boost Buff	シーズンバルカンキャノンCRIT上昇バフ
 16229	S@{1} Vulcan Cannon Mode Replacement	S@{1} バルカンキャノンモード置換
 16230	S@{1} High-Energy Impact Mode Switch	S@{1} ハイエネルギーインパクトモード切替
@@ -394,7 +394,7 @@ Index	English	Japanese_Translation
 16393	Guild Recruitment posted successfully	ギルド募集を掲載しました
 16394	You must Join a guild to participate.	参加するにはギルド加入が必要です。
 16395	[Adventure Party] Phantom Realm Quest	[冒険パーティ] ファントムレルムクエスト
-16396	Complete Equipment Forging @{1} times	装備製作を@{1}回行う
+16396	Complete Equipment Forging @{1} times	装備製造を@{1}回行う
 16397	Defeat Nasha in the Realm of the Gods	神々の領域でナーシャを倒す
 16398	Defeat Mirko in the Realm of the Gods	神々の領域でミルコを倒す
 16399	Tap here to view auto-battle monsters	ここをタップしてオートバトル対象モンスターを確認
@@ -486,7 +486,7 @@ Index	English	Japanese_Translation
 16485	Cannot be used in your current state.	現在の状態では使用できません。
 16486	Unlock this skill to view its details	このスキルを解放すると詳細を確認できます
 16487	Purchase from the Magic Fashion Shop.	マジックファッションショップで購入。
-16488	Maximum Over Thrust - Critical Strike	マキシマムオーバートラスト - クリティカルストライク
+16488	Maximum Over Thrust - Critical Strike	オーバートラストマックス - クリティカルストライク
 16489	Spear Mastery - Increased Holy Damage	スピアマスタリー - 聖属性ダメージ増加
 16490	BDDictionary_enum@{1}_Tag_AddSubtract	BDDictionary_enum@{1}_Tag_AddSubtract
 16491	Restores @{1}% of Max Life per second	毎秒最大HPの@{1}%を回復
@@ -525,7 +525,7 @@ Index	English	Japanese_Translation
 16524	Phase Two\nDefeat the Knight Guardian	フェーズ2\nナイトガーディアンを倒す
 16525	Stage 4\nDefend the Magnificent Metal	ステージ4\n壮麗な金属を守る
 16526	This special Job item does not exist.	この特殊職業アイテムは存在しません。
-16527	Tree Spirit ^{1}^{2}[Respawn]^{3}^{4}	ツリースピリット ^{1}^{2}[再出現]^{3}^{4}
+16527	Tree Spirit ^{1}^{2}[Respawn]^{3}^{4}	ツリースピリット ^{1}^{2}[リスポーン]^{3}^{4}
 16528	The text contains sensitive language.	テキストに不適切な表現が含まれています。
 16529	Appraised equipment cannot be listed.	鑑定済み装備は出品できません。
 16530	Class-specific items cannot be Traded	職業専用アイテムは取引できません
@@ -867,7 +867,7 @@ Index	English	Japanese_Translation
 16866	5-Player Challenge - Savage Hinterlands	5人チャレンジ - サベージ奥地
 16867	Speak with the Mentor about Job Advance	転職について教官と話す
 16868	Give the poor girl some Clothes to wear	かわいそうな少女に服を着せる
-16869	Ask Hollgrehenn about Equipment Forging	装備製作についてホルグレンに聞く
+16869	Ask Hollgrehenn about Equipment Forging	装備製造についてホルグレンに聞く
 16870	Press and hold to quickly assign points	長押しでポイントを素早く割り振る
 16871	\nYou traveled with friends ${1} times.	\nフレンドと${1}回旅行しました。
 16872	\nYou dressed up for a date ${1} times.	\nデート用に${1}回着飾りました。
@@ -939,7 +939,7 @@ Index	English	Japanese_Translation
 16938	Patrol or rest today—(Flips coin) Rest.	今日は巡回か休憩か—（コインを投げる）休憩。
 16939	Lady Irmata is the most exalted of all.	イルマタ様こそ最も尊いお方だ。
 16940	Are you ready to begin the competition?	競技を始める準備はできた？
-16941	What's so special about the White Dove?	ホワイトダヴの何がそんなに特別なの？
+16941	What's so special about the White Dove?	白鳩号の何がそんなに特別なの？
 16942	<color=#9ae35a>[Party Blessing]</color>	<color=#9ae35a>[パーティ祝福]</color>
 16943	Someone else is already controlling it!	ほかの誰かが操作中です！
 16944	Select an item to dismantle on the left	左側で解体するアイテムを選択

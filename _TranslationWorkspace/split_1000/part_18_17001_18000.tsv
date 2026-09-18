@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 17001	Admonitory Song of Suffering: Low Drone	苦悩の戒めの歌：低音ドローン
 17002	Season High-Energy Impact Switch bd@{1}	シーズン・ハイエナジーインパクト切替 bd@{1}
 17003	Damage/Attack Speed (Weak Point Attack)	ダメージ/攻撃速度（弱点攻撃）
@@ -69,7 +69,7 @@ Index	English	Japanese_Translation
 17068	Rare Reward-Goblin Leader-Illusion Limit	レア報酬-ゴブリンリーダー-幻影制限
 17069	Rare Reward-Dracula Baron-Illusion Limit	レア報酬-ドラキュラ男爵-幻影制限
 17070	Go to Payon Forest and meet up with Boya	フェイヨンの森へ行き、ボヤと合流
-17071	Learn Equipment Forging from Hollgrehenn	ホルグレンから装備製作を学ぶ
+17071	Learn Equipment Forging from Hollgrehenn	ホルグレンから装備製造を学ぶ
 17072	Find the Relic and the Professor's group	遺物と教授の一行を探す
 17073	Affects the duration of Stun you inflict	付与するスタンの持続時間に影響
 17074	Affects the duration of Stun you receive	受けるスタンの持続時間に影響
@@ -346,7 +346,7 @@ Index	English	Japanese_Translation
 17345	Continuously restores HP to nearby allies	周囲の味方のHPを継続回復
 17346	Shift + Right-click to control the camera	Shift + 右クリックでカメラ操作
 17347	Skill@{1} Sequential Circular Sonic Blast	スキル@{1} 連続円形ソニックブラスト
-17348	Focused Arrow Strike (Unlimited Shooting)	フォーカスドアローストライク（無限射撃）
+17348	Focused Arrow Strike (Unlimited Shooting)	集中アローストライク（無限射撃）
 17349	Update complete. Please restart the game.	更新完了。ゲームを再起動してください。
 17350	Heavy Shield Defense - Raise Shield Start	ヘビーシールドディフェンス - シールド構え開始
 17351	Moonlight Flower Bell Charge Hard Shuffle	月夜花ベルチャージ・ハードシャッフル
@@ -383,7 +383,7 @@ Index	English	Japanese_Translation
 17382	Select an empty slot. Let's use this one.	空きスロットを選択。これを使おう。
 17383	Please wait. Casting teleportation magic.	お待ちください。テレポート魔法を詠唱中。
 17384	We're off, we're off! Up into the clouds!	出発、出発！雲の上へ！
-17385	Then... let's be off. White Dove, launch!	それじゃ…出発しよう。白い鳩、発進！
+17385	Then... let's be off. White Dove, launch!	それじゃ…出発しよう。白鳩号、発進！
 17386	Hey~! Hello, human! I'm Meow-Mew! Wahaha~	やっほ～！人間！ボクはニャーミュウ！わはは～
 17387	Pfft. Life, money... What a filthy world!	ふん。人生も金も…汚れた世界だ！
 17388	That's all right. You make your own path~	大丈夫。自分の道は自分で決めればいい～
@@ -421,7 +421,7 @@ Index	English	Japanese_Translation
 17420	Clothing made especially for Adventurers.	冒険者用に作られた衣服。
 17421	TBD: A one-handed Spear used by infantry.	TBD：歩兵が使う片手槍。
 17422	You've awakened a sleeping elite monster!	眠っていたエリートモンスターを起こした！
-17423	Tier @{1} Equipment Forging Blueprint Set	Tier @{1}装備製作設計図セット
+17423	Tier @{1} Equipment Forging Blueprint Set	Tier @{1}装備製造設計図セット
 17424	Guild League - Semifinals (Auction Check)	ギルドリーグ - 準決勝（オークション確認）
 17425	Not enough Required Materials to Enchant.	エンチャントに必要な素材が不足しています。
 17426	Must participate in the Tower Climb event	タワークライムイベントへの参加が必要
@@ -469,7 +469,7 @@ Index	English	Japanese_Translation
 17468	If you want the girl, court her yourself.	その子が欲しいなら、自分で口説きなさい。
 17469	You can only pick up a teammate's ID Tag.	拾えるのはチームメイトのIDタグだけです。
 17470	You cannot travel while in Battle Status.	戦闘状態では移動できません。
-17471	Increases 【Virus Spread】 damage by ${1}%.	【ウイルス拡散】のダメージが${1}%増加。
+17471	Increases 【Virus Spread】 damage by ${1}%.	【ウイルスの蔓延】のダメージが${1}%増加。
 17472	Increases Physical and Magic DEF by ${1}.	物理DEFと魔法DEFが${1}増加。
 17473	Enchant Carapace Shield, Damage Reduction	甲殻シールドをエンチャント、ダメージ軽減
 17474	Shield equal to ^{1}${1}%^{2} of Max Life	最大HPの^{1}${1}%^{2}相当のシールド
@@ -715,7 +715,7 @@ Index	English	Japanese_Translation
 17714	Keep defeating Fabres to collect equipment.	ファブルを倒し続けて装備を集める。
 17715	Find the Academy's Head Job Advance Mentor.	アカデミーの上位職教官を探す。
 17716	You hear a boy calling out. Go take a look.	少年の呼び声が聞こえる。見に行こう。
-17717	Defeat the Maya that looks like a Familiar.	見覚えのあるマヤーを倒す。
+17717	Defeat the Maya that looks like a Familiar.	ファミリアーに似たマヤーを倒す。
 17718	Enter Maya's Nest and rescue the Professor.	マヤーの巣に入り教授を救出。
 17719	Talk with the Guild Members at the banquet.	宴会でギルドメンバーと話す。
 17720	Return the sword to Blacksmith Hollgrehenn.	剣を鍛冶師ホルグレンに返す。
@@ -729,7 +729,7 @@ Index	English	Japanese_Translation
 17728	Use a Fly Wing to search for signs of Eddga	ハエの羽を使ってエドガの痕跡を探す
 17729	Ask the professor why he went to the desert	教授が砂漠へ行った理由を尋ねる
 17730	Something completely unexpected happened...	まったく予想外のことが起きた…
-17731	Complete Equipment Forging with Hollgrehenn	ホルグレンと装備製作を完了
+17731	Complete Equipment Forging with Hollgrehenn	ホルグレンと装備製造を完了
 17732	Performs ${1} Basic Attacks every @{1} sec.	@{1}秒ごとに通常攻撃を${1}回実行。
 17733	Reduces damage dealt by magic Extra attacks	魔法追加攻撃の与ダメージを軽減
 17734	Affects your damage against Poison monsters	毒属性モンスターへのダメージに影響
@@ -872,7 +872,7 @@ Index	English	Japanese_Translation
 17871	Event Period: Thursday, @{1}:@{2}~@{3}:@{4}	開催期間：木曜 @{1}:@{2}～@{3}:@{4}
 17872	Maximum Over Thrust - Enhanced Power Thrust	オーバートラストマックス - 強化パワースラスト
 17873	Blue Note Magic Circle Expanding Outer Ring	ブルーノート魔法陣・外周拡大
-17874	Current Floors: <color=#CC762A>${1}</color>	現在階層：<color=#CC762A>${1}</color>
+17874	Current Floors: <color=#CC762A>${1}</color>	現在のフロア：<color=#CC762A>${1}</color>
 17875	Participate in ${1} War of Emperium matches	攻城戦に${1}回参加
 17876	Complete fewer than ${1} Tavern Daily Tasks	酒場デイリー任務の完了数が${1}未満
 17877	Equip {1} pieces of the specified equipment	指定装備を{1}個装備

@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 23001	Guild Military Supplies are about to exceed the limit. Any excess will be discarded. Continue?	ギルド軍需物資が上限を超えそうです。上限を超えた分は破棄されます。続行しますか？
 23002	The vehicle restores a total of ${2}% HP over ${1} sec. Destroyed sections cannot be restored.	車両は${1}秒間で合計${2}%のHPを回復します。破壊された部位は回復できません。
 23003	Osiris throws several ^{1}Horongs^{2}. Upon landing, they ^{3}explode and remain in place^{4}.	オシリスが複数の^{1}ホロン^{2}を投げます。着地すると^{3}爆発し、その場に留まります^{4}。
@@ -255,7 +255,7 @@ Index	English	Japanese_Translation
 23254	Insufficient points in the prerequisite Constellation. This Constellation's attributes are inactive.	前提星座のポイントが不足しています。この星座のステータスは無効です。
 23255	Gain one chance to Instant respawn upon death, excluding deaths caused by certain dungeon mechanics.	死亡時に即時復活できる機会を1回獲得します。特定のダンジョンギミックによる死亡は対象外です。
 23256	^{1}^{2}【Cart Revolution】^{3}^{4}: Percentage damage multiplier +${1}%; Fixed Damage Increase +${2}.	^{1}^{2}【カートレボリューション】^{3}^{4}：ダメージ倍率+${1}%、固定ダメージ+${2}。
-23257	When ^{1}^{2}[Sanctuary]^{3}^{4} or ^{5}^{6}[Magnus Exorcismus]^{7}^{8} reaches Lv. ${1}, INT +${2}.	^{1}^{2}[サンクチュアリ]^{3}^{4}または^{5}^{6}[マグナスエクソシズム]^{7}^{8}がLv.${1}に到達すると、INT+${2}。
+23257	When ^{1}^{2}[Sanctuary]^{3}^{4} or ^{5}^{6}[Magnus Exorcismus]^{7}^{8} reaches Lv. ${1}, INT +${2}.	^{1}^{2}[サンクチュアリ]^{3}^{4}または^{5}^{6}[マグヌスエクソシズム]^{7}^{8}がLv.${1}に到達すると、INT+${2}。
 23258	Cards of the same quality can be used for Collection, producing Collection Cards of the same quality	同じ品質のカードをコレクションに使用すると、同じ品質のコレクションカードを作成できます。
 23259	This activity looks fun! Give it a try, and don't forget to Claim the chest reward when you're done!	このイベント、面白そう！挑戦してみて、終わったら宝箱の報酬を受け取るのも忘れないでね！
 23260	You can Learn @{1} Life Skills at once. Let's start by choosing a Primary Profession. Give it a try~	同時に@{1}個の生活スキルを習得できます。まずはメイン職業を選んでみましょう～
@@ -324,8 +324,8 @@ Index	English	Japanese_Translation
 23323	A vibrant Green Healing Potion brimming with Life that instantly restores @{1} HP. Cooldown: @{2} sec.	生命力に満ちた鮮やかな緑色の回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
 23324	Fight alongside your Pet to Challenge a tower teeming with Monsters and push your Floors to the limit!	ペットと共にモンスターがひしめく塔へ挑み、到達階層の限界を目指しましょう！
 23325	Increases Physical Damage by @{1}% and the percentage damage multiplier bonus of 【Aimed Bolt】 by @{2}%	物理ダメージが@{1}%増加し、【エイムドボルト】のダメージ倍率ボーナスが@{2}%増加します。
-23326	Holy Light Baptism blesses you, reducing ^{1}^{2}[Magnus Exorcismus]^{3}^{4} Cooldown by ${1} seconds.	聖光の洗礼による加護を受け、^{1}^{2}[マグナスエクソシズム]^{3}^{4}のクールダウンを${1}秒短縮します。
-23327	While ^{1}^{2}[Cart Boost]^{3}^{4} is active, [High Speed Cart Ram]'s damage bonus increases by ${1}%.	^{1}^{2}[カートブースト]^{3}^{4}発動中、[ハイスピードカートアタック]のダメージボーナスが${1}%増加します。
+23326	Holy Light Baptism blesses you, reducing ^{1}^{2}[Magnus Exorcismus]^{3}^{4} Cooldown by ${1} seconds.	聖光の洗礼による加護を受け、^{1}^{2}[マグヌスエクソシズム]^{3}^{4}のクールダウンを${1}秒短縮します。
+23327	While ^{1}^{2}[Cart Boost]^{3}^{4} is active, [High Speed Cart Ram]'s damage bonus increases by ${1}%.	^{1}^{2}[カートブースト]^{3}^{4}発動中、[ハイスピードカートラム]のダメージボーナスが${1}%増加します。
 23328	Maya launches ^{3}cross-shaped blades^{4} in ^{1}@{1} directions^{2}, damaging enemies in their paths.	マヤが^{1}@{1}方向^{2}へ^{3}十字型の刃^{4}を放ち、経路上の敵にダメージを与えます。
 23329	"Berserk Potion" can be used by all classes and provides the highest Attack Speed boost of any potion.	「バーサークポーション」は全職業が使用でき、ポーションの中で最も高い攻撃速度上昇効果を持ちます。
 23330	Taking this item off will leave your Stall empty, so the Stall will automatically Show less.\nProceed?	このアイテムを外すと露店の商品がなくなるため、露店は自動的に表示数が減ります。\n続行しますか？
@@ -360,7 +360,7 @@ Index	English	Japanese_Translation
 23359	^{1}^{2}^{3}Physical^{4}^{5}^{6}\n^{7}^{8}^{9}Ranged^{10}^{11}^{12}\n^{13}^{14}^{15}Buff^{16}^{17}^{18}	^{1}^{2}^{3}物理^{4}^{5}^{6}\n^{7}^{8}^{9}遠距離^{10}^{11}^{12}\n^{13}^{14}^{15}バフ^{16}^{17}^{18}
 23360	A Healing Potion imbued with the power of Blessing that instantly restores @{1} HP. Cooldown: @{2} sec.	祝福の力を宿した回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
 23361	A Fountain of Life surging with boundless vitality that instantly restores @{1} HP. Cooldown: @{2} sec.	尽きることのない生命力が湧き出す生命の泉。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
-23362	^{1}^{2}【High Speed Cart Ram】^{3}^{4} percentage damage multiplier +${1}%; Fixed Damage Increase +${2}.	^{1}^{2}【ハイスピードカートアタック】^{3}^{4}のダメージ倍率+${1}%、固定ダメージ+${2}。
+23362	^{1}^{2}【High Speed Cart Ram】^{3}^{4} percentage damage multiplier +${1}%; Fixed Damage Increase +${2}.	^{1}^{2}【ハイスピードカートラム】^{3}^{4}のダメージ倍率+${1}%、固定ダメージ+${2}。
 23363	Increases Hunting Protection by ${1}. Each skill on this Totem grants an Extra ${2} Hunting Protection.	狩猟保護が${1}増加します。このトーテムのスキル1つにつき、追加で狩猟保護が${2}増加します。
 23364	Pharaoh summons the ^{1}Hand of the Dead^{2}, dealing damage in a circular area at the target location.	ファラオが^{1}死者の手^{2}を召喚し、ターゲット位置の円形範囲にダメージを与えます。
 23365	<color=#99FF9F>Current Server Level Cap: Lv. ${1}\n${2}: Server Level Cap increases to Lv. ${3}</color>	<color=#99FF9F>現在のサーバーレベル上限：Lv.${1}\n${2}：サーバーレベル上限がLv.${3}に上昇</color>
@@ -418,8 +418,8 @@ Index	English	Japanese_Translation
 23417	A blue-backed fish from Frozen waters that's very nutritious. Feed for the Pet [Leafy Cat]. Weight: @{1}	凍てつく海で獲れる、背中が青く栄養豊富な魚。ペット[リーフキャット]のエサ。重量：@{1}
 23418	A precious flower that murmurs to itself even when no one is listening. It's the Rocker's favorite item.	誰も聞いていなくてもひそひそと囁く貴重な花。ロッカーの大好物です。
 23419	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Savage Babe Transform	2等賞当選時、サベージベベ変身を使用している場合、報酬が追加で@{1}%増加します。
-23420	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	1等賞当選時、バフォメット.Jr変身を使用している場合、報酬が追加で@{1}%増加します。
-23421	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	3等賞当選時、バフォメット.Jr変身を使用している場合、報酬が追加で@{1}%増加します。
+23420	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	1等賞当選時、バフォメットJr.変身を使用している場合、報酬が追加で@{1}%増加します。
+23421	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	3等賞当選時、バフォメットJr.変身を使用している場合、報酬が追加で@{1}%増加します。
 23422	You are responding to too many Get Help requests. Submit a response before responding to another player.	「助けを求める」への回答数が多すぎます。先に回答を送信してから、別のプレイヤーへ回答してください。
 23423	Rapidly attacks the target, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	素早くターゲットを攻撃し、@{1}m以内の指定した単体の敵に攻撃力*^{1}@{2}%^{2}のダメージを与えます。
 23424	Cat o' Nine-Tail swings its Bell down on the enemy, dealing ^{1}${1}%^{2} Neutral melee Physical damage.	九尾狐が鈴を敵へ振り下ろし、^{1}${1}%^{2}の無属性近接物理ダメージを与えます。
@@ -455,7 +455,7 @@ Index	English	Japanese_Translation
 23454	A Metal bar smelted from mithril. Both tough and lightweight, it can be used to forge standard equipment.	ミスリルを精錬して作られた金属棒。頑丈かつ軽量で、標準的な装備の鍛造に使用できます。
 23455	Adventure Party EXP obtained by completing Adventure Party quests. Increases the Adventure Party's level.	冒険パーティのクエスト達成で獲得する冒険パーティEXP。冒険パーティのレベルを上昇させます。
 23456	Every Monday at 5:00 AM, ${1} reward claim attempts will be added for the highest-level unlocked dungeon.	毎週月曜日の午前5:00に、解放済みの最高レベルダンジョンの報酬獲得回数が${1}回追加されます。
-23457	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	2等賞当選時、バフォメット.Jr変身を使用している場合、報酬が追加で@{1}%増加します。
+23457	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Baphomet Jr. Transform	2等賞当選時、バフォメットJr.変身を使用している場合、報酬が追加で@{1}%増加します。
 23458	Extremely pure Elunium Metal.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Armor and Accessories^{2}	極めて純度の高いエルニウム。\n^{1}効果：+@{1}～+@{2}の防具およびアクセサリーの精錬に使用可能^{2}
 23459	Phreeoni detonates the acid around itself, damaging players on HIT and applying 【Stomach Acid Corrosion】.	フリオニが自身の周囲の酸を爆発させ、命中したプレイヤーにダメージを与えて【胃酸腐食】を付与します。
 23460	After your ^{1}【Stigmata】^{2} ends, trigger ^{3}^{4}【Organum】^{5}^{6} once more in the reverse direction.	自身の^{1}【スティグマータ】^{2}終了後、逆方向へ^{3}^{4}【オルガヌム】^{5}^{6}をもう1回発動します。
@@ -475,7 +475,7 @@ Index	English	Japanese_Translation
 23474	Both sides gain a same-Guild Member bonus: damage dealt to Bosses +@{1}%, damage taken from Bosses -@{2}%.	双方が同一ギルドメンバーのボーナスを獲得：ボスへの与ダメージ+@{1}%、ボスからの被ダメージ-@{2}%。
 23475	^{1}^{2}【Blitz Beat】^{3}^{4} increases its percentage damage multiplier by ${1}% and fixed damage by ${2}.	^{1}^{2}【ブリッツビート】^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
 23476	^{1}^{2}[Spiral Pierce]^{3}^{4} can also Deals DMG to ${2} Other enemies within ${1} meters of the target.	^{1}^{2}[スパイラルピアース]^{3}^{4}は、ターゲットから${1}m以内の他の敵${2}体にもダメージを与えます。
-23477	When 【Fire Ball】 hits the primary target, deals Splash damage to up to ${2} enemies within a ${1}m radius.	【ファイアボール】が主目標に命中した時、${1}m以内の最大${2}体の敵に範囲ダメージを与えます。
+23477	When 【Fire Ball】 hits the primary target, deals Splash damage to up to ${2} enemies within a ${1}m radius.	【ファイアーボール】が主目標に命中した時、${1}m以内の最大${2}体の敵に範囲ダメージを与えます。
 23478	See the chest below? Participate in Daily activities to increase your Activity, then you can Claim it, bo!	下の宝箱が見える？デイリーコンテンツに参加して活躍度を上げれば受け取れるボ。忘れずにね！
 23479	This is the MVP reward you earned during the Wedding Crashers event. Please claim it from the attachments.	「ウェディングクラッシャー」イベントで獲得したMVP報酬です。添付ファイルからお受け取りください。
 23480	Here is the reward you left behind in the Symphony of Creation event. Please claim it from the attachment.	「創世の交響曲」イベントで受け取っていなかった報酬です。添付ファイルからお受け取りください。
@@ -606,7 +606,7 @@ Index	English	Japanese_Translation
 23605	An exceptionally ornate dagger. Those of noble status often carry it as an accessory or use it in ceremonies.	極めて華美な短剣。貴族が装飾品として携えたり、儀式に使用したりすることが多い。
 23606	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Baby Desert Wolf Transform	ベビーデザートウルフ変身を使用している場合、2等抽選時の報酬が追加で@{1}%増加する
 23607	No Guild: A Guild is required to enter this area. Players who leave their Guild while inside will be removed.	ギルド未加入：このエリアへの入場にはギルド加入が必要です。エリア内でギルドを脱退したプレイヤーは退出させられます。
-23608	Removes ^{1}^{2}【Silence】^{3}^{4} and ^{5}^{6}【Blind】^{7}^{8} from the designated ST ally within ${1} meters.	${1}m以内の指定した味方単体から^{1}^{2}【沈黙】^{3}^{4}と^{5}^{6}【暗黒】^{7}^{8}を解除する。
+23608	Removes ^{1}^{2}【Silence】^{3}^{4} and ^{5}^{6}【Blind】^{7}^{8} from the designated ST ally within ${1} meters.	${1}m以内の指定した味方単体から^{1}^{2}【沈黙】^{3}^{4}と^{5}^{6}【暗闇】^{7}^{8}を解除する。
 23609	Increases Physical ATK for you and up to @{1} allies within a ${1}-meter radius by ^{1}${2}^{2} for ${3} sec.	${3}秒間、自身および半径${1}m以内の味方最大@{1}人の物理攻撃力を^{1}${2}^{2}増加させる。
 23610	Summon a vending cart nearby where you can purchase Battle Royale items. The vending cart lasts for @{1} sec.	近くに自動販売カートを召喚し、バトルロイヤル用アイテムを購入できる。カートは@{1}秒間持続する。
 23611	Deals Physical ATK*^{1}${2}%+${3}^{2} as Neutral melee Physical damage to the targeted ST enemy within ${1}m.	${1}m以内の対象の敵単体に物理攻撃力*^{1}${2}%+${3}^{2}の無属性近接物理ダメージを与える。
@@ -639,7 +639,7 @@ Index	English	Japanese_Translation
 23638	A semi-finished sacred cloth material for footwear, offering both a blessing bonus and comfortable protection.	靴用の半製品となる聖布素材。祝福効果と快適な防護性を兼ね備えている。
 23639	Damaged Metal fragments of low purity. They can be smelted down for Reforge or used in alchemical experiments.	純度の低い損傷した金属片。溶かして再鍛造したり、錬金実験に使用したりできる。
 23640	Increases your MATK by ^{1}${1}^{2} and increases the damage of ^{3}^{4}[Turn Undead]^{5}^{6} by ^{7}${2}^{8}.	自身のMATKを^{1}${1}^{2}増加させ、^{3}^{4}[ターンアンデッド]^{5}^{6}のダメージを^{7}${2}^{8}増加させる。
-23641	Grants the specified ST ally within ^{1}${1} meters^{2} ^{3}immunity to ^{4}^{5}^{6}【Poisoned】^{7}^{8} damage.	^{1}${1}m以内^{2}の指定した味方単体に、^{3} ^{4}^{5}^{6}【毒】^{7}^{8}ダメージ無効を付与する。
+23641	Grants the specified ST ally within ^{1}${1} meters^{2} ^{3}immunity to ^{4}^{5}^{6}【Poisoned】^{7}^{8} damage.	^{1}${1}m以内^{2}の指定した味方単体に、^{3} ^{4}^{5}^{6}【毒状態】^{7}^{8}ダメージ無効を付与する。
 23642	Which one do you like? (Picks up the Bunny Hair Band) This one's really popular lately, especially with girls~	どれが好き？（ウサギのヘアバンドを手に取る）これは最近すごく人気なの。特に女の子にね～
 23643	The ritual can take up to 5 hours. Invite fellow Adventurers to participate and speed up the summoning process.	儀式には最大5時間かかります。他の冒険者を招待して参加してもらうと、召喚時間を短縮できます。
 23644	You have new mail, but your mailbox is full and cannot receive it. Please delete mail you've already processed.	新しいメールがありますが、メールボックスがいっぱいで受信できません。処理済みのメールを削除してください。
@@ -705,7 +705,7 @@ Index	English	Japanese_Translation
 23704	A Butterfly Wing imbued with spatial Magic. Use it to Move to a selected town or Field on the Midgard continent.	空間魔法を宿した蝶の羽。使用するとミッドガルド大陸の選択した街またはフィールドへ移動できる。
 23705	Your current party does not meet the dungeon's recommended role setup and is missing ${1}. Enter Dungeon anyway?	現在のパーティはダンジョンの推奨ロール構成を満たしておらず、${1}が不足しています。それでもダンジョンに入りますか？
 23706	Charges to a point @{2} m in front of the designated ST enemy within @{1} m, dealing ATK * ^{1}@{3}%^{2} damage.	@{1}m以内の指定した単体の敵の前方@{2}m地点まで突進し、攻撃力*^{1}@{3}%^{2}のダメージを与える。
-23707	When Virus Spread is cast, cast mini “Virus Spread” @{1} more times at the target location\n(No Chance required)	【ウイルススプレッド】発動時、対象地点に小型の「ウイルススプレッド」を追加で@{1}回発動する\n（確率判定なし）
+23707	When Virus Spread is cast, cast mini “Virus Spread” @{1} more times at the target location\n(No Chance required)	【ウイルスの蔓延】発動時、対象地点に小型の「ウイルスの蔓延」を追加で@{1}回発動する\n（確率判定なし）
 23708	Help? What could you possibly do? A gang of bandits moved into my attic, and they haven't let me sleep for days.	助ける？あんたに何ができるっていうんだい？盗賊の一団がうちの屋根裏に居座って、もう何日も眠れてないんだよ。
 23709	I-It's only a thank-you gift! I'm definitely not trying to confess my feelings! Do you know what she likes best?	こ、これはただのお礼の贈り物だから！告白しようとしてるわけじゃない！教官が一番好きなもの、知ってる？
 23710	Removes up to ${3} ground effects from a designated area with a radius of ${2} meters within ${1} meters of you.	自身から${1}m以内の半径${2}mの指定エリアにある地面効果を最大${3}個解除する。
@@ -780,7 +780,7 @@ Index	English	Japanese_Translation
 23779	This is the Guild Level. It governs guild growth and Benefits and determines the Level-up limit for other buildings	これはギルドレベルです。ギルドの成長と恩恵を左右し、他の建物のレベル上限を決定します
 23780	^{1}^{2}[Pierce]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	^{1}^{2}[ピアース]^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
 23781	When a sword-type Weapon is equipped, PATK increases by ${1} for each Learn Lv. of ^{1}^{2}[Sword Quicken]^{3}^{4}.	剣系武器装備時、^{1}^{2}[ソードクイッケン]^{3}^{4}の習得Lv.1ごとに物理攻撃力が${1}増加する。
-23782	^{1}^{2}【Virus Spread】^{3}^{4} Damage Increase: ${1}% to the percentage damage multiplier and ${2} to fixed damage.	^{1}^{2}【ウイルススプレッド】^{3}^{4}のダメージ増加：割合ダメージ倍率+${1}%、固定ダメージ+${2}。
+23782	^{1}^{2}【Virus Spread】^{3}^{4} Damage Increase: ${1}% to the percentage damage multiplier and ${2} to fixed damage.	^{1}^{2}【ウイルスの蔓延】^{3}^{4}のダメージ増加：割合ダメージ倍率+${1}%、固定ダメージ+${2}。
 23783	Osiris commands ^{1}all Horongs in the arena^{2} to move toward the target, damaging ^{3}targets in their path^{4}.	オシリスが^{1}アリーナ内のすべてのホロン^{2}を対象へ移動させ、^{3}経路上の対象にダメージを与える^{4}。
 23784	A powerful presence that saves allies from danger. Reduces the damage allies take while providing powerful Healing.	危機から味方を救う頼もしい存在。味方の被ダメージを軽減しながら、強力な回復を行う。
 23785	A Golden Coronet engraved with mysterious runes. Legend says it was blessed during the coronation of a former pope.	神秘的なルーンが刻まれた金の冠。かつての教皇の戴冠式で祝福を受けたという伝説がある。
@@ -806,7 +806,7 @@ Index	English	Japanese_Translation
 23805	Even a tiny balloon can express your feelings~\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}	小さな風船でも気持ちは伝えられるよ～\n^{1}親密度+@{1}、受取人の人気度+@{2}、自分のハート+@{3}
 23806	Instantly restores the character's Life by ^{1}@{1}%^{2} of their maximum HP. ^{3}Life^{4}. Cooldown: @{2} seconds.	キャラクターのHPを最大HPの^{1}@{1}%^{2}分、即座に回復する。^{3}HP^{4}。クールダウン：@{2}秒。
 23807	Summons a vending cart nearby where you can purchase Battle Royale items. The vending cart lasts ^{1} @{1}^{2} sec.	近くに自動販売カートを召喚し、バトルロイヤル用アイテムを購入できる。カートは^{1}@{1}^{2}秒間持続する。
-23808	When 【Melody Vulcan】 triggers 【Firepower Reload】, 【Melody Cannon - Enhance】 Crit Chance increases by ^{1}@{1}%^{2}.	【メロディーバルカン】で【ファイアパワーリロード】が発動すると、【メロディーキャノン・強化】のクリティカル率が^{1}@{1}%^{2}増加する。
+23808	When 【Melody Vulcan】 triggers 【Firepower Reload】, 【Melody Cannon - Enhance】 Crit Chance increases by ^{1}@{1}%^{2}.	【メロディーバルカン】で【ファイアパワーリロード】が発動すると、【メロディキャノン - 強化】のクリティカル率が^{1}@{1}%^{2}増加する。
 23809	Then we found the three 【Keys】 left behind by the gods—the Realm Sandbox, the Nail of Cosmic Law, and your compass.	そして私たちは、神々が残した3つの【鍵】――領域サンドボックス、宇宙法則の釘、そしてあなたのコンパスを見つけた。
 23810	A group of uniquely talented individuals has appeared throughout the world. Find them to trigger mysterious events.	世界各地に個性的な才能を持つ者たちが現れている。彼らを探し出すと、不思議な出来事が起こる。
 23811	Increases 【Sonic Blow】 damage by ${1}%. Raises the target HP threshold for 【Sonic Blow】's damage increase by ${2}%.	【ソニックブロー】のダメージが${1}%増加する。【ソニックブロー】のダメージ増加が適用される対象HP上限が${2}%上昇する。
@@ -860,7 +860,7 @@ Index	English	Japanese_Translation
 23859	Deals ST Neutral melee Physical damage equal to Physical ATK * ^{1}${2}%^{2} to the target enemy within ${1} meters.	${1}m以内の対象の敵単体に物理攻撃力*^{1}${2}%^{2}の無属性近接物理ダメージを与える。
 23860	Let's split up. ^{1}PlayerName^{2} and I will deal with the hardest one to persuade, while Kiki talks to the others.	手分けしよう。^{1}PlayerName^{2}と私は一番説得が難しい相手を担当する。キキは他の人たちを頼む。
 23861	We reported them to the guards, but they said this is a public area and they can't stop people from waiting in line.	衛兵にも通報したんだが、ここは公共の場所だから並ぶこと自体は止められないと言われたよ。
-23862	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.	いずれかの守護スキル使用時、主人に[神聖な希望]（物理/魔法防御力+^{1}${1}%^{2}）を${2}%秒間付与する。
+23862	When any Protector skill is used, grants the master [Divine Hope] (Physical/Magic DEF +^{1}${1}%^{2}) for ${2}% sec.	いずれかの守護スキル使用時、主人に[ディヴァインホープ]（物理/魔法防御力+^{1}${1}%^{2}）を${2}%秒間付与する。
 23863	You no longer own some items in the recommended build. Replace the selected System build with the recommended build?	おすすめビルド内の一部アイテムを所持していません。選択中のシステムビルドをおすすめビルドに置き換えますか？
 23864	Every @{1} seconds, Live Coals will appear in the territory. Gather them and add them to the Bonfire to earn rewards.	@{1}秒ごとに領地内へ燃える石炭が出現する。集めて焚き火へ投入すると報酬を獲得できる。
 23865	A highest-ranking cleric with greatly improved field auto-battle capabilities, battlefield damage, and crowd control.	最高位の聖職者。フィールドオート戦闘能力、戦場での火力、行動妨害能力が大幅に向上している。
@@ -888,7 +888,7 @@ Index	English	Japanese_Translation
 23887	Hey! You stingy old man! ^{1}PlayerName^{2} got hurt because of you, and all you're offering is a room for the night?	ちょっと！ケチなおじいさん！^{1}PlayerName^{2}はあんたのせいで怪我したのに、泊まる部屋だけで済ませるつもり？！
 23888	“This route used to be the lifeline of merchant caravans. Now... those damned sky pirates have thrown it into chaos.”	「この道はかつて商隊の生命線だった。今では……忌々しい空賊どものせいでめちゃくちゃだ。」
 23889	“Hahaha! Judging by the look on your face, is this your first time on an airship? Nervous? Relax—I’ve got your back!”	「ハハハ！その顔を見るに、飛行船は初めてか？緊張してる？安心しろ――俺がついてる！」
-23890	Kafra Battlefield Administrator\n[Evil Eye Messenger] has airdropped a ^{1}[Surprise Chest]^{2} onto the battlefield!	カプラ戦場管理者\n[イビルアイメッセンジャー]が戦場に^{1}[サプライズチェスト]^{2}を空中投下しました！
+23890	Kafra Battlefield Administrator\n[Evil Eye Messenger] has airdropped a ^{1}[Surprise Chest]^{2} onto the battlefield!	カプラ戦場管理者\n[邪眼の使者]が戦場に^{1}[サプライズチェスト]^{2}を空中投下しました！
 23891	Kafra Battlefield Manager\nReceive the Blessing of Tyr, God of War, increasing Crit Chance by @{1}% for @{2} minutes.	カプラ戦場管理人\n戦の神テュールの加護を受け、@{2}分間、クリティカル率が@{1}%増加する。
 23892	Bobo\n(Gasps) W-w-why is it Eddga?!!! (Squeezes eyes shut) Never mind! Saving them comes first! Adventurer, let's go!	ボボ\n（息をのむ）な、な、なんでエドガなの？！！！（ぎゅっと目を閉じる）もういい！まず助けるのが先！冒険者、行こう！
 23893	A large carnivorous fish that requires high-quality water. Its meat is delicious and said to be good for your health.	良質な水を必要とする大型の肉食魚。肉は美味で、健康にもよいと言われている。
@@ -939,9 +939,9 @@ Index	English	Japanese_Translation
 23938	Donate Arcane Crystals during the event. When the progress bar reaches ${1}, the gateway to an unknown realm will open…	イベント期間中に秘術クリスタルを寄付しましょう。進捗バーが${1}に達すると、未知の領域へのゲートが開きます…
 23939	After the Event Over, Rankings will be determined by damage dealt, both within each group and across the Entire Server.	イベント終了後、与えたダメージに基づいて、各グループ内および全サーバーのランキングが決定されます。
 23940	Slow-fermented Grape wine with a deep purple hue and herbal finish. Increases Physical ATK by @{1}~@{2} for @{3} hours.	じっくり発酵させた濃い紫色のブドウ酒。ハーブの余韻が残る一杯。物理攻撃力が@{1}～@{2}、@{3}時間増加します。
-23941	^{1}^{2}【Cart Boost】^{3}^{4} increases the damage bonus of ^{5}^{6}【High Speed Cart Ram】^{7}^{8} by ${1}% while active.	^{1}^{2}【カートブースト】^{3}^{4}発動中、^{5}^{6}【ハイスピードカートアタック】^{7}^{8}の与ダメージボーナスが${1}%増加します。
+23941	^{1}^{2}【Cart Boost】^{3}^{4} increases the damage bonus of ^{5}^{6}【High Speed Cart Ram】^{7}^{8} by ${1}% while active.	^{1}^{2}【カートブースト】^{3}^{4}発動中、^{5}^{6}【ハイスピードカートラム】^{7}^{8}の与ダメージボーナスが${1}%増加します。
 23942	Cannot use skill or move, and Physical and Magic DEF are reduced by ${1}. Removed when hit, then inflicts ^{1}Slow^{2}.	スキル使用および移動ができなくなり、物理防御力と魔法防御力が${1}減少します。攻撃を受けると解除され、その後^{1}減速^{2}を付与します。
-23943	Increases the duration of 【Frozen】, 【Blind】, and 【Immobilize】 inflicted by ^{1}【Trap Hunter】^{2} skills by ${1} second.	^{1}【トラップハンター】^{2}スキルが付与する【凍結】、【暗黒】、【移動不可】の持続時間が${1}秒延長されます。
+23943	Increases the duration of 【Frozen】, 【Blind】, and 【Immobilize】 inflicted by ^{1}【Trap Hunter】^{2} skills by ${1} second.	^{1}【トラップハンター】^{2}スキルが付与する【凍結】、【暗闇】、【移動不能】の持続時間が${1}秒延長されます。
 23944	${1} resources have not finished downloading. Approximately ${2}MB of data must be downloaded. Tap Confirm to download.	${1}個のリソースのダウンロードが完了していません。約${2}MBのデータをダウンロードする必要があります。「確認」をタップしてダウンロードしてください。
 23945	When equipped with a ^{1}【Mace】^{2} weapon, gain ^{3}${1}^{4} Physical ATK and ^{5}${2}%^{6} Normal Attack Crit Chance.	^{1}【メイス】^{2}を装備している時、物理攻撃力が^{3}${1}^{4}、通常攻撃のクリティカル率が^{5}${2}%^{6}増加します。
 23946	^{1}^{2}[Sanctuary]^{3}^{4}'s percentage Healing multiplier increases by ${1}% and its fixed Healing increases by ${2}.	^{1}^{2}[サンクチュアリ]^{3}^{4}の回復倍率が${1}%増加し、固定回復量が${2}増加します。

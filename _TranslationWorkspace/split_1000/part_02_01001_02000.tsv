@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 1001	Giearth	ガイアス
 1002	Obeaune	オボンヌ
 1003	Ladybug	レディバグ
@@ -13,7 +13,7 @@ Index	English	Japanese_Translation
 1012	Reversi	リバーシ
 1013	Job EXP	Job EXP
 1014	MP Cost	消費SP
-1015	Stealth	ハイド
+1015	Stealth	ステルス
 1016	Refresh	更新
 1017	Trainee	見習い
 1018	Regular	一般
@@ -920,7 +920,7 @@ Index	English	Japanese_Translation
 1919	【Control】	【妨害】
 1920	【Healing】	【回復】
 1921	【Support】	【支援】
-1922	【Stealth】	【隠密】
+1922	【Stealth】	【ステルス】
 1923	【Utility】	【汎用】
 1924	Card View	カード確認
 1925	Item View	アイテム確認

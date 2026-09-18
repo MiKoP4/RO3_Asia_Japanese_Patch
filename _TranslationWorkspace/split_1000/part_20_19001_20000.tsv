@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 19001	A Costume modeled after the Grim Reaper's scythe.	死神の鎌を模したコスチューム。
 19002	Go near the seller's Stall to purchase this item.	このアイテムを購入するには出品者の露店の近くへ移動してください。
 19003	You don't have enough ${1} to make this purchase.	購入に必要な${1}が不足しています。
@@ -107,7 +107,7 @@ Index	English	Japanese_Translation
 19106	Strikes the currently targeted player in the grid	グリッド内で現在ターゲット中のプレイヤーを攻撃
 19107	Cross-shaped AoE, vertical first, then horizontal	十字範囲攻撃。縦方向の後、横方向に攻撃
 19108	Cross-shaped AoE, first vertical, then horizontal	十字範囲攻撃。まず縦方向、その後横方向に攻撃
-19109	Ends the current ^{1}^{2}【Reading】^{3}^{4} state.	現在の^{1}^{2}【読書】^{3}^{4}状態を終了します。
+19109	Ends the current ^{1}^{2}【Reading】^{3}^{4} state.	現在の^{1}^{2}【リーディング】^{3}^{4}状態を終了します。
 19110	Unable to find the Luxury Dragon configuration ID	高級ドラゴン設定IDが見つかりません
 19111	Equipment in this Equipment Preset does not exist	この装備プリセット内の装備が存在しません
 19112	Attempted to remove a player who is not a friend.	フレンドではないプレイヤーを削除しようとしました。
@@ -179,7 +179,7 @@ Index	English	Japanese_Translation
 19178	Skill@{1}Square Formation Bagpipe Sound Blade-Easy	スキル@{1}スクエアフォーメーション・バグパイプ音刃-イージー
 19179	Heavy Shield Defense - Broken While Raising Shield	ヘビーシールドディフェンス - シールド構え中に破壊
 19180	Skill@{1}_Remove Circle-Stepping Interaction Skill	スキル@{1}_円周踏みインタラクションスキル解除
-19181	Enhanced Focused Arrow Strike (Unlimited Shooting)	強化フォーカスドアローストライク（無限射撃）
+19181	Enhanced Focused Arrow Strike (Unlimited Shooting)	強化集中アローストライク（無限射撃）
 19182	DMG Reduction +@{1}% for each skill on this Totem.	このトーテムのスキル1つにつきダメージ軽減 +@{1}%
 19183	Notification Phase @{1} - Bonfire End Phase Begins	通知フェーズ@{1} - 焚き火終了フェーズ開始
 19184	Play Cheers @{2} after Campfire Phase @{1} begins!	焚き火フェーズ@{1}開始後、歓声@{2}を再生！
@@ -569,7 +569,7 @@ Index	English	Japanese_Translation
 19568	Maximum number of simultaneous Interactions reached.	同時インタラクション数が上限に達しました。
 19569	Pick up the Dragon Scales dropped by the fire dragon	ファイアドラゴンが落としたドラゴンスケイルを拾う
 19570	Discard the Dragon Scales dropped by the fire dragon	ファイアドラゴンが落としたドラゴンスケイルを捨てる
-19571	Removes the ^{1}【Poisoned】^{2} status from yourself.	自身の^{1}【毒】^{2}状態を解除。
+19571	Removes the ^{1}【Poisoned】^{2} status from yourself.	自身の^{1}【毒状態】^{2}を解除。
 19572	Backpack is full. @{1}-star cards cannot be advanced	バックパックが満杯です。@{1}星カードを昇級できません
 19573	This card has already had a Level-up or Star Upgrade	このカードはすでにレベルアップまたは星ランクアップ済みです
 19574	This action cannot be performed during Guild League.	ギルドリーグ中はこの操作を行えません。
@@ -687,7 +687,7 @@ Index	English	Japanese_Translation
 19686	Open to receive random Soul Echoes and Soul Echo EXP.	開くとランダムなソウルエコーとソウルエコーEXPを獲得。
 19687	Grants a random Advanced Divine Art Totem Skill Book.	ランダムな上級神術トーテムスキルブックを獲得。
 19688	Open this chest to select one type of T@{1} Fragment.	開くとT@{1}欠片を1種類選択して獲得。
-19689	Grants various types of Equipment Forging blueprints.	各種装備製作設計図を獲得。
+19689	Grants various types of Equipment Forging blueprints.	各種装備製造設計図を獲得。
 19690	${1}'s position changed from ${2} to xxx (Deprecated)	${1}の役職が${2}からxxxへ変更（廃止予定）
 19691	An item that inspires unwavering loyalty to the army.	軍への揺るぎない忠誠心をかき立てるアイテム。
 19692	Talent attributes will reset when the Season changes.	シーズン切替時にタレント属性はリセットされます。
@@ -795,7 +795,7 @@ Index	English	Japanese_Translation
 19794	You can re-enter the dungeon after leaving. Leave now?	ダンジョン退出後も再入場できます。退出しますか？
 19795	Dragon Seal successfully defended. Challenge complete!	竜の封印を守り切りました。チャレンジ完了！
 19796	^{1}^{2}【WARNING】^{3}^{4}[City Gate] HP is below @{1}%	^{1}^{2}【警告】^{3}^{4}[城門] HPが@{1}%未満
-19797	^{1}【Emergency】^{2}[Mid-Lane Protector] HP below @{1}%	^{1}【緊急】^{2}[中央レーンプロテクター] HPが@{1}%未満
+19797	^{1}【Emergency】^{2}[Mid-Lane Protector] HP below @{1}%	^{1}【緊急】^{2}[中央レーン守護者] HPが@{1}%未満
 19798	^{1}【Warning】^{2}[Right Lane Protector] HP below @{1}%	^{1}【警告】^{2}[右レーンプロテクター] HPが@{1}%未満
 19799	^{1}^{2}【ALERT】^{3}^{4} [Ornate Metal] is under attack	^{1}^{2}【警報】^{3}^{4} [華麗な金属]が攻撃されています
 19800	^{1}【Notice】^{2}The enemy [Battering Ram] has appeared	^{1}【通知】^{2}敵の[破城槌]が出現しました

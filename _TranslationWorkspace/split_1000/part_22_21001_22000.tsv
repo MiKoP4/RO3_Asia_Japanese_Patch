@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 21001	Follow the pathfinder ant to the entrance of the queen ant's nest	道案内アリについて行き、女王アリの巣の入口へ向かう
 21002	Ji explains that multiple parallel timelines exist in this world.	ジーは、この世界には複数の並行した時間軸が存在すると説明した。
 21003	Obtain a wealth of resources and provide Guild Coins to the guild	豊富な資源を獲得し、ギルドにギルドコインを提供する
@@ -102,7 +102,7 @@ Index	English	Japanese_Translation
 21101	^{1}Attack Almakia with the Heavy Cannon until it becomes Weak^{2}	^{1}重砲でアルマギアを攻撃し、弱体化させる^{2}
 21102	There's an Adventurer camp nearby. Go there to gather information.	近くに冒険者キャンプがあります。そこで情報を集めましょう。
 21103	Touch the memory entity prototype and fall into another dimension.	記憶体の試作機に触れ、別の次元へ落ちる
-21104	【Challenge】 Defeat an MVP with any Member of your Adventure Party.	【挑戦】冒険者パーティのメンバーと一緒にMVPを1体倒す
+21104	【Challenge】 Defeat an MVP with any Member of your Adventure Party.	【チャレンジ】冒険者パーティのメンバーと一緒にMVPを1体倒す
 21105	This player is masked. You cannot view their personal information.	このプレイヤーは匿名状態です。個人情報を確認できません。
 21106	Randomly grants <color=#cc762a>${1}-${2}</color> Unseal Card Slots	ランダムで<color=#cc762a>${1}-${2}</color>個のカード封印スロットを解放します。
 21107	Spend <sprite name="${1}"> <color=#cc762a>x${2}</color> to Revive?	<sprite name="${1}"> <color=#cc762a>x${2}</color>を消費して復活しますか？
@@ -181,7 +181,7 @@ Index	English	Japanese_Translation
 21180	Come see me again... tomorrow. Perhaps it's time you learned more.	また明日…私のところへ来てください。そろそろもっと詳しく教える時かもしれません。
 21181	Normal Attack, Talent Skills, and Derived Skills cannot be edited.	通常攻撃、タレントスキル、派生スキルは編集できません。
 21182	Epic Battle ${1} difficulty is now available!\nAnswer the summons?	エピックバトルの${1}難易度が開放されました！\n召集に応じますか？
-21183	Learn 【Advanced Katar Mastery】 to gain an Extra ${1} Physical ATK.	【上級カタール修練】を習得すると、物理攻撃力が追加で${1}増加します。
+21183	Learn 【Advanced Katar Mastery】 to gain an Extra ${1} Physical ATK.	【上級カタールマスタリー】を習得すると、物理攻撃力が追加で${1}増加します。
 21184	Movement Speed +@{1}%. Touch a blue bubble to gain a damage bonus.	移動速度+@{1}%。青い泡に触れるとダメージボーナスを獲得します。
 21185	Items you no longer own were automatically removed from the build.	現在所持していないアイテムはビルドから自動的に削除されました。
 21186	Granted by the Fox Fairy. Increases damage dealt by ^{1}${1}%^{2}.	フォックスフェアリーの加護。与ダメージが^{1}${1}%^{2}増加します。
@@ -239,7 +239,7 @@ Index	English	Japanese_Translation
 21238	You are no longer in the guild holding this auction and cannot bid.	このオークションを開催しているギルドに所属していないため、入札できません。
 21239	The auction has not officially started yet. Please try again later.	オークションはまだ正式に開始されていません。しばらくしてからもう一度お試しください。
 21240	Pet Shards can be used to unlock and star up the corresponding Pet.	ペットの欠片は、対応するペットの解放および星ランクアップに使用できます。
-21241	A detailed Equipment Crafting Blueprint used for Equipment Forging.	装備鍛造に使用する詳細な装備製作設計図。
+21241	A detailed Equipment Crafting Blueprint used for Equipment Forging.	装備鍛造に使用する詳細な装備製造設計図。
 21242	A mysterious potion that cures nearly every negative status effect.	ほぼすべての状態異常を治療できる不思議なポーション。
 21243	Points obtained by defeating monsters in the ^{1}Geffen^{2} region.	^{1}ゲフェン^{2}地域のモンスターを倒すと獲得できるポイント。
 21244	Points obtained by defeating monsters in the ^{1}Morroc^{2} region.	^{1}モロック^{2}地域のモンスターを倒すと獲得できるポイント。
@@ -261,7 +261,7 @@ Index	English	Japanese_Translation
 21260	The Dancer loved your tip and granted you 15 seconds of bonus time.	ダンサーがあなたのチップを気に入り、ボーナスタイムを15秒追加してくれました。
 21261	Maximum Floors of all your Physical damage buffs increased by @{1}.	すべての物理ダメージバフの最大スタック数+@{1}。
 21262	【Meteor Assault】's 【Stun】 and 【Darkness】 Chance increased by ${1}%.	【メテオアサルト】の【スタン】と【暗黒】の付与確率が${1}%増加します。
-21263	Increases the 【Venom】 damage triggered by 【Deadly Poison】 by ${1}%.	【デッドリーポイズン】によって発動する【猛毒】ダメージが${1}%増加します。
+21263	Increases the 【Venom】 damage triggered by 【Deadly Poison】 by ${1}%.	【デッドリーポイズン】によって発動する【ヴェノム】ダメージが${1}%増加します。
 21264	Grants a shield equal to @{1}% of damage taken during King's Grace.	キングスグレイス中に受けたダメージの@{1}%に相当するシールドを付与します。
 21265	Movement Speed +@{1}%. Touch a green bubble to gain a damage bonus.	移動速度+@{1}%。緑の泡に触れるとダメージボーナスを獲得します。
 21266	Uses the higher of Physical ATK and Magic ATK when calculating ATK.	攻撃力の計算時、物理攻撃力と魔法攻撃力の高い方を使用します。
@@ -475,7 +475,7 @@ Index	English	Japanese_Translation
 21474	Almost there. I'll sell a little longer, then Close Stall for the day.	もう少しだ。あとちょっと売ったら、今日は露店を閉じよう。
 21475	Which direction is the Relic? Could you mark it on our map? Thank You!	遺物はどっちの方向？地図に印を付けてもらえる？ありがとう！
 21476	Stat bonuses will <color=#C26B47>reset when the Season changes</color>	ステータスボーナスは<color=#C26B47>シーズン切り替え時にリセットされます</color>
-21477	^{1}【Warning】^{2}The enemy has finished setting up the [Right Ladder].	^{1}【警告】^{2}敵が[右梯子]の設置を完了しました。
+21477	^{1}【Warning】^{2}The enemy has finished setting up the [Right Ladder].	^{1}【警告】^{2}敵が[右はしご]の設置を完了しました。
 21478	Our ^{1}${1}^{2} dealt the final blow to the right-lane ^{3}Guard^{4}!	味方の^{1}${1}^{2}が右レーンの^{3}ガード^{4}にとどめを刺しました！
 21479	Baphomet will continuously unleash scythes. Keep moving to dodge them!	バフォメットが連続で大鎌を放ちます。動き続けて回避してください！
 21480	^{1}${2}^{2} has reached ^{3}${3}^{4} points! Victory is within reach!	^{1}${2}^{2}が^{3}${3}^{4}ポイントに到達！勝利は目前です！
@@ -533,7 +533,7 @@ Index	English	Japanese_Translation
 21532	Moderately Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>	やや活発：<color=#7E7361>${1} ≤ 週間活躍度 ≤ ${2}</color>
 21533	Already protected by the Sacred Tree Spirit. Cannot be triggered again.	すでに聖樹の精霊に守られています。再度発動することはできません。
 21534	^{1}^{2}【Maximize Power】^{3}^{4} increases nearby allies' PATK by ${1}.	^{1}^{2}【マキシマイズパワー】^{3}^{4}は周囲の味方の物理攻撃力を${1}増加させます。
-21535	^{1}^{2}【Maximum Over Thrust】^{3}^{4}grants an Extra ${1}% Crit Chance.	^{1}^{2}【マキシマムオーバートラスト】^{3}^{4}は追加でクリティカル率を${1}%増加させます。
+21535	^{1}^{2}【Maximum Over Thrust】^{3}^{4}grants an Extra ${1}% Crit Chance.	^{1}^{2}【オーバートラストマックス】^{3}^{4}は追加でクリティカル率を${1}%増加させます。
 21536	Raises the quality of all players' currently equipped gear by one tier.	全プレイヤーが現在装備している装備の品質を1段階上昇させます。
 21537	Extremely high Physical Defense, but highly vulnerable to Magic attacks	物理防御力が非常に高い一方、魔法攻撃には非常に弱いです。
 21538	Extremely high Magic Defense, but highly vulnerable to Physical attacks	魔法防御力が非常に高い一方、物理攻撃には非常に弱いです。
@@ -586,8 +586,8 @@ Index	English	Japanese_Translation
 21585	A sword with a long, slender blade designed specifically for thrusting.	刺突攻撃に特化して設計された、細長い刀身を持つ剣。
 21586	Use powerful soul energy to control and damage enemies in a small area.	強力な魂のエネルギーを操り、狭い範囲の敵を制御してダメージを与えます。
 21587	<color=#63A22B>(Unlocks after the Current Server's First Clear)</color>	<color=#63A22B>（現在のサーバーで初回クリア達成後に解放）</color>
-21588	First prize must be drawn from players using the Baphomet Jr. Transform	1等はバフォメット.Jrに変身しているプレイヤーから抽選されます。
-21589	Third prize must be drawn from players using the Baphomet Jr. Transform	3等はバフォメット.Jrに変身しているプレイヤーから抽選されます。
+21588	First prize must be drawn from players using the Baphomet Jr. Transform	1等はバフォメットJr.に変身しているプレイヤーから抽選されます。
+21589	Third prize must be drawn from players using the Baphomet Jr. Transform	3等はバフォメットJr.に変身しているプレイヤーから抽選されます。
 21590	Consume Vigor to gather open-world resources and craft Tradeable items.	活力を消費してフィールド資源を採集し、取引可能なアイテムを製作します。
 21591	Event Period: During the Ignition Test, Sunday from @{1}:@{2}~@{3}:@{4}	イベント期間：イグニッションテスト中、日曜日 @{1}:@{2}～@{3}:@{4}
 21592	Event Period: During the Ignition Test, Friday from @{1}:@{2}~@{3}:@{4}	イベント期間：イグニッションテスト中、金曜日 @{1}:@{2}～@{3}:@{4}
@@ -671,7 +671,7 @@ Index	English	Japanese_Translation
 21670	Current Equipment already has an Enchant with the same name. Replace it?	現在の装備にはすでに同名のエンチャントがあります。置き換えますか？
 21671	After successfully logging Lv. @{1} trees, gain @{2} Extra main products	Lv.@{1}の木の伐採に成功すると、主産物を追加で@{2}個獲得します。
 21672	Until fate reveals itself once more, you must never stop moving Forward.	運命が再び姿を現すその時まで、決して前へ進むことをやめてはいけない。
-21673	Second prize must be drawn from players using the Baphomet Jr. Transform	2等はバフォメット.Jrに変身しているプレイヤーから抽選されます。
+21673	Second prize must be drawn from players using the Baphomet Jr. Transform	2等はバフォメットJr.に変身しているプレイヤーから抽選されます。
 21674	You didn't expect that? So you really didn't consider our safety at all!	そんなことも予想してなかったの？つまり私たちの安全なんて全然考えてなかったってこと！
 21675	This item is not currently being auctioned. Fixed price purchase failed.	このアイテムは現在オークションに出品されていません。即決購入に失敗しました。
 21676	Items at Stalls are temporarily unavailable for purchase on this server.	このサーバーでは現在、露店の商品を購入できません。
@@ -758,7 +758,7 @@ Index	English	Japanese_Translation
 21757	Siege War - Battle for the Royal Capital: About to start! Head there now!	攻城戦・王都争奪戦：まもなく開始！今すぐ向かいましょう！
 21758	Reach Lv. ${1} to immediately receive <color=#ff993f>${2}</color> rewards	Lv.${1}に到達すると、<color=#ff993f>${2}</color>の報酬を直ちに獲得します。
 21759	For every @{1} skills on this Totem, your Physical ATK increases by @{2}.	このトーテムにあるスキル@{1}個につき、物理攻撃力が@{2}増加します。
-21760	Increases the Chance of triggering 【Venom】 with 【Deadly Poison】 by ${1}%.	【デッドリーポイズン】で【ベノム】が発動する確率が${1}%増加します。
+21760	Increases the Chance of triggering 【Venom】 with 【Deadly Poison】 by ${1}%.	【デッドリーポイズン】で【ヴェノム】が発動する確率が${1}%増加します。
 21761	Takes damage every @{1} seconds. Each stack reduces damage dealt by @{2}%	@{1}秒ごとにダメージを受けます。1スタックにつき与ダメージが@{2}%減少します。
 21762	Job Advance requirements not met. Base Lv. ${1} and Job Lv. ${2} required.	転職条件を満たしていません。Base Lv.${1}、Job Lv.${2}が必要です。
 21763	Rewards for all completed Trophies can be claimed after Season Settlement.	完了したすべてのトロフィー報酬は、シーズン集計後に受け取れます。
@@ -775,9 +775,9 @@ Index	English	Japanese_Translation
 21774	Your position in the queue is <color=#fdab5b><size=50>${1}</size></color>.	現在の待機順位：<color=#fdab5b><size=50>${1}</size></color>。
 21775	^{1}^{2}[Heal]^{3}^{4} and ^{5}^{6}[Sanctuary]^{7}^{8} Variable CT -${1}%.	^{1}^{2}[ヒール]^{3}^{4}と^{5}^{6}[サンクチュアリ]^{7}^{8}の変動詠唱時間-${1}%。
 21776	While ^{1}^{2}[Auto Guard]^{3}^{4} is active, PATK +${1} and Max HP +${2}.	^{1}^{2}[オートガード]^{3}^{4}発動中、物理攻撃力+${1}、最大HP+${2}。
-21777	While ^{1}^{2}[Parry]^{3}^{4} is active, gain an Extra ${1} PDEF and MDEF.	^{1}^{2}[パリイング]^{3}^{4}発動中、追加で物理防御力と魔法防御力+${1}。
+21777	While ^{1}^{2}[Parry]^{3}^{4} is active, gain an Extra ${1} PDEF and MDEF.	^{1}^{2}[パリィ]^{3}^{4}発動中、追加で物理防御力と魔法防御力+${1}。
 21778	For every ${1} Stunts on equipped gear, Max Life +${2} (up to ${3} Stunts)	装備中の装備にあるスタント${1}個につき、最大HP+${2}（最大${3}スタント）。
-21779	Learn ^{1}^{2}【Advanced Katar Mastery】^{3}^{4} to gain an Extra ${1} PATK.	^{1}^{2}【アドバンスドカタールマスタリー】^{3}^{4}を習得すると、追加で物理攻撃力+${1}。
+21779	Learn ^{1}^{2}【Advanced Katar Mastery】^{3}^{4} to gain an Extra ${1} PATK.	^{1}^{2}【上級カタールマスタリー】^{3}^{4}を習得すると、追加で物理攻撃力+${1}。
 21780	Osiris lashes^{1}@{1} areas ahead with bandages^{2}, damaging targets hit.	オシリスが前方^{1}@{1}箇所を包帯で薙ぎ払い^{2}、命中した対象にダメージを与えます。
 21781	A pair of small red-accented hair ribbons that make girls look even cuter.	女の子をさらに可愛らしく見せる、赤いアクセントの小さな髪飾り2つ。
 21782	The Growth Badge will guide your progress. Open it up and take a look, bo!	成長バッジが進むべき道を案内してくれるよ。開いて見てみよう、ボ～！

@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 4001	Sandman Slow	サンドマンスロー
 4002	Morale Surge	士気の高まり
 4003	Morale Boost	士気向上
@@ -230,7 +230,7 @@ Index	English	Japanese_Translation
 4229	Shield Stance	シールドスタンス
 4230	Freeze effect	フリーズ効果
 4231	Signum Crucis	シグナム・クルシス
-4232	Kyrie Eleison	カイリー・エレイソン
+4232	Kyrie Eleison	キリエエレイソン
 4233	Mana Recharge	マナリチャージ
 4234	Highness Heal	ハイネスヒール
 4235	Knuckle Boost	ナックルブースト
@@ -238,7 +238,7 @@ Index	English	Japanese_Translation
 4237	Monster Fruit	モンスターフルーツ
 4238	Mole Teleport	モグラテレポート
 4239	Splash - Card	スプラッシュ - カード
-4240	Spear Mastery	槍マスタリー
+4240	Spear Mastery	スピアマスタリー
 4241	Gloria Domini	グロリア・ドミニ
 4242	Rapid Smiting	シールドチェイン
 4243	Chat Settings	チャット設定
@@ -332,7 +332,7 @@ Index	English	Japanese_Translation
 4331	Slash Monitor	スラッシュモニター
 4332	Double Attack	ダブルアタック
 4333	Katar Mastery	カタルマスタリー
-4334	Deadly Poison	猛毒
+4334	Deadly Poison	デッドリーポイズン
 4335	Shadow Strike	シャドウストライク
 4336	Toxic Rampage	毒の暴走
 4337	Magic Crasher	マジッククラッシャー
@@ -416,7 +416,7 @@ Index	English	Japanese_Translation
 4415	Pharaoh-Final	ファラオ-ファイナル
 4416	Baphomet-Easy	バフォメット-イージー
 4417	Baphomet-Hard	バフォメットハード
-4418	Current Stage	現在の段階
+4418	Current Stage	現在のステージ
 4419	Familiar Face	見慣れた顔
 4420	Unforgettable	忘れられない
 4421	Powerful Card	強力なカード
@@ -444,7 +444,7 @@ Index	English	Japanese_Translation
 4443	Save Settings	設定の保存
 4444	Guild Members	ギルドメンバー
 4445	Active rating	アクティブレーティング
-4446	[Guild Rally]	【ギルドラリー】
+4446	[Guild Rally]	【ギルド集結】
 4447	No effect yet	まだ効果はありません
 4448	Defeat Poring	ポリンを倒す
 4449	Flee in Panic	パニックになって逃げる
@@ -975,7 +975,7 @@ Index	English	Japanese_Translation
 4974	Damage Ranking	ダメージランキング
 4975	Card: Cornutus	カード：コルヌトゥス
 4976	Card: Minorous	カード：ミノタウロス
-4977	Card: Orc Baby	カード：オークベイビー
+4977	Card: Orc Baby	カード：オークベビー
 4978	Card: Phreeoni	カード：フリオーニ
 4979	Card: Baphomet	カード：バフォメット
 4980	Card: Angeling	カード：エンジェリング
@@ -989,7 +989,7 @@ Index	English	Japanese_Translation
 4988	Equipment Drop	装備ドロップ
 4989	Transform: Red	トランスフォーム：レッド
 4990	Healing Skills	治癒スキル
-4991	Arcane Mastery	秘術マスタリー
+4991	Arcane Mastery	アーケインマスタリー
 4992	Holy Reckoning	ホーリーレコニング
 4993	Skin Tempering	スキンテンパリング
 4994	Maximize Power	マキシマイズパワー

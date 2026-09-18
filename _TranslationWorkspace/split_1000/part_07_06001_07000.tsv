@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 6001	Wave White Flag	白旗ウェーブ
 6002	Dismantle Items	アイテムを解体
 6003	^{1}Focus fire!	^{1}集中砲火！
@@ -236,7 +236,7 @@ Index	English	Japanese_Translation
 6235	Already claimed	受取済みです
 6236	Area not found.	エリアが見つかりません。
 6237	Not in a queue.	キューに参加していません。
-6238	Codex unlocked.	コーデックスを解放しました。
+6238	Codex unlocked.	図鑑を解放しました。
 6239	Ricochet Shield	リコシェシールド
 6240	Critical Attack	クリティカルアタック
 6241	Explosive Spear	エクスプローシブスピア
@@ -324,7 +324,7 @@ Index	English	Japanese_Translation
 6323	Function Details	機能詳細
 6324	Commander Rating	指揮官評価
 6325	Force Field Pull	フォースフィールドプル
-6326	Partywide Endure	パーティ全体エンデュア
+6326	Partywide Endure	パーティ全体インデュア
 6327	Starfish Hairpin	ヒトデのヘアピン
 6328	Afternoon Stroll	午後の散歩
 6329	Nine-Tone Mantra	九音真言
@@ -467,7 +467,7 @@ Index	English	Japanese_Translation
 6466	Card: Orc Zombie	カード: オークゾンビ
 6467	Card: Wind Ghost	カード: ウィンドゴースト
 6468	Card: Squidgitte	カード: スキジッテ
-6469	Card: Thara Frog	カード: タラ・フロッグ
+6469	Card: Thara Frog	カード: タラフロッグ
 6470	Card: Dragon Fly	カード: ドラゴンフライ
 6471	Card: Orc Archer	カード: オークアーチャー
 6472	Card: Leib Olmai	カード: リーブ・オルマイ
@@ -537,7 +537,7 @@ Index	English	Japanese_Translation
 6536	Link Placeholder	リンク用プレースホルダー
 6537	Drake Waterspout	ドレイク・ウォータースパウト
 6538	New Ultimate@{1}	新アルティメット@{1}
-6539	Bandage Lash@{1}	バンデージラッシュ@{1}
+6539	Bandage Lash@{1}	包帯ラッシュ@{1}
 6540	Horong Split@{1}	ホロンスプリット@{1}
 6541	Shroud Detection	シュラウド検知
 6542	Pharaoh Ultimate	ファラオ・アルティメット
@@ -557,7 +557,7 @@ Index	English	Japanese_Translation
 6556	Coordinated Hunt	連携狩猟
 6557	Precision Thrust	精密突き
 6558	Half-Dragon Form	半竜形態
-6559	Thousand Shadows	千の影
+6559	Thousand Shadows	サウザンドシャドウ
 6560	Graffiti Mastery	グラフィティマスタリー
 6561	Prismatic Meteor	プリズマティックメテオ
 6562	S@{1}Shadow Loop	S@{1}シャドウループ
@@ -876,7 +876,7 @@ Index	English	Japanese_Translation
 6875	Bid Fund Details	入札資金詳細
 6876	Seasonal Rewards	シーズン報酬
 6877	Host Permissions	ホスト権限
-6878	Card Codex Guide	カードコーデックスガイド
+6878	Card Codex Guide	カード図鑑ガイド
 6879	Discard Multiple	一括破棄
 6880	Divine Blessing:	神聖な祝福:
 6881	Battle Countdown	戦闘カウントダウン
@@ -944,7 +944,7 @@ Index	English	Japanese_Translation
 6943	Earth Drive Slow	アースドライブ・スロー
 6944	Shooting: BD@{1}	シューティング: BD@{1}
 6945	Performance Buff	パフォーマンスバフ
-6946	Control Immunity	行動阻害無効
+6946	Control Immunity	行動妨害無効
 6947	Dark Wall (Test)	ダークウォール（テスト）
 6948	Increase ATK@{1}	ATK増加@{1}
 6949	Increase Healing	回復量増加

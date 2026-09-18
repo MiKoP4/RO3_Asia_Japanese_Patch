@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 18001	Increases Magic DEF by 【Character Lv.*${1}】.	魔法DEFが【キャラクターLv.*${1}】増加。
 18002	【Gravitation Field】 deals ${1}% more damage.	【グラビテーションフィールド】のダメージが${1}%増加。
 18003	You can adjust your cards in the Card System	カードシステムでカードを調整できます
@@ -263,7 +263,7 @@ Index	English	Japanese_Translation
 18262	<color=#FA983A>${1} Class</color> Not Learned	<color=#FA983A>${1}職</color> 未習得
 18263	Monster Movement Speed increases in @{1} sec.	モンスターの移動速度が@{1}秒後に増加。
 18264	The Monster Boss will appear in @{1} seconds.	モンスターBOSSは@{1}秒後に出現します。
-18265	^{1}【Notice】^{2}[Rear Revive Point] activated	^{1}【お知らせ】^{2}[後方復活ポイント]が起動しました
+18265	^{1}【Notice】^{2}[Rear Revive Point] activated	^{1}【通知】^{2}[後方復活ポイント]が起動しました
 18266	Stop the illusions from approaching Baphomet!	幻影をバフォメットへ近づけるな！
 18267	${1} found the key! Hurry and save the bride!	${1}が鍵を見つけた！急いで花嫁を救え！
 18268	^{1}${2}^{2}'s ^{3}${3}^{4} claimed the flag!	^{1}${2}^{2}の^{3}${3}^{4}が旗を獲得しました！
@@ -489,8 +489,8 @@ Index	English	Japanese_Translation
 18488	<color=#FDAB5B>Vigor</color> -${1} (${2}/${3})	<color=#FDAB5B>活力</color> -${1} (${2}/${3})
 18489	All objects turn into Porings for @{1} seconds	すべてのオブジェクトが@{1}秒間ポリンに変身
 18490	Epic Battle (Hard Difficulty), Begin Challenge	エピックバトル（ハード）、チャレンジ開始
-18491	^{1}【Notice】^{2}Our [Right Ladder] is in place	^{1}【お知らせ】^{2}味方の[右梯子]が設置されました
-18492	^{1}【Notice】^{2}Our [Left Ladder] has appeared	^{1}【お知らせ】^{2}味方の[左梯子]が出現しました
+18491	^{1}【Notice】^{2}Our [Right Ladder] is in place	^{1}【通知】^{2}味方の[右はしご]が設置されました
+18492	^{1}【Notice】^{2}Our [Left Ladder] has appeared	^{1}【通知】^{2}味方の[左はしご]が出現しました
 18493	Enemy ^{1}${1}^{2} destroyed the ^{3}Wall^{4}!	敵^{1}${1}^{2}が^{3}城壁^{4}を破壊した！
 18494	Our Madogear Pilot has entered the battlefield	味方の魔導ギアパイロットが戦場に入りました
 18495	A defensive stone monument has been destroyed!	防御用石碑が破壊されました！
@@ -687,7 +687,7 @@ Index	English	Japanese_Translation
 18686	What's causing the Monsters' unusual agitation?	モンスターが異常に興奮している原因は何だ？
 18687	Successfully dismantled ${1} and obtained ${2}.	${1}を解体し、${2}を獲得しました。
 18688	Stop the monsters from breaking the Dragon Seal	モンスターによるドラゴン封印の破壊を阻止する
-18689	^{1}【Notice】^{2}Our [Right Ladder] has appeared	^{1}【お知らせ】^{2}味方の[右梯子]が出現しました
+18689	^{1}【Notice】^{2}Our [Right Ladder] has appeared	^{1}【通知】^{2}味方の[右はしご]が出現しました
 18690	You're asking for trouble! Roar, roar, roar~~~!	痛い目に遭いたいようだな！ガオー、ガオー、ガオー～～！
 18691	Could it be the Desert Eagle? Just our “luck.”.	まさかデザートイーグル？ついてないな。
 18692	Hurry and search the nearby bushes for the key!	急いで近くの茂みを調べて鍵を探せ！
@@ -849,8 +849,8 @@ Index	English	Japanese_Translation
 18848	The Guild Manager chose to abandon the campaign.	ギルド管理者が作戦放棄を選択しました。
 18849	Automatically leaving the battle in @{1} seconds	@{1}秒後に自動で戦闘から退出します
 18850	Fafnir has summoned a wave of flames! Watch out!	ファフニールが炎の波を召喚した！気をつけろ！
-18851	^{1}【Warning】^{2}[Mid-Lane Guard] HP below @{1}%	^{1}【警告】^{2}[中央レーン守護者]のHPが@{1}%未満
-18852	^{1}【Notice】^{2}Our [Battering Ram] has appeared	^{1}【お知らせ】^{2}味方の[破城槌]が出現しました
+18851	^{1}【Warning】^{2}[Mid-Lane Guard] HP below @{1}%	^{1}【警告】^{2}[中央レーン守備兵]のHPが@{1}%未満
+18852	^{1}【Notice】^{2}Our [Battering Ram] has appeared	^{1}【通知】^{2}味方の[破城槌]が出現しました
 18853	^{1}【Victory】^{2}[Central Revive Point] captured	^{1}【勝利】^{2}[中央復活ポイント]を占領
 18854	^{1}【Alert】^{2} [Glorious Metal] is under attack	^{1}【警報】^{2} [栄光の金属]が攻撃されています
 18855	The stone pillar is about to explode! Move Away!	石柱が爆発する！離れて！

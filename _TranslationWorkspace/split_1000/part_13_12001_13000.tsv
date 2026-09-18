@@ -1,4 +1,4 @@
-Index	English	Japanese_Translation
+﻿Index	English	Japanese_Translation
 12001	Circular AoE-No Logic Yet	円形範囲攻撃（ロジック未実装）
 12002	Solace of Eternal Silence	永遠の静寂の慰め
 12003	Pirate King Normal Attack	海賊王通常攻撃
@@ -80,7 +80,7 @@ Index	English	Japanese_Translation
 12079	Select the Stunt tab, bo!	「アクション」タブを選んで、ボ！
 12080	Heavily-armored Peco Peco	重装甲ペコペコ
 12081	All right, I'm on my way.	分かった、今行くよ。
-12082	What is the 【White Dove】?	【白い鳩】って何？
+12082	What is the 【White Dove】?	【白鳩号】って何？
 12083	Enter Festival Invitation	祭典招待に参加
 12084	Dumby's Request ${1}/${2}	ダンビーの依頼 ${1}/${2}
 12085	Those who get it, get it.	分かる人には分かる。
@@ -596,7 +596,7 @@ Index	English	Japanese_Translation
 12595	Sobbing Starlight Fragment	嘆きのスターライトの欠片
 12596	Military Supplies (Common)	軍需物資（通常）
 12597	Tier @{1} Orange Equipment	Tier @{1} オレンジ装備
-12598	Equipment Forging Material	装備製作素材
+12598	Equipment Forging Material	装備製造素材
 12599	Tier @{1} Purple Equipment	Tier @{1} 紫装備
 12600	Crystallized Bone Fragment	結晶化した骨の欠片
 12601	Hunting Emblem · Conqueror	狩猟エンブレム・征服者
