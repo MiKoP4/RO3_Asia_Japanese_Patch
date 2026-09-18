@@ -1,0 +1,1928 @@
+﻿# Generated from RO3 Recovery Localization_zh_CN.lua.bytes
+# Japanese values are NOT stored here; split_1000 parts 1-27 remain canonical.
+# zh_CN_sha256=c2b07cf34c138d97351273ad00b1db2645a47be1ff49f4e108f531911963c614
+# en_sha256=5ea8f468a675efe64a71eef887e485266d58edf6ce69e52a3d12abbe087340c7
+# english_skill_ids_verified=1823
+ID	English	ChineseSimplified
+10110200000	Blessing	天使之赐福
+10110200001	Signum Crucis	天使之光
+10110200002	Ruwach	光猎
+10110200003	Heal	治愈术
+10110200004	Increase AGI	加速术
+10110200005	Holy Light	神圣之光
+10110200006	Angel Strike	天使之击
+10110200007	Angel Protection	天使之护
+10110200008	Healing Skills	治疗术
+10110200009	Angelus	天使之障壁
+10110200010	Slow	缓速术
+10110200011	Pneuma	光之障壁
+10110200012	Temporary Revive	临时复活术
+10110200013	Mace Mastery	钝器熟练度
+10110200014	Lex Aeterna	天使之怒
+10110200015	Increase SP Recovery	禅心
+10110200016	Recovery	痊愈术
+10110200017	Magnificat	圣母之颂歌
+10110200018	Gloria	幸运之颂歌
+10110200019	Magnus Exorcismus	十字驱魔攻击
+10110200020	Resurrection	复活术
+10110200021	Aspersio	撒水祈福
+10110200022	Sanctuary	光耀之堂
+10110200023	Kyrie Eleison	霸邪之阵
+10110200024	Turn Undead	转生术
+10110200025	Impositio Manus	神威祈福
+10110200026	Lex Divina	沉默之术
+10110200027	Safety Wall	暗之障壁
+10110200028	Suffragium	牺牲祈福
+10110200029	Assumptio	圣母之祈福
+10110200030	Meditatio	冥想
+10110200031	Mana Recharge	魔力减免
+10110200032	Basilica	神圣殿堂
+10110200033	Arcane Mastery	秘术精通
+10110200034	Radiant Resurrection	耀光转生
+10110200035	Holy Cross Judgment	圣十字惩戒
+10110200036	Turn Undead【Extra Trigger】	转生术【额外触发】
+10110200037	Radiant Sanctuary	耀光圣庭
+10110200038	Divine Light Strike	神光打击
+10110200039	Holy Light Bludgeon	圣光钝击
+10110200040	Holy Light Resurrection	圣光转生
+10110200041	Purifying Light Orbit	净耀光环
+10110200042	Sacred Divine Light	神圣治愈
+10110200043	Highness Heal	高阶治愈术
+10110200044	Hymn of the Lamb	羔羊颂歌
+10110200045	Radiant Holy Light	灿烂圣光
+10110200046	Sacred Lily	圣洁百合
+10110200047	Prayer of the Holy Spirit	圣灵降临祈祷
+10110200048	Prayer of Gratitude	感恩祈祷
+10110200049	Wood Spirit's Blessing	树灵加护
+10110200051	Judex	审判
+10110200052	Holy Reckoning	讴歌
+10110200053	Double Holy Light	二道圣光
+10110200054	Holy Spirit Surge	圣灵涌现
+10110200055	Divine Retribution	天罚
+10110200056	Holy Stigma	圣痕
+10110200057	Hymn of Devotion	奉献颂歌
+10110200058	Double Holy Light: Physical	二道圣光：物理
+10110200059	Double Holy Light: Magic	二道圣光：魔法
+10110200061	Discount	低价买进
+10110200062	Overcharge	高价卖出
+10110200063	Cart Use	手推车使用
+10110200064	Cart Remodeling	改装手推车
+10110200065	Vending	露天商店
+10110200066	Cart Revolution	手推车攻击
+10110200067	Mammonite	金钱攻击
+10110200068	Crazy Uproar	大声呐喊
+10110200069	Money Throw	金钱投掷
+10110200070	Gunpowder Throw	火药投掷
+10110200071	Hilt Binding	武器保有
+10110200072	Weaponry Research	武器研究
+10110200073	Skin Tempering	强化火属性
+10110200074	Hammer Fall	大地之击
+10110200075	Adrenaline Rush	速度激发
+10110200076	Power Thrust	凶砍
+10110200077	Maximize Power	武器值最大化
+10110200078	Earth Spike	大地之刺
+10110200079	Cart Boost	手推车加速
+10110200080	High Speed Cart Ram	手推车终结技
+10110200081	High Speed Cart Ram - Enhance	手推车终结技-强化
+10110200082	Melt Down	野蛮凶砍
+10110200083	Maximum Over Thrust	凶砍最大值
+10110200084	Explosive Strike	爆裂一击
+10110200085	Cart Clash	手推车冲撞
+10110200086	Fire and Earth Research	火和大地研究
+10110200087	Axe Mastery	斧头修炼
+10110200088	Emergency Treatment	应急处理
+10110200089	Axe Tornado	战斧飓风
+10110200090	Axe Tornado - Enhance	战斧飓风-强化
+10110200091	Heavy Axe Smash	挥斧重击
+10110200092	Spinning Axe	回旋飞斧
+10110200093	High-Energy Impact	高能冲击
+10110200094	Crescent Wheel	孤月斩轮
+10110200095	Madogear Pilot	魔导机甲驾驶执照
+10110200096	Knuckle Boost	喷射飞拳
+10110200097	Arm Cannon	加农炮
+10110200098	Arm Cannon - Enhance	加农炮-强化
+10110200099	Vulcan Arm	火神炮
+10110200100	Pile Bunker	冲击锥
+10110200101	Flame Launcher	火焰喷射
+10110200102	High-Speed Propulsion	高速推进
+10110200103	Energy Release	能量释放
+10110200104	Aerial Bombardment	高空轰炸
+10110200105	High-Energy Pulse	高能脉冲
+10110200106	Kinetic Battle Axe Assembly	动能战斧装配
+10110200107	Fast Travel	高速移动
+10110200108	Retrieve Instrument	取回仪器
+10110200110	Poring TP	波利TP(无需翻译)
+10110200111	Poring Split	波利分裂(无需翻译)
+10110200112	Radiant Orbit	光明之环(无需翻译)
+10110200113	Angel Sweep	天使扫击(无需翻译)
+10110200114	Radiant Poring Normal Attack - Holy	光明波利普攻-光(无需翻译)
+10110200115	Fallen Sweep	堕落扫击(无需翻译)
+10110200116	Dark Orbit	黑暗之环(无需翻译)
+10110200117	Fallen Poring Normal Attack - Earth	堕落波利普攻-地(无需翻译)
+10110200118	Throw Live Coal	投火种
+10110200119	Throw Accelerant	投助燃剂
+10110200120	Collect Live Coals	采集火种
+10110200121	Monster Fruit	怪物果
+10110200122	Primal Monster Fruit	原初怪物果
+10110200123	Poporing Split	波波利分裂
+10110200124	Earth Poring Split	土波利分裂
+10110200125	Marin Split	冰波利分裂
+10110200126	Mole Teleport	地鼠传送
+10110200128	Cancel Transformation	取消变身
+10110200129	Monster Self-Destruct	怪物自爆（无需翻译）
+10110200130	Enlarge	变大
+10110200131	Shrink	变小
+10110200132	Link with Red Thread	牵红线
+10110200133	Bash	狂击
+10110200134	Jupitel Thunder	雷鸣术
+10110200135	Basic Attack	普通攻击
+10110200136	SP Reduction	扣蓝
+10110200137	Disguise	伪装
+10110200138	Magnum Break	怒爆
+10110200139	Envenom	施毒
+10110200140	Sight	火狩
+10110200141	Sightless Mind	潜击
+10110200142	Magic Absorption - Card	魔法吸收-卡片
+10110200143	Splash - Card	溅射-卡片
+10110200144	Magic Reflect - Card	魔法反射-卡片
+10110200145	Physical Reflect - Card	物理反射-卡片
+10110200146	Spear Mastery	矛系熟练度
+10110200147	Increased Spear Attack Speed	矛攻速增加
+10110200148	Riding	骑乘术
+10110200149	Auto Guard	自动防御
+10110200150	Smite	盾击
+10110200151	Shield Reflect	反射盾
+10110200152	Holy Cross	圣十字攻击
+10110200153	Grand Cross	圣十字审判
+10110200154	Devotion	牺牲
+10110200155	Providence	神佑之光
+10110200156	Defending Aura	光之盾
+10110200157	Recoil	退缩
+10110200158	Faith	信任
+10110200159	Shield Boomerang	回旋盾击
+10110200160	Shield Reflect Auto Counter	反射盾反击
+10110200161	Recoil Auto Counter	退缩反击
+10110200162	Monster Resistance	怪物抵御
+10110200163	Cross Blast	十字爆破
+10110200164	Cross Thrust	十字突刺
+10110200165	Absolute Judex	绝对审判
+10110200166	Shield Boomerang Combo	回旋盾连击
+10110200167	Double Pressure	双倍威压
+10110200168	Gloria Domini	神之威压
+10110200169	Divine Punishment	神之惩戒
+10110200170	Shield Pursuit	连续盾追击
+10110200171	Rapid Smiting	连续盾击
+10110200172	Sacrifice	舍命攻击
+10110200173	Battle Chant	圣音
+10110200174	Fountain of Life	生命源泉
+10110200175	Crest of Light	光之纹章
+10110200176	Advanced Monster Resistance	进阶怪物抵御
+10110200177	Banishing Thrust	驱逐点刺
+10110200178	Heavy Cannon Shot	重炮枪击
+10110200179	Pinpoint Attack	精准穿刺
+10110200180	Spear Formation - Blood Cross	枪阵-血十字
+10110200181	Moon Slasher	枪阵-圆月
+10110200182	Sniping Shot	蓄势待发
+10110200183	Twilight	黄昏之光
+10110200184	Shield Press	盾牌压制
+10110200185	Reflect Damage	荆棘光环
+10110200186	Shield Cast	盾牌咏唱
+10110200187	Holy Light Suppression	圣光压制
+10110200188	Earth Drive	大地猛击
+10110200189	King's Grace	王之守护
+10110200190	Shield Defense	架盾防御
+10110200191	Union	联合
+10110200192	Piety	虔诚
+10110200193	Divine Insight	圣灵感应
+10110200194	Thorn	荆棘
+10110200195	Shield Break	护盾破碎
+10110200196	Reflect Damage Passive	荆棘光环被动
+10110200197	Spear Auto Counter	长枪反击
+10110200198	Charge Up Strike	蓄势一击
+10110200199	Shield Bash Enhance	盾击强化
+10110200200	Fearless Charge	无畏冲锋
+10110200201	Earthshaker	翻天覆地
+10110200202	Spear Formation - Crescent Moon	枪阵-旋月
+10110200203	Powerful Shield Bash	强力盾击
+10110200204	Ultra Shield Bash	超强力盾击
+10110200205	Advanced Monster Resistance	高阶怪物抵御
+10110200206	Shield Block	盾牌格挡
+10110200207	Shield Auto Counter	盾牌反击
+10110200208	Powerful Auto Counter	强力反击
+10110200209	Block Impact	格挡受击
+10110200210	Test Skill@{1}	测试技能@{1}
+10110200211	Test Skill@{1}*	测试技能@{1}*
+10110200212	Spatial Dimension	立体空间
+10110200213	Ricochet Dimension	弹射空间
+10110200214	Flame Surge	火焰冲击
+10110200215	Freezing Dimension	冰冻空间
+10110200216	Petrify Dimension (Unreleased)	石化空间（未投放）
+10110200217	Sleep Dimension	睡眠空间
+10110200218	Silence Dimension	沉默空间
+10110200219	Immobilize Dimension	定身空间
+10110200220	Darkness Dimension	黑暗空间
+10110200221	Hunting Trap	捕猎陷阱
+10110200222	Flame Dimension (Unreleased)	火焰空间（未投放）
+10110200223	Slow Dimension	迟滞空间
+10110200224	Falcon Patrol	猎鹰巡查
+10110200225	Create Vending Cart	创造自动贩卖车
+10110200226	Create Ambulance	创造救护车
+10110200227	Cloaking Dimension (Unreleased)	伪装空间（未投放）
+10110200228	Assassin Normal Attack	刺客普攻
+10110200229	Shadow Step	暗影步
+10110200230	Soul Destroyer	心灵震波
+10110200231	Enhance Cloaking	伪装强化
+10110200232	Meteor Assault	黑暗瞬间
+10110200233	Rolling Cutter	回旋刀刃
+10110200234	Dark Illusion	黑色幻影
+10110200235	Evil Spirit Threat	恶灵威胁
+10110200236	Sonic Slash	音速切割
+10110200237	Rift Impact	裂空冲击
+10110200238	Cleaving Slash	斩劈挥砍
+10110200239	Phantom Thrust	幻象突刺
+10110200240	Rain of Spears	百矛穿刺
+10110200241	Mage Normal Attack	法师普攻
+10110200242	Tetra Vortex	元素漩涡
+10110200243	Comet	破坏彗星
+10110200244	Thunderclap	霹雳雷霆
+10110200245	Crimson Rock	深红陨石
+10110200246	Destructive Flame (Deprecated)	毁灭烈焰（废弃）
+10110200247	Petrify Curse (Deprecated)	石化诅咒（废弃）
+10110200248	Jack Frost	霜冻爆破
+10110200249	Ice Fog	冰雾
+10110200250	Earth Strain	大地扭曲
+10110200251	Gravitation Field	重力原野
+10110200252	Napalm Vulcan	念力连击
+10110200253	Priest Normal Attack	牧师普攻
+10110200254	Prayer of the Holy Spirit's Descent (Deprecated)	圣灵降临祈祷(废弃)
+10110200255	Stigma (Deprecated)	圣痕(废弃)
+10110200256	Divine Retribution (Deprecated)	天罚(废弃)
+10110200257	Holy Reckoning (Deprecated)	讴歌(废弃)
+10110200258	Arrow Attack	弓箭攻击
+10110200259	Charge Arrow	冲锋箭
+10110200260	Arrow Storm	箭雨风暴
+10110200261	Detecting	猎鹰寻敌
+10110200262	Myriad Stars Chase the Moon	千星逐月
+10110200263	Anklesnare	定位陷阱
+10110200264	Flasher	强光陷阱
+10110200265	Focused Arrow Strike	瞄准射击
+10110200266	Arm Cannon Enhance	加农炮强化
+10110200267	Knuckle Boost (Deprecated)	喷射飞拳（废弃）
+10110200268	Tension Relax	极速回复
+10110200269	AoE Endure	群体霸体
+10110200270	Lord of Vermilion	怒雷强击
+10110200271	Storm Gust	暴风雪
+10110200272	Wind Walker	风之步
+10110200273	Falcon's Eye	猎鹰之眼
+10110200274	Back Slide	后退回避
+10110200275	Hide-and-Seek	躲猫猫
+10110200276	Cross Bombardment	十字轰炸[无需翻译]
+10110200277	Wind Style - Tornado	风遁-龙卷风
+10110200278	Earth Style - Burrow	土遁-钻地
+10110200279	Body Style - Expansion	体术-倍化术
+10110200280	Fire Style - Flame Jet	火遁-火焰喷射
+10110200281	Lightning Style - Rolling Thunder	雷遁-天雷滚滚
+10110200282	Wind Style - Monsoon	风遁-季风
+10110200283	Talk Style - Monsoon	嘴遁-季风
+10110200284	Lightning Style - Rolling Thunder (Actual Damage)	雷遁-天雷滚滚（实际伤害）
+10110200285	Expansion Jutsu Check	倍化术判断
+10110200286	Identity Card Revive	身份牌复活
+10110200287	Poring Magic	波利魔术
+10110200288	Performance End	演出结束
+10110200289	Second Emotes	第二个表情
+10110200290	Flying Magic	飞行魔法
+10110200291	Teleportation Magic	传送魔法
+10110200292	Ping-Pong Poring	乒乓波利
+10110200293	Poring Counterattack	波利回击
+10110200294	Throw Vehicle	掷出车辆
+10110200295	Pick up	拾取
+10110200296	High-Speed Driving	急速飞驰
+10110200298	Vehicle Stealth	车载隐形
+10110200299	Vehicle Shield	车载护盾
+10110200300	Vehicle Explosive Device	车载爆破装置
+10110200301	Area Detection	区域探测
+10110200302	Group Warp	群体传送
+10110200303	Charge	冲锋
+10110200304	Command	号令
+10110200305	Escort Cart Explosion	镖车爆炸
+10110200306	Deliver Fireworks	交付烟花
+10110200307	Soul Expansion	灵魂爆发
+10110200308	White Imprison	白色监狱
+10110200309	Intense Telekinesis	强念传动
+10110200310	Soul Expansion (Copy)	灵魂爆发(复制)
+10110200311	Psychic Mastery	念力精通
+10110200312	Gravitational Impact	引力冲击
+10110200313	Psychokinetic Astral Body	念动星体
+10110200314	Gravitational Impact (Copy)	引力冲击(复制)
+10110200315	Set Blue Team	设置蓝方
+10110200316	Set Red Team	设置红方
+10110200317	Blessing of Light	光明庇护
+10110200318	Dark Curse	黑暗诅咒
+10110200319	Blessed Wind	祝福之风
+10110200320	Earthshaking Rift	裂地之撼
+10110200321	Flame Storm	烈焰风暴
+10110200322	Raging Wave Cataclysm	怒浪浩劫
+10110200323	Crystal Prison	水晶囚牢
+10110200324	Deadly Flame Blade	夺命烈刃
+10110200325	Blessing of Water	水之庇佑
+10110200326	Blooming Flame	火之绽放
+10110200328	Dragonkin Sacrifice	龙裔献祭
+10110200329	Scorching Dragon Breath	炽热龙息
+10110200330	Flame Wave	火焰浪潮
+10110200331	Molten Gold Dragon Breath	熔金龙息
+10110200332	Greed's Wrath	贪婪之怒
+10110200333	Flame Combo	火焰连击
+10110200334	Dive Bomb - AOE	俯冲轰炸-AOE
+10110200335	Fire Wall - AOE	火墙-AOE
+10110200336	Shield - AOE	盾牌-AOE
+10110200337	Fafnir - Leaping Pounce	法夫纳-跳扑
+10110200338	Generic - Suicide	通用-自杀
+10110200339	Young Dragon Normal Attack@{1}	小龙普攻@{1}
+10110200340	Young Dragon Fireball	小龙吐火球
+10110200341	Young Dragon Charge	小龙冲撞
+10110200342	Shield Spawn HP Loss@{1}%	盾牌出场掉血@{1}%
+10110200343	Young Dragon Random Normal Attack Wrapper	小龙随机普攻壳
+10110200344	Fafnir - Fire Wall Mechanic Jump to Edge	法夫纳-火墙机制跳边上
+10110200345	Fafnir - Summon Young Dragon Mechanic Jump to Center	法夫纳-召唤小龙机制跳中
+10110200346	Fafnir - Full-screen Flame Mechanic Jump to Center	法夫纳-全屏火焰机制跳中
+10110200347	Fafnir - Ultimate Mechanic Jump to Center	法夫纳-终极大招机制跳中
+10110200348	Generic - Spawn HP Loss@{1}%	通用-出场掉血@{1}%
+10110200349	Fafnir - Dragon Roar (Performance)	法夫纳-巨龙吼叫（表演）
+10110200350	Diving Fire Breath - Warning Zone	俯冲喷火-警示圈
+10110200351	Fafnir - Summon Shield	法夫纳-召唤盾牌
+10110200352	Firewall - Spawn	火墙-出生
+10110200353	Shield - Spawn	盾牌-出生
+10110200354	Fafnir - Summon Whelps	法夫纳-召唤小龙
+10110200355	Apply Skill DMG Buff to the Dragon	给大龙加技能增伤buff
+10110200356	Ring of Fire AOE	火圈AOE
+10110200357	Ring of Fire Warning Zone	火圈警示圈
+10110200358	Rectangular Flame AOE@{1}	矩形火焰aoe@{1}
+10110200359	Dragon Roar (Performance) Rectangular AOE	巨龙吼叫（表演）矩形aoe
+10110200360	Fire Dragon - Check for Surviving Whelps	火龙检查有没有小龙存活
+10110200361	Split	分裂
+10110200362	HP Recovery	回血
+10110200363	Kill	杀人
+10110200364	Self-Destruct	自爆
+10110200365	Struggle	挣扎
+10110200366	Full-screen Fire Setup - Take Off	全屏火前置起飞
+10110200367	Full-screen Fire Setup - Charge	全屏火前置蓄力
+10110200368	Pick Up Scale	捡起鳞片
+10110200369	Discard Scale	丢弃鳞片
+10110200370	Build Shield Wall	建造盾墙
+10110200371	Carry Cannonball	搬运炮弹
+10110200372	Repair Turret	修理炮台
+10110200373	Combat NPC Turret Cast Skill (Shell)	战斗npc炮台施法技能（外壳）
+10110200374	Mount Turret	乘坐炮台
+10110200375	Fire!	开炮！
+10110200376	Exit Turret	离开炮台
+10110200377	Load Cannonball	装填炮弹
+10110200378	Combat NPC Turret Cast Skill (ST)	战斗npc炮台施法技能（单体）
+10110200379	Combat NPC Turret Cast Skill (AOE)	战斗npc炮台施法技能（AOE）
+10110200380	Sync Buff Floors	同步buff层数
+10110200381	Combat NPC Ice Turret Cast Skill (ST)	战斗npc冰炮台施法技能（单体）
+10110200382	Combat NPC Ice Turret Cast Skill (AOE)	战斗npc冰炮台施法技能（AOE）
+10110200383	Discard Cannonball	丢弃炮弹
+10110200384	Fire Turret Sync Status Effect	火炮同步状态特效
+10110200385	Switch to Ice Turret	切换冰炮
+10110200386	Switch to Fire Turret	切换火炮
+10110200387	Flame Jet	喷射火焰
+10110200388	Bone-Chilling Frost	刺骨寒冰
+10110200389	Chain Lightning	连环闪电
+10110200390	Blessing Angel Interaction	赐福天使交互
+10110200391	Lightning Strike	落雷
+10110200392	Pass the Dynamite	传递炸弹
+10110200393	Dynamite Explosion	炸弹爆炸
+10110200394	Apply Pass Dynamite Effect	传递炸弹实际生效
+10110200395	Pyroblast	炎爆术
+10110200396	Lava Heat Wave	熔岩热浪
+10110200397	Terrifying Roar	破胆怒吼
+10110200398	Blade Whirlwind	刀刃旋风
+10110200399	Spinning Blade Strike	旋刃打击
+10110200400	Shatter Blade	碎刃
+10110200401	Rock-Shattering Strike	碎石击
+10110200402	Stone Glyph Slash	石字斩
+10110200403	Petrify Cleave	石化顺劈
+10110200404	Petrify Mist	石化迷雾
+10110200405	Sandstorm	沙暴
+10110200406	Devouring Tongue	吞噬之舌
+10110200407	Indigestion	消化不良
+10110200408	Putrid Explosion	腐烂爆炸
+10110200409	Acid Spray	酸液喷射
+10110200410	Powerful Drain	强力吸取
+10110200411	Summon Thief Bugs	盗虫召唤
+10110200413	Golden Thief Bug Normal Attack - Fire	黄金虫普攻-火
+10110200414	Orc Hero Normal Attack - Earth	兽人英雄普攻-地
+10110200415	Maya Normal Attack - Earth	蚁后普攻-地
+10110200416	Phreeoni Normal Attack - Neutral	皮里恩普攻-无
+10110200417	Gundam AOE Visual Effect	高达AOE特效表现
+10110200418	Meteorfall	天上落陨石
+10110200419	Lope	跳跃
+10110200420	Lope@{1}	跳跃@{1}
+10110200421	Mine Magic Circle	地雷法阵【无需翻译】
+10110200422	Bullet-Hell Mechanism@{1}	弹幕机关@{1}【无需翻译】
+10110200423	Rotating Mechanism	旋转机关【无需翻译】
+10110200424	Rolling Boulder Mechanism	滚石机关【无需翻译】
+10110200425	Crossbow Mechanism	弩箭机关【无需翻译】
+10110200426	Gatherable Skill	采集物技能【无需翻译】
+10110200427	Nightmare Circular AOE	梦魇圆形AOE【无需翻译】
+10110200428	Dracula Grab	德古拉抓取【无需翻译】
+10110200429	Dracula's Blood Pool	德古拉血池【无需翻译】
+10110200430	Spawn Skill	出生技能（无需翻译）
+10110200431	Baphomet Normal Attack	巴风特普攻（无需翻译）
+10110200432	Inner and Outer Ring AOE	内外环AOE（无需翻译）
+10110200433	Fan-Shaped AOE	扇形AOE（无需翻译）
+10110200434	Eight-Way AOE	米字AOE（无需翻译）
+10110200435	Horizontal AOE	横铺AOE（无需翻译）
+10110200436	Targeted Explosion	点名爆炸（无需翻译）
+10110200437	Soul Reaper	灵魂收割（无需翻译）
+10110200438	ATK Boost	攻击增幅
+10110200439	DEF Boost	防御增幅
+10110200440	Cooldown Reduction	冷却衰减
+10110200441	CRIT Boost	暴击增幅
+10110200442	Movement Speed Boost	移速增幅
+10110200443	HP Recovery	血量回复
+10110200444	Abyss Magnet	深渊磁石
+10110200445	Chain Bind	锁链禁锢
+10110200446	Nightmare Mystery Box	噩梦魔盒
+10110200447	Concentrated Squid Ink	浓缩墨鱼汁
+10110200448	DEF Injection	防御针剂
+10110200449	Berserk Injection	狂暴针剂
+10110200450	Viscous Machine Oil	粘稠机油
+10110200451	Compressed Gas Canister	压缩气罐
+10110200452	Brass Talisman	黄铜护身符
+10110200453	Weak	虚弱
+10110200454	Apply Effect to All Players	所有玩家上特效
+10110200455	Normal Attack@{1}	普攻@{1}【无需翻译】
+10110200456	Skill@{1}Goblet Shatter	技能@{1}酒杯碎裂【无需翻译】
+10110200457	Skill@{1}Repeated Goblet Shatter	技能@{1}酒杯碎裂多次【无需翻译】
+10110200458	Skill@{1}Goblet Throw	技能@{1}酒杯投掷【无需翻译】
+10110200459	Skill@{1}Statue Goblet Throw	技能@{1}酒杯投掷雕像【无需翻译】
+10110200460	Skill@{1}Goblet Toast	技能@{1}酒杯交杯【无需翻译】
+10110200461	Skill@{1}Converging Goblet Spin	技能@{1}酒杯收束旋转【无需翻译】
+10110200462	Skill@{1}Goblet Arrival Spin	技能@{1}酒杯到点旋转【无需翻译】
+10110200463	Skill@{1}Flying Goblet Row Slam	技能@{1}酒杯起飞连排砸【无需翻译】
+10110200464	Skill@{1}Flying Goblet Row Slam-Easy	技能@{1}酒杯起飞连排砸-简单【无需翻译】
+10110200465	Skill@{1}Converging Circular Goblet Launch	技能@{1}酒杯收束圆发射【无需翻译】
+10110200466	Skill@{1}Spiral Goblet Launch	技能@{1}酒杯螺旋发射【无需翻译】
+10110200467	Skill@{1}Spiral Goblet Launch-Easy	技能@{1}酒杯螺旋发射-简单【无需翻译】
+10110200468	Skill@{1}Bagpipe Sound Blade	技能@{1}风笛音刃【无需翻译】
+10110200469	Skill@{1}Spinning Bagpipe Sound Blade	技能@{1}风笛音刃旋转【无需翻译】
+10110200470	Skill@{1}Triangular Bagpipe Sound Blade	技能@{1}风笛音刃三角【无需翻译】
+10110200471	Skill@{1}Square Formation Bagpipe Sound Blade	技能@{1}风笛音刃方阵【无需翻译】
+10110200472	Skill@{1}Square Formation Bagpipe Sound Blade-Easy	技能@{1}风笛音刃方阵-简单【无需翻译】
+10110200473	Skill@{1}Synchronized Spinning Goblet Launch	技能@{1}酒杯等旋发射【无需翻译】
+10110200474	Skill@{1}Lute Rectangle@{2}	技能@{1}鲁特琴矩形@{2}【无需翻译】
+10110200475	Skill@{1}Lute Rectangle Clone Monster	技能@{1}鲁特琴矩形分身怪【无需翻译】
+10110200476	Skill@{1}Lute Rectangle Clone Monster-Easy	技能@{1}鲁特琴矩形分身怪-简单【无需翻译】
+10110200477	Skill@{1}Conducting Circular Target	技能@{1}指挥圆形点名【无需翻译】
+10110200478	Skill@{1}Horn Laser	技能@{1}号角激光【无需翻译】
+10110200479	Skill@{1}Dancing Bell	技能@{1}舞蹈铃铛【无需翻译】
+10110200480	Skill@{1}Drumbeat Ring Explosion	技能@{1}鼓点环型爆炸【无需翻译】
+10110200481	Skill@{1}Drumbeat Triple Ring	技能@{1}鼓点环型三环【无需翻译】
+10110200482	Skill@{1}Harp Performance	技能@{1}竖琴演奏【无需翻译】
+10110200483	Skill@{1}Harp Performance-Easy	技能@{1}竖琴演奏-简单【无需翻译】
+10110200484	Skill@{1}Harp Performance-Normal	技能@{1}竖琴演奏-普通【无需翻译】
+10110200485	Skill@{1}Opening Movement	技能@{1}最初乐章【无需翻译】
+10110200486	Skill@{1} First Movement - Easy	技能@{1}最初乐章-简单【无需翻译】
+10110200487	Skill@{1} Universal Wave Stealth	技能@{1}水浪隐身通用【无需翻译】
+10110200488	Clone Normal Attack	分身普攻【无需翻译】
+10110200489	Clone Entrance	分身出场【无需翻译】
+10110200490	Skill@{1}Kun Appearance	技能@{1}鲲出场【无需翻译】
+10110200491	Skill@{1} Kun Entrance	技能@{1}鲲入场【无需翻译】
+10110200492	Skill@{1} Kun Water Wall	技能@{1}鲲水墙【无需翻译】
+10110200493	Skill@{1} Kun Water Vortex	技能@{1}鲲水漩涡【无需翻译】
+10110200494	Skill@{1} Kun Water Vortex - Easy	技能@{1}鲲水漩涡-简单【无需翻译】
+10110200495	Skill@{1} Kun Water Vortex@{2}	技能@{1}鲲水漩涡@{2}【无需翻译】
+10110200496	Skill@{1} Kun Movement	技能@{1}鲲移动【无需翻译】
+10110200497	Battle Royale Gravity Field	大逃杀重力场【无需翻译】
+10110200498	Battle Royale Gravity Field@{1}	大逃杀重力场@{1}【无需翻译】
+10110200499	Battle Royale Screen Shake	大逃杀震屏【无需翻译】
+10110200500	Skill@{1} Clone Monster Spawn Flash	技能@{1}分身怪出生闪现【无需翻译】
+10110200501	Clone Mini Laser	分身小激光【无需翻译】
+10110200502	Water Ripple Bullet	水涟漪子弹【无需翻译】
+10110200503	Jellyfish Mouth Bullet	水母口子弹【无需翻译】
+10110200504	Bubble Bullet	泡泡子弹【无需翻译】
+10110200505	Sea Urchin Bullet	海胆子弹【无需翻译】
+10110200506	Slide Shockwave	滑梯冲击波【无需翻译】
+10110200507	Tiamat Rectangular Damage	提亚马特矩形伤害【无需翻译】
+10110200508	Tiamat Spawn Warning	提亚马特出生前预警【无需翻译】
+10110200509	Jellyfish Ranged Attack	水母远程攻击
+10110200510	Jellyfish Spawn	水母出生
+10110200511	Melody Sprite Attack	音律幼灵攻击
+10110200512	Melody Sprite Spawn	音律幼灵出生
+10110200513	Resonant Shell Cluster Attack	共鸣贝簇攻击
+10110200514	Resonant Shell Cluster Spawn	共鸣贝簇出生
+10110200515	Hunter Charge	捕猎者冲锋
+10110200516	Hunter Slash	捕猎者挥砍
+10110200517	Hunter Spin	捕猎者旋转
+10110200518	Hunter Normal Attack	捕猎者普攻
+10110200519	Hunter Spawn	捕猎者出生
+10110200520	Hunter Charge@{1}	捕猎者冲锋@{1}
+10110200521	Hunter Battle Royale Spin	捕猎者大逃杀回旋
+10110200522	Hunter Water Escape	捕猎者水遁
+10110200523	Skill@{1} Musical Instrument Performance	(无需翻译)技能@{1}乐器演奏
+10110200524	Skill@{1} Sleep	(无需翻译)技能@{1}沉睡
+10110200525	Skill@{1} Bagpipe Sonic Blade	(无需翻译)技能@{1}风笛音刃
+10110200526	Skill@{1} Water Pillar Laser	(无需翻译)技能@{1}水柱激光
+10110200527	Skill@{1} Eight-Way Sonic Blast	(无需翻译)技能@{1}米字音爆
+10110200528	Skill@{1} Ring Explosion	(无需翻译)技能@{1}环形爆炸
+10110200529	Skill@{1} Circular Sonic Blast	(无需翻译)技能@{1}圆形音爆
+10110200530	Skill@{1} Cloud Explosion	(无需翻译)技能@{1}云层爆炸
+10110200531	Skill@{1} Slide Preparation	(无需翻译)技能@{1}滑梯预备
+10110200532	Skill@{1} Battle Royale Preparation	(无需翻译)技能@{1}大逃杀预备
+10110200533	Skill@{1} Ilma Blackhole	(无需翻译)技能@{1}伊尔玛黑洞
+10110200534	Normal Attack@{1}	(无需翻译)普攻@{1}
+10110200535	Skill@{1} Fin Tracking	(无需翻译)技能@{1}鱼鳍跟踪
+10110200536	Skill@{1} Square Formation	(无需翻译)技能@{1}方阵
+10110200537	Skill@{1} Horizontal Square Formation	(无需翻译)技能@{1}横向方阵
+10110200538	Skill@{1} Grand Cross Formation	(无需翻译)技能@{1}大十字方阵
+10110200539	Skill@{1} Eight-Way@{2} Players	(无需翻译)技能@{1}米字@{2}人
+10110200540	Skill@{1} Orbiting Fins	(无需翻译)技能@{1}鱼鳍环绕
+10110200541	Skill@{1} Fin Formation	(无需翻译)技能@{1}鱼鳍方阵
+10110200542	Skill@{1} Fins@{2} Sides	(无需翻译)技能@{1}鱼鳍@{2}边
+10110200543	Skill@{1} Sequential Circular Sonic Blast	(无需翻译)技能@{1}有序圆形音爆
+10110200544	Skill@{1} Music Box	(无需翻译)技能@{1}八音盒
+10110200545	Skill@{1} Randomized Cone AoE	(无需翻译)技能@{1}扇形aoe乱序
+10110200546	Skill@{1} Aggro Control	(无需翻译)技能@{1}仇恨控制
+10110200547	Player Anti-Air Cannon Fire	(无需翻译)玩家防空炮开炮
+10110200548	Skill@{1} Fin Missile	(无需翻译)技能@{1}鱼鳍导弹
+10110200549	Skill@{1} Teleport	(无需翻译)技能@{1}传送
+10110200550	Skill@{1} Ripple Fin	(无需翻译)技能@{1}波纹鱼鳍
+10110200551	Skill@{1} Cloud Tracking	(无需翻译)技能@{1}云层跟踪
+10110200552	Skill@{1} Four Elites	(无需翻译)技能@{1}四只精英
+10110200553	Skill@{1} Cone Attack @{2} Times	(无需翻译)技能@{1}扇@{2}次
+10110200554	Skill@{1} Stationary Fin	(无需翻译)技能@{1}原地鱼鳍
+10110200555	Skill@{1} Four Cone Attacks	(无需翻译)技能@{1}四次扇形
+10110200556	Skill@{1} Fin Split	(无需翻译)技能@{1}鱼鳍分裂
+10110200557	Skill@{1} Fin Dimensional Slash	(无需翻译)技能@{1}鱼鳍次元斩
+10110200558	Skill@{1} Fin Mix	(无需翻译)技能@{1}鱼鳍混合
+10110200559	Hunter Death	捕猎者死亡
+10110200560	Skill@{1} Charge	(无需翻译)技能@{1}突进
+10110200561	Hunter Charged Spin	捕猎者蓄力回旋
+10110200562	Summon Airship Monsters	召唤飞艇怪物
+10110200563	Summon Airship Monsters-Normal	召唤飞艇怪物-普通
+10110200564	Pilot	驾驶
+10110200565	Player Rapid-Fire Cannon Fire	(无需翻译)玩家急射炮开炮
+10110200566	Bagpipe Sound Blade	风笛音刃【无需翻译】
+10110200567	Laser	激光【无需翻译】
+10110200568	Rectangular Sonic Blast	矩形音爆【无需翻译】
+10110200569	Circular Sonic Blast	圆形音爆【无需翻译】
+10110200570	Piccolo	短笛【无需翻译】
+10110200571	Bubble	泡泡【无需翻译】
+10110200572	Ring Drum Phase @{1}	环形鼓@{1}段【无需翻译】
+10110200573	Memory Game-Bottom Warning	记忆游戏-下侧预警【无需翻译】
+10110200574	Memory Game-Top Warning	记忆游戏-上侧预警【无需翻译】
+10110200575	Memory Game-Left Warning	记忆游戏-左侧预警【无需翻译】
+10110200576	Memory Game-Right Warning	记忆游戏-右侧预警【无需翻译】
+10110200577	Memory Game-Circular Warning	记忆游戏-圆形预警【无需翻译】
+10110200578	Memory Game-Ring Warning	记忆游戏-环形预警【无需翻译】
+10110200579	Memory Game-Bottom Damage	记忆游戏-下侧伤害【无需翻译】
+10110200580	Memory Game-Top Damage	记忆游戏-上侧伤害【无需翻译】
+10110200581	Memory Game-Left Damage	记忆游戏-左侧伤害【无需翻译】
+10110200582	Memory Game-Right Damage	记忆游戏-右侧伤害【无需翻译】
+10110200583	Memory Game-Circular Damage	记忆游戏-圆形伤害【无需翻译】
+10110200584	Memory Game-Ring Damage	记忆游戏-环形伤害【无需翻译】
+10110200585	Shaking Bubble	抖动泡泡【无需翻译】
+10110200586	Send Stage Message: Bubble	发送关卡消息泡泡【无需翻译】
+10110200587	Send Stage Message: Memory Warning	发送关卡消息记忆预警【无需翻译】
+10110200588	Send Stage Message: Memory Damage	发送关卡消息记忆伤害【无需翻译】
+10110200589	Make Statue Fire Laser	让雕像放激光【无需翻译】
+10110200590	Kun Dive	鲲俯冲【无需翻译】
+10110200591	Kun Spit Out Players	鲲吐人【无需翻译】
+10110200592	Kun Suck In Players	鲲吸人【无需翻译】
+10110200593	Kun Entrance	鲲出场【无需翻译】
+10110200594	Kun Water Vortex	鲲水漩涡【无需翻译】
+10110200595	Make Statue Cast Rectangle	让雕像放矩形【无需翻译】
+10110200596	Kun Movement	鲲移动【无需翻译】
+10110200597	Summon Notes	召唤音符【无需翻译】
+10110200598	Note A Explosion	音符A爆炸【无需翻译】
+10110200599	Note B Explosion	音符B爆炸【无需翻译】
+10110200600	Linear Laser	直线激光【无需翻译】
+10110200601	Trigger Linear Laser	触发直线激光【无需翻译】
+10110200602	Four Sequential Shockwaves	冲击波先后四个【无需翻译】
+10110200603	Four Simultaneous Shockwaves	冲击波同时四个【无需翻译】
+10110200604	One Random Shockwave	冲击波随机一个【无需翻译】
+10110200605	Music Box	八音盒【无需翻译】
+10110200606	Water Pillar	水柱【无需翻译】
+10110200607	Music Box Circular AoE	八音盒圆形AOE【无需翻译】
+10110200608	Spotlight	聚光灯【无需翻译】
+10110200609	Send Stage Message to Change Kun's State	发送关卡消息改变鲲状态【无需翻译】
+10110200610	Send Stage Message to Change Boss State	发送关卡消息改变Boss状态【无需翻译】
+10110200611	Kun Appears (Boss Action)	鲲出场（boss动作）【无需翻译】
+10110200612	Kun Spits Out Players (Boss Action)	鲲吐人（boss动作）【无需翻译】
+10110200613	Kun Sucks In Players (Boss Action)	鲲吸人（boss动作）【无需翻译】
+10110200614	Kun Dives (Boss Action)	鲲俯冲（boss动作）【无需翻译】
+10110200615	Kun Moves @{1}	鲲移动@{1}【无需翻译】
+10110200616	Statue Rectangle @{1}	雕像矩形@{1}【无需翻译】
+10110200617	Statue Laser @{1}	雕像激光@{1}【无需翻译】
+10110200618	Continuous Ring Drum @{1}	环形鼓连续@{1}【无需翻译】
+10110200619	Strike Ring Drum @{1} Times	环形鼓拍@{1}下【无需翻译】
+10110200620	Spotlight @{1}	聚光灯@{1}【无需翻译】
+10110200621	Rift Knockback	裂缝击退【无需翻译】
+10110200622	Blink	闪现【无需翻译】
+10110200623	Jellyfish AoE	水母AOE【无需翻译】
+10110200624	Eight Consecutive Shockwaves	冲击波先后八个【无需翻译】
+10110200625	@{1} Simultaneous Shockwaves	冲击波同时@{1}个【无需翻译】
+10110200626	Wave Splash	浪花飞溅【无需翻译】
+10110200627	Revive Kun	鲲复活【无需翻译】
+10110200628	Piccolo Targets @{1} Players	短笛点名@{1}人【无需翻译】
+10110200629	Phase Transition Cleanup	转阶段清场处理【无需翻译】
+10110200630	Jellyfish Death Cleanup	水母死亡清场【无需翻译】
+10110200631	Fly Away During Transition	转场飞走【无需翻译】
+10110200632	Holy Light Strike	圣光轰击
+10110200633	Thunderfall	雷霆坠击
+10110200634	Deep Freeze	深冰封锁
+10110200635	Transform into Tornado	变身龙卷风
+10110200636	Periodic Explosion - Effect	周期爆炸-效果
+10110200637	Massive Area Heal	巨大范围治疗
+10110200638	DMG Reduction	减伤
+10110200639	ATK Boost	攻击加成
+10110200640	Hammer Strike	锤击
+10110200641	Earthquake	震地
+10110200642	Whirlwind	旋风斩
+10110200643	AoE Acceleration	群体加速
+10110200644	Earth-Splitting Blow	裂地重击
+10110200645	Blazing Formation	爆炎阵
+10110200646	Tornado Incarnation	化身龙卷
+10110200647	Soul Recall Ring	回魂环
+10110200648	Protective Shield	护身盾
+10110200649	Focused Blade	凝神剑
+10110200650	Summon Madogear Pilot	召唤机甲
+10110200651	End of ID Section	ID段尾
+10110200652	Monster Normal Attack-Fire	怪物普攻-火[无需翻译]
+10110200653	Build Turret	建造炮台
+10110200654	Fire Cannon	开炮
+10110200655	Madogear Pilot Repair	机甲维修
+10110200656	Jump onto the Rampart	跳上城墙
+10110200657	Jump off the Rampart	跳下城墙
+10110200658	Launch Missile	发射飞弹
+10110200659	Cut	切割（无需翻译）
+10110200660	Seismic Wave	地震波（无需翻译）
+10110200661	Invincible	无敌（无需翻译）
+10110200662	Launch Missile	发射飞弹（无需翻译）
+10110200663	Cluster Missile	集束飞弹（无需翻译）
+10110200664	Acceleration	加速（无需翻译）
+10110200665	Rapidness Shot	疾速射击（无需翻译）
+10110200666	Self-Destruct	自爆（无需翻译）
+10110200667	Battle Command	战斗命令
+10110200668	Defend the Glory	坚守荣耀
+10110200670	Indigestion	消化不良【无需翻译】
+10110200671	Putrid Explosion	腐烂爆炸【无需翻译】
+10110200672	Acid Spray	酸液喷射【无需翻译】
+10110200673	Devouring Tongue	吞噬之舌【无需翻译】
+10110200674	Dracula Normal Attack	德古拉普攻【无需翻译】
+10110200675	Gift of the Underworld @{1}	冥府礼赠@{1}【无需翻译】
+10110200676	Shadow Siphon@{1}	暗影虹吸@{1}【无需翻译】
+10110200677	Funeral Beat@{1}	送葬节拍@{1}【无需翻译】
+10110200678	Nether Pact Brand	冥契烙印【无需翻译】
+10110200679	Circle of the Dead	亡者圆阵【无需翻译】
+10110200680	Owl's Eye	鹗枭之眼
+10110200681	Vulture's Eye	苍鹰之眼
+10110200682	Double Strafe	二连矢
+10110200683	Arrow Shower	箭雨
+10110200684	Steady Focus	心神凝聚
+10110200685	Falconry Mastery	驯鹰术
+10110200686	Blitz Beat	闪电冲击
+10110200687	Beastbane	动物杀手
+10110200688	Steel Crow	钢制喙
+10110200689	Claymore Trap	爆散陷阱
+10110200690	Freezing Trap	霜冻陷阱
+10110200691	Falcon Assault	猎鹰突击
+10110200692	True Sight	狙杀瞄准
+10110200693	Sharp Shooting	锐利射击
+10110200694	Rapid Combo	极速连击
+10110200695	Chain Lightning	连锁闪电
+10110200696	Triple Strafe	三连矢
+10110200697	Explosive Arrow	爆炸箭矢
+10110200698	Falcon Strike	猎鹰一击
+10110200699	Meteor Arrow Shower	星陨箭雨
+10110200700	Falcon Rush	猎鹰冲刺
+10110200701	Ranger's Resolve	游侠的决心
+10110200702	Fear Breeze	微风恐惧
+10110200703	Focused Arrow Strike (Unlimited Shooting)	瞄准射击（无限射击）
+10110200704	Unlimited Shooting	无限射击
+10110200705	Keen Senses	敏锐嗅觉
+10110200706	Wolf Taming	驯狼术
+10110200707	Warg Strike	狼突击
+10110200708	Warg Howl	狼吼
+10110200709	Warg Strike	狼爪击
+10110200710	Wolf's Fang	狼牙
+10110200711	King of the Wargs	群狼之王
+10110200712	Warg Hunt	狼狩猎
+10110200713	Enhance Warg Hunt	强化狼狩猎
+10110200714	Warg Bite	狼撕咬
+10110200715	Swift Warg	疾狼术
+10110200716	Warg Companion (Warg Strike)	狼跟班（狼突击）
+10110200717	Warg Companion (Warg Bite)	狼跟班（狼撕咬）
+10110200718	Warg Hunt (Melee)	狼狩猎（近）
+10110200719	Enhance Warg Hunt (Melee)	强化狼狩猎（近）
+10110200720	Warg Hunt (Ranged)	狼狩猎（远）
+10110200721	Enhance Warg Hunt (Ranged)	强化狼狩猎（远）
+10110200722	Yggdrasil Leaf	天地树叶
+10110200723	Unstuck	脱离卡死
+10110200724	Goblin Spiral Launch	哥布林螺旋升天（无需翻译）
+10110200725	Wobbling Goblin	哥布林摇摇欲坠（无需翻译）
+10110200726	Doragon Launch	多拉贡升天（无需翻译）
+10110200727	Doragon Landing	多拉贡降落（无需翻译）
+10110200728	@{1}-Pound Dynamite	@{1}磅炸弹（无需翻译）
+10110200729	Take Flight	飞天（无需翻译）
+10110200730	Burrow Underground	遁地（无需翻译）
+10110200731	Dragon Sanctuary	龙之圣殿（无需翻译）
+10110200732	Scatter Red Envelopes	撒红包（无需翻译）
+10110200733	Summoning Ritual	召唤仪式（无需翻译）
+10110200734	Dig	寻宝
+10110200736	Logging	伐木
+10110200737	Talk	对话
+10110200738	Provoke	挑衅
+10110200739	Fire Bolt	火箭术
+10110200740	Lightning Bolt	雷击术
+10110200741	Cold Bolt	冰箭术
+10110200742	Sonic Blow	音速投掷
+10110200743	Envenom	涂毒
+10110200744	Fire@{1}-Rapid	开炮@{1}-极速【无需翻译】
+10110200745	Jump into the Cave	跳下洞穴
+10110200746	Rescue Bobo	救下波波
+10110200747	Free the Ant Egg	解开蚁卵
+10110200748	Help the Professor Up	搀扶教授
+10110200749	Open	打开宝箱
+10110200750	Leave	离开
+10110200751	Feed	投喂
+10110200752	Board the Cannon	上炮
+10110200753	Bobo Bubble	波波泡泡
+10110200754	Bobo Bubble Animation	波波泡泡表现
+10110200755	Monster Normal Attack-Neutral	怪物普攻-无[无需翻译]
+10110200756	Monster Normal Attack-Wind	怪物普攻-风[无需翻译]
+10110200757	Monster Normal Attack-Earth	怪物普攻-地[无需翻译]
+10110200758	Monster Normal Attack-Water	怪物普攻-水[无需翻译]
+10110200759	Monster Normal Attack-Void	怪物普攻-虚[无需翻译]
+10110200760	Monster Normal Attack-Light	怪物普攻-光[无需翻译]
+10110200761	Monster Normal Attack-Dark	怪物普攻-暗[无需翻译]
+10110200762	Monster Normal Attack-Ghost	怪物普攻-念[无需翻译]
+10110200763	Monster Normal Attack-Eternal	怪物普攻-永恒[无需翻译]
+10110200764	Mandragora Ranged Normal Attack	曼陀罗花远程普攻[无需翻译]
+10110200765	Poring Normal Attack	波利普攻[无需翻译]
+10110200766	Lunatic Normal Attack	疯兔普攻[无需翻译]
+10110200767	Fabre Normal Attack	绿棉虫普攻[无需翻译]
+10110200768	Picky	小鸡[无需翻译]
+10110200769	Chonchon	苍蝇[无需翻译]
+10110200770	Super Picky	蛋壳小鸡[无需翻译]
+10110200771	Willow	树精[无需翻译]
+10110200772	Condor	秃鹰[无需翻译]
+10110200773	Savage Babe	小野猪[无需翻译]
+10110200774	Rocker	蝗虫[无需翻译]
+10110200775	Roda Frog	罗达蛙[无需翻译]
+10110200776	Worm Tail	森灵[无需翻译]
+10110200777	Ambernite	蜗牛[无需翻译]
+10110200778	Spore	魔菇[无需翻译]
+10110200779	Thief Bug	盗虫[无需翻译]
+10110200780	Creamy	克瑞米[无需翻译]
+10110200781	Drops	土波利[无需翻译]
+10110200782	Tarou	白鼠[无需翻译]
+10110200783	Familiar	吸血蝙蝠[无需翻译]
+10110200784	Baby Desert Wolf	沙漠幼狼[无需翻译]
+10110200785	Yoyo	溜溜猴[无需翻译]
+10110200786	Scorpion	蝎子[无需翻译]
+10110200787	Poporing	波波利[无需翻译]
+10110200788	Thief Bug Female	浮勒盗虫[无需翻译]
+10110200789	Thief Bug Male	玛勒盗虫[无需翻译]
+10110200790	Smokie	狸猫[无需翻译]
+10110200791	Boa	青蛇[无需翻译]
+10110200792	Poison Spore	毒魔菇[无需翻译]
+10110200793	Horn	锹形虫[无需翻译]
+10110200794	Bigfoot	大脚熊[无需翻译]
+10110200795	Squirrel	松鼠[无需翻译]
+10110200796	Generic Downed Corrosion Skill	通用倒下腐蚀技能【无需翻译】
+10110200797	Generic Finishing Skill	通用了断技能【无需翻译】
+10110200798	Fierce Boa	厉蛇[无需翻译]
+10110200799	Gluttonous Spider	暴食蜘蛛[无需翻译]
+10110200800	Blazing Familiar	爆炎蝙蝠[无需翻译]
+10110200801	Greedy Fire Ant	贪婪火蚁[无需翻译]
+10110200802	Greedy Willow	贪婪树精[无需翻译]
+10110200803	Greedy Black Kite	贪婪黑鸢[无需翻译]
+10110200804	Greedy Fireclaw Wolf's Fang	贪婪火爪狼牙[无需翻译]
+10110200805	Greedy Ositos	贪婪俄希托斯[无需翻译]
+10110200806	Phantom of Despair	绝望幻影[无需翻译]
+10110200807	Greedy Comodo	贪婪科摩多[无需翻译]
+10110200808	Greedy Flame Wolf's Fang	贪婪火焰狼牙[无需翻译]
+10110200809	Greedy Kaho	贪婪卡浩[无需翻译]
+10110200810	Salamander	火蜥蜴[无需翻译]
+10110200811	Greedy Headless Mule	贪婪无头骡[无需翻译]
+10110200812	Greedy Ifrit	贪婪伊夫利特[无需翻译]
+10110200813	Greedy Bigfoot	贪婪大脚熊[无需翻译]
+10110200814	Greedy Phoenix	贪婪不灭鸟[无需翻译]
+10110200815	Blazing Fiend	炙焰怪[无需翻译]
+10110200816	Greedy Magmaring	贪婪熔岩波利[无需翻译]
+10110200817	Greedy Fallen Angel	贪婪堕天使[无需翻译]
+10110200818	Greedy Lava Toad	贪婪熔岩蟾蜍[无需翻译]
+10110200819	Divine Light	治愈术[无需翻译]
+10110200820	Normal Attack	普攻[无需翻译]
+10110200821	Live Ammo Test	真子弹测试[无需翻译]
+10110200822	Arrow Attack	弓箭攻击[无需翻译]
+10110200823	Cold Bolt	冰箭术[无需翻译]
+10110200824	Dummy Hits Self@{1}%	木桩打自己@{1}%[无需翻译]
+10110200825	Plankton	漂浮虫[无需翻译]
+10110200826	Marina	水母[无需翻译]
+10110200827	Vadon	螃蟹[无需翻译]
+10110200828	Kukre	库克雷[无需翻译]
+10110200829	Elder Willow	长老树精[无需翻译]
+10110200830	Goblin (Axe)	大斧哥布灵[无需翻译]
+10110200831	Goblin (Flail) (Deprecated)	链锤哥布灵废弃[无需翻译]
+10110200832	Caramel	刺猬虫[无需翻译]
+10110200833	Marin	冰波利[无需翻译]
+10110200834	Peco Peco	大嘴鸟[无需翻译]
+10110200835	Wolf	狼[无需翻译]
+10110200836	Ant Egg	白蚁幼虫[无需翻译]
+10110200837	Stainer	瓢虫[无需翻译]
+10110200838	Skeleton	邪骸战士[无需翻译]
+10110200839	Furious Poporing	愤怒波波利[无需翻译]
+10110200840	Hydra	海葵[无需翻译]
+10110200841	Obeaune	人鱼[无需翻译]
+10110200842	Flora	噬人花[无需翻译]
+10110200843	Martin	土拨鼠[无需翻译]
+10110200844	Giearth	基尔瑟[无需翻译]
+10110200845	Skeleton Worker	邪骸矿工[无需翻译]
+10110200846	Zombie	腐尸[无需翻译]
+10110200847	Savage	野猪[无需翻译]
+10110200848	Greatest General	将军魔碑[无需翻译]
+10110200849	Deniro	兵蚁[无需翻译]
+10110200850	Piere	工蚁[无需翻译]
+10110200851	Magnolia	魔锅蛋[无需翻译]
+10110200852	Frilldora	伞蜥[无需翻译]
+10110200853	Andre	白蚁[无需翻译]
+10110200854	Archer Skeleton	邪骸弓箭手[无需翻译]
+10110200855	Isis	蛇女伊丝[无需翻译]
+10110200856	Verit	毕莱特[无需翻译]
+10110200857	Matyr	黑狐[无需翻译]
+10110200858	Minorous	米洛斯[无需翻译]
+10110200859	Mimic	邪恶箱[无需翻译]
+10110200860	Pirate Skeleton	邪骸海盗[无需翻译]
+10110200861	Choco	巧克猴[无需翻译]
+10110200862	Bongun	妖道[无需翻译]
+10110200863	Baphomet Jr.	小巴风特[无需翻译]
+10110200864	Sasquatch	雪熊[无需翻译]
+10110200865	Vitata	黑蚁[无需翻译]
+10110200866	Muka	摩卡[无需翻译]
+10110200867	Placeholder	占位[无需翻译]
+10110200868	Dustiness	猎蝇[无需翻译]
+10110200869	Nightmare	恶灵[无需翻译]
+10110200870	Rotar Zairo	直升机哥布灵[无需翻译]
+10110200871	Eggyra	转转蛋[无需翻译]
+10110200872	Goblin (Flail)	链锤哥布林[无需翻译]
+10110200873	Marse	乌贼[无需翻译]
+10110200874	Marine Sphere	气泡虫[无需翻译]
+10110200875	Sword Fish	异变鱼[无需翻译]
+10110200876	Marc	马克[无需翻译]
+10110200877	Phen	剑鱼[无需翻译]
+10110200878	Steel Chonchon	绿苍蝇[无需翻译]
+10110200879	Beetle King	巨象甲虫[无需翻译]
+10110200880	Argos	艾斯蜘蛛[无需翻译]
+10110200881	Myst	麦斯特[无需翻译]
+10110200882	Whisper	白幽灵[无需翻译]
+10110200883	Orc Warrior	兽人战士[无需翻译]
+10110200884	Orc Lady	兽人女战士[无需翻译]
+10110200885	Orc Baby	兽人婴儿[无需翻译]
+10110200886	Goblin (Dagger)	刺刀哥布灵[无需翻译]
+10110200887	Goblin (Mace)	刺锤哥布灵[无需翻译]
+10110200888	Goblin Archer	弓箭哥布灵[无需翻译]
+10110200889	Metaller	重金属蝗虫[无需翻译]
+10110200890	Zenorc	兹诺克[无需翻译]
+10110200891	Megalodon	邪骸食人鱼[无需翻译]
+10110200892	Thara Frog	达拉蛙[无需翻译]
+10110200893	Merman	人鱼士兵[无需翻译]
+10110200894	Penomena	梅纳海葵[无需翻译]
+10110200895	Deviace	狄奥斯[无需翻译]
+10110200896	Mantis	螳螂[无需翻译]
+10110200897	Side Winder	黑蛇[无需翻译]
+10110200898	Driller	爆钻伞蜥[无需翻译]
+10110200899	Hunter Fly	赤苍蝇[无需翻译]
+10110200900	Argiope	艾吉欧蜈蚣[无需翻译]
+10110200901	Ghoul	绿腐尸[无需翻译]
+10110200902	Nightmare	梦魇[无需翻译]
+10110200903	Goblin (Hammer)	榔头哥布灵[无需翻译]
+10110200904	Goblin Steamrider	喷射哥布灵[无需翻译]
+10110200905	Sandman	泥人[无需翻译]
+10110200906	Hode	蚯蚓[无需翻译]
+10110200907	Orc Archer	兽人弓箭手[无需翻译]
+10110200908	Orc Skeleton	邪骸兽人[无需翻译]
+10110200909	Orc Zombie	兽人腐尸[无需翻译]
+10110200910	Sohee	鬼女[无需翻译]
+10110200911	Horong	鬼火[无需翻译]
+10110200912	Nine Tails	九尾狐[无需翻译]
+10110200913	Munak	僵尸[无需翻译]
+10110200914	Dokebi	土人[无需翻译]
+10110200915	Noxious	诺可伊[无需翻译]
+10110200916	Zerom	杰洛米[无需翻译]
+10110200917	Golem	巨石怪[无需翻译]
+10110200918	Soldier Skeleton	邪骸士兵[无需翻译]
+10110200919	Mummy	木乃伊[无需翻译]
+10110200920	Vocal Normal Attack	摇滚蝗虫普攻[无需翻译]
+10110200921	Vocal Skills	摇滚蝗虫技能[无需翻译]
+10110200922	Eclipse Normal Attack	蓝疯兔普攻[无需翻译]
+10110200923	Eclipse Skills	蓝疯兔技能[无需翻译]
+10110200924	Mastering Normal Attack	波利之王普攻[无需翻译]
+10110200925	Mastering Skills	波利之王技能[无需翻译]
+10110200926	Dragon Fly Normal Attack	龙蝇普攻[无需翻译]
+10110200927	Dragon Fly Skills	龙蝇技能[无需翻译]
+10110200928	Maya Purple Normal Attack	狂暴蚁后普攻[无需翻译]
+10110200929	Maya Purple Skills	狂暴蚁后技能[无需翻译]
+10110200930	Ghostring Normal Attack	幽灵波利普攻[无需翻译]
+10110200931	Ghostring Skills	幽灵波利技能[无需翻译]
+10110200932	Vagabond Wolf Normal Attack	流浪之狼普攻[无需翻译]
+10110200933	Vagabond Wolf Skills	流浪之狼技能[无需翻译]
+10110200934	Dark Priest Normal Attack	暗黑祭司普攻[无需翻译]
+10110200935	Dark Priest Skills	暗黑祭司技能[无需翻译]
+10110200936	Gryphon Normal Attack	狮鹫兽普攻[无需翻译]
+10110200937	Gryphon Skills	狮鹫兽技能[无需翻译]
+10110200938	Kobold Leader Normal Attack	犬妖首领普攻[无需翻译]
+10110200939	Kobold Leader Skills	犬妖首领技能[无需翻译]
+10110200940	Toad Normal Attack	蛙王普攻[无需翻译]
+10110200941	Toad Skills	蛙王技能[无需翻译]
+10110200942	Cat o' Nine-Tail Normal Attack	狂暴月夜猫普攻[无需翻译]
+10110200943	Cat o' Nine-Tail Skills	狂暴月夜猫技能[无需翻译]
+10110200944	Ring of Light	光明之环【无需翻译】
+10110200945	Angel Swipe	天使扫击【无需翻译】
+10110200946	Poring Explosion	波利爆炸【无需翻译】
+10110200947	Realm of Light	光明领地【无需翻译】
+10110200948	Pyroblast	炎爆术【无需翻译】
+10110200949	Lava Heatwave	熔岩热浪【无需翻译】
+10110200950	Summon Self-Destruct Poring	自爆波利召唤【无需翻译】
+10110200951	Summon Thief Bug	盗虫召唤【无需翻译】
+10110200952	Frenzy	狂暴【无需翻译】
+10110200953	Ring of Darkness	黑暗之环【无需翻译】
+10110200954	Fallen Swipe	堕落扫击【无需翻译】
+10110200955	Bombring Explosion	炸弹波利爆炸【无需翻译】
+10110200956	Realm of Darkness	黑暗领地【无需翻译】
+10110200957	Summon Bombring	炸弹波利召唤【无需翻译】
+10110200958	Terrifying Roar	破胆怒吼【无需翻译】
+10110200959	Blade Whirlwind	刀刃旋风【无需翻译】
+10110200960	Spinning Blade Strike	旋刃打击【无需翻译】
+10110200961	Shatterblade	碎刃【无需翻译】
+10110200962	Rock-Shattering Strike	碎石击【无需翻译】
+10110200963	Stone Glyph Slash	石字斩【无需翻译】
+10110200964	Petrify Cleave	石化顺劈【无需翻译】
+10110200965	Petrifying Mist	石化迷雾【无需翻译】
+10110200966	Sandstorm	沙暴【无需翻译】
+10110200967	Light Poring Normal Attack-Holy	光明波利普攻-光【无需翻译】
+10110200968	Golden Thief Bug Normal Attack-Fire	黄金虫普攻-火【无需翻译】
+10110200969	Fallen Poring Normal Attack-Earth	堕落波利普攻-地【无需翻译】
+10110200970	Orc Hero Normal Attack-Earth	兽人英雄普攻-地【无需翻译】
+10110200971	Maya Normal Attack-Earth	蚁后普攻-地【无需翻译】
+10110200972	Orc Lord Normal Attack-Earth	兽人酋长普攻-地【无需翻译】
+10110200973	Goblin Leader Normal Attack-Wind	哥布灵首领普攻-风【无需翻译】
+10110200974	Mistress Normal Attack-Wind	蜂后普攻-风【无需翻译】
+10110200975	Phreeoni Normal Attack-Neutral	皮里恩普攻-无【无需翻译】
+10110200976	Eddga Normal Attack-Fire	虎王普攻-火【无需翻译】
+10110200977	Wavechaser Captain Normal Attack-Eternal	逐浪人船长普攻-永恒【无需翻译】
+10110200978	Powerful Drain	强力吸取【无需翻译】
+10110200979	Beehive Toss	蜂巢投掷【无需翻译】
+10110200980	Stinger Assault	针刺突袭【无需翻译】
+10110200981	Stinger Barrage	针刺扫射【无需翻译】
+10110200982	Swarming Bees	群蜂环绕【无需翻译】
+10110200983	Stinger Barrage@{1}	针刺扫射@{1}【无需翻译】
+10110200984	Hiding	隐匿【无需翻译】
+10110200985	Powerful Drain Trigger	强力吸取触发【无需翻译】
+10110200986	Osiris Normal Attack	俄赛里斯普攻【无需翻译】
+10110200987	Summon Horong	召唤鬼火【无需翻译】
+10110200988	Bandage Lash	绷带鞭挞【无需翻译】
+10110200989	Summon Mummy	召唤木乃伊【无需翻译】
+10110200990	Tracking Horong	鬼火追踪【无需翻译】
+10110200991	Dark Pulse	黑暗脉冲【无需翻译】
+10110200992	Goblin Leader Normal Attack	哥布林首领普攻【无需翻译】
+10110200993	Intimidating Roar	威慑怒吼【无需翻译】
+10110200994	Spear Thrust	长矛戳刺【无需翻译】
+10110200995	Summon Spear	召唤长矛【无需翻译】
+10110200996	Hornet Assault	蜂兵来袭【无需翻译】
+10110200997	Falling Beehive	天降蜂巢【无需翻译】
+10110200998	Hornet Attack	蜂兵出击【无需翻译】
+10110200999	Mistress Normal Attack	蜂后普攻【无需翻译】
+10110201000	Boss Spear Throw	首领投枪【无需翻译】
+10110201001	Spear Barrage	长矛齐射【无需翻译】
+10110201002	Baphomet Normal Attack	巴风特普攻【无需翻译】
+10110201003	Scythe Sweep Attack	镰刀横扫【无需翻译】
+10110201004	Inferno Explosion	狱火爆炸【无需翻译】
+10110201005	Hellfire	地狱之火【无需翻译】
+10110201006	Summon Scythe	召唤镰刀【无需翻译】
+10110201007	Soul Reaper	灵魂收割【无需翻译】
+10110201008	Summon Coffin	召唤棺材【无需翻译】
+10110201009	Mummy's Hand	木乃伊之手【无需翻译】
+10110201010	Summon Pyramid	召唤金字塔【无需翻译】
+10110201011	Spinning Pyramid	金字塔旋转【无需翻译】
+10110201012	Coffin Eruption	棺材喷发【无需翻译】
+10110201013	Scarab Swarm	甲虫狂潮【无需翻译】
+10110201014	Pharaoh Normal Attack	法老王普攻【无需翻译】
+10110201015	Gift of the Underworld	冥府礼赠【无需翻译】
+10110201016	Shadow Siphon	暗影虹吸【无需翻译】
+10110201017	Funeral Beat	送葬节拍【无需翻译】
+10110201018	Orc Lord Normal Attack	兽人酋长普攻【无需翻译】
+10110201019	Brutal Sweep Attack	暴虐横扫【无需翻译】
+10110201020	Rockfall Barrage	碎石暴雨【无需翻译】
+10110201021	Triple Quake	三重震击【无需翻译】
+10110201022	Gravity Totem	引力图腾【无需翻译】
+10110201023	Gravity Totem Explosion	引力图腾爆炸【无需翻译】
+10110201024	Brute Force Rupture	蛮力裂冲【无需翻译】
+10110201025	Gravity Totem Pull	引力图腾牵引【无需翻译】
+10110201026	Orc Lord-Placeholder	兽人酋长-占位【无需翻译】
+10110201027	Moonlight Flower Normal Attack	月夜猫普攻【无需翻译】
+10110201028	Dark Corrosion	黑暗侵蚀【无需翻译】
+10110201029	Sonic Impact	音波冲击【无需翻译】
+10110201030	Falling Bell	天降铃铛【无需翻译】
+10110201031	Bell Resonance	铃铛共振【无需翻译】
+10110201032	Moonlight Flower-Placeholder	月夜猫-占位【无需翻译】
+10110201033	Roaming Tempest	飓浪巡弋【无需翻译】
+10110201034	Doppelganger Normal Attack	死灵普攻【无需翻译】
+10110201035	Dark Magnum Break	暗之怒爆【无需翻译】
+10110201036	Charging Blade	冲锋剑【无需翻译】
+10110201037	Blade Fan	刀扇【无需翻译】
+10110201038	Storm Gust	暴风雪【无需翻译】
+10110201039	Summon Clone	召唤分身【无需翻译】
+10110201040	Doppelganger	死灵【无需翻译】
+10110201041	Eddga Normal Attack	虎王普攻【无需翻译】
+10110201042	Scorched Earth Brand	焦土烙印【无需翻译】
+10110201043	Blazing Tiger Roar	虎啸炎波【无需翻译】
+10110201044	Blazing Pursuit	炽热追踪【无需翻译】
+10110201045	Tiger Leap Quake	虎跃震击【无需翻译】
+10110201046	Eddga-Placeholder	虎王-占位【无需翻译】
+10110201047	Gravestone Blast	墓碑爆破【无需翻译】
+10110201048	Abyssal Cross Impact	深渊十字斩【无需翻译】
+10110201049	Wavebreaker Strike	破浪击【无需翻译】
+10110201050	Explosive Tide	爆裂潮汐【无需翻译】
+10110201051	Cannonball Barrage	天降炮弹【无需翻译】
+10110201052	Drake Normal Attack	海盗之王普攻【无需翻译】
+10110201053	Horong Disappears	鬼火消失【无需翻译】
+10110201054	Super Lightning Bolt	超级雷电术
+10110201055	@{1}% HP	@{1}%血
+10110201056	Smite	强攻
+10110201057	First Aid	紧急治疗
+10110201058	Empowered Warg Strike	强化狼爪击
+10110201059	Sword Smash	长剑重击
+10110201061	Spell Smash	法术重击
+10110201062	Arrow Smash	弓箭重击
+10110201063	Staff Smash	权杖重击
+10110201064	Blade Smash	利刃重击
+10110201065	Battle Axe Smash	战斧重击
+10110201066	Normal Punch	普通挥拳
+10110201067	Meditate	打坐
+10110201068	Death Scythe	死亡镰刀
+10110201069	Dark Sorcery	邪恶巫术
+10110201070	Scythe Channeling	巨镰通灵
+10110201071	Precision Surgery	精准手术
+10110201072	Trauma Drain	创伤汲取
+10110201073	AoE Surgery	群体手术
+10110201074	Serpent Spirit's Protection	灵蛇守护
+10110201075	Serpent Spirit's Embrace	蛇灵萦绕
+10110201076	Phantom Barrier	魅影屏障
+10110201077	Sinister Scythe	邪心镰刃
+10110201078	Sinister Chains	邪心锁链
+10110201079	Scythe Slash	镰刃斩击
+10110201080	Angel Halo	天使辉环
+10110201081	Holy Spirit Divine Light	圣灵治愈
+10110201082	Holy Divine Light	圣光治愈
+10110201083	Clear Breeze	清风
+10110201084	Fox Fury	狐戾
+10110201085	Raging Gale	狂风席卷
+10110201086	Taunting Tease	嘲风戏弄
+10110201087	Harvesting Scythe	收割镰刀
+10110201088	Curse Slash	诅咒斩击
+10110201089	Bobo's Protection	波波守护
+10110201090	Bell Rampage	铃铛狂暴
+10110201091	Moonlit Curse	月夜诅咒
+10110201092	Bell Miracle	铃铛奇迹
+10110201093	Passive Trigger Skill	被动触发技
+10110201094	Nightfall Finale	夜幕绝唱
+10110201095	Whirling Whip	鞭花乱舞
+10110201096	Esen's Execution	艾斯恩处决
+10110201097	Esen's Slaughter	艾斯恩屠戮
+10110201098	Orc Roar	兽人咆哮
+10110201099	Armor-Shattering War Cry	碎甲战吼
+10110201100	Orc Stomp	兽人践踏
+10110201101	Storm Fang	岚牙
+10110201102	Rending Tiger Roar	虎啸裂断
+10110201103	Enraged Tiger Roar	暴怒虎啸
+10110201104	Savage Shield	野蛮护盾
+10110201105	Tribal Protection	蛮族守护
+10110201106	Goat's Protection	魔羌守护
+10110201107	Heaven's Drive	崩裂术
+10110201108	Stunning Tremor	震眩
+10110201109	Root Burst	根须爆发
+10110201110	Demonic Aura Surge	妖气喷涌
+10110201111	Demonic Curse	妖咒
+10110201112	Demonic Aura Burst	妖气爆发
+10110201113	Choco Antics	巧克猴戏
+10110201114	Agility Song	灵敏歌唱
+10110201115	Swift Trick	迅捷把戏
+10110201116	Abomination Blade	异形之刃
+10110201117	Abominable Roar	异吼
+10110201118	Abominable Shriek	异形尖啸
+10110201119	Splash	溅射
+10110201120	Eternal Curse	永恒诅咒
+10110201121	Spreading Curse	诅咒蔓延
+10110201122	Quicksand Trap Hunter	流沙陷阱
+10110201123	Malicious Curse	恶意之咒
+10110201124	Mummy's Curse	木乃伊之咒
+10110201125	Soul's Protection	魂之庇护
+10110201126	Spectral Protection	幽魂庇佑
+10110201127	Spectral Wandering	幽魂游荡
+10110201128	Tainted Soul Slash	浊魂斩
+10110201129	Corrupted Soul Impact	浊魂冲击
+10110201130	Gale Slash	狂风拂斩
+10110201131	Wander Man Slash	邪骸浪人斩
+10110201132	Slash	拔刀斩
+10110201133	Corrupted Wander Man Core Passive	污染邪骸浪人核心被动
+10110201134	Shadow Hoofprint	幽影蹄印
+10110201135	Sinister Cry	邪恶啼鸣
+10110201136	Shadow Summoning	幽影召唤
+10110201137	Dance of Death	夺命之舞
+10110201138	Gun-Smoke Severe Wound	枪雾重伤
+10110201139	Full Barrage	火力倾泻
+10110201140	Nightmare Entanglement	梦魇缠绕
+10110201141	Fear Returns	恐惧再临
+10110201142	Nightmare Stomp	梦魇践踏
+10110201143	Blazing Fist Rampage	火拳暴走
+10110201144	Flames Rekindled	烈火再燃
+10110201145	Blazing Thrust	烈火突刺
+10110201146	Flame Fist	炎拳
+10110201147	Curse Puppet	诅咒傀儡
+10110201148	Mind Fright	心神恐吓
+10110201149	Ancient Tree Entanglement	古树缠绕
+10110201150	Branch Guard	树枝守护
+10110201151	Ancient Tree Normal Attack	古树普攻
+10110201152	Flame Eruption	烈焰喷发
+10110201153	Lava Erosion	熔岩侵蚀
+10110201154	Lingering Breath	气息残留
+10110201155	Lightning Surge	挥洒雷电
+10110201156	Summon Lightning	召雷
+10110201157	Nether Rift	冥影裂隙
+10110201158	Undead Convergence	亡灵趋附
+10110201159	Nether Phantom	冥影鬼影
+10110201160	Daedre: Passive Trigger	戴德雷：被动触发
+10110201161	Iron Ball Rampage	铁球大暴走
+10110201162	Concussion	颅内震荡
+10110201163	Iron Ball Smash	铁球重击
+10110201164	Multiple Damage	多重伤害
+10110201165	Fierce Blade	凶刃
+10110201166	Blade Rampage	利刃暴走
+10110201167	Dancing Blades	利刃飞舞
+10110201168	Alert Reconnaissance	警觉侦查
+10110201169	Farsight Revelation	远视显露
+10110201170	Vine Strike	藤蔓打击
+10110201171	Fruit Blossom Healing	花果疗愈
+10110201172	Forest's Blessing	森林赐福
+10110201173	Tree Spirit Curse	树之妖咒
+10110201174	Echoing Bell	钟声回响
+10110201175	Lingering Echo	余音萦绕
+10110201176	Time Lock	时间封锁
+10110201177	Ninja Art: Vanishing Trail	忍法·迷踪
+10110201178	Ninja Art: Smoke Screen	忍法烟幕
+10110201179	Ninja Art: Chain Blast	忍法·连环爆破
+10110201180	Fire Ninja Darkness	火忍黑暗
+10110201181	Silver Moon Descends	银月降临
+10110201182	Radiant Moon	璀璨之月
+10110201183	Silver Moon Strike	银月打击
+10110201184	Vile Drain	邪恶汲取
+10110201185	Dead Silence	静默无声
+10110201186	Fatal Temptation	致命诱惑
+10110201187	Demon's Whisper	恶魔低语
+10110201188	Battle Charge	陷阵冲锋
+10110201189	Cat Knight's Guard	猫骑士守护
+10110201190	Flying Fish Impact	飞鱼冲击
+10110201191	Passive Proximity Detection	被动周身检测
+10110201192	Demonic Aura	魔气环绕
+10110201193	Infernal Prayer	炼狱祝祷
+10110201194	Demonic Miasma	恶魔魔气
+10110201195	Realm of Light	圣光领域
+10110201196	Blazing Radiance	光辉灼灼
+10110201197	Holy Light Pierce	圣光穿刺
+10110201198	Holy Light Descending	圣光降临
+10110201200	Mavka's Dance	妖仙女之舞
+10110201201	Fairy Ward	妖仙女之护
+10110201202	Bunny Arrival	兔兔降临
+10110201203	Bunny Brigade	兔群出动
+10110201204	Here Comes the Big Bunny!	大兔兔来啦
+10110201205	Crimson Storm	血色风暴
+10110201206	Instinctive Thrill	悸动本能
+10110201207	Blood Butterfly Dance	血蝴蝶之舞
+10110201208	Execution Time	行刑时刻
+10110201209	Path of Execution	行刑命途
+10110201210	Executioner's Blade	行刑之刃
+10110201211	Rocker Rock	蝗虫摇滚
+10110201212	Restorative Craving	回复渴望
+10110201213	Petrification Gaze	石化凝视
+10110201214	Serpent Sorcery	蛇妖咒术
+10110201215	Arcane Silver Serpent	秘术银蛇
+10110201216	Flame of Hope	祈望烈焰
+10110201217	Divine Hope	神之祈望
+10110201218	Piercing Hope	祈望穿刺
+10110201219	Formless Entanglement	无形缠绕
+10110201220	Soul Prayer	灵魂祷告
+10110201221	Soul Siphon	灵魂汲取
+10110201222	Collective Surveillance	连带监察
+10110201223	Light of Scrutiny	审视光芒
+10110201224	Eye of Scrutiny	审视之眼
+10110201225	Deliberate Laceration	蓄意裂伤
+10110201226	Samurai's Fury	武士之怒
+10110201227	Samurai Charge	武士冲锋
+10110201228	Flame Breath	火焰喷吐
+10110201229	Same Old Trick	故技重施
+10110201230	Spreading Frost	霜冻蔓延
+10110201231	Frost Breath	冰霜吐息
+10110201232	Tidal Hymn	潮汐颂歌
+10110201233	Dance of the Sea Monster	海怪之舞
+10110201234	Cleaning Time	清洁时间
+10110201235	Alice's Protection	爱丽丝守护
+10110201236	A Maid's Etiquette	女仆的礼节
+10110201237	Monster Normal Attack-Neutral	怪物普攻-无【无需翻译】
+10110201238	Monster Normal Attack-Wind	怪物普攻-风【无需翻译】
+10110201239	Monster Normal Attack-Earth	怪物普攻-地【无需翻译】
+10110201240	Monster Normal Attack-Fire	怪物普攻-火【无需翻译】
+10110201241	Monster Normal Attack-Water	怪物普攻-水【无需翻译】
+10110201242	Monster Normal Attack-Poison	怪物普攻-毒【无需翻译】
+10110201243	Monster Normal Attack-Holy	怪物普攻-光【无需翻译】
+10110201244	Monster Normal Attack-Shadow	怪物普攻-暗【无需翻译】
+10110201245	Monster Normal Attack-Ghost	怪物普攻-念【无需翻译】
+10110201246	Monster Normal Attack-Eternal	怪物普攻-永恒【无需翻译】
+10110201247	Archer Skeleton Mark-Undead	邪骸弓箭手点名-不死【无需翻译】
+10110201248	Archer Skeleton Normal Attack-Undead	邪骸弓箭手普攻-不死【无需翻译】
+10110201249	Goblin Archer Rectangle-Poison	哥布林弓箭手矩形-毒【无需翻译】
+10110201250	Orc Archer ST-Earth	兽人弓箭手单体-地【无需翻译】
+10110201251	Poison Mushroom AOE-Poison	毒蘑菇AOE-毒【无需翻译】
+10110201252	Minorous AOE-Fire	米洛斯AOE-火【无需翻译】
+10110201253	Elder Willow Cone-Fire	长老树精扇形-火【无需翻译】
+10110201254	Matyr Charge-Shadow	黑狐冲锋-暗【无需翻译】
+10110201255	Spawn VFX	出生特效【无需翻译】
+10110201256	Ranged Arrow Monster Normal Attack-Neutral	远程箭矢类怪物普攻-无【无需翻译】
+10110201257	Ranged Arrow Monster Normal Attack-Wind	远程箭矢类怪物普攻-风【无需翻译】
+10110201258	Ranged Arrow Monster Normal Attack-Earth	远程箭矢类怪物普攻-地【无需翻译】
+10110201259	Ranged Arrow Monster Normal Attack - Fire	远程箭矢类怪物普攻-火【无需翻译】
+10110201260	Ranged Arrow Monster Normal Attack - Water	远程箭矢类怪物普攻-水【无需翻译】
+10110201261	Ranged Arrow Monster Normal Attack - Poison	远程箭矢类怪物普攻-毒【无需翻译】
+10110201262	Ranged Arrow Monster Normal Attack - Holy	远程箭矢类怪物普攻-圣【无需翻译】
+10110201263	Ranged Arrow Monster Normal Attack - Shadow	远程箭矢类怪物普攻-暗【无需翻译】
+10110201264	Ranged Arrow Monster Normal Attack - Ghost	远程箭矢类怪物普攻-念【无需翻译】
+10110201265	Ranged Arrow Monster Normal Attack - Undead	远程箭矢类怪物普攻-不死【无需翻译】
+10110201266	Greatest General Targeting - Fire	将军魔碑点名-火【无需翻译】
+10110201267	Obeaune AOE - Water	人鱼AOE-水【无需翻译】
+10110201268	Nightmare AOE - Ghost	梦魇AOE-念【无需翻译】
+10110201269	Dokebi AOE - Shadow	土人AOE-暗【无需翻译】
+10110201270	Golem AOE - Neutral	巨石怪AOE-无【无需翻译】
+10110201271	Rotar Zairo Cone - Wind	直升机哥布灵扇形-风【无需翻译】
+10110201272	Roda Frog Cone - Water	罗达蛙扇形-水【无需翻译】
+10110201273	Verit Charge - Undead	毕莱特冲锋-不死【无需翻译】
+10110201274	Savage Charge - Earth	野猪冲锋-地【无需翻译】
+10110201275	Spawn Effect - Elite	出生特效-精英【无需翻译】
+10110201276	Test Transform@{1}	测试变身@{1}(无需翻译)
+10110201277	Distribute Gifts	分发礼物(无需翻译)
+10110201278	Random Teleport	随机传送(无需翻译)
+10110201279	Poring Transform	波利变身术(无需翻译)
+10110201280	Great Leap	大跳(无需翻译)
+10110201281	Knockback	击退(无需翻译)
+10110201282	Burrow and Hide	钻地隐身(无需翻译)
+10110201283	Shield	护盾(无需翻译)
+10110201284	Slow	减速(无需翻译)
+10110201285	Acid Spray	酸液喷射(无需翻译)
+10110201286	Charge	冲锋(无需翻译)
+10110201287	Knock-Up	击飞(无需翻译)
+10110201288	Clone	分身(无需翻译)
+10110201289	Immobilize	禁锢(无需翻译)
+10110201290	Haste	加速(无需翻译)
+10110201291	Move back Afterimage	后退回影(无需翻译)
+10110201292	Easy Movement	简单位移(无需翻译)
+10110201293	Haze Formation	霞阵(无需翻译)
+10110201294	Normal Attack	普攻【无需翻译】
+10110201295	Pyroblast@{1}	炎爆术@{1}【无需翻译】
+10110201296	Lava Heat Wave@{1}	熔岩热浪@{1}【无需翻译】
+10110201297	Summon Thief Bug@{1}	盗虫召唤@{1}【无需翻译】
+10110201298	Enter Wormhole	钻入虫洞
+10110201299	Orc Hero Normal Attack - Ground	兽人英雄普攻-地（无需翻译）
+10110201300	Terrifying Roar	破胆怒吼（无需翻译）
+10110201301	Blade Whirlwind	刀刃旋风（无需翻译）
+10110201302	Spinning Blade Strike	旋刃打击（无需翻译）
+10110201303	Shatter Blade	碎刃（无需翻译）
+10110201304	Rock Shatter	碎石击（无需翻译）
+10110201305	Blade Deflection	弹刀（无需翻译）
+10110201306	Blade Deflection - Repeat Until Death	弹刀递归到死（无需翻译）
+10110201307	Blade Mountain - Rise	刀山-起（无需翻译）
+10110201308	Blade Mountain - True Fall	刀山-真落（无需翻译）
+10110201309	Blade Mountain - False Fall	刀山-假落（无需翻译）
+10110201310	Stone Blades - Outer Ring	石刀-外圈（无需翻译）
+10110201311	Stone Blades - Inner Ring	石刀-内圈（无需翻译）
+10110201312	Heavy Shield Defense - Raise Shield Start	重盾防御-举盾起手（无需翻译）
+10110201313	Heavy Shield Defense - Shield Raised	重盾防御-举盾持续（无需翻译）
+10110201314	Heavy Shield Defense - Broken While Raising Shield	重盾防御-举盾中被打破（无需翻译）
+10110201315	Heavy Shield Defense - Full-screen AOE	重盾防御-全屏AOE（无需翻译）
+10110201316	Heavy Shield Defense - Alternate	重盾防御-备用（无需翻译）
+10110201317	Ring Blade Kunai - Boss Leap	环刃飞刀-Boss起跳（无需翻译）
+10110201318	Ring Blade Kunai - Boss Landing	环刃飞刀-Boss落地（无需翻译）
+10110201319	Ring Blade Kunai - Player Blade Deflection	环刃飞刀-玩家弹刀（无需翻译）
+10110201320	Ringblade Kunai-Player Shield	环刃飞刀-玩家盾牌（无需翻译）
+10110201321	Ringblade Kunai-Launch Blade	环刃飞刀-发射刀刃（无需翻译）
+10110201322	Ringblade Kunai-Kunai	环刃飞刀-飞刀（无需翻译）
+10110201323	Ringblade Kunai-Add Player Tag	环刃飞刀-玩家增加标签（无需翻译）
+10110201324	Ringblade Kunai-Alternate	环刃飞刀-备用（无需翻译）
+10110201325	Blink	闪现（无需翻译）
+10110201326	Blink Alternate	闪现备用（无需翻译）
+10110201327	Use Instance Revive Count	使用副本复活次数（无需翻译）
+10110201328	Blade Deflection	弹刀
+10110201329	Greatblade Slash	巨刃斩击
+10110201330	Blade Mountain-Ring-@{1}	刀山-环形-@{1}（无需翻译）
+10110201331	Blade Mountain-Ring-@{1}-Alternate	刀山-环形-@{1}-备用（无需翻译）
+10110201332	Blade Mountain-Rectangle-@{1}	刀山-矩形-@{1}（无需翻译）
+10110201333	Blade Mountain-Rectangle-@{1}-Alternate	刀山-矩形-@{1}-备用（无需翻译）
+10110201334	Link Placeholder	连线占位（无需翻译）
+10110201335	Mark Target	点名（无需翻译）
+10110201336	Obtain Greatblade	获取巨刃
+10110201337	Obtain Shield	获取盾牌
+10110201338	Rockbreaker@{1}	碎石击@{1}（无需翻译）
+10110201339	Blade Deflection Easy	弹刀简单（无需翻译）
+10110201340	Flying Blade Check	飞刃判断（无需翻译）
+10110201341	Mark Target@{1}	点名@{1}（无需翻译）
+10110201342	Blade Deflection Mechanic Warning	弹刀机制预警（无需翻译）
+10110201343	Drake Normal Attack	海盗之王普攻[无需翻译]
+10110201344	Falling Cannonball	天降炮弹[无需翻译]
+10110201345	Summon Puppets	召唤傀儡[无需翻译]
+10110201346	Watch Out for Explosive Barrels	当心炸药桶[无需翻译]
+10110201347	Ghost Ship Grand Charge	幽灵船大冲撞[无需翻译]
+10110201348	Drake Minion Normal Attack	海盗之王小怪普攻[无需翻译]
+10110201349	Drake Water Pillar	海盗之王水柱[无需翻译]
+10110201350	Drake Slash	海盗之王劈砍[无需翻译]
+10110201351	Drake Thrust	海盗之王突刺[无需翻译]
+10110201352	Drake Waterspout	海盗之王水龙卷[无需翻译]
+10110201353	Drake Water Blade	海盗之王水刃[无需翻译]
+10110201354	Drake Minion Wave Attack	海盗之王小怪发波[无需翻译]
+10110201355	Blink	闪现[无需翻译]
+10110201356	Falling Cross Cannonballs	天降十字炮弹[无需翻译]
+10110201357	Drake Thrust (Quick Stop)	海盗之王突刺（快停）[无需翻译]
+10110201358	Falling Cannonball (No Animation)	天降炮弹（无动作）[无需翻译]
+10110201359	Drake Waterspout (No Animation)	海盗之王水龙卷（无动作）[无需翻译]
+10110201360	Cross Bombardment (No Animation)	十字轰炸（无动作）[无需翻译]
+10110201361	Ghost Ship Grand Charge Horizontal@{1}	幽灵船大冲撞横@{1}[无需翻译]
+10110201362	Ghost Ship Grand Charge Vertical@{1}	幽灵船大冲撞竖@{1}[无需翻译]
+10110201363	Falling Cross Cannonballs (Vertical)	天降十字炮弹（竖）[无需翻译]
+10110201364	Falling Explosives	天降炸药[无需翻译]
+10110201365	Two Drake Waterspouts	海盗之王水龙卷两个[无需翻译]
+10110201366	Four Drake Waterspouts	海盗之王水龙卷四个[无需翻译]
+10110201367	Six Drake Waterspouts	海盗之王水龙卷六个[无需翻译]
+10110201368	Drake Water Blade@{1}	海盗之王水刃@{1}[无需翻译]
+10110201369	Falling Explosive Barrels @{1} sec.	天降炸药桶@{1}秒[无需翻译]
+10110201370	Ghost Ship Grand Charge Horizontal Easy	幽灵船大冲撞横简单[无需翻译]
+10110201371	Ghost Ship Grand Charge Vertical Easy	幽灵船大冲撞竖简单[无需翻译]
+10110201372	Beehive Throw@{1}	蜂巢投掷@{1}【无需翻译】
+10110201373	Swarming Bees@{1}	群蜂环绕@{1}【无需翻译】
+10110201374	Falling Beehive@{1}	天降蜂巢@{1}【无需翻译】
+10110201375	Hornet Assault@{1}	蜂兵来袭@{1}【无需翻译】
+10110201376	Hornet Assault+Falling Beehive	蜂兵来袭+天降蜂巢【无需翻译】
+10110201377	Animation Only (Phase @{1}	纯动作（阶段@{1}【无需翻译】
+10110201378	Enter Stealth in Phase @{1}	阶段@{1}进入隐身【无需翻译】
+10110201379	Teleport	传送【无需翻译】
+10110201380	Maya Normal Attack	蚁后普攻
+10110201381	Stone Glyph Slash (Deprecated)	石字斩（废弃）（无需翻译）
+10110201382	Petrifying Mist (Deprecated)	石化迷雾（废弃）（无需翻译）
+10110201383	Stone Pillar (Deprecated)	石柱（废弃）（无需翻译）
+10110201384	Silk Spit	吐丝
+10110201385	Player Link	玩家连线
+10110201386	Sandstorm (Deprecated)	沙尘暴（废弃）（无需翻译）
+10110201387	Link Distance Check	连线距离检测
+10110201388	Reverse Stone Glyph Slash	反向石字斩
+10110201389	Sandstorm Tutorial Version	沙尘暴教学版
+10110201390	Stone Pillar@{1} (Deprecated)	石柱@{1}（废弃）（无需翻译）
+10110201391	Stone Glyph Slash Targeting	石字斩点名
+10110201392	Stone Pillar Tracking Target	石柱追踪点名
+10110201393	Stone Pillar Random Point Selection	石柱随机选点
+10110201394	Petrifying Mist Tracking	石化迷雾追踪
+10110201395	Petrifying Cleave - Four Directions	石化顺劈-四向
+10110201396	Petrifying Cleave - Tracking	石化顺劈-追踪
+10110201397	New Ultimate	新大招
+10110201398	Player Link@{1}	玩家连线@{1}
+10110201399	Link Distance Check@{1}	连线距离检测@{1}
+10110201400	Silk Spit@{1}	吐丝@{1}
+10110201401	Sandstorm@{1}	沙暴@{1}
+10110201402	New Ultimate@{1}	新大招@{1}
+10110201403	Silk Spit Tutorial	吐丝教学
+10110201404	Field Skill	场地技
+10110201405	Petrifying Mist Tracking - Easy	石化迷雾追踪-简单
+10110201406	Stone Glyph Slash Targeting - Easy	石字斩点名-简单
+10110201407	Ultimate - Easy	大招-简单
+10110201408	Stone Glyph Slash@{1}	石字斩@{1}
+10110201409	Silk Spit@{1} Players	吐丝@{1}人
+10110201410	Link Red Status Check@{1}	连线变红检测@{1}
+10110201411	Link Drag	连线拖拽
+10110201412	Stone Pillar Self-Destruct	石柱自爆
+10110201413	Cancel Skill	(无需翻译)取消技能
+10110201414	Locate	(无需翻译)定位
+10110201415	Summon Horong	召唤鬼火
+10110201416	Dark Pulse	黑暗脉冲
+10110201417	Horong Split	鬼火分裂
+10110201418	Summon Mummy	召唤木乃伊
+10110201419	Bandage Lash	绷带鞭挞
+10110201420	Astral Shift	斗转星移
+10110201421	Horong Tracking	鬼火追踪
+10110201422	Boss Relative Position Check	(无需翻译)boss相对位置检测
+10110201423	Asset Library	(无需翻译)素材库
+10110201424	Bandage Lash@{1}	绷带鞭挞@{1}
+10110201425	Horong Split@{1}	鬼火分裂@{1}
+10110201426	Dark Pulse@{1}	黑暗脉冲@{1}
+10110201427	Refresh Horong	刷新鬼火
+10110201428	Summon Horong@{1}	召唤鬼火@{1}
+10110201429	Pre-Astral Shift Split	斗转星移前分裂
+10110201430	Horong Pulse	鬼火脉冲
+10110201431	Rotating Dark Pulse	黑暗脉冲旋转
+10110201432	Cooldown Placeholder Skill	cd占位技能
+10110201433	Teleport to Center	居中传送
+10110201434	Cooldown Placeholder Skill@{1} sec.	cd占位技能@{1}秒
+10110201435	Pharaoh Normal Attack	法老王普攻
+10110201436	Summon Pyramid	召唤金字塔
+10110201437	Summon Coffin	召唤棺材
+10110201438	Coffin Eruption	棺材喷发
+10110201439	Grasp of the Dead	亡者之握
+10110201440	Shroud	裹尸布
+10110201441	Tear Off the Shroud	撕开裹尸布
+10110201442	Shroud Detection	裹尸布检测
+10110201443	Coffin Eruption@{1}	棺材喷发@{1}
+10110201444	Divine Light Purification	神光涤荡
+10110201445	Increase Damage Reduction	增加免伤
+10110201446	Laser Summon	激光召唤
+10110201447	Summon Coffin + Bandage	召唤棺材+绷带
+10110201448	Coffin Bandage Restraint	棺材绷带困人
+10110201449	Coffin Restraint@{1}Remove Stealth	棺材困人@{1}移除隐身
+10110201450	Pharaoh Ultimate	法老王大招
+10110201451	Pharaoh Ultimate Damage	法老王大招伤害
+10110201452	Blink	瞬移
+10110201453	Pyramid Skill Interrupted	金字塔技能被打断
+10110201454	Death Ray	死亡射线
+10110201455	Pyramid Laser Damage	金字塔激光伤害
+10110201456	Laser	激光
+10110201457	Remove Curse	解除诅咒
+10110201458	Laser Coffin Shot	激光射棺材
+10110201459	Laser Summons Coffins	激光召唤棺材
+10110201460	Mummy Normal Attack	木乃伊普攻
+10110201461	Mummy Cone Attack	木乃伊扇形
+10110201462	Bandage Ambush@{1}	绷带偷袭@{1}
+10110201463	Moonlight Flower Normal Attack	月夜猫普攻[无需翻译]
+10110201464	Moonlight Flower Ambush	月夜猫偷袭[无需翻译]
+10110201465	Moonlight Flower Launches Light Wave	月夜猫发射光波[无需翻译]
+10110201466	Moonlight Flower Ground Slam	月夜猫砸地[无需翻译]
+10110201467	Moonlight Flower Bell Incoming	月夜猫铃铛来了[无需翻译]
+10110201468	Moonlight Flower Bell Cage	月夜猫铃铛牢笼[无需翻译]
+10110201469	Moonlight Flower Bell Charge Shuffle	月夜猫铃铛充能打乱[无需翻译]
+10110201470	Moonlight Flower Spotlight Game	月夜猫聚光灯游戏[无需翻译]
+10110201471	Moonlight Flower Four-Corner Bell	月夜猫四角铃铛[无需翻译]
+10110201472	Moonlight Flower Bell Deathrattle	月夜猫铃铛亡语[无需翻译]
+10110201473	Moonlight Flower Rapid-Fire Bullets	月夜猫连打子弹[无需翻译]
+10110201474	Moonlight Flower Targeted Ground-Slam Bullet	月夜猫点名砸地子弹[无需翻译]
+10110201475	Moonlight Flower Circle Underfoot	月夜猫脚下出圈[无需翻译]
+10110201476	Moonlight Flower Bell Incoming@{1}	月夜猫铃铛来了@{1}[无需翻译]
+10110201477	Moonlight Flower Five-Corner Bell	月夜猫五角铃铛[无需翻译]
+10110201478	Moonlight Flower Knockback Ambush	月夜猫击退偷袭[无需翻译]
+10110201479	Moonlight Flower Four-Corner Bell Hard	月夜猫四角铃铛困难[无需翻译]
+10110201480	Moonlight Flower Five-Corner Bell Hard	月夜猫五角铃铛困难[无需翻译]
+10110201481	Moonlight Flower Bell Charge Shuffle, Second Wave	月夜猫铃铛充能打乱第二波[无需翻译]
+10110201482	Moonlight Flower Bell Charge Hard Shuffle	月夜猫铃铛充能困难打乱[无需翻译]
+10110201483	Moonlight Flower Bell Charge Hard Shuffle, Second Wave	月夜猫铃铛充能困难打乱第二波[无需翻译]
+10110201484	Moonlight Flower Spotlight Game Easy, Second Wave	月夜猫聚光灯游戏简单第二波[无需翻译]
+10110201485	Moonlight Flower Spotlight Game Hard, Second Wave	月夜猫聚光灯游戏困难第二波[无需翻译]
+10110201486	P@{1} Launches @{3} Bubbles Every @{2}s	P@{1}每@{2}s发射@{3}个泡泡
+10110201487	EsteP@{1} Random Bubbles	EsteP@{1}随机泡泡
+10110201488	Same-Color Colliding Bubbles	同色对撞泡泡
+10110201489	Add @{1} Different-Color Bubbles Side by Side	并排加@{1}个异色泡泡
+10110201490	Launch Red Bubble	发射红色泡泡
+10110201491	Launch Yellow Bubble	发射黄色泡泡
+10110201492	Launch Blue Bubble	发射蓝色泡泡
+10110201493	Launch Green Bubble	发射绿色泡泡
+10110201494	Launch Homing Bubble	发射追踪泡泡
+10110201495	Launch Wave	发射海浪
+10110201496	Full-Arena Wave	全场波浪
+10110201497	Wave Splash	浪花飞溅
+10110201498	Cone-Shaped Wave	扇形波浪
+10110201499	Create @{1} Grid Bubbles	创建@{1}个井字泡泡
+10110201500	Create @{1} Homing Bubbles	创建@{1}个追踪泡泡
+10110201501	Create @{1} Different-Color Cross Bubbles	创建@{1}个异色交叉泡泡
+10110201502	Create @{1} Same-Color Cross Bubbles	创建@{1}个同色交叉泡泡
+10110201503	Launch Red Homing Bubble	发射红色追踪泡泡
+10110201504	Launch Yellow Homing Bubble	发射黄色追踪泡泡
+10110201505	Launch Blue Homing Bubble	发射蓝色追踪泡泡
+10110201506	Launch Green Homing Bubble	发射绿色追踪泡泡
+10110201507	Send Stage Message@{1}	发送关卡消息@{1}
+10110201508	Launch Stationary Red Bubble	发射原地红色泡泡
+10110201509	Launch Stationary Yellow Bubble	发射原地黄色泡泡
+10110201510	Launch Stationary Blue Bubble	发射原地蓝色泡泡
+10110201511	Launch Stationary Green Bubble	发射原地绿色泡泡
+10110201512	Normal Attack@{1}	普攻@{1}
+10110201513	Targeted Stationary Bubble	点名原地泡泡
+10110201514	Homing Bubble Action	追踪泡泡动作
+10110201515	Straight-Line Bubble Action	直线泡泡动作
+10110201516	Launch Water Jet	发射水柱
+10110201517	P@{1} Applies Buff	P@{1}加buff
+10110201518	Straight-Line Bubble Action@{1}	直线泡泡动作@{1}
+10110201519	P@{1} Action	P@{1}动作
+10110201520	P@{1} Red Bubble	P@{1}红色泡泡
+10110201521	P@{1} Yellow Bubble	P@{1}黄色泡泡
+10110201522	P@{1} Blue Bubble	P@{1}蓝色泡泡
+10110201523	P@{1} Green Bubble	P@{1}绿色泡泡
+10110201524	Unstable Red Bubble	不稳定的红色泡泡
+10110201525	Unstable Yellow Bubble	不稳定的黄色泡泡
+10110201526	Unstable Blue Bubble	不稳定的蓝色泡泡
+10110201527	Unstable Green Bubble	不稳定的绿色泡泡
+10110201528	P@{1} Red Bubble@{2}	P@{1}红色泡泡@{2}
+10110201529	P@{1} Yellow Bubble@{2}	P@{1}黄色泡泡@{2}
+10110201530	P@{1} Blue Bubble@{2}	P@{1}蓝色泡泡@{2}
+10110201531	P@{1} Green Bubble@{2}	P@{1}绿色泡泡@{2}
+10110201532	Link Effect	连线特效
+10110201533	Eight-Direction Wave	八方向海浪
+10110201534	Water Jet Damage	水柱伤害
+10110201535	Ground Red Bubble	地面红色泡泡
+10110201536	Ground Yellow Bubble	地面黄色泡泡
+10110201537	Ground Blue Bubble	地面蓝色泡泡
+10110201538	Ground Green Bubble	地面绿色泡泡
+10110201539	Create @{1} Ground Bubbles	创建@{1}个地面泡泡
+10110201540	Create @{1} Differently Colored Homing Bubbles	创建@{1}个不同颜色追踪泡泡
+10110201541	Create @{1} Same-Color Homing Bubbles	创建@{1}个同颜色追踪泡泡
+10110201542	Boss Movement Detection	Boss移动检测
+10110201543	@{1} Color Tracks @{2} Players	@{1}色追@{2}人
+10110201544	Normal Attack Shell	普攻壳
+10110201545	Whirling Dance Step	回旋舞步
+10110201546	Dazzling Dance Step	炫目舞步
+10110201547	Stomping Dance Step	重踏舞步
+10110201548	Resonant Dance Step	共鸣舞步
+10110201549	Dance Machine	跳舞机
+10110201550	Rhythm Game Interaction	音游交互
+10110201551	Dance Move	舞动
+10110201552	Up_Trigger Check	上_触发判定
+10110201553	Down_Trigger Check	下_触发判定
+10110201554	Left_Trigger Check	左_触发判定
+10110201555	Right_Trigger Check	右_触发判定
+10110201556	Dance Machine_Remove Transform Buff	跳舞机_移除变身buff
+10110201557	Tile-Occupying Derived Skill@{1}	占用格子的派生技能@{1}
+10110201558	Furious Strike	愤怒一击
+10110201559	Dance Machine_Remove Transform Buff[Consecutive Transform Fix]	跳舞机_移除变身buff[连续变身修正]
+10110201560	Boss Up	Bosss上
+10110201561	Boss Down	Bosss下
+10110201562	Boss Left	Bosss左
+10110201563	Boss Right	Bosss右
+10110201564	Up Down Left Right-Correct Feedback	上下左右-正确反馈
+10110201565	Up, Down, Left, Right-Failure Feedback	上下左右-失败反馈
+10110201566	Skill@{1}_Flash Bomb (Variant) Targeting	技能@{1}_闪光弹(变种)选点
+10110201567	Skill@{1}_Flash Bomb (Variant) Damage	技能@{1}_闪光弹(变种)伤害
+10110201568	Skill@{1}_Summon X@{2} Cross Compression Zone	技能@{1}_召唤X@{2}十字压缩空间
+10110201569	Skill@{1}_Summon X Cross@{2} Compression Zone	技能@{1}_召唤X十@{2}字压缩空间
+10110201570	Skill@{1}_Summon Eight-Way Compression Zone	技能@{1}_召唤米字压缩空间
+10110201571	Skill@{1}_Flash Bomb Hell Mode	技能@{1}_闪光弹地狱模式
+10110201572	Rhythmic Moonlit Challenger@{1}s	节奏大师@{1}s
+10110201573	Skill@{1}_Dance Machine_New	技能@{1}_跳舞机_新
+10110201574	Skill@{1}_Player Transforms into Dancing NPC	技能@{1}_玩家变身跳舞NPC
+10110201575	Skill@{1}_Play VFX When Dancing NPC Exits	技能@{1}_跳舞NPC离场播放特效
+10110201576	Boss Creates Interaction Magic Circle	boss创建交互法阵
+10110201577	Yellow Interaction Circle	黄色交互踩圈
+10110201578	Rhythmic Stomp	节奏踩踏
+10110201579	Create Interaction Magic Circle@{1}	创建交互法阵@{1}
+10110201580	Create Interaction Magic Circle (Deformed)@{1}	创建交互法阵(变形)@{1}
+10110201581	Purple Interaction Circle	紫色交互踩圈
+10110201582	Hold Skill VFX	拖住技能特效
+10110201583	Skill@{1}(New)_Summon Compression Zone	技能@{1}(新)_召唤压缩空间
+10110201584	Skill@{1}_Hell Mode@{2}	技能@{1}_地狱模式@{2}
+10110201585	Skill@{1}(New)_Compression Zone Damage	技能@{1}(新)_压缩空间伤害
+10110201586	Skill@{1}_Summon Cross Compression Zone	技能@{1}_召唤十字压缩空间
+10110201587	Skill@{1}_Cross Compression Zone Player Damage	技能@{1}_十字压缩空间玩家伤害
+10110201588	Skill@{1}_Summon X-Shaped Compression Zone	技能@{1}_召唤X字压缩空间
+10110201589	Skill@{1}_Hard Mode@{2}	技能@{1}_困难模式@{2}
+10110201590	Skill@{1}_Summon Circle@{2}+Transform+Circle-Stepping Interaction Skill	技能@{1}_召唤圈@{2}+变身+踩圈交互技能
+10110201591	Skill@{1}_Summon Circle@{2}	技能@{1}_召唤圈@{2}
+10110201592	Skill@{1}_Remove Circle-Stepping Interaction Skill	技能@{1}_移除踩圈交互技能
+10110201593	Skill@{1}Charge Up	技能@{1}蓄势
+10110201594	Skill@{1}Multihit Charge Up	技能@{1}蓄势多段
+10110201595	Skill@{1}Super Multihit Charge Up	技能@{1}蓄势超级多段
+10110201596	Skill@{1}Shout	技能@{1}呐喊
+10110201597	Skill@{1}Shout@{2}	技能@{1}呐喊@{2}
+10110201598	Skill@{1}Meteor Shower	技能@{1}流星雨
+10110201599	Skill@{1}Meteor Shower@{2}	技能@{1}流星雨@{2}
+10110201600	Skill@{1}Melodic Flame@{2}	技能@{1}音律之火@{2}
+10110201601	Skill@{1}Call@{2}	技能@{1}呼唤@{2}
+10110201602	Skill@{1}Memory Game	技能@{1}记忆游戏
+10110201603	Skill@{1}Memory Game_Magic Circle Skill	技能@{1}记忆游戏_法阵技能
+10110201604	Skill@{1}Drumbeat Cage	技能@{1}鼓点牢笼
+10110201605	Skill@{1}Drumbeat Cage_Area Knockback	技能@{1}鼓点牢笼_范围击退
+10110201606	Skill@{1}Intoxication	技能@{1}陶醉
+10110201607	Skill@{1}Enrage Countdown	技能@{1}狂暴倒计时
+10110201608	Skill@{1}Phase Transition Performance	技能@{1}转阶段表演
+10110201609	Obtain Red Note	获得红色音符
+10110201610	Obtain Blue Note	获得蓝色音符
+10110201611	Obtain Yellow Note	获得黄色音符
+10110201612	Obtain Green Note	获得绿色音符
+10110201613	Compose Movement	谱写乐章
+10110201614	Perform Movement	执行乐章
+10110201615	Final Movement	最终乐章
+10110201616	Normal Attack_@{1}	普攻_@{1}[无需翻译]
+10110201617	Triple Strike_@{1}	三连击_@{1}[无需翻译]
+10110201618	Lock-On Rectangle	锁定矩形[无需翻译]
+10110201619	Roar Rockfall-No Logic Yet	怒吼落石-暂无逻辑[无需翻译]
+10110201620	One-Hit KO Targeting-No Logic Yet	秒杀点名-暂无逻辑[无需翻译]
+10110201621	Circular AoE-No Logic Yet	圆型AOE-暂无逻辑[无需翻译]
+10110201622	Advancing Cone Damage-No Logic Yet	扇形推进伤害-暂无逻辑[无需翻译]
+10110201623	Skill@{1}	技能@{1}
+10110201624	Skill@{1}	技能@{1}(无需翻译)
+10110201625	Skill@{1} Variant	技能@{1}衍生(无需翻译)
+10110201626	Giant Normal Attack	巨型普攻(无需翻译)
+10110201627	Weak	虚弱(无需翻译)
+10110201628	Linked Skill	连线技能
+10110201629	Linked Skill Variant@{1}	连线衍生技能@{1}
+10110201630	Normal Attack@{1}	普攻@{1}(无需翻译)
+10110201632	Knight Note@{1}	骑士音符@{1}
+10110201633	Crusader Note@{1}	十字军音符@{1}
+10110201634	Mage Note@{1}	法师音符@{1}
+10110201635	Hunter Note@{1}	猎人音符@{1}
+10110201636	Battle Chant Harmony - Consonance	圣音同谐-协和音
+10110201637	Melodic Flow	音流
+10110201638	Battle Chant Harmony - Rhythm	圣音同谐-韵律
+10110201639	Battle Chant Harmony - Resonance	圣音同谐-共鸣
+10110201640	Battle Chant Harmony - Psalm	圣音同谐-诗篇
+10110201641	Battle Chant Harmony - Chorus	圣音同谐-合唱
+10110201642	Song of Suffering - Organum	苦难谏歌-奥尔加农
+10110201643	Song of Suffering - Murmur	苦难谏歌-低鸣
+10110201644	Song of Suffering - Baptism	苦难谏歌-洗礼
+10110201645	Song of Suffering - Sacred Music Incarnate	苦难谏歌-圣乐真身
+10110201646	Musical Phrase	乐句
+10110201647	Priest Note@{1}	牧师音符@{1}
+10110201648	Assassin Note@{1}	刺客音符@{1}
+10110201649	Merchant Note@{1}	商人音符@{1}
+10110201650	Solace of Eternal Silence	永寂慰藉
+10110201651	Melodic Axe Tornado	音律战斧飓风
+10110201652	Melodic Axe Tornado - Enhance	音律战斧飓风-强化
+10110201653	Melodic High-Energy Impact	音律高能冲击
+10110201654	Melody Cannon	音律加农炮
+10110201655	Melody Cannon - Enhance	音律加农炮-强化
+10110201656	Melody Vulcan	音律火神炮
+10110201657	Melody Bombardment	音律轰炸
+10110201658	Melody Burst	音律爆发
+10110201659	Melody Impact	音律冲击
+10110201660	Melody Vortex	音律漩涡
+10110201661	Melody Hurricane	音律飓风
+10110201662	Melody Tidal Wave	音律巨浪
+10110201663	Enhanced Shield Press	强化盾牌压制
+10110201664	Moonlit Echo	月下回响
+10110201665	Radiant Bloom	光芒绽放
+10110201666	Golden Moon Ring	金色月轮
+10110201667	Brilliant Nova	璀璨新星
+10110201668	Guardian's Might	守护之力
+10110201669	Unyielding Will	不屈意志
+10110201670	Absolute Defense	绝对防御
+10110201671	Accented Assault	重音强袭
+10110201672	Enhanced Focused Arrow Strike	强化瞄准射击
+10110201673	Enhanced Focused Arrow Strike (Unlimited Shooting)	强化瞄准射击（无限射击）
+10110201674	Dance Move: Wolf Pack	舞动狼群
+10110201675	Coordinated Hunt	联合狩猎
+10110201676	Rhythmic Wolf King	律动群狼之王
+10110201677	Rhythmic Warg Minion (Warg Charge)	律动之狼跟班（狼突击）
+10110201678	Rhythmic Warg Minion (Warg Bite)	律动之狼跟班（狼撕咬）
+10110201679	Rhythmic Arrow	律动矢音
+10110201680	Infinite Rhapsody	无限狂想
+10110201681	Gale Beat	疾风节拍
+10110201682	Celestial Symphony	星穹交响
+10110201683	Wolf Pack Disco	群狼迪斯科
+10110201684	Rhythmic Warg	律动之狼
+10110201685	Wind-Pressure Blade	风压飞刃
+10110201686	Hundred Spear - Enhance	强化百矛穿刺
+10110201687	Ultimate Hundred Spear	终极百矛穿刺
+10110201688	Precision Thrust	精准刺击
+10110201689	Sonic Burst	音速爆裂
+10110201691	Half-Dragon Form	半龙化
+10110201692	Sweep Attack	横扫千军
+10110201693	Return of the Demon King	魔王再临
+10110201694	Pixel Thrust	像素突刺
+10110201695	Beat Bounce	音符跳动
+10110201696	Electro Rock	电子摇滚
+10110201697	Double Volume	双倍音量
+10110201698	Shadow Loop	影回环
+10110201699	Flowing Shadow	流影
+10110201700	Thousand Shadows	千影
+10110201701	Shadow Guard	御影
+10110201702	Piercing Shadow	穿影
+10110201703	Move back Shadow Echo	后退回影
+10110201704	Cross Ripper Slasher	回旋十字斩
+10110201705	Rock Step	摇滚步
+10110201706	Graffiti Mastery	街头涂鸦
+10110201707	Thomas Flare	托马斯回旋
+10110201708	DJ Reverb	打碟混响
+10110201709	Triple Rhyme	三连押
+10110201710	Hip-Hop Impersonation	嘻哈模仿秀
+10110201711	Encore	安可
+10110201712	Freestyle Rap	自由式说唱
+10110201713	Petrify Curse	石化诅咒
+10110201714	Destructive Flame	毁灭烈焰
+10110201715	Jack Frost (Copy)	霜冻爆破(复制)
+10110201716	Earth Strain (Copy)	大地扭曲(复制)
+10110201717	Crimson Rock (Copy)	深红陨石(复制)
+10110201718	Thunderclap (Copy)	霹雳雷霆(复制)
+10110201719	Comet (Copy)	破坏彗星(复制)
+10110201720	Tetra Vortex (Copy)	元素漩涡(复制)
+10110201721	Meteor	流星
+10110201722	Meteor (Copy)	流星(复制)
+10110201723	White Imprison Trigger	白色监狱触发
+10110201724	Psychokinetic Astral Body (Copy)	念动星体(复制)
+10110201725	Remix Resonance	混音共鸣
+10110201726	Voice of the Soul	灵魂之音
+10110201727	Resonance Focus	共振焦点
+10110201728	Neon Spotlight	聚光霓虹
+10110201729	Finale Impact	终场冲击
+10110201730	Elemental Ensemble	元素合奏
+10110201731	Prismatic Meteor	五彩流星
+10110201732	Mixed Accompaniment	混合伴奏
+10110201733	Disco Accent	重音迪斯科
+10110201734	Angel Incarnate	天使加身
+10110201735	Enlightenment	启蒙
+10110201736	Evil Spirit Possession	恶灵附身
+10110201737	Holy Judgment	圣裁
+10110201738	Black Feather Burst	黑羽爆发
+10110201739	Interwoven Light and Dark: Physical	光晦交织：物理
+10110201740	Interwoven Light and Dark: Magic	光晦交织：魔法
+10110201741	Equal Grace	匀赐
+10110201742	Manifestation	显化
+10110201743	Divine Remnant	神性残留
+10110201744	Free Will	意志自由
+10110201745	Coordinated Attack	协同攻击
+10110201746	Black Feather Barrage	黑羽倾泻
+10110201747	Praiser Priest Hymn: Equal Grace	赞美诗：匀赐
+10110201748	Praiser Priest Hymn: Manifestation	赞美诗：显化
+10110201749	Praiser Priest Hymn: Divine Remnant	赞美诗：神性残留
+10110201750	Praiser Priest Hymn: Angel Incarnate	赞美诗：天使加身
+10110201751	Exorciser Spell: Enlightenment	驱魔咒：启蒙
+10110201752	Exorciser Spell: Free Will	驱魔咒：意志自由
+10110201753	Exorciser Spell: Corruption	驱魔咒：堕落
+10110201754	Exorciser Spell: Evil Spirit Possession	驱魔咒：恶灵附身
+10110201755	S@{1}Axe Tornado Invincible Whirlwind	S@{1}战斧飓风无敌龙卷风
+10110201756	S@{1}Cannon Pursuit	S@{1}加农炮追击
+10110201757	S@{1}Soul Burst	S@{1}爆魂技
+10110201758	S@{1}Vulcan Cannon@{2}	S@{1}火神炮@{2}
+10110201759	S@{1}Cannon	S@{1}加农炮
+10110201760	S@{1}Cannon Enhance@{2}	S@{1}加农炮强化@{2}
+10110201761	S@{1}Flamethrower	S@{1}火焰喷射
+10110201762	S@{1}High-Energy Impact	S@{1}高能冲击
+10110201763	S@{1}High-Energy Pulse	S@{1}高能脉冲
+10110201764	S@{1}Crescent Moonblade	S@{1}孤月斩轮
+10110201765	S@{1}Demonic Roar	S@{1}恶魔咆哮
+10110201766	Titan's Fury	泰坦之怒
+10110201767	Seismic Cleave	裂地劈
+10110201768	Hellhound King	地狱王狼
+10110201769	Ultimate Hundred Spears	究极百矛穿刺
+10110201770	True Dragon's Descent	真龙降临
+10110201771	S@{1}Black Phantom Void	S@{1}黑色幻影虚空(无需翻译)
+10110201772	S@{1}Cross Ripper Slasher Frenzy	S@{1}回旋十字斩发癫(无需翻译)
+10110201773	S@{1}Rolling Blade Barrage	S@{1}回旋刀刃乱舞(无需翻译)
+10110201774	Black Phantom	黑色幻影(无需翻译)
+10110201775	Cross Ripper Slasher	回旋十字斩(无需翻译)
+10110201776	Rolling Blade	回旋刀刃(无需翻译)
+10110201777	Camouflage Enhance	伪装强化(无需翻译)
+10110201778	S@{1}Shadow Loop	S@{1}影回环
+10110201779	Soul Burst Technique	爆魂技(无需翻译)
+10110201780	S@{1}Flowing Shadow	S@{1}流影
+10110201781	S@{1}Thousand Shadows	S@{1}千影
+10110201782	S@{1}Shadow Guard	S@{1}御影
+10110201783	S@{1}Piercing Shadow	S@{1}穿影
+10110201784	S@{1}Camouflage Enhance Dragon	S@{1}伪装强化龙龙(无需翻译)
+10110201785	Elemental Annihilation	元素破灭
+10110201786	Crimson Rock Lv.@{1}	深红陨石lv@{1}
+10110201787	Cat o' Nine-Tail Normal Attack	狂暴月夜猫普攻【无需翻译】
+10110201788	Cat o' Nine-Tail Skill	狂暴月夜猫技能【无需翻译】
+10110201789	Orc Hero New Skill	兽人英雄新技能【无需翻译】
+10110201790	Eddga New Skill	虎王新技能【无需翻译】
+10110201791	Baphomet New Skill	巴风特新技能【无需翻译】
+10110201792	Osiris New Skill	俄赛里斯新技能【无需翻译】
+10110201793	Pharaoh New Skill	法老王新技能【无需翻译】
+10110201794	Coffin Eruption@{1}	棺材喷发@{1}【无需翻译】
+10110201795	Vocal Normal Attack	摇滚蝗虫普攻【无需翻译】
+10110201796	Vocal Skill	摇滚蝗虫技能【无需翻译】
+10110201797	Maya Purple Normal Attack	狂暴蚁后普攻【无需翻译】
+10110201798	Maya Purple Skill	狂暴蚁后技能【无需翻译】
+10110201799	Gryphon Normal Attack	狮鹫兽普攻【无需翻译】
+10110201800	Gryphon Skill	狮鹫兽技能【无需翻译】
+10110201801	Dark Priest Normal Attack	暗黑祭司普攻【无需翻译】
+10110201802	Dark Priest Skill	暗黑祭司技能【无需翻译】
+10110201803	Fatal Blow	攻击弱点
+10110201804	Endure	霸体
+10110201805	Increase Recuperative Power	快速恢复
+10110201806	Sword Mastery	剑系熟练度
+10110201807	Spear Expert	长矛专家
+10110201808	Sword Quicken	剑攻速增加
+10110201809	Bowling Bash	怪物互击
+10110201810	Auto Counter	反击
+10110201811	Brandish Spear	骑乘攻击
+10110201812	Spear Stab	长矛刺击
+10110201813	Spear Throw	投掷长矛
+10110201814	Charge Attack	冲锋攻击
+10110201815	Pierce	连刺攻击
+10110201816	Rapid Pierce	连突刺
+10110201817	Piercing Blast	连刺爆破
+10110201818	Power Slash	强力斩击
+10110201819	Heavy Blow	势大力沉
+10110201820	Triple Slash	三段斩
+10110201821	Greatsword Sweep Attack	大剑横扫
+10110201822	Double Counter	双倍互击
+10110201823	Aura Blade	灵气剑
+10110201824	Head Crush	伤害增压
+10110201825	Concentration	集中攻击
+10110201826	Parry	双剑格挡
+10110201827	Spiral Pierce	螺旋刺击
+10110201828	Berserk	狂怒之枪
+10110201829	Joint Beat	巧打
+10110201830	Dragon Breath (Fire)	龙之吐息（火）
+10110201831	Dragon Breath (Water)	龙之吐息（水）
+10110201832	Dragon Howling	龙之咆哮
+10110201833	Dragon Training	驯龙术
+10110201834	Sonic Wave	音速冲击波
+10110201835	Death Bound	死亡反弹
+10110201836	Vivify	活力
+10110201837	Enchant Blade	魔力剑
+10110201838	Rune Mastery	卢恩精熟
+10110201839	Hundred Spears Stack Monitor	百矛叠层监听（无需翻译）
+10110201840	Slash Monitor	斩劈挥砍监听（无需翻译）
+10110201841	Burn	灼烧
+10110201842	Missile	导弹（无需翻译）
+10110201843	Trap Hunter	陷阱（无需翻译）
+10110201844	Darkness	暗黑（无需翻译）
+10110201845	Shield	护盾（无需翻译）
+10110201846	Speed Boost Trigger	触发加速（无需翻译）
+10110201847	Pickup Trigger	触发拾取（无需翻译）
+10110201848	YU-Sweep All Directions	YU-扫六合（无需翻译）
+10110201849	Passive Skill@{1}	被动技能@{1}
+10110201850	Active Skill@{1}	主动技能@{1}
+10110201851	Dispel	解控
+10110201853	Increase Dodge	残影
+10110201854	Double Attack	二刀连击
+10110201855	Hiding	隐匿
+10110201856	Steal	偷窃
+10110201857	Sand Puff	喷砂
+10110201858	Detoxify	解毒
+10110201859	Special Dual-Wield Logic	双持特殊逻辑
+10110201860	Katar Mastery	拳刃修炼
+10110201861	Supersonic Blow	超音速投掷
+10110201862	Envenomed Blade	剧毒短刀
+10110201863	Virus Spread	病毒散播
+10110201864	Dual-Wield Mastery	双手修炼
+10110201865	Grimtooth	无影之牙
+10110201866	Venom Splasher	毒性感染
+10110201867	Poisoned	中毒
+10110201868	Dual-Wield Mastery	双持精通
+10110201869	Assassin Cross Normal Attack	十字刺客普攻
+10110201870	Deadly Poison	致命涂毒
+10110201871	Create Deadly Poison	毒液制作
+10110201872	Advanced Soul Destroyer	高阶心灵震波
+10110201873	Cross Impact	十字斩
+10110201874	Advanced Katar Mastery	高阶拳刃修炼
+10110201875	Shadow Strike	影击
+10110201876	Venom Sting	剧毒
+10110201877	Blade Dance	刀剑乱舞
+10110201878	Opening	可乘之机
+10110201879	Chain Reaction	连锁反应
+10110201880	Shadow Fang	有影之牙
+10110201881	Sneak Attack	暗算
+10110201882	Triple Slash	三刀连击
+10110201883	Poisoned to the Core	正中毒心
+10110201884	Toxic Rampage	毒大妄为
+10110201885	Spreading Shockwave	震波扩散
+10110201886	Hidden Blade	暗里藏刀
+10110201887	Fatal Claw Marks	致命爪痕
+10110201888	Antidote	解毒剂
+10110201889	Prey on the Weak	恃强凌弱
+10110201890	Shadow Break	影破
+10110201891	Black Phantom Passive	黑色幻影被动
+10110201892	Magic Reverberation	魔法回响
+10110201893	Holy Light's Protection	圣光庇护
+10110201894	Continuous Healing	连续治疗
+10110201895	Pirate King Normal Attack	海盗之王普攻
+10110201896	Cross Blast	十字轰炸
+10110201897	Pirate King Slash	海盗之王劈砍
+10110201898	Energy Coat	能量外套
+10110201899	Soul Strike	圣灵召唤
+10110201900	Fire Wall	火焰之壁
+10110201901	Fire Ball	火球术
+10110201902	Thunderstorm	雷爆术
+10110201903	Frost Diver	冰冻术
+10110201904	Stone Curse	石化术
+10110201905	Mind Blast	心灵爆破
+10110201906	Earth Spike	地震术
+10110201907	Sightrasher	火之猎杀
+10110201908	Frost Nova	霜冻之术
+10110201909	Quagmire	泥沼地
+10110201910	Fire Pillar	火柱攻击
+10110201911	Meteor Storm	陨石术
+10110201912	Sight Sprout	火狩芽
+10110201913	Magic Crasher	魔击术
+10110201914	Magic Cannon	魔击炮
+10110201915	Mystical Amplification	魔力增幅
+10110201916	Soul Drain	吸魂术
+10110201917	Ganbantein	噶般塔音
+10110201918	Elemental Pursuit	元素追击
+10110201919	Elemental Shock	元素冲击
+10110201920	Fireball Burst	火球爆裂
+10110201921	Ice Spike	冰锥
+10110201922	Thunderbolt	天雷
+10110201923	Fire Explosion	火焰爆炸
+10110201924	Ember Zone	余烬地带
+10110201925	Frost Explosion	冰霜爆炸
+10110201926	Spatial Distortion	空间扭曲
+10110201927	Magic Frost	魔力霜冻
+10110201928	Element Control	元素掌控
+10110201929	Reading Spellbook	魔法书阅读
+10110201930	Stop Reading	停止阅读
+10110201931	Spellbook Page Passive	魔法书书页被动（无需翻译）
+10110201932	Meteor	陨星
+10110201933	Ice Blast	冰爆
+10110201934	Thunder Blast	雷爆
+10110201935	Earth Blast	土爆

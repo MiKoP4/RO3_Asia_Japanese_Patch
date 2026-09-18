@@ -11,10 +11,12 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import os
 import re
 import shutil
+import struct
 import sys
 import tempfile
 from collections import Counter
@@ -36,6 +38,13 @@ CACHE_FILE = WORKSPACE / "translations_cache.json"
 CONFIG_FILE = ROOT / "Client" / "BepInEx" / "config" / "AutoTranslatorConfig.ini"
 LOCALIZATION_PATCH_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.LocalizationOverrides.tsv"
 LANGUAGE_KV_FILE = WORKSPACE / "LanguageKV_full_en.tsv"
+ZH_CN_SKILL_ALIAS_FILE = WORKSPACE / "LanguageKV_skill_zh_CN.tsv"
+RECOVERY_LUA_DIR = (
+    ROOT.parent / "Client" / "ro3_Data" / "StreamingAssets" / "Recovery" / "LuaPayload"
+)
+RECOVERY_EN_PAYLOAD = RECOVERY_LUA_DIR / "Localization_en.lua.bytes"
+RECOVERY_ZH_CN_PAYLOAD = RECOVERY_LUA_DIR / "Localization_zh_CN.lua.bytes"
+SKILL_NAME_PREFIX = "101102"
 
 
 # Game placeholders and formatting tokens which translations must preserve.
@@ -140,6 +149,12 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10110200265": "Focused Arrow Strike",
     "13150600321": "Take part in events and enjoy your adventures in this world",
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
+}
+KNOWN_ZH_CN_SKILL_ALIASES = {
+    "10110200051": ("Judex", "\u5ba1\u5224"),
+    "10110200052": ("Holy Reckoning", "\u8bb4\u6b4c"),
+    "10110200055": ("Divine Retribution", "\u5929\u7f5a"),
+    "10110200056": ("Holy Stigma", "\u5723\u75d5"),
 }
 
 
@@ -423,6 +438,200 @@ def load_language_kv_texts(prefixes: tuple[str, ...]) -> set[str]:
     return {english for _, english in load_language_kv_rows(prefixes)}
 
 
+class _Lua54Reader:
+    """Minimal Lua 5.4 binary-chunk reader used for RO3 localization payloads."""
+
+    def __init__(self, data: bytes):
+        self.data = data
+        self.pos = 0
+
+    def read(self, size: int) -> bytes:
+        value = self.data[self.pos : self.pos + size]
+        if len(value) != size:
+            raise ImportErrorWithContext(
+                f"truncated Lua 5.4 payload at offset {self.pos}: wanted {size} bytes"
+            )
+        self.pos += size
+        return value
+
+    def u8(self) -> int:
+        return self.read(1)[0]
+
+    def varint(self) -> int:
+        value = 0
+        while True:
+            byte = self.u8()
+            value = (value << 7) | (byte & 0x7F)
+            if byte & 0x80:
+                return value
+
+    def string_bytes(self) -> bytes | None:
+        size = self.varint()
+        if size == 0:
+            return None
+        return self.read(size - 1)
+
+
+def _read_ro3_lua54_root_constants(path: Path) -> list[tuple[int, object]]:
+    """Read constants from RO3's recovered single-function Lua 5.4 chunk.
+
+    Recovery payloads use 0x1E instead of Lua's normal 0x1B signature byte,
+    but the remaining chunk layout is standard Lua 5.4. Localization payloads
+    are generated as one large function with LanguageKV IDs stored in the raw
+    bit pattern of LUA_VNUMFLT constants.
+    """
+
+    if not path.is_file():
+        raise ImportErrorWithContext(f"missing RO3 Recovery payload: {path}")
+    reader = _Lua54Reader(path.read_bytes())
+    signature = reader.read(4)
+    if signature not in (b"\x1bLua", b"\x1eLua"):
+        raise ImportErrorWithContext(
+            f"unsupported Lua payload signature in {path.name}: {signature!r}"
+        )
+    version = reader.u8()
+    format_version = reader.u8()
+    if version != 0x54 or format_version != 0:
+        raise ImportErrorWithContext(
+            f"unsupported Lua payload version in {path.name}: {version:#x}/{format_version}"
+        )
+    reader.read(6)  # LUAC_DATA
+    instruction_size = reader.u8()
+    integer_size = reader.u8()
+    number_size = reader.u8()
+    if instruction_size != 4 or integer_size != 8 or number_size != 8:
+        raise ImportErrorWithContext(
+            f"unexpected Lua scalar sizes in {path.name}: "
+            f"instruction={instruction_size}, integer={integer_size}, number={number_size}"
+        )
+    reader.read(integer_size)  # LUAC_INT
+    reader.read(number_size)  # LUAC_NUM
+    reader.u8()  # root upvalue count
+
+    reader.string_bytes()  # source/chunk name
+    reader.varint()  # linedefined
+    reader.varint()  # lastlinedefined
+    reader.u8()  # numparams
+    reader.u8()  # is_vararg
+    reader.u8()  # maxstacksize
+
+    code_count = reader.varint()
+    reader.read(code_count * instruction_size)
+    constant_count = reader.varint()
+    constants: list[tuple[int, object]] = []
+    for _ in range(constant_count):
+        tag = reader.u8()
+        if tag == 0:  # nil
+            value: object = None
+        elif tag == 1:  # false
+            value = False
+        elif tag == 17:  # true
+            value = True
+        elif tag == 3:  # LUA_VNUMFLT; RO3 stores the LanguageKV ID in raw bits
+            value = int.from_bytes(reader.read(number_size), "little", signed=False)
+        elif tag == 19:  # LUA_VNUMINT
+            value = int.from_bytes(reader.read(integer_size), "little", signed=True)
+        elif tag in (4, 20):  # short/long string
+            value = reader.string_bytes() or b""
+        else:
+            raise ImportErrorWithContext(
+                f"unsupported Lua constant tag {tag} in {path.name} at offset {reader.pos - 1}"
+            )
+        constants.append((tag, value))
+    return constants
+
+
+def _decode_ro3_localization_string(ciphertext: bytes) -> str:
+    """Decode the byte-chain transform used by RO3 localization Lua constants."""
+
+    previous = len(ciphertext) & 0xFF
+    plaintext = bytearray()
+    for encrypted in ciphertext:
+        plaintext.append(encrypted ^ previous)
+        previous = encrypted
+    return plaintext.decode("utf-8")
+
+
+def _extract_localization_values_from_payload(path: Path, prefix: str) -> dict[str, str]:
+    """Extract unique ID/value pairs that have a dedicated string constant."""
+
+    constants = _read_ro3_lua54_root_constants(path)
+    values: dict[str, str] = {}
+    for index, (tag, raw_key) in enumerate(constants[:-1]):
+        if tag != 3:
+            continue
+        key = str(raw_key)
+        if not key.startswith(prefix):
+            continue
+        next_tag, raw_value = constants[index + 1]
+        if next_tag not in (4, 20) or not isinstance(raw_value, bytes):
+            # Repeated strings are reused from an earlier constant by Lua's
+            # compiler, so not every ID has a newly adjacent string constant.
+            continue
+        try:
+            values[key] = _decode_ro3_localization_string(raw_value)
+        except UnicodeDecodeError:
+            continue
+    return values
+
+
+def load_zh_cn_skill_alias_rows() -> list[tuple[str, str, str]]:
+    """Load generated ``(ID, English, Simplified Chinese)`` skill-name aliases."""
+
+    if not ZH_CN_SKILL_ALIAS_FILE.is_file():
+        raise ImportErrorWithContext(
+            f"missing generated zh-CN skill alias source: {ZH_CN_SKILL_ALIAS_FILE}; "
+            "run with --refresh-zh-cn-skill-aliases on an installed RO3 client"
+        )
+
+    raw_lines = ZH_CN_SKILL_ALIAS_FILE.read_text(encoding="utf-8-sig").splitlines()
+    data_lines = [line for line in raw_lines if line and not line.startswith("#")]
+    if not data_lines or data_lines[0] != "ID\tEnglish\tChineseSimplified":
+        raise ImportErrorWithContext(
+            f"invalid header in {ZH_CN_SKILL_ALIAS_FILE.name}; "
+            "expected ID<TAB>English<TAB>ChineseSimplified"
+        )
+
+    language_kv = dict(load_language_kv_rows((SKILL_NAME_PREFIX,)))
+    rows: list[tuple[str, str, str]] = []
+    seen_ids: set[str] = set()
+    for line_number, line in enumerate(data_lines[1:], start=2):
+        parts = line.split("\t")
+        if len(parts) != 3:
+            raise ImportErrorWithContext(
+                f"{ZH_CN_SKILL_ALIAS_FILE.name}:{line_number}: expected 3 tab-separated columns"
+            )
+        key, english, chinese = parts
+        if not key.startswith(SKILL_NAME_PREFIX) or key in seen_ids:
+            raise ImportErrorWithContext(
+                f"{ZH_CN_SKILL_ALIAS_FILE.name}:{line_number}: invalid or duplicate skill ID {key!r}"
+            )
+        if language_kv.get(key) != english:
+            raise ImportErrorWithContext(
+                f"{ZH_CN_SKILL_ALIAS_FILE.name}:{line_number}: LanguageKV mismatch for {key}: "
+                f"{english!r} != {language_kv.get(key)!r}"
+            )
+        if not chinese or "=" in chinese or "\n" in chinese or "\r" in chinese:
+            raise ImportErrorWithContext(
+                f"{ZH_CN_SKILL_ALIAS_FILE.name}:{line_number}: unsafe Chinese skill alias {chinese!r}"
+            )
+        seen_ids.add(key)
+        rows.append((key, english, chinese))
+
+    if len(rows) < 1900:
+        raise ImportErrorWithContext(
+            f"zh-CN skill alias source is unexpectedly small: {len(rows)} rows"
+        )
+    for key, (expected_english, expected_chinese) in KNOWN_ZH_CN_SKILL_ALIASES.items():
+        matching = [row for row in rows if row[0] == key]
+        if not matching or matching[0][1:] != (expected_english, expected_chinese):
+            raise ImportErrorWithContext(
+                f"zh-CN skill alias regression for {key}: expected "
+                f"{expected_english!r} / {expected_chinese!r}, got {matching!r}"
+            )
+    return rows
+
+
 def load_runtime_keys() -> set[str]:
     """Return texts known to have placeholders expanded before XUnity lookup.
 
@@ -577,7 +786,10 @@ def strip_style_placeholders(text: str) -> str:
     return re.sub(r"\^\{\d+\}", "", text)
 
 
-def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
+def build_priority_override_lines(
+    translations: dict[str, str],
+    zh_cn_skill_alias_rows: list[tuple[str, str, str]],
+) -> list[str]:
     """Build exact runtime variants that differ from canonical LanguageKV text.
 
     RO3 sometimes strips TMP rich-text tags before XUnity sees a string, wraps
@@ -663,6 +875,17 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
         if japanese:
             add_variant(f"{english}!", f"{japanese}!")
             add_variant(f"{english}!!", f"{japanese}!!")
+
+    # Some skill-tree/preset widgets display the Simplified-Chinese skill name
+    # from RO3's official Localization_zh_CN table instead of resolving the
+    # active English LanguageKV entry. Map those aliases by LanguageKV ID, then
+    # take the Japanese value exclusively from canonical split_1000. This keeps
+    # the Japanese dictionary single-sourced while covering every job rather
+    # than only the currently visible class.
+    for _, english, chinese in zh_cn_skill_alias_rows:
+        japanese = translations.get(english)
+        if japanese and japanese != english:
+            add_variant(chinese, japanese)
 
     # The recommended-build heading receives its build name after the normal
     # LanguageKV lookup. A regex can translate the label, but its captured
@@ -755,6 +978,64 @@ def atomic_write_text(path: Path, text: str, encoding: str = "utf-8-sig") -> Non
         except OSError:
             pass
         raise
+
+
+def refresh_zh_cn_skill_alias_source() -> int:
+    """Regenerate the tracked zh-CN skill-name alias evidence from RO3 Recovery."""
+
+    language_kv = dict(load_language_kv_rows((SKILL_NAME_PREFIX,)))
+    english_values = _extract_localization_values_from_payload(
+        RECOVERY_EN_PAYLOAD, SKILL_NAME_PREFIX
+    )
+    chinese_values = _extract_localization_values_from_payload(
+        RECOVERY_ZH_CN_PAYLOAD, SKILL_NAME_PREFIX
+    )
+
+    verified_english = sum(
+        1 for key, english in language_kv.items() if english_values.get(key) == english
+    )
+    if verified_english < 1800:
+        raise ImportErrorWithContext(
+            f"Localization_en extraction verified only {verified_english} skill names; "
+            "expected at least 1800"
+        )
+
+    rows: list[tuple[str, str, str]] = []
+    for key, english in sorted(language_kv.items(), key=lambda item: int(item[0])):
+        chinese = chinese_values.get(key)
+        if not chinese:
+            continue
+        if "\t" in chinese or "\r" in chinese or "\n" in chinese:
+            raise ImportErrorWithContext(
+                f"unsafe zh-CN skill name extracted for {key}: {chinese!r}"
+            )
+        rows.append((key, english, chinese))
+    if len(rows) < 1900:
+        raise ImportErrorWithContext(
+            f"Localization_zh_CN extraction produced only {len(rows)} skill names; "
+            "expected at least 1900"
+        )
+
+    by_id = {key: (english, chinese) for key, english, chinese in rows}
+    for key, expected in KNOWN_ZH_CN_SKILL_ALIASES.items():
+        if by_id.get(key) != expected:
+            raise ImportErrorWithContext(
+                f"Localization_zh_CN regression for {key}: {by_id.get(key)!r} != {expected!r}"
+            )
+
+    zh_hash = hashlib.sha256(RECOVERY_ZH_CN_PAYLOAD.read_bytes()).hexdigest()
+    en_hash = hashlib.sha256(RECOVERY_EN_PAYLOAD.read_bytes()).hexdigest()
+    lines = [
+        "# Generated from RO3 Recovery Localization_zh_CN.lua.bytes",
+        "# Japanese values are NOT stored here; split_1000 parts 1-27 remain canonical.",
+        f"# zh_CN_sha256={zh_hash}",
+        f"# en_sha256={en_hash}",
+        f"# english_skill_ids_verified={verified_english}",
+        "ID\tEnglish\tChineseSimplified",
+    ]
+    lines.extend(f"{key}\t{english}\t{chinese}" for key, english, chinese in rows)
+    atomic_write_text(ZH_CN_SKILL_ALIAS_FILE, "\n".join(lines) + "\n")
+    return len(rows)
 
 
 def backup_if_exists(path: Path, timestamp: str) -> None:
@@ -877,8 +1158,19 @@ def configure_xunity() -> tuple[bool, bool, bool, bool, bool]:
 def run(check_only: bool) -> int:
     translations, index_to_english, total_rows, duplicate_overrides = read_split_files()
     imported_pairs, changed_pairs = apply_import_overrides(translations, index_to_english)
+    zh_cn_skill_alias_rows = load_zh_cn_skill_alias_rows()
+    eligible_zh_cn_skill_aliases = [
+        (key, english, chinese, translations[english])
+        for key, english, chinese in zh_cn_skill_alias_rows
+        if english in translations and translations[english] != english
+    ]
+    if len(eligible_zh_cn_skill_aliases) < 1900:
+        raise ImportErrorWithContext(
+            f"only {len(eligible_zh_cn_skill_aliases)} zh-CN skill names have canonical Japanese; "
+            "expected at least 1900"
+        )
     regex_lines = build_runtime_regex_lines(translations)
-    priority_override_lines = build_priority_override_lines(translations)
+    priority_override_lines = build_priority_override_lines(translations, zh_cn_skill_alias_rows)
     localization_patch_lines = build_localization_patch_lines(translations)
 
     if translations.get("JOB") != "JOB":
@@ -987,6 +1279,16 @@ def run(check_only: bool) -> int:
             raise ImportErrorWithContext(
                 f"known runtime variant did not generate: {source!r} -> {translated!r}"
             )
+    for key, (english, chinese) in KNOWN_ZH_CN_SKILL_ALIASES.items():
+        expected_japanese = translations.get(english)
+        if not expected_japanese:
+            raise ImportErrorWithContext(
+                f"known zh-CN skill alias lacks canonical Japanese: {key} {english!r}"
+            )
+        if f"{chinese}={expected_japanese}" not in priority_text:
+            raise ImportErrorWithContext(
+                f"known zh-CN skill alias did not generate: {key} {chinese!r} -> {expected_japanese!r}"
+            )
 
     localization_patch_text = "\n".join(localization_patch_lines)
     for source, expected in KNOWN_WORLD_NAME_PAIRS.items():
@@ -1055,6 +1357,7 @@ def run(check_only: bool) -> int:
     print(f"  import pairs:           {imported_pairs} ({changed_pairs} changed)")
     print(f"  runtime regex rules:    {len(regex_lines)}")
     print(f"  priority variants:      {max(0, len(priority_override_lines) - 5)}")
+    print(f"  zh-CN skill aliases:    {len(eligible_zh_cn_skill_aliases)}")
     print(f"  localization overrides: {max(0, len(localization_patch_lines) - 3)}")
     print(f"  JOB canonical value:    {translations['JOB']}")
     print(f"  hot reload enabled:     {hot_reload}")
@@ -1081,8 +1384,23 @@ def main() -> int:
         action="store_true",
         help="validate inputs and generated rules without modifying files",
     )
+    parser.add_argument(
+        "--refresh-zh-cn-skill-aliases",
+        action="store_true",
+        help=(
+            "regenerate LanguageKV_skill_zh_CN.tsv from the installed client's "
+            "Recovery Localization_en/Localization_zh_CN payloads before building"
+        ),
+    )
     args = parser.parse_args()
     try:
+        if args.check and args.refresh_zh_cn_skill_aliases:
+            raise ImportErrorWithContext(
+                "--check cannot be combined with --refresh-zh-cn-skill-aliases because refresh writes a source file"
+            )
+        if args.refresh_zh_cn_skill_aliases:
+            count = refresh_zh_cn_skill_alias_source()
+            print(f"Refreshed zh-CN skill alias source: {count} rows")
         return run(args.check)
     except (ImportErrorWithContext, OSError, csv.Error, json.JSONDecodeError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
