@@ -101,6 +101,19 @@ KNOWN_BUILD_EFFECT_TEMPLATE = (
 KNOWN_SPIRIT_TOWER_FLOOR_TEMPLATE = "Floor ${1}"
 KNOWN_SPIRIT_TOWER_CLIMB_TEMPLATE = "Climb ${1} more floors to obtain"
 KNOWN_PREREQUISITE_SKILL_TEMPLATE = "Prerequisite Skill <color=#cc762a>${1}</color>"
+KNOWN_SOUL_ECHO_TOOLTIP_TEMPLATE = (
+    "@{1}.Every @{2} levels, a Soul Echo unlocks an element and gains a random attribute\\n"
+    "@{3}.You can equip up to @{4} Soul Echoes\\n"
+    "@{5}.The elements of equipped Soul Echoes can activate Elemental Resonance. "
+    "Each Elemental Resonance can reach up to Lv. @{6}, requiring @{7}, @{8}, and @{9} "
+    "elements, respectively."
+)
+KNOWN_SOUL_ECHO_RESONANCE_TEMPLATE = (
+    "@{1}.The elements of equipped Soul Echoes can activate Elemental Resonance. "
+    "Each Elemental Resonance can reach up to Lv. @{2} and requires @{3}, @{4}, and @{5} "
+    "elements, respectively.\\n"
+    "@{6}.Each level activated grants the corresponding resonance effect."
+)
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
     "${2}: Server Level Cap increases to Lv. ${3}</color>"
@@ -118,6 +131,10 @@ LOCALIZATION_PATCH_PREFIXES = (
     "105300",
     # Suggested-build effect descriptions.
     "108001",
+    # Generic overview/help tooltips. These are frequently formatted from @{n}
+    # placeholders before the rendered text reaches XUnity (for example the
+    # Soul Echo overview), so translate the LanguageKV template upstream.
+    "109600",
     # Generic task/objective templates such as "Talk to ${1}".
     "111901",
     # Event/guild headings and descriptions that are sometimes preformatted.
@@ -145,6 +162,8 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10470000996": "Caravan Member",
     "10110200265": "Focused Arrow Strike",
     "13150600321": "Take part in events and enjoy your adventures in this world",
+    "10960000082": KNOWN_SOUL_ECHO_TOOLTIP_TEMPLATE,
+    "10960000083": KNOWN_SOUL_ECHO_RESONANCE_TEMPLATE,
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
 }
 
