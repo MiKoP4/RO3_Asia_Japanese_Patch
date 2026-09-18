@@ -65,6 +65,15 @@ echo Removing Japanese patch from:
 echo %TARGET%
 echo.
 
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%BASE%Restore-Recovery.ps1" -GameClient "%TARGET%"
+if errorlevel 1 (
+    echo.
+    echo [ERROR] Recovery localization restore failed. Uninstall was stopped before removing patch files.
+    echo.
+    if not defined NO_PAUSE pause
+    exit /b 4
+)
+
 if exist "%TARGET%\BepInEx" rmdir /S /Q "%TARGET%\BepInEx"
 if exist "%TARGET%\winhttp.dll" del /F /Q "%TARGET%\winhttp.dll"
 if exist "%TARGET%\doorstop_config.ini" del /F /Q "%TARGET%\doorstop_config.ini"
@@ -74,7 +83,7 @@ if exist "%TARGET%\%MARKER_NAME%" del /F /Q "%TARGET%\%MARKER_NAME%"
 
 echo.
 echo [OK] Japanese patch removed.
-echo Game files such as ro3.exe and ro3_Data were not modified.
+echo RO3 Recovery localization files were restored when the patch had modified them.
 echo.
 if not defined NO_PAUSE pause
 exit /b 0

@@ -44,6 +44,7 @@ New-Item -ItemType Directory -Path (Join-Path $Stage 'payload') -Force | Out-Nul
 
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Install-Japanese.bat') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Uninstall-Japanese.bat') -Destination $Stage
+Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Restore-Recovery.ps1') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\README.txt') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'THIRD_PARTY_NOTICES.md') -Destination $Stage
 New-Item -ItemType Directory -Path (Join-Path $Stage 'licenses') -Force | Out-Null
