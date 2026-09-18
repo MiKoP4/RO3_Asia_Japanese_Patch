@@ -7,7 +7,7 @@ using System.Text;
 
 namespace RO3.JapaneseMod
 {
-    // Issue #3 upstream fix.
+    // Upstream localization fix used by Issues #1/#2/#3.
     //
     // The prerequisite popup resolves skill IDs through Lua_CFG_SkillConfig.GetName,
     // which calls Language.Trans(_iName).  By the time the normal runtime table
@@ -16,9 +16,20 @@ namespace RO3.JapaneseMod
     // BepInEx Awake instead, before RO3 loads either localization module.
     internal static class RecoveryLocalizationPatcher
     {
-        private const string SkillIdPrefix = "101102";
+        private const string MonsterNameIdPrefix = "105300";
         private const string BackupSuffix = ".ro3-ja-original";
-        private const int MinimumExpectedSkillNames = 1500;
+        private const int MinimumExpectedCanonicalEntries = 8000;
+        private const int MinimumExpectedDirectEntries = 6000;
+        private const int MinimumExpectedMonsterNames = 150;
+        private const int PartialPatchDetectionThreshold = 100;
+        private static readonly string[] KnownMonsterNameProbes =
+        {
+            "Familiar",
+            "Piere",
+            "Isis",
+            "Smokie",
+            "Magnolia",
+        };
         private static readonly UTF8Encoding StrictUtf8 = new UTF8Encoding(false, true);
         private static readonly string[] TargetModules =
         {
@@ -26,7 +37,7 @@ namespace RO3.JapaneseMod
             "Localization_zh_CN",
         };
 
-        private sealed class SkillName
+        private sealed class LocalizationEntry
         {
             public string English;
             public string Japanese;
@@ -70,6 +81,7 @@ namespace RO3.JapaneseMod
             public int ReplaceCount;
             public int AlreadyJapaneseCount;
             public int CandidateCount;
+            public int MonsterNameCandidateCount;
         }
 
         private sealed class LuaReader
@@ -399,7 +411,7 @@ namespace RO3.JapaneseMod
             string mappingPath,
             bool allowBackupRecovery)
         {
-            Dictionary<long, SkillName> mapping = LoadSkillMap(mappingPath);
+            Dictionary<long, LocalizationEntry> mapping = LoadCanonicalMap(mappingPath);
             Dictionary<string, object> manifest = ParseManifest(manifestPath);
             ValidateManifestIdentity(manifest);
 
@@ -450,10 +462,10 @@ namespace RO3.JapaneseMod
             }
             if (totalReplace == 0)
             {
-                if (totalJapanese < MinimumExpectedSkillNames * TargetModules.Length)
+                if (totalJapanese < MinimumExpectedDirectEntries * TargetModules.Length)
                 {
                     throw new InvalidDataException(
-                        "Recovery skill-name table was unexpectedly small after inspection.");
+                        "Recovery localization table was unexpectedly small after inspection.");
                 }
                 WritePatchState(manifestPath, mappingPath);
                 return FormatStatus("already patched", modules);
@@ -466,9 +478,9 @@ namespace RO3.JapaneseMod
             bool moduleNeedsPatch = false;
             for (int index = 0; index < modules.Count; index++)
             {
-                if (modules[index].AlreadyJapaneseCount >= MinimumExpectedSkillNames)
+                if (modules[index].AlreadyJapaneseCount >= PartialPatchDetectionThreshold)
                     moduleAlreadyPatched = true;
-                if (modules[index].ReplaceCount >= MinimumExpectedSkillNames)
+                if (modules[index].ReplaceCount >= PartialPatchDetectionThreshold)
                     moduleNeedsPatch = true;
             }
             if (moduleAlreadyPatched && moduleNeedsPatch)
@@ -530,9 +542,9 @@ namespace RO3.JapaneseMod
             return FormatStatus("patched before Lua localization load", modules);
         }
 
-        private static Dictionary<long, SkillName> LoadSkillMap(string path)
+        private static Dictionary<long, LocalizationEntry> LoadCanonicalMap(string path)
         {
-            Dictionary<long, SkillName> result = new Dictionary<long, SkillName>();
+            Dictionary<long, LocalizationEntry> result = new Dictionary<long, LocalizationEntry>();
             string[] lines = File.ReadAllLines(path, Encoding.UTF8);
             for (int index = 0; index < lines.Length; index++)
             {
@@ -540,8 +552,7 @@ namespace RO3.JapaneseMod
                 if (index == 0) line = line.TrimStart('\ufeff');
                 if (String.IsNullOrEmpty(line) || line[0] == '#') continue;
                 string[] parts = line.Split('\t');
-                if (parts.Length != 3 || !parts[0].StartsWith(SkillIdPrefix, StringComparison.Ordinal))
-                    continue;
+                if (parts.Length != 3) continue;
                 long id;
                 if (!Int64.TryParse(parts[0], NumberStyles.None, CultureInfo.InvariantCulture, out id))
                     continue;
@@ -549,19 +560,19 @@ namespace RO3.JapaneseMod
                 string japanese = parts[2];
                 if (String.IsNullOrEmpty(english) || String.IsNullOrEmpty(japanese) || english == japanese)
                     continue;
-                SkillName existing;
+                LocalizationEntry existing;
                 if (result.TryGetValue(id, out existing))
                 {
                     if (existing.English != english || existing.Japanese != japanese)
-                        throw new InvalidDataException("Conflicting canonical skill mapping: " + id);
+                        throw new InvalidDataException("Conflicting canonical localization mapping: " + id);
                     continue;
                 }
-                result.Add(id, new SkillName { English = english, Japanese = japanese });
+                result.Add(id, new LocalizationEntry { English = english, Japanese = japanese });
             }
-            if (result.Count < MinimumExpectedSkillNames)
+            if (result.Count < MinimumExpectedCanonicalEntries)
             {
                 throw new InvalidDataException(
-                    "Canonical skill mapping is unexpectedly small: " + result.Count);
+                    "Canonical localization mapping is unexpectedly small: " + result.Count);
             }
             return result;
         }
@@ -570,19 +581,43 @@ namespace RO3.JapaneseMod
             string logicalModule,
             string payloadPath,
             byte[] original,
-            Dictionary<long, SkillName> mapping,
+            Dictionary<long, LocalizationEntry> mapping,
             bool verifyEnglish)
         {
             Dictionary<long, List<Candidate>> candidates =
                 new Dictionary<long, List<Candidate>>();
+            Dictionary<string, List<LuaStringLocation>> stringLocations =
+                new Dictionary<string, List<LuaStringLocation>>(StringComparer.Ordinal);
             ParseLuaChunk(original, delegate(List<LuaConstant> constants)
             {
+                for (int index = 0; index < constants.Count; index++)
+                {
+                    LuaStringLocation location = constants[index].String;
+                    if (location == null) continue;
+                    string value;
+                    try
+                    {
+                        value = StrictUtf8.GetString(DecodeRo3String(location.Cipher));
+                    }
+                    catch (DecoderFallbackException)
+                    {
+                        continue;
+                    }
+                    List<LuaStringLocation> locations;
+                    if (!stringLocations.TryGetValue(value, out locations))
+                    {
+                        locations = new List<LuaStringLocation>();
+                        stringLocations.Add(value, locations);
+                    }
+                    locations.Add(location);
+                }
+
                 for (int index = 0; index + 1 < constants.Count; index++)
                 {
                     LuaConstant idConstant = constants[index];
                     LuaConstant stringConstant = constants[index + 1];
                     if (!idConstant.HasInteger || stringConstant.String == null) continue;
-                    SkillName name;
+                    LocalizationEntry name;
                     if (!mapping.TryGetValue(idConstant.Integer, out name)) continue;
                     string decoded;
                     try
@@ -593,7 +628,9 @@ namespace RO3.JapaneseMod
                     {
                         continue;
                     }
-                    if (verifyEnglish && decoded != name.English && decoded != name.Japanese)
+                    string english = NormalizePayloadText(name.English);
+                    string japanese = NormalizePayloadText(name.Japanese);
+                    if (verifyEnglish && decoded != english && decoded != japanese)
                         continue;
                     List<Candidate> list;
                     if (!candidates.TryGetValue(idConstant.Integer, out list))
@@ -611,23 +648,26 @@ namespace RO3.JapaneseMod
             });
 
             List<Replacement> replacements = new List<Replacement>();
+            HashSet<int> directHandledStarts = new HashSet<int>();
             int alreadyJapanese = 0;
             foreach (KeyValuePair<long, List<Candidate>> pair in candidates)
             {
                 if (pair.Value.Count != 1)
                 {
                     throw new InvalidDataException(
-                        logicalModule + " has ambiguous LanguageKV skill ID " +
+                        logicalModule + " has ambiguous LanguageKV ID " +
                         pair.Key + " (candidates=" + pair.Value.Count + ").");
                 }
                 Candidate candidate = pair.Value[0];
-                SkillName name = mapping[pair.Key];
-                if (candidate.Decoded == name.Japanese)
+                LocalizationEntry name = mapping[pair.Key];
+                string japanese = NormalizePayloadText(name.Japanese);
+                directHandledStarts.Add(candidate.Location.LengthStart);
+                if (candidate.Decoded == japanese)
                 {
                     alreadyJapanese++;
                     continue;
                 }
-                byte[] encoded = EncodeRo3String(Encoding.UTF8.GetBytes(name.Japanese));
+                byte[] encoded = EncodeRo3String(Encoding.UTF8.GetBytes(japanese));
                 byte[] length = EncodeVarint(encoded.Length + 1);
                 byte[] blob = new byte[length.Length + encoded.Length];
                 Buffer.BlockCopy(length, 0, blob, 0, length.Length);
@@ -640,12 +680,31 @@ namespace RO3.JapaneseMod
                 });
             }
 
-            if (replacements.Count + alreadyJapanese < MinimumExpectedSkillNames)
+            int directCandidateCount = replacements.Count + alreadyJapanese;
+            if (directCandidateCount < MinimumExpectedDirectEntries)
             {
                 throw new InvalidDataException(
-                    logicalModule + " skill-name candidates are unexpectedly small: " +
-                    (replacements.Count + alreadyJapanese));
+                    logicalModule + " direct localization candidates are unexpectedly small: " +
+                    directCandidateCount);
             }
+
+            int monsterNameCandidateCount = 0;
+            if (verifyEnglish)
+            {
+                monsterNameCandidateCount = AddMonsterNameFallbackReplacements(
+                    mapping,
+                    stringLocations,
+                    directHandledStarts,
+                    replacements,
+                    ref alreadyJapanese);
+                if (monsterNameCandidateCount < MinimumExpectedMonsterNames)
+                {
+                    throw new InvalidDataException(
+                        logicalModule + " monster-name candidates are unexpectedly small: " +
+                        monsterNameCandidateCount);
+                }
+            }
+
             byte[] patched = ApplyReplacements(original, replacements);
             ParseLuaChunk(patched, null);
             return new ModulePatch
@@ -657,7 +716,156 @@ namespace RO3.JapaneseMod
                 ReplaceCount = replacements.Count,
                 AlreadyJapaneseCount = alreadyJapanese,
                 CandidateCount = replacements.Count + alreadyJapanese,
+                MonsterNameCandidateCount = monsterNameCandidateCount,
             };
+        }
+
+        private static int AddMonsterNameFallbackReplacements(
+            Dictionary<long, LocalizationEntry> mapping,
+            Dictionary<string, List<LuaStringLocation>> stringLocations,
+            HashSet<int> directHandledStarts,
+            List<Replacement> replacements,
+            ref int alreadyJapanese)
+        {
+            Dictionary<string, string> monsterNames =
+                new Dictionary<string, string>(StringComparer.Ordinal);
+            foreach (KeyValuePair<long, LocalizationEntry> pair in mapping)
+            {
+                string id = pair.Key.ToString(CultureInfo.InvariantCulture);
+                if (!id.StartsWith(MonsterNameIdPrefix, StringComparison.Ordinal)) continue;
+                string english = NormalizePayloadText(pair.Value.English);
+                string japanese = NormalizePayloadText(pair.Value.Japanese);
+                string existing;
+                if (monsterNames.TryGetValue(english, out existing))
+                {
+                    if (!String.Equals(existing, japanese, StringComparison.Ordinal))
+                    {
+                        throw new InvalidDataException(
+                            "Conflicting canonical monster-name translation: " + english);
+                    }
+                    continue;
+                }
+                monsterNames.Add(english, japanese);
+            }
+
+            // These monster-name strings are shared by other LanguageKV IDs in the
+            // compiled localization chunk. Replacing the one shared constant is safe
+            // only when every canonical occurrence of that English value resolves to
+            // the same Japanese text. Fail closed if a future translation introduces
+            // a context-specific conflict.
+            foreach (KeyValuePair<long, LocalizationEntry> pair in mapping)
+            {
+                string english = NormalizePayloadText(pair.Value.English);
+                string monsterJapanese;
+                if (!monsterNames.TryGetValue(english, out monsterJapanese)) continue;
+                string japanese = NormalizePayloadText(pair.Value.Japanese);
+                if (!String.Equals(monsterJapanese, japanese, StringComparison.Ordinal))
+                {
+                    throw new InvalidDataException(
+                        "Canonical monster-name text is shared with a conflicting translation: " +
+                        english + " (id=" + pair.Key + ").");
+                }
+            }
+
+            for (int index = 0; index < KnownMonsterNameProbes.Length; index++)
+            {
+                if (!monsterNames.ContainsKey(KnownMonsterNameProbes[index]))
+                {
+                    throw new InvalidDataException(
+                        "Known canonical monster-name probe is missing: " +
+                        KnownMonsterNameProbes[index]);
+                }
+            }
+
+            HashSet<int> usedStarts = new HashSet<int>();
+            for (int index = 0; index < replacements.Count; index++)
+                usedStarts.Add(replacements[index].Start);
+
+            int covered = 0;
+            foreach (KeyValuePair<string, string> pair in monsterNames)
+            {
+                List<LuaStringLocation> englishLocations;
+                List<LuaStringLocation> japaneseLocations;
+                int englishCount = stringLocations.TryGetValue(pair.Key, out englishLocations)
+                    ? englishLocations.Count
+                    : 0;
+                int japaneseCount = stringLocations.TryGetValue(pair.Value, out japaneseLocations)
+                    ? japaneseLocations.Count
+                    : 0;
+
+                if (englishCount == 0 && japaneseCount >= 1)
+                {
+                    bool hasFallbackJapaneseLocation = false;
+                    for (int index = 0; index < japaneseLocations.Count; index++)
+                    {
+                        if (!directHandledStarts.Contains(japaneseLocations[index].LengthStart))
+                        {
+                            hasFallbackJapaneseLocation = true;
+                            break;
+                        }
+                    }
+                    if (hasFallbackJapaneseLocation)
+                    {
+                        alreadyJapanese++;
+                    }
+                    covered++;
+                    continue;
+                }
+                if (englishCount == 1 && japaneseCount > 0)
+                {
+                    bool allJapaneseDirectHandled = true;
+                    for (int index = 0; index < japaneseLocations.Count; index++)
+                    {
+                        if (!directHandledStarts.Contains(japaneseLocations[index].LengthStart))
+                        {
+                            allJapaneseDirectHandled = false;
+                            break;
+                        }
+                    }
+                    if (!allJapaneseDirectHandled)
+                    {
+                        throw new InvalidDataException(
+                            "Ambiguous Recovery monster-name constant " + pair.Key +
+                            " (english=" + englishCount + ", japanese=" + japaneseCount + ").");
+                    }
+                }
+                else if (englishCount != 1 || japaneseCount != 0)
+                {
+                    throw new InvalidDataException(
+                        "Ambiguous Recovery monster-name constant " + pair.Key +
+                        " (english=" + englishCount + ", japanese=" + japaneseCount + ").");
+                }
+
+                LuaStringLocation location = englishLocations[0];
+                if (directHandledStarts.Contains(location.LengthStart))
+                {
+                    covered++;
+                    continue;
+                }
+                if (!usedStarts.Add(location.LengthStart))
+                {
+                    throw new InvalidDataException(
+                        "Monster-name fallback overlaps a direct localization replacement: " + pair.Key);
+                }
+                byte[] encoded = EncodeRo3String(Encoding.UTF8.GetBytes(pair.Value));
+                byte[] length = EncodeVarint(encoded.Length + 1);
+                byte[] blob = new byte[length.Length + encoded.Length];
+                Buffer.BlockCopy(length, 0, blob, 0, length.Length);
+                Buffer.BlockCopy(encoded, 0, blob, length.Length, encoded.Length);
+                replacements.Add(new Replacement
+                {
+                    Start = location.LengthStart,
+                    End = location.PayloadEnd,
+                    Bytes = blob,
+                });
+                covered++;
+            }
+            return covered;
+        }
+
+        private static string NormalizePayloadText(string value)
+        {
+            return (value ?? String.Empty).Replace("\\n", "\n");
         }
 
         private static void ParseLuaChunk(byte[] data, Action<List<LuaConstant>> constantsVisitor)
@@ -770,8 +978,6 @@ namespace RO3.JapaneseMod
         private static byte[] EncodeRo3String(byte[] plain)
         {
             if (plain.Length == 0) return new byte[0];
-            if (plain.Length > 255)
-                throw new InvalidDataException("RO3 string is too long: " + plain.Length);
             byte[] cipher = new byte[plain.Length];
             cipher[0] = (byte)(plain[0] ^ plain.Length);
             for (int index = 1; index < plain.Length; index++)
@@ -1032,6 +1238,11 @@ namespace RO3.JapaneseMod
                 result.Append(module.AlreadyJapaneseCount);
                 result.Append(" candidates=");
                 result.Append(module.CandidateCount);
+                if (module.MonsterNameCandidateCount > 0)
+                {
+                    result.Append(" monsterNames=");
+                    result.Append(module.MonsterNameCandidateCount);
+                }
             }
             return result.ToString();
         }
