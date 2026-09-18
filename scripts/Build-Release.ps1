@@ -43,6 +43,8 @@ if (Test-Path -LiteralPath $Zip) { Remove-Item -LiteralPath $Zip -Force }
 New-Item -ItemType Directory -Path (Join-Path $Stage 'payload') -Force | Out-Null
 
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Install-Japanese.bat') -Destination $Stage
+Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Update-Japanese.bat') -Destination $Stage
+Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Update-Latest.ps1') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Uninstall-Japanese.bat') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Restore-Recovery.ps1') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\README.txt') -Destination $Stage
