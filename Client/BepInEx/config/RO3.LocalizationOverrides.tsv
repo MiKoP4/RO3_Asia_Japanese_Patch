@@ -14,7 +14,7 @@
 10530000005	Super Picky	超こだわり派
 10530000006	Willow	ウィロー
 10530000007	Condor	コンドル
-10530000008	Savage Babe	サベージベベ
+10530000008	Savage Babe	サベージベイブ
 10530000009	Rocker	ロッカー
 10530000010	Roda Frog	ロダフロッグ
 10530000011	Worm Tail	ワームテール
@@ -41,7 +41,7 @@
 10530000032	Peco Peco Egg	ペコペコの卵
 10530000033	Thief Bug Egg	盗蟲の卵
 10530000034	Pupa	プパ
-10530000035	Rotar Zairo	ロータージャイロ
+10530000035	Rotar Zairo	ローターザイロ
 10530000036	Wraith	レイス
 10530000037	Dustiness	ダスティネス
 10530000038	Eggyra	エギラ
@@ -91,9 +91,9 @@
 10530000082	Goblin (Flail)	ゴブリン（フレイル）
 10530000083	Vadon	バドン
 10530000084	Wolf	ウルフ
-10530000085	Thara Frog	タラフロッグ
+10530000085	Thara Frog	タラ・フロッグ
 10530000086	Orc Baby	オークベビー
-10530000087	Orc Warrior	オークウォリアー
+10530000087	Orc Warrior	オーク戦士
 10530000088	Orc Lady	オークレディ
 10530000089	Whisper	ウィスパー
 10530000090	Megalodon	メガロドン
@@ -899,7 +899,7 @@
 13150200122	Kill @{1} Skeletons	スケルトンを@{1}体倒す
 13150200123	Kill Deniro and Piere: @{1}	デニーロとピエールを倒す：@{1}
 13150200124	Kill Andre and Vitata: @{1}	アンドレとビタタを倒す：@{1}
-13150200125	Kill Orc Warrior@{1}	オークウォリアー@{1}を倒す
+13150200125	Kill Orc Warrior@{1}	オーク戦士@{1}を倒す
 13150200126	Kill @{1} Orc Ladies	オークレディを@{1}体倒す
 13150200127	Kill @{1} Orc Skeletons	オークスケルトンを@{1}体倒す
 13150200128	Kill @{1} Orc Zombies	オークゾンビを@{1}体倒す
@@ -2970,7 +2970,7 @@
 10110200770	Super Picky	超こだわり派
 10110200771	Willow	ウィロー
 10110200772	Condor	コンドル
-10110200773	Savage Babe	サベージベベ
+10110200773	Savage Babe	サベージベイブ
 10110200774	Rocker	ロッカー
 10110200775	Roda Frog	ロダフロッグ
 10110200776	Worm Tail	ワームテール
@@ -3067,7 +3067,7 @@
 10110200867	Placeholder	プレースホルダー
 10110200868	Dustiness	ダスティネス
 10110200869	Nightmare	ナイトメア
-10110200870	Rotar Zairo	ロータージャイロ
+10110200870	Rotar Zairo	ローターザイロ
 10110200871	Eggyra	エギラ
 10110200872	Goblin (Flail)	ゴブリン（フレイル）
 10110200873	Marse	マルス
@@ -3080,7 +3080,7 @@
 10110200880	Argos	アルゴス
 10110200881	Myst	ミスト
 10110200882	Whisper	ウィスパー
-10110200883	Orc Warrior	オークウォリアー
+10110200883	Orc Warrior	オーク戦士
 10110200884	Orc Lady	オークレディ
 10110200885	Orc Baby	オークベビー
 10110200886	Goblin (Dagger)	ゴブリン（ダガー）
@@ -3089,7 +3089,7 @@
 10110200889	Metaller	メタラー
 10110200890	Zenorc	ゼノルク
 10110200891	Megalodon	メガロドン
-10110200892	Thara Frog	タラフロッグ
+10110200892	Thara Frog	タラ・フロッグ
 10110200893	Merman	マーマン
 10110200894	Penomena	ペノメナ
 10110200895	Deviace	デビアス
@@ -4586,7 +4586,7 @@
 10470000333	Baby Desert Wolf	ベビーデザートウルフ
 10470000334	Goblin (Dagger)	ゴブリン（ダガー）
 10470000335	Orc Lady	オークレディ
-10470000336	Orc Warrior	オークウォリアー
+10470000336	Orc Warrior	オーク戦士
 10470000337	Desert Wolf	デザートウルフ
 10470000338	Goblin (Flail)	ゴブリン（フレイル）
 10470000339	Orc Zombie	オークゾンビ
@@ -4663,7 +4663,7 @@
 10470000410	Picky	ピッキー
 10470000411	Chonchon	チョンチョン
 10470000412	Condor	コンドル
-10470000413	Savage Babe	サベージベベ
+10470000413	Savage Babe	サベージベイブ
 10470000414	Rocker	ロッカー
 10470000415	Roda Frog	ロダフロッグ
 10470000416	Worm Tail	ワームテール
@@ -4688,7 +4688,7 @@
 10470000435	Realm of Darkness	闇の領域
 10470000436	Training Dummy	トレーニングダミー
 10470000437	@{1}D Bounding Box Test	@{1}D バウンディングボックステスト
-10470000438	Rotar Zairo	ロータージャイロ
+10470000438	Rotar Zairo	ローターザイロ
 10470000439	Dustiness	ダスティネス
 10470000440	Eggyra	エギラ
 10470000441	Muka	ムカ
@@ -4730,7 +4730,7 @@
 10470000477	Goblin (Flail)	ゴブリン（フレイル）
 10470000478	Vadon	バドン
 10470000479	Wolf	ウルフ
-10470000480	Thara Frog	タラフロッグ
+10470000480	Thara Frog	タラ・フロッグ
 10470000481	Megalodon	メガロドン
 10470000482	Marse	マルス
 10470000483	Argos	アルゴス
@@ -6619,7 +6619,904 @@
 13150000066	Spend @{1} minutes in any Tavern room	任意の酒場ルームで@{1}分過ごす
 13150000065	Complete @{1} to accept this Quest. This Quest cannot currently be completed	@{1}を完了するとこのクエストを受注できます。現在このクエストは完了できません。
 13150000064	This Quest is obtained when the player first enters the game. Its completion requirements are the same as @{1}	このクエストはプレイヤーが初めてゲームに入った時に獲得する。達成条件は@{1}と同じ
+12390100933	Permanently unlock the Kitty Set Costume appearance	キティセットコスチューム外見を永久解放
+12390100932	Permanently unlock the GM Set Costume appearance	GMセット衣装外見を永久解放
+12390100931	Permanently unlock the Academy Set Costume appearance	アカデミーセットコスチューム外見を永久解放
+12390100930	Activate the Academy Diary matching Mouthwear Appearance (Permanent).	「学園日記」に対応する口装備外見（永久）を有効化します。
+12390100929	Activate the Afternoon Stroll Costume Appearance (Permanent).	「午後の散歩」コスチューム外見を永久解放。
+12390100928	Activate the Afternoon Stroll Costume Appearance (Permanent).	「午後の散歩」コスチューム外見を永久解放。
+12390100927	Activate the Afternoon Stroll matching Headwear Appearance (Permanent).	「午後の散歩」に対応する頭装備外見（永久）を有効化します。
+12390100926	Activate the Dinner Date Costume Appearance (Permanent).	「ディナーデート」コスチューム外見を永久解放。
+12390100925	Permanently unlock the Formal Set - Face Accessory appearance	フォーマルセット - フェイスアクセサリー外見を永久解放
+12390100924	Activate the Dinner Date matching Facewear Appearance (Permanent).	「ディナーデート」に対応する顔装備の外見を解放します（永久）。
+12390100923	Activate the Nine-Tone Mantra matching Theme Headwear Appearance (Permanent).	九音真言のおそろいテーマ頭装備外見を有効化（永久）
+12390100922	Activate the Nine-Tone Mantra matching Theme Character Effects Appearance (Permanent).	九音真言の対応テーマ・キャラクターエフェクト外見を永久解放。
+12390100921	Permanently unlock the Mechanical Set - Body Accessory appearance	「メカニカルセット - ボディアクセサリー」の外見を永久解放します。
+12390100920	Activate the Silverwing Covenant matching Theme Backwear Appearance (Permanent).	シルバーウィングの盟約のおそろいテーマ背中装備外見を有効化（永久）
+12390100919	Activate the Dunhuang Theme Nine-Tone Mantra Appearance (Permanent).	敦煌テーマ「九音真言」の外見（永久）を有効化します。
+12390100918	Activate the Silverwing Covenant Appearance (Permanent).	「シルバーウィングの盟約」外見を永久解放。
+12390100917	Activate the Nine-Tone Mantra matching Theme Mouthwear Appearance (Permanent).	九音真言のおそろいテーマ口装備外見を有効化（永久）
+12390100916	Activate the Silverwing Covenant matching Facewear Appearance (Permanent).	「銀翼の契約」に対応する顔装備外見（永久）を有効化します。
+12390100915	Activate the Silverwing Covenant matching Headwear Appearance (Permanent).	「銀翼の契約」に対応する頭装備外見（永久）を有効化します。
+12390100914	Activate the Night Judgment Costume Appearance (Permanent).	「ナイトジャッジメント」コスチューム外見を永久解放。
+12390100913	Activate the Night Judgment matching Facewear Appearance (Permanent).	「夜の審判」に対応する顔装備外見（永久）を有効化します。
+12390100912	Activate the Sweet Waltz Character Effects (Permanent).	スイートワルツ・キャラクターエフェクトを永久解放。
+12390100911	Activate the Strawberry Macaron Hairstyle (Permanent).	ストロベリーマカロンヘアスタイルを永久解放。
+12390100910	Activate the Kitty Tail Appearance (Permanent).	「キティテール」外見を永久解放。
+12390100909	Activate the Bonnie's Afternoon Appearance (Permanent).	ボニーの午後外見を永久解放。
+12390100908	Activate the Sweetheart Tea Party Costume Appearance (Permanent).	「スイートハートティーパーティ」のコスチューム外見を解放します（永久）。
+12390100907	Activate the Sweetheart Tea Party matching Headwear Appearance (Permanent).	「スイートハートティーパーティ」に対応する頭装備外見（永久）を有効化します。
+12390100906	Activate the Worldscorch Feather matching Hairstyle Appearance (Permanent).	「世界を焦がす羽」に対応する髪型外見（永久）を有効化します。
+12390100905	Activate the Worldscorch Feather matching Backwear Appearance (Permanent).	「世界を焦がす羽」に対応する背中装備外見（永久）を有効化します。
+12390100904	Permanently unlocks the Costume - World-Scorching Feathers appearance	衣装「世界を焦がす羽」の外見を永久に解放します。
+12390100903	Activate the Worldscorch Feather matching Headwear Appearance (Permanent).	「世界を焦がす羽」に対応する頭装備外見（永久）を有効化します。
+12390100902	Permanently unlocks the Giant Bow Scarf appearance	ジャイアントボウスカーフ外見を永久解放
+12390100901	Permanently unlocks the Crazy Bunny Family Balloon appearance	クレイジーバニーファミリーバルーン外見を永久解放
+12390100900	Permanently unlocks the Crazy Bunny appearance	「クレイジーバニー」外見を永久解放
+12390100899	Permanently unlocks the Grim Reaper's Scythe appearance	死神の鎌外見を永久解放
+12390100898	Permanently unlocks the Wheel of Space-Time appearance	時空の輪外見を永久解放
+12390100897	Permanently unlocks the Blossom Fairy appearance	「ブロッサムフェアリー」外見を永久解放
+12390100896	Permanently unlocks the Fish In Mouth appearance	「フィッシュインマウス」外見を永久解放
+12390100895	Permanently unlocks the Pipe appearance	パイプ外見を永久解放
+12390100894	Permanently unlocks the Angry Snarl appearance	「アングリースナール」外見を永久解放
+12390100893	Permanently unlocks the Angel Wing Earrings appearance	エンジェルウィングイヤリング外見を永久解放
+12390100892	Permanently unlocks the Evil Wing Ears appearance	イビルウィングイヤー外見を永久解放
+12390100891	Permanently unlocks the Goblin Leader Mask appearance	ゴブリンリーダーマスク外見を永久解放
+12390100890	Permanently unlocks the Prankster Mask appearance	プランクスターマスク外見を永久解放
+12390100889	Permanently unlocks the Rune Crown appearance	「ルーンクラウン」外見を永久解放
+12390100888	Permanently unlocks the Midnight Thorn appearance	ミッドナイトソーン外見を永久解放
+12390100887	Permanently unlocks the Fox Mask appearance	狐面外見を永久解放
+12390100886	Permanently unlocks the Poo Poo Hat appearance	「うんち帽子」外見を永久解放
+12390100885	Permanently unlocks the Sun God Helmet appearance	サンゴッドヘルム外見を永久解放
+12390100884	Permanently unlocks the Starfish Hairpin appearance	スターフィッシュヘアピン外見を永久解放
+12390100883	Permanently unlocks the Vampire Hairpin appearance	ヴァンパイアヘアピン外見を永久解放
+12390100882	Permanently unlocks the Moonlight Flower Hat appearance	月夜花の帽子外見を永久解放
+12390100881	Permanently unlocks the Majestic Goat appearance	「マジェスティックゴート」外見を永久解放
+12390100880	Permanently unlocks the Jewel Crown appearance	「ジュエルクラウン」外見を永久解放
+12390100879	Permanently unlocks the Horned Headband appearance	ホーンドヘアバンド外見を永久解放
+12390100878	Permanently unlocks the Sphinx Hat appearance	「スフィンクスハット」外見を永久解放
+12390100877	Permanently unlocks the Crown appearance	クラウン外見を永久解放
+12390100876	Permanently unlocks the Golden Coronet appearance	ゴールデンコロネット外見を永久解放
+12390100875	Permanently unlocks the Pirate Captain's Hat appearance	海賊船長の帽子外見を永久解放
+12390100874	Permanently unlocks the Grand Circlet appearance	「グランドサークレット」外見を永久解放
+12390100873	Permanently unlocks the Tiara appearance	ティアラ外見を永久解放
+12390100872	Permanently unlocks the Helmet of Orc Hero appearance	オークヒーローの兜外見を永久解放
+12390100871	Permanently unlocks the Evil Wing appearance	「イビルウィング」外見を永久解放
+12390100870	Permanently unlocks the Golden Headwear appearance	ゴールデン頭装備外見を永久解放
+12390100869	Permanently unlocks the Angel Headband appearance	エンジェルヘアバンド外見を永久解放
+12390100868	Permanently unlocks the School Backpack appearance	スクールバックパック外見を永久解放
+12390100867	Permanently unlocks the Grand Voyage appearance	「グランドボヤージュ」外見を永久解放
+12390100866	Permanently unlocks the Old Television appearance	オールドテレビ外見を永久解放
+12390100865	Permanently unlocks the Furry Tail appearance	「ファーテイル」外見を永久解放
+12390100864	Permanently unlocks the Flame Scarf appearance	「フレイムスカーフ」外見を永久解放
+12390100863	Permanently unlocks the Child Pacifier appearance	チャイルドおしゃぶり外見を永久解放
+12390100862	Permanently unlocks the Toast appearance	トースト外見を永久解放
+12390100861	Permanently unlocks the Lucky Clover appearance	「ラッキークローバー」外見を永久解放
+12390100860	Permanently unlocks the Romantic Leaf appearance	「ロマンティックリーフ」外見を永久解放
+12390100859	Permanently unlocks the Sweet Candy appearance	「スイートキャンディ」外見を永久解放
+12390100858	Permanently unlocks the Clown Nose appearance	「クラウンノーズ」外見を永久解放
+12390100857	Permanently unlocks the Lovely Sleep Mask appearance	ラブリースリープマスク外見を永久解放
+12390100856	Permanently unlocks the Small Ribbons appearance	「スモールリボン」外見を永久解放
+12390100855	Permanently unlocks the Blush appearance	ブラッシュ外見を永久解放
+12390100854	Permanently unlocks the Smiling Mask appearance	「スマイリングマスク」外見を永久解放
+12390100853	Permanently unlocks the Spinning Glasses appearance	スピニンググラス外見を永久解放
+12390100852	Permanently unlocks the One-Eyed Blinker appearance	ワンアイドブリンカー外見を永久解放
+12390100851	Permanently unlocks the Urgent Care appearance	「救急ケア」外見を永久解放
+12390100850	Permanently unlocks the Black Cat Ears appearance	ブラックキャットイヤー外見を永久解放
+12390100849	Permanently unlocks the Sage's Stone Helm appearance	賢者の石ヘルム外見を永久解放
+12390100848	Permanently unlocks the Banana Hat appearance	「バナナハット」外見を永久解放
+12390100847	Permanently unlocks the Drama Hat appearance	「ドラマハット」外見を永久解放
+12390100846	Permanently unlocks the Apple Headwear appearance	アップル頭装備外見を永久解放
+12390100845	Permanently unlocks the Deviruchi Hat appearance	「デビルチハット」外見を永久解放
+12390100844	Permanently unlocks the Nurse Cap appearance	「ナースキャップ」外見を永久解放
+12390100843	Permanently unlocks the Drooping Cat appearance	「ドゥルーピングキャット」外見を永久解放
+12390100842	Permanently unlocks the Playful Lace Kitty Headband appearance	「プレイフルレース猫カチューシャ」外見を永久解放
+12390100841	Permanently unlocks the Goggles appearance	ゴーグル外見を永久解放
+12390100840	Permanently unlocks the Feather Bonnet appearance.	フェザーボンネット外見を永久解放。
+12390100839	Permanently unlocks the Bunny Hair Band appearance	バニーヘアバンド外見を永久解放
+12390100838	Permanently unlocks the Grand Peco Hair Accessory appearance	グランペコのヘアアクセ外見を永久解放
+12390100837	 permanently unlocks the Chicken Beak appearance	「チキンビーク」外見を永久解放
+12390100836	Permanently unlocks the White Beard appearance	「白ひげ」外見を永久解放
+12390100835	Permanently unlocks the Blinker appearance	ブリンカー外見を永久解放
+12390100834	Permanently unlocks the Sunglasses appearance	「サングラス」外見を永久解放
+12390100833	Permanently unlocks the Student Hat appearance	「学生帽」外見を永久解放
+12390100832	Permanently unlocks the Mage's Hat appearance	「メイジハット」外見を永久解放
+12390100831	Permanently unlocks the Army Cap appearance	軍帽外見を永久解放
+12390100830	Permanently unlocks the Egg Shell appearance	「エッグシェル」外見を永久解放
+12390100829	Permanently unlocks the Bread Bag Hat appearance	「ブレッドバッグハット」外見を永久解放
+12390100828	Permanently unlocks the Fruit Peel Hat appearance	フルーツピールハット外見を永久解放
+12390100827	Deploy a Divine Arts Totem to increase your Combat Power.	神術トーテムを配置して戦闘力を上げよう。
+12390100826	Divine Totem Exclusive Skill Book	神術トーテム専用スキルブック
+12390100825	Pet Shards can be used to unlock and star up the corresponding Pet.	ペットの欠片は、対応するペットの解放および星ランクアップに使用できます。
+12390100824	Deprecated. If you see this text, please report the issue to the pet system lead.	廃止予定。このテキストが表示された場合はペットシステム担当へ報告してください。
+12390100823	Use to unlock Secret History of Prontera: @{1} of @{2}	使用すると「知られざるプロンテラ物語」@{1}/@{2}を解放
+12390100822	Use to unlock Chapter 2 of a book	本の第2章を解放するために使用
+12390100821	Use to unlock Chapter 1 of a book	本の第1章を解放するために使用
+12390100820	Mount · Magic Carpet can be unlocked upon use.	使用するとマウント「マジックカーペット」を解放できます。
+12390100819	Mount · Baby Kun can be unlocked upon use.	使用するとマウント・ベビークンを解放。
+12390100818	Mount · Fish of the Northern Deep can be unlocked upon use.	使用するとマウント「北冥の魚」を解放。
+12390100817	Mount · Crab You Very Much can be unlocked upon use.	使用するとマウント・クラブユーべリーマッチを解放。
+12390100816	No Translation Required	翻訳不要
+12390100815	Mount · Savage can be unlocked upon use.	使用するとマウント・サベージを解放。
+12390100814	Mount · Ostrich can be unlocked upon use.	使用するとマウント・ダチョウを解放。
+12390100813	Mount · Fox can be unlocked upon use.	使用するとマウント・キツネを解放。
+12390100812	Mount · Hyena can be unlocked upon use.	使用するとマウント・ハイエナを解放。
+12390100811	Mount · Alpaca can be unlocked upon use.	使用するとマウント・アルパカを解放。
+12390100810	Mount · Lion can be unlocked upon use.	使用するとマウント・ライオンを解放。
+12390100809	Mount · Big Poring can be unlocked upon use.	使用するとマウント「ビッグポリン」を解放できます。
+12390100808	Mount · Dream Steed can be unlocked upon use.	使用するとマウント「ドリームスティード」を解放できます。
+12390100807	Mount · Eggshell Chubby Chick can be unlocked upon use.	使用するとマウント・卵殻ぽっちゃりヒヨコを解放。
+12390100806	Mount · Wind-Up Rocking Chair can be unlocked upon use.	使用するとマウント・ゼンマイ式ロッキングチェアを解放。
+12390100805	Mount · Goblin Balloon can be unlocked upon use.	使用するとマウント「ゴブリンバルーン」を解放できます。
+12390100804	Mount · Pompadour can be unlocked upon use.	使用するとマウント・ポンパドールを解放。
+12390100803	Mount · Fluffy Bunny can be unlocked upon use.	使用するとマウント「フラッフィーバニー」を解放できます。
+12390100802	Mount · Orchid Waterside Pavilion can be unlocked upon use.	使用するとマウント「オーキッド水辺の東屋」を解放。
+12390100801	Mount · Solar Chariot can be unlocked upon use.	使用するとマウント「ソーラーチャリオット」を解放できます。
+12390100800	Mount · Starshatter Dragon can be unlocked upon use.	使用するとマウント・スターシャッタードラゴンを解放。
+12390100799	Use to Activate the Set Sail Name Card Theme.	使用すると「出航」ネームカードテーマを解放します。
+12390100798	Use to Activate the Meow Name Card Theme.	使用するとニャーネームカードテーマを有効化。
+12390100797	Use to Activate the Bouquet Name Card Theme.	使用すると「ブーケ」ネームカードテーマを解放します。
+12390100796	Use to Activate the Land of Lilies of the Valley Name Card Location.	使用すると「スズランの国」ネームカードの位置を有効化します。
+12390100795	Use to Activate the Path of Adventure Name Card Location.	使用すると「冒険の道」ネームカードロケーションを有効化。
+12390100794	A coin formed from the crystallized faith of Valhalla. Used to increase the level of Heroic Spirit statues.	ヴァルハラへの信仰が結晶化して生まれたコイン。英霊像のレベルアップに使用する。
+12390100793	Test Name Card@{1}-Permanent	テストネームカード@{1}-永久
+12390100792	Use to Activate the Fashion Gala title for @{1} hours.	使用すると称号「ファッションガラ」を@{1}時間有効化。
+12390100791	Use to Activate the Hero Registry title for @{1} hours.	使用すると称号「ヒーロー登録」を@{1}時間有効化。
+12390100790	Use to Activate the Spirit Conqueror title for @{1} hours.	使用すると称号「スピリットコンカラー」を@{1}時間有効化。
+12390100789	Use to Activate the Star of Rekenber title (Permanent).	使用すると称号「レケンベルの星」を永久解放。
+12390100788	Use to Activate the Novice's Pride title (Permanent).	使用すると称号「ノービスの誇り」を永久解放。
+12390100787	Use to Activate the Ten Great Heroes title for @{1} hours.	使用すると称号「十大英雄」を@{1}時間有効化。
+12390100786	Use to Activate the Victory of the Covenant Bubble (Permanent).	使用すると「盟約の勝利」吹き出しを永久解放。
+12390100785	Use to Activate the Rift in the Sky Bubble (Permanent).	使用すると吹き出し「天空の亀裂」を永久解放。
+12390100784	Use to Activate the Victory of the Covenant Portrait Frame (Permanent).	「契約の勝利」のアイコンフレーム（永久）を有効化します。
+12390100783	Use to Activate the Genesis Canticle Portrait Frame (Permanent).	使用すると「創世の頌歌」ポートレートフレームを永久解放。
+12390100782	Use to Activate Composer (Permanent).	使用すると作曲家を永久解放。
+12390100781	Use to Activate the Star of Rekenber Portrait (Permanent).	使用すると「レケンベルの星」ポートレートを永久解放。
+12390100780	A crystal imbued with magical energy. It powers Magic Equipment and is used to prepare for the New World.	魔力を宿したクリスタル。魔法装置の動力源となり、新世界への準備に使用されます。
+12390100779	Participate in MVP hunts to receive large quantities of Minted Coins, Cards, and other resources. Rewards have already been sent directly to your Backpack.	MVP狩りに参加すると、大量の鋳造コイン、カード、その他の資源を獲得できます。報酬はすでにバックパックに直接送られました。
+12390100778	The Eden Group presents this reward to Adventurers who participated in Rift Crisis. Open it to receive a few small gifts from the Eden Group.	亀裂の危機に参加した冒険者に、楽園団からこの報酬が贈られます。開封すると楽園団からのささやかな贈り物を獲得できます。
+12390100777	The Eden Group presents this reward to Adventurers who made an outstanding Contribution during Rift Crisis. Open it to receive a mysterious gift specially prepared by the Eden Group.	楽園団より、リフトクライシスで優れた貢献を果たした冒険者へ贈られる報酬。開封すると、楽園団が特別に用意した謎のプレゼントを獲得できます。
+12390100776	The Eden Group presents this reward to Adventurers who made a Contribution during unusual events. Open it to receive the Eden Group's thanks.	異常事態の際に貢献した冒険者に、楽園団からこの報酬が贈られます。開封して楽園団の感謝の印をお受け取りください。
+12390100775	Open the gift box to receive 1 random Purple-, Blue-, or Green-quality card.	ギフトボックスを開けると、紫・青・緑品質のカードからランダムで1枚獲得します。
+12390100774	Open the Card album to receive @{1} random Green or Blue Quality Cards.	カードアルバムを開くと、緑または青品質のカードをランダムで@{1}枚獲得します。
+12390100773	Basic Card Pack containing a variety of Green Cards.	さまざまな緑カードが入った基本カードパック。
+12390100772	A card album used to store cards. It's so old that it's hard to tell which cards are inside.	カードを保管するカードアルバム。古すぎて中に何のカードが入っているか分からない。
+12390100771	Can be opened at Lv. @{1} to receive @{2} Crystals.	Lv.@{1}で開封するとクリスタル@{2}個を獲得。
+12390100770	Open to receive a generous Crystal reward.	開くと大量のクリスタル報酬を獲得。
+12390100769	Open to receive Dig Boss Assist Rewards.	開くと発掘ボス支援報酬を獲得。
+12390100768	Open to receive Dig Boss Kill Rewards.	開くと発掘ボス討伐報酬を獲得。
+12390100767	Open to receive Dig Elite Kill Rewards.	開くと発掘エリート討伐報酬を獲得。
+12390100766	Open to select and receive 1 piece of T@{1} Red upper-body equipment.	開封するとT@{1}赤品質の上半身装備を1つ選んで獲得できます。
+12390100765	Open to receive the Nine-Tone Mantra Costume set.	開くと九音真言コスチュームセットを獲得。
+12390100764	Open to receive a random Soul Echo.	開くとランダムなソウルエコーを獲得。
+12390100763	Open to receive random Soul Echoes and Soul Echo EXP.	開くとランダムなソウルエコーとソウルエコーEXPを獲得。
+12390100762	Open to select and receive 1 Purple Card.	開くと紫カードを1枚選択して獲得。
+12390100761	Open to receive 1 random item from the following selection.	開くと以下からランダムでアイテムを1つ獲得。
+12390100760	Open to receive 1 random Orange Divine Art Totem.	開くとランダムなオレンジ品質の神術トーテムを1個獲得。
+12390100759	Open to receive 1 random Blue or Purple Card.	開くと青または紫カードをランダムで1枚獲得。
+12390100758	Open to receive 10,000 × @{1} Minted Coins.	開くと鋳造コイン10,000 × @{1}を獲得。
+12390100757	Open to receive @{1} Zeny.	開くと@{1}ゼニーを獲得。
+12390100756	Open to receive Soul Echo EXP.	開くとソウルエコーEXPを獲得。
+12390100755	Open to receive @{1} Oridecon and @{2} Aluminum.	開くとオリデオコン@{1}個とエルニウム@{2}個を獲得。
+12390100754	Grants one random Refinement Blessing material.	精錬祝福素材をランダムで1個獲得。
+12390100753	Grants a random Advanced Divine Art Totem Skill Book.	ランダムな上級神術トーテムスキルブックを獲得。
+12390100752	Randomly obtain a low-tier Divine Totem Skill Book.	ランダムな初級神術トーテムスキルブックを獲得。
+12390100751	Randomly obtain one piece of Blue, Purple, or Orange Headwear.	青・紫・オレンジ品質の頭装備をランダムで1つ獲得。
+12390100750	Obtain Green and Blue Headgear Materials, plus one random Purple or Orange Headgear Material.	緑・青品質の頭装備素材と、紫またはオレンジ品質の頭装備素材をランダムで1つ獲得。
+12390100749	Open to select and obtain one Blue Card.	開くと青カードを1枚選択して獲得。
+12390100748	Open to select and receive one T@{1} Orange equipment item.	開くとT@{1}オレンジ装備を1つ選択して獲得。
+12390100747	Open to select one T@{1} orange weapon.	開くとT@{1}オレンジ武器を1つ選択。
+12390100746	Open the gift box to receive one random Refinement Material.	ギフトボックスを開くと精錬素材をランダムで1つ獲得。
+12390100745	Open to obtain a Card: Savage Babe.	開くとカード：サベージベイブを獲得。
+12390100744	Open the gift box to receive a random Purple Quality card.	ギフトボックスを開くと紫品質カードをランダムで1枚獲得。
+12390100743	A lavish gift awarded to active participants in the Territory War.	領土戦争で活躍した参加者に贈られる豪華なギフト。
+12390100742	The highest honor reserved for those who achieve outstanding merit in the Territory War.	領地戦で特に優れた功績を挙げた者だけに贈られる最高の栄誉。
+12390100741	Open this chest to select one type of T@{1} Fragment.	開くとT@{1}欠片を1種類選択して獲得。
+12390100740	Open to receive a Tier @{1} Orange weapon for your class.	開くと自職業用Tier @{1}オレンジ武器を獲得。
+12390100739	Open this gift box to randomly obtain one Card of any Rarity.	ギフトボックスを開くと全レアリティからカードをランダムで1枚獲得。
+12390100738	A test gift pack. Open it to receive a large number of potions.	テスト用ギフトパック。開くと大量のポーションを獲得。
+12390100737	Commemorative Medal E Description	記念メダルE説明
+12390100736	Commemorative Medal D Description	記念メダルD説明
+12390100735	Commemorative Medal C Description	記念メダルC説明
+12390100734	Commemorative Medal B Description	記念メダルB説明
+12390100733	Commemorative Medal A Description	記念メダルA説明
+12390100732	Open to receive all of the following Soul Echoes.	開くと以下のソウルエコーをすべて獲得。
+12390100731	Open to receive one common crafting material.	開くと一般クラフト素材を1個獲得。
+12390100730	Open to receive a certain number of Unclaimed Soul Crystals.	開くと未受取ソウルクリスタルを一定数獲得。
+12390100729	Open this gift box to randomly obtain one of the following Soul Echoes.	このギフトボックスを開けると、以下のソウルエコーからランダムで1つ獲得します。
+12390100728	Contents vary depending on the Season in which it is opened.	開封するシーズンによって内容が変わります。
+12390100727	Ore from the dwarven realm of Vartalheim, blessed by a legendary armorsmith.\n^{1}Use: Used to refine armor. On failure, the Refine Level will not decrease^{2}	伝説の防具鍛冶職人の祝福を受けた、ドワーフの王国ヴァルタルヘイムの鉱石。\n^{1}使用効果：防具の精錬に使用する。失敗しても精錬値は低下しない^{2}
+12390100726	Secret ore from the dwarven realm of Vartalheim, said in Legend to share the same origin as the world itself. It is every craftsperson's lifelong pursuit.\n^{1}Use: Used to refine weapons and accessories. Increases the refinement success rate; on failure, the Refine Level will not decrease and the equipment will not be damaged^{2}	ドワーフの国ヴァルタルハイムに伝わる秘鉱石。伝説では世界そのものと同じ起源を持つとされ、すべての職人が生涯追い求める逸品です。\n^{1}用途：武器やアクセサリーの精錬に使用します。精錬成功率が上昇し、失敗しても精錬Lv.が低下せず、装備も損傷しません^{2}
+12390100725	Ore from the dwarven realm of Vartalheim, blessed by a legendary weaponsmith.\n^{1}Use: Used to refine weapons and accessories. On failure, the Refine Level will not decrease^{2}	ドワーフの国ヴァルタルヘイム産の鉱石。伝説の武器職人の祝福を受けています。\n^{1}用途：武器とアクセサリーの精錬に使用します。失敗しても精錬値は低下しません^{2}
+12390100724	A lightweight, nontoxic Metal that makes any armor refined with it stronger.\n^{1}Use: Can be used to refine armor and accessories from +@{1} to +@{2}^{2}	精錬された防具をより強固にする、軽量で無毒な金属。\n^{1}使用効果：+@{1}から+@{2}までの防具およびアクセサリーの精錬に使用できます^{2}
+12390100723	High-density Oridecon formed over many years deep underground. It can refine weapons and accessories with a higher Refine Level.\n^{1}Use: Can be used to refine weapons and accessories from +@{1} to +@{2}^{2}	地下深くで長い年月をかけて形成された高密度オリデオコン。より高い精錬値の武器やアクセサリーを精錬できる。\n^{1}使用：+@{1}～+@{2}の武器およびアクセサリーの精錬に使用できる^{2}
+12390100722	A mysterious Metal known as Oridecon. Harder than anything else, it was discovered by the Enhance Association to be useful for refining weapons and accessories.\n^{1} Use: Can be used to refine weapons and accessories from +@{1} to +@{2} ^{2}	オリデオコンと呼ばれる神秘的な金属。何よりも硬く、強化協会によって武器やアクセサリーの精錬に役立つことが発見されました。\n^{1} 用途：+@{1}から+@{2}までの武器とアクセサリーの精錬に使用できます ^{2}
+12390100721	Open to receive @{1} Card: Whisper, @{2} Blue Card Shards, and @{3} Diamonds.	開くとカード：ウィスパーを@{1}枚、青カードの欠片を@{2}個、ダイヤを@{3}個獲得。
+12390100720	Open to select one piece of T@{1} Orange Equipment.	開くとT@{1}オレンジ装備を1つ選択して獲得。
+12390100719	Open to select one Weapon.	開くと武器を1つ選択できます。
+12390100718	Beginner's Chest--Can be opened upon reaching Base Lv. @{1}.	初心者チェスト--Base Lv.@{1}到達で開封可能。
+12390100717	Open this gift box to obtain a certain number of Candles of Contemplation.	このギフトボックスを開けると、一定数の「瞑想の蝋燭」を獲得します。
+12390100716	Open this gift box to randomly obtain one of the following Divine Art Totem Skill Books.	開くと以下の神術トーテムスキルブックからランダムで1冊獲得。
+12390100715	Open this gift box to randomly obtain one of the following Soul Echoes.	このギフトボックスを開けると、以下のソウルエコーからランダムで1つ獲得します。
+12390100714	Open this gift box to obtain a large number of progression items.	このギフトボックスを開けると、大量の育成アイテムを獲得できます。
+12390100713	Open this Pack to obtain @{1} Star Diamond I and @{2} Starlight Silk I.	このパックを開くと、スターダイヤIを@{1}個、スターライトシルクIを@{2}個獲得します。
+12390100712	Open to obtain a Tier @{1} Weapon Blueprint and the required Crafting Materials.	開くとTier @{1}武器設計図と必要な製作素材を獲得。
+12390100711	Open to obtain @{1} Spirit Pact Stones, @{2} Pet Training Diary I, and @{3} Diamonds.	開くと精霊契約石@{1}個、ペット訓練日記I@{2}個、ダイヤ@{3}個を獲得。
+12390100710	Open to obtain @{1} Card: Eclipse, @{2} Blue Card Fragments, and @{3} Diamonds.	開くとカード：エクリプスを@{1}枚、青カードの欠片を@{2}個、ダイヤを@{3}個獲得。
+12390100709	Open to obtain Card: Golden Thief Bug, a large amount of Zeny, and some Blue Card Fragments.	開くとカード：黄金蟲、大量のゼニー、青カードの欠片を獲得。
+12390100708	Open this gift box for a chance to obtain a large amount of Diamonds, Equipment Refining Materials, and Rare Cards.	このギフトボックスを開けると、大量のダイヤ、装備精錬素材、レアカードなどを獲得できることがある。
+12390100707	Open this Pack to obtain a Tier @{1} Weapon Crafting Blueprint, an Armor Crafting Blueprint, and the corresponding Crafting Materials.	このパックを開けると、T@{1}の武器製作設計図、防具製作設計図、および対応する製作素材を獲得できます。
+12390100706	Normal Gift Box	ノーマルギフトボックス
+12390100705	Deluxe Gift Box	デラックスギフトボックス
+12390100704	Advanced Treasure Chest	上級宝箱
+12390100703	Mysterious Treasure Chest	謎の宝箱
+12390100702	Surprise Pack	サプライズパック
+12390100701	A large carnivorous fish that requires high-quality water. Its meat is delicious and said to be good for your health.	良質な水を必要とする大型の肉食魚。肉は美味で、健康にもよいと言われている。
+12390100700	A top-quality fish used in many dishes. Its high price makes it difficult to enjoy regularly.	さまざまな料理に使われる最高級の魚。高価なので日常的にはなかなか食べられない。
+12390100699	A transparent jellyfish with a moon-shaped marking on its head. It is said to glow at night.	頭に月形の模様がある透明なクラゲ。夜になると光るという。
+12390100698	A blue-backed fish from Frozen waters that's very nutritious. Feed for the Pet [Leafy Cat]. Weight: @{1}	凍てつく海で獲れる、背中が青く栄養豊富な魚。ペット[リーフキャット]のエサ。重量：@{1}
+12390100697	A sea urchin covered in spiky armor. Handle it carefully, or it may prick your hand.	トゲだらけの殻を持つウニ。扱いを誤ると手を刺されるので注意。
+12390100696	An eight-legged mollusk. It will Launch ink when threatened, so be careful.	8本脚の軟体動物。危険を感じると墨を吐くので気をつけてください。
+12390100695	A premium, colorful, and delicious sea bream used in many dishes.	色鮮やかで美味しい高級タイ。さまざまな料理に使われます。
+12390100694	Also known as mandarin fish. An aggressive predator that feeds on other fish. It stops feeding in winter, making that a poor time to catch it.	ケツギョとしても知られる。他の魚を捕食する獰猛な肉食魚。冬場は捕食活動を止めるため、釣るには不向きな時期となる。
+12390100693	Also known as blackfish, snakehead, or fortune fish. Its wide distribution, high yield, and rapid reproduction make it valuable for aquaculture.	ライギョ、スネークヘッド、あるいは吉祥魚とも呼ばれる。分布が広く、収量が多く、繁殖力も高いため、養殖価値が高い。
+12390100692	A shimmering star fragment from the intertidal zone. Legend says its tentacles absorb moonlight.	潮間帯で見つかるきらめく星の欠片。伝説では、その触手が月光を吸収するといわれています。
+12390100691	An amphibian with incredible jumping ability. Its slippery body makes it difficult to catch.	驚異的な跳躍力を持つ両生類。体がぬるぬるしていて捕まえにくい。
+12390100690	An eel renowned for its strength. One of the best fish for restoring energy.	力強さで知られるウナギ。体力回復に最適な魚の一つです。
+12390100689	A versatile carp raised for food, medicine, and decoration. In some regions, it is considered a sign of good fortune.	食用・薬用・観賞用と幅広く飼育されるコイ。一部の地域では幸運の象徴とされている。
+12390100688	A blue crab used in many dishes. Sometimes used as bait.	さまざまな料理に使われる青いカニ。餌に使われることもある。
+12390100687	DHA-rich mackerel that is sometimes used as bait.	DHA豊富なサバ。餌として使われることもある。
+12390100686	A small, common Basilac Clam that is easy to catch almost anywhere. Sometimes used as bait.	どこでも比較的簡単に捕れる小型の一般的なバジラック貝。餌に使われることもある。
+12390100685	A crustacean with five pairs of legs. It turns pink when cooked and is absolutely delicious.	5対の脚を持つ甲殻類。加熱するとピンク色になり、とてもおいしい。
+12390100684	Enhanced sacred armor plating combining high durability with holy protection, providing top-tier defense.	高い耐久性と聖なる加護を兼ね備えた強化聖装甲板。最高クラスの防御性能を誇ります。
+12390100683	Armor plating made from an alloy blessed by holy light, providing advanced protection.	聖なる光の祝福を受けた合金製の装甲板。高度な防護性能を持つ。
+12390100682	Armor plating treated to Enhance its strength, providing intermediate protection.	強度を高める加工を施した装甲板。中級の防護性能を備える。
+12390100681	Armor plating forged from ordinary Metal, providing basic protection.	一般的な金属から鍛造された装甲板。基本的な防護性能を備えています。
+12390100680	A semi-finished sacred cloth material for footwear, offering both a blessing bonus and comfortable protection.	靴用の半製品となる聖布素材。祝福効果と快適な防護性を兼ね備えている。
+12390100679	A semi-finished sacred cloth material for shoulder armor. Its blessed Orbit provides Extra DEF.	肩防具用の聖布を加工した半製品素材。祝福の力を宿した織りが追加の防御力をもたらします。
+12390100678	A semi-finished material processed from sacred cloth rolls. Used to craft advanced clothing or armor with blessing effects.	聖なる反物から加工された半製品の素材。加護の効果を持つ高度な衣服や防具の製作に使用されます。
+12390100677	Fabric used to line sacred equipment, providing a blessing bonus and greater protection.	聖なる装備の裏地に使う布。祝福効果と防護性能を高める。
+12390100676	A roll of sacred cloth radiating intense holy light. Used to craft advanced equipment.	強い聖光を放つ聖なる布のロール。上級装備の製作に使用する。
+12390100675	High-quality silk thread made from fine silk fibers. Used to sew advanced clothing or equipment.	上質な絹繊維から作られた高品質の絹糸。上級の衣服や装備の縫製に使用します。
+12390100674	A semi-finished silk material for footwear. Used to craft fine footwear or armor.	靴用の半製品シルク素材。高品質な靴や防具の製作に使う。
+12390100673	A semi-finished silk material designed for shoulder armor. Used to craft fine shoulder equipment or armor.	肩防具用に加工された絹の半製品素材。上質な肩装備や防具の製作に使用します。
+12390100672	A semi-finished material made from initially processed raw silk. Used to craft fine clothing or armor.	生糸を一次加工した半製品素材。上質な衣服や防具の製作に使用します。
+12390100671	Silk material used to line clothing or armor, providing both comfort and Extra cushioning.	衣服や防具の裏地に使う絹素材。着心地とクッション性を高める。
+12390100670	A roll woven from high-quality silk. Its smooth yet durable texture makes it ideal for crafting fine equipment.	上質な絹から織られた巻物。滑らかでありながら丈夫で、高品質装備の製作に最適。
+12390100669	Woolen material used to line clothing or armor, providing Extra warmth and cushioning.	衣服や防具の裏地に使う毛織素材。保温性とクッション性を高める。
+12390100668	Common silk thread used to sew clothing or light cloth equipment.	衣服や軽装装備の縫製に使われる一般的な絹糸。
+12390100667	A roll of woolen cloth that provides good insulation, commonly used to Craft Fine equipment.	保温性に優れた毛織布のロール。上質な装備の製作によく使われる。
+12390100666	A roll of coarse Cotton cloth used to make common cloth equipment and for basic sewing.	一般的な布装備や基礎的な裁縫に使う粗い綿布のロール。
+12390100665	A roll woven from hemp cloth, used to make simple equipment.	麻布を織ったロール。簡単な装備の製作に使用。
+12390100664	Thread imbued with a sacred blessing, used to weave sacred cloth or blessed armor with a faint shimmering glow.	神聖な祝福を宿した糸。ほのかに輝く聖布や祝福された防具を織るために使用する。
+12390100663	Liquid extracted from a sacred plant. Its Divine Light and purification properties make it useful for crafting advanced equipment.	神聖な植物から抽出された液体。聖なる光と浄化の特性を持ち、上級装備の製作に役立つ。
+12390100662	A bundle of high-quality fibers refined through multiple processes for a smooth, durable finish. Used to make advanced fabric or light armor.	何度も工程を重ねて精製され、滑らかで耐久性に優れた上質な繊維の束。高級な布地や軽装鎧の製作に使用される。
+12390100661	Spirit-infused thread used to sew robes or craft Enchant equipment, enhancing the equipment's magical responsiveness.	霊力を宿した糸。法衣の縫製やエンチャント装備の製作に使われ、装備の魔力感応性を高める。
+12390100660	A special moss that grows in damp areas. It can be gathered and spun into warm fibers.	湿地に生える特殊な苔。採集して暖かな繊維に紡ぐことができる。
+12390100659	A mysterious plant stem infused with nature's energy. It is said to give fabric an affinity for magic.	自然のエネルギーを宿した不思議な植物の茎。布地に魔力との親和性を与えるといわれています。
+12390100658	Plant fluff that drifts on the wind. It can be gathered and used as stuffing.	風に舞う植物の綿毛。採集して詰め物に利用できる。
+12390100657	A soft bundle of Cotton that can be processed into Cotton cloth or used as stuffing. Commonly used in textiles.	柔らかな綿の束。綿布に加工したり、詰め物に使ったりできる。繊維製品によく用いられる。
+12390100656	Rough hemp leaves found in the wilderness, used to weave coarse cloth or make basic yarn.	野外で採れる粗い麻の葉。粗布や基本的な糸の材料になる。
+12390100655	A wooden rune imbued with the power of blessings that grants equipment Extra advanced magical effects.	祝福の力を宿した木製ルーン。装備に追加の上級魔法効果を付与します。
+12390100654	A wooden rune imbued with holy light that can add powerful magical effects to equipment.	聖光を宿した木製ルーン。装備に強力な魔法効果を付与できる。
+12390100653	A wooden rune imbued with spiritual power that can add Extra magical properties to equipment.	霊力を宿した木製ルーン。装備に追加の魔法属性を付与できる。
+12390100652	A wooden rune engraved with mysterious symbols. It can add basic magical properties to equipment.	謎めいた記号が刻まれた木製ルーン。装備に基本的な魔法属性を付与できます。
+12390100651	Wrapping material made from Sacred Wood, used to craft advanced equipment with blessed effects.	神木から作られた包装材。祝福効果を持つ上級装備の製作に使用されます。
+12390100650	A specialized mold for crafting advanced rings and accessories imbued with blessed properties.	祝福の力を宿した上級リングやアクセサリーの製作に用いる専用の型。
+12390100649	Core Wood taken from within a Sacred Wood Chunk. Its spiritual energy is pure, and it is used to craft advanced equipment.	神木の塊の中から採取された芯材。霊力に満ちて純度が高く、高度な装備の製作に使用されます。
+12390100648	A partially finished piece processed from a Sacred Wood block, retaining the wood's resilience and sacred properties.	聖木ブロックから加工した半製品。木材のしなやかさと神聖な性質を残している。
+12390100647	A block of Sacred Wood that emits a faint glow, used to craft advanced equipment.	淡い光を放つ聖木の塊。上級装備の製作に使用。
+12390100646	An Ironwood outer layer used to wrap equipment, improving its durability and handling.	装備を覆うアイアンウッド製の外装。耐久性と扱いやすさを向上させる。
+12390100645	A precision mold carved from Ironwood, used to make strong yet resilient rings.	アイアンウッドから削り出した精密な型。丈夫でしなやかなリング作りに使う。
+12390100644	Core material extracted from an Ironwood block. Hard and resistant to breaking, it is ideal for crafting fine equipment.	アイアンウッドの塊から抽出された芯材。硬く壊れにくいため、上質な装備の製作に最適です。
+12390100643	A high-strength coating applied in multiple layers, providing excellent protection and corrosion resistance.	高強度のコーティングを幾重にも施した素材。優れた防護性能と耐腐食性を備えている。
+12390100642	A partially finished piece made from an Ironwood block. It can be further polished into a fine equipment component.	鉄木ブロックから加工した半製品。さらに磨き上げることで高品質な装備部品になる。
+12390100641	Processed from Ironwood. Its hardness and resilience make it ideal for crafting fine equipment.	アイアンウッドを加工した素材。高い硬度と靭性を持ち、上質な装備の製作に最適です。
+12390100640	An accessory mold carefully carved from solid wood. Every detail has been meticulously refined to ensure a flawless finished product.	無垢材から丁寧に削り出されたアクセサリーの木型。細部まで緻密に磨き上げられ、完璧な仕上がりを保証している。
+12390100639	Pure wood taken from the heart of solid timber, offering exceptional resilience and support.	丈夫な木材の芯から切り出した純木。優れた弾力性と支持力を持つ。
+12390100638	White crystals used as a basic seasoning to enhance the savory flavor of dishes.	料理の旨味を引き立てる基本調味料として使われる白い結晶。
+12390100637	A juicy, bright Red Strawberry used to decorate desserts and flavor dishes.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	みずみずしく鮮やかな赤色のイチゴ。デザートの飾りや料理の風味付けに使われる。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
+12390100636	A clear, colorless liquid used in cooking to remove unwanted odors and enhance aroma.	料理で臭みを取り、香りを引き立てる無色透明の液体。
+12390100635	A Yellow, oval-shaped fruit used to season dishes and enhance their aroma.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	料理の味付けや香り付けに使われる、黄色い楕円形の果実。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
+12390100634	White granulated crystals used to sweeten dishes.	料理を甘くするために使う白い粒状の結晶。
+12390100633	Tender animal meat that can be grilled or stewed for a variety of meat dishes.	やわらかな獣肉。焼いたり煮込んだり、さまざまな肉料理に使える。
+12390100632	An umbrella-shaped mushroom with thick, savory flesh, often used in stews and stir-fries.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	傘のような形をしたキノコ。肉厚で旨味があり、煮込みや炒め物によく使われます。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が料理に使用します。
+12390100631	A juicy, bright Red fruit with a sweet-and-sour flavor, perfect for stews or soup bases.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	みずみずしく鮮やかな赤色で、甘酸っぱい風味を持つ果実。煮込み料理やスープのベースに最適です。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が料理に使用します。
+12390100630	Dark brown beans that can be ground into Cacao powder for making desserts.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	挽いてカカオパウダーにし、デザート作りに使える濃い茶色の豆。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
+12390100629	A round Purple fruit that can be made into fine wine or desserts.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	上質なワインやデザートに使える丸い紫色の果実。\n^{1}生活スキル - 園芸家^{2}で入手可能。生活スキル - 料理人が調理に使用する。
+12390100628	Bright Red and spicy, it adds heat and aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	真っ赤でスパイシー。料理に辛味と香りを加える。\n^{1}生活スキル - 園芸家^{2}で入手可能。生活スキル「料理人」の調理に使用する。
+12390100627	Golden Grains that can be ground into flour for noodles, pastries, and other dishes.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	麺類や菓子などに使う小麦粉へ挽くことができる黄金色の穀物。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が料理に使用します。
+12390100626	Tender Green leaves from a Basic herb that adds aroma and flavor to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	料理に香りと風味を添える、基本的な薬草の柔らかな緑の葉。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
+12390100625	White Herb: Its pure White leaves add a subtle herbal aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	ホワイトハーブ：純白の葉が料理に繊細なハーブの香りを添える。\n^{1}生活スキル - 園芸家^{2}で入手可能。生活スキル - 料理人が調理に使用する。
+12390100624	Yellow Herb: Golden in color, it enhances the aroma and flavor of Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	イエローハーブ：黄金色の薬草で、料理の香りと風味を引き立てる。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
+12390100623	A bright Red Herb that adds a unique flavor and medicinal properties to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	料理に独特の風味と薬効を加える、鮮やかな赤色の薬草。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
+12390100622	Legendary sharpening Material imbued with the power of a meteorite. It grants Weapons devastating power.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	隕石の力を宿した伝説級の研磨素材。武器に破壊的な力を与えます。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用します。
+12390100621	Premium sharpening Material infused with the essence of luminous gold. It gives Weapons astonishing sharpness.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	輝く金の精髄を注ぎ込んだ最高級の研磨素材。武器に驚異的な切れ味を与えます。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用します。
+12390100620	A whetstone polished multiple times to greatly improve a weapon's cutting power and durability.	何度も研磨された砥石。武器の切れ味と耐久性を大幅に高めます。
+12390100619	A whetstone made using a special process. It improves a Weapon's sharpness.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	特殊な製法で作られた砥石。武器の切れ味を高める。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100618	A hilt forged from Meteor Metal and imbued with the power of a falling star. It greatly improves weapon performance and handling.	メテオメタルから鍛造され、流れ星の力を宿した柄。武器の性能と取り回しを大幅に向上させる。
+12390100617	A dense Meteor Metal block compressed using a special process. Its energy purity and strength have reached their peak, making it ideal for crafting advanced weapons.	特殊な製法によって圧縮された高密度の隕鉄ブロック。エネルギーの純度と強度が極限に達しており、高度な武器の製作に最適である。
+12390100616	A sharp blade forged from Meteor Metal. Its potential to pierce anything makes it a vital component of advanced weapons.	メテオメタルから鍛造された鋭利な刃。あらゆるものを貫く可能性を秘めており、高度な武器に不可欠な部品です。
+12390100615	A Metal block taken from the core of a meteorite. Its exceptional purity and energy make it a precious material for crafting advanced equipment.	隕石の核から採取された金属の塊。並外れた純度とエネルギーを秘めており、上級装備の製作に欠かせない貴重な素材。
+12390100614	A high-grade grinding wheel made with precision techniques, capable of ultra-fine polishing when crafting advanced weapons.	精密な技術で作られた高級砥石。高度な武器を製作する際に極めて精密な研磨を行うことができます。
+12390100613	A hilt forged from a dense Radiant Gold block. Its smooth, sturdy finish makes it ideal for crafting fine weapons.	高密度の輝金ブロックから鍛えた柄。滑らかで丈夫な仕上がりで、高品質武器の製作に最適。
+12390100612	A Radiant Gold block refined under extreme heat and pressure for optimal Metal purity and strength, ideal for crafting fine weapon parts.	極度の熱と圧力のもとで精錬され、金属の純度と強度を極限まで高めた輝く金の塊。上質な武器部品の製作に最適。
+12390100611	A blade forged from radiant gold with exceptional sharpness and durability. Suitable for crafting fine weapons.	輝金から鍛えられた刃。優れた切れ味と耐久性を備え、高品質な武器の製作に適している。
+12390100610	A Metal bar smelted from radiant gold. Lightweight yet hard, it is a core material for crafting fine equipment.	輝金を精錬して作った金属棒。軽量ながら硬く、高品質装備の製作に欠かせない素材。
+12390100609	A grip forged from mithril that improves a weapon's handling and durability. Suitable for crafting standard weapons.	ミスリルで鍛えたグリップ。武器の扱いやすさと耐久性を高め、標準武器の製作に適している。
+12390100608	Made from rough stone, it grinds efficiently but provides only an average polish. Suitable for sharpening standard weapons.	粗い原石から作られた砥石。効率よく研ぐことができますが、仕上がりは標準的です。標準的な武器の研磨に適しています。
+12390100607	A Metal bar smelted from mithril. Both tough and lightweight, it can be used to forge standard equipment.	ミスリルを精錬して作られた金属棒。頑丈かつ軽量で、標準的な装備の鍛造に使用できます。
+12390100606	Soaking iron several times in a special solution increases its strength, producing harder weapons and armor.	鉄を特殊な溶液に何度も浸して強度を高めることで、より硬い武器や防具を作れる。
+12390100605	High-quality compressed coal that burns at extremely high temperatures. Combining it with iron produces stronger steel.	高品質に圧縮された石炭。非常に高温で燃焼し、鉄と組み合わせることでより強靭な鋼鉄を作れます。
+12390100604	Not only is it sufficiently hard, but it is also easier to work with than other Metals.	十分な硬さを持ちながら、ほかの金属より加工しやすい。
+12390100603	Ore containing meteorite that can be refined into a Meteorite Chunk.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬して隕石の塊にできる隕石を含んだ鉱石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100602	A precious gemstone that gleams like a cat's eye and radiates a beautiful light.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	キャッツアイのように輝き、美しい光を放つ貴石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100601	An extremely sturdy stone with exceptional hardness, used to make Weapons.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	並外れた硬度を誇る極めて頑丈な石。武器の製造に使用される。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100600	Ore containing luminous gold that can be refined into a Luminous Gold Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	発光性の金を含む鉱石。精錬して発光金インゴットにできる。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100599	Ore containing mithril that can be refined into a Mithril Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬してミスリルインゴットにできるミスリルを含んだ鉱石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100598	As night falls, the stars resemble carefully Collected gemstones. Awed by their light rippling like water, people named this stone Sobbing Starlight.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	夜が訪れると、星々は丹念に集められた宝石のように輝く。その光が水面のように揺らめく様子に心を奪われ、人々はこの石を「すすり泣く星明かり」と名付けた。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用します。
+12390100597	A Normal stone found almost anywhere. It may look unremarkable, but it still has its uses.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	どこにでもある普通の石。目立たない見た目だが、ちゃんと使い道はある。\n^{1}生活スキル - 採掘工^{2}で獲得可能。T@{1}装備の製作に使用する。
+12390100596	Ore rich in carbon. The coal extracted from it can be refined with iron to produce Steel.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	炭素を豊富に含む鉱石。採取した石炭は鉄と精錬して鋼鉄を作ることができる。\n^{1}生活スキル - 採掘工^{2}で獲得可能。T@{1}装備の製作に使用する。
+12390100595	Ore containing iron that can be refined into an Iron Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬して鉄インゴットにできる鉄を含んだ鉱石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100594	Restores @{1} Life Skill Vigor upon use.	使用すると生活スキル活力を@{1}回復。
+12390100593	An official certificate issued by the workshop, signifying that the holder has passed the Job Advance assessment and is qualified to independently pursue a Life Skill.	工房が発行する公式認定証。所持者が転職審査に合格し、生活スキルを独立して修める資格を得たことを証明する。
+12390100592	Item used to Learn a skill.	スキル習得に使用するアイテム。
+12390100591	Item used to Level-up a title.	称号のレベルアップに使用するアイテム。
+12390100590	Hide from a blue Pegasus said to exist only in Legend!\nIt's warm and soft to the touch.	伝説にしか存在しないとされる青いペガサスから身を隠せ！\n触れると暖かくて柔らかい。
+12390100589	A hard shell from a monster. Available from the Collector.	モンスターの硬い殻。コレクターから入手可能。
+12390100588	A shell from a turtle's back. Once dried, it becomes extremely hard and can be processed into many useful items. Available from the Collector.	亀の背中の甲羅。乾燥させると極めて硬くなり、多くの便利なアイテムに加工できる。コレクターから入手可能。
+12390100587	A geometrically shaped fragment of Sobbing Starlight. It might be restored if the pieces are carefully reassembled.	「すすり泣く星明かり」の幾何学的な欠片。丁寧に組み直せば元に戻せるかもしれない。
+12390100586	A fragment of a star cluster suspended in the sky. It can increase a weapon's strength when used in crafting.	空に浮かぶ星団の欠片。製作に使うことで武器の強度を高められる。
+12390100585	A knife-sharp scale that can be processed into many useful items. Available from the Collector.	ナイフのように鋭い鱗。様々な便利な品へ加工できます。コレクターから入手可能。
+12390100584	A fingernail taken from the dead. Available from the Collector.	死者から取った爪。コレクターから入手可能。
+12390100583	A piece of a star that can be refined into Star Crumbs.	スタークラムへ精錬できる星の欠片。
+12390100582	A canine tooth obtained from a creature called an Orc. Available from the Collector.	オークという生物から取れる犬歯。コレクターから入手可能。
+12390100581	A toenail clipped from a wolf's paw. Available from the Collector.	狼の足から切り取られた爪。コレクターから入手できます。
+12390100580	Rare mane taken from a monster. Tough and magical, it can be used to make high-grade fabric or in alchemical formulas.	モンスターから採取した希少なたてがみ。丈夫で魔力を帯びており、高級布地の製作や錬金術の素材に使用できます。
+12390100579	Mysterious powder infused with magical energy. An essential material for Enchant and alchemy.	魔力を帯びた不思議な粉。エンチャントや錬金術に欠かせない素材。
+12390100578	A shattered black Sobbing Starlight. Though it has lost its full power, it still has special uses.	砕けた黒い「すすり泣く星光」。完全な力は失われていますが、まだ特殊な用途があります。
+12390100577	Crude mineral powder commonly used in basic alchemy or Easy Enchant, though its effects are limited.	基礎的な錬金術や簡易エンチャントでよく使われる粗い鉱石粉末。効果は限定的です。
+12390100576	Damaged Metal fragments of low purity. They can be smelted down for Reforge or used in alchemical experiments.	純度の低い損傷した金属片。溶かして再鍛造したり、錬金実験に使用したりできる。
+12390100575	Supplies used in Territory War.	領地戦で使用する物資。
+12390100574	Item used to Level-up a Soul Echo. Grants @{1} EXP.	ソウルエコーのレベルアップ用。EXPを@{1}獲得。
+12390100573	Obtained by Dismantling Divine Arts Totems. Used to exchange for items in the Divine Arts Totem Shop.	神術トーテムの分解で獲得できます。神術トーテムショップでアイテムと交換する際に使用します。
+12390100572	Divine Arts Totem Reset Materials.	神術トーテムリセット素材。
+12390100571	Item used to Level-up a Divine Arts Totem. Grants @{1} EXP.	神術トーテムのレベルアップに使用。EXPを@{1}獲得。
+12390100570	Reset Materials for a Divine Arts Totem.	神術トーテムのリセット素材。
+12390100569	Grants a chance to obtain Tier @{1} Equipment of varying Rarity.	さまざまなレアリティのTier @{1}装備を獲得する可能性があります。
+12390100568	The finest Tier @{1} Red Equipment.	最高級のTier @{1}赤装備。
+12390100567	The finest Red Equipment.	最高級の赤装備。
+12390100566	Brilliant Tier @{1} Orange Equipment with impressive offensive and defensive capabilities.	攻守に優れた輝かしいTier @{1}オレンジ装備。
+12390100565	Brilliant Orange Equipment with impressive offensive and defensive capabilities.	攻防ともに優れた、鮮やかなオレンジ品質装備。
+12390100564	Magnificent Purple Equipment, clearly crafted by a Moonlit Challenger.	月光の挑戦者が製作したと一目で分かる、見事な紫装備。
+12390100563	Fine Blue Equipment with impressive offensive and defensive capabilities.	攻撃・防御ともに優れた上質な青装備。
+12390100562	Fine Tier @{1} Green Equipment with impressive ATK and DEF.	優れたATKとDEFを持つTier @{1}の上質な緑装備。
+12390100561	Fine Green Equipment with impressive ATK and DEF.	ATKとDEFに優れた上質な緑装備。
+12390100560	Obtain a full set of Tier @{1} Equipment Crafting Blueprints and Crafting Materials.	Tier @{1}装備製作設計図一式と製作素材一式を獲得。
+12390100559	Randomly obtain either Oridecon or Elunium.	オリデオコンまたはエルニウムをランダム獲得。
+12390100558	Chance to obtain Orange Quality Headwear.	オレンジ品質の頭装備を獲得する可能性。
+12390100557	Chance to obtain Purple Quality Headwear.	紫品質の頭装備を獲得する可能性。
+12390100556	Chance to obtain Blue Quality Headwear.	青品質ヘッドギアを獲得する可能性があります。
+12390100555	Obtain the specified Soul Echo.	指定のソウルエコーを入手。
+12390100554	Grants one of the following mounts based on your class.	職業に応じて以下のマウントから1つ獲得。
+12390100553	Orange material used to craft headgear.	ヘッドギア製作に使うオレンジ素材。
+12390100552	Purple material used to craft headgear.	ヘッドギア製作に使う紫素材。
+12390100551	Blue material used to craft headgear.	ヘッドギア製作に使う青素材。
+12390100550	Green material used to craft headgear.	ヘッドギア製作に使う緑素材。
+12390100549	Grants forging blueprints for a Tier @{1} equipment set.	Tier @{1}装備セットの鍛造設計図を獲得。
+12390100548	Grants Equipment Forging materials.	装備製造素材を獲得。
+12390100547	Grants a Tier @{1} blue weapon for your class.	職業に対応したTier @{1}青武器を1つ獲得。
+12390100546	Grants various types of Equipment Forging blueprints.	各種装備製造設計図を獲得。
+12390100545	Grants a Job Advance Weapon.	転職武器を付与。
+12390100544	Randomly grants a card of varying quality.	さまざまな品質のカードをランダム獲得。
+12390100543	Grants a chance to obtain a green-quality Card.	緑品質カードを獲得できる可能性があります。
+12390100542	Grants a chance to obtain a Red Quality Card.	赤品質カードを獲得できる可能性があります。
+12390100541	Grants a chance to obtain an Orange Quality Card.	オレンジ品質カードを獲得する可能性があります。
+12390100540	Grants a chance to obtain a Purple Quality Card.	紫品質カードを獲得できる可能性があります。
+12390100539	Grants a chance to obtain a Blue Quality Card.	青品質カードを獲得できる可能性があります。
+12390100538	A radiant Soul Echo.	輝くソウルエコー。
+12390100537	An ornate Soul Echo.	華麗なソウルエコー。
+12390100536	A fine Soul Echo.	上質なソウルエコー。
+12390100535	Grants a chance to obtain the following items.	次のアイテムを獲得できる可能性があります。
+12390100534	Ornate Tier @{1} Purple Equipment, clearly crafted by the Moonlit Challenger.	月夜の挑戦者が作ったと思われる、華麗なTier @{1}紫装備。
+12390100533	Fine Tier @{1} Blue Equipment with impressive ATK and DEF.	優れたATKとDEFを持つTier @{1}の上質な青装備。
+12390100532	Common Tier @{1} Blue Equipment that can protect against ordinary enemies.	一般的な敵から身を守れるコモンTierの青装備（@{1}）。
+12390100531	A Normal Tier @{1} Green Weapon capable of handling Low-grade monsters.	低級モンスターに対応できるノーマルTierの緑武器（@{1}）。
+12390100530	A detailed Equipment Crafting Blueprint used for Equipment Forging.	装備鍛造に使用する詳細な装備製造設計図。
+12390100529	A tiny bow that looks like it could only fit around a cat's or dog's neck. It smells a little funky...	猫や犬の首にしか合わなそうな小さなリボン。少し変な臭いがする……
+12390100528	A device used to Hatch Eggs, but you have no idea how to use it yet.	卵を孵化させるための装置。まだ使い方は分かりません。
+12390100527	Whoa! A surprise drop—it looks like something incredible!	うわっ、サプライズドロップ！すごそうなものが出た！
+12390100526	A very revealing vest. No idea who Discarded it on the ground.	かなり露出の多いベスト。誰が地面に捨てたのかは不明。
+12390100525	A filthy uniform and pair of shoes. Who knows who left them lying here?	汚れた制服と靴。誰がここに置きっぱなしにしたのやら？
+12390100524	This instrument is said to extract particles of longing, and it's the only one on the entire continent.	この装置は思慕の粒子を抽出できるといわれていて、大陸にたった1台しかないんだ。
+12390100523	A mysterious compass given to you by a mysterious woman. It clearly hides some secret!	謎の女性から渡された不思議なコンパス。明らかに何か秘密がありそうだ！
+12390100522	An extremely intricate component stamped "Made in Juno" on the bottom.	底面に「ジュノー製」と刻印された、非常に精巧な部品。
+12390100521	A colorful Tiger Pelt from Eddga.	エドガから採れた色鮮やかな虎皮。
+12390100520	A makeshift litter box.	簡易猫トイレ。
+12390100519	A highly intelligent, purple-skinned Demon Poring who's very close to you!	知能が高く、紫色の肌をした、あなたととても仲の良いデーモンポリン！
+12390100518	An Airship Ticket sold by a Black Market Merchant.	闇商人が販売する飛行船チケット。
+12390100517	Quest Items: Fabre slime.	クエストアイテム：ファブルの粘液。
+12390100516	Quest Items: Poring's medicinal herbs.	クエストアイテム：ポリンの薬草。
+12390100515	A shimmering liquid.	きらめく液体。
+12390100514	Similar to a Big Scell, but with a brighter crystal.	ビッグゼロピーに似ているが、より明るく輝く結晶。
+12390100513	A crystal that emits a mysterious glow.	不思議な光を放つクリスタル。
+12390100512	A colorful Worm Peeling.	色鮮やかなワームの皮。
+12390100511	Beautiful silver fur.	美しい銀色の毛皮。
+12390100510	Similar to a Large Jellopy, but with a brighter crystalline glow.	大型ゼロピーに似ているが、より鮮やかな結晶の輝きを放っている。
+12390100509	Extremely tough Animal Skin.	非常に丈夫な獣皮。
+12390100508	An item that inspires unwavering loyalty to the army.	軍への揺るぎない忠誠心をかき立てるアイテム。
+12390100507	An item Assassins use to erase human emotion.	アサシンが人間の感情を消すために使うアイテム。
+12390100506	Metal that shines as brilliantly as the sun.	太陽のようにまばゆく輝く金属。
+12390100505	A four-leaf Lucky Clover.	四つ葉のラッキークローバー。
+12390100504	A gemstone that emits a pink glow.	ピンク色に輝く宝石。
+12390100503	A gemstone that emits a purple glow.	紫色の光を放つ宝石。
+12390100502	A viscous liquid with a glaring color. It really stands out at night.	目に刺さるような色の粘性液体。夜は特によく目立ちます。
+12390100501	A large piece of Scell.	大きなセルのかけら。
+12390100500	Yellow quartz.	黄色い水晶。
+12390100499	A sturdy-looking Insect shell.	丈夫そうな昆虫の殻。
+12390100498	Dried hides curled up into the shape of a circle.	輪の形に丸まった乾燥皮。
+12390100497	A feather imbued with alluring magic.	魅惑の魔力を宿した羽。
+12390100496	Sweet Bananas made by preserving ripe bananas in syrup.	熟したバナナをシロップ漬けにした甘いバナナ。
+12390100495	A high-quality silver Pocket Watch.	高品質な銀の懐中時計。
+12390100494	A large, beautiful, and extremely Rare Feather from a Peco Peco's wing.	ペコペコの翼から採れる、大きく美しい非常に希少な羽。
+12390100493	An item collected from a Beehive.	蜂の巣から採取したアイテム。
+12390100492	A large piece of Jellopy.	大きなゼロピーの塊。
+12390100491	A tiny wing from a Deviruchi.	デビルチの小さな翼。
+12390100490	An item made by exploiting the habits of Thief Bugs.	盗蟲の習性を利用して作られたアイテム。
+12390100489	A beautiful Crystal Fragment. Look closely, and you'll see an eye-shaped Astral Sign at its center.	美しいクリスタルの欠片。よく見ると、中心に目の形をした星の印が見えます。
+12390100488	A clear, transparent gemstone.	透き通った透明な宝石。
+12390100487	A mysterious, transparent cloth that glows.	不思議に光る透明な布。
+12390100486	A sweet, highly nutritious liquid.	甘くて栄養たっぷりの液体。
+12390100485	An unidentified viscous liquid.	未鑑定の粘性液体。
+12390100484	Obtained by skinning an animal.	動物の皮剥ぎで入手。
+12390100483	Quite soft fur.	とても柔らかな毛皮。
+12390100482	A plant with three heart-shaped leaves.	ハート形の葉が3枚ある植物。
+12390100481	Juice pressed from apples.	リンゴを搾ったジュース。
+12390100480	A crystal obtained from certain monsters.	特定のモンスターから得られるクリスタル。
+12390100479	A tough piece of hide from a monster.	モンスターから取れた丈夫な皮。
+12390100478	A bone from an undead Skeleton Soldier.	アンデッドのソルジャースケルトンの骨。
+12390100477	The hard shell of a monster.	モンスターの硬い殻。
+12390100476	A crystal obtained from certain monsters.	特定のモンスターから得られるクリスタル。
+12390100475	A Rare mineral that emits a blue glow.	青い光を放つレア鉱石。
+12390100474	An empty bottle.	空のボトル。
+12390100473	Trunk.	原木。
+12390100472	A special Magic item that can predict and reveal the distant future.	遠い未来を予測し、映し出すことができる特殊な魔法アイテム。
+12390100471	A golden crystal that looks as though it contains the sun.	太陽を閉じ込めたように見える黄金のクリスタル。
+12390100470	A small bead made of glass.	小さなガラス玉。
+12390100469	A Rare Ore that glows Red.	赤く輝くレア鉱石。
+12390100468	A fragment of Yellow jade.	黄色い翡翠の欠片。
+12390100467	A hard, crystal-clear gemstone.	硬く透明な宝石。
+12390100466	A Rare material used for Special Talent Level-up.\nOnce your understanding of a Talent reaches a stable stage,\nits power is formally engraved, becoming an unmistakable mark.	特殊才能のレベルアップに使用するレア素材。\n才能への理解が安定した段階に達すると、\nその力が正式に刻まれ、明確な証となる。
+12390100465	A common material used for Talent Level-up.\nA faint trace left behind through the continued use and understanding of a Talent.	才能のレベルアップに使用される一般的な素材。\n才能を継続して使用し、深く理解することによって残されたかすかな痕跡。
+12390100464	Rare materials for title promotion.	称号昇級用のレア素材。
+12390100463	A Rare Material used to Advance titles.\nIt can also be Dismantled into a lower-Rarity ^{1}Crest of Freedom^{2}.	称号の昇格に使用するレア素材。\n低レアリティの^{1}自由の紋章^{2}に分解することもできる。
+12390100462	A Rare Material used to Advance titles.\nIt can be Combined into a higher-Rarity ^{1}Crest of Moon^{2}, which is used to Advance higher-ranking titles.\nIt can also be Dismantled into a lower-Rarity ^{3}Crest of Conquer^{4}.	称号の進化に使用するレア素材。\nより高レアリティの^{1}月の紋章^{2}へ合成でき、上位称号の進化に使用する。\nまた、低レアリティの^{3}征服の紋章^{4}へ分解することもできる。
+12390100461	A Rare Material used to Advance titles.\nIt can be Combined into a higher-Rarity ^{1}Crest of Freedom^{2}, which is used to Advance higher-ranking titles.\nIt can also be Dismantled into a lower-Rarity ^{3}Crest of Venture^{4}.	称号の進化に使用するレア素材。\nより高レアリティの^{1}自由の紋章^{2}へ合成でき、上位称号の進化に使用する。\nまた、低レアリティの^{3}冒険の紋章^{4}へ分解することもできる。
+12390100460	A Rare Material used to Advance titles.\nIt can be Combined into a higher-Rarity ^{1}Crest of Conquer^{2}, which is used to Advance higher-ranking titles.\nIt can also be Dismantled into a lower-Rarity ^{3}Crest of Journey^{4}.	称号の進化に使用するレア素材。\nより高レアリティの^{1}征服の紋章^{2}へ合成でき、上位称号の進化に使用する。\nまた、低レアリティの^{3}旅の紋章^{4}へ分解することもできる。
+12390100459	A Rare Material used to Advance titles.\nIt can also be Combined into a higher-Rarity ^{1}Crest of Venture^{2}, which is used to Advance higher-ranking titles.	称号の昇格に使用される貴重な素材。\nより高レアリティの^{1}冒険の紋章^{2}に合成することもでき、上位の称号の昇格に使用される。
+12390100458	Some say this dew occasionally forms on the leaves of Yggdrasil. It contains the primal, creative power of Life and can be used for a Pet's Breakthrough.	イグドラシルの葉に時折宿る露だと言われている。命の原初たる創造の力を秘めており、ペットの突破に使用できる。
+12390100457	A by-product of alchemical Pet Hatching. Dismantle to receive @{1} Proficiency.	ペット孵化の錬金過程で生じる副産物。分解すると熟練度@{1}を獲得。
+12390100456	A catalytic medium created from the theoretical "fifth Element." It can Accelerate the creation of a Pet Egg.	理論上の「第五元素」から作られた触媒媒体。ペットの卵の生成を加速できる。
+12390100455	An unusual salt with large grains. One of the Materials used to create a Pet Egg.	粒の大きい珍しい塩。ペットの卵を作る素材のひとつ。
+12390100454	A strangely shaped Green, root-like object. One of the Materials used to create a Pet Egg.	奇妙な形をした緑色の根のような物体。ペットの卵を作る素材のひとつ。
+12390100453	A long Feather from a raven's tail that shimmers with colorful light. One of the Materials used to create a Pet Egg.	虹色の光を放つカラスの長い尾羽。ペットの卵を作るための素材の1つ。
+12390100452	Obtained from Mine Planet Treasure Hunt. Used to purchase appearances from the Appearance Shop.	マインプラネットの宝探しで獲得できます。外見ショップで外見アイテムを購入する際に使用します。
+12390100451	A feline favorite used to draw items in Mine Planet Treasure Hunt.	採掘惑星の宝探しで抽選に使う、猫たちの大好物。
+12390100450	A reward obtained by helping with Guild Caravan submissions.	ギルドキャラバン提出を手伝うと得られる報酬。
+12390100449	Select one S-Rank pet.	Sランクペットを1体選択。
+12390100448	An Emperium that shines brilliantly. According to ancient texts, it appears only before those destined to change the world. Required to create a guild.	眩い輝きを放つエンペリウム。古代の古文書によると、世界を変える運命にある者の前にのみ現れるという。ギルドの創設に必要。
+12390100447	Obtained through Pet Hatching and Pet Shard Dismantling. Can be exchanged for items in the Pet Shop.	ペット孵化およびペットの欠片分解で獲得できます。ペットショップでアイテムと交換できます。
+12390100446	An egg used for Pet Hatching.	ペット孵化に使う卵。
+12390100445	Use to Change Guild Name.	ギルド名変更に使用。
+12390100444	A Pet Care Guide that Records how to form a close bond with a Pet. Use it to grant a Pet @{1} EXP.	ペットとの絆の深め方が記されたペット飼育ガイド。使用するとペットに@{1}EXPを付与します。
+12390100443	A pink gemstone from Daidai's Collector's collection. Can be used for prize wheel draws.	ダイダイのコレクター所蔵のピンク色の宝石。抽選ホイールに使用できる。
+12390100442	A gemstone that glows Green. Can be exchanged for Headwear.	緑色に輝く宝石。頭装備と交換可能。
+12390100441	A gemstone that glows Purple. Can be exchanged for Headwear.	紫色に輝く宝石。頭装備と交換可能。
+12390100440	A gemstone that glows turquoise. Can be exchanged for Headwear.	青緑色に輝く宝石。頭装備と交換可能。
+12390100439	A gemstone that glows Yellow. Can be exchanged for Headwear.	黄色に輝く宝石。頭装備と交換可能。
+12390100438	A gemstone that emits a White glow. Can be exchanged for Headwear.	白い光を放つ宝石。頭装備と交換できます。
+12390100437	A gemstone that emits a Blue glow. Can be exchanged for Headwear.	青い光を放つ宝石。頭装備と交換できます。
+12390100436	A gemstone that emits a deep Red glow. Can be exchanged for Headwear.	深い赤色の光を放つ宝石。頭装備と交換できます。
+12390100435	A gemstone that emits a pink glow. Can be exchanged for Headwear.	ピンク色の光を放つ宝石。頭装備と交換できます。
+12390100434	A fragment of a star. Can be exchanged for Headwear.	星の欠片。頭装備と交換可能。
+12390100433	An orb symbolizing the sun god. Its dazzling Gold radiance is almost blinding. Can be exchanged for Headwear.	太陽神を象徴するオーブ。まばゆい黄金の輝きは目がくらむほど。頭装備と交換できる。
+12390100432	A small glass bead often used as a toy by children. Can be exchanged for Headwear.	子どもの玩具によく使われる小さなガラス玉。頭装備と交換できる。
+12390100431	A four-leaf Lucky Clover. Legend says it brings good LUK. Can be exchanged for Headwear.	四つ葉のラッキークローバー。幸運を呼ぶと伝えられている。頭装備と交換可能。
+12390100430	A Hand of God imbued with profound religious significance. Can be exchanged for Headwear.	深い宗教的意味を持つ「神の手」。頭装備と交換可能。
+12390100429	A Trunk. Can be exchanged for Headwear.	丸太。ヘッドギアと交換できます。
+12390100428	Beautiful silver fur. Can be exchanged for Headwear.	美しい銀色の毛皮。頭装備と交換可能。
+12390100427	The Red heart of an Obeaune. It always looks like it's still beating. Can be exchanged for Headwear.	オボンヌの赤い心臓。今にも鼓動しているように見えます。頭装備と交換できます。
+12390100426	A dragon scale as hard as Steel. Legend says it provides exceptional resistance to both cold and heat. Can be exchanged for Headwear.	鋼鉄のように硬いドラゴンの鱗。伝説によると耐寒性と耐熱性に極めて優れているという。頭装備と交換可能。
+12390100425	A Metal that shines as brilliantly as the sun. Though difficult to work with, its rarity undoubtedly makes it extremely valuable among metals. Can be exchanged for Headwear.	太陽のように眩しく輝く金属。加工は難しいが、その希少性ゆえに金属の中でも極めて高い価値を持つ。頭装備と交換可能。
+12390100424	A crystal obtained from certain monsters. Can be exchanged for Headwear.	一部のモンスターから入手できるクリスタル。頭装備と交換できます。
+12390100423	A Plant that glows alone at midnight in a forest seldom visited by people. It is said that heaven can be seen in its light, but its glow fades if the flower is picked. Can be exchanged for Headwear.	人の訪れがほとんどない森で、真夜中にひっそり光る植物。その光の中には天国が見えると言われるが、花を摘むと輝きは消えてしまう。頭装備と交換できる。
+12390100422	A fairy's whiskers. Can be exchanged for Headwear.	妖精のひげ。頭装備と交換可能。
+12390100421	A Single Cell. Can be exchanged for Headwear.	セル1個。頭装備と交換できます。
+12390100420	A Deviruchi horn. Can be exchanged for Headwear.	デビルチの角。頭装備と交換できます。
+12390100419	Iron strengthened by repeatedly soaking it in a special Potion. Can be exchanged for Headwear.	特殊な薬液に何度も浸して強化した鉄。頭装備と交換できます。
+12390100418	Alice's Apron. Can be exchanged for Headwear.	アリスのエプロン。頭装備と交換できます。
+12390100417	A Tiger's Footskin said to be very beneficial to one's health. Can be exchanged for Headwear.	健康に良いとされる虎の足皮。頭装備と交換可能。
+12390100416	A Plant with three heart-shaped leaves that blooms with White flowers from month @{1} to month @{2}. Four-leaf specimens can sometimes be found. This Plant is called a Lucky Clover, and Legend says it brings good LUK. Can be exchanged for Headwear.	ハート形の葉を3枚つけ、@{1}月から@{2}月に白い花を咲かせる植物。まれに四つ葉のものも見つかります。この植物はラッキークローバーと呼ばれ、幸運をもたらすと言い伝えられています。頭装備と交換できます。
+12390100415	A Fox tail. Can be exchanged for Headwear.	キツネの尻尾。頭装備と交換可能。
+12390100414	A crystal obtained from certain monsters. Can be exchanged for Headwear.	一部のモンスターから入手できるクリスタル。頭装備と交換できます。
+12390100413	An empty bottle. Can be exchanged for Headwear.	空き瓶。頭装備と交換できます。
+12390100412	A Plant's long, slender stem. Can be exchanged for Headwear.	植物の細長い茎。頭装備と交換可能。
+12390100411	Liquid oozing from damaged Tree Bark. Can be exchanged for Headwear.	傷ついた樹皮から染み出した液体。頭装備と交換できます。
+12390100410	A tuft of hair dropped by Muffin. It still has a bit of a smell. Can be exchanged for Headwear.	マフィンが落とした毛の束。まだ少し臭いが残っています。頭装備と交換できます。
+12390100409	Soft mold powder. Can be exchanged for Headwear.	柔らかい型粉。頭装備と交換できます。
+12390100408	A hard beak obtained from a Flying monster or Brute. Can be exchanged for Headwear.	飛行モンスターや動物形から取れる硬いくちばし。頭装備と交換できる。
+12390100407	Cow's milk, considered the most nutritious food for a Child during the Growth Stage. Can be exchanged for Headwear.	成長期の子どもに最も栄養価が高いとされる牛乳。頭装備と交換できる。
+12390100406	Fur skinned from a Brute. Can be exchanged for Headwear.	動物から剥ぎ取った毛皮。頭装備と交換可能。
+12390100405	Fur from a Flying monster or Brute. Can be exchanged for Headwear.	飛行型モンスターまたは動物系モンスターの毛。頭装備と交換できます。
+12390100404	A monster's hard shell. Can be exchanged for Headwear.	モンスターの硬い殻。頭装備と交換可能。
+12390100403	A common Arrow that can be found anywhere. Can be exchanged for Headwear.	どこでも見つかる一般的な矢。頭装備と交換できます。
+12390100402	Used to unlock Muka Emotes.	ムカのエモート解放に使用。
+12390100401	Used to unlock Deviling Emotes.	デビルリングのエモート解放に使用。
+12390100400	Used to unlock various Emotes.	各種エモートの解放に使用。
+12390100399	Use to receive Advanced Guild Benefits.	使用すると上級ギルド特典を受け取れます。
+12390100398	Use to receive Intermediate Guild Benefits.	使用すると中級ギルド特典を獲得。
+12390100397	Use to receive Beginner Guild Benefits.	使用すると初心者ギルド特典を受け取れます。
+12390100396	Use to send every guild Member except each Temporary Member an Advanced Pack by mail. The Pack contains advanced growth Material.	使用すると、仮メンバーを除く全ギルドメンバーに上級パックがメールで届きます。パックには上級育成素材が入っています。
+12390100395	Use to send every guild Member except each Temporary Member an Intermediate Pack by mail. The Pack contains intermediate growth Material.	使用すると、仮メンバーを除く全ギルドメンバーへ中級パックがメールで送られます。パックには中級の育成素材が入っています。
+12390100394	Use to send every guild Member except each Temporary Member a Basic Pack by mail. The Pack contains basic growth Material.	使用すると、臨時メンバーを除くギルドメンバー全員にベーシックパックがメールで送られます。パックには基本的な育成素材が入っています。
+12390100393	Use to unlock the guild Frame: Hunting Emblem · Executioner.	ギルドフレーム「狩猟エンブレム・処刑者」を解放。
 250091	Suggested Build: ${1}	おすすめビルド：${1}
+12390100392	Use to unlock the guild Frame: Hunting Emblem · Conqueror.	ギルドフレーム「狩猟エンブレム・征服者」を解放。
+12390100391	Use to unlock the guild Frame: Hunting Emblem · Pursuer.	ギルドフレーム「狩猟エンブレム・追跡者」を解放。
+12390100390	Use to unlock the guild Frame: Hunting Emblem · Warden.	使用するとギルドフレーム「狩猟エンブレム・番人」を解放。
+12390100389	Use to unlock the guild emblem frame: Starcrown Ring.	使用するとギルドエンブレムフレーム「スタークラウンリング」を解放。
+12390100388	Use to unlock the guild emblem frame: Dark Crystal Ring.	ギルドエンブレムフレーム「ダーククリスタルリング」を解放。
+12390100387	Use to unlock the guild emblem frame: Frostsky Ring.	使用するとギルドエンブレムフレーム「フロストスカイリング」を解放。
+12390100386	Use to unlock the Guild Emblem: Proof of the Hunt · Executioner.	ギルドエンブレム「狩りの証・処刑者」を解放。
+12390100385	Use to unlock the Guild Emblem: Proof of the Hunt · Conqueror.	ギルドエンブレム「狩りの証・征服者」を解放。
+12390100384	Use to unlock the Guild Emblem: Proof of the Hunt · Pursuer.	ギルドエンブレム「狩りの証・追跡者」を解放。
+12390100383	Use to unlock the Guild Emblem: Proof of the Hunt · Warden.	ギルドエンブレム「狩りの証・番人」を解放。
+12390100382	Use to unlock the guild emblem design: Little Flower.	使用するとギルドエンブレムデザイン「小花」を解放。
+12390100381	Use to unlock the guild emblem design: Castle.	使用するとギルドエンブレム「キャッスル」を解放。
+12390100380	Use to unlock the guild emblem design: Shield.	使用するとギルドエンブレム「シールド」を解放。
+12390100379	Use to unlock the guild emblem design: Order of Ten Thousand Cities.	使用するとギルドエンブレムデザイン「万城騎士団」を解放します。
+12390100378	Use to unlock the guild emblem design: Primordial Chaos.	ギルドエンブレムデザイン「原初の混沌」を解放。
+12390100377	Use to unlock the guild emblem design: God of Nature.	使用するとギルドエンブレムデザイン「自然神」を解放。
+12390100376	In the glow of the Bonfire, the words in the manual seem to dance. After reading a few lines, your body begins to feel unfamiliar yet adorable again...\n^{1}Effect: Can only be used after you Transform at the Poring Party. Use it to randomly change your transformed appearance again.^{2}	焚き火の光の中、マニュアルの文字が踊って見える。数行読み進めると、身体がまた見慣れないけれど可愛らしい感覚に変わっていく……\n^{1}効果：ポリンパーティで変身した後にのみ使用できます。使用すると変身後の見た目をもう一度ランダムに変更します。^{2}
+12390100375	Place it in the Guild Bonfire to generate @{1} random Orange Quality stat, which will randomly replace @{2} of the Bonfire's current stats.	ギルドの篝火に入れると、ランダムな橙色品質のステータスが@{1}個生成され、現在の篝火のステータス@{2}個とランダムに入れ替わります。
+12390100374	Place it in the Guild Bonfire to generate @{1} random Purple Quality stat, which will randomly replace @{2} of the Bonfire's current stats.	ギルドの篝火に入れると、ランダムな紫色品質のステータスが@{1}個生成され、現在の篝火のステータス@{2}個とランダムに入れ替わります。
+12390100373	Place it in the Guild Bonfire to generate @{1} random Blue Quality stat, which will randomly replace @{2} of the Bonfire's current stats.	ギルドの篝火に入れると、ランダムな青色品質のステータスが@{1}個生成され、現在の篝火のステータス@{2}個とランダムに入れ替わります。
+12390100372	Equip it to a Constellation in Astral Level to gain attribute bonuses.	星界レベルの星座に装備すると、属性ボーナスを獲得します。
+12390100371	An Adventurer Guild profile card unlock item. Use it to unlock the ^{1}Netherworld - Shattered Tower^{2} Adventurer Guild profile card.	冒険者ギルドのプロフィールカード解放アイテム。使用すると冒険者ギルドプロフィールカード「^{1}黄泉 - 砕かれた塔^{2}」が解放される。
+12390100370	A Tavern gift item purchased from the Shop.\nSelect a player in a Tavern room to send them this gift. The recipient gains ^{1}@{1} Star Power^{2}, while the room gains ^{3}@{2} Popularity^{4}.	ショップで購入できる酒場用ギフトアイテム。\n酒場のルーム内でプレイヤーを選択して贈ることができる。受取人は^{1}@{1}スターパワー^{2}、ルームは^{3}@{2}人気度^{4}を獲得する。
+12390100369	A Tavern gift item obtained by completing daily Tavern quests.\nSelect a player in a Tavern room to send them this gift. The recipient gains ^{1}@{1} Star Power^{2}, while the room gains ^{3}@{2} Popularity^{4}.	酒場のデイリークエストを達成すると入手できる酒場用ギフトアイテム。\n酒場のルーム内でプレイヤーを選択して贈ることができる。受取人は^{1}@{1}スターパワー^{2}、ルームは^{3}@{2}人気度^{4}を獲得する。
+12390100368	Material used to Craft an Accessory.	アクセサリー製作に使う素材。
+12390100367	Material used to Craft Clothes, Pauldrons, or Shoes.	服・肩装備・靴の製作に使う素材。
+12390100366	Material used to Craft a Weapon or shield.	武器やシールドの製作に使用する素材。
+12390100365	A hard, lustrous crystal. Can be used for Equipment Forging.	硬く光沢のあるクリスタル。装備鍛造に使用可能。
+12390100364	An Astral Sign imbued with mysterious power. Can be used for Equipment Forging.	神秘的な力を宿すアストラルサイン。装備製造に使用可能。
+12390100363	A sturdy yet beautiful stone used to add sockets to equipment.	装備にスロットを追加するための丈夫で美しい石。
+12390100362	Used for card Level-up.	カードのレベルアップに使用。
+12390100361	Obtained by dismantling Purple Cards. Can be used for the Level-up of red and Orange Cards.	紫カードの解体で入手。赤・オレンジカードのレベルアップに使用できる。
+12390100360	Obtained by dismantling blue and green cards. Can be used to purchase cards.	青・緑カードを分解すると獲得できます。カードの購入に使用できます。
+12390100359	A ticket that increases the maximum number of storage slots.	倉庫スロット上限を増やすチケット。
+12390100358	A ticket that increases the maximum number of Backpack slots.	バックパックスロット上限を増やすチケット。
+12390100357	Pressing the button produces a blue flash. Anyone who sees the light seems to forget part of their memory, allowing their skill tree to be wiped clean.\n^{1}Use: Resets allocated skill points^{2}	ボタンを押すと青い閃光が走る。その光を見た者は記憶の一部を失ったようになり、スキルツリーをまっさらな状態へ戻せる。\n^{1}使用：配分済みスキルポイントをリセット^{2}
+12390100356	Rumor has it that anyone who understands this fragment can return their attributes to their Initial state.\n^{1}Use: Resets allocated stat points^{2}	この欠片を理解した者は、自身のステータスを初期状態に戻すことができるという噂がある。\n^{1}使用：配分済みステータスポイントをリセット^{2}
+12390100355	Fabric woven from threads that have bathed in starlight for years, gathering the mysterious power of the stars. It grants greater power to armor.\n^{1}Use: Can be used to Enhance armor from +@{1} to +@{2}^{2}	長年星明かりを浴びた糸で織られ、星の神秘的な力を宿した布。防具にさらなる力を与える。\n^{1}使用：+@{1}～+@{2}の防具の強化に使用できる^{2}
+12390100354	A premium @{1}-carat diamond whose dazzling, laser-like brilliance grants greater power to weapons and accessories.\n^{1}Use: Can be used to Enhance weapons and accessories from +@{2} to +@{3}^{2}	まばゆいレーザーのような輝きを放ち、武器やアクセサリーにさらなる力を与える高品質な@{1}カラットダイヤモンド。\n^{1}使用：+@{2}～+@{3}の武器およびアクセサリーの強化に使用できる^{2}
+12390100353	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine an Accessory. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	すべての職人が欲しがる、ドワーフの国ヴァルトアルヘイム産の極めて貴重な鉱石。\n^{1}効果：アクセサリーの精錬に使用する。成功率が上昇し、精錬失敗時の精錬値低下や破損を防ぐ。^{2}
+12390100352	An ore from the dwarven realm of Wat Alheim, said to have received the Blessing of a legendary dwarven craftsman.\n^{1}Effect: Used to Refine an Accessory. Prevents level loss if Refinement Failed.^{2}	伝説のドワーフ職人の祝福を受けたとされる、ドワーフの国ヴァルトアルヘイム産の鉱石。\n^{1}効果：アクセサリーの精錬に使用する。精錬失敗時も精錬値が低下しない。^{2}
+12390100329	At the ^{3}northeasternmost corner^{4} of the fields ^{1}outside Prontera West Gate^{2}, an abandoned ^{5}camp Bonfire^{6} sits on a grassy slope. The mix of fresh and old straw nearby warrants a closer look.	^{1}プロンテラ西門の外^{2}に広がる草原の^{3}北東端^{4}、草の斜面に使われなくなった^{5}焚き火跡^{6}がある。周囲には新しい藁と古い藁が混ざっており、詳しく調べる価値がありそうだ。
+12390100328	The ^{1}northwestern corner of Prontera^{2} is a favorite gathering place for knights. The treasure is buried ^{3}beneath the large tree beside the shop directly behind them^{4}.	^{1}プロンテラ北西部^{2}は騎士たちのお気に入りの集い場です。宝は^{3}彼らの真後ろにある店のそばの大木の下^{4}に埋められています。
+12390100327	At the very back of the ^{1}Prontera Library^{2}, find the ^{3}bookshelf^{4} that looks untouched. Its corners are sealed beneath thick dust, and the secret lies within.	^{1}プロンテラ図書館^{2}の最奥で、誰にも触れられていないような^{3}本棚^{4}を探せ。角は厚い埃に覆われ、その中に秘密が眠っている。
+12390100326	In the most peaceful corner of the courtyard behind the ^{1}Prontera Inn^{2}, look ^{3}between the bench and the flowers^{4} for the patch of ground most often brushed by birds' wings.	^{1}プロンテラ宿屋^{2}の裏庭にある最も静かな一角で、^{3}ベンチと花の間^{4}を探してください。鳥の翼が最もよく触れる地面に秘密があります。
+12390100325	Beneath the dappled shade of the ^{3}third tree^{4} in front of the ^{1}Prontera Church^{2}, seek the spot where the most devout monk once stood for hours. His personal gift is hidden there.	^{1}プロンテラ教会^{2}前にある^{3}3本目の木^{4}の木漏れ日の下で、最も敬虔な修道士が何時間も立ち続けた場所を探せ。彼の個人的な贈り物がそこに隠されている。
+12390100324	The target lies ^{1}in front of the statue of Odin in Prontera Plaza^{2}. Follow the direction indicated by the tip of its hoof to Discover the hidden object ^{3}in the gap between the bench and the stone steps^{4}.	目標は^{1}プロンテラ広場のオーディン像正面^{2}にある。蹄の先が示す方向をたどり、^{3}ベンチと石段の隙間^{4}に隠された物を見つけよう。
+12390100323	Part of what appears to be a map. It radiates a magical aura.	地図の一部らしい。魔力を帯びている。
+12390100322	A map drawn by ancient emperors to mark their most precious treasures. To keep others from coveting them, they tore the map into fragments and hid them in different places.	古代の皇帝たちが最も大切な宝の場所を記すために描いた地図。他人に狙われないよう、地図をいくつもの欠片に破り、各地へ隠したという。
+12390100321	An old Treasure Map that may just be someone's idle scribbling.	古い宝の地図。誰かの落書きに見えなくもない。
+12390100320	Contains valuable progression resources for the next Season. Can be opened and used next Season. Be sure to keep it safe.	次シーズンの貴重な育成素材が入っています。次のシーズンに開封して使用できます。大切に保管してください。
+12390100319	A translucent, emerald-green Crystal orb with a new sprout growing inside. Can be used to craft a Memory Coffer during the Gift of Time event.	内部で新しい若葉が育っている、半透明のエメラルドグリーンのクリスタルオーブ。「時の贈り物」イベント期間中に記憶の小箱を製作するのに使用できる。
+12390100318	A translucent, dark-purple Crystal orb containing embers that have yet to burn out. Can be used to craft a Memory Coffer during the Gift of Time event.	まだ燃え尽きていない残り火を宿した、半透明の濃紫色の水晶玉。「時間の贈り物」イベント期間中に記憶の小箱を製作するのに使用できる。
+12390100317	A translucent, silver-gray Crystal orb with mist swirling inside. Can be used to craft a Memory Coffer during the Gift of Time event.	内部に霧が渦巻く半透明の灰銀色の水晶玉。「時間の贈り物」イベント期間中に記憶の小箱を製作するのに使用できる。
+12390100316	A translucent, golden Crystal orb filled with shimmering, dancing starlight. Can be used to craft a Memory Coffer during the Gift of Time event.	輝き揺らめく星明かりが満ちた、半透明の黄金色の水晶玉。「時間の贈り物」イベント期間中に記憶の小箱を製作するのに使用できる。
+12390100315	A translucent, deep-blue Crystal orb with what appears to be waves rolling inside. Can be used to craft a Memory Coffer during the Gift of Time event.	内部で波がうねっているかのように見える、半透明の濃紺色の水晶玉。「時間の贈り物」イベント期間中に記憶の小箱を製作するのに使用できる。
+12390100314	Used to purchase items from the shop during the Novice Challenge event.	ノービスチャレンジイベント期間中、ショップでアイテムを購入するために使用します。
+12390100313	Tap to gift a pass to a friend.	タップしてフレンドにパスを贈る。
+12390100312	A scroll imbued with Magic that can be used for Equipment Enchantment.\n^{1}Effect: Can be used for Equipment Enchantment^{2}	魔力が込められた巻物。装備のエンチャントに使用できます。\n^{1}効果：装備エンチャントに使用可能^{2}
+12390100311	A mane dropped by the boss. Exceptionally tough.	BOSSが落とすたてがみ。非常に丈夫。
+12390100310	The snake that laid this egg must be huge.	この卵を産んだ蛇は相当大きいはず。
+12390100309	They say this is an extremely expensive medicinal ingredient in Payon.	フェイヨンでは非常に高価な薬材だと言われています。
+12390100308	Willow bark really is tougher than ordinary Tree Bark!	ウィローの樹皮って普通の樹皮より本当に丈夫なんだ！
+12390100307	Professor Ryan's experimental results.	ライアン教授の実験結果。
+12390100306	Professor Ryan's notebook.	ライアン教授のノート。
+12390100305	Proof that you passed the Novice Trial! You'll need it for your Job Advance~	ノービス試練に合格した証！転職に必要になるよ～
+12390100304	A flatbread left sitting for a long time. It can stave off hunger and provide a beneficial effect.	長い間置かれていた平たいパン。空腹をしのぎ、有益な効果を得られます。
+12390100303	A precious flower that murmurs to itself even when no one is listening. It's the Rocker's favorite item.	誰も聞いていなくてもひそひそと囁く貴重な花。ロッカーの大好物です。
+12390100302	Eddga surely never imagined someone would do this to him for such a reason	まさかエドガも、こんな理由で自分がこんな目に遭うとは思わなかっただろう。
+12390100301	An extremely sticky liquid obtained from a Willow.	ウィローから得られる非常に粘り気の強い液体。
+12390100300	Testimony obtained by investigating Clive.	クライブを調査して得た証言。
+12390100299	Testimony obtained by investigating Nita.	ニタを調査して得た証言。
+12390100298	Testimony obtained by investigating Hollgrehenn.	ホルグレンを調査して得た証言。
+12390100297	Maya's loyal servant. It can smell its master even from thousands of miles away.	マヤーに忠実な従者。何千里離れていても主の匂いを嗅ぎ分ける。
+12390100296	Use on a map where Caravan Escort is active to Go to Map's nearest Teleport station	キャラバン護衛開催中のマップで使用すると、最寄りの転送ステーションへ移動
+12390100295	Use on a map where Caravan Escort is active to Go to Map's nearest outpost	キャラバン護衛開催中のマップで使用すると、マップ内の最寄りの前哨基地へ移動します。
+12390100294	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: High\nAdditional Effect: Blind\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：高\n追加効果：暗闇\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100293	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: High\nAdditional Effect: Heals allied targets\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：高\n追加効果：味方対象を回復\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100292	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: High\nAdditional Effect: Chain Lightning\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：高\n追加効果：チェインライトニング\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100291	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: Low\nAdditional Effect: Heals allied targets\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：低\n追加効果：味方対象を回復\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100290	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: Medium\nAdditional Effect: Poring shells Split into more Poring shells upon landing\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2} m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射数：@{7}\n照準時間：@{8}秒\n装填時間：@{9}秒\nダメージ：中\n追加効果：ポリン弾は着弾時にさらに複数のポリン弾へ分裂します\n設置後は移動できません。適切な場所に建設して最大火力を発揮しましょう。
+12390100289	Use to create a Madogear Pilot repair zone for @{1} seconds. Madogear Pilots within the zone can be repaired.	使用すると@{1}秒間、魔導ギア修理エリアを展開する。エリア内の魔導ギアを修理できる。
+12390100288	A Peco Peco equipped with a Vulcan cannon.	バルカンキャノンを装備したペコペコ。
+12390100287	A steel tank equipped with weapons such as a flamethrower and mortar. Operated by a crew of three.	火炎放射器や迫撃砲などの武装を搭載した鋼鉄製戦車。3人の乗員で操作します。
+12390100286	A Madogear Pilot made of adamantine, a material ten times heavier than steel. It represents the pinnacle of Physical DEF.	鋼鉄の10倍の重量を持つアダマンタイトで作られた魔導ギア。物理防御力の頂点を象徴しています。
+12390100285	A Madogear Pilot made of exceptionally Rare mithril with incredible hardness.	非常に希少なミスリルで作られた、驚異的な硬度を誇る魔導ギアパイロット。
+12390100284	A Madogear Pilot crafted from Steel refined and combined from Iron Ore. The Material is @{1}% stronger than pure iron.	鉄鉱石から精錬した鋼鉄で製作された魔導ギア。素材強度は純鉄より@{1}%高くなっています。
+12390100283	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: Low\nAdditional Effect: Burn\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：低\n追加効果：燃焼\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100282	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: High\nAdditional Effect: Knockback\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：高\n追加効果：ノックバック\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100281	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: High\nAdditional Effect: Burn\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：高\n追加効果：燃焼\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100280	Range: @{1}-@{2} m\nVertical Firing Arc: @{3}-@{4} degrees\nHorizontal Firing Arc: @{5} degrees\nAmmo Capacity: @{6} rounds\nRounds per Launch: @{7}\nAim Time: @{8} sec\nReload Time: @{9} sec\nDamage: Medium\nAdditional Effect: Knockback\nCannot move after construction. Find a good spot to build it and unleash its full firepower.	射程：@{1}-@{2}m\n垂直射角：@{3}-@{4}度\n水平射角：@{5}度\n装弾数：@{6}発\n1回の発射弾数：@{7}\n照準時間：@{8}秒\nリロード時間：@{9}秒\nダメージ：中\n追加効果：ノックバック\n建造後は移動できません。適切な場所へ設置し、火力を最大限に発揮しましょう。
+12390100279	Even a tiny balloon can express your feelings~\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}	小さな風船でも気持ちは伝えられるよ～\n^{1}親密度+@{1}、受取人の人気度+@{2}、自分のハート+@{3}
+12390100278	Twinkling stars and blooming Fireworks are all saying, "I love you"~\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}\nGiving this gift will trigger an Entire Server announcement!	きらめく星も咲き誇る花火も、みんな「愛してる」と囁いているよ～\n^{1}親密度+@{1}、受取人の人気度+@{2}、自分のハート+@{3}\nこのギフトを贈ると全サーバー告知が流れます！
+12390100277	Fireworks dance like dreams upon the breeze as the tender night keeps you company.\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}\nGiving this gift will trigger an Entire Server announcement!	花火が夢のように風に舞い、優しい夜があなたに寄り添う。\n^{1}親密度+@{1}、受取人の人気度+@{2}、自分のハート+@{3}\nこのギフトを贈ると全サーバー告知が流れます！
+12390100276	Fireworks and love both last forever in a single fleeting moment!\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}\nGiving this gift will trigger an Entire Server announcement!	花火も愛も、一瞬のきらめきの中で永遠になる！\n^{1}親密度+@{1}、受取人の人気度+@{2}、自分のハート+@{3}\nこのギフトを贈ると全サーバー告知が流れます！
+12390100275	An extravagant, sparkly balloon that brings happiness to its recipient. Give it to someone special!\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}\nGiving this gift will trigger an Entire Server announcement!	贈られた人を幸せにする、豪華でキラキラしたバルーン。大切な人に贈ろう！\n^{1}親密度 +@{1}、相手の人気度 +@{2}、自分のハート +@{3}\nこのギフトを贈ると、全サーバー告知が流れます！
+12390100274	A cute, sparkly balloon. Give it to someone special!\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}\nGiving this gift will trigger an Entire Server announcement!	かわいくてキラキラしたバルーン。大切な人に贈ろう！\n^{1}親密度 +@{1}、相手の人気度 +@{2}、自分のハート +@{3}\nこのギフトを贈ると、全サーバー告知が流れます！
+12390100273	A sparkly balloon that everyone is sure to love~\n^{1}Intimacy +@{1}, recipient's Popularity +@{2}, your Hearts +@{3}^{2}Dear\nGiving this gift will trigger an Entire Server announcement!	みんながきっと喜ぶキラキラのバルーン～\n^{1}親密度 +@{1}、相手の人気度 +@{2}、自分のハート +@{3}^{2}Dear\nこのギフトを贈ると、全サーバー告知が流れます！
+12390100272	Toot, toot, toot! Use this special Lunatic Horn to shout to everyone and trigger a special shout effect	プップップー！この特製ルナティックホーンを使ってみんなに叫び、特別なシャウト演出を発動しよう！
+12390100271	Toot, toot, toot! Use this special Deviruchi Horn to shout to everyone and trigger a special shout effect.	プップップー！この特製デビルチホーンを使ってみんなに叫び、特別なシャウト演出を発動しよう！
+12390100270	Toot, toot, toot! Use a Small Horn to shout to everyone.	プップー！小さな角笛でみんなに呼びかけよう。
+12390100269	An arrow made of solid rock and imbued with the power of earth.\n^{1}Equipping Stone Arrow with a bow changes your attack property to Earth.^{2}	固い岩石で作られ、大地の力が込められた矢。\n^{1}ストーンアローを弓に装備すると、攻撃属性が地属性に変化する。^{2}
+12390100268	A Magic Arrow imbued with the power of a raging gale and the power of Wind.\n^{1}When Arrow of Wind is equipped on a Bow, attacks become Wind property.^{2}	吹き荒れる突風の力と風の魔力を帯びた魔法の矢。\n^{1}風の矢を弓に装備すると、攻撃が風属性になる。^{2}
+12390100267	A silver arrow imbued with holy power.\n^{1}Equipping Silver Arrow with a bow changes your attack property to Holy.^{2}	聖なる力を宿した銀の矢。\n^{1}弓にシルバーアローを装備すると、攻撃属性が聖属性に変化します。^{2}
+12390100266	An arrow made of Crystal and imbued with the power of water.\n^{1}Equipping Crystal Arrow with a bow changes your attack property to Water.^{2}	クリスタルで作られ、水の力を宿した矢。\n^{1}クリスタルアローを弓と一緒に装備すると、攻撃属性が水属性に変化する。^{2}
+12390100265	An arrow with a tip that can be set ablaze.\n^{1}Equipping Fire Arrow with a bow changes your attack property to Fire.^{2}	先端に火を灯すことができる矢。\n^{1}弓に火の矢を装備すると、攻撃属性が火属性に変化します。^{2}
+12390100264	An arrow made of steel with considerable attack power.	かなりの攻撃力を持つ鋼鉄製の矢。
+12390100263	A common Arrow that can be obtained anywhere.	どこでも手に入る一般的な矢。
+12390100262	Legend says this leaf fell from Yggdrasil. It contains immense Life energy and can Revive a Character who can no longer Battle	イグドラシルの樹から落ちたと伝えられる葉。膨大な生命力を宿しており、戦闘不能になったキャラクターを蘇生できます。
+12390100261	A branch steeped in countless years of suffering and bound by a blood pact. It can summon more powerful monsters. (This item can only be used on certain maps.)	幾重もの苦難に浸され、血の盟約によって縛られた小枝。より強力なモンスターを召喚できる。（このアイテムは特定のマップでのみ使用可能。）
+12390100260	An ancient branch imbued with magic. Its mysterious power can summon any living creature. (This item can only be used on certain maps.)	魔力が込められた古い木の枝。不思議な力であらゆる生き物を召喚できる。（このアイテムは特定のマップでのみ使用可能。）
+12390100259	A Fly Wing imbued with spatial Magic. Use it to Move to a random location on the current map.	空間魔法を宿したハエの羽。使用すると現在のマップ内のランダム地点へ移動する。
+12390100258	A Butterfly Wing imbued with spatial Magic. Use it to Move to a selected town or Field on the Midgard continent.	空間魔法を宿した蝶の羽。使用するとミッドガルド大陸の選択した街またはフィールドへ移動できる。
+12390100257	A sparkling, translucent green seed. Use to permanently increase Max Life by @{1}.	きらめく半透明の緑色の種。使用すると最大HPを永久に@{1}増加。
+12390100256	A faintly glowing Crystal shield. Use to permanently increase Magic DEF by @{1}.	淡く光るクリスタルシールド。使用すると魔法DEFを永久に@{1}増加。
+12390100240	Freshly squeezed Grape and Lemon juices blended into a bright, sweet-and-tart drink. Increases Magic DEF by @{1}~@{2} for @{3} hours.	絞りたてのブドウ果汁とレモン果汁をブレンドした、鮮やかで甘酸っぱいドリンク。@{3}時間、魔法防御力が@{1}〜@{2}増加する。
+12390100239	Grape powder dissolved in sparkling water, topped with persistent purple-red foam. Increases Physical DEF by @{1}~@{2} for @{3} hours.	炭酸水にブドウパウダーを溶かし、消えにくい赤紫色の泡を浮かべた一杯。@{3}時間、物理防御力が@{1}〜@{2}増加する。
+12390100238	Lemon and herbs infused in Alcohol until as clear as Crystal. Increases Life by @{1}~@{2} for @{3} hours.	レモンとハーブを水晶のように澄むまでアルコールに漬け込んだもの。@{3}時間、HPが@{1}～@{2}増加します。
+12390100237	A deep purple cocktail of Grape juice, Lemon juice, and Alcohol, shaken well. Increases Magic ATK by @{1}~@{2} for @{3} hours.	ブドウ果汁、レモン果汁、アルコールをよくシェイクした濃い紫色のカクテル。@{3}時間、魔法攻撃力が@{1}～@{2}増加します。
+12390100236	Slow-fermented Grape wine with a deep purple hue and herbal finish. Increases Physical ATK by @{1}~@{2} for @{3} hours.	じっくり発酵させた濃い紫色のブドウ酒。ハーブの余韻が残る一杯。物理攻撃力が@{1}～@{2}、@{3}時間増加します。
+12390100235	Strawberry and cocoa melted into warm Milk, creating a rich pinkish-brown drink. Increases Magic DEF by @{1}~@{2} for @{3} hours.	イチゴとココアを温かいミルクに溶かし込んだ、濃厚なピンクがかった茶色のドリンク。@{3}時間、魔法防御力が@{1}〜@{2}増加する。
+12390100234	A thick pink milkshake blended from strawberries and Milk. Increases Physical DEF by @{1}~@{2} for @{3} hours.	イチゴとミルクを混ぜた濃厚なピンク色のミルクシェイク。@{3}時間、物理防御力が@{1}～@{2}増加する。
+12390100233	Thick hot cocoa flavored with vanilla and topped with fine Milk foam. Increases Life by @{1}~@{2} for @{3} hours.	バニラ風味の濃厚ホットココアに、きめ細かなミルクフォームをのせた一杯。@{3}時間、HPが@{1}～@{2}増加する。
+12390100232	Round strawberry-and-cocoa-filled candies coated in a hard sugar shell. Increases Magic ATK by @{1}~@{2} for @{3} hours.	イチゴとココアを詰め、硬い砂糖でコーティングした丸いキャンディ。魔法攻撃力が@{1}～@{2}、@{3}時間増加します。
+12390100231	Strawberry juice boiled into amber hard candy and broken into shards. Increases Physical ATK by @{1}~@{2} for @{3} hours.	イチゴの果汁を煮詰めて琥珀色のハードキャンディにし、砕いたもの。@{3}時間、物理攻撃力が@{1}～@{2}増加します。
+12390100230	A coarse, thick flatbread baked from Grains flour mixed with monster meat and chili peppers. Increases Magic DEF by @{1}~@{2} for @{3} hours.	穀粉にモンスターの肉と唐辛子を混ぜて焼き上げた、厚みのある素朴なフラットブレッド。@{3}時間、魔法防御が@{1}～@{2}増加する。
+12390100229	Monster meat marinated in chili sauce and seared on a griddle until crisp outside and tender within. Increases Physical DEF by @{1}~@{2} for @{3} hours.	チリソースに漬け込んだ魔物の肉を、外はカリッと中は柔らかくなるまで鉄板で焼き上げた料理。@{3}時間、物理防御力が@{1}～@{2}増加する。
+12390100228	Fresh mushrooms skewered and charcoal-grilled until browned outside and plump within. Increases Life by @{1}~@{2} for @{3} hours.	外はこんがり、中はふっくらとなるよう炭火で串焼きにした新鮮なキノコ。@{3}時間、HPが@{1}〜@{2}増加する。
+12390100227	Mushrooms and tomatoes simmered together into a fragrant amber broth. Increases Magic ATK by @{1}~@{2} for @{3} hours.	キノコとトマトを一緒に煮込み、香り豊かな琥珀色のスープに仕上げた料理。魔法攻撃力が@{1}～@{2}、@{3}時間増加します。
+12390100226	Slow-simmered tomatoes reduced into a rich orange-red broth with a robust tangy aroma. Increases Physical ATK by @{1}~@{2} for @{3} hours.	じっくり煮込んだトマトを、酸味のきいた芳醇な香りが漂う濃厚なオレンジ色のスープに仕上げた。@{3}時間、物理攻撃が@{1}~@{2}増加する。
+12390100225	The result of a cooking failure. Eating it may bring misfortune.	料理に失敗してできたもの。食べると不運を呼ぶかもしれない。
+12390100224	A mysterious potion that cures nearly every negative status effect.	ほぼすべての状態異常を治療できる不思議なポーション。
+12390100223	A mysterious liquid shimmering with every color of the rainbow. Instantly restores @{1}% HP. Cooldown: @{2} seconds.	虹の七色にきらめく神秘的な液体。HPを@{1}%即座に回復する。クールダウン：@{2}秒。
+12390100222	A superb Fountain of Life. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	極上の生命の泉。HPを即座に@{1}+@{2}%回復。クールダウン：@{3}秒。
+12390100221	A superb Healing Potion imbued with the power of Blessing. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	祝福の力を宿した高級回復ポーション。HPを@{1}+@{2}%即座に回復する。クールダウン：@{3}秒。
+12390100220	A superb Green Healing Potion. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	極上のグリーンヒーリングポーション。HPを即座に@{1}+@{2}%回復。クールダウン：@{3}秒。
+12390100219	A superb deep Red Healing Potion. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	極上の深紅ヒーリングポーション。HPを即座に@{1}+@{2}%回復。クールダウン：@{3}秒。
+12390100218	A superb golden Yellow Healing Potion. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	黄金色に輝く最高級の回復ポーション。使用すると即座にHPを@{1}+@{2}%回復します。クールダウン：@{3}秒。
+12390100217	A superb bright Red Healing Potion. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	極上の鮮紅ヒーリングポーション。HPを即座に@{1}+@{2}%回復。クールダウン：@{3}秒。
+12390100216	A superb Green Healing Potion. Instantly restores @{1}+@{2}% HP. Cooldown: @{3} seconds.	極上のグリーンヒーリングポーション。HPを即座に@{1}+@{2}%回復。クールダウン：@{3}秒。
+12390100215	A Fountain of Life surging with boundless vitality that instantly restores @{1} HP. Cooldown: @{2} sec.	尽きることのない生命力が湧き出す生命の泉。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+12390100214	A Healing Potion imbued with the power of Blessing that instantly restores @{1} HP. Cooldown: @{2} sec.	祝福の力を宿した回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+12390100213	A vibrant Green Healing Potion brimming with Life that instantly restores @{1} HP. Cooldown: @{2} sec.	生命力に満ちた鮮やかな緑色の回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+12390100212	A deep crimson Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	深い紅色の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+12390100211	A golden Yellow Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	黄金色の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+12390100210	A bright Red Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	鮮やかな赤の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+12390100209	A vibrant Green Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	鮮やかな緑の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+12390100208	Restores the character's Life by @{1} HP per second for @{2} sec. Cooldown: @{3} sec.	@{2}秒間、毎秒HPを@{1}回復。クールダウン：@{3}秒。
+12390100207	Restores the character's Life, instantly restoring @{1}% HP. Cooldown: @{2} sec.	HPを即座に@{1}%回復。クールダウン：@{2}秒。
+12390100206	Restores Character HP. Instantly restores @{1} HP. Cooldown: @{2} seconds	キャラクターのHPを回復します。HPを@{1}即時回復。クールダウン：@{2}秒。
+12390100205	Magical Stickers that can be used to decorate your Profile once obtained	獲得後、プロフィールを飾るために使用できる魔法のステッカー。
+12390100204	A luxurious ring set with a diamond.	ダイヤモンドをあしらった豪華な指輪。
+12390100203	A ring made of gold.	金で作られた指輪。
+12390100202	An ornament used to decorate clothing and fabric.	衣服や布地を飾る装飾品。
+12390100201	Gloves worn on the hands that make delicate work easier.	細かい作業がしやすくなる手袋。
+12390100200	A magical necklace that fills your entire body with Vivify when worn.	身に着けると全身に活力が満ちる魔法のネックレス。
+12390100199	Wearing this on your ear fills you with a mysterious power.	耳につけると不思議な力が湧いてくる。
+12390100198	A ring imbued with mysterious magic.	不思議な魔力を宿した指輪。
+12390100197	Boots crafted by Goibne for a wager with his bitter rival, Dov.	ゴイブネが宿敵ドヴとの賭けのために作ったブーツ。
+12390100196	Boots blessed by the earth through Fey, son of Mjolnir.	ミョルニールの息子フェイを通じて大地の祝福を受けたブーツ。
+12390100195	Lightweight yet sturdy boots reinforced with iron plates around the ankles to protect the feet from impacts.	軽量ながら丈夫なブーツ。足首周りを鉄板で補強し、衝撃から足を守る。
+12390100194	Long boots made of sturdy fabric.	丈夫な布で作られたロングブーツ。
+12390100193	Steel boots designed with protection in mind, without regard for practicality or comfort.	実用性や履き心地より防護性能を優先して作られた鋼鉄のブーツ。
+12390100192	Long boots that protect the ankles.	足首を守るロングブーツ。
+12390100191	Shoes that are easy to put on but offer little protection.	履きやすいが、防御力は低い靴。
+12390100190	A cloak once worn by Vali, one of Odin's sons. Though blind, he slew the warrior Hodr. It bears the marks of Vali's struggle.	オーディンの息子の一人、ヴァーリがかつてまとっていた肩掛け。彼は盲目でありながら戦士ヘズを討ち倒した。そこにはヴァーリの苦闘の痕が刻まれている。
+12390100189	Made from the shoulder section of a suit of armor, this protective shoulder covering offers considerable protection.	鎧の肩部分を加工して作られた肩当て。十分な防御力を備えている。
+12390100188	A cloak that dramatically increases the wearer's chances of survival in any situation.	どんな状況でも着用者の生存力を大きく高めるマント。
+12390100187	A cloak that gives its wearer a menacing aura.	着用者に威圧感を与えるマント。
+12390100186	Made of sturdy fabric, this cloak covers the neck, shoulders, and back for added protection.	丈夫な布で作られ、首・肩・背中を覆って防護力を高めるマント。
+12390100185	A scarf-like cloak.	マフラーのような外套。
+12390100184	A hooded Muffler that protects the shoulders and head.	肩と頭を守るフード付きマフラー。
+12390100183	Clothing made from high-quality fabric.	高品質な生地で作られた服。
+12390100182	Armor woven from sturdy Metal.	丈夫な金属で編まれた鎧。
+12390100181	Armor made from sturdy Metal.	丈夫な金属製の防具。
+12390100180	A coat made from soft animal fur. It has drawn heavy criticism from conservation groups, so please be kind to animals. Comes with a powerful defensive special effect.	柔らかな動物の毛皮で作られたコート。自然保護団体から激しい批判を浴びているので、動物には優しくしましょう。強力な防御系特殊効果付き。
+12390100179	A coat made from soft animal fur. It has drawn heavy criticism from conservation groups, so please be kind to animals. Comes with a powerful damage-dealing special effect.	柔らかな動物の毛皮で作られたコート。自然保護団体から激しい批判を浴びているので、動物には優しくしましょう。強力な攻撃系特殊効果付き。
+12390100178	A coat made from soft animal fur. It has drawn heavy criticism from conservation groups, so please be kind to animals.	柔らかな動物の毛皮で作られたコート。自然保護団体から厳しい批判を受けているので、動物には優しくしましょう。
+12390100177	Clothing made especially for Adventurers.	冒険者用に作られた衣服。
+12390100176	A knee-length coat that protects against the cold, though it gets very hot in summer.	寒さを防ぐ膝丈のコート。夏はかなり暑い。
+12390100175	An inexpensive leather jacket that develops a distinctive patina with age.	安価な革製ジャケット。長く使うほど独特の風合いが出ます。
+12390100174	A pure cotton garment that is exceptionally comfortable to wear.	非常に着心地の良い純綿製の衣服。
+12390100173	A symbolic shield bearing the will of God, bestowed directly through a divine messenger.	神の意志を宿す象徴的な盾。神の使者を通じて直接授けられたもの。
+12390100172	An extremely large and heavy shield.	非常に大きく重い盾。
+12390100171	A shield used in battle by Gna, an attendant of Frigg, during her time as a Valkyrie. It radiates the fighting spirit of a Valkyrie, a divine warrior.	フリッグの侍女グナーがヴァルキリーだった頃に戦場で使用していた盾。神の戦士たるヴァルキリーの闘気が宿り、輝きを放っている。
+12390100170	A stone shield obtained by Thor after he slew Hrungnir, king of the giants.	巨人の王フルングニルを討ったトールが手に入れた石の盾。
+12390100169	A somewhat rugged-looking shield with its entire front covered in spikes.	前面全体をトゲで覆った、やや無骨な見た目の盾。
+12390100168	A piece of defensive equipment made from sturdy Metal.	丈夫な金属で作られた防具。
+12390100167	An Easy-to-make, easy-to-use round shield that is widely used.	作りやすく扱いやすい、広く使われる丸盾。
+12390100166	A shield that can block enemy attacks.	敵の攻撃を防げる盾。
+12390100165	A katar said to have been created by a Lich who gathered the resentment of the dead.	死者の怨念を集めたリッチが作り上げたとされるカタール。
+12390100164	A katar with a double-layered blade. Its cuts leave wounds that cannot be stitched closed, slowly leading its victims to death.	二重の刃を持つカタール。その切り口が残す傷は縫い合わせることができず、犠牲者をゆっくりと死へと誘う。
+12390100163	A katar designed for assassination that seeks out an enemy's weak points.	敵の弱点を狙う、暗殺用に設計されたカタール。
+12390100162	An Undead katar made from the bones of Osiris and shrouded in an aura of death.	オシリスの骨で作られ、死の気配をまとった不死属性のカタール。
+12390100161	A katar made from sharp, thorny vines.	鋭いトゲ蔓で作られたカタール。
+12390100160	A weapon fitted with numerous blades.	多数の刃を備えた武器。
+12390100159	A katar crafted using ancient secret arts. Its blades constantly vibrate.	古代の秘術で作られたカタール。刃は常に振動しています。
+12390100158	A katar designed to allow easy movement.	動きやすさを重視したカタール。
+12390100157	A bow adorned with pure white wings as beautiful as a peacock's fanned tail.	クジャクが広げた尾羽のように美しい、純白の翼で飾られた弓。
+12390100156	A bow shining with holy radiance that can Launch searing arrows of light to pierce the darkness and bring hope and salvation.	聖なる輝きを放つ弓。闇を貫き希望と救済をもたらす灼熱の光の矢を放つことができる。
+12390100155	A bow made from animal horns, offering high damage and accuracy.	動物の角で作った、高威力・高命中の弓。
+12390100154	Its accurate shots and high damage make it a favorite among its users.	高い命中精度とダメージを誇り、愛用者の多い武器です。
+12390100153	A massive bow that looks difficult to handle.	扱いが難しそうな巨大な弓。
+12390100152	A bow made from a blend of various materials, designed to deal high damage.	さまざまな素材を組み合わせて作られた、高いダメージを出せる弓。
+12390100151	A bow that does not deal much damage but is easy to use.	威力は低いが扱いやすい弓。
+12390100150	A long staff carved in the likeness of a goddess.	女神をかたどって彫られた長い杖。
+12390100149	Adorned with a golden dragon fragment that controls time and space and a Crystal orb brimming with immense magic. It looks impressive, but it's incredibly heavy.	時空を操る金龍の破片と、強大な魔力を秘めた水晶玉があしらわれている。見た目は見事だが、信じられないほど重い。
+12390100148	When swung, it unleashes a devastating wave of energy that tears across the battlefield. Only a truly fearless hero can master its violent divine power.	ひとたび振るえば、戦場を引き裂く破滅的なエネルギー波を放つ。真に恐れを知らぬ英雄のみが、その猛々しき神の力を制御できるのだ。
+12390100147	A staff said to have been created by a great mage. Its power approaches that of a god.	偉大な魔術師が作ったとされる杖。その力は神にも迫るという。
+12390100146	A staff forged from lost souls.	失われた魂から鍛えられた杖。
+12390100145	A staff covered in ancient runes that can unleash powerful elemental magic.	古代のルーンが刻まれ、強力な元素魔法を放てる杖。
+12390100144	A staff made from a mistletoe branch and imbued with the power of nature.	ヤドリギの枝から作られ、自然の力を宿した杖。
+12390100143	A short pine staff entwined with fresh green vines, with a dormant Forest Crystal set into its head.	新緑の蔓が絡みついた短い松の杖。先端には眠れる森のクリスタルがはめ込まれています。
+12390100142	A hypnotist's wand that uses hypnosis to make novices feel like great mages.	催眠術でノービスに大魔法使いになった気分を味わわせる、催眠術師の杖。
+12390100141	A staff made from the skull of a powerful Lich. An aura of Curse continually pours from it.	強大なリッチの頭蓋骨で作られた杖。絶えず呪いの気配を放っている。
+12390100140	A staff jointly created by the Mage Guild and the Church for ascetic practitioners.	メイジギルドと教会が共同製作した、修行者向けのスタッフ。
+12390100139	A wand inhabited by a wind spirit.	風の精霊が宿るワンド。
+12390100138	A wand steeped in an evil aura.	邪悪なオーラを宿すワンド。
+12390100137	A Rod containing magical powers.	魔力を秘めたロッド。
+12390100136	A weapon more powerful than an ordinary wand.	一般的なワンドより強力な武器。
+12390100135	A wand imbued with magical power.	魔力を宿したワンド。
+12390100134	A light, compact wand.	軽くてコンパクトなワンド。
+12390100133	A club made of mithril.	ミスリル製のメイス。
+12390100132	A club made of gold.	金で作られた棍棒。
+12390100131	A club with iron chains hanging from it.	鉄鎖が垂れ下がったメイス。
+12390100130	An imposing club adorned with hanging iron chains.	鉄鎖を垂らした威圧感のあるメイス。
+12390100129	A large club with a truly vicious appearance.	非常に凶悪な見た目の大きなクラブ。
+12390100128	A club that makes each blow feel like several clubs striking at once.	一撃で何本もの棍棒に同時に殴られたような衝撃を与える棍棒。
+12390100127	A club that can inflict Stun when it strikes.	命中時にスタンを与えることがあるクラブ。
+12390100126	An iron club capable of delivering a crushing blow.	強烈な一撃を放てる鉄製メイス。
+12390100125	A wooden club that anyone can use with ease.	誰でも扱いやすい木製クラブ。
+12390100124	A battle axe with a long blade. Its reinforced head is secured to a thick handle, giving it tremendous power in close combat.	長い刃を持つ戦斧。強化された斧頭が太い柄に固定されており、接近戦において絶大な威力を発揮します。
+12390100123	An enormous axe so massive and heavy that even "oversized" fails to describe it.	あまりにも巨大で重く、「特大」という言葉すら足りないほどの大斧。
+12390100122	Shaped like a guillotine used to behead the condemned.	罪人の首を落とすギロチンのような形状。
+12390100121	A massive two-handed axe with an enormous blade that strikes fear into all who see it.	巨大な刃を備えた大振りの両手斧。見る者を圧倒する威圧感を放つ。
+12390100120	An axe imbued with demonic power.	悪魔の力を宿した斧。
+12390100119	An axe capable of cutting through anything.	何でも切り裂ける斧。
+12390100118	An extremely powerful hammer.	非常に強力なハンマー。
+12390100117	A two-handed axe used in battles against multiple foes.	複数の敵との戦闘に使う両手斧。
+12390100116	An axe stained with blood from being swung across the battlefield, radiating a terrifying bloodlust.	戦場を駆け抜けるうちに血に染まった斧。恐ろしい殺気を放っています。
+12390100115	An axe with enhanced power.	威力を強化した斧。
+12390100114	An axe finished entirely in red, giving it a refined appearance.	全体を赤く仕上げた、洗練された印象の斧。
+12390100113	An axe designed to overcome the slow attack speed common to axes.	斧特有の遅い攻撃速度を補うために設計された斧。
+12390100112	An axe used to butcher animals.	動物解体用の斧。
+12390100111	An axe used by Orcs.	オークが使う斧。
+12390100110	A large, heavy axe.	大きく重い斧。
+12390100109	An axe made of iron.	鉄で作られた斧。
+12390100108	An axe that is Easy to use, making it suitable for anyone.	扱いやすく、誰でも使える斧。
+12390100107	A Spear with a curved blade that can slash as well as thrust.	斬撃にも刺突にも使える湾曲刃の槍。
+12390100106	Its curved blade resembles a bolt of lightning.	湾曲した刃は稲妻のような形をしている。
+12390100105	The Spear used by a Soldier named Longinus to kill a saint.	聖人を殺した兵士ロンギヌスが使った槍。
+12390100104	An easy-to-handle two-handed Spear that can be swung in many different ways.	扱いやすく、さまざまな振り方ができる両手槍。
+12390100103	A halberd made specifically for hunting, distinguished by its three blades.	狩猟専用に作られた、3枚の刃が特徴的なハルバード。
+12390100102	A halberd with two sharp projections on its broad blade.	幅広い刃に鋭い突起が2本付いたハルバード。
+12390100101	A Spear with such a large blade that it is hard to tell whether it is a sword or a Spear.	剣なのか槍なのか分からないほど巨大な刃を持つ槍。
+12390100100	A Spear with an inward-curving blade.	内側へ湾曲した刃を持つ槍。
+12390100099	A Spear made exclusively for knights.	騎士専用の槍。
+12390100098	A Spear made from the horn of a sacred unicorn.	聖なるユニコーンの角で作られた槍。
+12390100097	A large one-handed Spear combining a lance and a scythe, making it a versatile weapon capable of many different attacks.	槍と大鎌を組み合わせた大型の片手槍。多彩な攻撃を繰り出せる汎用性の高い武器です。
+12390100096	A Spear with a hook-shaped tip.	先端が鉤状の槍。
+12390100095	A Spear made for hunting, with a leaf-shaped tip.	葉形の穂先を持つ狩猟用の槍。
+12390100094	Improves the wielder's physical metabolism.	装備者の身体機能を高める。
+12390100093	A Spear guaranteed to strike once it locks onto its target.	標的を捉えれば必ず命中するとされる槍。
+12390100092	TBD: A one-handed Spear used by infantry.	TBD：歩兵が使う片手槍。
+12390100091	A one-handed Spear used by infantry.	歩兵が使う片手槍。
+12390100090	TBD: A widely used one-handed Spear.	TBD：一般的に使われる片手槍。
+12390100089	A widely used one-handed Spear.	広く使われている片手槍。
+12390100088	Once used as a two-handed Spear, it was redesigned as a one-handed Spear.	かつて両手槍として使われていましたが、片手槍へと再設計されました。
+12390100087	A sword made specifically for "fighting." Its hilt has a distinctive S shape.	「戦う」ために作られた剣。柄が特徴的なS字型をしている。
+12390100086	A sword forged to Function like a knife.	ナイフのように扱えるよう鍛えられた剣。
+12390100085	A terrifying two-handed sword that has beheaded many condemned prisoners.	多くの死刑囚の首を落としてきた、恐ろしい両手剣。
+12390100084	A massive two-handed sword.	巨大な両手剣。
+12390100083	An enormous sword with a cross-shaped hilt.	十字型の柄を持つ巨大な剣。
+12390100082	A versatile two-handed greatsword with a thick blade suited for both offense and defense.	攻守どちらにも使える厚い刃を持つ汎用性の高い両手大剣。
+12390100081	A massive two-handed sword that subdues enemies with its weight and swing speed.	重量と振りの速さで敵を制圧する巨大な両手剣。
+12390100080	A two-handed sword equally effective for slashing and thrusting.	斬撃と刺突の両方に優れた両手剣。
+12390100079	A two-handed sword highly effective at subduing enemies.	敵の制圧に優れた両手剣。
+12390100078	A greatsword that only a Boss may wield.	ボスだけが扱える大剣。
+12390100077	A sword commonly used by sailors.	船乗りがよく使う剣。
+12390100076	A unique sword with a beautiful, transparent blade. It feels as though monsters slain with it will drop something beautiful.	透き通るような美しい刀身を持つ特別な剣。この剣で倒したモンスターは、何か美しいものを落としそうな気がする。
+12390100075	A sword embedded in a stone. It chooses its own wielder and possesses holy power.	石に刺さった剣。自ら使い手を選び、聖なる力を宿す。
+12390100074	A sword forged in a mysterious island nation in the distant East. It is said to be useful not only for combat, but also for cultivating one's character.	遥か東方の神秘的な島国で鍛造された刀剣。戦闘のみならず、己の精神を修養するのにも役立つと言われている。
+12390100073	A one-handed sword made exclusively for cavalry, though it is mostly used in cavalry ceremonies.	騎兵専用に作られた片手剣。主に騎兵隊の儀礼で使用されています。
+12390100072	A sword with a long, slender blade designed specifically for thrusting.	刺突攻撃に特化して設計された、細長い刀身を持つ剣。
+12390100071	A versatile sword with a thick blade.	厚い刃を持つ汎用性の高い剣。
+12390100070	An ordinary-looking sword.	普通に見える剣。
+12390100069	TBD	未定
+12390100068	A double-edged dagger designed with a practical blade.	実用的な刃を持つ両刃のダガー。
+12390100067	An exceptionally ornate dagger. Those of noble status often carry it as an accessory or use it in ceremonies.	極めて華美な短剣。貴族が装飾品として携えたり、儀式に使用したりすることが多い。
+12390100066	A dagger made of Damascus steel. When it reflects light, beautiful wave-like patterns appear on its blade.	ダマスカス鋼で作られた短剣。光を反射すると、刃に美しい波紋のような模様が浮かびます。
+12390100065	A long-handled dagger once used in an ancient kingdom. Its blade is slightly longer than that of an ordinary dagger.	古代王国で使われていた長い柄の短剣。刃は一般的な短剣よりやや長い。
+12390100064	A dagger with a gently curved blade.	緩やかに湾曲した刃の短剣。
+12390100063	A dagger once used in an ancient Western nation.	古代西方国家で使われていた短剣。
+12390100062	A dagger designed with multiple Functions in mind.	多用途に使えるよう設計されたダガー。
+12390100061	A dagger designed specifically for cutting.	斬撃用に特化したダガー。
+12390100060	A dagger designed for ease of use by anyone.	誰でも扱いやすいよう作られた短剣。
+12390100059	Progress rewards based on the number of digs during Treasure Hunt events.	宝探しイベント中の発掘回数に応じて獲得できる進捗報酬。
+12390100058	Pass Currency	パス通貨
+12390100057	Premium Monthly Pass Currency	プレミアム月間パス通貨
+12390100056	Standard Monthly Pass Currency	スタンダード月間パス通貨
+12390100055	Guild Contribution Points for the Defense of Prontera.	プロンテラ防衛用ギルド貢献ポイント。
+12390100054	Military Supplies for the Defense of Prontera.	プロンテラ防衛用の軍需物資。
+12390100053	Points obtained by defeating monsters in the ^{1}Mt. Mjolnir^{2} region.	^{1}ミョルニール山脈^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100052	Points obtained by defeating monsters in the ^{1}Geffen^{2} region.	^{1}ゲフェン^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100051	Points obtained by defeating monsters in the ^{1}Byalan Island^{2} region.	^{1}バイラン島^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100050	Points obtained by defeating monsters in the ^{1}Sunken Ship^{2} region.	^{1}沈没船^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100049	Points obtained by defeating monsters in the ^{1}Payon^{2} region.	^{1}フェイヨン^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100048	Points obtained by defeating monsters in the ^{1}Orc Village^{2} region.	^{1}オーク村^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100047	Points obtained by defeating monsters in the ^{1}Pharos Lighthouse^{2} region.	^{1}ファロス灯台^{2}地域でモンスターを倒すと獲得できるポイント。
+12390100046	Points obtained by defeating monsters in the ^{1}Sograt Desert^{2} region.	^{1}ソグラト砂漠^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100045	Points obtained by defeating monsters in the ^{1}Morroc^{2} region.	^{1}モロック^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100044	Points obtained by defeating monsters in the ^{1}Prontera^{2} region.	^{1}プロンテラ^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100043	A medal obtained by defeating monsters. Can be exchanged for various rewards in the shop.	モンスター討伐で得られるメダル。ショップで各種報酬と交換可能。
+12390100042	Consumed during gathering and crafting.	採集・製作時に消費。
+12390100041	Used for Life Skill Level-up.	生活スキルのレベルアップに使用。
+12390100040	Can be exchanged for rewards in the Contributor Shop.	貢献者ショップで報酬と交換可能。
+12390100039	Ore containing special energy.	特殊なエネルギーを含む鉱石。
+12390100038	EXP used for the Pass.	パスに使用するEXP。
+12390100037	Universal Currency for the Connect System. Obtained by completing quests in the Adventure Party and Mentorship systems, and used to exchange for items in the Connect Shop.	交流システム共通の通貨。冒険パーティおよび師弟システムのクエストを完了すると獲得でき、交流ショップでアイテムとの交換に使用する。
+12390100036	Adventure Party EXP obtained by completing Adventure Party quests. Increases the Adventure Party's level.	冒険パーティのクエスト達成で獲得する冒険パーティEXP。冒険パーティのレベルを上昇させます。
+12390100035	Supplies used by guilds to bid in War of Emperium, obtained through convoy escorts.	攻城戦の入札に使うギルド物資。輸送護衛で入手できる。
+12390100034	Premium Currency for the Season Shop.	シーズンショップ用プレミアム通貨。
+12390100033	Standard Currency for the Season Shop.	シーズンショップ用通常通貨。
+12390100032	Obtained from daily quests and convoy escorts in War of Emperium. Used for territory auctions and siege equipment purchases in War of Emperium. No translation needed ()	攻城戦のデイリークエストおよび輸送護衛で獲得できる。攻城戦の領地オークションや攻城兵器の購入に使用する。
+12390100031	Used exclusively for Desert Monster Collection Level-up.	砂漠モンスターコレクションのレベルアップ専用。
+12390100030	Used exclusively for Mt. Mjolnir Monster Collection Level-up.	ミョルニール山モンスターコレクションのレベルアップ専用。
+12390100029	Used exclusively for Payon Monster Collection Level-up.	フェイヨンのモンスターコレクションレベルアップ専用。
+12390100028	Used exclusively for Geffen Monster Collection Level-up.	ゲフェンモンスターコレクションのレベルアップ専用。
+12390100027	Used exclusively for Prontera Monster Collection Level-up.	プロンテラモンスターコレクションのレベルアップ専用。
+12390100026	Used exclusively for Collection Book Level-up.	コレクションブックのレベルアップ専用。
+12390100025	Used exclusively for Collection Card Level-up.	コレクションカードのレベルアップ専用。
+12390100024	Used exclusively for Collection Overview Level-up.	コレクション概要のレベルアップ専用アイテム。
+12390100023	Novice Handbook Credits used in Novice Handbook events.	ノービスハンドブックイベントで使うノービスハンドブッククレジット。
+12390100022	Rewards for completing Guild Quests, used for guild building Level-up.	ギルドクエスト達成報酬。ギルド建物のレベルアップに使用します。
+12390100021	Rewards for completing Guild Quests, accumulated to claim weekly guild activity chests.	ギルドクエスト完了で獲得。貯めると週間ギルド活動チェストを受け取れる。
+12390100020	Points awarded for GVG victories, losses, and Kills, measuring a guild's combat strength.	GVGの勝敗や撃破で獲得するポイント。ギルドの戦闘力を示す指標。
+12390100019	Guild Funds used to purchase guild supplies.	ギルド物資購入に使うギルド資金。
+12390100018	Guild Emblem used for Guild Skill Level-up (Deprecated)	ギルドスキルレベルアップ用ギルドエンブレム（廃止予定）
+12390100017	Guild Contribution used by Guild Members to purchase items from the Guild Shop.	ギルドメンバーがギルドショップでアイテム購入に使用するギルド貢献度。
+12390100016	Job EXP used for Job Level-up.	ジョブレベルアップに使用するJOB EXP。
+12390100015	Base EXP used for Base Level-up.	Baseレベルアップに使用するBase EXP。
+12390100014	Used to offset Net Victory Points deducted in Battle of Dragon Coffin Island Misc	ドラゴン棺島の戦いで差し引かれた純勝利ポイントの相殺に使用。
+12390100013	Battle of Dragon Coffin Island Misc Net Victory Points (Victory Points), used for Level-up	龍棺島の戦い・勝利ポイント差（勝利ポイント）。レベルアップに使用
+12390100012	War Merit Points	戦功ポイント
+12390100011	Season Settlement Placeholder	シーズン精算プレースホルダー
+12390100010	Can be obtained by Killing MVPs.	MVP討伐で入手可能。
+12390100009	Obtained from Final Trial activities in the Realm of the Gods. A symbol of Honor and glory!! Can be exchanged for Rare rewards in the Trial Shop.	神域の最終試練イベントで獲得できる。名誉と栄光の象徴！！ 試練ショップでレアな報酬と交換できる。
+12390100008	Used to offset Net Victory Points deducted in Survivor Battle Misc	生存者の戦い・その他で差し引かれた勝利ポイントを相殺するために使用します。
+12390100007	Survivor Battle Misc Net Victory Points (Victory Points)	サバイバルバトル その他 勝利ポイント差（勝利ポイント）
+12390100006	A reward for participating in Competition Misc. Can be exchanged for rewards in the shop.	競技コンテンツ参加で得られる報酬。ショップで各種報酬と交換可能。
+12390100005	Obtainable by participating in daily activities.	デイリーアクティビティ参加で入手可能。
+12390100004	Credit Points	クレジットポイント
+12390100003	A highly valuable Crystal infused with concentrated energy.	濃縮エネルギーを宿した非常に貴重なクリスタル。
+12390100002	A dazzling coin used to exchange for valuable items.	貴重なアイテムとの交換に使う眩いコイン。
+12390100001	Currency made of silver.	銀で作られた通貨。
+12390100000	Monster transformation cards grant special effects when socketed in the corresponding slot	モンスター変身カードは対応スロットに装着すると特殊効果を発揮
 10110300582	When an ^{1}Offensive-type^{2} Primary Battle Skill Deals DMG to an enemy, inflicts ${1}% ^{3}【Sluggish】^{4} for ${2} sec.	^{1}攻撃型^{2}のメイン戦闘スキルが敵にダメージを与えた時、${2}秒間、${1}%の^{3}【鈍足】^{4}を付与します。
 10110300583	Deals Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicts ${4}% ^{3}【Slow】^{4} for ${5} seconds.	${1}m以内の最大${2}体の敵に、ペット物理攻撃力*^{1}${3}%^{2}の無属性近接物理ダメージを与え、${5}秒間${4}%の^{3}【減速】^{4}を付与します。
 10110200184	Shield Press	シールドプレス
@@ -6756,6 +7653,43 @@
 11190100002	Reach ${1} Activity	アクティビティ${1}に到達
 11190100001	Participate in the Tower Climb ${1} times	タワークライムに${1}回参加
 11190100000	Base Level reaches ${1}	Baseレベルが${1}に到達
+12390100241	Marinated Beast Meat wrapped in dough made from Grains, then steamed and baked to form a dark red crust. Grants @{1}%~@{2}% Increased Damage to Medium Monsters for @{3} hours.	穀物で作った生地に漬け込んだ獣肉を包み、蒸してから焼き上げて濃い赤色の皮に仕上げた料理。@{3}時間、中型モンスターへの与ダメージが@{1}%～@{2}%増加する。
+12390100242	Herbs simmered into soft rice porridge, leaving a lingering bittersweet aroma. Reduces damage taken from Medium monsters by @{1}%~@{2}% for @{3} hours.	薬草をやわらかなお粥にしてじっくり煮込み、ほろ苦く甘い香りを残した一品。@{3}時間、中型モンスターから受けるダメージを@{1}%～@{2}%軽減する。
+12390100243	Beast hide marinated with herbs and chili peppers, rolled into a tube, and charcoal-grilled. Grants @{1}%~@{2}% DMG vs Demi-Human for @{3} hours.	香草と唐辛子で漬け込み、筒状に丸めて炭火で焼き上げた野獣の皮。@{3}時間、人間種族へのダメージが@{1}%～@{2}%増加する。
+12390100244	Grains, monster meat, and chili peppers stir-fried over high heat until every grain gleams with oil. Reduces damage taken from Demi-Human monsters by @{1}%~@{2}% for @{3} hours.	穀物、モンスター肉、唐辛子を強火で炒め、一粒一粒に油の艶が出るまで仕上げた料理。@{3}時間、人間種族モンスターから受けるダメージが@{1}%～@{2}%減少します。
+12390100245	A smooth brown pudding made by setting cocoa bean juice with Milk. Grants @{1}%-@{2}% Increased Damage to Medium Monsters for @{3} hours.	カカオ豆の果汁をミルクと混ぜて固めた、なめらかなブラウンプディング。@{3}時間、中型モンスターへの与ダメージが@{1}%-@{2}%増加する。
+12390100246	A Stem coated in colorful layers of syrup for a dazzling finish. Reduces damage taken from Medium monsters by @{1}%-@{2}% for @{3} hours.	色鮮やかなシロップを何層にもコーティングして美しく仕上げた茎。@{3}時間、中型モンスターから受けるダメージを@{1}%-@{2}%軽減する。
+12390100247	Dried Strawberry and herb leaves slow-simmered into a light red soup with a delicate sweetness. Grants @{1}%-@{2}% DMG vs Demi-Human for @{3} hours.	乾燥イチゴと薬草の葉をとろ火でじっくり煮込んだ、ほんのり甘い薄紅色のスープ。@{3}時間、人間種族へのダメージが@{1}%～@{2}%増加する。
+12390100248	Dried strawberries coated in cocoa syrup and set on a Stem. Reduces damage taken from Demi-Human monsters by @{1}%-@{2}% for @{3} hours.	ココアシロップでコーティングして茎に刺したドライストロベリー。@{3}時間、人間形モンスターから受けるダメージを@{1}%-@{2}%軽減する。
+12390100249	Lemon slices steeped in orangewood sap, creating a clear, light drink with a citrus aroma. Grants @{1}%~@{2}% Increased Damage to Medium Monsters for @{3} hours.	オレンジの木の樹液にレモンスライスを浸した、柑橘の香りが広がるすっきりとした飲み物。@{3}時間、中型モンスターへの与ダメージが@{1}%～@{2}%増加する。
+12390100250	Herbs and Lemon gently infused in orangewood sap at a low temperature. Reduces damage taken from Medium monsters by @{1}%~@{2}% for @{3} hours.	ハーブとレモンをオレンジウッドの樹液に低温でじっくり漬け込んだもの。@{3}時間、中型モンスターから受けるダメージを@{1}%～@{2}%軽減する。
+12390100251	Grape and herbs slow-simmered in orangewood sap for a rich, woody aroma. Increases damage to Demi-Human monsters by @{1}%~@{2}% for @{3} hours.	オレンジウッドの樹液でブドウとハーブをとろ火で煮込み、豊かな木の香りを引き出した。@{3}時間、人間形モンスターへの与ダメージが@{1}%～@{2}%増加する。
+12390100252	Grape and Lemon simmered in bitter orange juice for a lingering woody sweetness. Use to increase Demi-Human damage reduction by @{1}%~@{2}% for @{3} hours.	ビターオレンジ果汁でブドウとレモンをじっくり煮込み、木の香りを帯びた甘みを引き出した一品。@{3}時間、人間形モンスターから受けるダメージを@{1}%～@{2}%軽減する。
+12390100253	A razor-sharp blade with an icy gleam. Use to permanently increase Physical ATK by @{1}.	氷のような輝きを放つ鋭利な刃。使用すると物理ATKが永久に@{1}増加。
+12390100254	A heavy bronze shield. Use to permanently increase Physical DEF by @{1}.	重厚な青銅の盾。使用すると物理防御力が永久に@{1}増加します。
+12390100255	A radiant magic orb. Use to permanently increase Magic ATK by @{1}.	輝く魔法のオーブ。使用すると魔法攻撃力が永久に@{1}増加します。
+12390100330	On the ^{3}oldest stone bridge^{4} in ^{1}Geffen^{2}, examine the joint in the central support beam. A gift lies within a carefully crafted hidden recess.	^{1}ゲフェン^{2}の^{3}最古の石橋^{4}で、中央の支え梁の継ぎ目を調べよ。精巧に作られた隠し窪みの中に贈り物が眠っている。
+12390100331	Beside the bench near the ^{1}Izlude shop^{2}, watch the ^{3}butterflies^{4} that refuse to leave. They seem drawn to an old man's unfinished gift and still flutter there, showing the way.	^{1}イズルードの店^{2}近くのベンチ脇で、そこを離れようとしない^{3}蝶々^{4}に注目してください。老人が渡せなかった贈り物に引き寄せられているように舞い続け、場所を示しています。
+12390100332	In ^{1}Izlude^{2}, the ^{5}small tree^{6} ^{3}outside the Blacksmith shop^{4} has listened to the ringing of hammers for years. They say a master craftsman buried one of his precious "failures" beneath the root closest to the shop.	^{1}イズルード^{2}で、^{3}ブラックスミスの店の外^{4}にある^{5}小さな木^{6}は、長年ハンマーの音を聞き続けてきました。名匠が、自らの大切な「失敗作」のひとつを、店に最も近い根元へ埋めたと言われています。
+12390100333	In ^{1}Izlude's^{2} bustling ^{3}market^{4}, search the most inconspicuous corner of a fruit stall. The shrewd merchant likes to hide his most valuable earnings in the gaps between a pile of Lemons and potatoes.	^{1}イズルード^{2}の賑やかな^{3}市場^{4}で、果物屋の最も目立たない隅を探せ。抜け目のない商人は、レモンとジャガイモの山の隙間に一番大切な稼ぎを隠すのが好きらしい。
+12390100334	Beside the ^{3}wooden table^{4} in the southeastern tea pavilion of ^{1}Payon^{2} lies a gift from an elderly tea lover. He left a memento wrapped tightly in oilcloth behind the table leg for a friend who missed their meeting.	^{1}フェイヨン^{2}南東の茶屋にある^{3}木製テーブル^{4}のそばに、年老いた茶好きからの贈り物がある。待ち合わせに来られなかった友のため、油紙で固く包んだ記念品をテーブルの脚の裏へ残したそうだ。
+12390100335	In ^{1}Payon^{2}, head to the ^{3}left side of the open area just inside the courtyard gate^{4}, behind Scholar Biko. A crack in the left boot heel of the ^{5}stone statue^{6} is large enough to conceal a small object. The secret waits there.	^{1}フェイヨン^{2}では、学者ビコの後ろ、^{3}中庭の門を入ってすぐの広場左側^{4}へ向かってください。^{5}石像^{6}の左足の靴底にある亀裂は、小さな物を隠せるほど大きくなっています。秘密はそこにあります。
+12390100336	The ^{1}wooden bridge in Goblin Forest^{2} was once the site of a caravan raid. Amid the chaos, a small pouch of gems rolled away and became lodged in a crack between the planks at the center of the bridge.	^{1}ゴブリンの森の木橋^{2}は、かつて商隊が襲撃された場所だ。混乱の最中、小さな宝石袋が転がり、橋の中央にある板の隙間へ挟まったままになっている。
+12390100337	^{1}Outside Prontera North Gate^{2}, beside the path leading from the North Gate to Labyrinth Forest, the ^{3}dead-tree Dummy directly in front of the dilapidated cabin^{4} stands out. A traveler in a hurry once hid a bag of coins beneath it, but never returned.	^{1}プロンテラ北門の外^{2}、北門から迷宮の森へ続く道沿いにある、^{3}朽ちた小屋の真正面の枯れ木ダミー^{4}が目印です。急いでいた旅人がかつてその下へ硬貨の袋を隠しましたが、二度と戻りませんでした。
+12390100338	Behind the ^{3}bakery visible on your left^{4} ^{1}outside Prontera South Gate^{2}, some stones at the ^{5}base of the city wall^{6} are loose. They say an indebted sailor hid his last bag of silver coins here.	^{1}プロンテラ南門の外^{2}、左手に見える^{3}パン屋の裏^{4}で、^{5}城壁の根元^{6}の石がいくつか緩んでいる。借金を抱えた船乗りが最後の銀貨袋をここへ隠したと言われている。
+12390100339	A musical note formed from condensed natural energy. Used during the Season: Symphony of Genesis event.	自然エネルギーを凝縮して生まれた音符。シーズン「創世の交響曲」イベントで使用します。
+12390100340	A singing conch shell found in parts unknown. Used during the Season: Symphony of Genesis event.	どこかで見つかった、歌うような音を奏でる巻貝。シーズン「創世の交響曲」イベントで使用します。
+12390100341	Proof of participation in this Ignition Test. Players who receive this invitation will gain Eligibility for the next test and may also invite one Extra player to join them on an adventure before the next test begins	今回の点火テストに参加した証。この招待状を受け取ったプレイヤーは次回テストへの参加資格を得るほか、次回テスト開始前にもう1人を冒険へ招待できる。
+12390100342	A mysterious Metal called Oridecon. It is the hardest known substance and can be used to Enhance Weapons and Accessories.\n^{1} Effect: Can be used to Refine +@{1} to +@{2} Weapons and Accessories ^{2}	オリデオコンと呼ばれる神秘的な金属。知られている物質の中で最も硬く、武器やアクセサリーの強化に使用できる。\n^{1}効果：+@{1}～+@{2}の武器およびアクセサリーの精錬に使用できる^{2}
+12390100343	High-density Oridecon that can be used to Enhance Weapons and Accessories with a higher Refine Level.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Weapons and Accessories^{2}	高精錬値の武器やアクセサリーの強化に使用できる高密度オリデオコン。\n^{1}効果：+@{1}～+@{2}の武器とアクセサリーの精錬に使用できます^{2}
+12390100344	A lightweight, non-toxic Metal that can be used to Refine all Armor.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Armor and Accessories^{2}	すべての防具の精錬に使用できる軽量で無害な金属。\n^{1}効果：+@{1}～+@{2}の防具およびアクセサリーの精錬に使用可能^{2}
+12390100345	A purer grade of Elunium Metal.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Armor and Accessories^{2}	より純度の高いエルニウム。\n^{1}効果：+@{1}～+@{2}の防具およびアクセサリーの精錬に使用できる^{2}
+12390100346	Extremely pure Oridecon that can Enhance Weapons and Accessories with a higher Refine Level.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Weapons and Accessories^{2}	高精錬値の武器やアクセサリーを強化できる、極めて純度の高いオリデオコン。\n^{1}効果：+@{1}～+@{2}の武器およびアクセサリーの精錬に使用可能^{2}
+12390100347	Extremely pure Elunium Metal.\n^{1}Effect: Can be used to Refine +@{1} to +@{2} Armor and Accessories^{2}	極めて純度の高いエルニウム。\n^{1}効果：+@{1}～+@{2}の防具およびアクセサリーの精錬に使用可能^{2}
+12390100348	Ore from the dwarven realm of Vatar Alheim, said to have been blessed by a legendary dwarven artisan.\n^{1}Effect: Used to Refine Weapons and Accessories. Prevents Refine Level loss upon Refinement Failed^{2}	伝説のドワーフ職人の祝福を受けたとされる、ドワーフの国ヴァタルアルヘイム産の鉱石。\n^{1}効果：武器とアクセサリーの精錬に使用する。精錬失敗時も精錬値が低下しない^{2}
+12390100349	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine a Weapon or Accessory. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	ドワーフの国ワット・アルヘイム産の極めて貴重な鉱石。あらゆる職人が欲しがる逸品。\n^{1}効果：武器またはアクセサリーの精錬に使用します。成功率が上昇し、精錬に失敗しても精錬値の低下や装備の破損を防ぎます。^{2}
+12390100350	An ore from the dwarven realm of Wat Alheim, said to have received the Blessing of a legendary dwarven craftsman.\n^{1}Effect: Used to Refine Armor. Prevents level loss if Refinement Failed.^{2}	伝説のドワーフ職人の祝福を受けたとされる、ドワーフの国ヴァルトアルヘイム産の鉱石。\n^{1}効果：防具の精錬に使用する。精錬失敗時も精錬値が低下しない。^{2}
+12390100351	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine Armor. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	すべての職人が欲しがる、ドワーフの国ヴァルトアルヘイム産の極めて貴重な鉱石。\n^{1}効果：防具の精錬に使用する。成功率が上昇し、精錬失敗時の精錬値低下や破損を防ぐ。^{2}
 10110300000	Call down an Angel's blessing, increasing STR, DEX, and INT by ^{1}${3}^{2} for you and up to ${2} allies within a ${1}-meter radius for ${4} seconds.	天使の祝福を祈り求め、${4}秒間、自身および半径${1}m以内の味方最大${2}体のSTR、DEX、INTを^{1}${3}^{2}増加させる。
 10110300001	When you cast ^{1}【Holy Light】^{2}, reduces the Physical DEF of ^{3}Undead-property^{4} targets and ^{5}Demon Race^{6} targets by ^{7}${1}^{8} for ${2} sec.	^{1}【ホーリーライト】^{2}を発動した時、${2}秒間、^{3}不死属性^{4}の対象および^{5}悪魔系^{6}の対象の物理防御力を^{7}${1}^{8}減少させる。
 10110300002	Summon a holy spirit that circles around you and locates one enemy within a ${1}-meter radius who is under the ^{1}^{2}[Disguise]^{3}^{4} Status Effect. Removes their ^{5}^{6}[Disguise]^{7}^{8} Status Effect and deals Holy Ranged Magic damage equal to MATK * ^{9}${2}%^{10}. The holy spirit lasts ${3} seconds and disappears after Discovering a target.	自身の周囲を旋回する聖霊を召喚し、半径${1}m以内にいる^{1}^{2}[変装]^{3}^{4}状態の敵を1体発見します。対象の^{5}^{6}[変装]^{7}^{8}状態を解除し、MATK * ^{9}${2}%^{10}の聖属性遠距離魔法ダメージを与えます。聖霊は${3}秒間持続し、対象を発見すると消滅します。
@@ -8514,7 +9448,7 @@
 10110201274	Savage Charge - Earth	サベージチャージ - 地
 10110201273	Verit Charge - Undead	ベリットチャージ - 不死
 10110201272	Roda Frog Cone - Water	ロッダフロッグ円錐攻撃 - 水
-10110201271	Rotar Zairo Cone - Wind	ロータージャイロ扇形 - 風
+10110201271	Rotar Zairo Cone - Wind	ローターザイロ扇形 - 風
 10110201270	Golem AOE - Neutral	ゴーレム範囲攻撃・無属性
 10110201269	Dokebi AOE - Shadow	ドケビ範囲攻撃・闇属性
 10110201268	Nightmare AOE - Ghost	ナイトメアAoE - 念

@@ -496,8 +496,8 @@
 21495	Its accurate shots and high damage make it a favorite among its users.	高い命中精度とダメージを誇り、愛用者の多い武器です。
 21496	Rewards for completing Guild Quests, used for guild building Level-up.	ギルドクエスト達成報酬。ギルド建物のレベルアップに使用します。
 21497	All equipment Enchant attributes will be removed when the Season ends.	シーズン終了時、装備のエンチャント属性はすべて削除されます。
-21498	First prize must be drawn from players using the Savage Babe Transform	1等はサベージベベに変身しているプレイヤーから抽選されます。
-21499	Third prize must be drawn from players using the Savage Babe Transform	3等はサベージベベに変身しているプレイヤーから抽選されます。
+21498	First prize must be drawn from players using the Savage Babe Transform	1等はサベージベイブに変身しているプレイヤーから抽選されます。
+21499	Third prize must be drawn from players using the Savage Babe Transform	3等はサベージベイブに変身しているプレイヤーから抽選されます。
 21500	Complete the Commission Quests Post by Daidai to earn tons of rewards.	ダイダイが掲示する依頼クエストを達成して、大量の報酬を獲得しましょう。
 21501	The host has disabled microphones. You cannot turn on your microphone.	ホストがマイクを無効にしています。マイクをオンにすることはできません。
 21502	Insufficient stock (not enough stock at the specified purchase price).	在庫が不足しています（指定した購入価格での在庫が足りません）。
@@ -544,7 +544,7 @@
 21543	Increases the maximum Floors of the Healing buff on this Totem by ${1}.	このトーテムの回復バフの最大スタック数が${1}増加します。
 21544	Each Soul Echo element^{1} grants ${1} Extra ATK (up to ${2} elements).	ソウルエコーの属性^{1}1つにつき追加攻撃力+${1}（最大${2}属性）。
 21545	Each Soul Echo element^{1} grants ${1} Extra DEF (up to ${2} elements).	ソウルエコーの属性^{1}1つにつき追加防御力+${1}（最大${2}属性）。
-21546	Second prize must be drawn from players using the Savage Babe Transform	2等はサベージベベに変身しているプレイヤーから抽選されます。
+21546	Second prize must be drawn from players using the Savage Babe Transform	2等はサベージベイブに変身しているプレイヤーから抽選されます。
 21547	After resetting, the card's rank will return to 0. \nEnter “YES” below.	リセットするとカードのランクは0に戻ります。\n下に「YES」と入力してください。
 21548	High-rate idle mode offers generous rewards. Tap here to view them now.	高効率放置モードでは豊富な報酬を獲得できます。タップして今すぐ確認しましょう。
 21549	I've created a new guild, 【${1}】! Adventurers, come show your support!!	新しいギルド【${1}】を設立しました！冒険者のみんな、応援よろしく！！

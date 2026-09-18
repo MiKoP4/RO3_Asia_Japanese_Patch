@@ -114,6 +114,11 @@ KNOWN_SOUL_ECHO_RESONANCE_TEMPLATE = (
     "elements, respectively.\\n"
     "@{6}.Each level activated grants the corresponding resonance effect."
 )
+KNOWN_ORIDECON_ITEM_DESCRIPTION_TEMPLATE = (
+    "A mysterious Metal called Oridecon. It is the hardest known substance and can be used to "
+    "Enhance Weapons and Accessories.\\n^{1} Effect: Can be used to Refine +@{1} to +@{2} "
+    "Weapons and Accessories ^{2}"
+)
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
     "${2}: Server Level Cap increases to Lv. ${3}</color>"
@@ -137,6 +142,10 @@ LOCALIZATION_PATCH_PREFIXES = (
     "109600",
     # Generic task/objective templates such as "Talk to ${1}".
     "111901",
+    # Item descriptions. A number of item-detail panels format @{n} values and
+    # strip rich-text placeholders before XUnity sees the final string, so the
+    # LanguageKV template must be translated upstream.
+    "123901",
     # Event/guild headings and descriptions that are sometimes preformatted.
     "124001",
     "124002",
@@ -151,6 +160,13 @@ KNOWN_WORLD_NAME_PAIRS = {
     "Piere": "ピエール",
     "Magnolia": "マグノリア",
     "Ahn Gu-ho": "アン・グホ",
+    # Recovery's compiled Localization_en already contains these Japanese
+    # constants. Keep canonical terminology aligned so the monster-name
+    # fallback can recognize the existing constants instead of failing closed.
+    "Savage Babe": "サベージベイブ",
+    "Orc Warrior": "オーク戦士",
+    "Rotar Zairo": "ローターザイロ",
+    "Thara Frog": "タラ・フロッグ",
 }
 KNOWN_LOCALIZATION_PATCH_IDS = {
     "10530000045": "Piere",
@@ -164,7 +180,21 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "13150600321": "Take part in events and enjoy your adventures in this world",
     "10960000082": KNOWN_SOUL_ECHO_TOOLTIP_TEMPLATE,
     "10960000083": KNOWN_SOUL_ECHO_RESONANCE_TEMPLATE,
+    "12390100342": KNOWN_ORIDECON_ITEM_DESCRIPTION_TEMPLATE,
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
+}
+KNOWN_LOCALIZATION_CANONICAL_ALIASES = {
+    # LanguageKV has a stray leading space; canonical keeps the normalized key.
+    "12390100837": (
+        " permanently unlocks the Chicken Beak appearance",
+        "permanently unlocks the Chicken Beak appearance",
+    ),
+    # This canonical source was already partially localized in the source key,
+    # but its Japanese value is authoritative and can safely serve this ID.
+    "12390100522": (
+        'An extremely intricate component stamped "Made in Juno" on the bottom.',
+        'An extremely intricate component stamped "ジュノー製" on the bottom.',
+    ),
 }
 
 
@@ -758,7 +788,9 @@ def build_localization_patch_lines(translations: dict[str, str]) -> list[str]:
         "# ID<TAB>English<TAB>Japanese; canonical source is split_1000 parts 01-27",
     ]
     for key, english in load_language_kv_rows(LOCALIZATION_PATCH_PREFIXES):
-        japanese = translations.get(english)
+        alias = KNOWN_LOCALIZATION_CANONICAL_ALIASES.get(key)
+        canonical_english = alias[1] if alias else english
+        japanese = translations.get(canonical_english)
         if not japanese or japanese == english:
             continue
         if (
@@ -1079,6 +1111,23 @@ def run(check_only: bool) -> int:
         if expected_line not in localization_patch_text:
             raise ImportErrorWithContext(
                 f"known localization patch row did not generate: {expected_line!r}"
+            )
+    for key, (expected_english, canonical_english) in KNOWN_LOCALIZATION_CANONICAL_ALIASES.items():
+        actual_english = language_kv_by_id.get(key)
+        if actual_english != expected_english:
+            raise ImportErrorWithContext(
+                f"LanguageKV alias regression row changed: {key} -> {actual_english!r}; "
+                f"expected {expected_english!r}"
+            )
+        expected_japanese = translations.get(canonical_english)
+        if not expected_japanese:
+            raise ImportErrorWithContext(
+                f"known localization alias lacks canonical Japanese: {key} {canonical_english!r}"
+            )
+        expected_line = f"{key}\t{expected_english}\t{expected_japanese}"
+        if expected_line not in localization_patch_text:
+            raise ImportErrorWithContext(
+                f"known localization alias did not generate: {expected_line!r}"
             )
 
     if not check_only:
