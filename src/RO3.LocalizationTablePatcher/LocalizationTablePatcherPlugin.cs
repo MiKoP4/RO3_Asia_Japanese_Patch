@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace RO3.JapaneseMod
 {
-    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.6.1")]
+    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.0")]
     public sealed class LocalizationTablePatcherPlugin : BaseUnityPlugin
     {
         private sealed class ReferenceComparer<T> : IEqualityComparer<T> where T : class
@@ -81,6 +81,16 @@ namespace RO3.JapaneseMod
         private int _timerPostFailures;
         private int _awakeThreadId;
         private int _liveProbeAttempts;
+        private int _meshUIFontFallbackAttempts;
+        private bool _meshUIFontAssetRequestIssued;
+        private long _meshUIFontAssetRequestId;
+        private bool _meshUIFontFallbackSuccessLogged;
+        private bool _meshUIFontFallbackWarningLogged;
+        private static readonly char[] MeshUIJapaneseGlyphProbes = new char[]
+        {
+            '\u30B8', '\u30E5', '\u30C7', '\u30C3', '\u30AF', '\u30B9',
+            '\u30D5', '\u30A1', '\u30DF', '\u30EA', '\u30A2', '\u30FC',
+        };
         private readonly HashSet<Assembly> _patchedGameAssemblies =
             new HashSet<Assembly>(ReferenceComparer<Assembly>.Instance);
         private readonly HashSet<MethodBase> _patchedMethods =
@@ -105,7 +115,7 @@ namespace RO3.JapaneseMod
             catch (Exception ex)
             {
                 Logger.LogWarning(
-                    "[LocalizationTablePatcher][Recovery] Upstream skill-name patch was skipped: " + ex);
+                    "[LocalizationTablePatcher][Recovery] Upstream localization patch was skipped: " + ex);
             }
             LoadEntries();
             _current = this;
@@ -900,13 +910,157 @@ namespace RO3.JapaneseMod
             ProbeAndPatchAll("timer#" + _languageMainTimerAttempts);
         }
 
+        private void RequestMeshUIFontAssetFallback(string source)
+        {
+            if (_meshUIFontAssetRequestIssued || _meshUIFontFallbackSuccessLogged)
+            {
+                return;
+            }
+
+            try
+            {
+                Type resourceManagerType = FindType(
+                    "HappyEngine.Runtime.NewRuntimeSystem.NewResourceManager");
+                Type singletonOpenType = FindType("HappyEngine.Base.Singleton`1");
+                if (resourceManagerType == null || singletonOpenType == null)
+                {
+                    return;
+                }
+
+                Type singletonType = singletonOpenType.MakeGenericType(resourceManagerType);
+                PropertyInfo instanceProperty = FindStaticProperty(singletonType, "Instance");
+                object existingResourceManager = instanceProperty == null
+                    ? null
+                    : instanceProperty.GetValue(null, null);
+                if (existingResourceManager == null)
+                {
+                    return;
+                }
+
+                Type loaderType = FindType("UT_ResourceLoadManager");
+                if (loaderType == null)
+                {
+                    return;
+                }
+
+                MethodInfo getLoader = loaderType.GetMethod(
+                    "Obf_YY",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static,
+                    null,
+                    Type.EmptyTypes,
+                    null);
+                MethodInfo loadAsset = loaderType.GetMethod(
+                    "Obf_dz",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance,
+                    null,
+                    new[]
+                    {
+                        typeof(string),
+                        typeof(int),
+                        typeof(Action<UnityEngine.Object>),
+                    },
+                    null);
+                if (getLoader == null || loadAsset == null)
+                {
+                    return;
+                }
+
+                object loader = getLoader.Invoke(null, null);
+                if (loader == null)
+                {
+                    return;
+                }
+
+                Action<UnityEngine.Object> callback = OnMeshUIFontAssetLoaded;
+                object requestId = loadAsset.Invoke(
+                    loader,
+                    new object[] { "sdf font.asset", 7, callback });
+                _meshUIFontAssetRequestId = Convert.ToInt64(
+                    requestId,
+                    CultureInfo.InvariantCulture);
+                _meshUIFontAssetRequestIssued = true;
+                Logger.LogInfo(
+                    "[LocalizationTablePatcher][MeshUI] Requested sdf font asset for Japanese fallback. " +
+                    "requestId=" + _meshUIFontAssetRequestId.ToString(CultureInfo.InvariantCulture) +
+                    ", source=" + source + ".");
+            }
+            catch (Exception ex)
+            {
+                if (!_meshUIFontFallbackWarningLogged)
+                {
+                    _meshUIFontFallbackWarningLogged = true;
+                    Logger.LogWarning(
+                        "[LocalizationTablePatcher][MeshUI] Failed to request sdf font asset: " +
+                        ex.GetType().Name + ": " + ex.Message +
+                        ", source=" + source + ".");
+                }
+            }
+        }
+
+        private void OnMeshUIFontAssetLoaded(UnityEngine.Object asset)
+        {
+            try
+            {
+                if (asset == null ||
+                    !string.Equals(asset.GetType().FullName, "HUD.Font.SdfFont", StringComparison.Ordinal))
+                {
+                    throw new InvalidOperationException(
+                        "unexpected sdf font asset: " + DescribeUnityObject(asset));
+                }
+
+                object fallbackFont = FindXUnityFallbackFont();
+                string validationDetail = "not-run";
+                if (fallbackFont == null ||
+                    !ValidateMeshUIFallbackFont(fallbackFont, out validationDetail))
+                {
+                    throw new InvalidOperationException(
+                        fallbackFont == null
+                            ? "Japanese fallback font is unavailable"
+                            : "Japanese fallback font validation failed: " + validationDetail);
+                }
+
+                int mainTableAdds = AddFallbackToSdfFontAsset(asset, fallbackFont);
+                if (mainTableAdds < 0)
+                {
+                    throw new InvalidOperationException(
+                        "sdf font asset did not expose the expected SourceHanSansSC-Medium_player fallback table");
+                }
+
+                bool helperReady = EnsureMeshUIFontFallback("sdf-font-asset-callback");
+                if (!_meshUIFontFallbackSuccessLogged)
+                {
+                    _meshUIFontFallbackSuccessLogged = true;
+                }
+                Logger.LogInfo(
+                    "[LocalizationTablePatcher][MeshUI] Japanese fallback installed through sdf font asset callback. " +
+                    "requestId=" + _meshUIFontAssetRequestId.ToString(CultureInfo.InvariantCulture) +
+                    ", mainTableAdds=" + mainTableAdds.ToString(CultureInfo.InvariantCulture) +
+                    ", helperReady=" + helperReady +
+                    ", font=" + DescribeUnityObject(fallbackFont) + ".");
+            }
+            catch (Exception ex)
+            {
+                if (!_meshUIFontFallbackWarningLogged)
+                {
+                    _meshUIFontFallbackWarningLogged = true;
+                    Logger.LogWarning(
+                        "[LocalizationTablePatcher][MeshUI] sdf font asset callback failed: " +
+                        ex.GetType().Name + ": " + ex.Message);
+                }
+            }
+        }
+
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
+            RequestMeshUIFontAssetFallback("sceneLoaded:" + scene.name);
+            EnsureMeshUIFontFallback("sceneLoaded:" + scene.name);
             ProbeAndPatchAll("sceneLoaded:" + scene.name);
         }
 
         private void OnActiveSceneChanged(Scene previous, Scene next)
         {
+            RequestMeshUIFontAssetFallback("activeSceneChanged:" + next.name);
+            EnsureMeshUIFontFallback("activeSceneChanged:" + next.name);
             ProbeAndPatchAll("activeSceneChanged:" + next.name);
         }
 
@@ -2376,6 +2530,526 @@ namespace RO3.JapaneseMod
                 return;
             }
             objectSetter.Invoke(table, new object[] { key, value });
+        }
+
+        private bool EnsureMeshUIFontFallback(string source)
+        {
+            _meshUIFontFallbackAttempts++;
+            try
+            {
+                object fallbackFont = FindXUnityFallbackFont();
+                if (fallbackFont == null)
+                {
+                    if (_meshUIFontFallbackAttempts <= 3)
+                    {
+                        Logger.LogInfo(
+                            "[LocalizationTablePatcher][MeshUI] Japanese fallback font is not loaded yet, source=" +
+                            source + ".");
+                    }
+                    return false;
+                }
+
+                string validationDetail;
+                if (!ValidateMeshUIFallbackFont(fallbackFont, out validationDetail))
+                {
+                    if (!_meshUIFontFallbackWarningLogged)
+                    {
+                        _meshUIFontFallbackWarningLogged = true;
+                        Logger.LogWarning(
+                            "[LocalizationTablePatcher][MeshUI] Japanese fallback font was rejected: " +
+                            validationDetail + ", source=" + source + ".");
+                    }
+                    return false;
+                }
+
+                int tableAdds = AddFallbackToLoadedMeshUIFontAsset(fallbackFont);
+                int managerCount = 0;
+                int readyHelperCount = 0;
+                int patchedHelperCount = 0;
+                int alreadyHelperCount = 0;
+
+                foreach (Type managerType in FindTypes("HUDUber.MeshUIManager"))
+                {
+                    object manager = GetExistingSingletonInstance(managerType);
+                    if (manager == null)
+                    {
+                        continue;
+                    }
+                    managerCount++;
+                    MethodInfo getFontHelper = FindMethodByNameAndArity(
+                        manager.GetType(),
+                        "GetFontHelper",
+                        0);
+                    object fontHelper = getFontHelper == null
+                        ? null
+                        : SafeInvoke(getFontHelper, manager, null);
+                    if (fontHelper == null)
+                    {
+                        continue;
+                    }
+
+                    bool changed;
+                    bool ready;
+                    if (PatchMeshUIFontHelper(fontHelper, fallbackFont, out changed, out ready))
+                    {
+                        if (ready)
+                        {
+                            readyHelperCount++;
+                        }
+                        if (changed)
+                        {
+                            patchedHelperCount++;
+                        }
+                        else
+                        {
+                            alreadyHelperCount++;
+                        }
+                    }
+                    else if (ready)
+                    {
+                        readyHelperCount++;
+                    }
+                }
+
+                bool success = patchedHelperCount > 0 || alreadyHelperCount > 0;
+                if (success && !_meshUIFontFallbackSuccessLogged)
+                {
+                    _meshUIFontFallbackSuccessLogged = true;
+                    Logger.LogInfo(
+                        "[LocalizationTablePatcher][MeshUI] Japanese font fallback ready. " +
+                        "font=" + DescribeUnityObject(fallbackFont) +
+                        ", mainTableAdds=" + tableAdds +
+                        ", managers=" + managerCount +
+                        ", readyHelpers=" + readyHelperCount +
+                        ", patchedHelpers=" + patchedHelperCount +
+                        ", alreadyHelpers=" + alreadyHelperCount +
+                        ", source=" + source + ".");
+                }
+                else if (!success && _meshUIFontFallbackAttempts <= 6)
+                {
+                    Logger.LogInfo(
+                        "[LocalizationTablePatcher][MeshUI] Japanese fallback is valid but MeshUI helper is not ready yet. " +
+                        "mainTableAdds=" + tableAdds +
+                        ", managers=" + managerCount +
+                        ", readyHelpers=" + readyHelperCount +
+                        ", source=" + source + ".");
+                }
+                return success;
+            }
+            catch (Exception ex)
+            {
+                if (!_meshUIFontFallbackWarningLogged)
+                {
+                    _meshUIFontFallbackWarningLogged = true;
+                    Logger.LogWarning(
+                        "[LocalizationTablePatcher][MeshUI] Japanese fallback injection failed: " +
+                        ex.GetType().Name + ": " + ex.Message + ", source=" + source + ".");
+                }
+                return false;
+            }
+        }
+
+        private static object GetExistingSingletonInstance(Type type)
+        {
+            for (Type cursor = type; cursor != null; cursor = cursor.BaseType)
+            {
+                FieldInfo instanceField = cursor.GetField(
+                    "_instance",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+                if (instanceField == null)
+                {
+                    continue;
+                }
+
+                object instance = instanceField.GetValue(null);
+                UnityEngine.Object unityObject = instance as UnityEngine.Object;
+                return unityObject == null ? null : instance;
+            }
+            return null;
+        }
+
+        private static object FindXUnityFallbackFont()
+        {
+            Type fontCacheType = FindType(
+                "XUnity.AutoTranslator.Plugin.Core.Fonts.FontCache");
+            if (fontCacheType != null)
+            {
+                FieldInfo fallbackField = fontCacheType.GetField(
+                    "FallbackFontTextMeshPro",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+                if (fallbackField != null)
+                {
+                    object cached = fallbackField.GetValue(null);
+                    UnityEngine.Object cachedObject = cached as UnityEngine.Object;
+                    if (cachedObject != null)
+                    {
+                        return cached;
+                    }
+                }
+            }
+
+            UnityEngine.Object resource = Resources.Load("arialuni_sdf_u2022");
+            return resource == null ? null : (object)resource;
+        }
+
+        private static bool ValidateMeshUIFallbackFont(object fallbackFont, out string detail)
+        {
+            detail = "unknown";
+            if (fallbackFont == null)
+            {
+                detail = "font is null";
+                return false;
+            }
+
+            Type fontType = fallbackFont.GetType();
+            MethodInfo hasCharacter = null;
+            foreach (MethodInfo method in fontType.GetMethods(
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance))
+            {
+                if (method.Name != "HasCharacter")
+                {
+                    continue;
+                }
+                ParameterInfo[] parameters = method.GetParameters();
+                if (parameters.Length == 3 && parameters[0].ParameterType == typeof(char) &&
+                    parameters[1].ParameterType == typeof(bool) &&
+                    parameters[2].ParameterType == typeof(bool))
+                {
+                    hasCharacter = method;
+                    break;
+                }
+            }
+            if (hasCharacter == null)
+            {
+                detail = "TMP_FontAsset.HasCharacter(char,bool,bool) was not found";
+                return false;
+            }
+
+            List<string> missing = new List<string>();
+            foreach (char probe in MeshUIJapaneseGlyphProbes)
+            {
+                object supported = hasCharacter.Invoke(
+                    fallbackFont,
+                    new object[] { probe, false, false });
+                if (!(supported is bool) || !(bool)supported)
+                {
+                    missing.Add("U+" + ((int)probe).ToString("X4", CultureInfo.InvariantCulture));
+                }
+            }
+            if (missing.Count > 0)
+            {
+                detail = "missing required Japanese glyphs " + string.Join(",", missing.ToArray());
+                return false;
+            }
+
+            PropertyInfo atlasTexturesProperty = fontType.GetProperty(
+                "atlasTextures",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            if (atlasTexturesProperty != null)
+            {
+                Array atlasTextures = atlasTexturesProperty.GetValue(fallbackFont, null) as Array;
+                if (atlasTextures != null && atlasTextures.Length != 1)
+                {
+                    detail = "MeshUI requires a single atlas but fallback has " +
+                             atlasTextures.Length.ToString(CultureInfo.InvariantCulture);
+                    return false;
+                }
+            }
+
+            PropertyInfo atlasTextureProperty = fontType.GetProperty(
+                "atlasTexture",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            if (atlasTextureProperty == null ||
+                atlasTextureProperty.GetValue(fallbackFont, null) as UnityEngine.Texture == null)
+            {
+                detail = "fallback atlas texture is unavailable";
+                return false;
+            }
+
+            detail = "ok";
+            return true;
+        }
+
+        private static int AddFallbackToSdfFontAsset(
+            UnityEngine.Object sdfFontAsset,
+            object fallbackFont)
+        {
+            if (sdfFontAsset == null || fallbackFont == null)
+            {
+                return -1;
+            }
+
+            FieldInfo mainFontField = sdfFontAsset.GetType().GetField(
+                "m_kFont",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            object mainFont = mainFontField == null ? null : mainFontField.GetValue(sdfFontAsset);
+            UnityEngine.Object mainFontObject = mainFont as UnityEngine.Object;
+            if (mainFontObject == null ||
+                !string.Equals(
+                    mainFontObject.name,
+                    "SourceHanSansSC-Medium_player",
+                    StringComparison.Ordinal))
+            {
+                return -1;
+            }
+
+            PropertyInfo fallbackTableProperty = mainFont.GetType().GetProperty(
+                "fallbackFontAssetTable",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            System.Collections.IList table = fallbackTableProperty == null
+                ? null
+                : fallbackTableProperty.GetValue(mainFont, null) as System.Collections.IList;
+            if (table == null)
+            {
+                return -1;
+            }
+
+            if (ContainsUnityObjectReference(table, fallbackFont))
+            {
+                return 0;
+            }
+
+            table.Add(fallbackFont);
+            return 1;
+        }
+
+        private static int AddFallbackToLoadedMeshUIFontAsset(object fallbackFont)
+        {
+            Type tmpFontType = FindType("TMPro.TMP_FontAsset");
+            if (tmpFontType == null)
+            {
+                return 0;
+            }
+            PropertyInfo fallbackTableProperty = tmpFontType.GetProperty(
+                "fallbackFontAssetTable",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            if (fallbackTableProperty == null)
+            {
+                return 0;
+            }
+
+            int changed = 0;
+            UnityEngine.Object[] fonts = Resources.FindObjectsOfTypeAll(tmpFontType);
+            if (fonts == null)
+            {
+                return 0;
+            }
+            foreach (UnityEngine.Object font in fonts)
+            {
+                if (font == null || !string.Equals(
+                        font.name,
+                        "SourceHanSansSC-Medium_player",
+                        StringComparison.Ordinal))
+                {
+                    continue;
+                }
+                System.Collections.IList table = fallbackTableProperty.GetValue(font, null)
+                    as System.Collections.IList;
+                if (table == null || ContainsUnityObjectReference(table, fallbackFont))
+                {
+                    continue;
+                }
+                table.Add(fallbackFont);
+                changed++;
+            }
+            return changed;
+        }
+
+        private static bool PatchMeshUIFontHelper(
+            object fontHelper,
+            object fallbackFont,
+            out bool changed,
+            out bool ready)
+        {
+            changed = false;
+            ready = false;
+            if (fontHelper == null || fallbackFont == null)
+            {
+                return false;
+            }
+
+            Type helperType = fontHelper.GetType();
+            FieldInfo fontListField = helperType.GetField(
+                "m_kFontList",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            System.Collections.IList fontList = fontListField == null
+                ? null
+                : fontListField.GetValue(fontHelper) as System.Collections.IList;
+            if (fontList == null || fontList.Count == 0)
+            {
+                return false;
+            }
+            ready = true;
+
+            foreach (object wrapper in fontList)
+            {
+                if (wrapper == null)
+                {
+                    continue;
+                }
+                FieldInfo baseFontField = wrapper.GetType().GetField(
+                    "m_kFont",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                object baseFont = baseFontField == null ? null : baseFontField.GetValue(wrapper);
+                if (UnityObjectReferenceEquals(baseFont, fallbackFont))
+                {
+                    ClearMeshUIFontCharacterCache(fontHelper);
+                    return true;
+                }
+            }
+
+            FieldInfo maxFontField = helperType.GetField(
+                "MaxFontTexNum",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+            int maxFontCount = maxFontField == null ? 0 : Convert.ToInt32(
+                maxFontField.GetValue(null),
+                CultureInfo.InvariantCulture);
+            if (maxFontCount <= 0 || fontList.Count >= maxFontCount)
+            {
+                return false;
+            }
+
+            FieldInfo fontTextureListField = helperType.GetField(
+                "FontTexList",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+            System.Collections.IList fontTextureList = fontTextureListField == null
+                ? null
+                : fontTextureListField.GetValue(null) as System.Collections.IList;
+            int slot = fontList.Count;
+            if (fontTextureList == null || slot >= fontTextureList.Count)
+            {
+                return false;
+            }
+
+            FieldInfo charExtField = helperType.GetField(
+                "kFontCharExt",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+            if (charExtField == null)
+            {
+                return false;
+            }
+
+            object firstWrapper = fontList[0];
+            if (firstWrapper == null)
+            {
+                return false;
+            }
+            Type wrapperType = firstWrapper.GetType();
+            MethodInfo initMethod = FindMethodByNameAndArity(wrapperType, "Init", 2);
+            MethodInfo getAtlasTexture = FindMethodByNameAndArity(
+                wrapperType,
+                "GetFontAtlasTex",
+                0);
+            if (initMethod == null || getAtlasTexture == null)
+            {
+                return false;
+            }
+
+            ScriptableObject wrapperObject = ScriptableObject.CreateInstance(wrapperType);
+            if (wrapperObject == null)
+            {
+                return false;
+            }
+            try
+            {
+                initMethod.Invoke(
+                    wrapperObject,
+                    new object[] { fallbackFont, charExtField.GetValue(null) });
+                UnityEngine.Texture atlasTexture = getAtlasTexture.Invoke(wrapperObject, null)
+                    as UnityEngine.Texture;
+                if (atlasTexture == null)
+                {
+                    UnityEngine.Object.Destroy(wrapperObject);
+                    return false;
+                }
+
+                FieldInfo rendererField = helperType.GetField(
+                    "m_kMeshRender",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                MeshRenderer renderer = rendererField == null
+                    ? null
+                    : rendererField.GetValue(fontHelper) as MeshRenderer;
+                if (renderer == null || renderer.sharedMaterial == null)
+                {
+                    UnityEngine.Object.Destroy(wrapperObject);
+                    return false;
+                }
+
+                int propertyId = Convert.ToInt32(
+                    fontTextureList[slot],
+                    CultureInfo.InvariantCulture);
+                renderer.sharedMaterial.SetTexture(propertyId, atlasTexture);
+                fontList.Add(wrapperObject);
+                ClearMeshUIFontCharacterCache(fontHelper);
+                changed = true;
+                return true;
+            }
+            catch
+            {
+                if (wrapperObject != null)
+                {
+                    UnityEngine.Object.Destroy(wrapperObject);
+                }
+                throw;
+            }
+        }
+
+        private static void ClearMeshUIFontCharacterCache(object fontHelper)
+        {
+            if (fontHelper == null)
+            {
+                return;
+            }
+            FieldInfo cacheField = fontHelper.GetType().GetField(
+                "m_kCharToFondIdx",
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+            System.Collections.IDictionary cache = cacheField == null
+                ? null
+                : cacheField.GetValue(fontHelper) as System.Collections.IDictionary;
+            if (cache != null)
+            {
+                cache.Clear();
+            }
+        }
+
+        private static bool ContainsUnityObjectReference(
+            System.Collections.IList values,
+            object target)
+        {
+            if (values == null)
+            {
+                return false;
+            }
+            foreach (object value in values)
+            {
+                if (UnityObjectReferenceEquals(value, target))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private static bool UnityObjectReferenceEquals(object left, object right)
+        {
+            if (ReferenceEquals(left, right))
+            {
+                return true;
+            }
+            UnityEngine.Object leftObject = left as UnityEngine.Object;
+            UnityEngine.Object rightObject = right as UnityEngine.Object;
+            return leftObject != null && rightObject != null &&
+                   leftObject.GetInstanceID() == rightObject.GetInstanceID();
+        }
+
+        private static string DescribeUnityObject(object value)
+        {
+            UnityEngine.Object unityObject = value as UnityEngine.Object;
+            if (unityObject == null)
+            {
+                return value == null ? "<null>" : value.GetType().FullName;
+            }
+            return unityObject.GetType().FullName + ":\"" + unityObject.name + "\"";
         }
 
         private static Type FindType(string fullName)
