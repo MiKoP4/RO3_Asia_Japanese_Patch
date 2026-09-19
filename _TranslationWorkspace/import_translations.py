@@ -142,6 +142,10 @@ LOCALIZATION_PATCH_PREFIXES = (
     "109600",
     # Generic task/objective templates such as "Talk to ${1}".
     "111901",
+    # Item names. Drop/pickup notifications compose the item name with a count
+    # after the LanguageKV lookup (for example "Milk X 1"), so translate the
+    # name upstream before the notification template is formatted.
+    "123900",
     # Item descriptions. A number of item-detail panels format @{n} values and
     # strip rich-text placeholders before XUnity sees the final string, so the
     # LanguageKV template must be translated upstream.
@@ -180,6 +184,7 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "13150600321": "Take part in events and enjoy your adventures in this world",
     "10960000082": KNOWN_SOUL_ECHO_TOOLTIP_TEMPLATE,
     "10960000083": KNOWN_SOUL_ECHO_RESONANCE_TEMPLATE,
+    "12390001064": "Milk",
     "12390100342": KNOWN_ORIDECON_ITEM_DESCRIPTION_TEMPLATE,
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
 }

@@ -1970,6 +1970,215 @@
 11190100164	Reach ${1} activated Talent Points	有効化済みタレントポイントを${1}まで到達
 11190100165	Activate ${1} talents	${1}個のタレントを有効化
 11190100166	Clear Valhalla ${1}	ヴァルハラ ${1}をクリア
+12390000000	Card: Lunatic	カード：ルナティック
+12390000001	Card: Savage Babe	カード：サベージベイブ
+12390000002	Card: Fabre	カード：ファブル
+12390000003	Card: Drops	カード：ドロップス
+12390000004	Card: Familiar	カード：ファミリアー
+12390000005	Card: Thief Bug Female	カード：雌盗蟲
+12390000006	Card: Skeleton	カード：スケルトン
+12390000007	Card: Magnolia	カード：マグノリア
+12390000008	Card: Hornet	カード：ホーネット
+12390000009	Card: Beetle King	カード：ビートルキング
+12390000010	Card: Zenorc	カード：ゼノルク
+12390000011	Card: Driller	カード：ドリラー
+12390000012	Card: Mummy	カード：マミー
+12390000013	Card: Ambernite	カード: アンバーナイト
+12390000014	Card: Thief Bug Egg	カード：盗蟲の卵
+12390000015	Card: Ant Egg	カード：アントの卵
+12390000074	Card: Anubis	カード：アヌビス
+12390000075	Card: Savage	カード：サベージ
+12390000076	Card: Steel Chonchon	カード: スチールチョンチョン
+12390000077	Card: Peco Peco	カード: ペコペコ
+12390000078	Card: Cornutus	カード：コルヌトゥス
+12390000079	Card: Whisper	カード：ウィスパー
+12390000080	Card: Marse	カード：マルス
+12390000081	Card: Choco	カード：チョコ
+12390000082	Card: Isis	カード：イシス
+12390000083	Card: Dustiness	カード: ダスティネス
+12390000084	Card: Hode	カード：ホード
+12390000085	Card: Myst	カード：ミスト
+12390000086	Card: Frilldora	カード: フリルドラ
+12390000087	Card: Jakk	カード: ジャック
+12390000088	Card: Marionette	カード: マリオネット
+12390000089	Card: Baphomet Jr.	カード：バフォメットJr.
+12390000090	Card: Orc Zombie	カード: オークゾンビ
+12390000091	Card: Merman	カード：マーマン
+12390000092	Card: Sohee	カード：ソヒ
+12390000093	Card: Wild Rose	カード: ワイルドローズ
+12390000094	Card: Raggler	カード：ラグラ
+12390000095	Card: Vitata	カード：ヴィタータ
+12390000096	Card: Smokie	カード：スモーキー
+12390000097	Card: Marine Sphere	カード：マリンスフィアー
+12390000098	Card: Horong	カード：ホロン
+12390000099	Card: Bongun	カード：ボングン
+12390000100	Card: Greatest General	カード：天下大将軍
+12390000101	Card: Mimic	カード：ミミック
+12390000102	Card: Zerom	カード：ゼロム
+12390000103	Card: Mantis	カード：マンティス
+12390000104	Card: Stem Worm	カード: ステムワーム
+12390000105	Card: Kobold	カード：コボルト
+12390000106	Card: Wraith	カード：レイス
+12390000107	Card: Wind Ghost	カード: ウィンドゴースト
+12390000108	Card: Marin	カード：マリン
+12390000109	Card: Kukre	カード：ククレ
+12390000110	Card: Grove	カード: グローブ
+12390000111	Card: Alligator	カード: アリゲーター
+12390000112	Card: Coco	カード：ココ
+12390000113	Card: Martin	カード：マーティン
+12390000114	Card: Ladybug	カード：レディバグ
+12390000115	Sketch Card: Orc Hero	スケッチカード: オークヒーロー
+12390000116	Sketch Card: Mistress	スケッチカード: ミストレス
+12390000117	Sketch Card: Pharaoh	スケッチカード: ファラオ
+12390000118	Sketch Card: Baphomet	スケッチカード: バフォメット
+12390000119	Sketch Card: Golden Thief Bug	スケッチカード：黄金蟲
+12390000120	Sketch Card: Maya	スケッチカード：マヤー
+12390000121	Sketch Card: Deviling	スケッチカード: デビルリング
+12390000122	Sketch Card: Osiris	スケッチカード：オシリス
+12390000123	Sketch Card: Eddga	スケッチカード：エドガ
+12390000124	Card: Elder Willow	カード：エルダーウィロー
+12390000125	Sketch Card: Moonlight Flower	スケッチカード：月夜花
+12390000126	Sketch Card: Angeling	スケッチカード: エンジェリング
+12390000127	Sketch Card: Orc Lord	スケッチカード: オークロード
+12390000128	Sketch Card: Drake	スケッチカード：ドレイク
+12390000129	Sketch Card: Phreeoni	スケッチカード: フリオニ
+12390000130	Sketch Card: Dracula	スケッチカード: ドラキュラ
+12390000131	Sketch Card: Doppelganger	スケッチカード：ドッペルゲンガー
+12390000132	Sketch Card: Goblin Leader	スケッチカード：ゴブリンリーダー
+12390000133	Sketch Card: Kraken	スケッチカード：クラーケン
+12390000134	Card: Ghoul	カード：グール
+12390000135	Card: Cramp	カード：クランプ
+12390000136	Card: Soldier Skeleton	カード：ソルジャースケルトン
+12390000137	Card: Rotar Zairo	カード：ローターザイロ
+12390000138	Card: Archer Skeleton	カード: アーチャースケルトン
+12390000139	Card: Goblin Archer	カード：ゴブリンアーチャー
+12390000140	Card: Hydra	カード: ヒドラ
+12390000141	Card: Minorous	カード：ミノタウロス
+12390000142	Card: Goblin Steamrider	カード：ゴブリンスチームライダー
+12390000143	Card: Side Winder	カード：サイドワインダー
+12390000144	Card: Skeleton Worker	カード: スケルワーカー
+12390000145	Card: Gryphon	カード：グリフォン
+12390000146	Card: Kobold Archer	カード：コボルドアーチャー
+12390000147	Card: Kobold Leader	カード：コボルドリーダー
+12390000148	Card: Dark Priest	カード：ダークプリースト
+12390000149	Card: Desert Wolf	カード：デザートウルフ
+12390000150	Card: Squidgitte	カード: スキジッテ
+12390000151	Card: Horn	カード: ホルン
+12390000152	Card: Thara Frog	カード: タラ・フロッグ
+12390000153	Card: Sasquatch	カード: サスカッチ
+12390000154	Card: Sandman	カード：サンドマン
+12390000155	Card: Marc	カード: マルク
+12390000156	Card: Swordfish	カード: ソードフィッシュ
+12390000157	Card: Dokebi	カード：ドケビ
+12390000158	Card: Argiope	カード：アルギオペ
+12390000159	Card: Pasana	カード：パサーナ
+12390000160	Card: Ghostring	カード: ゴーストリング
+12390000161	Card: Pot Dofle	カード: ポットドフル
+12390000162	Card: Killer Mantis	カード：キラーマンティス
+12390000163	Card: Eclipse	カード：エクリプス
+12390000164	Card: Vocal	カード：ボーカル
+12390000165	Card: Toad	カード: ヒキガエル
+12390000166	Card: Dragon Fly	カード: ドラゴンフライ
+12390000167	Card: Mastering	カード: マスタリング
+12390000168	Card: Orc Baby	カード：オークベビー
+12390000169	Card: Vagabond Wolf	カード：さすらい狼
+12390000170	Card: Nine-Tail	カード: 九尾狐
+12390000171	Card: Creamy Fear	カード：クリーミーフィアー
+12390000172	Card: Verit	カード：ベリット
+12390000173	Card: Matyr	カード：マーター
+12390000174	Card: Cat o' Nine-Tail	カード：キャットナインテイル
+12390000175	Card: Creamy	カード：クリーミー
+12390000176	Card: Obeaune	カード：オボンヌ
+12390000177	Card: Pirate Skeleton	カード: パイレーツスケルトン
+12390000178	Card: Orc Archer	カード: オークアーチャー
+12390000179	Card: Phen	カード：フェン
+12390000180	Card: Giearth	カード：ガイアス
+12390000181	Card: Marduk	カード：マルドゥク
+12390000182	Card: Nightmare	カード: ナイトメア
+12390000183	Card: Deviruchi	カード: デビルチ
+12390000184	Card: Maya Purple	カード：マヤパープル
+12390000185	Portrait Card: Orc Hero	ポートレートカード：オークヒーロー
+12390000186	Portrait Card: Mistress	ポートレートカード：ミストレス
+12390000187	Portrait Card: Pharaoh	ポートレートカード：ファラオ
+12390000188	Portrait Card: Baphomet	ポートレートカード：バフォメット
+12390000189	Portrait Card: Golden Thief Bug	ポートレートカード：黄金蟲
+12390000190	Portrait Card: Maya	ポートレートカード：マヤ
+12390000191	Portrait Card: Deviling	ポートレートカード：デビルリング
+12390000192	Portrait Card: Osiris	ポートレートカード: オシリス
+12390000193	Portrait Card: Eddga	ポートレートカード: エドガ
+12390000194	Card: Argos	カード：アルゴス
+12390000195	Card: King Dramoh	カード：キングドラモー
+12390000196	Portrait Card: Moonlight Flower	ポートレートカード：月夜花
+12390000197	Portrait Card: Angeling	ポートレートカード：エンジェリング
+12390000198	Portrait Card: Orc Lord	ポートレートカード：オークロード
+12390000199	Portrait Card: Drake	ポートレートカード: ドレイク
+12390000200	Portrait Card: Phreeoni	ポートレートカード：フリオニ
+12390000201	Portrait Card: Dracula	ポートレートカード：ドラキュラ
+12390000202	Portrait Card: Doppelganger	ポートレートカード：ドッペルゲンガー
+12390000203	Portrait Card: Goblin Leader	ポートレートカード：ゴブリンリーダー
+12390000204	Portrait Card: Kraken	ポートレートカード: クラーケン
+12390000205	Card: Leib Olmai	カード: リーブ・オルマイ
+12390000206	Shadow Card: Drake	シャドウカード：ドレイク
+12390000207	Shadow Card: Phreeoni	シャドウカード: フリオニ
+12390000208	Shadow Card: Dracula	シャドウカード: ドラキュラ
+12390000209	Shadow Card: Doppelganger	シャドウカード：ドッペルゲンガー
+12390000210	Shadow Card: Baphomet	シャドウカード: バフォメット
+12390000211	Shadow Card: Goblin Leader	シャドウカード：ゴブリンリーダー
+12390000212	Shadow Card: Golden Thief Bug	シャドウカード：黄金蟲
+12390000213	Shadow Card: Maya	シャドウカード：マヤー
+12390000214	Shadow Card: Angeling	シャドウカード: エンジェリング
+12390000215	Shadow Card: Orc Lord	シャドウカード: オークロード
+12390000216	Shadow Card: Deviling	シャドウカード: デビルリング
+12390000217	Shadow Card: Kraken	シャドウカード：クラーケン
+12390000218	Shadow Card: Eddga	シャドウカード：エドガ
+12390000219	Shadow Card: Moonlight Flower	シャドウカード：月夜花
+12390000220	Shadow Card: Osiris	シャドウカード：オシリス
+12390000221	Shadow Card: Orc Hero	シャドウカード: オークヒーロー
+12390000222	Shadow Card: Mistress	シャドウカード: ミストレス
+12390000223	Shadow Card: Pharaoh	シャドウカード: ファラオ
+12390000224	Card: Drake	カード：ドレイク
+12390000225	Card: Phreeoni	カード：フリオーニ
+12390000226	Card: Dracula	カード：ドラキュラ
+12390000227	Card: Doppelganger	カード：ドッペルゲンガー
+12390000228	Card: Baphomet	カード：バフォメット
+12390000229	Card: Goblin Leader	カード：ゴブリンリーダー
+12390000230	Card: Golden Thief Bug	カード：黄金蟲
+12390000231	Card: Maya	カード：マヤ
+12390000232	Card: Angeling	カード：エンジェリング
+12390000233	Card: Orc Lord	カード：オークロード
+12390000234	Card: Deviling	カード：デビリング
+12390000235	Card: Kraken	カード：クラーケン
+12390000236	Card: Eddga	カード：エドガ
+12390000237	Card: Moonlight Flower	カード：月夜花
+12390000238	Card: Osiris	カード：オシリス
+12390000239	Card: Orc Hero	カード：オークヒーロー
+12390000240	Card: Mistress	カード：ミストレス
+12390000241	Card: Pharaoh	カード：ファラオ
+12390000242	Zeny	ゼニー
+12390000243	Minted Coin	鋳造されたコイン
+12390000244	Sacred Relic Crystal	聖遺物クリスタル
+12390000245	Credit Points	クレジットポイント
+12390000246	Activity	活躍度
+12390000247	Competition Medal	競技メダル
+12390000248	Survivor Battle Net Victory Points	サバイバルバトル純勝利ポイント
+12390000249	Survivor Battle Net Victory Protection Points	サバイバルバトル純勝利保護ポイント
+12390000250	Trial Coins	トライアルコイン
+12390000251	MVP Coin	MVPコイン
+12390000252	MVP Season Rank Points	MVPシーズンランクポイント
+12390000253	War of Emperium Season Rank Points	攻城戦シーズンランクポイント
+12390000254	Guild League Season Rank Points	ギルドリーグシーズンランクポイント
+12390000255	Secondary Profession Season Rank Points	副職業シーズンランクポイント
+12390000341	Bash Sword	バッシュソード
+12390000342	Byeollungum	別陵音
+12390000343	Two-Handed Sword	両手剣
+12390000344	Novice Two-Handed Sword	ノービスツーハンドソード
+12390000345	Yalt Sword	ヤルトの剣
+12390000346	Novice Yalt Sword	ノービス・ヤルトソード
+12390000347	Greatsword	大剣
+12390000348	Novice Greatsword	ノービス・グレートソード
+12390000349	Heavy Two-Handed Sword	ヘビーツーハンドソード
+12390000350	Claymore	クレイモア
+12390000351	Giant Two-Handed Sword	ジャイアントツーハンドソード
 10220300000	Strength +${1}, Dexterity +${2}, Intelligence +${3}.	STR +${1}、DEX +${2}、INT +${3}。
 10220300001	Searching for enemies within range who are ^{1}Hidden^{2}.	範囲内の^{1}隠れた^{2}敵を検索中。
 10220300002	Agility +${1}, Attack Speed +${2}%, Movement Speed +${3}%.	AGI +${1}、攻撃速度 +${2}%、移動速度 +${3}%。
@@ -6320,11 +6529,90 @@
 10110201062	Arrow Smash	アロースマッシュ
 10110201063	Staff Smash	スタッフスマッシュ
 10110201064	Blade Smash	ブレードスマッシュ
+12390001779	Blossom Sprite	ブロッサムスプライト
+12390001780	Wheel of Time	時の輪
+12390001781	Reaper's Scythe	死神の大鎌
+12390001782	Crazy Baby Bunny	クレイジーベビーバニー
+12390001783	Crazy Bunny Family Balloon	クレイジーバニーファミリーバルーン
+12390001784	Giant Bow Scarf	ジャイアントボウスカーフ
+12390001785	World-Scorching Feather · Golden Crow	世界を焦がす羽・金烏
+12390001786	Worldscorch Feather	ワールドスコーチフェザー
+12390001787	Worldscorch Feather: Burning Wings	ワールドスコーチフェザー：バーニングウィング
+12390001788	Worldscorch Feather: Ashen Embers	ワールドスコーチフェザー：灰燼
+12390001789	Sweetheart Tea Party · Soufflé	スイートハート・ティーパーティ・スフレ
+12390001790	Sweetheart Tea Party	スイートハート・ティーパーティ
+12390001791	Bonnie's Afternoon	ボニーの午後
+12390001792	Kitty Tail	キティテール
+12390001793	Strawberry Macaron	ストロベリーマカロン
+12390001794	Sweet Waltz	スイートワルツ
+12390001795	Night Judgment·Mask	夜の審判・マスク
+12390001796	Night Judgment - Mask	夜の審判 - マスク
+12390001797	Night Judgment	夜の審判
+12390001798	Silverwing Covenant - Order	シルバーウィングの盟約・秩序
+12390001799	Silverwing Covenant - Discipline	シルバーウィングの盟約 - 規律
+12390001800	Nine-Tone Mantra · Elegance	九音真言・優雅
+12390001801	Silverwing Covenant	シルバーウィングの盟約
+12390001802	Nine-Tone Mantra	九音真言
+12390001803	Silverwing Covenant - Truth	シルバーウィングの盟約・真実
+12390001804	Silverwing Covenant - Prayer	シルバーウィングの盟約 - 祈り
+12390001805	Nine-Tone Mantra: Rainbow Raiment	九音真言：虹の衣
+12390001806	Nine-Hued Sacred Melody · Apsara	九彩の聖なる旋律・天女
 10110200264	Flasher	フラッシャー
 10110200265	Focused Arrow Strike	集中アローストライク
 10110200266	Arm Cannon Enhance	アームキャノン強化
 10110200267	Knuckle Boost (Deprecated)	ナックルブースト（廃止予定）
 10110200268	Tension Relax	テンション・リラックス
+12390001257	Shattered Metal	砕けた金属
+12390001258	Common Powder	コモンパウダー
+12390001259	Black Sobbing Starlight Fragment	黒きすすり泣くスターライトの欠片
+12390001260	Magic Powder	魔法の粉
+12390001261	Special Mane	特別なたてがみ
+12390001262	Wolf Claw	狼の爪
+12390001263	Orc Fang	オークの牙
+12390001316	Strawberry	イチゴ
+12390001317	Salt	塩
+12390001318	Solid Wood Core	堅木コア
+12390001319	Solid Wood Pin Mold	無垢材ピン型
+12390001320	Ironwood Chunk	アイアンウッドの塊
+12390001321	Ironwood Blank	アイアンウッド材
+12390001322	Advanced Coating	上級コーティング
+12390001323	Ironwood Core	アイアンウッドコア
+12390001324	Ironwood Ring Mold	アイアンウッドリング型
+12390001325	Ironwood Wrapping	鉄木の包材
+12390001326	Sacred Wood Chunk	聖木の欠片
+12390001327	Sacred Wood Blank	聖木の素材
+12390001328	Sacred Wood Core	聖なる木材コア
+12390001329	Sacred Ring Mold	聖なるリング型
+12390001330	Sacred Wood Wrapping	聖なる木材の包装
+12390001331	Glyph	グリフ
+12390001332	Spirit Glyph	スピリットグリフ
+12390001333	Sacred Glyph	セイクリッドグリフ
+12390001334	Blessed Sacred Glyph	祝福された聖なるグリフ
+12390001335	Flax Leaf	亜麻の葉
+12390001336	Cotton Tuft	コットンタフト
+12390001337	Fluffy Fiber Tuft	ふわふわ繊維束
+12390001338	Spirit Scale Stalk	スピリットスケイルの茎
+12390001339	Woolly Moss	ウーリーモス
+12390001340	Spirit Silk	スピリットシルク
+12390001341	Fine Fiber Tuft	上質な繊維束
+12390001342	Sacred Sap	聖なる樹液
+12390001343	Sacred Silk	神聖な絹
+12390001344	Linen Roll	リネンロール
+12390001345	Coarse Cotton Roll	粗綿ロール
+12390001346	Woolen Cloth Roll	毛織物ロール
+12390001347	Standard Thread	標準糸
+12390001348	Woolen Padding	ウール中綿
+12390001349	Silk Roll	絹の反物
+12390001350	Silk Padding	シルクパッド
+12390001351	Silk Garment Blank	シルク衣装素材
+12390001352	Silk Shoulderwear Blank	シルク肩装備の素体
+12390001353	Silk Footwear Blank	シルク靴の素体
+12390001354	Advanced Thread	上級糸
+12390001355	Sacred Cloth Roll	聖布ロール
+12390001356	Sacred Padding	聖なる中綿
+12390001357	Sacred Garment Blank	聖衣の素体
+12390001358	Sacred Shoulderwear Blank	聖なるショルダーウェア素体
+12390001359	Sacred Footwear Blank	聖なる靴素材
 13150600069	Search for Traces of the Soldier	兵士の痕跡を探す
 13150600068	Touch the stone pillar.	石柱に触れる。
 13150600067	Take Out the part.	部品を取り出す。
@@ -7517,6 +7805,1530 @@
 12390100002	A dazzling coin used to exchange for valuable items.	貴重なアイテムとの交換に使う眩いコイン。
 12390100001	Currency made of silver.	銀で作られた通貨。
 12390100000	Monster transformation cards grant special effects when socketed in the corresponding slot	モンスター変身カードは対応スロットに装着すると特殊効果を発揮
+12390001814	Kitty's Charge	キティのチャージ
+12390001813	Master of the Game	ゲームの達人
+12390001812	Academy Journal	アカデミー日誌
+12390001811	Academy Journal: Recess	アカデミー日誌：休み時間
+12390001810	Afternoon Stroll	午後の散歩
+12390001809	Afternoon Stroll · Warm Sunshine	午後の散歩・暖かな陽射し
+12390001808	Dinner Date	ディナーデート
+12390001807	Banquet Invitation · Light	宴会招待・ライト
+12390001778	Fish In Mouth	口の中の魚
+12390001777	Pipe	パイプ
+12390001776	Angry Snarl	怒ったうなり声
+12390001775	Angel Wing Earrings	天使の羽イヤリング
+12390001774	Evil Wing Ears	邪悪な翼の耳
+12390001773	Goblin Leader Mask	ゴブリンリーダーマスク
+12390001772	Prank Mask	いたずらマスク
+12390001771	Rune Crown	ルーンクラウン
+12390001770	Night Thorn	ナイトソーン
+12390001769	Fox Mask	キツネの仮面
+12390001768	Poo Poo Hat	プープーハット
+12390001767	Sun God Helmet	太陽神の兜
+12390001766	Starfish Hairpin	ヒトデのヘアピン
+12390001765	Vampire Hairpin	ヴァンパイアヘアピン
+12390001764	Moonlight Flower Hat	月夜花の帽子
+12390001763	Majestic Goat	雄大なヤギ
+12390001762	Jewel Crown	ジュエルクラウン
+12390001761	Pointed Horn Headband	尖った角のヘアバンド
+12390001760	Sphinx Hat	スフィンクスの帽子
+12390001759	Crown	クラウン
+12390001758	Golden Coronet	黄金の宝冠
+12390001757	Pirate Captain's Hat	海賊船長の帽子
+12390001756	Grand Circlet	グランドサークレット
+12390001755	Tiara	ティアラ
+12390001754	Helmet of Orc Hero	オークヒーローの兜
+12390001753	Evil Wing	悪魔の羽
+12390001752	Golden Headwear	黄金の頭飾り
+12390001751	Angel Wing	エンジェルウィング
+12390001750	Student Backpack	学生バックパック
+12390001749	Grand Voyage	大航海
+12390001748	Old Television	古いテレビ
+12390001747	Fluffy Tail	ふわふわしっぽ
+12390001746	Flame Scarf	炎のスカーフ
+12390001745	Baby Pacifier	赤ちゃんのおしゃぶり
+12390001744	Toast	トースト
+12390001743	Lucky Clover	ラッキークローバー
+12390001742	Romantic Leaf	ロマンティックリーフ
+12390001741	Sweet Candy	スイートキャンディ
+12390001740	Clown Nose	クラウンの鼻
+12390001739	Lovely Sleep Mask	かわいいアイマスク
+12390001738	Small Ribbons	小さなリボン
+12390001737	Blush	赤面
+12390001736	Smiling Mask	スマイリーマスク
+12390001735	Spinning Eyes	スピニングアイズ
+12390001734	Eye Patch	眼帯
+12390001733	Urgent Treatment Needed	緊急治療が必要です
+12390001732	Black Cat Ears	黒猫耳
+12390001731	Sage's Stone Helm	賢者の石の兜
+12390001730	Banana Hat	バナナハット
+12390001729	Theater Hat	シアターハット
+12390001728	Apple Headwear	リンゴの帽子
+12390001727	Deviruchi Hat	デビルーチハット
+12390001726	Nurse Cap	ナースキャップ
+12390001725	Drooping Cat	たれ猫
+12390001724	Playful Lace Kitty Headband	遊び心あるレース猫カチューシャ
+12390001723	Goggles	ゴーグル
+12390001722	Feather Bonnet	フェザーボンネット
+12390001721	Bunny Hair Band	うさ耳ヘアバンド
+12390001720	Grand Peco Hair Accessory	グランペコのヘアアクセサリー
+12390001719	Chicken Beak	チキンビーク
+12390001718	White Beard	白ひげ
+12390001717	Blinker	目隠し
+12390001716	Sunglasses	サングラス
+12390001715	Student's Cap	学生帽
+12390001714	Mage's Hat	マジシャンの帽子
+12390001713	Army Cap	アーミーキャップ
+12390001712	Egg Shell	卵の殻
+12390001711	Bread Bag Hat	ブレッドバッグハット
+12390001710	Fruit Peel Hat	フルーツピールハット
+12390001709	Parting Gift	餞別の贈り物
+12390001708	Sword of Victory	勝利の剣
+12390001707	Endless Golden Ring	無限の黄金リング
+12390001706	Mead of Inspiration	ひらめきの蜂蜜酒
+12390001705	Dragonslayer	ドラゴンスレイヤー
+12390001704	Hunting Season	狩猟の季節
+12390001703	The Hanged Man	吊るされた男
+12390001702	Fountain of Wisdom	知恵の泉
+12390001701	Chains of Deceit	欺瞞の鎖
+12390001700	Flames of Inquisition	審問の炎
+12390001699	Tree of Life	生命の樹
+12390001698	Supreme Throne	至高の玉座
+12390001697	Sun-Devouring Wolf	太陽を喰らう狼
+12390001696	Wandering Elder	さすらいの長老
+12390001695	Disguise Trick	変装トリック
+12390001694	War God's Raiment	戦神の装束
+12390001693	Gungnir	グングニル
+12390001692	Divine Goat's Milk	聖なるヤギの乳
+12390001691	All-Seeing Raven	すべてを見通すカラス
+12390001690	Ouroboros	ウロボロス
+12390001689	Boar's Feast	猪の饗宴
+12390001688	Eight-Legged Steed	八本脚の軍馬
+12390001687	Runic Fang	ルーンの牙
+12390001686	Honeyed Antlers	蜜漬けの角
+12390001685	Horn of Twilight	黄昏の角笛
+12390001684	CRIT DMG Reduction	クリティカルダメージ軽減
+12390001683	CRIT RES	Cri耐性
+12390001682	CRIT DMG	Criダメージ
+12390001681	CRIT	クリティカル
+12390001680	Hunting Protection	ハンティング保護
+12390001679	Hunting Mastery	狩猟マスタリー
+12390001678	DMG Reduction vs All Job	全職業から受けるダメージ軽減
+12390001677	DMG vs All Job	ダメージ vs 全ジョブ
+12390001676	Undead Property Resistance	不死属性耐性
+12390001675	Ghost Property Resistance	念属性耐性
+12390001674	Shadow Resistance	闇耐性
+12390001673	Holy Resistance	聖属性耐性
+12390001672	Poison Resistance	毒耐性
+12390001671	Water Resistance	水耐性
+12390001670	Fire Resistance	火属性耐性
+12390001669	Earth Property Resistance	地属性耐性
+12390001668	Wind Resistance	風属性耐性
+12390001667	Neutral Resistance	無属性耐性
+12390001666	FLEE	回避
+12390001664	Magic Penetration	魔法貫通
+12390001663	Physical Penetration	物理貫通
+12390001662	Life	HP
+12390001661	PDEF	物理防御
+12390001660	MDEF	魔法防御
+12390001659	PATK	物理攻撃
+12390001658	MATK	魔法攻撃
+12390001657	Continuous Shield	持続シールド
+12390001656	Desperate Defense	決死の防御
+12390001655	Fortitude Defense	不屈の防御
+12390001654	Continuous Healing	持続回復
+12390001653	Abundant Healing	豊富な回復
+12390001652	Cure	治療
+12390001651	Multi Strike	マルチストライク
+12390001650	Abundant Strength	満ちる力
+12390001649	Vengeful Strength	復讐の力
+12390001648	Decapitation	斬首
+12390001647	Magic Reverberation	マジックリバーブレーション
+12390001646	Abundant Magic	豊穣の魔力
+12390001645	Vengeful Magic	復讐の魔力
+12390001644	Terminate	終了
+12390001643	Healing Amplification	回復増幅
+12390001642	DEF Boost	防御力アップ
+12390001641	Ranged Amplification	遠距離強化
+12390001640	Melee Amplification	近接攻撃増幅
+12390001639	Magic Amplification	魔法攻撃増幅
+12390001638	Healing Cap	ヒーリングキャップ
+12390001637	Defense Cap	ディフェンスキャップ
+12390001636	Physical Damage Cap	物理ダメージ上限
+12390001635	Magic Damage Cap	魔法ダメージ上限
+12390001634	Low-Level Hunting Protection	低級狩猟防御
+12390001633	Basic Hunting Technique	基礎狩猟技術
+12390001632	Low-Tier DMG Reduction vs All Job	全職業からのダメージ軽減（小）
+12390001631	Low-Tier DMG vs All Job	全職業へのダメージ（小）
+12390001630	Low-Tier Undead Resistance	初級不死属性耐性
+12390001629	Minor Ghost Property Resistance	念属性耐性（小）
+12390001628	Minor Shadow Resistance	闇属性耐性（小）
+12390001627	Minor Holy Resistance	聖属性耐性・小
+12390001626	Minor Poison Resistance	毒属性耐性（小）
+12390001625	Minor Water Resistance	水属性耐性・小
+12390001624	Minor Fire Resistance	火属性耐性・小
+12390001623	Minor Earth Resistance	地属性耐性・小
+12390001622	Low Wind Resistance	風属性耐性低下
+12390001621	Low-Tier Neutral Resistance	初級無属性耐性
+12390001620	Low-Tier FLEE	低Tier FLEE
+12390001619	Low-Tier HIT	低層ヒット
+12390001618	Low-Tier Magic Penetration	初級魔法貫通
+12390001617	Low-Tier Physical Penetration	初級物理貫通
+12390001616	Low-Tier Life	低Tier HP
+12390001615	Low-Tier Physical Defense	初級物理防御
+12390001614	Low-Tier Magic Defense	初級魔法防御
+12390001613	Low-Tier Physical Attack	初級物理攻撃
+12390001612	Low-Tier Magic Attack	初級魔法攻撃
+12390001611	Low-Tier Continuous Shield	初級持続シールド
+12390001610	Low-Tier Last Stand Defense	初級ラストスタンド防御
+12390001609	Low-Tier Fortitude Defense	初級不屈防御
+12390001608	Low-Tier Continuous Healing	初級継続回復
+12390001607	Low-Tier Abundant Healing	初級回復強化
+12390001606	Low-Tier First Aid	初級応急処置
+12390001605	Low-Tier Multi Strike	初級マルチストライク
+12390001604	Low-Tier Abundant Strength	初級STR強化
+12390001603	Low-Tier Vengeful Might	初級・復讐の力
+12390001602	Low-Tier Execution	初級エグゼキューション
+12390001601	Low-Tier Magic Echo	初級マジックエコー
+12390001600	Low-Tier Abundant Magic	初級・豊富な魔力
+12390001599	Low-Tier Vengeful Magic	初級・復讐の魔力
+12390001598	Low-Tier Terminate	初級ターミネート
+12390001597	Holy Fortress	聖なる要塞
+12390001596	Momentum Breaker	モメンタムブレイカー
+12390001595	Ice Guardian	アイスガーディアン
+12390001594	Holy Guard	ホーリーガード
+12390001593	Nature's Blessing	自然の祝福
+12390001592	Divine Message	神託
+12390001591	Resolve	決意
+12390001590	Savage Blade	サベージブレード
+12390001589	Magic Mark	マジックマーク
+12390001588	Magic Blade	マジックブレード
+12390001587	Pet Shard: Earth Lord	ペットの欠片：アースロード
+12390001586	Pet Shard: Wind Lord	ペットの欠片: 風の王
+12390001585	Pet Shard: Water Lord	ペットの欠片：ウォーターロード
+12390001584	Pet Shard: Fire Lord	ペットの欠片: 炎の王
+12390001583	Pet Shard: Vocal	ペットのかけら: ボーカル
+12390001582	Pet Shard: Wild Rose	ペットの欠片: ワイルドローズ
+12390001581	Pet Shard: Poring	ペットの欠片：ポリン
+12390001580	Pet Shard: Choco	ペットのかけら: チョコ
+12390001579	Pet Shard: Clock	ペットのかけら: クロック
+12390001578	Pet Shard: Alice the Maid	ペットの欠片：メイドのアリス
+12390001577	Pet Shard: Bongun	ペットの欠片：ボンゴン
+12390001576	Pet Shard: Squidgitte	ペットの欠片：スクイジット
+12390001575	Pet Shard: Forest Fairy	ペットの欠片：フォレストフェアリー
+12390001574	Pet Shard: Nepenthes	ペットの欠片: ネペンテス
+12390001573	Pet Shard: Lava Lizard	ペットの欠片：ラヴァリザード
+12390001572	Pet Shard: Ancient Tree	ペットの欠片：エンシェントツリー
+12390001571	Pet Shard: Garm Baby	ペットの欠片: ガルムベビー
+12390001570	Pet Shard: Fruit Tree Turtle	ペットの欠片：フルーツツリータートル
+12390001569	Pet Shard: Goat	ペットのかけら: ヤギ
+12390001568	Pet Shard: Basilisk Scout	ペットの欠片：バジリスクスカウト
+12390001567	Pet Shard: Baphomet Jr.	ペットの欠片：バフォメットJr.
+12390001566	Pet Shard: Marionette	ペットの欠片：マリオネット
+12390001565	Pet Shard: Moonlight Flower	ペットの欠片：月夜花
+12390001564	Pet Shard: Rainbow Earth Dragon	ペットの欠片：レインボーアースドラゴン
+12390001563	Pet Shard: Retribution	ペットの欠片：リトリビューション
+12390001562	Pet Shard: Alicel	ペットの欠片：アリセル
+12390001561	Pet Shard: Sarah Irene	ペットの欠片：サラ・アイリーン
+12390001560	Pet Shard: Blood Butterfly	ペットの欠片：ブラッドバタフライ
+12390001559	Pet Shard: Piamette	ペットの欠片：ピアメット
+12390001558	Pet Shard: Miguel	ペットの欠片：ミゲル
+12390001557	Pet Shard: Tough Rainbow Nightmare	ペットの欠片：タフ・レインボーナイトメア
+12390001556	Pet Shard: Bokba	ペットのかけら: ボクバ
+12390001555	Pet Shard: Angeling	ペットの欠片：エンジェリング
+12390001554	Pet Shard: Dullahan	ペットの欠片：デュラハン
+12390001553	Pet Shard: Warrior Lola	ペットの欠片：戦士ローラ
+12390001552	Pet Shard: Darkhearted Hunter Eve	ペットの欠片：ダークハートハンター・イヴ
+12390001551	Pet Shard: Watcher	ペットの欠片：ウォッチャー
+12390001550	Pet Shard: Baby Isis	ペットの欠片: ベビーイシス
+12390001549	Pet Shard: High Orc	ペットの欠片：ハイオーク
+12390001548	Pet Shard: Nightmare	ペットの欠片: ナイトメア
+12390001547	Pet Shard: Miyabi Doll	ペットの欠片：雅人形
+12390001546	Pet Shard: Deadre	ペットの欠片：デッドレ
+12390001545	Evil Nymph Shard	邪妖精のかけら
+12390001544	Corrupted Wander Man Shard	堕落したワンダーマンの欠片
+12390001543	Goddess of Hope Fragment	希望の女神の欠片
+12390001542	Zherlthsh Shard	ゼルトシュのかけら
+12390001541	Elio Fragment	エリオの欠片
+12390001540	Pet Shard: Sohee	ペットのかけら: ソヒ
+12390001539	Ancient Mummy Shard	エンシェントマミーの欠片
+12390001538	Baron Fragment	バロンの欠片
+12390001537	Death Witch Shard	デスウィッチの欠片
+12390001536	Radiant Unicorn Chimera Shard	輝くユニコーンキメラの欠片
+12390001535	Demon Servant Shard	デーモンサーヴァントの欠片
+12390001534	Wild Rose Knight Shard	ワイルドローズナイトの欠片
+12390001533	Medusa Shard	メデューサの欠片
+12390001532	Alien Fragment	異形の欠片
+12390001531	Demon Maid Shard	デーモンメイドのかけら
+12390001530	Silver Moon Witch Shard	シルバームーンウィッチの欠片
+12390001529	Fire Ninja Shinobi Shard	火忍シノビの欠片
+12390001528	Cat o' Nine-Tail Shard	キャットナインテイルの欠片
+12390001527	Secret History of Prontera@{1}: @{2}	知られざるプロンテラ物語@{1}：@{2}
+12390001526	Chapter 2 of a Book	本の第2章
+12390001525	Chapter One of a Book	本の第1章
+12390001524	Magic Carpet	魔法のじゅうたん
+12390001523	Baby Kun	ベイビーくん
+12390001522	Fish of the Northern Deep	北の深海魚
+12390001521	Crab You Very Much	カニに感謝！
+12390001520	Flying Goblin Balloon	空飛ぶゴブリンバルーン
+12390001519	Flying Goblin Balloon - Limited-Time Edition	フライングゴブリンバルーン - 期間限定
+12390001518	Dream Horse - Limited	ドリームホース - 期間限定
+12390001517	Eggshell Chubby Chick - Limited	卵殻ぽっちゃりヒヨコ - 期間限定
+12390001516	Wind-Up Rocking Chair - Limited	ゼンマイ式ロッキングチェア - 期間限定
+12390001515	Goblin Balloon - Limited	ゴブリンバルーン - 期間限定
+12390001514	Pompadour - Limited	ポンパドール - 期間限定
+12390001513	Fluffy Bunny - Limited	ふわふわバニー - 期間限定
+12390001512	Orchid Pavilion - Limited	蘭亭 - 期間限定
+12390001511	Sun Chariot - Limited	サンチャリオット - 期間限定
+12390001510	Starshatter Dragon - Limited	スターシャッタードラゴン - 期間限定
+12390001509	Savage	サベージ
+12390001508	Ostrich	オーストリッチ
+12390001507	Fox	キツネ
+12390001506	Hyena	ハイエナ
+12390001505	Alpaca	アルパカ
+12390001504	Lion	ライオン
+12390001503	Big Poring	大きなポリン
+12390001502	Dream Steed	ドリームスティード
+12390001501	Eggshell Chubby Chick	卵殻ぽっちゃりヒヨコ
+12390001500	Wind-Up Rocking Chair	ゼンマイ式ロッキングチェア
+12390001499	Goblin Balloon	ゴブリンバルーン
+12390001498	Pompadour	リーゼント
+12390001497	Fluffy Bunny	ふわふわバニー
+12390001496	Orchid Waterside Pavilion	オーキッド水辺の東屋
+12390001495	Solar Chariot	ソーラーチャリオット
+12390001494	Starshatter Dragon	スターシャッタードラゴン
+12390001493	Set Sail	出航
+12390001492	Meow	ニャー
+12390001491	Bouquet	花束
+12390001490	Land of Lilies of the Valley	スズランの地
+12390001489	Path of Adventure	冒険の道
+12390001488	Einherjar Coin	エインヘルヤルコイン
+12390001487	Test Name Card@{1}-Permanent	テストネームカード@{1}-永久
+12390001486	Fashion Gala (@{1} Hours)	ファッションガラ（@{1}時間）
+12390001485	Hero Registry (@{1} Hours) Discontinued	ヒーロー登録（@{1}時間）終了
+12390001484	Spirit Conqueror (@{1} Hours)	スピリットコンカラー（@{1}時間）
+12390001483	Novice's Pride	ノービスの誇り
+12390001482	Top Ten Heroes (@{1} Hours) Discontinued	トップ10英雄（@{1}時間）廃止
+12390001481	Rift in the Sky	天空の裂け目
+12390001480	Victory of the Covenant	盟約の勝利
+12390001479	Genesis Canticle	ジェネシス・カンティクル
+12390001478	Composer	作曲家
+12390001477	Star of Rekenber	レケンベルの星
+12390001476	Arcane Crystal	秘術のクリスタル
+12390001475	MVP Loot Chest	MVP戦利品箱
+12390001474	[Rift Crisis] Commendation Gift Box	［リフトクライシス］表彰ギフトボックス
+12390001473	[Rift Crisis] Special Commendation	［リフトクライシス］特別表彰
+12390001472	Standard Compensation Chest	通常補償チェスト
+12390001471	Random Card Gift Box	ランダムカードギフトボックス
+12390001470	Card Album	カードアルバム
+12390001469	Basic Card Album@{1} (Deprecated)	基本カードアルバム@{1}（廃止予定）
+12390001468	Standard Gift Box@{1} (Deprecated)	通常ギフトボックス@{1}（廃止予定）
+12390001467	Deluxe Gift Box@{1}(Deprecated)	デラックスギフトボックス@{1}（廃止予定）
+12390001466	Advanced Treasure Chest@{1}(Deprecated)	上級宝箱@{1}（廃止予定）
+12390001465	Mysterious Treasure Chest@{1} (Deprecated)	謎の宝箱@{1}（廃止予定）
+12390001464	Surprise Pack@{1}(Deprecated)	サプライズパック@{1}（廃止予定）
+12390001463	Old Card Album	古いカード帖
+12390001462	Bonus Secret Gift · Day 7	ボーナス秘密ギフト・7日目
+12390001461	Bonus Secret Gift · Day 6	ボーナス秘密ギフト・6日目
+12390001460	Bonus Secret Gift · Day 5	ボーナス秘密ギフト・5日目
+12390001459	Bonus Secret Gift · Day 4	ボーナス秘密ギフト・4日目
+12390001458	Bonus Secret Gift · Day 3	ボーナス秘密ギフト・3日目
+12390001457	Bonus Secret Gift · Day 2	ボーナス秘密ギフト・2日目
+12390001456	Bonus Secret Gift · Day 1	ボーナス秘密ギフト・1日目
+12390001455	Growth Gift Box · Day 7	成長ギフトボックス・7日目
+12390001454	Growth Gift Box · Day 6	成長ギフトボックス・6日目
+12390001453	Growth Gift Box · Day 5	成長ギフトボックス・5日目
+12390001452	Growth Gift Box · Day 4	成長ギフトボックス・4日目
+12390001451	Growth Gift Box · Day 3	成長ギフトボックス・3日目
+12390001450	Growth Gift Box · Day 2	成長ギフトボックス・2日目
+12390001449	Growth Gift Box · Day 1	成長ギフトボックス・1日目
+12390001448	Dig - Co-op Chest	発掘 - 協力宝箱
+12390001447	Dig - Precious Chest	発掘 - 貴重な宝箱
+12390001446	Dig - Exquisite Chest	発掘 - 極上宝箱
+12390001445	T@{1} Red Top Selection Box	T@{1} 赤トップ選択ボックス
+12390001444	Nine-Tone Mantra Costume Gift Box	九音真言コスチュームギフトボックス
+12390001443	Purple Card Selection Chest	紫カード選択チェスト
+12390001442	Trading Card Album	トレーディングカードアルバム
+12390001441	Surprise Chest	サプライズチェスト
+12390001440	Random Divine Arts Totem	ランダム神術トーテム
+12390001439	Random Card Album	ランダムカード帖
+12390001438	Coin Bag	コイン袋
+12390001437	Zeny Bag	ゼニー袋
+12390001436	Echo Material Pack	エコー素材パック
+12390001435	Refinement Material Pack	精錬素材パック
+12390001434	Refinement Blessing Chest	精錬祝福チェスト
+12390001433	Headgear Chest	頭装備箱
+12390001432	Headgear Material Chest	頭装備素材チェスト
+12390001431	Blue Cards Selection Chest	ブルーカード選択チェスト
+12390001430	T@{1} Orange Weapon Selection Chest	T@{1} オレンジ武器選択チェスト
+12390001429	Refinement Material Chest	精錬素材チェスト
+12390001428	Card: Savage Babe Chest	カード：サベージベイブチェスト
+12390001427	Random Purple Card Pack	ランダム紫カードパック
+12390001426	Veteran Pack	ベテランパック
+12390001425	Conqueror Pack	征服者パック
+12390001424	T@{1} Pet Shard Selection Chest	T@{1} ペットの欠片選択チェスト
+12390001423	Tier @{1} Orange Weapon Chest	Tier @{1} オレンジ武器チェスト
+12390001422	Random Card Pack	ランダムカードパック
+12390001421	Workhorse Potion Pack	働き者ポーションパック
+12390001420	Mainstay Potion Pack	主力ポーションパック
+12390001419	Whale Potion Pack	ホエールポーションパック
+12390001418	Commemorative Medal E	記念メダル E
+12390001417	Commemorative Medal D	記念メダル D
+12390001416	Commemorative Medal C	記念メダル C
+12390001415	Commemorative Medal B	記念メダル B
+12390001414	Commemorative Medal A	記念メダル A
+12390001413	Orange Soul Echo Chest	オレンジソウルエコーチェスト
+12390001412	Basic Crafting Material Chest	基本クラフト素材チェスト
+12390001411	Unclaimed Soul Crystal Chest	未受取ソウルクリスタルチェスト
+12390001410	Test-Seasonal Reward Distribution Rework Chest	テスト-シーズン報酬配布改修チェスト
+12390001409	Blessed Armor Ore-Use	祝福された防具鉱石・使用
+12390001408	Legendary Weapon Ore-Expire	伝説の武器鉱石-期限切れ
+12390001407	Blessed Weapon Ore-Clear	祝福された武器鉱石-クリア
+12390001406	Elunium-Use	エルニウム使用
+12390001405	Enriched Oridecon-Expire	濃縮オリデコン-期限切れ
+12390001404	Oridecon-Clear	オリデオコン・クリア
+12390001403	Deluxe Pack-Test Cross-Season Use	デラックスパック-クロスシーズン使用テスト
+12390001402	Deluxe Pack-Test Cross-Season Allowlist	デラックスパック-テスト用クロスシーズン許可リスト
+12390001401	Deluxe Pack-Test Cross-Season Expiration	デラックスパック-クロスシーズン期限切れテスト
+12390001400	Deluxe Pack-Test Cross-Season Removal	デラックスパック-テスト用クロスシーズン削除
+12390001399	Test Item Repeat Acquisition Function	テストアイテム重複取得機能
+12390001398	T@{1} Orange Equipment Slot Selection Chest	T@{1} オレンジ装備スロット選択チェスト
+12390001397	Class Weapon Selection Chest	職業武器選択チェスト
+12390001396	Novice Chest--Lv. @{1}	ノービスチェスト--Lv. @{1}
+12390001395	Contemplation Candle Pack	思索のキャンドルパック
+12390001394	Divine Totem Skill Book Chest	神術トーテムスキルブックチェスト
+12390001393	Daily Activity Pack	デイリー活動パック
+12390001392	Soul Echo Chest	ソウルエコーチェスト
+12390001391	Main Story Completion Pack	メインストーリー完了パック
+12390001390	Enhance Pack	強化パック
+12390001389	Growth Gift @{1}	成長ギフト @{1}
+12390001388	Golden Thief Bug's Gift	黄金蟲のギフト
+12390001387	Deluxe Gift Box	デラックスギフトボックス
+12390001386	Crafting Pack	クラフトパック
+12390001385	Basic Pack (Deprecated)	ベーシックパック（廃止予定）
+12390001384	Deluxe Pack (Deprecated)	デラックスパック（廃止予定）
+12390001383	Advanced Chest (Deprecated)	上級チェスト（廃止予定）
+12390001382	Mysterious Chest (Deprecated)	謎のチェスト（廃止予定）
+12390001381	Surprise Pack (Deprecated)	サプライズパック（廃止予定）
+12390001380	Salmon	サーモン
+12390001379	Tuna	マグロ
+12390001378	Moon Jellyfish	ムーンクラゲ
+12390001377	Azure Fish	蒼い魚
+12390001376	Spiny Sea Urchin	トゲウニ
+12390001375	Octopus Axe	タコの斧
+12390001374	Sea Bream	タイ
+12390001373	Mandarin Fish	マンダリンフィッシュ
+12390001372	Snakehead	ライギョ
+12390001371	Starfish	ヒトデ
+12390001370	Hopping Frog	ホッピングカエル
+12390001369	Eel	ウナギ
+12390001368	Carp	コイ
+12390001367	Blue Crab	ワタリガニ
+12390001366	Mackerel	サバ
+12390001365	Basilac Clam	バシラッククラム
+12390001364	Shrimp	エビ
+12390001363	High-Tenacity Sacred Armor Plate	高耐久の聖なる防具プレート
+12390001362	Sacred Armor Plate	聖なる防具プレート
+12390001361	Reinforced Armor Plate	強化アーマープレート
+12390001360	Armor Plate	アーマープレート
+12390001315	Alcohol	アルコール
+12390001314	Lemon	レモン
+12390001313	Sugar	砂糖
+12390001312	Beast Meat	獣の肉
+12390001311	Shiitake Mushroom	シイタケ
+12390001310	Tomato	トマト
+12390001309	Cocoa Bean	カカオ豆
+12390001308	Grape	ブドウ
+12390001307	Red Chili Pepper	赤唐辛子
+12390001306	Grains	穀物
+12390001305	Green Herb	グリーンハーブ
+12390001304	White Herb	ホワイトハーブ
+12390001303	Yellow Herb	黄ハーブ
+12390001302	Red Herb	赤ハーブ
+12390001301	Energized Honing Iron	活性化研磨鉄
+12390001300	Honing Iron	ホーニングアイロン
+12390001299	Sharpened Honing Stone	研ぎ澄まされた砥石
+12390001298	Honing Stone	ホーニングストーン
+12390001297	Meteorite Grip	メテオライトグリップ
+12390001296	Dense Meteorite Chunk	高密度隕石の塊
+12390001295	Meteorite Blade	メテオライトブレード
+12390001294	Meteorite Chunk	メテオライトの塊
+12390001293	Precision Grinding Wheel	精密研磨ホイール
+12390001292	Radiant Gold Grip	輝く黄金の柄
+12390001291	Dense Luminous Gold Ingot	高密度ルミナスゴールドインゴット
+12390001290	Luminous Gold Blade	ルミナスゴールドブレード
+12390001289	Luminous Gold Ingot	ルミナスゴールドインゴット
+12390001288	Mithril Grip	ミスリルグリップ
+12390001287	Coarse Grinding Wheel	粗い砥石
+12390001286	Mithril Ingot	ミスリルインゴット
+12390001285	Steel Ingot	鋼鉄インゴット
+12390001284	Coal Chunk	石炭塊
+12390001283	Iron Ingot	鉄のインゴット
+12390001282	Meteorite Ore	隕石鉱石
+12390001281	Moongaze Gem	ムーンゲイズジェム
+12390001280	Solid Stone	硬い石
+12390001279	Luminous Gold Ore	発光する金鉱石
+12390001278	Mithril Ore	ミスリル鉱石
+12390001277	Sobbing Starlight	すすり泣く星明かり
+12390001276	Rough Stone	原石
+12390001275	Coal Ore	石炭
+12390001274	Iron Ore	鉄鉱石
+12390001273	Vivify Potion	ビビファイポーション
+12390001272	Master Artisan Certificate	マスタークラフトマン認定証
+12390001271	Crafting Notes	製作メモ
+12390001270	Artisan's Mark Badge	職人の印章バッジ
+12390001269	Legendary Pelt	伝説の毛皮
+12390001268	Turtle Shell	亀の甲羅
+12390001267	Sobbing Starlight Fragment	嘆きのスターライトの欠片
+12390001266	Star Crumb	スタークラム
+12390001265	Sharp Scale	シャープスケール
+12390001264	Dead Man's Nail	死人の爪
+12390001256	Military Supplies (Advanced)	軍需物資（上級）
+12390001255	Military Supplies (Intermediate)	軍需物資（中級）
+12390001254	Military Supplies (Common)	軍需物資（通常）
+12390001253	Face Mask	フェイスマスク
+12390001252	Escort Supplies	護衛物資
+12390001251	Masterless Soul Core	主なきソウルコア
+12390001250	Masterless Soul Crystal	主なきソウルクリスタル
+12390001249	Masterless Soul Fragment	主なきソウルフラグメント
+12390001248	Totem Fragment	トーテムの欠片
+12390001247	Candle of Contemplation - M. ATK	思索のキャンドル - MATK
+12390001246	Candle of Contemplation - P. ATK	思索のキャンドル - PATK
+12390001245	Candle of Contemplation - Life	思索のキャンドル - HP
+12390001244	Sourcefire of Insight	叡智の源火
+12390001243	Live Coal of Insight	洞察の燃えさし
+12390001242	Embers of Insight	洞察の残り火
+12390001241	Candle of Contemplation	黙想のろうそく
+12390001240	Tier @{1} Equipment	Tier @{1} 装備
+12390001239	Tier @{1} Red Equipment	Tier @{1} 赤装備
+12390001238	Red Equipment	赤い装備
+12390001237	Tier @{1} Orange Equipment	Tier @{1} オレンジ装備
+12390001236	Orange Equipment	オレンジ装備
+12390001235	Purple Equipment	紫装備
+12390001234	Blue Equipment	青品質装備
+12390001233	Tier @{1} Green Equipment	Tier @{1} 緑装備
+12390001232	Green Equipment	緑の装備
+12390001231	Tier @{1} Equipment Forging Set	Tier @{1} 装備製造セット
+12390001230	Refinement Material	精錬素材
+12390001229	Orange Headwear	オレンジの帽子
+12390001228	Purple Headwear	紫の帽子
+12390001227	Blue Headwear	青い帽子
+12390001226	Mount	乗り物
+12390001225	MVP Costume	MVP コスチューム
+12390001224	Low-Tier Totem Skill Book	初級トーテムスキルブック
+12390001223	Purple Soul Echo	紫のソウルエコー
+12390001222	Tier @{1} Equipment Blueprint	Tier @{1} 装備設計図
+12390001221	Purple Divine Arts Totem	紫神術トーテム
+12390001220	Orange Headgear Material	オレンジ頭装備素材
+12390001219	Purple Headgear Material	紫頭装備素材
+12390001218	Blue Headgear Material	青ヘッドギア素材
+12390001217	Green Headgear Material	緑の頭装備素材
+12390001216	Tier @{1} Equipment Forging Blueprint Set	Tier @{1}装備製造設計図セット
+12390001215	Tier @{1} Equipment Forging Blueprint	Tier @{1} 装備鍛造設計図
+12390001214	Equipment Forging Material	装備製造素材
+12390001213	Tier @{1} Blue Weapon	Tier @{1} 青武器
+12390001212	Equipment Forging Blueprint	装備製造設計図
+12390001211	Job Advance Weapon	転職用武器
+12390001210	Card	カード
+12390001209	Green Cards	グリーンカード
+12390001208	Talent Divine Art Totem	タレント神術トーテム
+12390001207	Orange Soul Echo (Two Matching Colors)	オレンジソウルエコー（同色2個）
+12390001206	Orange Soul Echo	オレンジのソウルエコー
+12390001205	Advanced Totem Skill Book	上級トーテムスキルブック
+12390001204	Orange Divine Art Totem	オレンジ神術トーテム
+12390001203	Red Card	レッドカード
+12390001202	Orange Cards	オレンジカード
+12390001201	Purple Card	パープルカード
+12390001200	Blue Cards	ブルーカード
+12390001199	Soul Echo	ソウルエコー
+12390001198	Divine Art Totem Skill Book	神術トーテムスキルブック
+12390001197	Divine Totem	ディバイントーテム
+12390001196	Tier @{1} Purple Equipment	Tier @{1} 紫装備
+12390001195	Tier @{1} Blue Equipment	Tier @{1} 青装備
+12390001194	Tier @{1} Green Weapon	Tier @{1} 緑武器
+12390001193	Tier @{1} Blueprint - Accessory	Tier @{1} 設計図 - アクセサリー
+12390001192	Tier @{1} Blueprint - Shoes	Tier @{1} 設計図 - 靴
+12390001191	Tier @{1} Blueprint - Muffler	Tier @{1} 設計図 - マフラー
+12390001190	Tier @{1} Blueprint - Armor	Tier @{1} 設計図 - 防具
+12390001189	Tier @{1} Blueprint - Shield	Tier @{1} 設計図 - シールド
+12390001188	Tier @{1} Blueprint - Weapon	Tier @{1} 設計図 - 武器
+12390001187	Red Bow Tie	赤い蝶ネクタイ
+12390001186	Egg Incubator	孵化器
+12390001185	Sexy Vest Covered in Cat Hair	猫の毛まみれのセクシーベスト
+12390001184	Discarded Uniform	捨てられた制服
+12390001183	Memory Particle Device	メモリーパーティクル装置
+12390001182	Temporal Compass	時空コンパス
+12390001181	Energy Control Valve	エネルギー制御バルブ
+12390001180	Tiger Pelt	タイガーの毛皮
+12390001179	Cardboard Cat Litter Box	段ボール製猫トイレ
+12390001178	Bobo	ボーボー
+12390001177	Airship Ticket	飛行船チケット
+12390001176	Fabre's Mucus	ファブル粘液
+12390001175	Poring's Medicinal Herbs	ポリンの薬草
+12390001174	Shimmering Liquid	きらめく液体
+12390001173	Glossy Scell	光沢のあるセル
+12390001172	Glowing Crystal	輝くクリスタル
+12390001171	Colorful Worm Peeling	色鮮やかな虫の抜け殻
+12390001170	Glossy Jellopy	つややかなゼロピー
+12390001169	Super Solid Shell	超堅固な殻
+12390001168	Chivalry Emblem	騎士道のエンブレム
+12390001167	Necklace of Oblivion	忘却のネックレス
+12390001166	Fluorescent Liquid	蛍光液
+12390001165	Big Scell	大きなセル
+12390001164	Citrin	シトリン
+12390001163	Hard Insect Shell	硬い昆虫の殻
+12390001162	Round Shell	ラウンドシェル
+12390001161	Soft Feather	ソフトフェザー
+12390001160	Sweet Bananas	スイートバナナ
+12390001159	Pocket Watch	懐中時計
+12390001158	Peco Peco's Feathers	ペコペコの羽
+12390001157	Royal Jelly	ローヤルゼリー
+12390001156	Large Jellopy	大きなゼリー
+12390001155	Baby Devil Wings	小悪魔の翼
+12390001154	Euler Euler	オイラー オイラー
+12390001153	Scell	セル
+12390001152	Crystal Fragment	クリスタルの欠片
+12390001151	Cracked Diamond	ひび割れたダイヤモンド
+12390001150	Transparent Fabric	透明な布
+12390001149	Honey	ハチミツ
+12390001148	Sticky Mucus	粘着性の粘液
+12390001147	Feather	羽毛
+12390001146	Apple Juice	アップルジュース
+12390001145	Zargon	ザーゴン
+12390001144	Solid Shell	ソリッドシェル
+12390001143	Skeleton Bone	スケルトンボーン
+12390001142	Worm Peeling	ワームの皮むき
+12390001141	Garlet	ガーレット
+12390001140	Cyfar	サイファール
+12390001139	Eye of Wisdom	知恵の目
+12390001138	Light Granule	ライト顆粒
+12390001137	Brigan	ブリガン
+12390001136	Grit	闘志
+12390001135	@{1}-Carat Diamond	@{1}カラットダイヤモンド
+12390001134	Talent Mark	タレントマーク
+12390001133	Talent Remnant	才能の残滓
+12390001132	Hero Token	ヒーロートークン
+12390001131	Crest of Heroes	英雄の紋章
+12390001130	Crest of Sun	太陽の紋章
+12390001129	Crest of Moon	月の紋章
+12390001128	Crest of Freedom	自由の紋章
+12390001127	Crest of Conquer	征服の紋章
+12390001126	Crest of Venture	冒険の紋章
+12390001125	Crest of Journey	旅路の紋章
+12390001124	Pure Source Dew	純粋な源泉の雫
+12390001123	Philosopher's Core	賢者の核
+12390001122	Pulsating Mass	脈動する塊
+12390001121	Crystallized Bone Fragment	結晶化した骨の欠片
+12390001120	Lipid Tentacle	脂肪の触手
+12390001119	Moss-Covered Tissue	苔むした組織
+12390001118	Pale Sediment	青白い沈殿物
+12390001117	Aether Catalyst	エーテル触媒
+12390001116	Grain of Giant Salt	巨大な塩の粒
+12390001115	Undying Root	不滅の根
+12390001114	Raven Tail Feather	ワタリガラスの尾羽
+12390001113	Supreme Pet EXP Book	最高級ペットEXPブック
+12390001112	Top-Tier Pet EXP Book	最上級ペットEXPブック
+12390001111	Starlight Stone	スターライトストーン
+12390001110	Meow Fish Jerky	ニャーフィッシュジャーキー
+12390001109	Little Red Flower	小さな赤い花
+12390001108	Pet Selection Gift Box	ペット選択ギフトボックス
+12390001107	Emperium	エンペリウム
+12390001106	Cute Pet Coin	かわいいペットコイン
+12390001105	Pet Egg	ペットの卵
+12390001104	Change Guild Name Card	ギルド名変更カード
+12390001103	Pet Training Diary III	ペット育成日記 III
+12390001102	Pet Training Diary II	ペット育成日記 II
+12390001101	Pet Training Diary I	ペット育成日記I
+12390001100	Dopey Pink Gem	ドーピーピンクジェム
+12390001099	Emerald	エメラルド
+12390001098	Amethyst	アメジスト
+12390001097	Zircon	ジルコン
+12390001096	Topaz	トパーズ
+12390001095	Opal	オパール
+12390001094	Kyanite	カイヤナイト
+12390001093	Ruby	ルビー
+12390001092	Pearl	真珠
+12390001091	Star Dust	星の粉
+12390001090	Symbol of the Sun God	太陽神の紋章
+12390001089	Glass Bead	ガラスビーズ
+12390001088	Four-leaf Clover	四つ葉のクローバー
+12390001087	Hand of God	神の手
+12390001086	Trunk	木の心臓
+12390001085	Silver Fur	シルバーファー
+12390001084	Heart of Obeaune	オボーヌの心臓
+12390001083	Dragon Scale	ドラゴンの鱗
+12390001082	Gold	ゴールド
+12390001081	Cyfar	サイファール
+12390001080	Illusion Flower	幻想の花
+12390001079	Fairy's Whiskers	妖精のひげ
+12390001078	Single Cell	単一細胞
+12390001077	Little Deviruchi Horn	小さなデビルチの角
+12390001076	Steel	鋼鉄
+12390001075	Alice's Apron	アリスのエプロン
+12390001074	Tiger's Footskin	虎の足皮
+12390001073	Three-Leaf Clover	三つ葉のクローバー
+12390001072	Fox Tail	キツネの尾
+12390001071	Jellopy	ゼロピー
+12390001070	Empty Bottle	空のボトル
+12390001069	Stem	植物の茎
+12390001068	Decayed Tree Sap	腐った樹液
+12390001067	Soft Fur	やわらかな毛
+12390001066	Mold Powder	モールドパウダー
+12390001065	Bill of Birds	鳥のくちばし
+12390001064	Milk	ミルク
+12390001063	Animal Skin	動物の皮
+12390001062	Feather	羽毛
+12390001061	Solid Shell	ソリッドシェル
+12390001060	Muka Emotes Pack	ムカのエモートパック
+12390001059	Deviling Emoji	デビルリング絵文字
+12390001058	Universal Emotes Unlock (Limited-Time)	共通エモート解放（期間限定）
+12390001057	Universal Emotes Unlock	共通エモート解放
+12390001056	Advanced All-Member Guild Gift Pack	上級・ギルド全員ギフトパック
+12390001055	Intermediate All-Member Guild Gift Pack	中級全員向けギルドギフトパック
+12390001054	Basic All-Member Guild Gift Pack	基本全員向けギルドギフトパック
+12390001053	Hunting Emblem · Executioner	狩猟エンブレム・処刑者
+12390001052	Hunting Emblem · Conqueror	狩猟エンブレム・征服者
+12390001051	Hunting Emblem · Pursuer	狩猟エンブレム・追跡者
+12390001050	Hunting Emblem · Warden	狩猟エンブレム・守護者
+12390001049	Guild Emblem - Starcrown Ring	ギルドエンブレム - スタークラウンリング
+12390001048	Guild Emblem - Dark Crystal Ring	ギルドエンブレム - ダーククリスタルリング
+12390001047	Guild Emblem - Frostsky Ring	ギルドエンブレム - フロストスカイリング
+12390001046	Proof of the Hunt · Executioner	狩りの証・処刑人
+12390001045	Proof of the Hunt · Conqueror	狩りの証・征服者
+12390001044	Proof of the Hunt · Pursuer	狩りの証・追跡者
+12390001043	Proof of the Hunt · Warden	狩りの証・番人
+12390001042	Guild Emblem - Small Flower	ギルドエンブレム - 小花
+12390001041	Guild Emblem - Castle	ギルドエンブレム - 城
+12390001040	Guild Emblem - Shield	ギルドエンブレム - 盾
+12390001039	Guild Design - All Cities in Order	ギルドデザイン - 全都市秩序
+12390001038	Guild Design - Primordial Chaos	ギルド設計 - 原初の混沌
+12390001037	Guild Design - God of Nature	ギルドデザイン - 自然神
+12390001036	Primordial Transmutation Manual	原初転換マニュアル
+12390001035	Advanced Ignition Agent	上級点火剤
+12390001034	Intermediate Ignition Agent	中級点火剤
+12390001033	Basic Ignition Agent	基本点火剤
+12390001032	Cross Star Core - Red	クロススターコア - 赤
+12390001031	Cross Star Core - Orange	クロススターコア - オレンジ
+12390001030	Cross Star Core - Purple	クロススターコア - 紫
+12390001029	Cross Star Core - Green	クロススターコア - 緑
+12390001028	Cross Star Core - Blue	クロススターコア - 青
+12390001027	Cross Star Core - Gray	クロススターコア - 灰
+12390001026	Waterdrop Star Core - Red	ウォータードロップスターコア - 赤
+12390001025	Waterdrop Star Core - Orange	ウォータードロップスターコア - オレンジ
+12390001024	Waterdrop Star Core - Purple	ウォータードロップスターコア - 紫
+12390001023	Waterdrop Star Core - Green	ウォータードロップスターコア - 緑
+12390001022	Waterdrop Star Core - Blue	ウォータードロップスターコア - 青
+12390001021	Waterdrop Star Core - Gray	ウォータードロップスターコア - 灰
+12390001020	Moon Star Core - Red	ムーンスターコア - 赤
+12390001019	Moon Star Core - Orange	ムーンスターコア - オレンジ
+12390001018	Moon Star Core - Purple	ムーンスターコア - 紫
+12390001017	Moon Star Core - Green	ムーンスターコア - 緑
+12390001016	Moon Star Core - Blue	ムーンスターコア - 青
+12390001015	Moon Star Core - Gray	ムーンスターコア - 灰
+12390001014	Sun Star Core - Red	太陽のスターコア - 赤
+12390001013	Sun Star Core - Orange	サンスターコア - オレンジ
+12390001012	Sun Star Core - Purple	サンスターコア - パープル
+12390001011	Sun Star Core - Green	サンスターコア - 緑
+12390001010	Sun Star Core - Blue	サンスターコア - 青
+12390001009	Solar Star Core - Gray	ソーラースターコア - 灰
+12390001008	Prism Star Core - Red	プリズムスターコア - 赤
+12390001007	Prism Star Core - Orange	プリズムスターコア - オレンジ
+12390001006	Prism Star Core - Purple	プリズムスターコア - 紫
+12390001005	Prism Star Core - Green	プリズムスターコア - 緑
+12390001004	Prism Star Core - Blue	プリズムスターコア - 青
+12390001003	Prism Star Core - Gray	プリズムスターコア - 灰
+12390001002	Netherworld - Shattered Tower	冥界 - 崩壊した塔
+12390001001	Craft Brew	クラフトビール
+12390001000	Gingerbread	ジンジャーブレッド
+12390000999	Hot Cocoa	ホットココア
+12390000998	Phantom Fragment	ファントムの欠片
+12390000997	Sharp Scale	シャープスケール
+12390000996	Arcane Ore	秘術の鉱石
+12390000995	Lv. @{1} Equipment Crystal	Lv. @{1} 装備クリスタル
+12390000994	Equipment Crystal	装備クリスタル
+12390000993	Advanced Forging Totem	上級鍛造トーテム
+12390000992	Intermediate Forging Totem	中級鍛造トーテム
+12390000991	Basic Forging Totem	基本鍛造トーテム
+12390000990	Advanced Diamond	上級ダイヤモンド
+12390000989	Diamond	ダイヤ
+12390000988	Red Card Fragment	赤カードの欠片
+12390000987	Orange Cards Fragment	オレンジカードの欠片
+12390000986	Epic Card Fragment	エピックカードの欠片
+12390000985	Blue-Green Card Fragment	青緑カードフラグメント
+12390000984	Storage Expansion Voucher (No Function Yet)	倉庫拡張券（未実装）
+12390000983	Backpack Expansion Voucher (No Function Yet)	バックパック拡張券（機能未実装）
+12390000982	Skill Reset Rod (No Function Yet)	スキルリセットロッド（未実装）
+12390000981	Stat Reset Stone (No Function Yet)	ステータスリセットストーン（未実装）
+12390000980	Starlight Silk IX	星光の絹 IX
+12390000979	Starlight Silk VIII	スターライトシルク VIII
+12390000978	Starlight Silk VII	スターライトシルク VII
+12390000977	Starlight Silk VI	星光の絹 VI
+12390000976	Starlight Silk V	スターライトシルク V
+12390000975	Starlight Silk IV	星光の絹 IV
+12390000974	Starlight Silk III	スターライトシルク III
+12390000973	Starlight Silk II	星光の絹 II
+12390000972	Starlight Silk I	スターライトシルク I
+12390000971	Star Diamond IX	スターダイヤモンドIX
+12390000970	Star Diamond VIII	スターダイヤ VIII
+12390000969	Star Diamond VII	スターダイヤモンドVII
+12390000968	Star Diamond VI	スターダイヤモンドVI
+12390000967	Star Diamond V	スターダイヤモンドV
+12390000966	Star Diamond IV	スターダイヤモンドIV
+12390000965	Star Diamond III	スターダイヤモンドIII
+12390000964	Star Diamond II	スターダイヤモンドII
+12390000963	Star Diamond I	スターダイヤモンドⅠ
+12390000962	Legendary Accessory Gem	伝説のアクセサリージェム
+12390000961	Blessed Accessory Ore	祝福されたアクセサリー鉱石
+12390000960	Legendary Armor Ore	伝説の防具鉱石
+12390000959	Blessed Armor Ore	祝福された防具鉱石
+12390000958	Legendary Weapon Ore	伝説の武器鉱石
+12390000957	Blessed Weapon Ore	祝福された武器鉱石
+12390000956	High-Density Enriched Elunium	高密度濃縮エルニウム
+12390000955	High-Density Enriched Oridecon	高密度濃縮オリデコン
+12390000954	Enriched Elunium	濃縮エルニウム
+12390000953	Elunium	エルニウム
+12390000952	Enriched Oridecon	濃縮オリデオコン
+12390000951	Oridecon	オリデオコン
+12390000950	South Gate Reunion Invitation	南門再会招待
+12390000949	Melody Conch	メロディコンチ
+12390000948	Note · Ti	音符・シ
+12390000947	Note · La	音符・ラ
+12390000946	Note · So	音符・ソ
+12390000945	Note · Fa	音符・ファ
+12390000944	Note · Mi	音符・ミ
+12390000943	Note · Re	音符・レ
+12390000942	Note · Do	音符・ド
+12390000941	Treasure Clue: Cache by the Wall	宝の手がかり：壁際の隠し場所
+12390000940	Treasure Clue: Dummy's Old Contract	宝の手がかり：ダミーの古い契約
+12390000939	Treasure Clue: Treasure Hidden in the Bridge's Cracks	宝の手がかり：橋の亀裂に隠された宝
+12390000938	Treasure Clue: Statue's Secret Compartment	宝の手がかり：像の秘密収納
+12390000937	Treasure Clue: Unfulfilled Promise	宝の手がかり：果たされなかった約束
+12390000936	Treasure Clue: Merchant's Secret Compartment	宝の手がかり：商人の隠し収納
+12390000935	Treasure Clue: Artisan's Legacy	宝の手がかり：職人の遺産
+12390000934	Treasure Clue: Butterfly's Promise	宝の手がかり：蝶の約束
+12390000933	Treasure Clue: Bridge Center Cache	宝の手がかり：橋中央の隠し場所
+12390000932	Treasure Clue: Camp Embers	宝の手がかり：キャンプの残り火
+12390000931	Treasure Clue: Silver-Clad Shadow	宝の手がかり：銀装の影
+12390000930	Treasure Clue: Bookshelf Relic	宝の手がかり：本棚の遺物
+12390000929	Treasure Clue: Courtyard Cache	宝の手がかり：中庭の隠し場所
+12390000928	Treasure Clue: Monk's Gift	宝の手がかり：モンクの贈り物
+12390000927	Treasure Clue: Dead End Cache	宝の手がかり：行き止まりの隠し場所
+12390000926	Treasure Map Fragment (Destination)	宝の地図の欠片（目的地）
+12390000925	Treasure Map Fragment (Guidance)	宝の地図の欠片（ガイド）
+12390000924	Treasure Map Fragment (Omen)	宝の地図の欠片（兆し）
+12390000923	Rare Treasure Map	希少な宝の地図
+12390000922	Standard Treasure Map	標準宝の地図
+12390000921	Box of the Future	未来の箱
+12390000920	Crystal of Oaths	誓いのクリスタル
+12390000919	Crystal of Regret	後悔のクリスタル
+12390000918	Crystal of Confusion	混乱のクリスタル
+12390000917	Crystal of Joy	喜びの結晶
+12390000916	Crystal of Pain	苦痛のクリスタル
+12390000915	Adventure Coins	冒険コイン
+12390000914	Pass Gift	パスギフト
+12390000913	Emerald Realm Breaker Scroll · Accessory-Red	エメラルド境界突破スクロール・アクセサリー-赤
+12390000912	Azure Realm Breaker Scroll · Accessory-Red	アズール・レルムブレイカースクロール・アクセサリー-赤
+12390000911	Golden Realm Breaker Scroll · Accessory-Red	ゴールデン・レルムブレイカースクロール・アクセサリー-赤
+12390000910	Crimson Realm Breaker Scroll · Accessory-Red	クリムゾン境界突破スクロール・アクセサリー-赤
+12390000909	Life Percentage · Accessory-Orange	HP割合・アクセサリー-オレンジ
+12390000908	Magic Breaker Scroll · Accessory-Orange	マジックブレイカースクロール・アクセサリー-オレンジ
+12390000907	Siegebreaker Scroll · Accessory-Orange	シージブレイカースクロール・アクセサリー-オレンジ
+12390000906	Arcane Scroll · Accessory-Orange	アーケインスクロール・アクセサリー-オレンジ
+12390000905	God of War Scroll · Accessory-Orange	軍神スクロール・アクセサリー-オレンジ
+12390000904	Oak Scroll · Accessory-Orange	オークスクロール・アクセサリー-オレンジ
+12390000903	Life Percentage · Accessory-Purple	HP割合・アクセサリー-紫
+12390000902	Magic Breaker Scroll · Accessory-Purple	マジックブレイカースクロール・アクセサリー-紫
+12390000901	Siegebreaker Scroll · Accessory-Purple	シージブレイカースクロール・アクセサリー-紫
+12390000900	Arcane Scroll · Accessory-Purple	アーケインスクロール・アクセサリー-紫
+12390000899	God of War Scroll · Accessory-Purple	軍神スクロール・アクセサリー-紫
+12390000898	Oak Scroll · Accessory-Purple	オークスクロール・アクセサリー-紫
+12390000897	Life Percentage · Accessory-Blue	HP割合・アクセサリー-青
+12390000896	Magic Breaker Scroll · Accessory-Blue	マジックブレイカースクロール・アクセサリー-青
+12390000895	Siegebreaker Scroll · Accessory-Blue	シージブレイカースクロール・アクセサリー-青
+12390000894	Arcane Scroll · Accessory-Blue	アーケインスクロール・アクセサリー-青
+12390000893	God of War Scroll · Accessory-Blue	軍神スクロール・アクセサリー-青
+12390000892	Oak Scroll · Accessory-Blue	オークスクロール・アクセサリー-青
+12390000891	Life Percentage · Accessory-Green	HP割合・アクセサリー-緑
+12390000890	Magic Breaker Scroll · Accessory-Green	マジックブレイカースクロール・アクセサリー-緑
+12390000889	Siegebreaker Scroll · Accessory-Green	シージブレイカースクロール・アクセサリー-緑
+12390000888	Arcane Scroll · Accessory-Green	アーケインスクロール・アクセサリー-緑
+12390000887	God of War Scroll · Accessory-Green	軍神スクロール・アクセサリー-緑
+12390000886	Oak Scroll · Accessory-Green	オークスクロール・アクセサリー-緑
+12390000885	Emerald Realm Ward Scroll · Shoes-Red	エメラルドレルムガードスクロール・靴-赤
+12390000884	Azure Realm Ward Scroll · Shoes-Red	アズール・レルムガードスクロール・靴-赤
+12390000883	Golden Realm Ward Scroll · Shoes-Red	黄金レルムガードスクロール・靴-赤
+12390000882	Crimson Realm Ward Scroll · Shoes-Red	クリムゾンレルムガードスクロール・靴-赤
+12390000881	Life Percentage · Shoes-Orange	HP割合・靴-オレンジ
+12390000880	Magic Ward Scroll · Shoes-Orange	マジックワードスクロール・靴-オレンジ
+12390000879	Bulwark Scroll · Shoes-Orange	ブルワークスクロール・靴-オレンジ
+12390000878	Oak Scroll · Shoes-Orange	オークスクロール・靴-オレンジ
+12390000877	Life Percentage · Shoes-Purple	HP割合・靴-紫
+12390000876	Magic Ward Scroll · Shoes-Purple	マジックワードスクロール・靴-紫
+12390000875	Bulwark Scroll · Shoes-Purple	ブルワークスクロール・靴-紫
+12390000874	Oak Scroll · Shoes-Purple	オークスクロール・靴-紫
+12390000873	Life Percentage · Shoes-Blue	HP割合・靴-青
+12390000872	Magic Ward Scroll · Shoes-Blue	マジックワードスクロール・靴-青
+12390000871	Bulwark Scroll · Shoes-Blue	ブルワークスクロール・靴-青
+12390000870	Oak Scroll · Shoes-Blue	オークスクロール・靴-青
+12390000869	Life Percentage · Shoes-Green	HP割合・靴-緑
+12390000868	Magic Ward Scroll · Shoes-Green	マジックワードスクロール・靴-緑
+12390000867	Bulwark Scroll · Shoes-Green	ブルワークスクロール・靴-緑
+12390000866	Oak Scroll · Shoes-Green	オークスクロール・靴-緑
+12390000865	Emerald Realm Ward Scroll · Cloak-Red	エメラルドレルムガードスクロール・マント-赤
+12390000864	Azure Realm Ward Scroll · Cloak-Red	アズール・レルムガードスクロール・マント-赤
+12390000863	Golden Realm Ward Scroll · Cloak-Red	黄金レルムガードスクロール・マント-赤
+12390000862	Crimson Realm Ward Scroll · Cloak-Red	クリムゾンレルムガードスクロール・マント-赤
+12390000861	Life Percentage · Cloak-Orange	HP割合・マント-オレンジ
+12390000860	Magic Ward Scroll · Cloak-Orange	マジックワードスクロール・マント-オレンジ
+12390000859	Bulwark Scroll · Cloak-Orange	ブルワークスクロール・マント-オレンジ
+12390000858	Oak Scroll · Cloak-Orange	オークスクロール・マント-オレンジ
+12390000857	Life Percentage · Cloak-Purple	HP割合・マント-紫
+12390000856	Magic Ward Scroll · Cloak-Purple	マジックワードスクロール・マント-紫
+12390000855	Bulwark Scroll·Cloak-Purple	ブルワークスクロール・マント-紫
+12390000854	Oak Scroll·Cloak-Purple	オークスクロール・マント-紫
+12390000853	Life Percentage·Cloak-Blue	HP割合・マント-青
+12390000852	Magic Ward Scroll·Cloak-Blue	マジックワードスクロール・マント-青
+12390000851	Bulwark Scroll·Cloak-Blue	ブルワークスクロール・マント-青
+12390000850	Oak Scroll·Cloak-Blue	オークスクロール・マント-青
+12390000849	Life Percentage·Cloak-Green	HP割合・マント-緑
+12390000848	Magic Ward Scroll·Cloak-Green	マジックワードスクロール・マント-緑
+12390000847	Bulwark Scroll·Cloak-Green	ブルワークスクロール・マント-緑
+12390000846	Oak Scroll·Cloak-Green	オークスクロール・マント-緑
+12390000845	Emerald Realmguard Scroll·Armor-Red	エメラルド・レルムガードスクロール・防具-赤
+12390000844	Azure Realmguard Scroll·Armor-Red	アズール・レルムガードスクロール・防具-赤
+12390000843	Golden Realmguard Scroll·Armor-Red	ゴールデン・レルムガードスクロール・防具-赤
+12390000842	Crimson Realmguard Scroll·Armor-Red	クリムゾン・レルムガードスクロール・防具-赤
+12390000841	Life Percentage·Armor-Orange	HP割合・防具-オレンジ
+12390000840	Fate Scroll·Armor-Orange	運命スクロール・鎧-オレンジ
+12390000839	Hummingbird Scroll·Armor-Orange	ハミングバードスクロール・防具-オレンジ
+12390000838	Ymir Scroll·Armor-Orange	ユミルスクロール・鎧-オレンジ
+12390000837	Mountain Scroll·Armor-Orange	マウンテンスクロール・防具-オレンジ
+12390000836	Hawkeye Scroll·Armor-Orange	ホークアイスクロール・防具-オレンジ
+12390000835	Giant Scroll·Armor-Orange	ジャイアントスクロール・防具-オレンジ
+12390000834	Life Percentage·Armor-Purple	HP割合・防具-紫
+12390000833	Fate Scroll·Armor-Purple	運命スクロール・鎧-紫
+12390000832	Hummingbird Scroll·Armor-Purple	ハミングバードスクロール・防具-紫
+12390000831	Ymir Scroll·Armor-Purple	ユミルスクロール・鎧-紫
+12390000830	Mountain Scroll·Armor-Purple	マウンテンスクロール・防具-紫
+12390000829	Hawkeye Scroll·Armor-Purple	ホークアイスクロール・防具-紫
+12390000828	Giant Scroll·Armor-Purple	ジャイアントスクロール・防具-紫
+12390000827	Life Percentage·Armor-Blue	HP割合・防具-青
+12390000826	Fate Scroll·Armor-Blue	運命スクロール・アーマー-青
+12390000825	Hummingbird Scroll·Armor-Blue	ハミングバードスクロール・防具-青
+12390000824	Ymir Scroll·Armor-Blue	ユミルスクロール・アーマー-青
+12390000823	Mountain Scroll·Armor-Blue	マウンテンスクロール・防具-青
+12390000822	Hawkeye Scroll·Armor-Blue	ホークアイスクロール・防具-青
+12390000821	Giant Scroll·Armor-Blue	ジャイアントスクロール・鎧-青
+12390000820	Life Percentage·Armor-Green	HP割合・防具-緑
+12390000819	Fate Scroll·Armor-Green	運命スクロール・鎧-緑
+12390000818	Hummingbird Scroll·Armor-Green	ハミングバードスクロール・防具-緑
+12390000817	Ymir Scroll·Armor-Green	ユミルスクロール・鎧-緑
+12390000816	Mountain Scroll·Armor-Green	マウンテンスクロール・防具-緑
+12390000815	Hawkeye Scroll·Armor-Green	ホークアイスクロール・防具-緑
+12390000814	Giant Scroll·Armor-Green	ジャイアントスクロール・鎧-緑
+12390000813	Emerald Realmguard Scroll·Off-Hand-Red	エメラルドレルムガードスクロール・サブ装備-赤
+12390000812	Azure Realmguard Scroll·Off-Hand-Red	蒼天レルムガードスクロール・サブ装備-赤
+12390000811	Golden Realmguard Scroll·Off-Hand-Red	ゴールデンレルムガードスクロール・サブ装備-赤
+12390000810	Crimson Realmguard Scroll·Off-Hand-Red	クリムゾンレルムガードスクロール・サブ装備-赤
+12390000809	Life Percentage·Off-Hand-Orange	HP割合・サブ装備-オレンジ
+12390000808	Fate Scroll·Off-Hand-Orange	フェイトスクロール・サブ装備-オレンジ
+12390000807	Hummingbird Scroll·Off-Hand-Orange	ハチドリスクロール・サブ装備-オレンジ
+12390000806	Ymir Scroll·Off-Hand-Orange	ユミルスクロール・サブ装備-オレンジ
+12390000805	Mountain Scroll·Off-Hand-Orange	マウンテンスクロール・サブ装備-オレンジ
+12390000804	Hawkeye Scroll·Off-Hand-Orange	ホークアイスクロール・サブ装備-オレンジ
+12390000803	Giant Scroll·Off-Hand-Orange	ジャイアントスクロール・サブ装備-オレンジ
+12390000802	Life Percentage·Off-Hand-Purple	HP割合・サブ装備-紫
+12390000801	Fate Scroll·Off-Hand-Purple	フェイトスクロール・サブ装備-紫
+12390000800	Hummingbird Scroll·Off-Hand-Purple	ハチドリスクロール・サブ装備-紫
+12390000799	Ymir Scroll·Off-Hand-Purple	ユミルスクロール・サブ装備-紫
+12390000798	Mountain Scroll·Off-Hand-Purple	マウンテンスクロール・サブ装備-紫
+12390000797	Hawkeye Scroll·Off-Hand-Purple	ホークアイスクロール・サブ装備-紫
+12390000796	Giant Scroll·Off-Hand-Purple	ジャイアントスクロール・サブ装備-紫
+12390000795	Life Percentage·Off-Hand-Blue	HP割合・サブ装備-青
+12390000794	Fate Scroll·Off-Hand-Blue	フェイトスクロール・サブ装備-青
+12390000793	Hummingbird Scroll·Off-Hand-Blue	ハミングバードスクロール・サブ装備-青
+12390000792	Ymir Scroll·Off-Hand-Blue	ユミルスクロール・サブ装備-青
+12390000791	Mountain Scroll·Off-Hand-Blue	マウンテンスクロール・サブ装備-青
+12390000790	Eagle Eye Scroll·Off-Hand-Blue	イーグルアイスクロール・サブ装備-青
+12390000789	Giant Scroll·Off-Hand-Blue	ジャイアントスクロール・サブ装備-青
+12390000788	Life Percentage·Off-Hand-Green	HP割合・サブ装備-緑
+12390000787	Fate Scroll·Off-Hand-Green	フェイトスクロール・サブ装備-緑
+12390000786	Hummingbird Scroll·Off-Hand-Green	ハチドリスクロール・サブ装備-緑
+12390000785	Ymir Scroll·Off-Hand-Green	ユミルスクロール・サブ装備-緑
+12390000784	Mountain Scroll·Off-Hand-Green	マウンテンスクロール・サブ装備-緑
+12390000783	Eagle Eye Scroll·Off-Hand-Green	イーグルアイスクロール・サブ装備-緑
+12390000782	Giant Scroll·Off-Hand-Green	ジャイアントスクロール・サブ装備-緑
+12390000781	Emerald Boundary-Breaking Scroll·One-Handed-Red	エメラルド境界突破スクロール・片手武器-赤
+12390000780	Azure Boundary-Breaking Scroll·One-Handed-Red	アズール境界突破スクロール・片手武器-赤
+12390000779	Golden Boundary-Breaking Scroll·One-Handed-Red	ゴールデン境界突破スクロール・片手武器-赤
+12390000778	Crimson Boundary-Breaking Scroll·One-Handed-Red	クリムゾン境界突破スクロール・片手武器-赤
+12390000777	Fate Scroll·One-Handed-Orange	フェイトスクロール・片手武器-オレンジ
+12390000776	Hummingbird Scroll·One-Handed-Orange	ハミングバードスクロール・片手武器-オレンジ
+12390000775	Ymir Scroll·One-Handed-Orange	ユミルスクロール・片手武器-オレンジ
+12390000774	Mountain Scroll·One-Handed-Orange	マウンテンスクロール・片手武器-オレンジ
+12390000773	Eagle Eye Scroll·One-Handed-Orange	イーグルアイスクロール・片手武器-オレンジ
+12390000772	Giant Scroll·One-Handed-Orange	ジャイアントスクロール・片手武器-オレンジ
+12390000771	Fate Scroll·One-Handed-Purple	フェイトスクロール・片手武器-紫
+12390000770	Hummingbird Scroll·One-Handed-Purple	ハミングバードスクロール・片手武器-紫
+12390000769	Ymir Scroll·One-Handed-Purple	ユミルスクロール・片手武器-紫
+12390000768	Mountain Scroll·One-Handed-Purple	マウンテンスクロール・片手武器-紫
+12390000767	Eagle Eye Scroll·One-Handed-Purple	イーグルアイスクロール・片手武器-紫
+12390000766	Giant Scroll·One-Handed-Purple	ジャイアントスクロール・片手武器-紫
+12390000765	Fate Scroll·One-Handed-Blue	フェイトスクロール・片手武器-青
+12390000764	Hummingbird Scroll·One-Handed-Blue	ハチドリスクロール・片手武器-青
+12390000763	Ymir Scroll·One-Handed-Blue	ユミルスクロール・片手武器-青
+12390000762	Mountain Scroll·One-Handed-Blue	マウンテンスクロール・片手武器-青
+12390000761	Eagle Eye Scroll·One-Handed-Blue	イーグルアイスクロール・片手武器-青
+12390000760	Giant Scroll·One-Handed-Blue	ジャイアントスクロール・片手武器-青
+12390000759	Fate Scroll·One-Handed-Green	フェイトスクロール・片手武器-緑
+12390000758	Hummingbird Scroll·One-Handed-Green	ハチドリスクロール・片手武器-緑
+12390000757	Ymir Scroll·One-Handed-Green	ユミルスクロール・片手武器-緑
+12390000756	Mountain Scroll·One-Handed-Green	マウンテンスクロール・片手武器-緑
+12390000755	Eagle Eye Scroll·One-Handed-Green	イーグルアイスクロール・片手武器-緑
+12390000754	Giant Scroll·One-Handed-Green	ジャイアントスクロール・片手武器-緑
+12390000753	Emerald Boundary-Breaking Scroll·Dual-Wield-Red	エメラルド境界突破スクロール・二刀流-赤
+12390000752	Azure Boundary-Breaking Scroll·Dual-Wield-Red	アズール境界突破スクロール・二刀流-赤
+12390000751	Golden Boundary-Breaking Scroll·Dual-Wield-Red	ゴールデン境界突破スクロール・二刀流-赤
+12390000750	Crimson Boundary-Breaking Scroll·Dual-Wield-Red	クリムゾン境界突破スクロール・二刀流-赤
+12390000749	Life Percentage·Dual-Wield-Orange	HP割合・二刀流-オレンジ
+12390000748	Fate Scroll·Dual-Wield-Orange	フェイトスクロール・二刀流-オレンジ
+12390000747	Hummingbird Scroll·Dual-Wield-Orange	ハミングバードスクロール・二刀-オレンジ
+12390000746	Ymir Scroll·Dual-Wield-Orange	ユミルスクロール・二刀流-オレンジ
+12390000745	Mountain Scroll·Dual-Wield-Orange	マウンテンスクロール・二刀流-オレンジ
+12390000744	Eagle Eye Scroll·Dual-Wield-Orange	イーグルアイスクロール・二刀流-オレンジ
+12390000743	Giant Scroll·Dual-Wield-Orange	ジャイアントスクロール・二刀流-オレンジ
+12390000742	Life Percentage·Dual-Wield-Purple	HP割合・二刀流-紫
+12390000741	Fate Scroll·Dual-Wield-Purple	フェイトスクロール・二刀流-紫
+12390000740	Hummingbird Scroll·Dual-Wield-Purple	ハミングバードスクロール・二刀-紫
+12390000739	Ymir Scroll·Dual-Wield-Purple	ユミルスクロール・二刀流-紫
+12390000738	Mountain Scroll·Dual-Wield-Purple	マウンテンスクロール・二刀流-紫
+12390000737	Eagle Eye Scroll·Dual-Wield-Purple	イーグルアイスクロール・二刀流-紫
+12390000736	Giant Scroll·Dual-Wield-Purple	ジャイアントスクロール・二刀流-紫
+12390000735	Life Percentage · Dual Wield - Blue	HP割合・二刀流-青
+12390000734	Destiny Scroll · Dual Wield - Blue	デスティニースクロール・二刀流-青
+12390000733	Hummingbird Scroll · Dual Wield - Blue	ハミングバードスクロール・二刀-青
+12390000732	Ymir Scroll · Dual Wield - Blue	ユミルスクロール・二刀流-青
+12390000731	Mountain Scroll · Dual Wield - Blue	マウンテンスクロール・二刀流-青
+12390000730	Eagle Eye Scroll · Dual Wield - Blue	イーグルアイスクロール・二刀-青
+12390000729	Giant Scroll · Dual Wield - Blue	ジャイアントスクロール・二刀流-青
+12390000728	Life Percentage · Dual Wield - Green	HP割合・二刀-緑
+12390000727	Destiny Scroll · Dual Wield - Green	デスティニースクロール・二刀流-緑
+12390000726	Hummingbird Scroll · Dual Wield - Green	ハミングバードスクロール・二刀-緑
+12390000725	Ymir Scroll · Dual Wield - Green	ユミルスクロール・二刀流-緑
+12390000724	Mountain Scroll · Dual Wield - Green	マウンテンスクロール・二刀-緑
+12390000723	Eagle Eye Scroll · Dual Wield - Green	イーグルアイスクロール・二刀-緑
+12390000722	Giant Scroll · Dual Wield - Green	ジャイアントスクロール・二刀流-緑
+12390000721	Lord's Mane	主のたてがみ
+12390000720	Giant Snake Egg	大蛇の卵
+12390000719	Snake Gallbladder	ヘビの胆のう
+12390000718	Tree Bark	木の樹皮
+12390000717	Memory Particle Storage Unit	メモリーパーティクル保管装置
+12390000716	Professor's Notes	教授のノート
+12390000715	Proof of Trial	試練の証
+12390000714	Expired Flatbread	期限切れのフラットブレッド
+12390000713	Whispering Flower	ささやく花
+12390000712	Eddga Hide	エッドガ・ハイド
+12390000711	High-Quality Sticky Mucus	高品質な粘液
+12390000710	Cleaver's Testimony	クリーバーの証言
+12390000709	Nita's Testimony	ニタの証言
+12390000708	Hollgrehenn's Testimony	ホルグレンの証言
+12390000707	Pathfinder Ant	先導アリ
+12390000706	Teleport Key	テレポートキー
+12390000705	Outpost Key	前哨基地の鍵
+12390000704	Dark Flak Cannon	ダークフラックキャノン
+12390000703	Holy Flak Cannon	ホーリーフラックキャノン
+12390000702	Lightning Raven	ライトニングレイブン
+12390000701	Holy Rocket Launcher	ホーリーロケットランチャー
+12390000700	Poring Cannon	ポリンキャノン
+12390000699	Madogear Pilot Repair	魔導ギアパイロット修理
+12390000698	Peco Peco	ペコペコ
+12390000697	Tank	タンク
+12390000696	Adamantine Madogear	アダマンタイン魔導ギア
+12390000695	Mithril Madogear	ミスリルマドギア
+12390000694	Steel Madogear	鋼鉄のマドギア
+12390000693	Rocket Launcher	ロケットランチャー
+12390000692	Anti-Aircraft Gun	対空砲
+12390000691	Flying Raven	フライングレイブン
+12390000690	Arm Cannon	アームキャノン
+12390000689	Plain Balloon	プレーンバルーン
+12390000688	Dazzling Fireworks	きらめく花火
+12390000687	Golden Fireworks	黄金の花火
+12390000686	Sparkler	花火
+12390000685	Happy Sparkling Balloon	ハッピースパークリングバルーン
+12390000684	Cute Sparkling Balloon	かわいいキラキラ風船
+12390000683	Sparkling Balloon	きらめく風船
+12390000682	Lunatic Horn	ルナティックの角
+12390000681	Deviruchi Horn	デビルチの角
+12390000680	Small Horn	スモールホーン
+12390000679	Stone Arrow	ストーンアロー
+12390000678	Arrow of Wind	風の矢
+12390000677	Silver Arrow	シルバーアロー
+12390000676	Crystal Arrow	クリスタルアロー
+12390000675	Fire Arrow	ファイアアロー
+12390000674	Steel Arrow	スチールアロー
+12390000673	Arrow	矢
+12390000672	Quest Fly Wing	クエスト用ハエの羽
+12390000671	Yggdrasil Leaf	イグドラシルの葉
+12390000670	Bloody Branch	血まみれの枝
+12390000669	Dead Branch	古木の枝
+12390000668	Fly Wing	ハエの羽
+12390000667	Butterfly Wing	蝶の羽
+12390000666	Life Crystal@{1}	ライフクリスタル@{1}
+12390000665	Life Crystal	ライフクリスタル
+12390000664	Magic DEF Crystal	魔法DEFクリスタル
+12390000663	Mana Crystal	マナクリスタル
+12390000662	Shield Crystal	シールドクリスタル
+12390000661	Blade Crystal	ブレードクリスタル
+12390000660	Citruswood Fruit Tea	シトラスウッドフルーツティー
+12390000659	Woody Grape Drink	ウッディグレープドリンク
+12390000658	Lemon Herbal Tea	レモンハーブティー
+12390000657	Pure Lemon Water	ピュアレモンウォーター
+12390000656	Strawberry Cocoa Crunch Bar	ストロベリーココアクランチバー
+12390000655	Berry Herbal Tea	ベリーハーブティー
+12390000654	Colorful Lollipop	カラフルロリポップ
+12390000653	Cocoa Pudding	ココアプリン
+12390000652	Spicy Fried Rice	スパイシー炒飯
+12390000651	Spicy Herb Wrap	スパイシーハーブラップ
+12390000650	Herb Porridge	ハーブ粥
+12390000649	Meat Bun	肉まん
+12390000648	Mixed Fruit Juice	ミックスフルーツジュース
+12390000647	Grape Sparkling Water	グレープスパークリングウォーター
+12390000646	Refreshing Lemon Brew	爽やかレモンドリンク
+12390000645	Green Lemon Cocktail	グリーンレモンカクテル
+12390000644	Grape Wine	ぶどうワイン
+12390000643	Hot Strawberry Cocoa Milk	ホットストロベリーココアミルク
+12390000642	Strawberry Milkshake	ストロベリーミルクシェイク
+12390000641	Vanilla Hot Cocoa	バニラホットココア
+12390000640	Strawberry Cocoa Truffle	ストロベリーココアトリュフ
+12390000639	Strawberry Hard Candy	ストロベリーハードキャンディ
+12390000638	Spicy Meat Patty	スパイシーミートパティ
+12390000637	Chili Beast Steak	激辛ビーストステーキ
+12390000636	Grilled Mushroom Skewers	焼きキノコ串
+12390000635	Mushroom Tomato Soup	キノコとトマトのスープ
+12390000634	Creamy Tomato Soup	クリーミートマトスープ
+12390000633	Yor's Kitchen Creation	ヨルのキッチン特製品
+12390000632	Quick-acting White Potion	即効性ホワイトポーション
+12390000631	Panacea	万能薬
+12390000630	Panacea	万能薬
+12390000629	Superior Fountain of Life	上級生命の泉
+12390000628	Superior Spirit Potion	上級スピリットポーション
+12390000627	Superior Vitality Potion	上級活力ポーション
+12390000626	Superior Green Potion	上級グリーンポーション
+12390000625	Fountain of Life	生命の泉
+12390000624	Holy Spirit Potion	ホーリースピリットポーション
+12390000623	Vitality Potion	活力ポーション
+12390000622	Red Potion	レッドポーション
+12390000621	Green Potion	緑ポーション
+12390000620	Condensed Blue Potion	濃縮ブルーポーション
+12390000619	Blue Potion	青ポーション
+12390000618	Superior Yellow Potion	上級イエローポーション
+12390000617	Superior Orange Potion	上級オレンジポーション
+12390000616	Superior Red Potion	上級レッドポーション
+12390000615	Superior Breath Medicine	上級ブレス薬
+12390000614	Concentrated Breath Medicine	濃縮ブレス薬
+12390000613	First Aid Breath Medicine	応急処置用ブレス薬
+12390000612	Potent Breath Medicine	強力ブレス薬
+12390000611	Premium Breath Medicine	プレミアムブレス薬
+12390000610	Gentle Breath Medicine	穏やかブレス薬
+12390000609	Refreshing Breath Medicine	リフレッシュブレス薬
+12390000608	White Potion	白ポーション
+12390000607	Yellow Potion	イエローポーション
+12390000606	Orange Potion	オレンジポーション
+12390000605	Beginner Potion	初心者ポーション
+12390000604	Feather Spirit	フェザースピリット
+12390000603	Feather Flame	フェザーフレイム
+12390000602	Constellation	星座
+12390000601	Star Chain	スターチェーン
+12390000600	Christmas Stocking	クリスマスストッキング
+12390000599	FIRE	火
+12390000598	Take It Easy	テイク・イット・イージー
+12390000597	Lv. @{1} Two-Handed Spear (Lance Knight Only, No BD)	Lv.@{1} 両手槍（ランスナイト専用、BDなし）
+12390000596	Lv. @{1} Shield (No BD)	Lv. @{1} シールド（BDなし）
+12390000595	Lv. @{1} Katar (No BD)	Lv. @{1} カタール（BDなし）
+12390000594	Lv. @{1} Bow (No BD)	Lv. @{1} 弓（BDなし）
+12390000593	Lv. @{1} Staff (No BD)	Lv. @{1} スタッフ（BDなし）
+12390000592	Lv. @{1} Wand (No BD)	Lv. @{1} ワンド（BDなし）
+12390000591	Lv. @{1} Mace (No BD)	Lv. @{1} メイス（BDなし）
+12390000590	Lv. @{1} Two-Handed Axe (No BD)	Lv. @{1} 両手斧（BDなし）
+12390000589	Lv. @{1} One-Handed Axe (No BD)	Lv. @{1} 片手斧（BDなし）
+12390000588	Lv. @{1} Two-Handed Spear (No BD)	Lv. @{1} 両手槍（BDなし）
+12390000587	Lv. @{1} One-Handed Spear (No BD)	Lv. @{1} 片手槍（BDなし）
+12390000586	Lv. @{1} Two-Handed Sword (No BD)	Lv. @{1} 両手剣（BDなし）
+12390000585	Lv. @{1} One-Handed Sword (No BD)	Lv. @{1} 片手剣（BDなし）
+12390000584	Lv. @{1} Dagger (No BD)	Lv. @{1} ダガー（BDなし）
+12390000583	Lv. @{1} Two-Handed Spear (Lance Knight Only)	Lv. @{1} 両手槍（ランスナイト専用）
+12390000582	Lv. @{1} @{2} Shield	Lv. @{1} @{2} シールド
+12390000581	Lv. @{1} @{2} Katar	Lv. @{1} @{2} カタル
+12390000580	Lv. @{1} @{2} Bow	Lv. @{1} @{2} ボウ
+12390000579	Lv. @{1} @{2} Staff	Lv. @{1} @{2} スタッフ
+12390000578	Lv. @{1} @{2} Wand	Lv. @{1} @{2} ワンド
+12390000577	Lv. @{1} @{2} Mace	Lv. @{1} @{2} メイス
+12390000576	Lv. @{1} @{2} Two-Handed Axe	Lv. @{1} @{2} 両手斧
+12390000575	Lv. @{1} @{2} One-Handed Axe	Lv. @{1} @{2} 片手斧
+12390000574	Lv. @{1} @{2} Two-Handed Spear	Lv. @{1} @{2} 両手槍
+12390000573	Lv. @{1} @{2} One-Handed Spear	Lv. @{1} @{2} 片手槍
+12390000572	Lv. @{1} @{2} Two-Handed Sword	Lv. @{1} @{2} 両手剣
+12390000571	Lv. @{1} @{2} One-Handed Sword	Lv. @{1} @{2} 片手剣
+12390000570	Lv. @{1} @{2} Dagger	Lv. @{1} @{2} ダガー
+12390000569	Lv. @{1} Shield	Lv. @{1} シールド
+12390000568	Lv. @{1} Katar	Lv. @{1} カタル
+12390000567	Lv. @{1} Bow	Lv. @{1} 弓
+12390000566	Lv. @{1} Staff	Lv. @{1} スタッフ
+12390000565	Lv. @{1} Wand	Lv. @{1} 杖
+12390000564	Lv. @{1} Mace	Lv. @{1} メイス
+12390000563	Lv. @{1} Two-Handed Axe	Lv. @{1} 両手斧
+12390000562	Lv. @{1} One-Handed Axe	Lv. @{1} 片手斧
+12390000561	Lv. @{1} Two-Handed Spear	Lv. @{1} 両手槍
+12390000560	Lv. @{1} One-Handed Spear	Lv. @{1} 片手槍
+12390000559	Lv. @{1} Two-Handed Sword	Lv. @{1} 両手剣
+12390000558	Lv. @{1} One-Handed Sword	Lv. @{1} 片手剣
+12390000557	Lv. @{1} Dagger	Lv. @{1} ダガー
+12390000556	Super Arena Beck Battle Axe@{1}	スーパーアリーナ・ベックバトルアックス@{1}
+12390000555	Super Arena Earth Spirit Spear	スーパーアリーナ・アーススピリットスピア
+12390000554	Super Arena Bow@{1}	スーパーアリーナボウ@{1}
+12390000553	Super Arena Knight Spear	スーパーアリーナナイトスピア
+12390000552	Super Arena Two-Handed Sword	スーパーアリーナ両手剣
+12390000551	Super Arena Katar	スーパーアリーナカタール
+12390000550	Super Tournament Dagger	スーパートーナメントダガー
+12390000549	Super Tournament Rod	スーパートーナメントロッド
+12390000548	Superior Beck Battle Axe@{1}	上級ベックバトルアックス@{1}
+12390000547	Superior Earth Spirit Spear	上級アーススピリットスピア
+12390000546	Superior Bow@{1}	スーペリアボウ@{1}
+12390000545	Superior Knight Spear	上級ナイトスピア
+12390000544	Superior Two-Handed Sword	上級両手剣
+12390000543	Superior Katar	上級カタル
+12390000542	Superior Dagger	上級ダガー
+12390000541	Superior Rod	スーペリアロッド
+12390000540	Advanced Beck Battle Axe@{1}	高級ベックバトルアックス@{1}
+12390000539	Advanced Earth Spirit Spear	高級アーススピリットスピア
+12390000538	Advanced Bow@{1}	アドバンストボウ@{1}
+12390000537	Advanced Knight Spear	高級ナイトスピア
+12390000536	Advanced Two-Handed Sword	高級両手剣
+12390000535	Advanced Katar	高級カタル
+12390000534	Advanced Dagger	高級ダガー
+12390000533	Advanced Rod	アドバンストロッド
+12390000532	Intermediate Beck Battle Axe@{1}	中級ベックバトルアックス@{1}
+12390000531	Intermediate Earth Spirit Spear	中級アーススピリットスピア
+12390000530	Intermediate Bow@{1}	中級弓@{1}
+12390000529	Intermediate Knight Spear	中級ナイトスピア
+12390000528	Intermediate Two-Handed Sword	中級両手剣
+12390000527	Intermediate Katar	中級カタル
+12390000526	Intermediate Dagger	中級ダガー
+12390000525	Intermediate Rod	中級ロッド
+12390000524	Basic Beck Battle Axe@{1}	基本ベックバトルアックス@{1}
+12390000523	Basic Earth Spirit Spear	基本アーススピリットスピア
+12390000522	Basic Bow@{1}	基本の弓@{1}
+12390000521	Basic Knight Spear	基本ナイトスピア
+12390000520	Basic Two-Handed Sword	ベーシックツーハンドソード
+12390000519	Basic Katar	基本的なカタル
+12390000518	Basic Dagger	基本的なダガー
+12390000517	Basic Rod	ロッド
+12390000516	Flower Ring	フラワーリング
+12390000515	Rosary	ロザリオ
+12390000514	Diamond Ring	ダイヤモンドリング
+12390000513	Gold Ring	ゴールドリング
+12390000512	Clip	クリップ
+12390000511	Gloves	手袋
+12390000510	Novice Necklace	ノービスネックレス
+12390000509	Amulet	アミュレット
+12390000508	Novice Earrings	ノービスイヤリング
+12390000507	Earrings	イヤリング
+12390000506	Novice Ring	ノービスリング
+12390000505	Ring	リング
+12390000504	Vidar's Boots	ヴィダールのブーツ
+12390000503	Bunny Slippers	バニースリッパ
+12390000502	Goibne's Greaves	ゴヴニュのグリーブ
+12390000501	Fricco's Shoes	フリッコの靴
+12390000500	Safety Shoes	安全靴
+12390000499	Boots	ブーツ
+12390000498	Novice Greaves	ノービスグリーブ
+12390000497	Greaves	グリーブ
+12390000496	Novice Boots	初心者ブーツ
+12390000495	Shoes	靴
+12390000494	Novice Sandals	ノービスサンダル
+12390000493	Sandals	サンダル
+12390000492	Falcon Cloak	ファルコンマント
+12390000491	Soldier Skeleton's Cloak	ソルジャースケルトンのマント
+12390000490	Vali's Cloak	ヴァリのマント
+12390000489	Armored Pauldrons	装甲ショルダーガード
+12390000488	Survivor's Cloak	サバイバーのマント
+12390000487	Ancient Cloak	古代のマント
+12390000486	Novice Cloak	初心者のマント
+12390000485	Cloak	肩にかける物
+12390000484	Novice Pauldrons	ノービスポールドロン
+12390000483	Pauldrons	肩当て
+12390000482	Novice Hooded Pauldrons	ノービスフーデッドポールドロン
+12390000481	Hooded Pauldrons	フード付きポールドロン
+12390000480	Steel Armor	鋼鉄の鎧
+12390000479	Silk Robe	シルクローブ
+12390000478	Steel Chain Mail	スチールチェインメイル
+12390000477	Iron Armor	アイアンアーマー
+12390000476	Mink Coat-STR/VIT-DEF	ミンクコート-STR/VIT-DEF
+12390000475	Mink Coat-DEX/AGI-ATK	ミンクコート-DEX/AGI-ATK
+12390000474	Mink Coat-INT/DEX-ATK	ミンクコート-INT/DEX-ATK
+12390000473	Mink Coat-STR/VIT-ATK	ミンクコート-STR/VIT-ATK
+12390000472	Mink Coat-STR/LUK-ATK	ミンクコート-STR/LUK-ATK
+12390000471	Mink Coat-STR/AGI-ATK	ミンクコート-STR/AGI-ATK
+12390000470	Mink Coat	ミンクのコート
+12390000469	Adventurer's Suit	冒険者のスーツ
+12390000468	Novice Coat	ノービスコート
+12390000467	Coat	コート
+12390000466	Novice Leather Jacket	ノービスレザージャケット
+12390000465	Leather Jacket	レザージャケット
+12390000464	Novice Cotton Shirt	ノービスコットンシャツ
+12390000463	Cotton Shirt	コットンシャツ
+12390000462	Holy Guard	ホーリーガード
+12390000461	Archangel's Shield	アークエンジェルシールド
+12390000460	Strong Shield	強い盾
+12390000459	Valkyrja's Shield	ヴァルキュリアシールド
+12390000458	Stone Buckler	ストーンバックラー
+12390000457	Thorny Buckler	ソーンバックラー
+12390000456	Novice Steel Shield	ノービススチールシールド
+12390000455	Shield	シールド
+12390000454	Novice Buckler	ノービスバックラー
+12390000453	Buckler	バックラー
+12390000452	Novice Iron Shield	ノービスアイアンシールド
+12390000451	Guard	ガード
+12390000450	Wind Spirit Katar	ウィンドスピリットカタール
+12390000449	Evil Katar	邪悪なカタル
+12390000448	Loki's Nail	ロキの爪
+12390000447	Infiltrator	インフィルトレーター
+12390000446	Wraith Katar	レイス・カタール
+12390000445	Katar of Dusty Thornbush	ダスティソーンブッシュのカタール
+12390000444	Novice Secret Blade: Dark Howl	ノービス秘剣：ダークハウル
+12390000443	Secret Blade: Dark Howl	秘剣：ダークハウル
+12390000442	Novice Katar Blade	ノービスカタルブレード
+12390000441	Katar	カタール
+12390000440	Novice Katar	ノービスカタール
+12390000439	Katar	カタール
+12390000438	Luna Bow	ルナボウ
+12390000437	Eblere Bow	エブレレボウ
+12390000436	Ixion Wing	イクシオンウィング
+12390000435	Rudra Bow	ルドラの弓
+12390000434	Sky Dragon Wing	天空竜の翼
+12390000433	Hunter Bow	ハンターボウ
+12390000432	Novice Great Bow	ノービスグレートボウ
+12390000431	Great Bow	グレートボウ
+12390000430	Novice Composite Bow	初心者用コンポジットボウ
+12390000429	Composite Bow	複合弓
+12390000428	Novice Bow	ノービスボウ
+12390000427	Bow	弓
+12390000426	Staff of Destruction	スタッフオブディストラクション
+12390000425	Dea Staff	ディアスタッフ
+12390000424	Kronos	クロノス
+12390000423	Warrior's Staff of Destruction	ウォリアー・スタッフオブデストラクション
+12390000422	Wizardry Staff	ウィザードスタッフ
+12390000421	Soul Staff	ソウルスタッフ
+12390000420	Rune Staff	ルーンスタッフ
+12390000419	Mistletoe Staff	ヤドリギスタッフ
+12390000418	Pinewood Rod	パインウッドロッド
+12390000417	Hypnotist's Staff	ヒプノティストスタッフ
+12390000416	Lich's Bone Staff	リッチのボーンスタッフ
+12390000415	Survivor's Rod (Dex)	サバイバルロッド（DEX）
+12390000414	Wing Staff	ウイングスタッフ
+12390000413	Skull Staff	スカルスタッフ
+12390000412	Arc Wand	アークワンド
+12390000411	Novice Staff of Wisdom	ノービス賢者の杖
+12390000410	Staff	ロッド
+12390000409	Novice Oak Staff	ノービスオークスタッフ
+12390000408	Oak Staff	オークスタッフ
+12390000407	Novice Staff	ノービススタッフ
+12390000406	Rod	ロッド
+12390000405	Mithril Longhammer	ミスリルロングハンマー
+12390000404	Golden Hammer	ゴールデンハンマー
+12390000403	Secret Hammer: Cold Moon	秘槌：コールドムーン
+12390000402	Sword Mace	ソードメイス
+12390000401	Morning Star	モーニングスター
+12390000400	Stunner	スタナー
+12390000399	Smash's Hammer	スマッシュのハンマー
+12390000398	Mace	メイス
+12390000397	Club	クラブ
+12390000396	Wind Spirit Axe	風の精霊の斧
+12390000395	Bardiche	バルディッシュ
+12390000394	Doom Slayer	ドゥームスレイヤー
+12390000393	Guillotine	ギロチン
+12390000392	Great Axe	グレートアックス
+12390000391	Bloody Axe	ブラッディアックス
+12390000390	Novice Buster	ノービスバスター
+12390000389	Buster	バスター
+12390000388	Novice Steel Axe	ノービススチールアックス
+12390000387	Steel Axe	スティールアックス
+12390000386	Novice Battle Axe	ノービスバトルアックス
+12390000385	Battle Axe	バトルアックス
+12390000384	Bloody Battle Axe	ブラッディバトルアックス
+12390000383	Empowered Axe	強化された斧
+12390000382	Vecer Axe	ベチェルアックス
+12390000381	Hill's Axe	ヒルの斧
+12390000380	Cleaver	クリーバー
+12390000379	Orcish Axe	オークの斧
+12390000378	Double-Bladed Axe	ダブルブレードアックス
+12390000377	Iron Axe	アイアンアックス
+12390000376	Axe	斧
+12390000375	Schulte Spear	シュルテ・スピア
+12390000374	Wind Spirit Spear	ウィンドスピリットスピア
+12390000373	Dragutin Spear	ドラグティンの槍
+12390000372	Halberd	ハルバード
+12390000371	Dreyn Halberd	ドレイン・ハルバード
+12390000370	Double-Bladed Halberd	ダブルブレードハルバード
+12390000369	Novice Pike	ノービスパイク
+12390000368	Pike	パイク
+12390000367	Novice Guisarme	ノービスギサルメ
+12390000366	Guisarme	ギザルム
+12390000365	Novice Knight Spear	ノービスナイトスピア
+12390000364	Knight Spear	ナイトスピア
+12390000363	Long Horn	ロングホーン
+12390000362	Halberd	ハルバード
+12390000361	Battle Hook	バトルフック
+12390000360	Hunting Spear	狩猟の槍
+12390000359	Earth Spirit Spear	アーススピリットスピア
+12390000358	Gungnir	グングニル
+12390000357	Pike	パイク
+12390000356	Spear	スピア
+12390000355	Halberd	ハルバード
+12390000354	Arans Sword	アランの剣
+12390000353	Wind Spirit Sword	ウィンドスピリットソード
+12390000352	Executioner	エクスキューショナー
+12390000340	Treasure Sword	宝剣
+12390000339	Excalibur	エクスキャリバー
+12390000338	Haedonggum	海東琴
+12390000337	Saber	サーベル
+12390000336	Novice Rapier	初心者レイピア
+12390000335	Rapier	レイピア
+12390000334	Novice Blade	ノービスブレード
+12390000333	Blade	ブレイド
+12390000332	Novice Sword	ノービスソード
+12390000331	Sword	ソード
+12390000330	TBD	未定
+12390000329	Double-Edged Dagger	ダブルエッジダガー
+12390000328	Ornate Dagger	華やかな短剣
+12390000327	Damascus	ダマスカス
+12390000326	Gladius	グラディウス
+12390000325	Dagger	短剣
+12390000324	Dirk	ダーク
+12390000323	Novice Main Gauche	ノービスマインゴーシュ
+12390000322	Main Gauche	メインゴーシュ
+12390000321	Novice Cutter	初心者カッター
+12390000320	Cutter	カッター
+12390000319	Novice Dagger	初心者のダガー
+12390000318	Dagger	短剣
+12390000317	Two-Tone - Yellow/Red	ツートーン - 黄/赤
+12390000316	Two-Tone - Blue/Red	ツートーン - 青/赤
+12390000315	Two-Tone - Blue/Yellow	ツートーン - 青/黄
+12390000314	Two-Tone - Green/Red	ツートーン - 緑/赤
+12390000313	Two-Tone - Green/Yellow	ツートーン - 緑/黄
+12390000312	Two-Tone - Green/Blue	ツートーン - 緑/青
+12390000311	Supreme Scepter of Order	至高のセプターオブオーダー
+12390000310	Drum of Dread	恐怖のドラム
+12390000309	Desolate Mist Bagpipes	荒涼の霧バグパイプ
+12390000308	Silvermoon Harp	シルバームーンハープ
+12390000307	Prisoner's Dancing Bells	囚人のダンシングベル
+12390000306	Dream-Eating Flute	夢喰いの笛
+12390000305	Final Vow Chalice	最後の誓いの聖杯
+12390000304	Throat of the Ash Tree	トネリコの喉笛
+12390000303	Scepter of Order	秩序のセプター
+12390000302	Pearltear Conch	パールティアコンチ
+12390000301	Snowy Night Music Box	雪夜のオルゴール
+12390000300	Gorsk's Horn	ゴルスクの角笛
+12390000299	Treasure Hunt Dig Attempts	宝探し発掘回数
+12390000298	Pass Currency	パス通貨
+12390000297	Premium Monthly Pass Currency	プレミアム月間パス通貨
+12390000296	Standard Monthly Pass Currency	スタンダード月間パス通貨
+12390000295	Guild Contribution Points	ギルド貢献ポイント
+12390000294	Military Supplies	軍需物資
+12390000293	Region @{1} Points	地域 @{1} ポイント
+12390000292	Subjugation Medal	討伐メダル
+12390000291	Vigor	活力
+12390000290	Tailoring EXP	仕立て経験値
+12390000289	Gardening EXP	園芸経験値
+12390000288	Carving EXP	彫刻EXP
+12390000287	Logging EXP	ロギングEXP
+12390000286	Smithing EXP	鍛冶経験値
+12390000285	Mining EXP	採掘経験値
+12390000284	Contributor Badge	貢献者バッジ
+12390000283	Crystallized Ore	結晶化鉱石
+12390000282	Pass EXP	パス経験値
+12390000281	Paper Crane of Affection	親愛の折り鶴
+12390000280	Adventure Bond Points	冒険絆ポイント
+12390000279	Auction Supplies	オークション物資
+12390000278	Time Rift Gold Casting	時空の裂け目・ゴールドキャスト
+12390000277	Time Rift Silver Casting	時空裂け目シルバーキャスト
+12390000276	Guild Supplies	ギルド用品
+12390000275	Codex Points (Monsters - Desert)	図鑑ポイント（モンスター - 砂漠）
+12390000274	Codex Points (Monsters - Mjolnir)	図鑑ポイント（モンスター - ミョルニール）
+12390000273	Codex Points (Monsters - Payon)	図鑑ポイント（モンスター - フェイヨン）
+12390000272	Codex Points (Monsters - Geffen)	図鑑ポイント（モンスター - ゲフェン）
+12390000271	Codex Points (Monsters)	図鑑ポイント（モンスター）
+12390000270	Codex Points (Books)	図鑑ポイント（本）
+12390000269	Codex Points (Cards)	図鑑ポイント（カード）
+12390000268	Collection Points	収集ポイント
+12390000267	Novice Credits	ノービス通貨
+12390000266	Guild Contribution	ギルド貢献度
+12390000265	Guild Activity	ギルド活動
+12390000264	Guild Prestige	ギルド名声
+12390000263	Guild Funds	ギルド資金
+12390000262	Guild Emblem	ギルドエンブレム
+12390000261	Personal Guild Contribution	個人ギルド貢献度
+12390000258	Dragon Coffin Island Protection Points	ドラゴンコフィン島保護ポイント
+12390000257	Dragon Coffin Island Net Victory Points	ドラゴンコフィン島・勝利ポイント差
+12390000256	War Merit Points	戦功ポイント
+12390000073	Card: Penomena	カード: ペノメナ
+12390000072	Card: Ancient Mummy	カード：エンシェントマミー
+12390000071	Card: Sky Petite	カード: スカイプチ
+12390000070	Card: Munak	カード：ムナック
+12390000069	Shadow Card: Thara Frog	シャドウカード：タラ・フロッグ
+12390000068	Card: Orc Warrior	カード：オーク戦士
+12390000067	Card: Megalodon	カード: メガロドン
+12390000066	Card: Bigfoot	カード：ビッグフット
+12390000065	Card: Sropho	カード：スロフォ
+12390000064	Card: Deviace	カード：デビアス
+12390000063	Card: Aster	カード：アスター
+12390000062	Card: Shellfish	カード: 貝類
+12390000061	Card: Crab	カード：クラブ
+12390000060	Card: Caramel	カード：キャラメル
+12390000059	Card: Petite	カード：プチ
+12390000058	Shadow Card: Skeleton Worker	シャドウカード：スケルワーカー
+12390000057	Card: Strouf	カード：ストルフ
+12390000056	Card: Orc Skeleton	カード：オークスケルトン
+12390000055	Card: Hunter Fly	カード: ハンターフライ
+12390000054	Card: Requiem	カード：レクイエム
+12390000053	Card: Golem	カード：ゴーレム
+12390000052	Shadow Card: Minorous	シャドウカード：ミノタウロス
+12390000051	Shadow Card: Hydra	シャドウカード：ヒドラ
+12390000050	Card: Flora	カード：フローラ
+12390000049	Card: Goblin	カード：ゴブリン
+12390000048	Card: Drainliar	カード: ドレインライアー
+12390000047	Card: Vadon	カード：バドン
+12390000046	Card: Metaller	カード: メタラー
+12390000045	Card: Orc Lady	カード: オークレディ
+12390000044	Card: Wolf	カード：ウルフ
+12390000043	Card: Marina	カード：マリーナ
+12390000042	Card: Plankton	カード: プランクトン
+12390000041	Card: Mandragora	カード: マンドラゴラ
+12390000040	Card: Scorpion	カード: スコーピオン
+12390000039	Card: Boa	ボアカード
+12390000038	Card: Andre	カード：アンドレ
+12390000037	Card: Peco Peco Egg	カード：ペコペコの卵
+12390000036	Card: Willow	カード：ウィロー
+12390000035	Card: Muka	カード：ムカ
+12390000034	Card: Poison Spore	カード：ポイズンスポア
+12390000033	Card: Poporing	カード：ポポリン
+12390000032	Card: Tarou	カード：タロウ
+12390000031	Card: Yoyo	カード：ヨーヨー
+12390000030	Card: Spore	カード：スポア
+12390000029	Card: Worm Tail	カード: ワームテール
+12390000028	Card: Eggyra	カード：エギラ
+12390000027	Card: Thief Bug Male	カード：雄盗蟲
+12390000026	Card: Zombie	カード：ゾンビ
+12390000025	Card: Chonchon	カード：チョンチョン
+12390000024	Card: Condor	カード：コンドル
+12390000023	Card: Baby Desert Wolf	カード：ベビーデザートウルフ
+12390000022	Card: Thief Bug	カード: シーフバグ
+12390000021	Card: Roda Frog	カード: ロダフロッグ
+12390000020	Card: Rocker	カード：ロッカー
+12390000019	Card: Pupa	カード：プパ
+12390000018	Card: Super Picky	カード：スーパーピッキ
+12390000017	Card: Picky	カード：ピッキー
+12390000016	Card: Poring	カード：ポリン
 10110300582	When an ^{1}Offensive-type^{2} Primary Battle Skill Deals DMG to an enemy, inflicts ${1}% ^{3}【Sluggish】^{4} for ${2} sec.	^{1}攻撃型^{2}のメイン戦闘スキルが敵にダメージを与えた時、${2}秒間、${1}%の^{3}【鈍足】^{4}を付与します。
 10110300583	Deals Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicts ${4}% ^{3}【Slow】^{4} for ${5} seconds.	${1}m以内の最大${2}体の敵に、ペット物理攻撃力*^{1}${3}%^{2}の無属性近接物理ダメージを与え、${5}秒間${4}%の^{3}【減速】^{4}を付与します。
 10110200184	Shield Press	シールドプレス
