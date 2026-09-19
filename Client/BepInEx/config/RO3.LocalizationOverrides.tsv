@@ -4719,6 +4719,15 @@
 10800100299	When 【Gravitation Field】 ends, inflicts 【Immobilize】 on enemies in the area for ${1} sec.	【グラビテーションフィールド】終了時、範囲内の敵に${1}秒間【移動不能】を付与。
 10800100300	【Mystical Amplification】 grants an Extra {1} Cast Speed.	【ミスティカルアンプリフィケーション】で詠唱速度 +{1}。
 10800100301	【Mystical Amplification】 grants an Extra ${1} Magic ATK.	【ミスティカルアンプリフィケーション】で魔法ATK +${1}。
+10400400007	Participate in one Ilmata, God of Nature event.	自然神イルマタのイベントに1回参加。
+10400400008	Participate in Wedding Crashers	結婚式乱入者に参加
+10400400009	Participate in the Hunting Challenge	ハンティングチャレンジに参加する
+10400400010	Open every Sunday from @{1}:@{2}~@{3}:@{4}	毎週日曜 @{1}:@{2}～@{3}:@{4}に開催
+10400400011	Open Monday through Thursday, Saturday, and Sunday from @{1}:@{2}~@{3}:@{4}	月～木曜日、土曜日、日曜日の@{1}:@{2}～@{3}:@{4}に開催。
+10400400012	Open All Day	終日営業
+10400400013	Open Tuesday from @{1}:@{2}~@{3}:@{4}	火曜日 @{1}:@{2}～@{3}:@{4} 開放
+10400400014	Open Thursday from @{1}:@{2}~@{3}:@{4}	木曜日 @{1}:@{2}～@{3}:@{4} 開放
+10400400015	Open Friday from @{1}:@{2}~@{3}:@{4}	金曜日 @{1}:@{2}～@{3}:@{4} 開放
 12400100000	Prologue: Party Preparations	プロローグ：パーティ準備
 12400100001	Opening: Third-Prize Drawing	開幕：3等抽選
 12400100002	Opening: Second-Prize Drawing	開幕：2等抽選
@@ -11058,6 +11067,13 @@
 10470000770	Geho	ゲホ
 10470000769	Eerie Man	不気味な男
 10470000768	Strong Man	強い男
+10400400006	Participate in one Guild League and earn more than ^{1}@{1}^{2} individual points.	ギルドリーグに1回参加し、個人ポイントを^{1}@{1}^{2}以上獲得。
+10400400005	Participate in one Guild Bonfire Party.	ギルド焚き火パーティに1回参加
+10400400004	Complete the Battle of Dragon Coffin Island once with ^{1}@{1} Member(s)^{2} from your guild	ギルドの^{1}@{1}人のメンバー^{2}と龍棺島の戦いを1回クリア
+10400400003	Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.	^{1}ギルドメンバー@{1}人^{2}と一緒に「カプラ：サバイバーの戦い」を1回クリアします。
+10400400002	Clear any Realm of the Gods Dungeon with ^{1}@{1} Guild Members^{2} from your guild.	ギルドの^{1}@{1}人のメンバー^{2}と任意の神々の領域ダンジョンをクリア。
+10400400001	Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.	^{1}@{1}人のギルドメンバー^{2}と任意のファントムレルムダンジョンをクリア。
+10400400000	Dispatch the Royal Caravan once.	王都キャラバンを1回派遣する。
 10220300970	CRIT DMG Reduction Stat	クリティカルダメージ軽減ステータス
 10220300969	CRIT RES Stat	クリティカル耐性ステータス
 10220300968	CRIT DMG Stat	クリティカルダメージステータス

@@ -144,6 +144,10 @@ LOCALIZATION_PATCH_PREFIXES = (
     # NPC/monster/world entity names used by MeshUI overhead nameplates.
     "104700",
     "105300",
+    # Guild-activity objectives. These are formatted with member-count/style
+    # placeholders before the activity panel renders, so XUnity can otherwise
+    # miss the final English sentence even though the canonical pair exists.
+    "104004",
     # Suggested-build effect descriptions.
     "108001",
     # Generic overview/help tooltips. These are frequently formatted from @{n}
@@ -210,6 +214,9 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "12390001064": "Milk",
     "12390100342": KNOWN_ORIDECON_ITEM_DESCRIPTION_TEMPLATE,
     "12980100000": KNOWN_VIGOR_DESCRIPTION_TEMPLATE,
+    "10400400001": "Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.",
+    "10400400002": "Clear any Realm of the Gods Dungeon with ^{1}@{1} Guild Members^{2} from your guild.",
+    "10400400003": "Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.",
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
 }
 KNOWN_LOCALIZATION_CANONICAL_ALIASES = {
@@ -528,6 +535,7 @@ def load_runtime_keys() -> set[str]:
                 "100105",
                 "101103",
                 "102203",
+                "104004",
                 "108001",
                 "124002",
                 "131501",
