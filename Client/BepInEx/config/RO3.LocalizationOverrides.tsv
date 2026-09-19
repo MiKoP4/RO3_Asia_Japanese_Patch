@@ -168,6 +168,246 @@
 10530000159	Creamy Fear	クリーミーな恐怖
 10530000160	Leib Olmai	リーブ・オルマイ
 10530000161	Killer Mantis	キラーマンティス
+10010300006	Totem Life	トーテムライフ
+10010300007	Totem Physical ATK	トーテム物理ATK
+10010300008	Totem Magic ATK	トーテム魔法攻撃
+10010300009	PATK/MATK	物理攻撃/魔法攻撃
+10010300010	PDEF/MDEF	物理防御/魔法防御
+10010300011	Other Elemental Damage Reduction%	その他属性ダメージ軽減%
+10010300012	Crowd Control Resistance	行動妨害耐性
+10010300015	PATK	物理攻撃
+10010300016	MATK	魔法攻撃
+10010300017	PDEF	物理防御
+10010300018	MDEF	魔法防御
+10010300019	HP recover	HP回復
+10010300020	SP Recovery	SP回復
+10010300022	FLEE	回避
+10010300023	CRIT	クリティカル
+10010300024	Crit Resistance	クリティカル耐性
+10010300025	MSPD	移動速度
+10010300026	ASPD	攻撃速度
+10010300027	Cast Speed	キャストスピード
+10010300028	Out-of-Combat HP recover	非戦闘時HP回復
+10010300029	Out-of-Combat MP Recovery	非戦闘時MP回復
+10010300032	Crit Bonus	クリティカルボーナス
+10010300033	Variable CT	可変CT
+10010300034	Variable CT	可変CT
+10010300035	Fixed CT	固定詠唱
+10010300036	Fixed CT	固定詠唱
+10010300037	Skill CD%	スキルCD減少%
+10010300038	Global CD%	グローバル CD%
+10010300039	Healing Done	回復量
+10010300040	Healing Taken	被回復量
+10010300041	Crit Damage%	クリティカルダメージ%
+10010300042	Crit Damage Reduction%	クリティカルダメージ軽減%
+10010300043	Physical Damage Bonus%	物理ダメージボーナス%
+10010300044	Physical Damage Reduction%	物理ダメージ軽減%
+10010300045	Magic Damage Bonus%	魔法ダメージボーナス%
+10010300046	Magic Damage Reduction%	魔法ダメージ軽減%
+10010300047	Damage Increase%	ダメージ増加%
+10010300048	Damage Reduction%	ダメージ軽減率
+10010300049	Physical Penetration	物理貫通
+10010300050	Physical Penetration%	物理貫通%
+10010300051	Magic Penetration	魔法貫通
+10010300052	Magic Penetration%	魔法貫通率
+10010300053	Bonus ATK	追加物理攻撃
+10010300054	Bonus MATK	ボーナスMATK
+10010300055	Bonus DEF	追加物理防御
+10010300056	Bonus MDEF	ボーナスMDEF
+10010300057	Skill Damage Increase%	スキルダメージ増加%
+10010300058	Skill Damage Reduction%	スキルダメージ軽減%
+10010300059	Melee Physical Damage Increase%	近接物理ダメージ増加%
+10010300060	Melee PDMG Reduction	近接物理ダメージ軽減
+10010300061	Ranged Physical Damage Increase%	遠距離物理ダメージ増加%
+10010300062	Ranged PDMG.R	遠距離PDMG.R
+10010300063	Hunting Mastery	狩猟マスタリー
+10010300064	Hunting Protection	ハンティング保護
+10010300065	DMG vs All Job	ダメージ vs 全ジョブ
+10010300066	DMG Reduction vs All Job	全職業から受けるダメージ軽減
+10010300067	Elemental Counter Ignore	属性相性無視
+10010300068	Elemental Counter Resistance	属性相性耐性
+10010300069	Crit Chance%	クリティカル率%
+10010300070	Crit Resistance%	クリティカル耐性%
+10010300071	Item Healing Effect%	アイテム回復効果%
+10010300072	Item Healing Received%	アイテム回復被効果%
+10010300073	Global Healing Effect%	全体回復効果%
+10010300074	Global Healing Received%	受ける回復量%
+10010300075	MP Recovery Effect%	MP回復効果%
+10010300076	MP Recovery Received%	受けるMP回復量%
+10010300077	Item MP Recovery Effect%	アイテムMP回復効果%
+10010300078	Item MP Recovery Received%	受けるアイテムMP回復量%
+10010300079	Global MP Recovery Effect%	全体MP回復効果%
+10010300080	Global MP Recovery Received%	受ける全体MP回復量%
+10010300081	Melee Magic Damage Increase%	近接魔法ダメージ増加%
+10010300082	Melee Magic Damage Reduction%	近接魔法ダメージ軽減%
+10010300083	Ranged Magic Damage Increase%	遠距離魔法ダメージ増加%
+10010300084	Ranged Magic Damage Reduction%	遠距離魔法ダメージ軽減%
+10010300085	Double Crit Chance	ダブルCRIT確率
+10010300086	Mount Move Speed	マウント移動速度
+10010300087	Neutral Damage%	無属性ダメージ率%
+10010300088	Wind Damage%	風属性ダメージ%
+10010300089	Earth Damage%	地属性ダメージ%
+10010300090	Fire Damage%	火属性ダメージ%
+10010300091	Water Damage%	水属性ダメージ%
+10010300092	Poison Damage%	毒属性ダメージ%
+10010300093	Holy Damage%	聖属性ダメージ%
+10010300094	Shadow Damage%	闇属性ダメージ%
+10010300095	Ghost Damage%	念属性ダメージ%
+10010300096	Undead Damage%	不死属性ダメージ%
+10010300097	Neutral Damage Reduction%	無属性ダメージ軽減%
+10010300098	Wind Damage Reduction%	風属性ダメージ軽減%
+10010300099	Earth Damage Reduction%	地属性ダメージ軽減%
+10010300100	Fire Damage Reduction%	火属性ダメージ軽減%
+10010300101	Water Damage Reduction%	水属性ダメージ軽減%
+10010300102	Poison Damage Reduction%	毒属性ダメージ軽減%
+10010300103	Holy Damage Reduction%	聖属性ダメージ軽減%
+10010300104	Shadow Damage Reduction%	闇属性ダメージ軽減%
+10010300105	Ghost Damage Reduction%	念属性ダメージ軽減%
+10010300106	Undead Damage Reduction%	不死属性ダメージ軽減%
+10010300107	Damage to Neutral Monsters%	無属性モンスターへのダメージ%
+10010300108	Damage to Wind Monsters%	風属性モンスターへのダメージ%
+10010300109	Damage to Earth Monsters%	地属性モンスターへのダメージ%
+10010300110	Damage to Fire Monsters%	火属性モンスターへのダメージ%
+10010300111	Damage to Water Monsters %	水属性モンスターへのダメージ %
+10010300112	Damage to Poison Monsters %	毒属性モンスターへのダメージ %
+10010300113	Damage to Holy Monsters %	聖属性モンスターへのダメージ%
+10010300114	Damage to Shadow Monsters %	闇属性モンスターへのダメージ %
+10010300115	Damage to Ghost Monsters %	念属性モンスターへのダメージ %
+10010300116	Damage to Undead Monsters %	不死属性モンスターへのダメージ %
+10010300117	Damage Reduction from Neutral Monsters %	無属性モンスターからのダメージ軽減 %
+10010300118	Damage Reduction from Wind Monsters %	風属性モンスターからのダメージ軽減 %
+10010300119	Damage Reduction from Earth Monsters %	地属性モンスターからのダメージ軽減 %
+10010300120	Damage Reduction from Fire Monsters %	火属性モンスターからのダメージ軽減 %
+10010300121	Damage Reduction from Water Monsters %	水属性モンスターからのダメージ軽減 %
+10010300122	Damage Reduction from Poison Monsters %	毒属性モンスターからのダメージ軽減 %
+10010300123	Damage Reduction from Holy Monsters %	聖属性モンスターからのダメージ軽減 %
+10010300124	Damage Reduction from Shadow Monsters %	闇属性モンスターからのダメージ軽減 %
+10010300125	Damage Reduction from Ghost Monsters %	念属性モンスターからのダメージ軽減 %
+10010300126	Damage Reduction from Undead Monsters %	不死属性モンスターからのダメージ軽減 %
+10010300127	Damage to Brute Race %	動物種族へのダメージ %
+10010300128	Damage to Demi-Human Race %	人間形へのダメージ %
+10010300129	Damage to Demon Race %	悪魔種族へのダメージ %
+10010300130	Damage to Plant Race %	植物種族へのダメージ %
+10010300131	Damage to Undead Race %	不死種族へのダメージ %
+10010300132	Damage to Formless Race %	無形種族へのダメージ%
+10010300133	Damage to Fish Race %	魚種族へのダメージ %
+10010300134	Damage to Angel Race %	天使種族へのダメージ %
+10010300135	Damage to Insect Race %	昆虫種族へのダメージ %
+10010300136	Damage to Dragon Race %	竜種族へのダメージ %
+10010300137	Damage Reduction from Brute Race %	動物種族からのダメージ軽減 %
+10010300138	Damage Reduction from Demi-Human Race %	人間形からのダメージ軽減 %
+10010300139	Damage Reduction from Demon Race %	悪魔種族からのダメージ軽減 %
+10010300140	Damage Reduction from Plant Race %	植物種族からのダメージ軽減 %
+10010300141	Damage Reduction from Undead Race %	不死種族からのダメージ軽減 %
+10010300142	Damage Reduction from Formless Race %	無形種族からのダメージ軽減 %
+10010300143	Damage Reduction from Fish Race %	魚種族からのダメージ軽減 %
+10010300144	Damage Reduction from Angel Race %	天使種族からのダメージ軽減 %
+10010300145	Damage Reduction from Insect Race %	昆虫種族からのダメージ軽減 %
+10010300146	Damage Reduction from Dragon Race %	竜種族からのダメージ軽減 %
+10010300147	DMG vs Small Enemies %	小型へのダメージ %
+10010300148	Damage Reduction from Small Size Monsters %	小型モンスターからのダメージ軽減 %
+10010300149	DMG vs Medium Enemies %	中型へのダメージ %
+10010300150	Damage Reduction from Medium Size Monsters %	中型モンスターからのダメージ軽減 %
+10010300151	DMG vs Large Enemies %	大型へのダメージ %
+10010300152	Damage Reduction from Large Size Monsters %	大型モンスターからのダメージ軽減 %
+10010300153	Damage to BOSS Monsters %	BOSSモンスターへのダメージ%
+10010300154	Damage Reduction from BOSS Monsters %	BOSSモンスターからのダメージ軽減 %
+10010300155	Damage to Non-BOSS Monsters %	非BOSSモンスターへのダメージ %
+10010300156	Damage Reduction from Non-BOSS Monsters %	非BOSSモンスターからのダメージ軽減 %
+10010300157	Silent Attack	サイレントアタック
+10010300158	Silence Resistance	沈黙耐性
+10010300159	Freeze Attack	フリーズアタック
+10010300160	Freeze Resistance	凍結耐性
+10010300161	Petrify Attack	石化攻撃
+10010300162	Petrify Resistance	石化耐性
+10010300163	Stun Enhance	スタン強化
+10010300164	Stun Resistance	スタン耐性
+10010300165	Burn Enhance	火傷強化
+10010300166	Burn Resistance	火傷耐性
+10010300167	Poisoned Enhance	毒強化
+10010300168	Poison Resistance	毒耐性
+10010300169	Immobilize Attack	移動不能攻撃
+10010300170	Immobilize Resistance	移動不能耐性
+10010300171	Fear Attack	恐怖の攻撃
+10010300172	Fear Resistance	恐怖耐性
+10010300173	Cursed Attack	呪われた攻撃
+10010300174	Curse Resistance	呪い耐性
+10010300175	Blind Attack	ブラインドアタック
+10010300176	Dark Resistance	闇耐性
+10010300177	Bleed Enhance	出血強化
+10010300178	Bleed Resistance	出血耐性
+10010300179	Paralyze Enhance	麻痺強化
+10010300180	Paralyze Resistance	麻痺耐性
+10010300181	Sleep Enhance	睡眠強化
+10010300182	Sleep Resistance	睡眠耐性
+10010300183	Slow Enhance	スロー強化
+10010300184	Slow Resistance	スロー耐性
+10010300185	Life%	HP%
+10010300187	PATK%	物理攻撃%
+10010300188	MATK%	魔法攻撃%
+10010300189	PDEF%	物理防御%
+10010300190	MDEF%	魔法防御%
+10010300191	HP recover%	HP回復%
+10010300192	MP Recovery%	MP回復%
+10010300194	FLEE%	回避%
+10010300195	CRIT%	クリティカル%
+10010300196	CRIT Resistance%	クリティカル耐性%
+10010300197	MSPD	移動速度
+10010300198	ASPD	攻撃速度
+10010300199	Shield Bonus Effect%	シールドボーナス効果%
+10010300200	Shield Bonus Received%	被シールドボーナス%
+10010300201	MP Cost	消費SP
+10010300202	Additional Physical ATK	追加物理ATK
+10010300203	Additional Physical DEF	追加物理DEF
+10010300204	Skill Energy	スキルエネルギー
+10010300205	Max Skill Energy	最大スキルエネルギー
+10010300206	Energy Recovery Time	エネルギー回復時間
+10010300207	Energy Recovery Time%	エネルギー回復時間%
+10010300208	Life	HP
+10010300209	Magic	魔法
+10010300210	Level	レベル
+10010300211	Shield	シールド
+10010300212	Fixed HP Lock	固定HPロック
+10010300213	HP Lock Percentage	HPロック率
+10010300214	Physical Damage Shield	物理ダメージシールド
+10010300215	Magic Damage Shield	魔法ダメージシールド
+10010300216	Universal Damage Shield	全属性ダメージシールド
+10010300217	Extended Category @{1} Shield Value	拡張カテゴリ@{1}シールド値
+10010300218	Shield Effect%	シールド効果%
+10010300219	Shield Effect Received%	被シールド効果%
+10010300220	Can Take Damage	ダメージを受ける
+10010300221	Status Bitmap	ステータスビットマップ
+10010300222	Prohibited Action Bitmap	禁止アクションビットマップ
+10010300223	Monster Battle Status	モンスター戦闘状態
+10010300224	Is in Darkness	暗闇の中にいる
+10010300225	Darkness Radius	暗闇範囲
+10010300226	Transform Flag	変換フラグ
+10010300227	BOSS Enrage Display	BOSS激怒表示
+10010300228	Start Universal Overhead Countdown Display	汎用頭上カウントダウン表示開始
+10010300229	End Universal Overhead Countdown Display	汎用頭上カウントダウン表示終了
+10010300230	Selection Range	選択範囲
+10010300231	Attack Range	攻撃範囲
+10010300232	Rage	怒り
+10010300233	Max Rage	最大怒り
+10010300234	Material Parameter (%)	素材パラメータ（%）
+10010300235	BOSS Phase	ボスフェーズ
+10010300236	Modified Hit Effect ID	変更後ヒットエフェクトID
+10010300237	Flame Projectile Count	炎弾数
+10010300238	Frost Projectile Count	氷弾数
+10010300239	Special Target Lock Flag	特殊ターゲットロックフラグ
+10010300240	Monster Selects Players Regardless of Line of Sight	視線判定を無視してモンスターがプレイヤーを選択
+10010300241	Stealth	ステルス
+10010300242	Detect Stealth @{1}	ステルス検知 @{1}
+10010300243	Max Energy	最大エネルギー
+10010300244	Current Energy	現在のエネルギー
+10010300245	Energy Recovery Rate	エネルギー回復速度
+10010300246	Arrow ID	矢ID
+10010300247	HP Bar Display	HPバー表示
+10010300248	Monster EXP Bonus	モンスターEXPボーナス
+10010300249	Game Mode EXP Bonus	ゲームモードEXPボーナス
+10010300250	All EXP Bonus	全EXPボーナス
+10010300251	Camera ID	カメラID
+10010300252	Field Auto-Battle EXP Bonus	フィールドオートバトルEXPボーナス
 13150000000	The Party Leader selects a sapling and hangs the declaration	パーティリーダーが苗木を選び、宣言を掲示
 13150000001	All Members of the party water the sapling	パーティメンバー全員が苗木に水やり
 13150000002	Talk to the younger sister and enter the Adventure Group declaration	妹に話しかけて冒険者グループ宣言へ入る
@@ -1970,6 +2210,31 @@
 11190100164	Reach ${1} activated Talent Points	有効化済みタレントポイントを${1}まで到達
 11190100165	Activate ${1} talents	${1}個のタレントを有効化
 11190100166	Clear Valhalla ${1}	ヴァルハラ ${1}をクリア
+11250000071	PATK	物理攻撃
+11250000072	MDEF	魔法防御
+11250000073	PDEF	物理防御
+11250000074	Life	HP
+11250000075	Physical Penetration	物理貫通
+11250000076	Magic Penetration	魔法貫通
+11250000078	FLEE	回避
+11250000079	Neutral Resistance	無属性耐性
+11250000080	Wind Resistance	風属性耐性
+11250000081	Earth Property Resistance	地属性耐性
+11250000082	Fire Resistance	火属性耐性
+11250000083	Water Resistance	水耐性
+11250000084	Poison Resistance	毒耐性
+11250000085	Holy Resistance	聖属性耐性
+11250000086	Shadow Resistance	闇耐性
+11250000087	Ghost Property Resistance	念属性耐性
+11250000088	Undead Property Resistance	不死属性耐性
+11250000089	DMG vs All Job	ダメージ vs 全ジョブ
+11250000090	DMG Reduction vs All Job	全職業から受けるダメージ軽減
+11250000091	Hunting Mastery	狩猟マスタリー
+11250000092	Hunting Protection	ハンティング保護
+11250000093	CRIT	クリティカル
+11250000094	CRIT DMG	Criダメージ
+11250000095	CRIT RES	Cri耐性
+11250000096	CRIT DMG Reduction	クリティカルダメージ軽減
 12390000000	Card: Lunatic	カード：ルナティック
 12390000001	Card: Savage Babe	カード：サベージベイブ
 12390000002	Card: Fabre	カード：ファブル
@@ -5788,6 +6053,214 @@
 36086	Try adjusting your Formation and try again.	編成を調整してもう一度試してみよう。
 36087	Floors	階層
 36088	First Clear Players	初回クリアプレイヤー
+10010400006	Totem Life	トーテムライフ
+10010400007	Totem Physical ATK	トーテム物理ATK
+10010400008	Totem Magic ATK	トーテム魔法攻撃
+10010400009	PATK/MATK	物理攻撃/魔法攻撃
+10010400010	PDEF/MDEF	物理防御/魔法防御
+10010400011	Damage Reduction from Other Attributes	その他属性からのダメージ軽減
+10010400012	Crowd Control Resistance	行動妨害耐性
+10010400015	PATK	物理攻撃
+10010400016	MATK	魔法攻撃
+10010400017	PDEF	物理防御
+10010400018	MDEF	魔法防御
+10010400019	HP recover	HP回復
+10010400020	SP Recovery	SP回復
+10010400022	FLEE	回避
+10010400023	CRIT	クリティカル
+10010400024	Crit Resistance	クリティカル耐性
+10010400025	MSPD	移動速度
+10010400026	ASPD	攻撃速度
+10010400027	Cast Speed	キャストスピード
+10010400028	Out-of-Combat HP recover	非戦闘時HP回復
+10010400029	Out-of-Combat MP Recovery	非戦闘時MP回復
+10010400032	Crit Bonus	クリティカルボーナス
+10010400033	Variable CT	可変CT
+10010400034	Fixed CT	固定詠唱
+10010400035	Skill Cooldown	スキルクールダウン
+10010400036	Global CD	全体クールダウン
+10010400037	Healing Done	回復量
+10010400038	Healing Taken	被回復量
+10010400039	CRIT DMG	Criダメージ
+10010400040	CRIT DMG Reduction	クリティカルダメージ軽減
+10010400041	Physical Damage Increase	物理ダメージ増加
+10010400042	Physical Damage Reduction	物理ダメージ軽減
+10010400043	Magic Damage Increase	魔法ダメージ増加
+10010400044	Magic Damage Reduction	魔法ダメージ軽減
+10010400045	Damage Increase	ダメージ増加
+10010400046	DMG Reduction	ダメージ軽減
+10010400047	Physical Penetration	物理貫通
+10010400048	Magic Penetration	魔法貫通
+10010400049	Bonus ATK	追加物理攻撃
+10010400050	Bonus MATK	ボーナスMATK
+10010400051	Bonus DEF	追加物理防御
+10010400052	Bonus MDEF	ボーナスMDEF
+10010400053	Skill Damage Increase	スキルダメージ増加
+10010400054	Skill Damage Reduction	スキルダメージ軽減
+10010400055	Melee Physical Damage Increase	近接物理ダメージ増加
+10010400056	Melee PDMG Reduction	近接物理ダメージ軽減
+10010400057	Ranged Physical Damage Increase	遠距離物理ダメージ増加
+10010400058	Ranged Physical Damage Reduction	遠距離物理ダメージ軽減
+10010400059	Hunting Mastery	狩猟マスタリー
+10010400060	Hunting Protection	ハンティング保護
+10010400061	DMG vs All Job	ダメージ vs 全ジョブ
+10010400062	DMG Reduction vs All Job	全職業から受けるダメージ軽減
+10010400063	Elemental Counter Ignore	属性相性無視
+10010400064	Elemental Counter Resistance	属性相性耐性
+10010400065	Critical Chance	クリティカル率
+10010400066	CRIT RES	Cri耐性
+10010400067	Item Healing Effect%	アイテム回復効果%
+10010400068	Item Healing Received%	アイテム回復被効果%
+10010400069	Global Healing Effect%	全体回復効果%
+10010400070	Global Healing Received%	受ける回復量%
+10010400071	MP Recovery Effect%	MP回復効果%
+10010400072	MP Recovery Received%	受けるMP回復量%
+10010400073	Item MP Recovery Effect%	アイテムMP回復効果%
+10010400074	Item MP Recovery Received%	受けるアイテムMP回復量%
+10010400075	Global MP Recovery Effect%	全体MP回復効果%
+10010400076	Global MP Recovery Received%	受ける全体MP回復量%
+10010400077	Melee Magic Damage Increase	近接魔法ダメージ増加
+10010400078	Melee Magic Damage Reduction	近接魔法ダメージ軽減
+10010400079	Ranged Magic Damage Increase	遠距離魔法ダメージ増加
+10010400080	Ranged Magic Damage Reduction	遠距離魔法ダメージ軽減
+10010400081	Double Crit Chance	ダブルCRIT確率
+10010400082	Mount Move Speed	マウント移動速度
+10010400083	Neutral Damage	ニュートラルダメージ
+10010400084	Wind Damage	風属性ダメージ
+10010400085	Earth Damage	地属性ダメージ
+10010400086	Fire Damage	火属性ダメージ
+10010400087	Water Damage	水属性ダメージ
+10010400088	Poison Damage	毒ダメージ
+10010400089	Holy Damage	聖属性ダメージ
+10010400090	Shadow Damage	シャドウダメージ
+10010400091	Ghost Damage	念属性ダメージ
+10010400092	Undead Damage	アンデッドダメージ
+10010400093	Neutral Damage Reduction	無属性ダメージ軽減
+10010400094	Wind Damage Reduction	風属性ダメージ軽減
+10010400095	Earth Damage Reduction	地属性ダメージ軽減
+10010400096	Fire Damage Reduction	火属性ダメージ軽減
+10010400097	Water Damage Reduction	水属性ダメージ軽減
+10010400098	Poison Damage Reduction	毒属性ダメージ軽減
+10010400099	Holy Damage Reduction	聖属性ダメージ軽減
+10010400100	Shadow Damage Reduction	闇属性ダメージ軽減
+10010400101	Ghost Damage Reduction	念属性ダメージ軽減
+10010400102	Undead Damage Reduction	不死属性ダメージ軽減
+10010400103	DMG vs Neutral Enemies	無属性の敵へのダメージ
+10010400104	DMG vs Wind Enemies	風属性の敵へのダメージ
+10010400105	DMG vs Earth Enemies	地属性の敵へのダメージ
+10010400106	DMG vs Fire Enemies	火属性の敵へのダメージ
+10010400107	DMG vs Water Enemies	水属性の敵へのダメージ
+10010400108	DMG vs Poison Enemies	毒属性の敵へのダメージ
+10010400109	DMG vs Holy Enemies	聖属性の敵へのダメージ
+10010400110	DMG vs Shadow Enemies	闇属性の敵へのダメージ
+10010400111	DMG vs Ghost Enemies	念属性の敵へのダメージ
+10010400112	DMG vs Undead Enemies	不死属性の敵へのダメージ
+10010400113	Damage Reduction from Neutral Monsters	無属性モンスターからのダメージ軽減
+10010400114	Damage Reduction from Wind Monsters	風属性モンスターからのダメージ軽減
+10010400115	Damage Reduction from Earth Monsters	地属性モンスターからのダメージ軽減
+10010400116	Damage Reduction from Fire Monsters	火属性モンスターからのダメージ軽減
+10010400117	Damage Reduction from Water Monsters	水属性モンスターからのダメージ軽減
+10010400118	Damage Reduction from Poison Monsters	毒属性モンスターからのダメージ軽減
+10010400119	Damage Reduction from Holy Monsters	聖属性モンスターからのダメージ軽減
+10010400120	Damage Reduction from Shadow Monsters	闇属性モンスターからのダメージ軽減
+10010400121	Damage Reduction from Ghost Monsters	念属性モンスターからのダメージ軽減
+10010400122	Damage Reduction from Undead Monsters	不死属性モンスターからのダメージ軽減
+10010400123	Damage to Brute Race	動物種族へのダメージ
+10010400124	Damage to Demi-Human Race	人間形へのダメージ
+10010400125	Damage to Demon Race	悪魔種族へのダメージ
+10010400126	Damage to Plant Race	植物種族へのダメージ
+10010400127	Damage to Undead Race	不死種族へのダメージ
+10010400128	Damage to Formless Race	無形種族へのダメージ
+10010400129	Damage to Fish Race	魚種族へのダメージ
+10010400130	Damage to Angel Race	天使種族へのダメージ
+10010400131	Damage to Insect Race	昆虫種族へのダメージ
+10010400132	Damage to Dragon Race	竜種族へのダメージ
+10010400133	Damage Reduction from Brute Race	動物種族からのダメージ軽減
+10010400134	Damage Reduction from Demi-Human Race	人間形からのダメージ軽減
+10010400135	Damage Reduction from Demon Race	悪魔種族からのダメージ軽減
+10010400136	Damage Reduction from Plant Race	植物種族からのダメージ軽減
+10010400137	Damage Reduction from Undead Race	不死種族からのダメージ軽減
+10010400138	Damage Reduction from Formless Race	無形種族からのダメージ軽減
+10010400139	Damage Reduction from Fish Race	魚種族からのダメージ軽減
+10010400140	Damage Reduction from Angel Race	天使種族からのダメージ軽減
+10010400141	Damage Reduction from Insect Race	昆虫種族からのダメージ軽減
+10010400142	Damage Reduction from Dragon Race	竜種族からのダメージ軽減
+10010400143	DMG vs Small Enemies	小型の敵へのダメージ
+10010400144	Damage Reduction from Small Size Monsters	小型モンスターからのダメージ軽減
+10010400145	DMG vs Medium Enemies	中型の敵へのダメージ
+10010400146	Damage Reduction from Medium Size Monsters	中型モンスターからのダメージ軽減
+10010400147	Increase DMG vs Large Enemies	大型へのダメージ増加
+10010400148	Damage Reduction from Large Size Monsters	大型モンスターからのダメージ軽減
+10010400149	Damage to Bosses	ボスへのダメージ
+10010400150	Damage Reduction from Bosses	BOSSからのダメージ軽減
+10010400151	Damage to Non-Bosses	非ボスへのダメージ
+10010400152	Damage Reduction from Non-Bosses	非ボスからのダメージ軽減
+10010400153	Silent Attack	サイレントアタック
+10010400154	Silence Resistance	沈黙耐性
+10010400155	Freeze Attack	フリーズアタック
+10010400156	Freeze Resistance	凍結耐性
+10010400157	Petrify Attack	石化攻撃
+10010400158	Petrify Resistance	石化耐性
+10010400159	Stun Enhance	スタン強化
+10010400160	Stun Resistance	スタン耐性
+10010400161	Burn Enhance	火傷強化
+10010400162	Burn Resistance	火傷耐性
+10010400163	Poisoned Enhance	毒強化
+10010400164	Poison Resistance	毒耐性
+10010400165	Immobilize Attack	移動不能攻撃
+10010400166	Immobilize Resistance	移動不能耐性
+10010400167	Fear Attack	恐怖の攻撃
+10010400168	Fear Resistance	恐怖耐性
+10010400169	Cursed Attack	呪われた攻撃
+10010400170	Curse Resistance	呪い耐性
+10010400171	Blind Attack	ブラインドアタック
+10010400172	Dark Resistance	闇耐性
+10010400173	Bleed Enhance	出血強化
+10010400174	Bleed Resistance	出血耐性
+10010400175	Paralyze Enhance	麻痺強化
+10010400176	Paralyze Resistance	麻痺耐性
+10010400177	Sleep Enhance	睡眠強化
+10010400178	Sleep Resistance	睡眠耐性
+10010400179	Slow Enhance	スロー強化
+10010400180	Slow Resistance	スロー耐性
+10010400181	Shield Bonus (Basis Points)	シールドボーナス（ベーシスポイント）
+10010400182	Shield Bonus Received (Basis Points)	受けるシールドボーナス（ベーシスポイント）
+10010400183	Ranged PDMG.R	遠距離PDMG.R
+10010400184	MP Cost	消費SP
+10010400185	Additional Physical ATK	追加物理ATK
+10010400186	Additional Physical DEF	追加物理DEF
+10010400187	Skill Energy	スキルエネルギー
+10010400188	Max Skill Energy	最大スキルエネルギー
+10010400189	Energy Recovery Time	エネルギー回復時間
+10010400190	Life	HP
+10010400191	Magic	魔法
+10010400192	Level	レベル
+10010400193	Shield	シールド
+10010400194	Fixed HP Lock	固定HPロック
+10010400195	HP Lock Percentage	HPロック率
+10010400196	Physical Damage Shield	物理ダメージシールド
+10010400197	Magic Damage Shield	魔法ダメージシールド
+10010400198	Universal Damage Shield	全属性ダメージシールド
+10010400199	Extended Category @{1} Shield Value	拡張カテゴリ@{1}シールド値
+10010400200	Shield Effect%	シールド効果%
+10010400201	Shield Effect Received%	被シールド効果%
+10010400202	Can Take Damage	ダメージを受ける
+10010400203	Status Bitmap	ステータスビットマップ
+10010400204	Prohibited Action Bitmap	禁止アクションビットマップ
+10010400205	Monster Battle Status	モンスター戦闘状態
+10010400206	Attack Range	攻撃範囲
+10010400207	Rage	怒り
+10010400208	Max Rage	最大怒り
+10010400209	Material Parameter (%)	素材パラメータ（%）
+10010400210	BOSS Phase	ボスフェーズ
+10010400211	Modified Hit Effect ID	変更後ヒットエフェクトID
+10010400212	Max Ability	最大能力
+10010400213	Current Ability	現在の能力
+10010400214	Ability Recovery Rate	アビリティ回復速度
+10010400215	Monster EXP Bonus	モンスターEXPボーナス
+10010400216	Game Mode EXP Bonus	ゲームモードEXPボーナス
+10010400217	All EXP Bonus	全EXPボーナス
+10010400218	Field Auto-Battle EXP Bonus	フィールドオートバトルEXPボーナス
 13150100000	【Create Adventure Group】Party Leader Hangs the Declaration	【冒険グループ作成】パーティリーダーが宣言を掲示
 13150100001	【Create Adventure Group】Members Water the Sapling	【冒険グループ作成】メンバーが苗木に水やり
 13150100021	Card Objective - Rank Up	カード目標 - ランクアップ
@@ -6153,6 +6626,7 @@
 13150100381	【Guild Co-op】Realm of the Gods Quest	【ギルド協力】神々の領域クエスト
 13150100382	【Guild Co-op】Kafra Survivor Battle	【ギルド協力】カプラ・サバイバルバトル
 13150100383	Guild Event - Campfire Quest	ギルドイベント - 焚き火クエスト
+12980100000	Consumed when gathering and crafting with a Life Skill. Obtain it from Recommend-Activity Chests. You can accumulate up to ^{1}@{1}^{2} points.	生活スキルでの採取や製作時に消費される。おすすめアクティビティ宝箱から入手可能。最大^{1}@{1}^{2}ポイントまで累積できる。
 13150100385	Guild Activities - Guild League (Semifinals)	ギルド活動 - ギルドリーグ（準決勝）
 13150100386	Guild Activities - Guild League (Grand Finals)	ギルド活動 - ギルドリーグ（グランドファイナル）
 13150100387	Guild Event - War of Emperium	ギルドイベント - 攻城戦
@@ -9357,6 +9831,77 @@
 10110200207	Shield Auto Counter	シールドオートカウンター
 10110200208	Powerful Auto Counter	強力オートカウンター
 10110200209	Block Impact	ブロックインパクト
+11250000070	MATK	魔法攻撃
+11250000069	Continuous Shield	持続シールド
+11250000068	Desperate Defense	決死の防御
+11250000067	Fortitude Defense	不屈の防御
+11250000066	Continuous Healing	持続回復
+11250000065	Abundant Healing	豊富な回復
+11250000064	Cure	治療
+11250000063	Multi Strike	マルチストライク
+11250000062	Abundant Strength	満ちる力
+11250000061	Vengeful Strength	復讐の力
+11250000060	Decapitation	斬首
+11250000059	Magic Reverberation	マジックリバーブレーション
+11250000058	Abundant Magic	豊穣の魔力
+11250000057	Vengeful Magic	復讐の魔力
+11250000056	Terminate	終了
+11250000055	Healing Amplification	回復増幅
+11250000054	DEF Boost	防御力アップ
+11250000053	Ranged Amplification	遠距離強化
+11250000052	Melee Amplification	近接攻撃増幅
+11250000051	Magic Amplification	魔法攻撃増幅
+11250000050	Healing Cap	ヒーリングキャップ
+11250000049	Defense Cap	ディフェンスキャップ
+11250000048	Physical Damage Cap	物理ダメージ上限
+11250000047	Magic Damage Cap	魔法ダメージ上限
+11250000046	Low-Level Hunting Protection	低級狩猟防御
+11250000045	Basic Hunting Technique	基礎狩猟技術
+11250000044	Low-Tier DMG Reduction vs All Job	全職業からのダメージ軽減（小）
+11250000043	Low-Tier DMG vs All Job	全職業へのダメージ（小）
+11250000042	Low-Tier Undead Resistance	初級不死属性耐性
+11250000041	Minor Ghost Property Resistance	念属性耐性（小）
+11250000040	Minor Shadow Resistance	闇属性耐性（小）
+11250000039	Minor Holy Resistance	聖属性耐性・小
+11250000038	Minor Poison Resistance	毒属性耐性（小）
+11250000037	Minor Water Resistance	水属性耐性・小
+11250000036	Minor Fire Resistance	火属性耐性・小
+11250000035	Minor Earth Resistance	地属性耐性・小
+11250000034	Low Wind Resistance	風属性耐性低下
+11250000033	Low-Tier Neutral Resistance	初級無属性耐性
+11250000032	Low-Tier FLEE	低Tier FLEE
+11250000031	Low-Tier HIT	低層ヒット
+11250000030	Low-Tier Magic Penetration	初級魔法貫通
+11250000029	Low-Tier Physical Penetration	初級物理貫通
+11250000028	Low-Tier Life	低Tier HP
+11250000027	Low-Tier Physical Defense	初級物理防御
+11250000026	Low-Tier Magic Defense	初級魔法防御
+11250000025	Low-Tier Physical Attack	初級物理攻撃
+11250000024	Low-Tier Magic Attack	初級魔法攻撃
+11250000023	Low-Tier Continuous Shield	初級持続シールド
+11250000022	Low-Tier Last Stand Defense	初級ラストスタンド防御
+11250000021	Low-Tier Fortitude Defense	初級不屈防御
+11250000020	Low-Tier Continuous Healing	初級継続回復
+11250000019	Low-Tier Abundant Healing	初級回復強化
+11250000018	Low-Tier First Aid	初級応急処置
+11250000017	Low-Tier Multi Strike	初級マルチストライク
+11250000016	Low-Tier Abundant Strength	初級STR強化
+11250000015	Low-Tier Vengeful Might	初級・復讐の力
+11250000014	Low-Tier Execution	初級エグゼキューション
+11250000013	Low-Tier Magic Echo	初級マジックエコー
+11250000012	Low-Tier Abundant Magic	初級・豊富な魔力
+11250000011	Low-Tier Vengeful Magic	初級・復讐の魔力
+11250000010	Low-Tier Terminate	初級ターミネート
+11250000009	Holy Fortress	聖なる要塞
+11250000008	Momentum Breaker	モメンタムブレイカー
+11250000007	Ice Guardian	アイスガーディアン
+11250000006	Holy Guard	ホーリーガード
+11250000005	Nature's Blessing	自然の祝福
+11250000004	Divine Message	神託
+11250000003	Resolve	決意
+11250000002	Savage Blade	サベージブレード
+11250000001	Magic Mark	マジックマーク
+11250000000	Magic Blade	マジックブレード
 11190100158	Claim ${1} Area Rewards	${1}エリア報酬を受け取る
 11190100157	Claim ${1} Map Rewards	マップ報酬を${1}個受け取る
 11190100156	Enhance Echoes ${1} times	エコーを${1}回強化

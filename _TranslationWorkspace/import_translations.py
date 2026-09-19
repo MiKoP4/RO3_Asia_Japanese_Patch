@@ -119,6 +119,10 @@ KNOWN_ORIDECON_ITEM_DESCRIPTION_TEMPLATE = (
     "Enhance Weapons and Accessories.\\n^{1} Effect: Can be used to Refine +@{1} to +@{2} "
     "Weapons and Accessories ^{2}"
 )
+KNOWN_VIGOR_DESCRIPTION_TEMPLATE = (
+    "Consumed when gathering and crafting with a Life Skill. Obtain it from Recommend-Activity "
+    "Chests. You can accumulate up to ^{1}@{1}^{2} points."
+)
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
     "${2}: Server Level Cap increases to Lv. ${3}</color>"
@@ -126,6 +130,12 @@ KNOWN_SERVER_LEVEL_TEMPLATE = (
 OBSERVED_CHOOSE_LABEL = "请选择"
 OBSERVED_CHOOSE_TRANSLATION = "選択してください"
 LOCALIZATION_PATCH_PREFIXES = (
+    # Attribute/stat display names. Card effect panels compose localized stat
+    # names with numeric values after the LanguageKV lookup (for example
+    # "Increase DMG vs Large Enemies +2.88%" / "PATK +19"). Translate the
+    # labels upstream so the final rendered line is assembled in Japanese.
+    "100103",
+    "100104",
     # Skill names/descriptions and linked tooltips. Some combat callouts bypass
     # XUnity after the LanguageKV lookup (for example "Focused Arrow Strike!!").
     "101102",
@@ -140,6 +150,8 @@ LOCALIZATION_PATCH_PREFIXES = (
     # placeholders before the rendered text reaches XUnity (for example the
     # Soul Echo overview), so translate the LanguageKV template upstream.
     "109600",
+    # Card/modifier attribute labels used by another effect-name table.
+    "112500",
     # Generic task/objective templates such as "Talk to ${1}".
     "111901",
     # Item names. Drop/pickup notifications compose the item name with a count
@@ -153,6 +165,9 @@ LOCALIZATION_PATCH_PREFIXES = (
     # Event/guild headings and descriptions that are sometimes preformatted.
     "124001",
     "124002",
+    # Life-skill Vigor description. The value is formatted after lookup and can
+    # otherwise reach XUnity as an already-expanded English sentence.
+    "129801",
     # Quest titles, descriptions, objective strings and quest-type markers.
     "1315",
     # Recommended-build heading, server-level dynamic label, Spirit Tower.
@@ -173,6 +188,12 @@ KNOWN_WORLD_NAME_PAIRS = {
     "Thara Frog": "タラ・フロッグ",
 }
 KNOWN_LOCALIZATION_PATCH_IDS = {
+    "10010300015": "PATK",
+    "10010300016": "MATK",
+    "10010300151": "DMG vs Large Enemies %",
+    "10010400015": "PATK",
+    "10010400016": "MATK",
+    "10010400147": "Increase DMG vs Large Enemies",
     "10530000045": "Piere",
     "10530000058": "Magnolia",
     "10530000067": "Isis",
@@ -184,8 +205,11 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "13150600321": "Take part in events and enjoy your adventures in this world",
     "10960000082": KNOWN_SOUL_ECHO_TOOLTIP_TEMPLATE,
     "10960000083": KNOWN_SOUL_ECHO_RESONANCE_TEMPLATE,
+    "11250000070": "MATK",
+    "11250000071": "PATK",
     "12390001064": "Milk",
     "12390100342": KNOWN_ORIDECON_ITEM_DESCRIPTION_TEMPLATE,
+    "12980100000": KNOWN_VIGOR_DESCRIPTION_TEMPLATE,
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
 }
 KNOWN_LOCALIZATION_CANONICAL_ALIASES = {

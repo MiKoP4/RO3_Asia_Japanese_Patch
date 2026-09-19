@@ -471,9 +471,13 @@ namespace RO3.JapaneseMod
                 return FormatStatus("already patched", modules);
             }
 
-            // A half-patched pair normally means the previous process was interrupted.
-            // Do not turn that into the new uninstall backup. Recover the coherent
-            // original set first when possible.
+            // A mixed English/Japanese state can also be the normal result of
+            // expanding the canonical mapping after a previous successful patch.
+            // PrepareModule only treats values matching the expected source or
+            // Japanese value as direct English candidates, so finishing the
+            // remaining replacements is safe and avoids requiring a pristine
+            // Recovery backup for every mapping update. Do not overwrite the
+            // existing uninstall backup with this already-patched intermediate set.
             bool moduleAlreadyPatched = false;
             bool moduleNeedsPatch = false;
             for (int index = 0; index < modules.Count; index++)
@@ -483,16 +487,9 @@ namespace RO3.JapaneseMod
                 if (modules[index].ReplaceCount >= PartialPatchDetectionThreshold)
                     moduleNeedsPatch = true;
             }
-            if (moduleAlreadyPatched && moduleNeedsPatch)
-            {
-                if (allowBackupRecovery && TryRestoreSameBuildBackups(recoveryRoot, manifestPath, manifest))
-                {
-                    return ApplyInternal(recoveryRoot, manifestPath, mappingPath, false);
-                }
-                throw new InvalidDataException("Recovery localization modules are only partially patched.");
-            }
-
-            BackupCurrentSet(recoveryRoot, manifestPath, manifest);
+            bool incrementalPatch = moduleAlreadyPatched && moduleNeedsPatch;
+            if (!incrementalPatch)
+                BackupCurrentSet(recoveryRoot, manifestPath, manifest);
 
             for (int index = 0; index < modules.Count; index++)
             {
@@ -539,7 +536,11 @@ namespace RO3.JapaneseMod
             }
 
             WritePatchState(manifestPath, mappingPath);
-            return FormatStatus("patched before Lua localization load", modules);
+            return FormatStatus(
+                incrementalPatch
+                    ? "incrementally patched before Lua localization load"
+                    : "patched before Lua localization load",
+                modules);
         }
 
         private static Dictionary<long, LocalizationEntry> LoadCanonicalMap(string path)
