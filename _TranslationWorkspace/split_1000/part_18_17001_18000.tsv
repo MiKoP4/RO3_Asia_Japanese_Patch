@@ -1,4 +1,4 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 17001	Admonitory Song of Suffering: Low Drone	苦悩の戒めの歌：低音ドローン
 17002	Season High-Energy Impact Switch bd@{1}	シーズン・ハイエナジーインパクト切替 bd@{1}
 17003	Damage/Attack Speed (Weak Point Attack)	ダメージ/攻撃速度（弱点攻撃）
@@ -513,7 +513,7 @@
 17512	Its location will not be shown on the map.	位置はマップに表示されません。
 17513	Not enough items to unlock Backpack slots.	バックパックスロット解放に必要なアイテムが不足しています。
 17514	Auto-Cast cannot be enabled for this skill	このスキルでは自動詠唱を有効化できません
-17515	5-Player Challenge - Forbidden Nature Zone	5人チャレンジ - 禁断の自然地帯
+17515	5-Player Challenge - Forbidden Nature Zone	5人チャレンジ - 禁断の荒野
 17516	Join a guild to participate in this event.	このイベントに参加するにはギルドへ加入してください。
 17517	Defeat any monster outside the South Gate*	南門外で任意のモンスターを倒す*
 17518	Use a Butterfly Wing to return to Prontera	蝶の羽を使ってプロンテラへ戻る
@@ -737,7 +737,7 @@
 17736	Affects your damage against Undead monsters	不死属性モンスターへのダメージに影響
 17737	Encountered an evil Boss aboard the airship	飛行船で邪悪なボスに遭遇
 17738	Waiting for the recipient to Claim the gift	受取人のギフト受取待ち
-17739	Dragon Coffin Island Gloom Clearance Reward	龍棺島の暗雲クリア報酬
+17739	Dragon Coffin Island Gloom Clearance Reward	ドラゴンコフィン島の暗雲クリア報酬
 17740	Current Points: <color=#63A22B>${1}</color>	現在ポイント：<color=#63A22B>${1}</color>
 17741	Crafter: <color=#cd772a><u>${1}</u></color>	製作者：<color=#cd772a><u>${1}</u></color>
 17742	Press and hold to open Auto Combat settings	長押しでオート戦闘設定を開く
@@ -795,7 +795,7 @@
 17794	Challenge the Phantom Realm Protector: Maya	ファントムレルム守護者：マヤーに挑戦
 17795	Maximum Members the Invited Guild Can Merge	招待先ギルドが統合できる最大メンバー数
 17796	Hidden; Used to Automatically Equip a Mount	非表示・マウント自動装備用
-17797	【Guild Co-op】Battle of Dragon Coffin Island	【ギルド協力】龍棺島の戦い
+17797	【Guild Co-op】Battle of Dragon Coffin Island	【ギルド協力】ドラゴンコフィン島の戦い
 17798	Connect Quest - Team Up to Defeat MVP Drake	連携クエスト - パーティでMVPドレイクを倒す
 17799	Connect Quest - Team Up to Defeat MVP Eddga	連携クエスト - パーティでMVPエドガを倒す
 17800	Connect Quest - Defeat Hard Ilmo in a Party	連携クエスト - パーティでハード・イルモを倒す
@@ -991,7 +991,7 @@
 17990	Gradually restores Life while out of combat.	非戦闘時にHPを徐々に回復。
 17991	^{1}【Detect Stealth】^{2} range +${1} meters.	^{1}【ステルス検知】^{2}範囲 +${1}m。
 17992	Skill@{1}Synchronized Spinning Goblet Launch	スキル@{1}同期回転ゴブレット発射
-17993	Join the Battle of Dragon Coffin Island Solo	龍棺島の戦いにソロ参加
+17993	Join the Battle of Dragon Coffin Island Solo	ドラゴンコフィン島の戦いにソロ参加
 17994	Moonlight Flower Targeted Ground-Slam Bullet	月夜花・指定地点グラウンドスラム弾
 17995	Skill@{1}_Player Transforms into Dancing NPC	スキル@{1}_プレイヤーがダンスNPCに変身
 17996	Increases PATK by ${1}% of MATK, up to ${2}.	MATKの${1}%分PATKが増加、最大${2}。

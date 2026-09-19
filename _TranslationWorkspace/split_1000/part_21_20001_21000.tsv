@@ -31,7 +31,7 @@
 20030	Trade canceled. The item has been removed automatically.	取引をキャンセルしました。アイテムは自動的に出品解除されました。
 20031	The Party Leader role cannot be transferred during Misc.	その他モード中はパーティリーダーを譲渡できません。
 20032	The supply listing price does not meet the requirements.	物資の出品価格が条件を満たしていません。
-20033	Participate in Battle of Dragon Coffin Island ${1} times	龍棺島の戦いに${1}回参加
+20033	Participate in Battle of Dragon Coffin Island ${1} times	ドラゴンコフィン島の戦いに${1}回参加
 20034	This unit's Physical ATK and Magic ATK increase by ${1}.	このユニットの物理ATKと魔法ATKが${1}増加。
 20035	Open Mondays, Wednesdays, and Saturdays from 17:00–18:30	毎週月・水・土曜 17:00～18:30に開催
 20036	Test version. Does not represent final quality. UID:${1}	テスト版です。最終品質を示すものではありません。UID:${1}
@@ -755,7 +755,7 @@
 20754	Are you sure you want to spend ${1} to purchase ${2}×${3}${4}?	${1}を消費して${2}×${3}${4}を購入しますか？
 20755	Select an item from the Backpack list on the right to list it.	右側のバックパック一覧から出品するアイテムを選択。
 20756	There are no items left in the display, so it can't be shared~	展示アイテムが残っていないため共有できません～
-20757	Head to Redrock Fortress in the Center of Dragon Coffin Island	龍棺島中央のレッドロック要塞へ向かう
+20757	Head to Redrock Fortress in the Center of Dragon Coffin Island	ドラゴンコフィン島中央のレッドロック要塞へ向かう
 20758	Automatically Ride the Lion Mount After the Balloon Is Removed	バルーン解除後、自動でライオンマウントに騎乗
 20759	Guild Activities - (Auction Eligibility) Ilmata, God of Nature	ギルド活動 - （オークション資格）自然神イルマタ
 20760	Insufficient items. Please obtain more Speed-Up Tickets first.	アイテム不足です。先に加速チケットを入手してください。

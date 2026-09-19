@@ -1,4 +1,4 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 4001	Sandman Slow	サンドマンスロー
 4002	Morale Surge	士気の高まり
 4003	Morale Boost	士気向上
@@ -43,7 +43,7 @@
 4042	Solar Chariot	ソーラーチャリオット
 4043	Hairstyle@{1}	髪型@{1}
 4044	Rainbow Ferus	レインボーフェルス
-4045	Ancient Mummy	古代のミイラ
+4045	Ancient Mummy	エンシェントマミー
 4046	Defense Build	防御ビルド
 4047	Defense Boost	防御力ブースト
 4048	Dialogue Test	対話テスト
@@ -54,7 +54,7 @@
 4053	Goblin Archer	ゴブリンアーチャー
 4054	Goblin (Mace)	ゴブリン（メイス）
 4055	Hammer Kobold	ハンマーコボルト
-4056	Kobold Archer	コボルトアーチャー
+4056	Kobold Archer	コボルドアーチャー
 4057	Killer Mantis	キラーマンティス
 4058	Normal Unseal	通常の開封
 4059	Thanks, Boss!	ありがとう、ボス！
@@ -74,7 +74,7 @@
 4073	All EXP Bonus	全EXPボーナス
 4074	Work Together	一緒に働く
 4075	Season Events	シーズンイベント
-4076	Territory War	領土戦争
+4076	Territory War	領地戦
 4077	Royal Capital	王都
 4078	Emblems: ${1}	エンブレム: ${1}
 4079	Kill Baphomet	バフォメットを倒す
@@ -373,8 +373,8 @@
 4372	Poring Cannon	ポリンキャノン
 4373	Barrier Stele	結界の石碑
 4374	Overload Core	オーバーロードコア
-4375	Goblin Leader	ゴブリンのリーダー
-4376	Kobold Leader	コボルトリーダー
+4375	Goblin Leader	ゴブリンリーダー
+4376	Kobold Leader	コボルドリーダー
 4377	Common Timber	一般的な木材
 4378	Sturdy Timber	丈夫な木材
 4379	Hard Ironwood	ハードアイアンウッド
@@ -385,7 +385,7 @@
 4384	Osiris Horong	オシリス・ホロン
 4385	Water Tornado	ウォータートルネード
 4386	Neutral Dummy	ニュートラルダミー
-4387	Vagabond Wolf	バガボンドウルフ
+4387	Vagabond Wolf	さすらい狼
 4388	Gift Merchant	ギフト販売者
 4389	Item Merchant	アイテム商人
 4390	Chief Officer	最高責任者
@@ -398,7 +398,7 @@
 4397	Quest Rewards	クエスト報酬
 4398	Dungeon Quest	ダンジョンクエスト
 4399	Quartermaster	補給官
-4400	Byalan Island	ビャラン島
+4400	Byalan Island	バイラン島
 4401	Poring Island	ポリン島
 4402	Sograt Desert	ソグラト砂漠
 4403	Airship Staff	飛行船スタッフ
@@ -789,7 +789,7 @@
 4788	Shrined Judex	シュラインド・ジュデックス
 4789	Arrow Barrage	アロー・バラージ
 4790	Falcon Patrol	ファルコンパトロール
-4791	[Normal-Maya]	【ノーマル・マヤ】
+4791	[Normal-Maya]	【ノーマル・マヤー】
 4792	[Hard-Osiris]	【ハードオシリス】
 4793	[Normal-Isti]	【ノーマル・イスティ】
 4794	[Normal-Ilmo]	【ノーマル・イルモ】
@@ -836,7 +836,7 @@
 4835	Transform Flag	変換フラグ
 4836	Current Energy	現在のエネルギー
 4837	HP Bar Display	HPバー表示
-4838	Encounter Maya	マヤとの出会い
+4838	Encounter Maya	マヤーとの出会い
 4839	No. ${1} Guild	第${1}ギルド
 4840	Closes in ${1}	${1}後に終了
 4841	Current Season	現在のシーズン
@@ -973,14 +973,14 @@
 4972	Card: Skeleton	カード：スケルトン
 4973	Card: Magnolia	カード：マグノリア
 4974	Damage Ranking	ダメージランキング
-4975	Card: Cornutus	カード：コルヌトゥス
+4975	Card: Cornutus	カード：コルヌス
 4976	Card: Minorous	カード：ミノタウロス
 4977	Card: Orc Baby	カード：オークベビー
-4978	Card: Phreeoni	カード：フリオーニ
+4978	Card: Phreeoni	カード：フリオニ
 4979	Card: Baphomet	カード：バフォメット
 4980	Card: Angeling	カード：エンジェリング
 4981	Card: Orc Lord	カード：オークロード
-4982	Card: Deviling	カード：デビリング
+4982	Card: Deviling	カード：デビルリング
 4983	Card: Orc Hero	カード：オークヒーロー
 4984	Card: Mistress	カード：ミストレス
 4985	Strength +@{1}	強さ+@{1}

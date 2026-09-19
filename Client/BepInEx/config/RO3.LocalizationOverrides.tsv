@@ -11,7 +11,7 @@
 10530000002	Fabre	ファブル
 10530000003	Picky	ピッキー
 10530000004	Chonchon	チョンチョン
-10530000005	Super Picky	超こだわり派
+10530000005	Super Picky	すごいピッキ
 10530000006	Willow	ウィロー
 10530000007	Condor	コンドル
 10530000008	Savage Babe	サベージベイブ
@@ -29,13 +29,13 @@
 10530000020	Yoyo	ヨーヨー
 10530000021	Scorpion	スコーピオン
 10530000022	Poporing	ポポリン
-10530000023	Thief Bug Female	シーフバグ（メス）
+10530000023	Thief Bug Female	雌盗蟲
 10530000024	Mandragora	マンドラゴラ
 10530000025	Thief Bug Male	雄盗蟲
 10530000026	Smokie	スモーキー
 10530000027	Boa	ボア
 10530000028	Poison Spore	ポイズンスポア
-10530000029	Horn	ホーン
+10530000029	Horn	ホルン
 10530000030	Bigfoot	ビッグフット
 10530000031	Coco	ココ
 10530000032	Peco Peco Egg	ペコペコの卵
@@ -105,7 +105,7 @@
 10530000096	Marine Sphere	マリンスフィア
 10530000097	Phen	フェン
 10530000098	Zenorc	ゼノルク
-10530000099	Beetle King	カブトムシ王
+10530000099	Beetle King	ビートルキング
 10530000100	Goblin Archer	ゴブリンアーチャー
 10530000101	Metaller	メタラー
 10530000102	Marc	マルク
@@ -138,7 +138,7 @@
 10530000129	Penomena	ペノメナ
 10530000130	Crab	クラブ
 10530000131	Raggler	ラグラ
-10530000132	Shellfish	シェルフィッシュ
+10530000132	Shellfish	お化け貝
 10530000133	Starfish	ヒトデ
 10530000134	Grove	グローブ
 10530000135	Alligator	アリゲーター
@@ -159,13 +159,13 @@
 10530000150	Desert Wolf	デザートウルフ
 10530000151	Anubis	アヌビス
 10530000152	Axe Kobold	アックス・コボルト
-10530000153	Kobold Archer	コボルトアーチャー
+10530000153	Kobold Archer	コボルドアーチャー
 10530000154	Squidgitte	スキジッテ
 10530000155	Sropho	スロフォ
-10530000156	Ancient Mummy	古代のミイラ
+10530000156	Ancient Mummy	エンシェントマミー
 10530000157	Pot Dofle	ポットドフレ
 10530000158	King Dramoh	キングドラモー
-10530000159	Creamy Fear	クリーミーな恐怖
+10530000159	Creamy Fear	クリーミーフィアー
 10530000160	Leib Olmai	リーブ・オルマイ
 10530000161	Killer Mantis	キラーマンティス
 10010300006	Totem Life	トーテムライフ
@@ -574,7 +574,7 @@
 13150000184	The man turns out to be the Professor. Ask him what happened.	その男は教授だった。何があったか尋ねよう。
 13150000185	The Professor mentions a strange young girl nearby. Go take a look.	教授が近くにいる奇妙な少女のことを話している。様子を見に行こう。
 13150000186	Defeat the Maya that looks like a Familiar.	ファミリアーに似たマヤーを倒す。
-13150000187	The Professor has been captured by Maya. Return to camp for Utility.	教授がマヤに捕らえられた。キャンプへ戻って支援を求めよう。
+13150000187	The Professor has been captured by Maya. Return to camp for Utility.	教授がマヤーに捕らえられた。キャンプへ戻って支援を求めよう。
 13150000188	Take the Pathfinder Ant and return to Ant Hell.	パスファインダーアントを連れて蟻地獄へ戻る。
 13150000189	Follow the Pathfinder Ant to search for traces of the Professor.	パスファインダーアントを追って教授の痕跡を探す。
 13150000190	Follow the Pathfinder Ant to a mysterious cave entrance.	パスファインダーアントを追って謎の洞窟入口へ向かう。
@@ -729,7 +729,7 @@
 13150000339	Return the spellbook to Mage Cliffer.	魔法使いクリファーに魔法書を返す。
 13150000340	Continue exploring Munak Cave	ムナック洞窟の探索を続ける
 13150000341	Continue exploring Ant Hell	蟻地獄の探索を続ける
-13150000342	Continue exploring Orc Village	オーク村の探索を続ける
+13150000342	Continue exploring Orc Village	オークの村の探索を続ける
 13150000343	Continue exploring Orc Cave	オーク洞窟の探索を続ける
 13150000344	Continue exploring Goblin Forest	ゴブリンの森の探索を続ける
 13150000345	Complete Season quest @{1}	シーズンクエスト@{1}を完了
@@ -771,7 +771,7 @@
 13150000381	Guild League Semifinals Mission	ギルドリーグ準決勝ミッション
 13150000382	Guild League Finals Mission	ギルドリーグ決勝ミッション
 13150000383	Expedition Activity Mission	遠征アクティビティミッション
-13150000439	Equip the Divine Totem.	神聖トーテムを装備。
+13150000439	Equip the Divine Totem.	神術トーテムを装備。
 13150000440	Equip the Soul Echo.	ソウルエコーを装備する。
 13150000441	Complete the following objectives to earn points	次の目標を完了してポイントを獲得
 13150000442	Return to the NPC to claim your reward	NPCのもとへ戻って報酬を受け取る
@@ -796,7 +796,7 @@
 13150000461	Participate in the Guild State Capital War	ギルド州都戦に参加
 13150000462	Participate in the Guild Gloom over Longguo Island event	ギルドイベント「龍国島を覆う暗雲」に参加
 13150000463	Participate in the Guild Nature God Ilmata event	ギルドの自然神イルマタイベントに参加
-13150000464	Complete the Battle of Dragon Coffin Island once with ^{1}@{1} Member(s)^{2} from your guild	ギルドの^{1}@{1}人のメンバー^{2}と龍棺島の戦いを1回クリア
+13150000464	Complete the Battle of Dragon Coffin Island once with ^{1}@{1} Member(s)^{2} from your guild	ギルドの^{1}@{1}人のメンバー^{2}とドラゴンコフィン島の戦いを1回クリア
 13150000465	Participate in Wedding Crashers	結婚式乱入者に参加
 13150000466	Participate in the Hunting Challenge	ハンティングチャレンジに参加する
 13150000467	Take your first step into exploring the continent of Midgard.	ミッドガルド大陸探索への第一歩を踏み出す。
@@ -941,7 +941,7 @@
 13150000618	The bespectacled middle-aged man ahead may be the professor	前方の眼鏡をかけた中年男性が教授かもしれない
 13150000619	Cover the naked girl with some clothes	裸の少女に服を着せる
 13150000620	Something unexpected suddenly happens	突然、予想外の出来事が起きる
-13150000621	Maya suddenly abducts the Professor, leaving you all frozen in shock	マヤが突然教授をさらい、一同は驚きのあまり立ち尽くした
+13150000621	Maya suddenly abducts the Professor, leaving you all frozen in shock	マヤーが突然教授をさらい、一同は驚きのあまり立ち尽くした
 13150000622	It's the man from earlier. Ask if he knows how to find the professor	先ほどの男だ。教授を探す方法を知っているか聞いてみよう。
 13150000623	Collect body parts from different ants	異なるアリから体の部位を集める
 13150000624	Give the materials to the Adventurer so he can create a tracker ant	冒険者に素材を渡し、追跡アリを作ってもらう
@@ -1099,7 +1099,7 @@
 13150200062	The man turns out to be the Professor. Ask him what happened.	その男は教授だった。何があったか尋ねよう。
 13150200063	The Professor mentions a strange young girl nearby. Go take a look.	教授が近くにいる奇妙な少女のことを話している。様子を見に行こう。
 13150200064	Defeat the Maya that looks like a Familiar.	ファミリアーに似たマヤーを倒す。
-13150200065	The Professor has been captured by Maya. Return to camp for Utility.	教授がマヤに捕らえられた。キャンプへ戻って支援を求めよう。
+13150200065	The Professor has been captured by Maya. Return to camp for Utility.	教授がマヤーに捕らえられた。キャンプへ戻って支援を求めよう。
 13150200066	Take the Pathfinder Ant and return to Ant Hell.	パスファインダーアントを連れて蟻地獄へ戻る。
 13150200067	Follow the Pathfinder Ant to search for traces of the Professor.	パスファインダーアントを追って教授の痕跡を探す。
 13150200068	Follow the Pathfinder Ant to a mysterious cave entrance.	パスファインダーアントを追って謎の洞窟入口へ向かう。
@@ -1219,7 +1219,7 @@
 13150200202	Return the spellbook to Mage Cliffer.	魔法使いクリファーに魔法書を返す。
 13150200203	Continue exploring Munak Cave	ムナック洞窟の探索を続ける
 13150200204	Continue exploring Ant Hell	蟻地獄の探索を続ける
-13150200205	Continue exploring Orc Village	オーク村の探索を続ける
+13150200205	Continue exploring Orc Village	オークの村の探索を続ける
 13150200206	Continue exploring Orc Cave	オーク洞窟の探索を続ける
 13150200207	Continue exploring Goblin Forest	ゴブリンの森の探索を続ける
 13150200208	Complete Season quest @{1}	シーズンクエスト@{1}を完了
@@ -1272,7 +1272,7 @@
 13150200255	Secret Trove Activity Quest	秘密宝庫アクティビティクエスト
 13150200256	Daily Commission Activity Quest	デイリー依頼アクティビティクエスト
 13150200257	(No translation required)	（翻訳不要）
-13150200258	Equip the Divine Totem.	神聖トーテムを装備。
+13150200258	Equip the Divine Totem.	神術トーテムを装備。
 13150200259	Equip the Soul Echo.	ソウルエコーを装備する。
 13150200260	Obtain a wealth of resources and provide Guild Coins to the guild	豊富な資源を獲得し、ギルドにギルドコインを提供する
 13150200261	This quest embodies the tireless efforts of countless predecessors and grants unlimited EXP.	無数の先人のたゆまぬ努力が込められたクエスト。EXPを無制限に獲得できる。
@@ -1375,7 +1375,7 @@
 13150200358	The bespectacled middle-aged man ahead may be the professor	前方の眼鏡をかけた中年男性が教授かもしれない
 13150200359	Cover the naked girl with some clothes	裸の少女に服を着せる
 13150200360	Something unexpected suddenly happens	突然、予想外の出来事が起きる
-13150200361	Maya suddenly abducts the Professor, leaving you all frozen in shock	マヤが突然教授をさらい、一同は驚きのあまり立ち尽くした
+13150200361	Maya suddenly abducts the Professor, leaving you all frozen in shock	マヤーが突然教授をさらい、一同は驚きのあまり立ち尽くした
 13150200362	It's the man from earlier. Ask if he knows how to find the professor	先ほどの男だ。教授を探す方法を知っているか聞いてみよう。
 13150200363	Defeat any type of ant to obtain Alchemy Materials*	任意のアリを倒して錬金素材を入手*
 13150200364	Give the materials to the Adventurer so he can create a tracker ant	冒険者に素材を渡し、追跡アリを作ってもらう
@@ -1574,7 +1574,7 @@
 13150600116	Defeat the Forces of Evil	邪悪な勢力を倒す
 13150600117	Clear the third floor of the tower	タワー3階をクリア
 13150600118	Clear the fourth floor of the tower	タワー4階をクリア
-13150600119	Defeat Maya	マヤを倒す
+13150600119	Defeat Maya	マヤーを倒す
 13150600120	Learn about the Monster Conquest System	モンスター征服システムについて学ぶ
 13150600121	Conquer the monsters in Munak Cave	ムナック洞窟のモンスターを制圧
 13150600122	Select the quest to learn about Auto-Battle	クエストを選択してオートバトルについて学ぶ
@@ -1789,6 +1789,8 @@
 13150600331	Rent a Peco Peco (available after you Learn Riding)	ペコペコをレンタル（ライディング習得後に利用可能）
 13150600332	Rent a Madogear Pilot (available after you Learn the Madogear Pilot License skill)	魔導ギアパイロットをレンタル（魔導ギアパイロットライセンス習得後に利用可能）
 13150600333	Rent a Demonic Wolf (available after you Learn Wolf Taming)	魔狼をレンタル（ウルフテイミング習得後に利用可能）
+21035	Price (Descending Order)	価格（高い順）
+21036	Price (Ascending Order)	価格（昇順）
 10960000000	@{1}.Consume Equipment Blueprints and other specified materials to perform Equipment Forging.\n@{2}.Forged equipment has random attributes.\n@{3}.Equipment Forging always produces equipment of Purple Quality or higher. Orange and red equipment will be unidentified.	@{1}.装備設計図と指定素材を消費して装備製造を行います。\n@{2}.製造した装備にはランダムな属性が付きます。\n@{3}.装備製造では必ず紫品質以上の装備が作られます。オレンジ品質と赤品質の装備は未鑑定状態になります。
 10960000001	@{1}.Equipment Forging, defeating monsters, and other activities may yield unidentified equipment.\n@{2}.Identifying equipment does not consume any materials. Its attributes are randomized upon identification. Tap the ^{1}Equipment Forging Info^{2} button to view the possible attributes for the equipment.	@{1}.装備製造やモンスター討伐などで未鑑定装備を獲得することがあります。\n@{2}.装備の鑑定には素材を消費しません。鑑定時に属性がランダムで決まります。^{1}装備製造情報^{2}ボタンをタップすると、その装備に付く可能性がある属性を確認できます。
 10960000002	Players who obtain a Throne Token can purchase throne-exclusive items from the Season Shop during the new Season.	王座トークンを獲得したプレイヤーは、新シーズン中にシーズンショップで王座限定アイテムを購入できる。
@@ -1872,7 +1874,7 @@
 10960000083	@{1}.The elements of equipped Soul Echoes can activate Elemental Resonance. Each Elemental Resonance can reach up to Lv. @{2} and requires @{3}, @{4}, and @{5} elements, respectively.\n@{6}.Each level activated grants the corresponding resonance effect.	@{1}.装備したソウルエコーの属性によって、属性共鳴を発動できます。各属性共鳴は最大Lv. @{2}まで上昇し、それぞれ@{3}、@{4}、@{5}種類の属性が必要です。\n@{6}.発動したレベルごとに、対応する共鳴効果を獲得します。
 10960000084	@{1}.Only players with Reward Count remaining for the current dungeon can participate in the auction and receive an Auction Dividend. ^{1}The Auction Dividend rate is @{2}^{2}. Enjoy the thrill of bidding! @{3}.If everyone declines to bid, the item will go unsold. After the auction ends, it will be awarded at random to an eligible Member of the party with Reward Count remaining. @{4}.Declining during an auction is final. Once you decline, you cannot bid on that item again during the current auction.	@{1}.現在のダンジョンの報酬回数が残っているプレイヤーのみ、オークションへ参加してオークション配当を受け取れます。^{1}オークション配当率は@{2}^{2}です。入札を楽しみましょう！@{3}.全員が入札を辞退した場合、アイテムは売れ残ります。オークション終了後、報酬回数が残る資格対象のパーティメンバーへランダムで付与されます。@{4}.オークション中の辞退は取り消せません。一度辞退すると、現在のオークションではそのアイテムへ再入札できません。
 10960000085	@{1}.When you obtain a Divine Art Totem, its stats and skills are randomized.\n@{2}.Use Skill Books for Learning Skills to add or replace Divine Art Totem skills.\n@{3}.Use designated items to reroll its stats.\n@{4}.Divine Art Totems of the same quality can be combined. The resulting totem's stats and skills are randomized.	@{1}.ディヴァインアートトーテムを獲得すると、属性とスキルがランダムに決定されます。\n@{2}.スキル習得でスキルブックを使用すると、ディヴァインアートトーテムのスキルを追加または置換できます。\n@{3}.指定アイテムを使用して属性を再抽選できます。\n@{4}.同品質のディヴァインアートトーテムを合成できます。合成後のトーテムの属性とスキルはランダムに決定されます。
-10960000086	@{1}.Spend Divine Totem Currency to Level-up Divine Totems, enhancing the effects of deployed Divine Totems.\n Divine Totem levels reset each Season	@{1}.ディバイントーテム通貨を消費してディバイントーテムをレベルアップし、配置したディバイントーテムの効果を強化する。\nディバイントーテムのレベルは各シーズンごとにリセットされる
+10960000086	@{1}.Spend Divine Totem Currency to Level-up Divine Totems, enhancing the effects of deployed Divine Totems.\n Divine Totem levels reset each Season	@{1}.神術トーテム通貨を消費して神術トーテムをレベルアップし、配置した神術トーテムの効果を強化する。\n神術トーテムのレベルは各シーズンごとにリセットされる
 10960000087	@{1}.Use Skill Books in Learning Skills to add or replace Divine Arts Totem skills.\n@{2}.Learning Skills cannot exceed the Initial skill limit for the Totem's quality. Purple Totems can have up to @{3} skills, while Orange Totems can have up to @{4}. Once a Totem has reached its Initial skill limit, Skill Books can only replace skills.\n@{5}.Blue Totems cannot use Learning Skills.	@{1}.スキル習得でスキルブックを使用し、神術トーテムのスキルを追加または置き換えます。\n@{2}.習得できるスキル数はトーテム品質ごとの初期上限を超えられません。紫トーテムは最大@{3}個、橙トーテムは最大@{4}個まで習得できます。初期上限に達したトーテムでは、スキルブックは既存スキルの置き換えにのみ使用できます。\n@{5}.青トーテムではスキル習得を利用できません。
 10960000088	@{1}.Consume the required items to reroll a selected stat.\n@{2}.Each Divine Art Totem can only be rerolled a limited number of times per Season.	@{1}.必要なアイテムを消費して、選択したステータスをリロールする。\n@{2}.各神術トーテムをリロールできる回数はシーズンごとに制限されている。
 10960000089	@{1}.Divine Art Totems of the same quality can be combined, randomizing their attributes and skills\n@{2}.Combining Divine Art Totems allows their number of skills to exceed the Initial limit	@{1}.同品質の神術トーテムを合成すると、属性とスキルがランダムに再抽選される\n@{2}.神術トーテムを合成すると、スキル数が初期上限を超える場合がある
@@ -1894,7 +1896,7 @@
 10960000105	Your Profile is a space where you can express yourself. Decorate it freely and customize Connect elements such as titles, ranks, and Portraits.	プロフィールは自分自身を表現できる空間です。自由に飾り付け、称号や階級、アイコンなどの連携要素をカスタマイズしましょう。
 10960000106	Customize your Character, Background, Stickers, and more through Profile editing.	プロフィール編集でキャラクター、背景、ステッカーなどをカスタマイズできます。
 10960000107	Filter Star Cores in your Backpack by slot type	バックパック内のスターコアをスロット種別で絞り込む
-10960000108	@{1}.In this Kafra Corporation reality show, contestants must make smart use of prearranged resources to stand out from the competition. The final winner will receive the show's Grand Prize.\n@{2}.Each contestant can choose a Job Build before the match. Each Build comes with @{3} skills, while all other skills, Equipment, Medicine, and other items must be found and Picked up.\n@{4}.Kafra Corporation has created a special Currency to reward Beginners who participate in the show. Earn Currency by competing and completing Quests, then exchange it for supplies at the Kafra Shop!\n@{5}.During this test, the reality show and Battle of Dragon Coffin Island open on alternating days. Check the Calendar.\n@{6}.To keep the reality show fair, all contestants must participate actively!	@{1}.このカプラ社のリアリティショーでは、参加者はあらかじめ用意された資源を賢く活用して競争を勝ち抜かなければなりません。最後の勝者には番組のグランプリが贈られます。\n@{2}.各参加者は試合前に職業ビルドを選択できます。各ビルドには@{3}個のスキルがあり、それ以外のスキル、装備、薬品などのアイテムはすべて自分で探して拾う必要があります。\n@{4}.カプラ社は番組へ参加する初心者を支援するため、専用通貨を用意しました。対戦やクエストで通貨を獲得し、カプラショップで物資と交換しましょう！\n@{5}.今回のテストでは、リアリティショーと竜棺島の戦いが1日おきに開放されます。カレンダーをご確認ください。\n@{6}.リアリティショーの公平性を保つため、参加者は全員積極的に参加してください！
+10960000108	@{1}.In this Kafra Corporation reality show, contestants must make smart use of prearranged resources to stand out from the competition. The final winner will receive the show's Grand Prize.\n@{2}.Each contestant can choose a Job Build before the match. Each Build comes with @{3} skills, while all other skills, Equipment, Medicine, and other items must be found and Picked up.\n@{4}.Kafra Corporation has created a special Currency to reward Beginners who participate in the show. Earn Currency by competing and completing Quests, then exchange it for supplies at the Kafra Shop!\n@{5}.During this test, the reality show and Battle of Dragon Coffin Island open on alternating days. Check the Calendar.\n@{6}.To keep the reality show fair, all contestants must participate actively!	@{1}.このカプラ社のリアリティショーでは、参加者はあらかじめ用意された資源を賢く活用して競争を勝ち抜かなければなりません。最後の勝者には番組のグランプリが贈られます。\n@{2}.各参加者は試合前に職業ビルドを選択できます。各ビルドには@{3}個のスキルがあり、それ以外のスキル、装備、薬品などのアイテムはすべて自分で探して拾う必要があります。\n@{4}.カプラ社は番組へ参加する初心者を支援するため、専用通貨を用意しました。対戦やクエストで通貨を獲得し、カプラショップで物資と交換しましょう！\n@{5}.今回のテストでは、リアリティショーとドラゴンコフィン島の戦いが1日おきに開放されます。カレンダーをご確認ください。\n@{6}.リアリティショーの公平性を保つため、参加者は全員積極的に参加してください！
 10960000109	@{1}.Each class has multiple builds, and each build comes with @{2} skills.\n@{3}.All builds can use universal skills.\n@{4}.The Unlock Requirement for each skill is to use or pick it up during Kafra: Battle of the Survivors!\n@{5}.These skills can only be used in Kafra: Battle of the Survivors.	@{1}.各職業には複数のビルドがあり、各ビルドには@{2}個のスキルがあります。\n@{3}.すべてのビルドで共通スキルを使用できます。\n@{4}.各スキルの解放条件は、「カプラ：サバイバーバトル」で使用するか拾うことです！\n@{5}.これらのスキルは「カプラ：サバイバーバトル」でのみ使用できます。
 10960000110	@{1}.Includes multiple competitive modes. Check their schedules to see when they open and participate.\n@{2}.Some modes support parties. Joining with a party is recommended for the best experience.	@{1}.複数の対戦モードがあります。開催スケジュールを確認して参加しましょう。\n@{2}.一部のモードはパーティ参加に対応しています。より快適に楽しむため、パーティでの参加をおすすめします。
 10960000111	@{1}.Battle records are divided into Match Data and Season Data, both of which track contestants' performance in the reality show during the current Season.\n@{2}.Season Data provides an overview by tracking only cumulative and best results.\n@{3}.Match Data tracks detailed results for each match, separated into Team and Solo modes.\n@{4}.All data is cleared at the end of the Season.	@{1}.戦績はマッチデータとシーズンデータに分かれ、どちらも現在のシーズンにおけるリアリティショーでの参加者の成績を記録します。\n@{2}.シーズンデータでは累計値と最高記録のみを集計し、概要を確認できます。\n@{3}.マッチデータでは各試合の詳細結果を、チームモードとソロモードに分けて記録します。\n@{4}.シーズン終了時にすべてのデータがリセットされます。
@@ -2109,11 +2111,11 @@
 10960000320	Set the Dummy's Race, Size, and element	ダミーの種族・サイズ・属性を設定
 10960000321	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Prontera Underground Culvert Floor @{2}】\n@{3}.【Prontera Underground Culvert Floor @{4}】	以下のマップで対応するモンスターを倒すとカウントされます：\n@{1}.【プロンテラ地下水路 @{2}層】\n@{3}.【プロンテラ地下水路 @{4}層】
 10960000322	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Geffen Tower Underground Crypt Floor @{2}】\n@{3}.【Geffen Tower Underground Crypt Floor @{4}】\n@{5}.【Geffen Tower Underground Crypt Floor @{6}】	以下のマップで対象モンスターを倒すとカウントされる：\n@{1}.【ゲフェンタワー地下墓地@{2}F】\n@{3}.【ゲフェンタワー地下墓地@{4}F】\n@{5}.【ゲフェンタワー地下墓地@{6}F】
-10960000323	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Payon Cave】\n@{2}.【Abandoned Village】	以下のマップで対象モンスターを倒すとカウントされる：\n@{1}.【フェイヨンダンジョン】\n@{2}.【廃村】
+10960000323	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Payon Cave】\n@{2}.【Abandoned Village】	以下のマップで対象モンスターを倒すとカウントされる：\n@{1}.【フェイヨン洞窟】\n@{2}.【廃村】
 10960000324	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Pyramid Maze Floor @{2}】\n@{3}.【Pyramid Maze Floor @{4}】\n@{5}.【Pyramid Maze Floor @{6}】	以下のマップで対応するモンスターを倒すとカウントされます：\n@{1}.【ピラミッド迷宮 @{2}層】\n@{3}.【ピラミッド迷宮 @{4}層】\n@{5}.【ピラミッド迷宮 @{6}層】
 10960000325	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Sphinx Crypt Floor @{2}】\n@{3}.【Sphinx Crypt Floor @{4}】	以下のマップで対応するモンスターを倒すとカウントされます：\n@{1}.【スフィンクスダンジョン @{2}層】\n@{3}.【スフィンクスダンジョン @{4}層】
 10960000326	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Undersea Tunnel Floor @{2}】\n@{3}.【Undersea Tunnel Floor @{4}】\n@{5}.【Undersea Tunnel Floor @{6}】\n@{7}.【Undersea Tunnel Floor @{8}】	以下のマップで対象モンスターを倒すとカウントされる：\n@{1}.【海底洞窟@{2}F】\n@{3}.【海底洞窟@{4}F】\n@{5}.【海底洞窟@{6}F】\n@{7}.【海底洞窟@{8}F】
-10960000327	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Shipwreck Labyrinth Floor @{2}】\n@{3}.【Shipwreck Labyrinth Floor @{4}】	以下のマップで対応するモンスターを討伐するとカウントされます：\n@{1}.【沈没船の迷宮 @{2}層】\n@{3}.【沈没船の迷宮 @{4}層】
+10960000327	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Shipwreck Labyrinth Floor @{2}】\n@{3}.【Shipwreck Labyrinth Floor @{4}】	以下のマップで対応するモンスターを討伐するとカウントされます：\n@{1}.【難破船の迷宮 @{2}層】\n@{3}.【難破船の迷宮 @{4}層】
 10960000328	The Eden Group has special Clues that Adventurers can follow to experience unusual events and help the Eden Group collect the mysterious treasures they produce. You will also receive a share as a reward.\nRules:\n@{1}.All rewards reset ^{1}every Monday at @{2}:@{3}^{2}. Each chest has a claim limit per cycle\n@{4}.The activities in the Commendation Vault rotate weekly. All activities ^{3}share the Reward Count for Standard Reward Chests^{4}\n@{5}.Each activity in the Commendation Vault also offers its own unique Rare rewards	楽園団には特別な手がかりがあり、冒険者はそれをたどって珍しい出来事を体験し、そこで生まれる不思議な宝を楽園団が集めるのを手伝えます。報酬として分け前も受け取れます。\nルール：\n@{1}.すべての報酬は^{1}毎週月曜@{2}:@{3}^{2}にリセットされます。各宝箱には1周期ごとの受取上限があります。\n@{4}.表彰保管庫のコンテンツは毎週入れ替わります。すべてのコンテンツで^{3}通常報酬宝箱の報酬回数を共有します^{4}。\n@{5}.表彰保管庫の各コンテンツには、それぞれ固有のレア報酬もあります。
 10960000329	Appearance Times: Every Monday, Wednesday, Friday, and Sunday at ^{1}@{1}:@{2}, @{3}:@{4}, @{5}:@{6}, @{7}:@{8}, @{9}:@{10}, and @{11}:@{12}^{2}.\nRules:\n@{13}.A party of ^{3}≥@{14} Members^{4} is required. Each Rift can hold only one party at a time. It disappears when defeated and remains for up to @{15} minutes.\n@{16}.If every Member leaves the instance or dies before the battle ends, the challenge fails. The instance cannot be challenged again for ^{5}@{17} minutes^{6}.\n@{18}.Each player can receive a Rift's Additional rewards up to ^{7}@{19} times^{8} per day. Higher-star Rifts are more difficult.\n@{20}.Rifts may appear randomly on any map. When one opens, a System Notification will be issued for the map where it appeared. After entering the map, players can see how many Rifts remain, but must explore to find their exact locations.\n@{21}.^{9}@{22}-Star^{10} Rifts have a Chance to grant a special commendation from the Eden Group. Challenge higher difficulties first if your party is able	出現時刻：毎週月・水・金・日曜の^{1}@{1}:@{2}、@{3}:@{4}、@{5}:@{6}、@{7}:@{8}、@{9}:@{10}、@{11}:@{12}^{2}。\nルール：\n@{13}.^{3}@{14}人以上^{4}のパーティが必要です。各亀裂へ同時に入れるパーティは1組のみです。討伐されると消滅し、最大@{15}分間存在します。\n@{16}.戦闘終了前に全メンバーがインスタンスから退出または死亡した場合、挑戦失敗となります。^{5}@{17}分間^{6}は再挑戦できません。\n@{18}.各プレイヤーが亀裂の追加報酬を受け取れるのは1日最大^{7}@{19}回^{8}です。星数が高い亀裂ほど難易度が上がります。\n@{20}.亀裂は任意のマップへランダムに出現します。開くと出現マップにシステム通知が流れます。マップへ入ると残りの亀裂数を確認できますが、正確な場所は探索して見つける必要があります。\n@{21}.^{9}@{22}つ星^{10}の亀裂では、一定確率で楽園団から特別表彰を獲得できます。パーティに余裕があれば高難易度から挑戦しましょう。
 10960000330	● Guild Member Material Donations increase the Guild's Battle Readiness level\n● Increasing the Guild's Battle Readiness level greatly boosts every Member's combat power during City Defense	● ギルドメンバーが素材を寄付すると、ギルドの戦備レベルが上昇します\n● ギルドの戦備レベルを上げると、都市防衛中の全メンバーの戦闘力が大幅に強化されます
@@ -2128,10 +2130,10 @@
 10960000339	Gift RO Pass to a Friend Information Text	フレンドへのROパスギフト案内文
 10960000340	@{1}.Once the character reaches the required Base Lv. and Job Lv., you can complete the Job Advance quest from this screen to perform a Job Advance.\n@{2}.Use the Job descriptions and preview videos on this screen to learn about each Job's features.\n@{3}.Job Advance cannot be reversed.	@{1}.キャラクターが必要なBase Lv.とJob Lv.に達すると、この画面から転職クエストを完了して転職できます。\n@{2}.この画面の職業説明とプレビュー動画で、各職業の特徴を確認できます。\n@{3}.転職は取り消せません。
 10960000341	Test the limits of your damage output in the Training Ground's Extreme Challenge! Reach the required Damage per Second to Claim Clearing Rewards.	訓練場の極限挑戦で自身の火力限界を試そう！ 目標のDPS（秒間ダメージ）を達成してクリア報酬を獲得しよう。
-10960000342	● ^{1}Battle of Dragon Coffin Island^{2} is an @{1}V@{2} multiplayer mode.\n \n● ^{3}In Battle of Dragon Coffin Island,^{4} you can Score by ^{5}picking up Dragonblood Crystals, participating in kills, attacking the Boss,^{6} and ^{7}killing Enemy Team players carrying the Demonic Dragon Soul.^{8}\n \n● When the Countdown at the top of the screen ends, the Faction with the higher Score wins.	● ^{1}竜棺島の戦い^{2}は@{1}V@{2}のマルチプレイモードです。\n \n● ^{3}竜棺島の戦いでは、^{4}^{5}竜血クリスタルの取得、キルへの参加、BOSSへの攻撃、^{6}そして^{7}魔竜の魂を運ぶ敵チームのプレイヤーを倒す^{8}ことでスコアを獲得できます。\n \n● 画面上部のカウントダウン終了時、スコアが高い勢力が勝利します。
+10960000342	● ^{1}Battle of Dragon Coffin Island^{2} is an @{1}V@{2} multiplayer mode.\n \n● ^{3}In Battle of Dragon Coffin Island,^{4} you can Score by ^{5}picking up Dragonblood Crystals, participating in kills, attacking the Boss,^{6} and ^{7}killing Enemy Team players carrying the Demonic Dragon Soul.^{8}\n \n● When the Countdown at the top of the screen ends, the Faction with the higher Score wins.	● ^{1}ドラゴンコフィン島の戦い^{2}は@{1}V@{2}のマルチプレイモードです。\n \n● ^{3}ドラゴンコフィン島の戦いでは、^{4}^{5}ドラゴンブラッドクリスタルの取得、キルへの参加、BOSSへの攻撃、^{6}そして^{7}魔竜の魂を運ぶ敵チームのプレイヤーを倒す^{8}ことでスコアを獲得できます。\n \n● 画面上部のカウントダウン終了時、スコアが高い勢力が勝利します。
 10960000343	● ^{1}Dragonblood Crystals^{2} appear at fixed times in various Locations throughout the battlefield.\n \n● Pick up ^{3}Dragonblood Crystals^{4} to gain various Battle Buffs and Score.	● ^{1}ドラゴンブラッドクリスタル^{2}は、決まった時間に戦場各地の固定地点へ出現します。\n \n● ^{3}ドラゴンブラッドクリスタル^{4}を拾うと、さまざまな戦闘バフとスコアを獲得できます。
 10960000344	● ^{1}The Demonic Dragon Soul^{2} will appear at a random Location after the match has been underway for a while. Contact it to carry the ^{3}Demonic Dragon Soul.^{4}\n \n● ^{5}The Demonic Dragon Soul^{6} is a powerful Buff that increases the carrier's damage dealt by @{1}%, but the damage they take also increases over time.\n \n● Kill an Enemy Team player carrying the ^{7}Demonic Dragon Soul^{8} to earn Extra Score. The ^{9}Demonic Dragon Soul^{10} will then transfer to the killer.	● ^{1}魔竜の魂^{2}は試合開始からしばらくするとランダムな場所に出現します。接触すると^{3}魔竜の魂を所持します。^{4}\n \n● ^{5}魔竜の魂^{6}は強力なバフで、所持者の与ダメージを@{1}%増加させますが、受けるダメージも時間とともに増加します。\n \n● ^{7}魔竜の魂^{8}を所持する敵チームのプレイヤーを倒すと追加スコアを獲得します。その後、^{9}魔竜の魂^{10}は倒したプレイヤーへ移ります。
-10960000345	● ^{1}Fafnir^{2} is a powerful Boss that dwells on Dragon Coffin Island. It appears at a fixed time after the match begins.\n \n● Landing the First Strike or Final Blow on ^{3}Fafnir^{4} grants Extra Score.\n \n● Players also Score each time they deal a certain amount of damage to ^{5}Fafnir.^{6}	● ^{1}ファフニール^{2}はドラゴン棺島に棲む強力なBossです。試合開始から一定時間後に出現します。\n \n● ^{3}ファフニール^{4}へのファーストストライクまたはラストヒットを取ると追加スコアを獲得します。\n \n● ^{5}ファフニール^{6}へ一定量のダメージを与えるたびにもスコアを獲得します。
+10960000345	● ^{1}Fafnir^{2} is a powerful Boss that dwells on Dragon Coffin Island. It appears at a fixed time after the match begins.\n \n● Landing the First Strike or Final Blow on ^{3}Fafnir^{4} grants Extra Score.\n \n● Players also Score each time they deal a certain amount of damage to ^{5}Fafnir.^{6}	● ^{1}ファフニール^{2}はドラゴンコフィン島に棲む強力なBossです。試合開始から一定時間後に出現します。\n \n● ^{3}ファフニール^{4}へのファーストストライクまたはラストヒットを取ると追加スコアを獲得します。\n \n● ^{5}ファフニール^{6}へ一定量のダメージを与えるたびにもスコアを獲得します。
 10960000346	【Quick Cast】PC Mode only. Press the button to cast the skill immediately at the mouse cursor;\n【Standard Cast】PC Mode only. Press the button to display an indicator that follows the mouse cursor, then click the left mouse button again to cast;\n【Smart Cast】Press the skill to cast it on the Selected Target without using the mouse.	【クイックキャスト】PCモード限定。ボタンを押すと、マウスカーソル位置へ即座にスキルを使用します。\n【スタンダードキャスト】PCモード限定。ボタンを押すとマウスカーソルに追従するインジケーターを表示し、左クリックでもう一度入力すると使用します。\n【スマートキャスト】スキルを押すと、マウス操作なしで選択中の対象へ使用します。
 10960000347	【No Chase】Disables chase behavior for this type of skill;\n【Chase】Enables chase behavior for this type of skill and follows its configured chase rules.	【追尾なし】このタイプのスキルの追尾挙動を無効化します。\n【追尾】このタイプのスキルの追尾挙動を有効化し、設定された追尾ルールに従います。
 10960000348	【Self Position】Casts at your feet;\n【Farthest Point Toward Nearest Unit】Casts at maximum range in the direction of the nearest unit;\n【Farthest Point Ahead】Casts at maximum range in the direction you are facing.	【自身の位置】足元に発動する；\n【最寄りユニット方向の最遠地点】最寄りユニットの方向へ最大射程で発動する；\n【前方の最遠地点】向いている方向へ最大射程で発動する。
@@ -2143,7 +2145,7 @@
 10960000354	Message Crane Information	メッセージ折り鶴情報
 10960000355	Bond Points Information	絆ポイント情報
 10960000356	Adventure Party Level Reward Information	冒険パーティレベル報酬情報
-10960000357	@{1}.Participating in Battle of Dragon Coffin Island grants rank points. Your rank will automatically Level-up when your points reach the cap.\n@{2}.There are @{3} ranks in total: Trainee, Rookie, Warrior, Elite, Moonlit Challenger, Overlord, and Legendary Survivor. To become a Legendary Survivor, you must rank among the top @{4} on the Entire Server and have at least @{5} points in Overlord.\n@{6}.You cannot be demoted from Trainee. At Rookie and Above, you can lose minor ranks. At Overlord and Above, you can lose major ranks.\n@{7}.Auto Mode and Other inactive behavior during a match will be penalized. Penalties Apply directly to your rank points, so please participate actively.	@{1}.竜棺島の戦いへ参加するとランクポイントを獲得します。ポイントが上限に達するとランクが自動でレベルアップします。\n@{2}.ランクは合計@{3}段階：訓練生、ルーキー、ウォリアー、エリート、月光の挑戦者、オーバーロード、伝説のサバイバーです。伝説のサバイバーになるには、全サーバー上位@{4}人以内に入り、オーバーロードで@{5}ポイント以上を獲得する必要があります。\n@{6}.訓練生からは降格しません。ルーキー以上は小ランクが降格する場合があり、オーバーロード以上は大ランクが降格する場合があります。\n@{7}.試合中のオートモードなど非アクティブな行為にはペナルティがあります。ペナルティはランクポイントへ直接適用されるため、積極的に参加してください。
+10960000357	@{1}.Participating in Battle of Dragon Coffin Island grants rank points. Your rank will automatically Level-up when your points reach the cap.\n@{2}.There are @{3} ranks in total: Trainee, Rookie, Warrior, Elite, Moonlit Challenger, Overlord, and Legendary Survivor. To become a Legendary Survivor, you must rank among the top @{4} on the Entire Server and have at least @{5} points in Overlord.\n@{6}.You cannot be demoted from Trainee. At Rookie and Above, you can lose minor ranks. At Overlord and Above, you can lose major ranks.\n@{7}.Auto Mode and Other inactive behavior during a match will be penalized. Penalties Apply directly to your rank points, so please participate actively.	@{1}.ドラゴンコフィン島の戦いへ参加するとランクポイントを獲得します。ポイントが上限に達するとランクが自動でレベルアップします。\n@{2}.ランクは合計@{3}段階：訓練生、ルーキー、ウォリアー、エリート、月光の挑戦者、オーバーロード、伝説のサバイバーです。伝説のサバイバーになるには、全サーバー上位@{4}人以内に入り、オーバーロードで@{5}ポイント以上を獲得する必要があります。\n@{6}.訓練生からは降格しません。ルーキー以上は小ランクが降格する場合があり、オーバーロード以上は大ランクが降格する場合があります。\n@{7}.試合中のオートモードなど非アクティブな行為にはペナルティがあります。ペナルティはランクポイントへ直接適用されるため、積極的に参加してください。
 10960000358	@{1}.This is an @{2}VS@{3} Faction Battle mode.\n@{4}.After you Enter Battlefield, there will be a @{5}-second Ready period.\n@{6}.When the Battle phase Countdown ends, the Faction with the higher Total Points wins.\n@{7}.Inactive behavior during a match will be penalized. Please participate actively!	@{1}.これは@{2}VS@{3}の勢力戦モードです。\n@{4}.戦場へ入ると、@{5}秒間の準備時間があります。\n@{6}.戦闘フェーズのカウントダウン終了時、合計ポイントが高い勢力が勝利します。\n@{7}.試合中の放置行為にはペナルティがあります。積極的に参加してください！
 10960000359	Details Details Details	詳細 詳細 詳細
 10960000360	@{1}.Victory Conditions\nThe first Faction to reach @{2} Faction points wins. If neither does, the Faction with the most points when time expires wins.\n@{3}.Faction Scoring Rules\nScore by killing Players, damaging the Boss, reducing the Boss to @{4}% HP, killing the Boss, or killing minor monsters.\n@{5}.Battlefield Skill\nBattlefield Skills periodically appear nearby. Pick them up to gain powerful skills.\n@{6}.Sudden Death Phase\nSudden Death begins during the final minute. All Score is doubled, and Revive is Accelerated.	@{1}.勝利条件\n先に勢力ポイント@{2}へ到達した勢力が勝利します。どちらも到達しなかった場合、時間切れ時にポイントが多い勢力が勝利します。\n@{3}.勢力スコアルール\nプレイヤー撃破、BOSSへのダメージ、BOSSのHPを@{4}%まで減らす、BOSS撃破、小型モンスター撃破でスコアを獲得します。\n@{5}.戦場スキル\n周囲に戦場スキルが周期的に出現します。拾うと強力なスキルを獲得できます。\n@{6}.サドンデスフェーズ\n最後の1分間にサドンデスが始まります。すべてのスコアが2倍になり、復活が加速します。
@@ -2151,6 +2153,10 @@
 10960000362	During the event, Battle Baphomet at the Guild Base. Your Ranking is based on the damage you deal to Baphomet, and generous rewards await!	イベント期間中、ギルド拠点でバフォメットと戦闘を行います。バフォメットに与えたダメージに応じてランキングが決まり、豪華な報酬が待っています！
 10960000363	After the Event Over, Rankings will be determined by damage dealt, both within each group and across the Entire Server.	イベント終了後、与えたダメージに基づいて、各グループ内および全サーバーのランキングが決定されます。
 10960000364	No Last Battle Report available	前回の戦闘レポートがありません
+23287	Price - Ascending	価格 - 昇順
+23288	Price - Descending	価格 - 降順
+23289	Listing Time - Ascending	出品時間 - 昇順
+23290	Listing Time - Descending	出品時間 - 降順
 11190100105	Reach ${1} personal points in Siege War ${2} times	攻城戦で個人ポイント${1}に${2}回到達
 11190100106	Use Play While Downloading ${1} times	プレイしながらダウンロードを${1}回使用
 11190100107	Log in ${1} times	${1}回ログイン
@@ -2177,7 +2183,7 @@
 11190100128	${1} Assists	${1} アシスト
 11190100129	Defeat ${1}	${1}を倒す
 11190100130	Attempt requirement Not Reached	挑戦回数条件を満たしていません
-11190100131	Participate in Battle of Dragon Coffin Island ${1} times	龍棺島の戦いに${1}回参加
+11190100131	Participate in Battle of Dragon Coffin Island ${1} times	ドラゴンコフィン島の戦いに${1}回参加
 11190100132	Participate in Wedding Crashers ${1} times	ウェディングクラッシャーズに${1}回参加
 11190100133	Participate in Hunting Challenge ${1} times	ハンティングチャレンジに${1}回参加
 11190100134	Participate in Battle of Dragon Coffin Island or Survivor Battle ${1} times	「ドラゴンコフィン島の戦い」または「サバイバーバトル」に${1}回参加します。
@@ -2235,6 +2241,26 @@
 11250000094	CRIT DMG	Criダメージ
 11250000095	CRIT RES	Cri耐性
 11250000096	CRIT DMG Reduction	クリティカルダメージ軽減
+25160	The guild announcement contains inappropriate content	ギルド告知に不適切な内容が含まれています
+25161	The announcement is too long	告知文が長すぎます
+25162	Changed	変更済み
+25163	Last Week's Activity: ${1}	先週の活動：${1}
+25164	Last Week's Active rating: ${1}	先週の活動評価: ${1}
+25165	No data	データなし
+25166	Very Active	とてもアクティブ
+25167	Moderately Active	やや活発
+25168	Active	アクティブ
+25169	Very Inactive	非常に非アクティブ
+25170	Weekly Activity: Guild Members earn Guild Activity by completing guild content. Weekly Guild Activity is the sum of all Guild Members' activity each week	週間活躍度：ギルドメンバーがギルドコンテンツを完了することでギルド活躍度を獲得します。週間ギルド活躍度は全ギルドメンバーの各週の活躍度の合計です
+25171	Weekly Active rating: There are 4 Active rating tiers based on Weekly Activity:	週間アクティブ評価：週間アクティビティに応じて4段階の評価があります：
+25172	Very Active: <color=#7E7361>Weekly Activity ≥ ${1}</color>	非常に活発：<color=#7E7361>週間活動度 ≥ ${1}</color>
+25173	Moderately Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>	やや活発：<color=#7E7361>${1} ≤ 週間活躍度 ≤ ${2}</color>
+25174	Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>	活発：<color=#7E7361>${1} ≤ 週間活動度 ≤ ${2}</color>
+25175	Very Inactive: <color=#7E7361>Weekly Activity ＜ ${1}</color>	非常に非活発：<color=#7E7361>週間活動度 ＜ ${1}</color>
+25176	Disbandment Rules: If the guild's Weekly Active rating remains Very Inactive for ${1} consecutive weeks, the guild will automatically disband at 5 o'clock on Monday of week ${2} (the first 2 weeks after the guild is created do not count toward the inactivity period)	解散ルール：ギルドの週間アクティブ評価が${1}週連続で「非常に非活発」の場合、${2}週目の月曜日5時にギルドは自動解散します（ギルド作成後最初の2週間は非活発期間に数えません）
+25177	Congratulations, ${1}!	おめでとう、${1}！
+25178	Please enter text to share first.	先に共有テキストを入力してください。
+25179	Invalid share text.	共有テキストが無効です。
 12390000000	Card: Lunatic	カード：ルナティック
 12390000001	Card: Savage Babe	カード：サベージベイブ
 12390000002	Card: Fabre	カード：ファブル
@@ -2255,7 +2281,7 @@
 12390000075	Card: Savage	カード：サベージ
 12390000076	Card: Steel Chonchon	カード: スチールチョンチョン
 12390000077	Card: Peco Peco	カード: ペコペコ
-12390000078	Card: Cornutus	カード：コルヌトゥス
+12390000078	Card: Cornutus	カード：コルヌス
 12390000079	Card: Whisper	カード：ウィスパー
 12390000080	Card: Marse	カード：マルス
 12390000081	Card: Choco	カード：チョコ
@@ -2269,7 +2295,7 @@
 12390000089	Card: Baphomet Jr.	カード：バフォメットJr.
 12390000090	Card: Orc Zombie	カード: オークゾンビ
 12390000091	Card: Merman	カード：マーマン
-12390000092	Card: Sohee	カード：ソヒ
+12390000092	Card: Sohee	カード：ソヒー
 12390000093	Card: Wild Rose	カード: ワイルドローズ
 12390000094	Card: Raggler	カード：ラグラ
 12390000095	Card: Vitata	カード：ヴィタータ
@@ -2338,13 +2364,13 @@
 12390000158	Card: Argiope	カード：アルギオペ
 12390000159	Card: Pasana	カード：パサーナ
 12390000160	Card: Ghostring	カード: ゴーストリング
-12390000161	Card: Pot Dofle	カード: ポットドフル
+12390000161	Card: Pot Dofle	カード: ポットドフレ
 12390000162	Card: Killer Mantis	カード：キラーマンティス
 12390000163	Card: Eclipse	カード：エクリプス
 12390000164	Card: Vocal	カード：ボーカル
-12390000165	Card: Toad	カード: ヒキガエル
+12390000165	Card: Toad	カード: トード
 12390000166	Card: Dragon Fly	カード: ドラゴンフライ
-12390000167	Card: Mastering	カード: マスタリング
+12390000167	Card: Mastering	カード: マスターリング
 12390000168	Card: Orc Baby	カード：オークベビー
 12390000169	Card: Vagabond Wolf	カード：さすらい狼
 12390000170	Card: Nine-Tail	カード: 九尾狐
@@ -2367,7 +2393,7 @@
 12390000187	Portrait Card: Pharaoh	ポートレートカード：ファラオ
 12390000188	Portrait Card: Baphomet	ポートレートカード：バフォメット
 12390000189	Portrait Card: Golden Thief Bug	ポートレートカード：黄金蟲
-12390000190	Portrait Card: Maya	ポートレートカード：マヤ
+12390000190	Portrait Card: Maya	ポートレートカード：マヤー
 12390000191	Portrait Card: Deviling	ポートレートカード：デビルリング
 12390000192	Portrait Card: Osiris	ポートレートカード: オシリス
 12390000193	Portrait Card: Eddga	ポートレートカード: エドガ
@@ -2402,16 +2428,16 @@
 12390000222	Shadow Card: Mistress	シャドウカード: ミストレス
 12390000223	Shadow Card: Pharaoh	シャドウカード: ファラオ
 12390000224	Card: Drake	カード：ドレイク
-12390000225	Card: Phreeoni	カード：フリオーニ
+12390000225	Card: Phreeoni	カード：フリオニ
 12390000226	Card: Dracula	カード：ドラキュラ
 12390000227	Card: Doppelganger	カード：ドッペルゲンガー
 12390000228	Card: Baphomet	カード：バフォメット
 12390000229	Card: Goblin Leader	カード：ゴブリンリーダー
 12390000230	Card: Golden Thief Bug	カード：黄金蟲
-12390000231	Card: Maya	カード：マヤ
+12390000231	Card: Maya	カード：マヤー
 12390000232	Card: Angeling	カード：エンジェリング
 12390000233	Card: Orc Lord	カード：オークロード
-12390000234	Card: Deviling	カード：デビリング
+12390000234	Card: Deviling	カード：デビルリング
 12390000235	Card: Kraken	カード：クラーケン
 12390000236	Card: Eddga	カード：エドガ
 12390000237	Card: Moonlight Flower	カード：月夜花
@@ -3441,7 +3467,7 @@
 10110200767	Fabre Normal Attack	ファブル通常攻撃
 10110200768	Picky	ピッキー
 10110200769	Chonchon	チョンチョン
-10110200770	Super Picky	超こだわり派
+10110200770	Super Picky	すごいピッキ
 10110200771	Willow	ウィロー
 10110200772	Condor	コンドル
 10110200773	Savage Babe	サベージベイブ
@@ -3459,12 +3485,12 @@
 10110200785	Yoyo	ヨーヨー
 10110200786	Scorpion	スコーピオン
 10110200787	Poporing	ポポリン
-10110200788	Thief Bug Female	シーフバグ（メス）
+10110200788	Thief Bug Female	雌盗蟲
 10110200789	Thief Bug Male	雄盗蟲
 10110200790	Smokie	スモーキー
 10110200791	Boa	ボア
 10110200792	Poison Spore	ポイズンスポア
-10110200793	Horn	ホーン
+10110200793	Horn	ホルン
 10110200794	Bigfoot	ビッグフット
 10110200795	Squirrel	リス
 10110200796	Generic Downed Corrosion Skill	汎用ダウン時腐食スキル
@@ -3550,7 +3576,7 @@
 10110200876	Marc	マルク
 10110200877	Phen	フェン
 10110200878	Steel Chonchon	スチールチョンチョン
-10110200879	Beetle King	カブトムシ王
+10110200879	Beetle King	ビートルキング
 10110200880	Argos	アルゴス
 10110200881	Myst	ミスト
 10110200882	Whisper	ウィスパー
@@ -3599,7 +3625,7 @@
 10110200925	Mastering Skills	マスタリングスキル
 10110200926	Dragon Fly Normal Attack	ドラゴンフライ通常攻撃
 10110200927	Dragon Fly Skills	ドラゴンフライスキル
-10110200928	Maya Purple Normal Attack	マヤーパープル通常攻撃
+10110200928	Maya Purple Normal Attack	マヤパープル通常攻撃
 10110200929	Maya Purple Skills	マヤパープルスキル
 10110200930	Ghostring Normal Attack	ゴーストリング通常攻撃
 10110200931	Ghostring Skills	ゴーストリングスキル
@@ -4284,7 +4310,7 @@
 10110201794	Coffin Eruption@{1}	コフィンエラプション@{1}
 10110201795	Vocal Normal Attack	ボーカル通常攻撃
 10110201796	Vocal Skill	ボーカルスキル
-10110201797	Maya Purple Normal Attack	マヤーパープル通常攻撃
+10110201797	Maya Purple Normal Attack	マヤパープル通常攻撃
 10110201798	Maya Purple Skill	マヤパープルスキル
 10110201799	Gryphon Normal Attack	グリフォン通常攻撃
 10110201800	Gryphon Skill	グリフォンスキル
@@ -4733,6 +4759,104 @@
 12400100002	Opening: Second-Prize Drawing	開幕：2等抽選
 12400100003	Opening: First-Prize Drawing	開幕：1等抽選
 12400100004	Finale: Party's End	フィナーレ：パーティの終幕
+34000	Main Screen Chat Settings	メイン画面チャット設定
+34001	World	ワールド
+34002	Guild	ギルド
+34003	Party	パーティ
+34004	Whisper	ウィスパー
+34005	Recruit	募集
+34006	Build	ビルド
+34007	Nearby	付近
+34008	Auto-Send Bullet Comments Settings	弾幕コメント自動送信設定
+34009	Auto-Play Voice Settings	ボイス自動再生設定
+34010	Auto-play on Wi-Fi only	Wi-Fi接続時のみ自動再生
+34011	Stranger Private Message Settings	見知らぬ相手からの個人メッセージ設定
+34012	Block ≤	ガード ≤
+34013	private messages from strangers below this level	このレベル未満の見知らぬ人からのプライベートメッセージ
+34014	Chat Settings	チャット設定
+34015	Portrait	アイコン枠
+34016	Portrait Frame	アイコンフレーム
+34017	Chat Bubble	チャットバブル
+34018	Chat Settings	チャット設定
+34019	Enter text...	テキストを入力してください...
+34020	Edit Private Chat	個別チャットを編集
+34021	Friends	フレンド
+34022	Golden Orchid	ゴールデンオーキッド
+34023	Mentorship	メンターシップ
+34024	Group Chat	グループチャット
+34025	Enter a player name to search	検索するプレイヤー名を入力
+34026	Number of close friends and private groups allowed:	親しいフレンドと非公開グループの上限：
+34027	Submit	提出
+34028	Cancel	キャンセル
+34029	Report Description:	通報内容：
+34030	Reason for Report:	通報理由：
+34031	Reported Player:	通報対象プレイヤー:
+34032	Report	通報
+34033	No messages	メッセージはありません
+34034	Mini Window	ミニウィンドウ
+34035	Locate	位置確認
+34036	Broadcast	アナウンス
+34037	Finder	パーティ検索
+34038	Create Party	パーティ作成
+34039	Tap to enter text	タップして入力
+34040	Send	送信
+34041	Tree Hollow Chat Channel	ツリーホロウチャットチャンネル
+34042	Mysterious Adventurer	謎の冒険者
+34043	Tree Hollow	ツリーホロウ
+34044	System	システム
+34045	Recently used	最近使用した
+34046	${1} new messages received	新着メッセージ${1}件
+34047	You're sending messages too frequently. Please try again later.	メッセージ送信が速すぎます。後でもう一度お試しください。
+34048	Message cannot be empty	メッセージを入力してください
+34049	Channel window created	チャンネルウィンドウを作成しました
+34050	Maximum number of windows reached	ウィンドウ数が上限に達しました
+34051	Maximum message length reached	メッセージ文字数が上限です
+34052	Public channel chat unlocks at Lv. ${1}	パブリックチャンネルはLv.${1}で解放
+34053	Join a guild to chat in this channel	このチャンネルでチャットするにはギルド加入が必要です
+34054	You are not in a party	パーティに参加していません
+34055	Tree Hollow channel chat unlocks at Lv. ${1}	ツリーホロウのチャンネルチャットはLv.${1}で解放
+34056	No new messages	新しいメッセージはありません
+34057	Failed to send message to the server	サーバーへのメッセージ送信に失敗しました
+34058	Channel	チャンネル
+34059	1. The Tree Hollow channel offers an 【Anonymous】 mode.\n\n2. There is a Chance that your disguise will slip, revealing your true identity.\n\n3. A different anonymous theme is available each day. You will receive a random alias, including a name and Portrait, which refreshes the next day.\n\n4. We will Keep a strict moderation system in place. Please do not post inappropriate content.	1. 木の洞チャンネルには【匿名】モードがあります。\n\n2. 一定の確率で変装が外れ、本当の身元が明かされることがあります。\n\n3. 匿名テーマは毎日変わります。名前とポートレートを含むランダムな別名が付与され、翌日に更新されます。\n\n4. 厳格なモデレーション体制を維持します。不適切な内容は投稿しないでください。
+34060	Channel Description	チャンネル説明
+34061	All	すべて
+34062	Incorrect message channel	メッセージチャンネルが正しくありません
+34063	Hold to Talk	押し続けて話す
+34064	Emotes	エモート
+34065	Record	記録
+34066	Character	キャラクター
+34067	Item	アイテム
+34068	Join a guild	ギルドに参加する
+34069	Broadcast	アナウンス
+34070	Preview Style	プレビュースタイル
+34071	Select Item	項目の選択
+34072	Failed to join chat channel	チャットチャンネル参加に失敗しました
+34073	You were mentioned	あなたがメンションされました
+34075	Tap to Join Party	タップしてパーティ参加
+34076	${1}[Members: ${2}/${3}]\n${4}	${1}[メンバー: ${2}/${3}]\n${4}
+34077	Release to Send	離して送信
+34078	Voice message is too short	ボイスメッセージが短すぎます
+34079	Reply	返信
+34080	Copy	コピー
+34081	You can enter up to ${1} items at once	一度に最大${1}個まで入力できます
+34082	Repeat item entered	同じアイテムが入力されています
+34083	Show chat bubbles above characters	キャラクター頭上にチャット吹き出しを表示
+34084	Go Add Friend!	フレンドを追加しよう！
+34085	You haven't added any Group Chats yet!	グループチャットをまだ追加していません！
+34086	Go join a Golden Orchid!	ゴールデンオーキッドに加入しよう！
+34087	You haven't joined a mentorship yet!	まだ師弟関係を結んでいません！
+34088	Broadcast item required	ブロードキャストアイテムが必要です
+34089	Main Screen Chat Settings	メイン画面チャット設定
+34090	No voice input device detected	音声入力デバイスが見つかりません
+34091	Voice: This feature is unavailable	ボイス：この機能は利用できません
+34092	Items	アイテム
+34093	Equip	装備
+34094	Card	カード
+34096	Add	追加
+34097	Clear Chat	チャットをクリアする
+34098	Channel One <color=#FF993F>${1} Members</color>	チャンネル1 <color=#FF993F>${1}人</color>
+34099	Channel Two <color=#FF993F>${1} Members</color>	チャンネル2 <color=#FF993F>${1}人</color>
 10470000000	grant	グラント
 10470000001	karl	カール
 10470000002	aldric	アルドリック
@@ -4802,7 +4926,7 @@
 10470000066	Greatest General	天下大将軍
 10470000067	Mimic	ミミック
 10470000068	Peco Peco Egg	ペコペコの卵
-10470000069	Super Picky	超こだわり派
+10470000069	Super Picky	すごいピッキ
 10470000070	Yoyo	ヨーヨー
 10470000071	Smokie	スモーキー
 10470000072	Poporing	ポポリン
@@ -4852,7 +4976,7 @@
 10470000116	Note Pillar@{1}-Geffen North Gate	ノートピラー@{1}-ゲフェン北門
 10470000117	Note Pillar@{1}-Geffen West Gate	ノートピラー@{1}-ゲフェン西門
 10470000118	Note Pillar@{1}-Geffen Outskirts	ノートピラー@{1}-ゲフェン郊外
-10470000119	Note Pillar@{1}-Mjolnir Garden	ノートピラー@{1}-ミョルニアガーデン
+10470000119	Note Pillar@{1}-Mjolnir Garden	ノートピラー@{1}-ミョルニール庭園
 10470000120	Note Pillar@{1}-Western Morroc	ノートピラー@{1}-西モロック
 10470000121	Note Pillar@{1}-South Morroc	ノートピラー@{1}-南モロック
 10470000122	Note Pillar@{1}-Desert Crossroad	ノートピラー@{1}-砂漠の交差点
@@ -4907,7 +5031,7 @@
 10470000171	Willow	ウィロー
 10470000172	Spore	スポア
 10470000173	Golden Thief Bug	黄金蟲
-10470000174	Maya	マヤ
+10470000174	Maya	マヤー
 10470000175	Flag	旗
 10470000176	【Greedy Dragon】Fafnir	【貪欲なドラゴン】ファフニール
 10470000177	Blessing Priest	ブレッシングプリースト
@@ -5075,13 +5199,13 @@
 10470000339	Orc Zombie	オークゾンビ
 10470000340	Minorous	ミノタウロス
 10470000341	Chimera	キメラ
-10470000342	Goblin Leader	ゴブリンのリーダー
+10470000342	Goblin Leader	ゴブリンリーダー
 10470000343	Furious Minorous	怒れるミノタウロス
 10470000344	Mushroom	キノコ
 10470000345	Raydric	レイドリック
 10470000346	Hydra	ヒドラ
 10470000347	Raydric Archer	レイドリック・アーチャー
-10470000348	Kobold Leader	コボルトリーダー
+10470000348	Kobold Leader	コボルドリーダー
 10470000349	Khalitzburg	ハリッツブルグ
 10470000350	Isis	イシス
 10470000351	Archer Skeleton	アーチャースケルトン
@@ -5090,7 +5214,7 @@
 10470000354	Wander Man	ワンダーマン
 10470000355	Sandman	サンドマン
 10470000356	Injustice	インジャスティス
-10470000357	Kobold Archer	コボルトアーチャー
+10470000357	Kobold Archer	コボルドアーチャー
 10470000358	Gryphon	グリフォン
 10470000359	Rybio	リビオ
 10470000360	Gold Coins—	金貨—
@@ -5156,12 +5280,12 @@
 10470000420	Tarou	タロウ
 10470000421	Familiar	ファミリアー
 10470000422	Scorpion	スコーピオン
-10470000423	Thief Bug Female	シーフバグ（メス）
+10470000423	Thief Bug Female	雌盗蟲
 10470000424	Mandragora	マンドラゴラ
 10470000425	Thief Bug Male	雄盗蟲
 10470000426	Boa	ボア
 10470000427	Poison Spore	ポイズンスポア
-10470000428	Horn	ホーン
+10470000428	Horn	ホルン
 10470000429	Bigfoot	ビッグフット
 10470000430	Coco	ココ
 10470000431	Thief Bug Egg	盗蟲の卵
@@ -5223,7 +5347,7 @@
 10470000487	Marine Sphere	マリンスフィア
 10470000488	Phen	フェン
 10470000489	Zenorc	ゼノルク
-10470000490	Beetle King	カブトムシ王
+10470000490	Beetle King	ビートルキング
 10470000491	Goblin Archer	ゴブリンアーチャー
 10470000492	Metaller	メタラー
 10470000493	Marc	マルク
@@ -5250,7 +5374,7 @@
 10470000514	Crab	クラブ
 10470000515	Cornutus	コルヌス
 10470000516	Raggler	ラグラ
-10470000517	Shellfish	シェルフィッシュ
+10470000517	Shellfish	お化け貝
 10470000518	Starfish	ヒトデ
 10470000519	Grove	グローブ
 10470000520	Alligator	アリゲーター
@@ -5269,10 +5393,10 @@
 10470000533	Axe Kobold	アックス・コボルト
 10470000534	Squidgitte	スキジッテ
 10470000535	Sropho	スロフォ
-10470000536	Ancient Mummy	古代のミイラ
+10470000536	Ancient Mummy	エンシェントマミー
 10470000537	Pot Dofle	ポットドフレ
 10470000538	King Dramoh	キングドラモー
-10470000539	Creamy Fear	クリーミーな恐怖
+10470000539	Creamy Fear	クリーミーフィアー
 10470000540	Leib Olmai	リーブ・オルマイ
 10470000541	Killer Mantis	キラーマンティス
 10470000542	Novice - Andre	ノービス - アンドレ
@@ -5348,11 +5472,11 @@
 10470000612	Dragon Fly	ドラゴンフライ
 10470000613	Maya Purple	マヤパープル
 10470000614	Ghostring	ゴーストリング
-10470000615	Vagabond Wolf	バガボンドウルフ
+10470000615	Vagabond Wolf	さすらい狼
 10470000616	Dark Priest	ダークプリースト
 10470000617	Gryphon	グリフォン
 10470000618	Toad	トード
-10470000619	Cat o' Nine-Tail	九尾の猫
+10470000619	Cat o' Nine-Tail	キャットナインテイル
 10470000620	Dragon Fly Magic Circle	ドラゴンフライ魔法陣
 10470000621	Toad Magic Circle	ヒキガエル魔法陣
 10470000622	Phreeoni Magic Circle	フリオニ魔法陣
@@ -5375,7 +5499,7 @@
 10470000639	Shield Dragon Blood	シールドドラゴンブラッド
 10470000640	Accelerate Dragon Blood	ドラゴンブラッド加速
 10470000641	Deathproof Dragon Blood	不死のドラゴンブラッド
-10470000642	Demonic Dragon Soul	デモニックドラゴンソウル
+10470000642	Demonic Dragon Soul	魔竜の魂
 10470000643	Dotty	ドッティ
 10470000644	Mandarin	北京語
 10470000645	Flower	フローラ
@@ -5552,7 +5676,7 @@
 10470000869	Outpost Administrator	前哨基地管理人
 10470000870	Mysterious Person	謎の人物
 10470000871	Adventurer's Guild Tree	冒険者ギルドの木
-10470000872	Guild Supplies Manager	ギルド補給管理人
+10470000872	Guild Supplies Manager	ギルド物資管理人
 10470000873	Guild Services Staff	ギルドサービス担当
 10470000874	Prontera	プロンテラ
 10470000875	Culvert	地下水路
@@ -5562,7 +5686,7 @@
 10470000879	Prontera West Gate	プロンテラ西門
 10470000880	Prontera North Gate	プロンテラ北門
 10470000881	Izlude	イズルード
-10470000882	Byalan Island	ビャラン島
+10470000882	Byalan Island	バイラン島
 10470000883	Undersea Tunnel	海底トンネル
 10470000884	Undersea Tunnel@{1}F	海底トンネル@{1}F
 10470000885	Orc Village	オークの村
@@ -5622,16 +5746,16 @@
 10470000939	Southeast Payon-Flying Trigger	フェイヨン南東部飛行トリガー
 10470000940	Payon Forest-Flying Trigger	フェイヨンの森飛行トリガー
 10470000941	Territory War-I	領地戦-I
-10470000942	Territory War-II	領土戦-II
+10470000942	Territory War-II	領地戦-II
 10470000943	Territory War-III	領地戦-III
-10470000944	Territory War-IV	領土戦-IV
+10470000944	Territory War-IV	領地戦-IV
 10470000945	Territory War-V	領地戦-V
 10470000946	Territory War - Six	領地戦 - 6
 10470000947	Territory War - Seven	領地戦 - 7
 10470000948	Territory War - Eight	領地戦 - 8
 10470000949	Territory War - Nine	領地戦 - 9
 10470000950	Territory War - Ten	領地戦 - 10
-10470000951	Territory War-11	領土戦-11
+10470000951	Territory War-11	領地戦-11
 10470000952	Territory War - Twelve	領地戦 - 12
 10470000953	Territory War - Thirteen	領地戦 - 13
 10470000954	Territory War - Fourteen	領地戦 - 14
@@ -5642,16 +5766,16 @@
 10470000959	Territory War - Nineteen	領地戦 - 19
 10470000960	Territory War - 20	領地戦 - 20
 10470000961	Territory War - 21	領地戦 - 21
-10470000962	Territory War-22	領土戦-22
-10470000963	Territory War-23	領土戦-23
+10470000962	Territory War-22	領地戦-22
+10470000963	Territory War-23	領地戦-23
 10470000964	Territory War - 24	領地戦 - 24
-10470000965	Territory War-25	領土戦-25
+10470000965	Territory War-25	領地戦-25
 10470000966	Territory War - 26	領地戦 - 26
 10470000967	Territory War - 27	領地戦 - 27
 10470000968	Territory War - 28	領地戦 - 28
-10470000969	Territory War-29	領土戦-29
-10470000970	Territory War-30	領土戦-30
-10470000971	Territory War-31	領土戦-31
+10470000969	Territory War-29	領地戦-29
+10470000970	Territory War-30	領地戦-30
+10470000971	Territory War-31	領地戦-31
 10470000972	Territory War - 32	領地戦 - 32
 10470000973	Territory War - 33	領地戦 - 33
 10470000974	Territory War - 34	領地戦 - 34
@@ -5937,12 +6061,12 @@
 10470001257	Mistress-Very Hard	ミストレス-ベリーハード
 10470001258	Mistress-Nightmare	ミストレス-ナイトメア
 10470001259	Mistress-Final	ミストレス-ファイナル
-10470001260	Maya-Easy	マヤ（Easy）
-10470001261	Maya-Normal	マヤ-ノーマル
-10470001262	Maya-Hard	マヤ（Hard）
-10470001263	Maya-Very Hard	マヤ-ベリーハード
-10470001264	Maya-Nightmare	マヤ-ナイトメア
-10470001265	Maya-Final	マヤ-ファイナル
+10470001260	Maya-Easy	マヤー（Easy）
+10470001261	Maya-Normal	マヤー-ノーマル
+10470001262	Maya-Hard	マヤー（Hard）
+10470001263	Maya-Very Hard	マヤー-ベリーハード
+10470001264	Maya-Nightmare	マヤー-ナイトメア
+10470001265	Maya-Final	マヤー-ファイナル
 10470001266	Osiris-Easy	オシリス-イージー
 10470001267	Osiris-Normal	オシリス-ノーマル
 10470001268	Osiris-Hard	オシリスハード
@@ -6449,7 +6573,7 @@
 13150100195	Clear Southeast Payon @{1}	フェイヨン南東部 @{1}をクリア
 13150100196	Clear Munak Cave @{1}	ムナック洞窟 @{1} をクリア
 13150100197	Clear Ant Cave @{1}	アリの巣 @{1}をクリア
-13150100198	Clear Orc Village @{1}	オーク村 @{1}をクリア
+13150100198	Clear Orc Village @{1}	オークの村 @{1}をクリア
 13150100199	Monster Not Configured—Skip @{1}	モンスター未設定—@{1}をスキップ
 13150100200	Clear Orc Cave @{1}	オーク洞窟 @{1}をクリア
 13150100201	Clear Goblin Forest @{1}	ゴブリンの森 @{1} をクリア
@@ -6527,7 +6651,7 @@
 13150100273	Return the Spellbook	魔法書を返す
 13150100274	Continue exploring Munak Cave	ムナック洞窟の探索を続ける
 13150100275	Continue exploring Ant Hell	蟻地獄の探索を続ける
-13150100276	Continue exploring Orc Village	オーク村の探索を続ける
+13150100276	Continue exploring Orc Village	オークの村の探索を続ける
 13150100277	Continue exploring Orc Cave	オーク洞窟の探索を続ける
 13150100278	Continue exploring Goblin Forest	ゴブリンの森の探索を続ける
 13150100279	Dreamweaver	ドリームウィーバー
@@ -6559,7 +6683,7 @@
 13150100305	Card Guide	カードガイド
 13150100306	Burning Dance	バーニングダンス
 13150100307	Defeat the Forces of Evil	邪悪な勢力を倒す
-13150100308	Defeat Maya	マヤを倒す
+13150100308	Defeat Maya	マヤーを倒す
 13150100309	Learn About Monster Conquest	モンスター討伐について学ぶ
 13150100310	Auto-Battle Unlocked	オートバトル解放
 13150100311	Companion's Summons	仲間からの召集
@@ -6614,7 +6738,7 @@
 13150100360	Open Dialogue Image	会話画像を表示
 13150100361	Complete the quest after some time has passed	しばらく時間を置いてからクエストを完了
 13150100362	Complete the specified story	指定ストーリーを完了
-13150100363	Equip the Divine Totem.	神聖トーテムを装備。
+13150100363	Equip the Divine Totem.	神術トーテムを装備。
 13150100364	Equip the Soul Echo.	ソウルエコーを装備する。
 13150100365	Faction Quest	ファクションクエスト
 13150100366	Claim	受取
@@ -6644,7 +6768,7 @@
 13150100390	Guild Event - Provincial Capital Battle	ギルドイベント - 地方首都戦
 13150100391	Guild Event - The Gloom over Longgu Island	ギルドイベント - 龍谷島を覆う暗雲
 13150100392	Guild Event - Ilmata, God of Nature	ギルドイベント - 自然神イルマタ
-13150100393	【Guild Co-op】Battle of Dragon Coffin Island	【ギルド協力】龍棺島の戦い
+13150100393	【Guild Co-op】Battle of Dragon Coffin Island	【ギルド協力】ドラゴンコフィン島の戦い
 13150100394	Guild Activities - Wedding Crashers	ギルド活動 - ウェディングクラッシャーズ
 13150100395	Guild Activities - Hunting Challenge	ギルド活動 - ハンティングチャレンジ
 13150100396	Guild Activities - (Auction Eligibility) Ilmata, God of Nature	ギルド活動 - （オークション資格）自然神イルマタ
@@ -6795,6 +6919,8 @@
 13150100541	Job Advance Training	転職訓練
 13150100542	Complete Training	訓練を完了
 13150100543	New Skills	新しいスキル
+50058	Guild membership reaches ${1}	ギルドメンバー数が${1}に到達
+50059	Your guild's Active rating reached ${1} last week.	先週、ギルド活動評価が${1}に到達しました。
 10110200238	Cleaving Slash	クリービングスラッシュ
 10110200239	Phantom Thrust	ファントムスラスト
 10110200240	Rain of Spears	レインオブスピア
@@ -7322,7 +7448,7 @@
 13150000433	Reach @{1} progress toward collecting all Morroc Monster Hunt rewards	モロックのモンスター討伐図鑑コンプリート報酬の進捗を@{1}まで進めます。
 13150000432	Equip @{1} Soul Echoes	ソウルエコーを@{1}個装備
 13150000431	Complete the Third Job Advancement	3次転職を完了
-13150000430	Participate in the Battle of Dragon Coffin Island or Kafra: Survivor Battle @{1} times	龍棺島の戦い、またはカプラ：サバイバルバトルに@{1}回参加
+13150000430	Participate in the Battle of Dragon Coffin Island or Kafra: Survivor Battle @{1} times	ドラゴンコフィン島の戦い、またはカプラ：サバイバルバトルに@{1}回参加
 13150000429	Reach a total of @{1} Stunts on equipped gear	装備中の装備品でスタントを合計@{1}個獲得
 13150000428	Reach @{1} progress toward collecting all Monster Hunt rewards in the Geffen region	ゲフェン地域のモンスターハント報酬収集進捗を@{1}まで上げる
 13150000427	Use a Treasure Map @{1} times (use a Standard Treasure Map from the Backpack)	宝の地図を@{1}回使用（バックパック内の通常宝の地図を使用）
@@ -7580,7 +7706,7 @@
 12390100746	Open the gift box to receive one random Refinement Material.	ギフトボックスを開くと精錬素材をランダムで1つ獲得。
 12390100745	Open to obtain a Card: Savage Babe.	開くとカード：サベージベイブを獲得。
 12390100744	Open the gift box to receive a random Purple Quality card.	ギフトボックスを開くと紫品質カードをランダムで1枚獲得。
-12390100743	A lavish gift awarded to active participants in the Territory War.	領土戦争で活躍した参加者に贈られる豪華なギフト。
+12390100743	A lavish gift awarded to active participants in the Territory War.	領地戦で活躍した参加者に贈られる豪華なギフト。
 12390100742	The highest honor reserved for those who achieve outstanding merit in the Territory War.	領地戦で特に優れた功績を挙げた者だけに贈られる最高の栄誉。
 12390100741	Open this chest to select one type of T@{1} Fragment.	開くとT@{1}欠片を1種類選択して獲得。
 12390100740	Open to receive a Tier @{1} Orange weapon for your class.	開くと自職業用Tier @{1}オレンジ武器を獲得。
@@ -8239,7 +8365,7 @@
 12390100051	Points obtained by defeating monsters in the ^{1}Byalan Island^{2} region.	^{1}バイラン島^{2}地域のモンスターを倒すと獲得できるポイント。
 12390100050	Points obtained by defeating monsters in the ^{1}Sunken Ship^{2} region.	^{1}沈没船^{2}地域のモンスターを倒すと獲得できるポイント。
 12390100049	Points obtained by defeating monsters in the ^{1}Payon^{2} region.	^{1}フェイヨン^{2}地域のモンスターを倒すと獲得できるポイント。
-12390100048	Points obtained by defeating monsters in the ^{1}Orc Village^{2} region.	^{1}オーク村^{2}地域のモンスターを倒すと獲得できるポイント。
+12390100048	Points obtained by defeating monsters in the ^{1}Orc Village^{2} region.	^{1}オークの村^{2}地域のモンスターを倒すと獲得できるポイント。
 12390100047	Points obtained by defeating monsters in the ^{1}Pharos Lighthouse^{2} region.	^{1}ファロス灯台^{2}地域でモンスターを倒すと獲得できるポイント。
 12390100046	Points obtained by defeating monsters in the ^{1}Sograt Desert^{2} region.	^{1}ソグラト砂漠^{2}地域のモンスターを倒すと獲得できるポイント。
 12390100045	Points obtained by defeating monsters in the ^{1}Morroc^{2} region.	^{1}モロック^{2}地域のモンスターを倒すと獲得できるポイント。
@@ -8273,8 +8399,8 @@
 12390100017	Guild Contribution used by Guild Members to purchase items from the Guild Shop.	ギルドメンバーがギルドショップでアイテム購入に使用するギルド貢献度。
 12390100016	Job EXP used for Job Level-up.	ジョブレベルアップに使用するJOB EXP。
 12390100015	Base EXP used for Base Level-up.	Baseレベルアップに使用するBase EXP。
-12390100014	Used to offset Net Victory Points deducted in Battle of Dragon Coffin Island Misc	ドラゴン棺島の戦いで差し引かれた純勝利ポイントの相殺に使用。
-12390100013	Battle of Dragon Coffin Island Misc Net Victory Points (Victory Points), used for Level-up	龍棺島の戦い・勝利ポイント差（勝利ポイント）。レベルアップに使用
+12390100014	Used to offset Net Victory Points deducted in Battle of Dragon Coffin Island Misc	ドラゴンコフィン島の戦いで差し引かれた純勝利ポイントの相殺に使用。
+12390100013	Battle of Dragon Coffin Island Misc Net Victory Points (Victory Points), used for Level-up	ドラゴンコフィン島の戦い・勝利ポイント差（勝利ポイント）。レベルアップに使用
 12390100012	War Merit Points	戦功ポイント
 12390100011	Season Settlement Placeholder	シーズン精算プレースホルダー
 12390100010	Can be obtained by Killing MVPs.	MVP討伐で入手可能。
@@ -8825,7 +8951,7 @@
 12390001200	Blue Cards	ブルーカード
 12390001199	Soul Echo	ソウルエコー
 12390001198	Divine Art Totem Skill Book	神術トーテムスキルブック
-12390001197	Divine Totem	ディバイントーテム
+12390001197	Divine Totem	神術トーテム
 12390001196	Tier @{1} Purple Equipment	Tier @{1} 紫装備
 12390001195	Tier @{1} Blue Equipment	Tier @{1} 青装備
 12390001194	Tier @{1} Green Weapon	Tier @{1} 緑武器
@@ -9735,7 +9861,7 @@
 12390000279	Auction Supplies	オークション物資
 12390000278	Time Rift Gold Casting	時空の裂け目・ゴールドキャスト
 12390000277	Time Rift Silver Casting	時空裂け目シルバーキャスト
-12390000276	Guild Supplies	ギルド用品
+12390000276	Guild Supplies	ギルド物資
 12390000275	Codex Points (Monsters - Desert)	図鑑ポイント（モンスター - 砂漠）
 12390000274	Codex Points (Monsters - Mjolnir)	図鑑ポイント（モンスター - ミョルニール）
 12390000273	Codex Points (Monsters - Payon)	図鑑ポイント（モンスター - フェイヨン）
@@ -9765,7 +9891,7 @@
 12390000065	Card: Sropho	カード：スロフォ
 12390000064	Card: Deviace	カード：デビアス
 12390000063	Card: Aster	カード：アスター
-12390000062	Card: Shellfish	カード: 貝類
+12390000062	Card: Shellfish	カード: お化け貝
 12390000061	Card: Crab	カード：クラブ
 12390000060	Card: Caramel	カード：キャラメル
 12390000059	Card: Petite	カード：プチ
@@ -9779,7 +9905,7 @@
 12390000051	Shadow Card: Hydra	シャドウカード：ヒドラ
 12390000050	Card: Flora	カード：フローラ
 12390000049	Card: Goblin	カード：ゴブリン
-12390000048	Card: Drainliar	カード: ドレインライアー
+12390000048	Card: Drainliar	カード: ドレインリアー
 12390000047	Card: Vadon	カード：バドン
 12390000046	Card: Metaller	カード: メタラー
 12390000045	Card: Orc Lady	カード: オークレディ
@@ -9805,11 +9931,11 @@
 12390000025	Card: Chonchon	カード：チョンチョン
 12390000024	Card: Condor	カード：コンドル
 12390000023	Card: Baby Desert Wolf	カード：ベビーデザートウルフ
-12390000022	Card: Thief Bug	カード: シーフバグ
+12390000022	Card: Thief Bug	カード: 盗蟲
 12390000021	Card: Roda Frog	カード: ロダフロッグ
 12390000020	Card: Rocker	カード：ロッカー
 12390000019	Card: Pupa	カード：プパ
-12390000018	Card: Super Picky	カード：スーパーピッキ
+12390000018	Card: Super Picky	カード：すごいピッキ
 12390000017	Card: Picky	カード：ピッキー
 12390000016	Card: Poring	カード：ポリン
 10110300582	When an ^{1}Offensive-type^{2} Primary Battle Skill Deals DMG to an enemy, inflicts ${1}% ^{3}【Sluggish】^{4} for ${2} sec.	^{1}攻撃型^{2}のメイン戦闘スキルが敵にダメージを与えた時、${2}秒間、${1}%の^{3}【鈍足】^{4}を付与します。
@@ -10423,7 +10549,7 @@
 10110300418	Can only be used while mounted on the Demonic Wolf. Casting 【Warg Charge】 or 【Warg Hunt】 resets this skill's Cooldown. Commands the Demonic Wolf to dash ${1}m in the designated direction and increases your Movement Speed by ^{1}${2}%^{2} for ${3} sec. When this skill reaches Lv. @{1}, after casting 【Warg Charge】 or 【Warg Hunt】, your next movement instead casts this skill in the movement direction.	デモニックウルフ騎乗中のみ使用可能。【ウォーグチャージ】または【ウォーグハント】を使用すると、このスキルのクールダウンがリセットされます。デモニックウルフに指定方向へ${1}mダッシュさせ、自身の移動速度を${3}秒間^{1}${2}%^{2}増加させます。このスキルがLv. @{1}に達すると、【ウォーグチャージ】または【ウォーグハント】使用後、次の移動時は代わりに移動方向へこのスキルを使用します。
 10110300419	Can only be used while mounted on the Demonic Wolf. Casting 【Warg Charge】 or 【Warg Hunt】 resets this skill's Cooldown. Commands the Demonic Wolf to dash ${1}m in the designated direction and increases your Movement Speed by ^{1}${2}%^{2} for ${3} sec. After casting 【Warg Charge】 or 【Warg Hunt】, your next movement instead casts this skill in the movement direction.	デモニックウルフ騎乗中のみ使用可能。【ウォーグチャージ】または【ウォーグハント】を使用すると、このスキルのクールダウンがリセットされます。デモニックウルフに指定方向へ${1}mダッシュさせ、自身の移動速度を${3}秒間^{1}${2}%^{2}増加させます。【ウォーグチャージ】または【ウォーグハント】使用後、次の移動時は代わりに移動方向へこのスキルを使用します。
 10110300420	Targets a fallen ally within ${1}m. After successfully casting, Revives the ally and restores @{1}% of their Life and MP.	${1}m以内の倒れた味方1体を対象とします。詠唱完了後、味方を蘇生し、HPとMPを@{1}%回復します。
-10110300421	The Starshatter Dragon spreads its wings and soars toward a glorious future!	星砕きの竜が翼を広げ、輝かしい未来へと飛翔します！
+10110300421	The Starshatter Dragon spreads its wings and soars toward a glorious future!	スターシャッタードラゴンが翼を広げ、輝かしい未来へと飛翔します！
 10110300422	Treasure Hunting	宝探し
 10110300423	Mining	採掘
 10110300424	Logging	伐採
@@ -10458,10 +10584,10 @@
 10110300453	Orc Hero summons three greatswords that fall from the sky, dealing heavy damage to players hit. The greatswords remain on the ground for @{1} sec and continuously damage nearby players. When they disappear, they explode and deal heavy damage to nearby players.	オークヒーローが空から3本の大剣を落とし、命中したプレイヤーへ大ダメージを与えます。大剣は地面に@{1}秒間残り、周囲のプレイヤーへ継続的にダメージを与えます。消滅時に爆発し、周囲のプレイヤーへ大ダメージを与えます。
 10110300454	Detonates the greatswords on the ground, dealing heavy damage to players near them.	地面の大剣を起爆し、周囲のプレイヤーに大ダメージ。
 10110300455	Orc Hero slashes the ground, sending three fan-shaped shockwaves outward that damage players hit. This skill is cast repeatedly.	オークヒーローが地面を切り裂き、扇状に広がる3つの衝撃波を放って当たったプレイヤーにダメージを与える。このスキルは繰り返し発動される。
-10110300456	Maya Launches a cross-shaped blade wave forward, damaging players hit.	マヤが前方へ十字型の刃の衝撃波を放ち、命中したプレイヤーにダメージを与えます。
-10110300457	Maya sweeps her blade forward, dealing DMG to players in a large fan-shaped area ahead, then turns around and uses the skill again.	マヤが前方広範囲の扇状エリアに刃を薙ぎ払ってプレイヤーにダメージを与え、その後振り返って再び同じスキルを発動する。
-10110300458	Maya releases three clouds of Petrify mist nearby. Each cloud damages players inside every second.	マヤが周囲に石化の霧を3つ放ちます。霧の中にいるプレイヤーは毎秒ダメージを受けます。
-10110300459	Maya summons a sandstorm, dealing minor damage to players throughout a large surrounding area.	マヤが砂嵐を召喚し、周囲の広範囲にいるプレイヤーへ小ダメージを与えます。
+10110300456	Maya Launches a cross-shaped blade wave forward, damaging players hit.	マヤーが前方へ十字型の刃の衝撃波を放ち、命中したプレイヤーにダメージを与えます。
+10110300457	Maya sweeps her blade forward, dealing DMG to players in a large fan-shaped area ahead, then turns around and uses the skill again.	マヤーが前方広範囲の扇状エリアに刃を薙ぎ払ってプレイヤーにダメージを与え、その後振り返って再び同じスキルを発動する。
+10110300458	Maya releases three clouds of Petrify mist nearby. Each cloud damages players inside every second.	マヤーが周囲に石化の霧を3つ放ちます。霧の中にいるプレイヤーは毎秒ダメージを受けます。
+10110300459	Maya summons a sandstorm, dealing minor damage to players throughout a large surrounding area.	マヤーが砂嵐を召喚し、周囲の広範囲にいるプレイヤーへ小ダメージを与えます。
 10110300460	Pulls enemies inward toward yourself, damaging enemies hit and inflicting 【Gastric Acid Corrosion】.	敵を自身の方へ引き寄せ、命中した敵にダメージを与え、【胃酸腐食】を付与します。
 10110300461	Deals Physical ATK*^{1}${2}%+${3}^{2} as Neutral melee Physical damage to the targeted ST enemy within ${1}m.	${1}m以内の対象の敵単体に物理攻撃力*^{1}${2}%+${3}^{2}の無属性近接物理ダメージを与える。
 10110300462	Strike the enemy with full force, dealing Physical ATK*^{1}${2}%+${3}^{2} Neutral melee Physical damage to the specified ST enemy within ${1} meters.	渾身の力で敵を強打し、${1}m以内の指定した敵単体に物理攻撃力*^{1}${2}%+${3}^{2}の無属性近接物理ダメージを与える。
@@ -11069,7 +11195,7 @@
 10470000768	Strong Man	強い男
 10400400006	Participate in one Guild League and earn more than ^{1}@{1}^{2} individual points.	ギルドリーグに1回参加し、個人ポイントを^{1}@{1}^{2}以上獲得。
 10400400005	Participate in one Guild Bonfire Party.	ギルド焚き火パーティに1回参加
-10400400004	Complete the Battle of Dragon Coffin Island once with ^{1}@{1} Member(s)^{2} from your guild	ギルドの^{1}@{1}人のメンバー^{2}と龍棺島の戦いを1回クリア
+10400400004	Complete the Battle of Dragon Coffin Island once with ^{1}@{1} Member(s)^{2} from your guild	ギルドの^{1}@{1}人のメンバー^{2}とドラゴンコフィン島の戦いを1回クリア
 10400400003	Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.	^{1}ギルドメンバー@{1}人^{2}と一緒に「カプラ：サバイバーの戦い」を1回クリアします。
 10400400002	Clear any Realm of the Gods Dungeon with ^{1}@{1} Guild Members^{2} from your guild.	ギルドの^{1}@{1}人のメンバー^{2}と任意の神々の領域ダンジョンをクリア。
 10400400001	Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.	^{1}@{1}人のギルドメンバー^{2}と任意のファントムレルムダンジョンをクリア。

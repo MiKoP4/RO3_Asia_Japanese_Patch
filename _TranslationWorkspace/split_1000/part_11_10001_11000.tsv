@@ -1,4 +1,4 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 10001	Woof! Woof woof woof!	ワン！ワンワンワン！
 10002	Wait! I'm coming too!	待って！私も行く！
 10003	Current Battle Report	現在の戦闘レポート
@@ -133,8 +133,8 @@
 10132	Not enough challenges	挑戦回数が足りません
 10133	Adventure Bond Points	冒険絆ポイント
 10134	Shadow Card: Minorous	シャドウカード：ミノタウロス
-10135	Divine Totem Overview	神聖トーテム概要
-10136	Divine Totem Level-up	神聖トーテムレベルアップ
+10135	Divine Totem Overview	神術トーテム概要
+10136	Divine Totem Level-up	神術トーテムレベルアップ
 10137	Reading Level Details	読書レベル詳細
 10138	Random Event Overview	ランダムイベント概要
 10139	The instance is full.	インスタンスが満員です。
@@ -503,7 +503,7 @@
 10502	Lovey-Dovey Girlfriend	ラブラブな彼女
 10503	Quest Complete: 【${1}】	クエスト完了：【${1}】
 10504	Adventure Guild Mentor	冒険者ギルド教官
-10505	Guild Supplies Manager	ギルド補給管理人
+10505	Guild Supplies Manager	ギルド物資管理人
 10506	Territory War - Twelve	領地戦 - 12
 10507	Strange Stone Platform	奇妙な石台
 10508	P@{1} Green Bubble NPC	P@{1} グリーンバブルNPC
@@ -536,7 +536,7 @@
 10535	The Professor's Ordeal	教授の試練
 10536	To Prontera North Gate	プロンテラ北門へ
 10537	Clear the Culvert @{1}	地下水路 @{1}をクリア
-10538	Clear Orc Village @{1}	オーク村 @{1}をクリア
+10538	Clear Orc Village @{1}	オークの村 @{1}をクリア
 10539	Rat-Catching Operation	ネズミ捕り作戦
 10540	Return to Payon Forest	フェイヨンの森へ戻る
 10541	The Professor's Letter	教授の手紙
@@ -553,7 +553,7 @@
 10552	Limit has been reached	上限に達しました
 10553	Lumberjack (Deprecated	木こり（廃止予定
 10554	Woodcarver (Deprecated	木工職人（廃止予定
-10555	Clear the Natural Land	自然の地をクリア
+10555	Clear the Natural Land	自然の土地をクリア
 10556	Go back and try again.	戻ってやり直す。
 10557	Click here to view it.	ここをタップして表示。
 10558	Fly Wing (Click Quest)	ハエの羽（クエストクリック）
@@ -682,7 +682,7 @@
 10681	No Job Talent selected	職業タレントが選択されていません
 10682	Time Rift Gold Casting	時空の裂け目・ゴールドキャスト
 10683	Card: Baby Desert Wolf	カード：ベビーデザートウルフ
-10684	Divine Totem Synthesis	神聖トーテム合成
+10684	Divine Totem Synthesis	神術トーテム合成
 10685	Card Slotting Details:	カードスロット詳細：
 10686	Codex Function Details	図鑑機能詳細
 10687	Match Gameplay Details	対戦ルール詳細
@@ -889,7 +889,7 @@
 10888	Claim @{1} area rewards	エリア報酬を@{1}個受け取る
 10889	Obtain the Alpaca mount	アルパカマウントを入手
 10890	Complete Pet Tower once	ペットタワーを1回クリア
-10891	Equip the Divine Totem.	神聖トーテムを装備。
+10891	Equip the Divine Totem.	神術トーテムを装備。
 10892	Talk to the Guide again	案内人ともう一度話す
 10893	Talk to your companions	仲間と話す
 10894	Touch the Realm Diorama	領域ジオラマに触れる

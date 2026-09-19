@@ -1,4 +1,4 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 23001	Guild Military Supplies are about to exceed the limit. Any excess will be discarded. Continue?	ギルド軍需物資が上限を超えそうです。上限を超えた分は破棄されます。続行しますか？
 23002	The vehicle restores a total of ${2}% HP over ${1} sec. Destroyed sections cannot be restored.	車両は${1}秒間で合計${2}%のHPを回復します。破壊された部位は回復できません。
 23003	Osiris throws several ^{1}Horongs^{2}. Upon landing, they ^{3}explode and remain in place^{4}.	オシリスが複数の^{1}ホロン^{2}を投げます。着地すると^{3}爆発し、その場に留まります^{4}。
@@ -19,7 +19,7 @@
 23018	Iron strengthened by repeatedly soaking it in a special Potion. Can be exchanged for Headwear.	特殊な薬液に何度も浸して強化した鉄。頭装備と交換できます。
 23019	Tap a note button to change its note. Play the correct melody to increase collection progress.	音符ボタンをタップすると音が変わります。正しいメロディーを奏でて収集進捗を上げましょう。
 23020	After use, the Supply Cart gains a shield equal to ${1}% of its maximum Life for ${2} seconds.	使用すると、補給カートに最大HPの${1}%に相当するシールドを${2}秒間付与します。
-23021	Maya summons a sandstorm, dealing minor damage to players throughout a large surrounding area.	マヤが砂嵐を召喚し、周囲の広範囲にいるプレイヤーへ小ダメージを与えます。
+23021	Maya summons a sandstorm, dealing minor damage to players throughout a large surrounding area.	マヤーが砂嵐を召喚し、周囲の広範囲にいるプレイヤーへ小ダメージを与えます。
 23022	Angeling restores ^{1}${3}%^{2} ^{3}Life^{4} to self and up to ${2} allies within ${1} meters.	エンジェリングが自身および${1}m以内の味方最大${2}体の^{3}HP^{4}を^{1}${3}%^{2}回復します。
 23023	After casting Soul Destroyer @{1} times, increases your damage dealt by @{2}% for @{3} seconds	ソウルデストロイヤーを@{1}回発動すると、@{3}秒間、与ダメージが@{2}%増加します。
 23024	Complete <color=#c27b47>Echo Growth Quests</color> during the event to earn bountiful rewards!	イベント期間中に<color=#c27b47>エコー成長クエスト</color>を達成して、豪華報酬を獲得しましょう！
@@ -204,7 +204,7 @@
 23203	Unleashes the weapon's full potential, increasing your Physical DMG by ^{1}${2}%^{2} for ${1} sec.	武器の力を最大限に引き出し、${1}秒間、物理ダメージが^{1}${2}%^{2}増加します。
 23204	Launches a shockwave, dealing ATK * ^{1}@{2}%^{2} damage to the designated ST enemy within @{1} m.	衝撃波を放ち、@{1}m以内の指定した単体の敵に攻撃力*^{1}@{2}%^{2}のダメージを与えます。
 23205	After use, creates squid ink in the selected Guild Battlefield, obstructing every player's vision.	使用すると、選択したギルド戦場にイカ墨を生成し、全プレイヤーの視界を遮ります。
-23206	Maya releases three clouds of Petrify mist nearby. Each cloud damages players inside every second.	マヤが周囲に石化の霧を3つ放ちます。霧の中にいるプレイヤーは毎秒ダメージを受けます。
+23206	Maya releases three clouds of Petrify mist nearby. Each cloud damages players inside every second.	マヤーが周囲に石化の霧を3つ放ちます。霧の中にいるプレイヤーは毎秒ダメージを受けます。
 23207	Increases FLEE by ^{1}${1}^{2}, Movement Speed by ^{3}${2}%^{4}, and Physical ATK by ^{5}${3}^{6}.	FLEEが^{1}${1}^{2}、移動速度が^{3}${2}%^{4}、物理攻撃力が^{5}${3}^{6}増加します。
 23208	Sadly, the young lady eventually passed away. I've spent years searching this area for that snake.	残念ながら、お嬢様はその後亡くなりました。私は何年もこの辺りであの蛇を探し続けています。
 23209	Battlefield matchmaking is in progress. Changing the Party Leader will stop matchmaking. Continue?	戦場のマッチング中です。パーティリーダーを変更するとマッチングが停止します。続行しますか？
@@ -245,7 +245,7 @@
 23244	When first prize is drawn, the reward is increased by an Extra @{1}% if using the Lunatic Transform	1等賞当選時、ルナティック変身を使用している場合、報酬が追加で@{1}%増加します。
 23245	When third prize is drawn, the reward is increased by an Extra @{1}% if using the Lunatic Transform	3等賞当選時、ルナティック変身を使用している場合、報酬が追加で@{1}%増加します。
 23246	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Poring Transform	2等賞当選時、ポリン変身を使用している場合、報酬が追加で@{1}%増加します。
-23247	Take on a squad Challenge against the Phantom Realm BOSS with @{1} players to earn tons of rewards.	@{1}人で幻影の領域BOSSに挑むチームチャレンジに参加し、大量の報酬を獲得しましょう。
+23247	Take on a squad Challenge against the Phantom Realm BOSS with @{1} players to earn tons of rewards.	@{1}人でファントムレルムBOSSに挑むチームチャレンジに参加し、大量の報酬を獲得しましょう。
 23248	Summons an ambulance nearby that can be used to Revive teammates. The ambulance lasts for @{1} sec.	近くに救急車を召喚します。救急車は味方の蘇生に使用でき、@{1}秒間持続します。
 23249	Pulls enemies inward toward yourself, damaging enemies hit and inflicting 【Gastric Acid Corrosion】.	敵を自身の方へ引き寄せ、命中した敵にダメージを与え、【胃酸腐食】を付与します。
 23250	They should have remained asleep, yet your touch awakened them... What a fascinating twist of fate.	本来なら眠り続けるはずだったのに、あなたの接触で目覚めた……実に興味深い運命の巡り合わせですね。
@@ -305,7 +305,7 @@
 23304	That's right. Tritura Academy does work with me, so every Adventurer can come here to receive a gift.	そうです。クリトゥラ学園とは提携しているので、冒険者なら誰でもここでプレゼントを受け取れます。
 23305	Unfortunately, there are no players with that transformation type on the field, so there is no winner	残念ながら、フィールドに該当する変身タイプのプレイヤーがいないため、当選者はいません。
 23306	“Once night falls, we'll camp atop the dunes, and I'll treat you to the strongest desert ale around!”	「夜になったら砂丘の上で野営して、この辺で一番強い砂漠の酒を飲ませてやるよ！」
-23307	Bobo\nAh, it's Maya! (Covers mouth with wings) I don't see the professor. Did she hide him somewhere?	ボボ\nあっ、マヤだ！（翼で口を覆う）教授が見当たらないよ。どこかに隠したのかな？
+23307	Bobo\nAh, it's Maya! (Covers mouth with wings) I don't see the professor. Did she hide him somewhere?	ボボ\nあっ、マヤーだ！（翼で口を覆う）教授が見当たらないよ。どこかに隠したのかな？
 23308	In RO, the classic War of Emperium (WoE) is usually held every Wednesday from @{1}:@{2} to @{3}:@{4}.	ROのクラシックな攻城戦（WoE）は、通常毎週水曜日の@{1}:@{2}～@{3}:@{4}に開催されます。
 23309	Obtained by Dismantling Divine Arts Totems. Used to exchange for items in the Divine Arts Totem Shop.	神術トーテムの分解で獲得できます。神術トーテムショップでアイテムと交換する際に使用します。
 23310	After being released, the Pathfinder Ant crawled off in one direction, leaving a trail of Footprints.	放たれた探索アリは一方向へ這っていき、足跡を残しました。
@@ -326,7 +326,7 @@
 23325	Increases Physical Damage by @{1}% and the percentage damage multiplier bonus of 【Aimed Bolt】 by @{2}%	物理ダメージが@{1}%増加し、【エイムドボルト】のダメージ倍率ボーナスが@{2}%増加します。
 23326	Holy Light Baptism blesses you, reducing ^{1}^{2}[Magnus Exorcismus]^{3}^{4} Cooldown by ${1} seconds.	聖光の洗礼による加護を受け、^{1}^{2}[マグヌスエクソシズム]^{3}^{4}のクールダウンを${1}秒短縮します。
 23327	While ^{1}^{2}[Cart Boost]^{3}^{4} is active, [High Speed Cart Ram]'s damage bonus increases by ${1}%.	^{1}^{2}[カートブースト]^{3}^{4}発動中、[ハイスピードカートラム]のダメージボーナスが${1}%増加します。
-23328	Maya launches ^{3}cross-shaped blades^{4} in ^{1}@{1} directions^{2}, damaging enemies in their paths.	マヤが^{1}@{1}方向^{2}へ^{3}十字型の刃^{4}を放ち、経路上の敵にダメージを与えます。
+23328	Maya launches ^{3}cross-shaped blades^{4} in ^{1}@{1} directions^{2}, damaging enemies in their paths.	マヤーが^{1}@{1}方向^{2}へ^{3}十字型の刃^{4}を放ち、経路上の敵にダメージを与えます。
 23329	"Berserk Potion" can be used by all classes and provides the highest Attack Speed boost of any potion.	「バーサークポーション」は全職業が使用でき、ポーションの中で最も高い攻撃速度上昇効果を持ちます。
 23330	Taking this item off will leave your Stall empty, so the Stall will automatically Show less.\nProceed?	このアイテムを外すと露店の商品がなくなるため、露店は自動的に表示数が減ります。\n続行しますか？
 23331	The invitation will automatically expire if no action is taken within <color=#C27B47>24 hours</color>.	<color=#C27B47>24時間</color>以内に操作しない場合、招待は自動的に期限切れになります。
@@ -414,7 +414,7 @@
 23413	Why is it just the two of you? Where are the captain and the others? ...You didn't find Professor Levin?	どうして二人だけなんだ？隊長たちはどこにいる？……レビン教授は見つからなかったのか？
 23414	Your guild ranked No. @{1} on the Entire Server in the Hunting Challenge. Please claim the prizes below!	あなたのギルドはハンティングチャレンジの全サーバーランキングで第@{1}位に入りました。以下の報酬をお受け取りください！
 23415	Come now, Professor, please calm down. It's just an instrument. We'll certainly compensate you for it...	まあまあ、教授、落ち着いてください。ただの装置でしょう。きちんと弁償しますから……
-23416	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	「龍棺島を覆う暗雲」- ${1}チャレンジが開放されました！ドラゴン討伐に参加しましょう！
+23416	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	「ドラゴンコフィン島を覆う暗雲」- ${1}チャレンジが開放されました！ドラゴン討伐に参加しましょう！
 23417	A blue-backed fish from Frozen waters that's very nutritious. Feed for the Pet [Leafy Cat]. Weight: @{1}	凍てつく海で獲れる、背中が青く栄養豊富な魚。ペット[リーフキャット]のエサ。重量：@{1}
 23418	A precious flower that murmurs to itself even when no one is listening. It's the Rocker's favorite item.	誰も聞いていなくてもひそひそと囁く貴重な花。ロッカーの大好物です。
 23419	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Savage Babe Transform	2等賞当選時、サベージベイブ変身を使用している場合、報酬が追加で@{1}%増加します。
@@ -555,11 +555,11 @@
 23554	Unleash an evil spirit, dealing ATK * ^{1}@{3}%^{2} damage to up to @{2} enemies within a @{1}-meter radius.	悪霊を解き放ち、半径@{1}m以内の最大@{2}体の敵に攻撃力*^{1}@{3}%^{2}のダメージを与える。
 23555	I created the guild <color=#FCAA5B>${1}</color> and invite you to respond (<color=#FCAA5B>${2}</color>/${3})	ギルド<color=#FCAA5B>${1}</color>を作成しました。参加表明をお願いします（<color=#FCAA5B>${2}</color>/${3}）
 23556	For some reason, your MVP reward got lost along the way. We've reissued it, so please check the attachments.	何らかの理由でMVP報酬が配送途中に紛失してしまいました。再送しましたので、添付をご確認ください。
-23557	You successfully participated in the Gloom over Dragoncasket Island event and earned a participation reward.	「竜棺島を覆う暗雲」イベントに参加し、参加報酬を獲得しました。
+23557	You successfully participated in the Gloom over Dragoncasket Island event and earned a participation reward.	「ドラゴンコフィン島を覆う暗雲」イベントに参加し、参加報酬を獲得しました。
 23558	All right, great scientist. Should I send a team of Adventurers with you so you don't get carried off again?	はいはい、偉大な科学者さん。今度はまたさらわれないよう、冒険者の護衛隊でも付けようか？
 23559	Demon King Morroc has apparently returned through a Revive, emerging from a rift in time and space... Hic...	魔王モロックが復活して、時空の裂け目から戻ってきたらしい……ヒック……
 23560	Once we reach the desert, I'll show you a real sunrise over the sea of sand. Now that's a magnificent sight!	砂漠に着いたら、本物の砂海の日の出を見せてやる。あれこそ絶景だぞ！
-23561	The Dragonblood Crystal has appeared in the center of the arena! Pick it up to Score points and gain a Buff.	アリーナ中央に竜血のクリスタルが出現した！拾うとポイントを獲得し、バフも得られる。
+23561	The Dragonblood Crystal has appeared in the center of the arena! Pick it up to Score points and gain a Buff.	アリーナ中央にドラゴンブラッドクリスタルが出現した！拾うとポイントを獲得し、バフも得られる。
 23562	A Rift Stone has appeared on Channel ^{3}${2}^{4} in ^{1}${1}^{2}. Adventurers, hurry over and challenge it~	^{1}${1}^{2}のチャンネル^{3}${2}^{4}に亀裂の石が出現しました。冒険者のみなさん、急いで挑戦しに行きましょう～
 23563	Good news! Prontera's central defenses have held, and the Goddess Legion's latest assault has been repelled!	朗報だ！プロンテラ中央防衛線は持ちこたえ、女神軍団の最新の襲撃を退けた！
 23564	Bobo\n(Flies up from the ground) We tried to help, but we got beaten up instead! Huh? Where's the Professor?	ボボ\n（地面から飛び上がる）助けようとしたのに、逆にやられちゃった！あれ？教授はどこ？
@@ -776,7 +776,7 @@
 23775	Parries enemy attacks, increasing Physical and Magic DEF by @{1}. Auto Counters when taking melee Physical damage.	敵の攻撃を受け流し、物理防御力と魔法防御力を@{1}増加させる。近接物理ダメージを受けるとオートカウンターを発動する。
 23776	Follow Bobo to start Learning the Professions (you can Produce Equipment Forging materials and various Consumables)	ボボについて生活職を学び始めよう（装備鍛造素材や各種消耗品を製作できます）
 23777	An error occurred while updating the client. Select Ignore to temporarily Start Game, but you may encounter issues.	クライアントの更新中にエラーが発生しました。「無視」を選ぶと一時的にゲームを起動できますが、問題が発生する可能性があります。
-23778	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Payon Cave】\n@{2}.【Abandoned Village】	以下のマップで対象モンスターを倒すとカウントされる：\n@{1}.【フェイヨンダンジョン】\n@{2}.【廃村】
+23778	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Payon Cave】\n@{2}.【Abandoned Village】	以下のマップで対象モンスターを倒すとカウントされる：\n@{1}.【フェイヨン洞窟】\n@{2}.【廃村】
 23779	This is the Guild Level. It governs guild growth and Benefits and determines the Level-up limit for other buildings	これはギルドレベルです。ギルドの成長と恩恵を左右し、他の建物のレベル上限を決定します
 23780	^{1}^{2}[Pierce]^{3}^{4}'s percentage damage multiplier increases by ${1}%, and its fixed damage increases by ${2}.	^{1}^{2}[ピアース]^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
 23781	When a sword-type Weapon is equipped, PATK increases by ${1} for each Learn Lv. of ^{1}^{2}[Sword Quicken]^{3}^{4}.	剣系武器装備時、^{1}^{2}[ソードクイッケン]^{3}^{4}の習得Lv.1ごとに物理攻撃力が${1}増加する。
@@ -840,7 +840,7 @@
 23839	You're deliberately finding fault with everything! We risked our lives to get these, and now you're telling us this?	何でもかんでも難癖つけてるだけじゃないか！命がけで取ってきたのに、今さらそんなこと言うのかよ！
 23840	Orc Hero will unleash its ultimate skill in ${1} seconds. Pick up the Giant Blade and interrupt Orc Hero's charging!	オークヒーローが${1}秒後に必殺技を発動します。巨大な剣を拾い、オークヒーローのチャージを中断してください！
 23841	Alert! The enemy is nearing Prontera's core, and the central defensive line is about to become the Main Battlefield!	警報！敵がプロンテラ中枢へ接近中。中央防衛線がまもなく主戦場になる！
-23842	Bobo\nHmph! Maya wasn't so tough! I heard monsters hide their treasures in their nests. Could the professor be here?	ボボ\nふん！マヤなんて大したことなかったね！モンスターは巣に宝物を隠すって聞いたよ。教授もここにいるかな？
+23842	Bobo\nHmph! Maya wasn't so tough! I heard monsters hide their treasures in their nests. Could the professor be here?	ボボ\nふん！マヤーなんて大したことなかったね！モンスターは巣に宝物を隠すって聞いたよ。教授もここにいるかな？
 23843	Air Pirate Boss\nDon't... celebrate just yet... By the Desert Eagles, I swear... Blood... will be repaid in blood...	空賊団長\nまだ……勝った気になるな……デザートイーグルに誓って……血には……血で報いる……
 23844	Cockroach Researcher\nT-That was terrifying... I've been afraid of dogs since I was little. I'm getting out of here!	ゴキブリ研究者\nこ、怖かった……子どもの頃から犬が苦手なんだ。もうここから逃げる！
 23845	Bobo\nW-What's going on? Why is that compass on your chest glowing? That's scary! It's not going to explode, is it?!	ボボ\nな、何これ？胸のコンパスがどうして光ってるの？怖いよ！爆発したりしないよね？！
@@ -913,7 +913,7 @@
 23912	We're very sorry, but your purchase failed. The following items have been returned to you. Please claim them promptly!	申し訳ありません。購入に失敗しました。以下のアイテムを返却しましたので、お早めにお受け取りください！
 23913	Congratulations! Guild building ${1} has completed a Level-up from Lv. ${2} to Lv. ${3}. Go see what's new! [View Now]	おめでとうございます！ギルド施設${1}がLv.${2}からLv.${3}へレベルアップしました。新しい内容を確認しましょう！[今すぐ確認]
 23914	Congratulations! You ranked No. ${1} in this season's Pinnacle Top Ten Ranking. Please claim your well-earned rewards!	おめでとうございます！今シーズンの頂上十傑ランキングで第${1}位を獲得しました。報酬をお受け取りください！
-23915	Congratulations on clearing the Gloom over Dragoncasket Island event on ${1} difficulty! You've earned a clear reward.	「龍棺島を覆う暗雲」イベントの${1}難易度クリア、おめでとうございます！クリア報酬を獲得しました。
+23915	Congratulations on clearing the Gloom over Dragoncasket Island event on ${1} difficulty! You've earned a clear reward.	「ドラゴンコフィン島を覆う暗雲」イベントの${1}難易度クリア、おめでとうございます！クリア報酬を獲得しました。
 23916	Your listing for [${1}] on the Exchange expired and was removed automatically. Please collect it from the attachments.	取引所に出品していた[${1}]が期限切れとなり、自動的に出品取り下げとなりました。添付ファイルからお受け取りください。
 23917	Thank You for helping Defeat the treasure-guarding Monster. Please claim your assistance rewards from the attachments.	財宝を守るモンスターの討伐にご協力いただきありがとうございます。援助報酬を添付ファイルからお受け取りください。
 23918	All right, your second Trial Quests is to Defeat ^{1}@{1} Fabres^{2}. These monsters are more dangerous, so stay safe.	よし、2つ目の試練クエストは^{1}@{1}体のファブル^{2}を倒すことだ。さっきより危険なモンスターだから、十分気をつけろよ。

@@ -1,7 +1,7 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 24001	Whoa, whoa, whoa! You're a strange Woman! Giving us a gift the first time we meet? This isn't some kind of trick, is it?	おや、おや、おや！変わった女性だな！初対面でいきなり贈り物をくれるのかい？何か裏があるんじゃないだろうね？
 24002	If the stage difficulty is too high, you can abandon the stage, return to the event screen, and select a new difficulty.	ステージの難易度が高すぎる場合は、ステージを放棄してイベント画面に戻り、新しい難易度を選択することができます。
-24003	${1} used the Dragon Sanctuary, causing numerous Red Envelopes to appear in ${2}. Adventurers are invited to claim them.	${1}が龍の聖域を使用し、${2}に多数の紅包が出現しました。冒険者の皆様はぜひお受け取りください。
+24003	${1} used the Dragon Sanctuary, causing numerous Red Envelopes to appear in ${2}. Adventurers are invited to claim them.	${1}がドラゴンサンクチュアリを使用し、${2}に多数の紅包が出現しました。冒険者の皆様はぜひお受け取りください。
 24004	The Goddess's invasion has ended. ${1} successfully repelled the invasion; unfortunately, ${2} fell during the invasion.	女神の侵攻が終了しました。${1}は侵攻を食い止めることに成功しましたが、残念ながら${2}は侵攻中に倒れました。
 24005	South Gate defenders, take heed! The enemy is advancing into the city, and the Inn area may become the next battlefield!	南門の防衛兵たち、警戒せよ！敵が市街地へと進軍しており、宿屋エリアが次の戦場になる恐れがある！
 24006	Core material extracted from an Ironwood block. Hard and resistant to breaking, it is ideal for crafting fine equipment.	アイアンウッドの塊から抽出された芯材。硬く壊れにくいため、上質な装備の製作に最適です。
@@ -31,7 +31,7 @@
 24030	Hello, we meet again. You seem much more composed than before. It appears you've successfully completed your Job Advance.	こんにちは、また会いましたね。以前よりもずっと落ち着いた佇まいになられました。無事に転職を果たされたようですね。
 24031	I'll prepare for the final Quest. You two head to Southern Payon and gather the Other Materials. We don't have much time.	私は最後のクエストの準備をします。お二人はフェイヨン南部へ向かい、他の材料を集めてきてください。あまり時間がありません。
 24032	He hasn't learned a thing! If Boya's sword had veered off course just now, I'd like to see if he could still act so smug!	あいつはちっとも懲りてないな！さっきボヤの剣が少しでも逸れていたら、今頃あんな気取っていられたか見ものだったぜ！
-24033	You're back? I heard you pulled the Professor right out of Maya's jaws. Not bad—you've certainly got some serious skills.	戻ったか！マヤの顎の下から教授を引っ張り出してきたそうじゃないか。大したものだ、相当な腕前だな。
+24033	You're back? I heard you pulled the Professor right out of Maya's jaws. Not bad—you've certainly got some serious skills.	戻ったか！マヤーの顎の下から教授を引っ張り出してきたそうじゃないか。大したものだ、相当な腕前だな。
 24034	This bow tie... Why does it smell so bad? Don't tell me some Vagrant stole the device. This is going to be a lot of work.	この蝶ネクタイ…なぜこんなに臭うんだ？まさか浮浪者が装置を盗んだんじゃないだろうな。これは骨が折れそうだ。
 24035	Oh my gosh! What the heck is this now?! A cardboard box full of sand? What are those little logs inside? Ugh, they stink!	なんてこった！今度は一体何なんだ？！砂でいっぱいの段ボール箱？中に入っているこの小さな丸太みたいなものは何だ？うっ、臭い！
 24036	This is our last line of defense! All defenders, hold the center at all costs! The fate of Prontera will be decided here!	ここが我々の最終防衛線だ！防衛兵全員、何としても中央を死守せよ！プロンテラの運命はここで決まる！
@@ -89,7 +89,7 @@
 24088	Time is short, so I'll be brief. Our mission is to travel to the ^{1}Sograt Desert^{2} and find the missing Professor Ryan.	時間がないので手短に説明する。我々の任務は^{1}ソグラト砂漠^{2}へ向かい、行方不明のライアン教授を捜索することだ。
 24089	There may be one enormous ant colony beneath this entire desert. What we discovered before was only the tip of the iceberg.	この砂漠全体の地下には、巨大なアリの巣が存在しているのかもしれません。我々が以前発見したものは氷山の一角に過ぎなかったのです。
 24090	Congratulations! You've been appointed Guild Leader. We hope you'll lead everyone in building a warm, supportive community!	おめでとうございます！ギルドマスターに任命されました。皆を率いて、温かく助け合えるコミュニティを築き上げてください！
-24091	You finished ^{3}${1}^{4} on this Season's Territory War ^{1}Merit Rankings^{2}. Congratulations! Please claim your reward!	今シーズンの拠点戦^{1}功績ランキング^{2}で^{3}${1}^{4}位を獲得しました。おめでとうございます！報酬をお受け取りください！
+24091	You finished ^{3}${1}^{4} on this Season's Territory War ^{1}Merit Rankings^{2}. Congratulations! Please claim your reward!	今シーズンの領地戦^{1}功績ランキング^{2}で^{3}${1}^{4}位を獲得しました。おめでとうございます！報酬をお受け取りください！
 24092	Yesterday, I devised a new way to arrange my wares. They're easier for customers to pick up, and my sales rate rose by 20%.	昨日、商品の新しい並べ方を工夫してみたんだ。お客さんが手に取りやすくなって、売れ行きが20%も上がったよ。
 24093	This route used to be the Life line of merchant caravans. Now... those damn air pirates have made it anything but peaceful.	この交易路はかつて商隊の命綱だった。だが今は…あの忌々しい空賊どものせいで、平和とは程遠い有様だ。
 24094	Fervor, could you please focus on the job? If food distracts you from your work again, I'll... I'll shave off all your fur!	ファーヴァー、お願いだから仕事に集中して！また食べ物に気を取られて仕事をサボったら…毛を全部剃っちゃうからね！
@@ -148,7 +148,7 @@
 24147	That's good. Hey, ^{1}PlayerName^{2}, I'm leaving this remarkable Professor in your care. Don't let him get too carried away.	よかった。おい、^{1}PlayerName^{2}、この優秀な教授のことは君に任せたぞ。あまり無茶をさせないでくれよ。
 24148	Protocol requires me to ask: Have you identified the thief? This is crucial to improving our security measures going forward.	規則に従い質問させていただきます。泥棒の身元は特定できましたか？これは今後の防犯対策を改善する上で極めて重要です。
 24149	Lately, we've received many custom orders for the 【Stop Sign Headgear】. Wearing one as an accessory is quite fashionable now.	最近、【ストップサイン頭装備】のオーダーメイド依頼をたくさんいただいています。アクセサリーとして身につけるのが流行しているようですね。
-24150	Last time, I didn't have enough Potions, and Maya took me down at the last moment. This time, I'm well prepared. I can do it!	前回はポーションが足りなくて、最後の最後でマヤにやられてしまった。今回は準備万端だ。絶対に勝ってみせる！
+24150	Last time, I didn't have enough Potions, and Maya took me down at the last moment. This time, I'm well prepared. I can do it!	前回はポーションが足りなくて、最後の最後でマヤーにやられてしまった。今回は準備万端だ。絶対に勝ってみせる！
 24151	This is it... the flow Control valve, completely intact! You actually took it back from Baphomet... No, I mean, retrieved it.	これだ…流量制御弁、完全に無傷だ！本当にバフォメットから奪い返して…いや、取り戻してくれたんだな。
 24152	Kafra Battlefield Manager\nReceive the Blessing of Odin, King of the Gods, reducing skill Cooldown by @{1}% for @{2} minutes.	カプラ戦場管理人\n主神オーディンの祝福を受け、@{2}分間、スキルのクールダウンが@{1}%短縮されます。
 24153	Invading monsters have appeared near the Library. Some defenders should assist there while the rest continue holding the Inn!	侵攻してきたモンスターが図書館の近くに出現しました！一部の防衛兵は救援に向かい、残りは引き続き宿屋を死守してください！
@@ -196,7 +196,7 @@
 24195	After using a recommended build, stat points will be allocated automatically upon Level-up based on the selected recommendation	推奨ビルドを適用すると、レベルアップ時に選択した推奨方針に基づいてステータスポイントが自動的に割り振られます。
 24196	\nYou successfully completed ^{1}@{1}^{2} box-stacking challenges and ^{3}@{2}^{4} Othello matches, demonstrating true mastery.	\nあなたは箱積みチャレンジを^{1}@{1}^{2}回、オセロ対局を^{3}@{2}^{4}回クリアし、見事な腕前を証明しました。
 24197	@{1}.Spend Kaka Victory Coins at the Kafra Shop to exchange for rewards.\n@{2}.Some items require you to reach a specific rank.	@{1}.カプラショップでカカ勝利コインを消費して報酬と交換できます。\n@{2}.一部のアイテムは特定の段位に到達する必要があります。
-24198	Phantom Realm dungeons accumulate over the course of each Season. A team of ^{1}at least @{1} Members^{2} is required to enter.	幻影の領域ダンジョンはシーズンを通じて蓄積されます。入場には^{1}@{1}人以上^{2}のチームが必要です。
+24198	Phantom Realm dungeons accumulate over the course of each Season. A team of ^{1}at least @{1} Members^{2} is required to enter.	ファントムレルムダンジョンはシーズンを通じて蓄積されます。入場には^{1}@{1}人以上^{2}のチームが必要です。
 24199	Ignores monster Size. When attacking, has a @{1}% Chance to increase damage against Small, Medium, and Large monsters by @{2}%.	モンスターのサイズを無視します。攻撃時、@{1}%の確率で小型・中型・大型モンスターへのダメージが@{2}%増加します。
 24200	^{1}^{2}[High Speed Cart Ram]^{3}^{4}'s percentage damage multiplier increases by ${1}% and its fixed damage increases by ${2}.	^{1}^{2}[ハイスピードカートラム]^{3}^{4}のダメージ倍率が${1}%増加し、固定ダメージが${2}増加します。
 24201	When 【Jupitel Thunder】 hits, triggers 【Thunderbolt】, dealing Wind ranged magic damage equal to Magic ATK * ${1}% to the target.	【ユピテルサンダー】命中時、【サンダーボルト】を発動し、ターゲットに魔法攻撃力*${1}%の風属性遠距離魔法ダメージを与える。
@@ -230,7 +230,7 @@
 24229	When casting a ^{1}Control-type^{2} Primary Battle Skill, grants the owner a Shield equal to Max HP*^{3}${1}%^{4} for ${2} sec.	^{1}制御タイプ^{2}のメイン戦闘スキル発動時、主人に${2}秒間、最大HP*^{3}${1}%^{4}に相当するシールドを付与する。
 24230	Deals damage equal to @{3}% of Physical ATK to enemies in a @{1}m-long, @{2}m-wide area ahead and moves @{4}m in that direction	前方の長さ@{1}m、幅@{2}mの範囲内の敵に物理攻撃力の@{3}%のダメージを与え、その方向へ@{4}m移動する
 24231	Work together to defeat the mysterious enemy and earn a participation reward!\n^{1}Land the final blow for a special reward!^{2}	力を合わせて謎の敵を倒し、参加報酬を獲得しましょう！\n^{1}とどめの一撃を与えると特別報酬を獲得！^{2}
-24232	Supply Transport has begun. All members must head to the Territory War map immediately and begin escorting supplies. [Tap to Go]	物資輸送が開始されました。メンバー全員、直ちに領地戦争マップへ向かい、物資の護衛を開始してください。[タップして移動]
+24232	Supply Transport has begun. All members must head to the Territory War map immediately and begin escorting supplies. [Tap to Go]	物資輸送が開始されました。メンバー全員、直ちに領地戦マップへ向かい、物資の護衛を開始してください。[タップして移動]
 24233	Enabling Auto-Purchase for Fly Wings will automatically spend Coins to purchase them from the Shop. Please proceed with caution!	ハエの羽の自動購入を有効にすると、ショップからコインを消費して自動的に購入します。ご注意ください！
 24234	Sorry, the update cannot be downloaded because your device does not have enough storage space. Free up some space and Try Again.	申し訳ありません。端末の空き容量が不足しているため、アップデートをダウンロードできません。空き容量を確保してからもう一度お試しください。
 24235	When taking damage, has a @{1}% Chance to change your armor's element to Holy for @{2} seconds. Internal Cooldown: @{3} seconds.	ダメージを受けた時、@{1}%の確率で@{2}秒間、自身の鎧の属性を聖属性に変化させる。内部クールダウン：@{3}秒。
@@ -246,7 +246,7 @@
 24245	Quick Tip\nTap the button rapidly to increase your progress. The more energy you have when time runs out, the higher your score!	クイックヒント\nボタンを素早く連打して進捗を上げましょう。時間切れのときにエネルギーが多いほど、スコアが高くなります！
 24246	Large numbers of invading monsters have appeared along the central perimeter. All mobile defenders, provide support immediately!	中央の外郭沿いに侵略モンスターが多数出現しました。遊撃防衛部隊は直ちに救援に向かってください！
 24247	The central district's defenses are under pressure! The enemy is closing in on Prontera's core. Prioritize the central defenses!	中央地区の防衛線が圧迫されています！ 敵がプロンテラ中枢に迫っています。中央の防衛を最優先してください！
-24248	Was I seeing things just now? Maya actually carried someone off? My goodness, I can't believe I witnessed something like that...	さっきのは見間違いかしら？ マヤが本当に誰かを連れ去ったの？ なんてこと、あんな光景を目撃するなんて信じられない…
+24248	Was I seeing things just now? Maya actually carried someone off? My goodness, I can't believe I witnessed something like that...	さっきのは見間違いかしら？ マヤーが本当に誰かを連れ去ったの？ なんてこと、あんな光景を目撃するなんて信じられない…
 24249	Complete Music Energy objectives during the event. Fill the progress bar to make a Wish to the Goddess and earn tons of rewards.	イベント期間中に音楽エネルギーの目標を達成しましょう。進捗バーを満たして女神に願い事をすると、豪華な報酬を大量に獲得できます。
 24250	You still have unclaimed treasure chests. If you leave, you will not be able to claim them later. Are you sure you want to exit?	まだ未受取の宝箱が残っています。退出すると、後から受け取ることはできません。本当に退出しますか？
 24251	If more than <color=#CC762A>3</color> party Members have no Reward Count remaining, the party's Auction Rewards will be affected	報酬獲得可能回数が残っていないパーティメンバーが<color=#CC762A>3</color>人を超えると、パーティのオークション報酬に影響が出ます
@@ -302,7 +302,7 @@
 24301	A shield granted by Sohee absorbs damage equal to ${1}% of Max Life. While the shield is active, damage taken is reduced by ${2}%.	ソヒーから付与されたシールドは、最大HPの${1}%に相当するダメージを吸収する。シールドが持続している間、受けるダメージが${2}%軽減される。
 24302	Targets several players, then after a one-second warning, deals damage in a rectangular area @{1} meters wide and @{2} meters long	複数のプレイヤーを標的に定め、1秒の警告の後、幅@{1}メートル、長さ@{2}メートルの矩形範囲にダメージを与える
 24303	After casting ^{1}^{2}[Envenomed Blade]^{3}^{4} ${1} times, triggers ^{5}^{6}[Venom Sting]^{7}^{8} damage ${2} times on the target.	^{1}^{2}[エンベノムブレイド]^{3}^{4}を${1}回発動した後、ターゲットに^{5}^{6}[ヴェノムスティング]^{7}^{8}のダメージを${2}回発動する。
-24304	Maya ^{1}slashes in front of and behind herself^{2} in sequence, then unleashes ^{3}two Cross Impacts^{4} at the designated target.	マヤが自身の前方と後方を順に^{1}切り裂き^{2}、指定したターゲットに向かって^{3}2回のクロスインパクト^{4}を放つ。
+24304	Maya ^{1}slashes in front of and behind herself^{2} in sequence, then unleashes ^{3}two Cross Impacts^{4} at the designated target.	マヤーが自身の前方と後方を順に^{1}切り裂き^{2}、指定したターゲットに向かって^{3}2回のクロスインパクト^{4}を放つ。
 24305	Moonlight Flower swings her Bell^{1}to smash the target area^{2}. The smash causes^{3}all Bells on the battlefield to resonate^{4}.	月夜花が鈴を振り下ろして^{1}対象エリアを叩き潰す^{2}。この一撃により、^{3}戦場にあるすべての鈴が共鳴する^{4}。
 24306	Can amplify the power of Water, Earth, Fire, and Wind elemental bolts for terrifying ST damage, but lacks large-area magic attacks.	水・地・火・風属性のボルトの威力を増幅し、凄まじい単体ダメージを与えることができるが、広範囲の魔法攻撃には欠ける。
 24307	A ring personally overseen by Kafra and made exclusively for the Battle of Survivors. Rumor has it that Kafra personally signed it!	カプラが自ら監修し、生存者の戦いのために特別に作られたリング。噂によるとカプラ直筆のサインが入っているとか！
@@ -318,7 +318,7 @@
 24317	^{1}${1}^{2} disturbed a terrifying BOSS while treasure hunting in ^{3}${2}^{4}! Help Defeat it to receive a ^{5}Support Chest^{6}!	^{1}${1}^{2}が^{3}${2}^{4}で宝探し中に恐ろしいBOSSを刺激してしまいました！ 討伐に協力して^{5}支援宝箱^{6}を手に入れましょう！
 24318	The Chest of the Future contains valuable upgrade resources for the next Season. Claim it now to Keep its contents for next Season!	未来の宝箱には来シーズンの貴重な育成資源が入っています。今すぐ受け取って、来シーズンのために中身を保管しましょう！
 24319	Transform into a blazing storm, becoming untargetable by enemies and continuously dealing damage to enemies within ${1}m for ${2}s.	燃え盛る嵐へと変身し、敵からターゲットされなくなり、${1}m以内の敵に${2}秒間継続してダメージを与える。
-24320	Maya sweeps her blade forward, dealing DMG to players in a large fan-shaped area ahead, then turns around and uses the skill again.	マヤが前方広範囲の扇状エリアに刃を薙ぎ払ってプレイヤーにダメージを与え、その後振り返って再び同じスキルを発動する。
+24320	Maya sweeps her blade forward, dealing DMG to players in a large fan-shaped area ahead, then turns around and uses the skill again.	マヤーが前方広範囲の扇状エリアに刃を薙ぎ払ってプレイヤーにダメージを与え、その後振り返って再び同じスキルを発動する。
 24321	After casting a ^{1}Recovery-type^{2} Primary Battle Skill, reduces the Water Damage the owner takes by ^{3}${1}%^{4} for ${2} sec.	^{1}回復タイプ^{2}のメイン戦闘スキル発動後、主人が受ける水属性ダメージを${2}秒間^{3}${1}%^{4}軽減する。
 24322	Release a pulse in a ${1}-meter radius around you, dealing ${2} hits of Neutral melee Physical damage equal to PATK *^{1}${3}%^{2}.	自身の周囲半径${1}メートルに波動を放ち、物理攻撃力*^{1}${3}%^{2}に相当する無属性近接物理ダメージを${2}回与える。
 24323	Infuses your weapon with energy, increasing the percentage damage multiplier of Normal Attack skills by ^{1}${1}%^{2} for ${2} sec.	武器にエネルギーを注入し、${2}秒間、通常攻撃スキルの割合ダメージ倍率を^{1}${1}%^{2}増加させる。
@@ -326,7 +326,7 @@
 24325	Actually... when she helped me fight ants last time, I thought she was incredible. She unleashed this huge Magnum Break in a flash!	実は…この前アリ退治を手伝ってくれたとき、彼女すごいなって思ったんだ。あんな特大のマグナムブレイクを一瞬で放っちゃうんだから！
 24326	Damage taken from all elements is reduced by ^{1}${1}%^{2}. When hit, deals ^{3}${2}%^{4} ATK damage to enemies within @{1} meters.	全属性から受けるダメージが^{1}${1}%^{2}軽減される。攻撃を受けた時、@{1}メートル以内の敵に^{3}${2}%^{4}の攻撃力ダメージを与える。
 24327	Open ^{1}Daily Must-Dos^{2} and complete ^{3}Daily Misc activities (Dumby's Request, AFK in the Field, etc.)^{4} to earn lots of EXP	^{1}毎日の必須事項^{2}を開き、^{3}デイリー雑務（ダンビのお願い、フィールド放置など）^{4}を完了して大量の経験値を獲得しよう
-24328	Maya is at the deepest point of the Ant Hell, which must be where she is holding the Professor. Defeat her and rescue the Professor.	マヤは蟻地獄の最深部にいる。教授をそこに監禁しているに違いない。マヤを倒して教授を救出するんだ。
+24328	Maya is at the deepest point of the Ant Hell, which must be where she is holding the Professor. Defeat her and rescue the Professor.	マヤーは蟻地獄の最深部にいる。教授をそこに監禁しているに違いない。マヤーを倒して教授を救出するんだ。
 24329	Click the icon next to an appearance's name in the Wardrobe to mark it, making it easy to find your favorites in a large collection.	ワードローブで外見の名前の横にあるアイコンをクリックしてマークをつけると、膨大なコレクションの中からお気に入りを簡単に見つけられます。
 24330	A stone statue of an ancient sage. Some people wear it on their heads, hoping to gain the sage's wisdom.\nBut it's incredibly heavy.	古代の賢者の石像。賢者の知恵にあやかろうと頭にかぶる者もいる。\nだが、信じられないほど重い。
 24331	A mask modeled after those worn by an assassination squad to conceal their identities. Wearing it somehow makes you feel more agile.	素性を隠すために暗殺部隊が着用していたものを模した仮面。身につけるとなぜか身のこなしが軽くなったように感じる。
@@ -454,7 +454,7 @@
 24453	Ha-ha! I knew it was you! Long time no see, Adventurer! I heard you reached Trans. 2nd? Your growth has been nothing short of remarkable!	ハハッ！やっぱりお前だったか！久しぶりだな、冒険者！上位2次職に転職したって聞いたぞ？お前の成長速度にはまったく驚かされるよ！
 24454	Ugh, No idea. Can this dumb dog really be trusted? Let's go... But if there are any more "poop Clues" on this floor, I'm going on strike!	うーん、さっぱりわからないわ。このおバカな犬、本当に信じて大丈夫なの？まあ行きましょ……でもこのフロアにこれ以上「うんちの手がかり」があったら、あたしストライキするからね！
 24455	If you encounter them inside, Please help them. The Monsters' ATK is absurdly high right now, and I'm afraid they won't last much longer!	もし中で彼らに出くわしたら、どうか助けてやってくれ。今モンスターたちの攻撃力が異常に跳ね上がっていて、あいつらもう長くは持ちそうにないんだ！
-24456	Serverwide Territory War Is Here! Guilds can carve out territory on a new continent and claim lands of their own through blood and glory!	全サーバー領土戦争が開幕！ギルドは新大陸に領土を切り開き、血と栄光によって自らの領地を手に入れることができる！
+24456	Serverwide Territory War Is Here! Guilds can carve out territory on a new continent and claim lands of their own through blood and glory!	全サーバー領地戦が開幕！ギルドは新大陸に領土を切り開き、血と栄光によって自らの領地を手に入れることができる！
 24457	A Radiant Gold block refined under extreme heat and pressure for optimal Metal purity and strength, ideal for crafting fine weapon parts.	極度の熱と圧力のもとで精錬され、金属の純度と強度を極限まで高めた輝く金の塊。上質な武器部品の製作に最適。
 24458	Use to send every guild Member except each Temporary Member an Intermediate Pack by mail. The Pack contains intermediate growth Material.	使用すると、仮メンバーを除く全ギルドメンバーへ中級パックがメールで送られます。パックには中級の育成素材が入っています。
 24459	Place it in the Guild Bonfire to generate @{1} random Blue Quality stat, which will randomly replace @{2} of the Bonfire's current stats.	ギルドの篝火に入れると、ランダムな青色品質のステータスが@{1}個生成され、現在の篝火のステータス@{2}個とランダムに入れ替わります。
@@ -477,7 +477,7 @@
 24476	We'll take the White Dove cargo airship to Morroc, at the entrance to the desert. If there's anything else you'd like to know, ask me now.	砂漠の入り口にあるモロックまでは、貨物飛行船「白鳩号」で行くことになる。他に聞いておきたいことがあれば、今のうちに聞いておいてくれ。
 24477	Enough about food! You've been eating nonstop this entire time. Are you here to work or hit the buffet? Doesn't the Knight Order feed you?	食べ物の話はもうたくさん！さっきからずっと食べっぱなしじゃない。仕事しに来たの、それともビュッフェを食べに来たの？騎士団ではご飯を食べさせてもらえないわけ？
 24478	Equipment alone proves nothing. I can sense power surging within you, still not fully under control. It's time for your Second Job Change.	装備だけでは何も証明できん。お前の体内で力が渦巻き、まだ完全には制御しきれていないのを感じるぞ。そろそろ2次転職の時だな。
-24479	The Territory War has begun! During this phase, major guilds will fiercely compete for strongholds in a showdown of strategy and strength.	領土戦争が始まった！このフェーズでは、各大手ギルドが戦略と武力を尽くして拠点をめぐり激しく争うことになる。
+24479	The Territory War has begun! During this phase, major guilds will fiercely compete for strongholds in a showdown of strategy and strength.	領地戦が始まった！このフェーズでは、各大手ギルドが戦略と武力を尽くして拠点をめぐり激しく争うことになる。
 24480	Ore containing iron that can be refined into an Iron Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬して鉄インゴットにできる鉄を含んだ鉱石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
 24481	After 【Basic Attack】 lands a critical hit, cast 【Cross Impact】 on the target, dealing melee Physical damage equal to 【${10}% Physical ATK】	【通常攻撃】がクリティカルヒットした時、対象に【クロスインパクト】を発動し、【${10}% 物理攻撃】に相当する近接物理ダメージを与える。
 24482	Hehe, I knew it wouldn't be that Easy! Since we've got a long trip ahead, this is the perfect chance to see how fast the new Mount can go!	へへっ、そう簡単にはいかないと思ってたよ！道のりは長いんだし、新しい乗り物がどれだけ速いか試す絶好のチャンスじゃないか！
@@ -485,7 +485,7 @@
 24484	What I must tell you is that this space-time is on the brink of catastrophe. You are the chosen one, and only you can resolve this crisis.	お伝えしなければならないのは、この時空が破滅の危機に瀕しているということです。選ばれし者であるあなたにしか、この危機を解決することはできません。
 24485	As historical contribution increases, the corresponding Honor position is granted automatically. Management positions take display priority	累計貢献度が上がると、対応する名誉役職が自動的に付与されます。表示は管理役職が優先されます。
 24486	When applying a healing skill effect, has a ${1}% Chance to trigger ^{1}^{2}【Divine Light】 Lv@{1}^{3}^{4}. Internal Cooldown: ${2} seconds.	回復スキル効果を付与した時、${1}%の確率で^{1}^{2}【ディバインライト】 Lv@{1}^{3}^{4}が発動する。内部クールダウン：${2}秒。
-24487	Maya ^{1}turns sand into stone around herself^{2} ^{3}@{1} times in succession^{4}. The stone pillars damage nearby targets as they emerge.	マヤは自身の周囲の砂を^{3}連続で@{1}回^{4}^{1}石へと変化させる^{2}。出現した石柱は周囲の対象にダメージを与える。
+24487	Maya ^{1}turns sand into stone around herself^{2} ^{3}@{1} times in succession^{4}. The stone pillars damage nearby targets as they emerge.	マヤーは自身の周囲の砂を^{3}連続で@{1}回^{4}^{1}石へと変化させる^{2}。出現した石柱は周囲の対象にダメージを与える。
 24488	A dagger personally overseen by Kafra and made exclusively for the Battle of Survivors. Its blade is dull, so it won't cause any real harm.	カプラが直々に監修し、生存者の戦い専用に作られた短剣。刃が潰されているため、実際に傷を負わせることはない。
 24489	"The Red One's Flammable Web" not only Immobilizes the target, but also causes them to take ×@{1} damage from the next Ice-property attack.	「赤い奴の可燃性ウェブ」は対象を行動不能にするだけでなく、次に受ける水属性攻撃のダメージを×@{1}にする。
 24490	Yes. I'm looking for someone. Have you seen a scholar named Levin recently? He wears glasses, has very poor eyesight, and is quite refined.	ええ。人を探しているんです。最近、レビンという学者を見かけませんでしたか？眼鏡をかけていて、とても目が悪く、かなり上品な男です。
@@ -503,7 +503,7 @@
 24502	When you are at least @{1} meters from the Link target, you are afflicted with a Curse that Deals DMG to allies within a @{2}-meter radius.	リンク対象から@{1}メートル以上離れると呪いにかかり、半径@{2}メートル以内の味方にダメージを与える。
 24503	Damage taken from all attributes is reduced by ^{1}${3}%^{2}. Every ${2} sec, deals ^{3}${1}%^{4} ATK damage to enemies within @{1} meters.	全属性から受けるダメージが^{1}${3}%^{2}軽減される。${2}秒ごとに、@{1}メートル以内の敵に^{3}${1}%^{4}の攻撃力ダメージを与える。
 24504	Clear a ten-player dungeon with Guild Members: Complete the dungeon with at least @{1} Guild Members^{1} from the same guild in the raid^{2}	ギルドメンバーと10人ダンジョンをクリア：レイド内に同じギルドの^{1}ギルドメンバーが@{1}人以上いる状態でダンジョンをクリアする^{2}
-24505	The chosen heroes sailed to Dragon Coffin Island. A terrifying roar from the heart of the island seems to herald an impending catastrophe...	選ばれし勇者たちは龍棺島へと船を出した。島の中心部から轟く恐ろしい咆哮は、迫りくる破滅の前兆のようだった……
+24505	The chosen heroes sailed to Dragon Coffin Island. A terrifying roar from the heart of the island seems to herald an impending catastrophe...	選ばれし勇者たちはドラゴンコフィン島へと船を出した。島の中心部から轟く恐ろしい咆哮は、迫りくる破滅の前兆のようだった……
 24506	A mineral vein containing large quantities of carbon-rich ore. Mine it to obtain Low-grade ore. ^{1}Can be used to Craft T@{1} equipment^{2}	炭素を多く含む鉱石が大量に眠る鉱脈。採掘すると低品質鉱石を獲得できる。^{1}T@{1}装備の製作に使用可能^{2}
 24507	After casting ^{1}^{2}[Turn Undead]^{3}^{4}, there is a ${1}% Chance to trigger Turn Undead one Extra time. Internal Cooldown: ${2} seconds.	^{1}^{2}[ターンアンデッド]^{3}^{4}の発動後、${1}%の確率でターンアンデッドが追加で1回発動する。内部クールダウン：${2}秒。
 24508	After ^{1}^{2}[Sanctuary]^{3}^{4} has been active for a time, it restores MATK*${3}%+${4} HP to up to ${2} allies within ${1} meters of you.	^{1}^{2}[サンクチュアリ]^{3}^{4}が一定時間持続した後、自身から${1}メートル以内の味方最大${2}人のHPを魔法攻撃*${3}%+${4}回復する。
@@ -623,7 +623,7 @@
 24622	Beast hide marinated with herbs and chili peppers, rolled into a tube, and charcoal-grilled. Grants @{1}%~@{2}% DMG vs Demi-Human for @{3} hours.	香草と唐辛子で漬け込み、筒状に丸めて炭火で焼き上げた野獣の皮。@{3}時間、人間種族へのダメージが@{1}%～@{2}%増加する。
 24623	A new version is available! Update before entering the game to receive an <color=#F2A35D>Update Reward</color>! We recommend updating over Wi-Fi.	新しいバージョンが利用可能です！ ゲームに入る前にアップデートして、<color=#F2A35D>アップデート報酬</color>を受け取りましょう！ Wi-Fi環境でのアップデートをおすすめします。
 24624	The current server is running the ${1} scenario. You must download the base scenario pack to play. The scenario pack is ${2} MB. Download it now?	現在のサーバーはシナリオ「${1}」を実行中です。プレイするにはベースシナリオパックをダウンロードする必要があります。シナリオパックの容量は${2}MBです。今すぐダウンロードしますか？
-24625	Maya summons a ^{1}sand tornado^{2} that continuously uses Launch to send ^{3}small tornadoes outward^{4}. Players must reposition to evade them.	マヤは^{1}砂の竜巻^{2}を召喚し、継続的に放出させて^{3}小型の竜巻を外側へ飛ばす^{4}。プレイヤーは位置を変えて回避する必要がある。
+24625	Maya summons a ^{1}sand tornado^{2} that continuously uses Launch to send ^{3}small tornadoes outward^{4}. Players must reposition to evade them.	マヤーは^{1}砂の竜巻^{2}を召喚し、継続的に放出させて^{3}小型の竜巻を外側へ飛ばす^{4}。プレイヤーは位置を変えて回避する必要がある。
 24626	This skill point allocation includes a Skill Upgrade. Once confirmed, the upgraded skill will replace its prerequisite skill. Confirm allocation?	このスキルポイント配分にはスキルアップグレードが含まれています。確定すると、アップグレードされたスキルが前提スキルと置き換わります。配分を確定しますか？
 24627	Hmm, whether it's the tranquil morning light, joyous laughter, or a heartfelt embrace, each is a beautiful way to say goodbye before setting out.	ふむ、穏やかな朝の光であれ、楽しげな笑い声であれ、心からの抱擁であれ、旅立ちの前の別れの挨拶としてはどれも美しいものだね。
 24628	Go back? But my research is at a critical stage, and the energy readings here are unprecedented! If I stop now, all my work could be for nothing.	戻るだって？ でも私の研究は今まさに正念場なんだ。ここでのエネルギー測定値はかつてないほど高い！ 今やめたら、これまでの研究がすべて水の泡になってしまう。
@@ -668,9 +668,9 @@
 24667	For each enemy hit by ^{1}^{2}【Lord of Vermilion】^{3}^{4}, its DMG Bonus increases by ^{5}${1}%^{6}, up to ^{7}${2}%^{8}, for every @{1} enemy hit.	^{1}^{2}【ロードオブヴァーミリオン】^{3}^{4}が敵に命中するごとに、敵@{1}体命中につき与ダメージが^{5}${1}%^{6}増加する（最大^{7}${2}%^{8}まで）。
 24668	Use battering rams, siege ladders, cannons, Madogear Pilots, and other siege equipment to breach the defenders' gate and charge into the Inner Area.	破城槌、攻城梯子、大砲、魔導ギアなどの攻城兵器を駆使して防衛側の城門を突破し、内部エリアへ突撃せよ。
 24669	A core Member of the Church with greater effectiveness against Undead monsters, making this build better suited for Priest auto-battle in the field.	教会の中核を担う聖職者。不死属性モンスターへの攻撃に優れ、フィールドでプリーストをオートバトルさせるのに適したビルド。
-24670	@{1}.Spend Divine Totem Currency to Level-up Divine Totems, enhancing the effects of deployed Divine Totems.\n Divine Totem levels reset each Season	@{1}.ディバイントーテム通貨を消費してディバイントーテムをレベルアップし、配置したディバイントーテムの効果を強化する。\nディバイントーテムのレベルは各シーズンごとにリセットされる
+24670	@{1}.Spend Divine Totem Currency to Level-up Divine Totems, enhancing the effects of deployed Divine Totems.\n Divine Totem levels reset each Season	@{1}.神術トーテム通貨を消費して神術トーテムをレベルアップし、配置した神術トーテムの効果を強化する。\n神術トーテムのレベルは各シーズンごとにリセットされる
 24671	Chance of obtaining a complete S-rank pet: @{1}%\nChance of obtaining a complete A-rank pet: @{2}%\nChance of obtaining a complete B-rank pet: @{3}%	完全なSランクペットの獲得確率：@{1}%\n完全なAランクペットの獲得確率：@{2}%\n完全なBランクペットの獲得確率：@{3}%
-24672	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Shipwreck Labyrinth Floor @{2}】\n@{3}.【Shipwreck Labyrinth Floor @{4}】	以下のマップで対応するモンスターを討伐するとカウントされます：\n@{1}.【沈没船の迷宮 @{2}層】\n@{3}.【沈没船の迷宮 @{4}層】
+24672	Defeating the corresponding monsters on the following maps will count:\n@{1}.【Shipwreck Labyrinth Floor @{2}】\n@{3}.【Shipwreck Labyrinth Floor @{4}】	以下のマップで対応するモンスターを討伐するとカウントされます：\n@{1}.【難破船の迷宮 @{2}層】\n@{3}.【難破船の迷宮 @{4}層】
 24673	Dried Strawberry and herb leaves slow-simmered into a light red soup with a delicate sweetness. Grants @{1}%-@{2}% DMG vs Demi-Human for @{3} hours.	乾燥イチゴと薬草の葉をとろ火でじっくり煮込んだ、ほんのり甘い薄紅色のスープ。@{3}時間、人間種族へのダメージが@{1}%～@{2}%増加する。
 24674	When dealing damage, has a @{1}% Chance to inflict 【Stun】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	ダメージを与えた時、@{1}%の確率で敵に@{2}秒間の【スタン】を付与する。内部クールダウン：@{3}秒。確率は複数枚のカードで重複する。
 24675	When dealing damage, has a @{1}% Chance to inflict 【Fear】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	ダメージを与えた時、@{1}%の確率で敵に@{2}秒間の【恐怖】を付与する。内部クールダウン：@{3}秒。確率は複数枚のカードで重複する。
@@ -712,7 +712,7 @@
 24711	Strike the enemy with full force, dealing Physical ATK*^{1}${2}%+${3}^{2} Neutral melee Physical damage to the specified ST enemy within ${1} meters.	渾身の力で敵を強打し、${1}m以内の指定した敵単体に物理攻撃力*^{1}${2}%+${3}^{2}の無属性近接物理ダメージを与える。
 24712	Vocal begins singing, healing up to ${3} allies within ${2} meters of its master for a total of the master's ^{1}Adaptive ATK^{2}*^{3}${4}%^{4} Life.	ボーカルが歌い始め、主人の周囲${2}m以内の味方最大${3}体のHPを主人の^{1}適応攻撃力^{2}*^{3}${4}%^{4}分回復する。
 24713	Summons a flaming arrow from the sky, dealing a total of Magic ATK*^{1}${2}%+${3}^{2} Fire ranged magic damage to the targeted ST enemy within ${1}m.	上空から火の矢を召喚し、${1}m以内の対象の敵単体に合計で魔法攻撃力*^{1}${2}%+${3}^{2}の火属性遠距離魔法ダメージを与える。
-24714	${1} has completed the Summon Ritual! The Starshatter Dragon will descend upon the main city in 30 seconds. Adventurers, come witness its arrival!${2}	${1}が召喚の儀式を完了しました！30秒後、砕星の巨竜がメイン都市に降臨します。冒険者の皆様、ぜひその瞬間をお見届けください！${2}
+24714	${1} has completed the Summon Ritual! The Starshatter Dragon will descend upon the main city in 30 seconds. Adventurers, come witness its arrival!${2}	${1}が召喚の儀式を完了しました！30秒後、スターシャッタードラゴンがメイン都市に降臨します。冒険者の皆様、ぜひその瞬間をお見届けください！${2}
 24715	Soft Plant fibers. Gather them to obtain a Low-grade Plant. ^{1}Used by the Chef Life Skill to make various restorative Potions and Cooking dishes^{2}	柔らかい植物の繊維。採集すると低品質の植物を獲得できる。^{1}生活スキル「料理人」で各種回復ポーションや料理の調理に使用する^{2}
 24716	Almagia has recovered its energy. ^{1}Players on its back must escape by sliding down its tail^{2}, then resume the battle when it becomes Weak again.	アルマギアが活力を取り戻した。^{1}背中に乗っているプレイヤーはその尻尾を滑り降りて脱出^{2}し、再び弱体化するのを待って戦いを再開する必要がある。
 24717	When dealing damage, has a @{1}% Chance to inflict 【Freeze】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	ダメージを与えた時、@{1}%の確率で敵に@{2}秒間の【凍結】を付与する。内部クールダウン：@{3}秒。確率は複数枚のカードで重複する。
@@ -746,7 +746,7 @@
 24745	Herbs simmered into soft rice porridge, leaving a lingering bittersweet aroma. Reduces damage taken from Medium monsters by @{1}%~@{2}% for @{3} hours.	薬草をやわらかなお粥にしてじっくり煮込み、ほろ苦く甘い香りを残した一品。@{3}時間、中型モンスターから受けるダメージを@{1}%～@{2}%軽減する。
 24746	When dealing damage, has a @{1}% Chance to inflict 【Silence】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	ダメージを与えた時、@{1}%の確率で敵に@{2}秒間の【沈黙】を付与する。内部クールダウン：@{3}秒。確率は複数枚のカードで重複する。
 24747	When using ^{1}^{2}[Basic Attack]^{3}^{4} with a Mace, inflicts ^{5}^{6}[Stun]^{7}^{8} on the target for ${1} seconds. Internal Cooldown: ${2} seconds.	メイス装備時に^{1}^{2}[通常攻撃]^{3}^{4}を行うと、ターゲットに${1}秒間の^{5}^{6}[スタン]^{7}^{8}を付与する。内部クールダウン：${2}秒。
-24748	Maya summons ^{1}@{1} Petrify Mists^{2} around the target. After a brief delay, the mists move toward the target and damage ^{3}targets they touch^{4}.	マヤはターゲットの周囲に^{1}@{1}個の石化ミスト^{2}を召喚する。少し遅れてミストがターゲットに向かって移動し、^{3}接触したターゲットにダメージを与える^{4}。
+24748	Maya summons ^{1}@{1} Petrify Mists^{2} around the target. After a brief delay, the mists move toward the target and damage ^{3}targets they touch^{4}.	マヤーはターゲットの周囲に^{1}@{1}個の石化ミスト^{2}を召喚する。少し遅れてミストがターゲットに向かって移動し、^{3}接触したターゲットにダメージを与える^{4}。
 24749	Summons a @{2} × @{3} m rectangular magic field within @{1} m, restoring ^{1}@{5}%^{2} Life per sec. to up to @{4} allies within the area for @{6} sec.	@{1}m以内に@{2}×@{3}mの長方形の魔法陣を展開し、@{6}秒間、陣内の味方最大@{4}体のHPを毎秒^{1}@{5}%^{2}回復する。
 24750	A jeweled accessory for women. Legend says it was once worn at the wedding of a queen from a certain kingdom. It sharpens the mind while casting magic.	宝石が散りばめられた女性用装身具。伝説によれば、かつてとある王国の王妃の婚礼で身につけられたという。魔法の詠唱時に精神を研ぎ澄ます。
 24751	After the merge succeeds, the guild set to Merge into the other guild will be disbanded immediately, and each new Member's position must be reassigned.	合併が成功した後、他のギルドへ合併される側のギルドは即座に解散され、新たな各メンバーの役職は再割り当てする必要があります。
@@ -779,7 +779,7 @@
 24778	A backpack specially made for Adventurers who dare to challenge themselves and never give up. Its vivid red matches the fiery spirit burning within them.	挑戦を恐れず決して諦めない冒険者のために特別に作られたバックパック。鮮やかな赤色は、彼らの胸に燃え盛る情熱の炎そのものだ。
 24779	Oh, that. Yeah, I lost a fine weapon. A longtime customer left it with me to Enchant. Sigh... I really let them down after they placed their trust in me.	ああ、あれかい。そうなんだ、名刀を失くしてしまってね。常連客からエンチャントを頼まれて預かっていたんだ。はぁ…信じて任せてくれたのに、本当に申し訳ないことをしたよ。
 24780	Kafra Battlefield Administrator\nThe Equipment Merchant has appeared on the battlefield! Today's equipment is discounted, so hurry over before it's gone.	カプラ戦場管理人\n戦場に装備商人が現れました！ 本日の装備は割引価格となっておりますので、売り切れる前にお急ぎください。
-24781	${1} has completed the summoning ritual. The Starshatter Dragon will descend upon the capital in @{1} seconds. Adventurers are invited to come watch!${2}	${1}が召喚の儀式を完了しました。@{1}秒後に砕星の巨竜が王都に降臨します。冒険者の皆様、ぜひご覧にお越しください！${2}
+24781	${1} has completed the summoning ritual. The Starshatter Dragon will descend upon the capital in @{1} seconds. Adventurers are invited to come watch!${2}	${1}が召喚の儀式を完了しました。@{1}秒後にスターシャッタードラゴンが王都に降臨します。冒険者の皆様、ぜひご覧にお越しください！${2}
 24782	"When the Fishmen chanted, every storm fell silent. God forged that silence into a blade and carved through the will of seven thousand worlds to resist."	「魚人たちが詠唱を紡ぐと、あらゆる嵐が沈黙した。神はその沈黙を剣へと鍛え上げ、七千の世界が抗おうとする意志を切り裂いた」
 24783	An extremely sturdy stone with exceptional hardness, used to make Weapons.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	並外れた硬度を誇る極めて頑丈な石。武器の製造に使用される。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
 24784	Some say this dew occasionally forms on the leaves of Yggdrasil. It contains the primal, creative power of Life and can be used for a Pet's Breakthrough.	イグドラシルの葉に時折宿る露だと言われている。命の原初たる創造の力を秘めており、ペットの突破に使用できる。
@@ -793,7 +793,7 @@
 24792	A reality show hosted by the Kafra Corporation. Participate Solo or as a team, get your opponents Captured, and claim the Grand Prize as the final victor!	カプラコーポレーション主催のリアリティショー。ソロまたはチームで参加し、相手を捕縛して最後の勝者となって豪華報酬を手に入れよう！
 24793	When dealing damage, has a @{1}% Chance to inflict 【Immobilize】 on the enemy for @{2} sec. Internal Cooldown: @{3} sec. Chance stacks with multiple cards.	ダメージを与えた時、@{1}%の確率で敵に@{2}秒間の【移動不能】を付与する。内部クールダウン：@{3}秒。確率は複数枚のカードで重複する。
 24794	When casting ^{1}^{2}[Spear Throw]^{3}^{4}, you throw one Extra Spear that Deals DMG equal to PATK * ${1}% + ${2} as Extra Neutral Ranged Physical damage.	^{1}^{2}[槍投げ]^{3}^{4}を発動した時、追加で槍を1本投げ、物理攻撃力*${1}%+${2}の追加の無属性遠距離物理ダメージを与える。
-24795	Maya repeatedly deals damage in ^{1}circular and ring-shaped areas around herself^{2}, then unleashes ^{3}@{1} large-area Cross Impacts^{4} in succession.	マヤは自身の周囲に^{1}円形およびドーナツ型の範囲ダメージを連続で発生させ^{2}、その後立て続けに^{3}@{1}回の広範囲クロスインパクト^{4}を繰り出す。
+24795	Maya repeatedly deals damage in ^{1}circular and ring-shaped areas around herself^{2}, then unleashes ^{3}@{1} large-area Cross Impacts^{4} in succession.	マヤーは自身の周囲に^{1}円形およびドーナツ型の範囲ダメージを連続で発生させ^{2}、その後立て続けに^{3}@{1}回の広範囲クロスインパクト^{4}を繰り出す。
 24796	Osiris summons ^{1}@{1} Horongs^{2} in the arena. The Horongs damage ^{3}targets they touch^{4} and ^{5}periodically track targets^{6} to change position.	オシリスはアリーナ内に^{1}@{1}体のホロン^{2}を召喚する。ホロンは^{3}接触したターゲットにダメージを与え^{4}、^{5}定期的にターゲットを追尾して^{6}位置を変更する。
 24797	Moonlight Flower summons^{1}@{1} clones at the edge of the battlefield^{2}. The clones leap to^{3}the target's surroundings and smash the target area^{4}.	月夜花は戦場の縁に^{1}@{1}体の分身を召喚する^{2}。分身は^{3}ターゲットの周囲へ跳躍し、対象エリアを叩きつける^{4}。
 24798	Wow! What a mysterious magical glow... Your head must be filled with stars and arcane runes. Those old scholars in Geffen Tower will be fighting over you!	わあ！ なんて神秘的な魔法の輝き… あなたの頭の中はきっと星や古代のルーンでいっぱいね。ゲフェンタワーの長老学者たちが奪い合いになっちゃうわ！
@@ -813,8 +813,8 @@
 24812	In the Northern Deep dwells a fish named Kun. Kun is so enormous that no one knows how many thousands of miles it spans... How many grills would that take?	北の深き海に鯤（コン）という魚が棲んでいる。鯤の大きさは幾千里にも及び、誰にも測り知ることはできない……いったい何台の焼き網が必要になるのだろうか？
 24813	Professor, be clear. What do you mean by "alive"? What kind of creature did you ship? Don't tell me you've violated the kingdom's safety regulations again!	教授、はっきり言ってください。「生きている」とはどういう意味ですか？いったいどんな生物を輸送したのですか？また王国の安全規定を破ったんじゃないでしょうね！
 24814	Meeting someone who has died is essentially impossible. Even if it were possible, their soul would probably have none of the memories they had while alive.	亡くなった人に会うのは、本来なら不可能です。たとえ会えたとしても、その魂には生前の記憶など何一つ残っていないでしょう。
-24815	Easy, easy—hear Me out. Ant Hell is really just the outer edge of the ant nest. Maya lives in its deepest reaches, where her brood chamber is also located.	落ち着いて、落ち着いてくれ――俺の話を聞いてくれ。蟻地獄はアントの巣の外縁部にすぎない。マヤはその最深部に棲んでいて、産卵室もそこにあるんだ。
-24816	Nicely done. After rescuing someone right from under Maya's nose, you've proven that you have the Eligibility to take on classified Quests of this caliber.	見事な手並みだ。マヤの目の前で人を救い出すとは、このレベルの機密任務を引き受ける資格があることを証明してみせたな。
+24815	Easy, easy—hear Me out. Ant Hell is really just the outer edge of the ant nest. Maya lives in its deepest reaches, where her brood chamber is also located.	落ち着いて、落ち着いてくれ――俺の話を聞いてくれ。蟻地獄はアントの巣の外縁部にすぎない。マヤーはその最深部に棲んでいて、産卵室もそこにあるんだ。
+24816	Nicely done. After rescuing someone right from under Maya's nose, you've proven that you have the Eligibility to take on classified Quests of this caliber.	見事な手並みだ。マヤーの目の前で人を救い出すとは、このレベルの機密任務を引き受ける資格があることを証明してみせたな。
 24817	At least it's Regular food this time. I still haven't forgotten how you snuck a bite of that "chocolate bar" from the litter box. That was so embarrassing.	今回は普通の食べ物でよかったよ。猫砂用トイレにあったあの「チョコバー」を君がこっそりかじった時のことは、今でも忘れられないよ。あれは本当に恥ずかしかったんだから。
 24818	Stop! The first floor of the Pyramid has been declared a restricted area. Normal Adventurers are forbidden from entering. It's far too dangerous right now.	止まれ！ピラミッドの1階は立ち入り禁止区域に指定されている。一般の冒険者の立ち入りは禁じられている。今は危険すぎるんだ。
 24819	No worries. We're here specifically to deal with that Relic! I'm not afraid of the Monsters here. ^{1}PlayerName^{2} can definitely drive them away, right?	心配いりません。私たちはまさにあの遺物に対処するためにここに来たのです！ここにいるモンスターなんて怖くありません。^{1}PlayerName^{2}が必ず追い払ってくれますよね？

@@ -1,4 +1,4 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 21001	Follow the pathfinder ant to the entrance of the queen ant's nest	道案内アリについて行き、女王アリの巣の入口へ向かう
 21002	Ji explains that multiple parallel timelines exist in this world.	ジーは、この世界には複数の並行した時間軸が存在すると説明した。
 21003	Obtain a wealth of resources and provide Guild Coins to the guild	豊富な資源を獲得し、ギルドにギルドコインを提供する
@@ -98,7 +98,7 @@
 21097	Target three players and drop cross-shaped cannon blasts on them.	プレイヤー3人を指定し、十字型の砲撃を落とします。
 21098	Assistance request sent to the <color=#F4F2E9>${1}</color> Channel	<color=#F4F2E9>${1}</color>チャンネルへ支援要請を送信しました。
 21099	You haven't cleared this round yet. Are you sure you want to quit?	このラウンドをまだクリアしていません。本当に退出しますか？
-21100	Fight in the Territory War and earn bountiful rewards for victory.	領土戦争に参加し、勝利して豪華な報酬を獲得しよう。
+21100	Fight in the Territory War and earn bountiful rewards for victory.	領地戦に参加し、勝利して豪華な報酬を獲得しよう。
 21101	^{1}Attack Almakia with the Heavy Cannon until it becomes Weak^{2}	^{1}重砲でアルマギアを攻撃し、弱体化させる^{2}
 21102	There's an Adventurer camp nearby. Go there to gather information.	近くに冒険者キャンプがあります。そこで情報を集めましょう。
 21103	Touch the memory entity prototype and fall into another dimension.	記憶体の試作機に触れ、別の次元へ落ちる
@@ -153,7 +153,7 @@
 21152	Martha\nDarn it! We almost won. Louie, let's challenge them again!	マーサ\nもう！あと少しで勝てたのに！ルイ、もう一回挑戦しよう！
 21153	Cockroach Researcher\nUgh, stupid dog! Go away! Stay away from me!	ゴキブリ研究者\nうわっ、このバカ犬！あっち行け！近寄るな！
 21154	Activate the Dinner Date matching Facewear Appearance (Permanent).	「ディナーデート」に対応する顔装備の外見を解放します（永久）。
-21155	A lavish gift awarded to active participants in the Territory War.	領土戦争で活躍した参加者に贈られる豪華なギフト。
+21155	A lavish gift awarded to active participants in the Territory War.	領地戦で活躍した参加者に贈られる豪華なギフト。
 21156	A toenail clipped from a wolf's paw. Available from the Collector.	狼の足から切り取られた爪。コレクターから入手できます。
 21157	A feline favorite used to draw items in Mine Planet Treasure Hunt.	採掘惑星の宝探しで抽選に使う、猫たちの大好物。
 21158	A gemstone that emits a White glow. Can be exchanged for Headwear.	白い光を放つ宝石。頭装備と交換できます。
@@ -271,11 +271,11 @@
 21270	Enjoy the Bonfire EXP blessing while waiting for the raffle to begin	抽選開始を待つ間、焚き火のEXP祝福を楽しみましょう。
 21271	Adventurers whose <color=#987f53>${1}</color> attribute is below 50%	<color=#987f53>${1}</color>属性が50%未満の冒険者
 21272	Talk to the younger sister and enter the Adventure Group declaration	妹に話しかけて冒険者グループ宣言へ入る
-21273	The Professor has been captured by Maya. Return to camp for Utility.	教授がマヤに捕らえられた。キャンプへ戻って支援を求めよう。
+21273	The Professor has been captured by Maya. Return to camp for Utility.	教授がマヤーに捕らえられた。キャンプへ戻って支援を求めよう。
 21274	Search for the Relic using the information provided by the Soldiers.	兵士から得た情報をもとに遺物を探す
 21275	A Pharaoh suddenly leaps out of the Relic. Find a way to defeat him.	遺物からファラオが突然飛び出した。倒す方法を探そう。
 21276	Ask Hawk about his new Clue and continue searching for the professor	ホークに新しい手がかりを聞き、教授の捜索を続ける
-21277	Maya suddenly abducts the Professor, leaving you all frozen in shock	マヤが突然教授をさらい、一同は驚きのあまり立ち尽くした
+21277	Maya suddenly abducts the Professor, leaving you all frozen in shock	マヤーが突然教授をさらい、一同は驚きのあまり立ち尽くした
 21278	It's the man from earlier. Ask if he knows how to find the professor	先ほどの男だ。教授を探す方法を知っているか聞いてみよう。
 21279	The professor is overflowing with gratitude. Hear what he has to say	教授は感謝でいっぱいのようだ。話を聞いてみよう。
 21280	You've made a major leap in power and can now advance to Trans. 2nd.	戦力が大きく飛躍し、上位2次職への転職が可能になりました。
@@ -506,7 +506,7 @@
 21505	You cannot travel there from the current Dungeon. Leave and try again.	現在のダンジョンからその場所へ移動できません。退出してからもう一度お試しください。
 21506	Throw the supply cart forward, inflicting Stun on enemies in its path.	補給カートを前方へ投げ、進路上の敵をスタンさせます。
 21507	Delivers a heavy blow to the currently targeted player within the grid	グリッド内の現在ターゲット中のプレイヤーに強烈な一撃を与えます。
-21508	Maya Launches a cross-shaped blade wave forward, damaging players hit.	マヤが前方へ十字型の刃の衝撃波を放ち、命中したプレイヤーにダメージを与えます。
+21508	Maya Launches a cross-shaped blade wave forward, damaging players hit.	マヤーが前方へ十字型の刃の衝撃波を放ち、命中したプレイヤーにダメージを与えます。
 21509	Pick up the giant blade dropped by Orc Lord and launch a counterattack	オークロードが落とした巨大な刃を拾い、反撃を繰り出します。
 21510	Your character is temporarily unable to list items. Unseal time: ${1}.	現在、このキャラクターはアイテムを出品できません。解除時刻：${1}。
 21511	Failed to retrieve item information before adding it to the watchlist.	ウォッチリストへの追加前にアイテム情報を取得できませんでした。
@@ -567,7 +567,7 @@
 21566	Understood. Take Me there immediately so I can provide Utility support.	了解しました。支援を行えるよう、すぐに私をそこへ連れて行ってください。
 21567	Uh-oh. Teaching someone to gamble is asking to get struck by lightning~	おっと。人にギャンブルを教えるなんて、雷に打たれても文句は言えないよ～
 21568	Our ^{1}${1}^{2} dealt the final blow to the center-lane ^{3}Guard^{4}!	味方の^{1}${1}^{2}が中央レーンの^{3}ガード^{4}にとどめを刺しました！
-21569	The Demonic Dragon and Dragonblood Crystal will appear in ${1} seconds!	魔竜と竜血のクリスタルが${1}秒後に出現します！
+21569	The Demonic Dragon and Dragonblood Crystal will appear in ${1} seconds!	魔竜とドラゴンブラッドクリスタルが${1}秒後に出現します！
 21570	${1} has transferred leadership of ^{1}${2} Adventure Party^{2} to you.	${1}が^{1}${2}冒険パーティ^{2}のリーダー権限をあなたに譲渡しました。
 21571	Everyone successfully repelled the BOSS!\n[${1}] landed the final blow!	全員でBOSSの撃退に成功！\n[${1}]が最後の一撃を決めました！
 21572	Everyone, use Water skills if you can! They're effective against Eddga!	みんな、水属性スキルを使えるなら使って！エドガに有効だよ！
@@ -665,7 +665,7 @@
 21664	Magical Stickers that can be used to decorate your Profile once obtained	獲得後、プロフィールを飾るために使用できる魔法のステッカー。
 21665	Points obtained by defeating monsters in the ^{1}Mt. Mjolnir^{2} region.	^{1}ミョルニール山脈^{2}地域のモンスターを倒すと獲得できるポイント。
 21666	Points obtained by defeating monsters in the ^{1}Sunken Ship^{2} region.	^{1}沈没船^{2}地域のモンスターを倒すと獲得できるポイント。
-21667	Points obtained by defeating monsters in the ^{1}Orc Village^{2} region.	^{1}オーク村^{2}地域のモンスターを倒すと獲得できるポイント。
+21667	Points obtained by defeating monsters in the ^{1}Orc Village^{2} region.	^{1}オークの村^{2}地域のモンスターを倒すと獲得できるポイント。
 21668	Refining will <color=#C26B47>randomly increase or decrease stats</color>	精錬すると<color=#C26B47>ステータスがランダムに増減します</color>
 21669	The current scroll's star rating is too low to unlock a new Enchant slot	現在のスクロールの星ランクが低すぎるため、新しいエンチャントスロットを解放できません。
 21670	Current Equipment already has an Enchant with the same name. Replace it?	現在の装備にはすでに同名のエンチャントがあります。置き換えますか？
@@ -718,7 +718,7 @@
 21717	Stat Bonus Overview provided to the Adventurer by currently Deployed Pets	現在出撃中のペットが冒険者に付与するステータスボーナス一覧。
 21718	Tap here to start the Challenge! I can't wait! I'll take on ten at once!!	ここをタップして挑戦開始！待ちきれないよ！まとめて10体相手にしてやる！！
 21719	Why is it raining? Because thinking of you has me sweating buckets, meow!	どうして雨が降るの？君のことを考えると汗が滝みたいに出るからだニャ！
-21720	Where the stars converge, the Starshatter Dragon shall descend once more.	星々が集う場所に、星砕きの竜は再び降臨する。
+21720	Where the stars converge, the Starshatter Dragon shall descend once more.	星々が集う場所に、スターシャッタードラゴンは再び降臨する。
 21721	Once you pass the trial, you can head To Prontera for your Job Advance...	試練を突破すれば、転職のためにプロンテラへ向かえる……
 21722	Keeping your equipment up to date will be a great help in future battles.	装備を常に最新の状態にしておけば、これからの戦いで大きな助けになります。
 21723	Uh... Adventurer? Thank You for helping me, but may I ask who you are...?	あの……冒険者さん？助けてくれてありがとうございます。でも、あなたは一体……？
@@ -970,7 +970,7 @@
 21969	Event Period: During the Ignition Test, opens daily from @{1}:@{2}~@{3}:@{4}	イベント期間：イグニッションテスト中、毎日@{1}:@{2}～@{3}:@{4}に開催。
 21970	The host has enabled microphones. Players in the mic queue may speak freely.	ホストがマイクを有効にしました。マイク待機列のプレイヤーは自由に発言できます。
 21971	Your character is temporarily unable to list Stall items. Unseal time: ${1}.	現在、このキャラクターは露店商品を出品できません。解除時刻：${1}。
-21972	The Starshatter Dragon spreads its wings and soars toward a glorious future!	星砕きの竜が翼を広げ、輝かしい未来へと飛翔します！
+21972	The Starshatter Dragon spreads its wings and soars toward a glorious future!	スターシャッタードラゴンが翼を広げ、輝かしい未来へと飛翔します！
 21973	Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.	^{1}ギルドメンバー@{1}人^{2}と一緒に「カプラ：サバイバーの戦い」を1回クリアします。
 21974	Haha! She disliked every gift I gave her, and you still dare ask my opinion?	ハハ！俺が贈った物は全部気に入らなかったのに、それでも俺に意見を聞くのか？
 21975	Are you sure you want to transfer leadership of the Adventure Group to ${1}?	冒険者グループのリーダー権限を${1}に譲渡しますか？

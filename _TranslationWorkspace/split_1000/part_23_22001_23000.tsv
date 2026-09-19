@@ -317,7 +317,7 @@
 22316	A block of Sacred Wood that emits a faint glow, used to craft advanced equipment.	淡い光を放つ聖木の塊。上級装備の製作に使用。
 22317	An unusual salt with large grains. One of the Materials used to create a Pet Egg.	粒の大きい珍しい塩。ペットの卵を作る素材のひとつ。
 22318	A sword embedded in a stone. It chooses its own wielder and possesses holy power.	石に刺さった剣。自ら使い手を選び、聖なる力を宿す。
-22319	Used to offset Net Victory Points deducted in Battle of Dragon Coffin Island Misc	ドラゴン棺島の戦いで差し引かれた純勝利ポイントの相殺に使用。
+22319	Used to offset Net Victory Points deducted in Battle of Dragon Coffin Island Misc	ドラゴンコフィン島の戦いで差し引かれた純勝利ポイントの相殺に使用。
 22320	${1} does not meet the requirements to open this dungeon, so it cannot be opened.	${1}がこのダンジョンの解放条件を満たしていないため、開けません。
 22321	Successfully crafting an orange engraving has a @{1}% Chance to double the output	オレンジ刻印の製作成功時、@{1}%の確率で産出量が2倍。
 22322	The savior foretold in prophecy, the morning star that still shines amid despair.	予言に記された救世主。絶望の中でも輝く明けの明星。
@@ -602,7 +602,7 @@
 22601	Use the movement wheel or the A and D keys to steer. Be careful to avoid the ant eggs.	移動ホイールまたはA・Dキーで方向を操作。アリの卵を避けて進もう。
 22602	Bobo\nSeriously... I hope this Clue is actually useful. Let's hurry and follow Fervor.	ボボ\nまったく…この手がかり、本当に役立つといいけど。急いでファーヴァーを追おう。
 22603	Bobo\nLook! That's a Peco Peco nest over there, right? And there are two people there!	ボボ\n見て！あれ、ペコペコの巣だよね？しかも人が2人いる！
-22604	Participate in the Battle of Dragon Coffin Island or Kafra: Survivor Battle @{1} times	龍棺島の戦い、またはカプラ：サバイバルバトルに@{1}回参加
+22604	Participate in the Battle of Dragon Coffin Island or Kafra: Survivor Battle @{1} times	ドラゴンコフィン島の戦い、またはカプラ：サバイバルバトルに@{1}回参加
 22605	Activate the Nine-Tone Mantra matching Theme Character Effects Appearance (Permanent).	九音真言の対応テーマ・キャラクターエフェクト外見を永久解放。
 22606	Armor plating made from an alloy blessed by holy light, providing advanced protection.	聖なる光の祝福を受けた合金製の装甲板。高度な防護性能を持つ。
 22607	A roll of sacred cloth radiating intense holy light. Used to craft advanced equipment.	強い聖光を放つ聖なる布のロール。上級装備の製作に使用する。
@@ -821,7 +821,7 @@
 22820	Silk material used to line clothing or armor, providing both comfort and Extra cushioning.	衣服や防具の裏地に使う絹素材。着心地とクッション性を高める。
 22821	Brilliant Tier @{1} Orange Equipment with impressive offensive and defensive capabilities.	攻守に優れた輝かしいTier @{1}オレンジ装備。
 22822	A strangely shaped Green, root-like object. One of the Materials used to create a Pet Egg.	奇妙な形をした緑色の根のような物体。ペットの卵を作る素材のひとつ。
-22823	Battle of Dragon Coffin Island Misc Net Victory Points (Victory Points), used for Level-up	龍棺島の戦い・勝利ポイント差（勝利ポイント）。レベルアップに使用
+22823	Battle of Dragon Coffin Island Misc Net Victory Points (Victory Points), used for Level-up	ドラゴンコフィン島の戦い・勝利ポイント差（勝利ポイント）。レベルアップに使用
 22824	Use Soul Destroyer from a safe Distance for steady damage, then evade enemies with stealth	安全な距離からソウルデストロイヤーで安定したダメージを与え、ステルスで敵をかわす。
 22825	It revealed no illusion, but the calamity that the continent of Midgard will one day face—	映し出されたのは幻ではなく、いつかミッドガルド大陸を襲う災厄だった――
 22826	Participate in any Misc activity in the Treasure Vault to earn an Eden Group Commendation.	宝物庫の任意のコンテンツに参加して、楽園団表彰を獲得。
@@ -887,7 +887,7 @@
 22886	Damage taken from monsters reduced by @{1}% and damage taken from players reduced by @{2}%.	モンスターからの被ダメージ -@{1}%、プレイヤーからの被ダメージ -@{2}%。
 22887	Damage taken from monsters reduced by @{1}%, and Physical and Magic DEF increased by @{2}%.	モンスターからの被ダメージ -@{1}%、物理・魔法DEF +@{2}%。
 22888	This quest embodies the tireless efforts of countless predecessors and grants unlimited EXP.	無数の先人のたゆまぬ努力が込められたクエスト。EXPを無制限に獲得できる。
-22889	Complete the Battle of Dragon Coffin Island once with ^{1}@{1} Member(s)^{2} from your guild	ギルドの^{1}@{1}人のメンバー^{2}と龍棺島の戦いを1回クリア
+22889	Complete the Battle of Dragon Coffin Island once with ^{1}@{1} Member(s)^{2} from your guild	ギルドの^{1}@{1}人のメンバー^{2}とドラゴンコフィン島の戦いを1回クリア
 22890	@{1}.Random events may occur during the match. Seize these opportunities to become stronger.	@{1}.対戦中にランダムイベントが発生することがあります。好機を活かして強くなろう。
 22891	Delete search history?\nThis will permanently clear all search history and cannot be undone.	検索履歴を削除しますか？\nすべての検索履歴が完全に削除され、元に戻せません。
 22892	Find powerful MVP Monsters in the Field and participate in an MVP Kill to earn Rare rewards!	フィールドの強力なMVPモンスターを探し、MVP討伐に参加してレア報酬を獲得！

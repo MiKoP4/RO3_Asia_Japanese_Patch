@@ -1,4 +1,4 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 14001	Double Strafe【Trigger Effect】	ダブルストレイフィング【発動効果】
 14002	Target: <#ffffff>${1}</color>	対象: <#ffffff>${1}</color>
 14003	Glast Heim Culvert Floor @{1}	グラストヘイム地下水路 @{1}F
@@ -15,7 +15,7 @@
 14014	${1} remaining in this chapter	このチャプターの残り${1}
 14015	Allocate @{1} Free Stat Points	自由ステータスポイントを@{1}割り振る
 14016	Participate in @{1} MVP events	MVPイベントに@{1}回参加
-14017	Continue exploring Orc Village	オーク村の探索を続ける
+14017	Continue exploring Orc Village	オークの村の探索を続ける
 14018	Guild League Preliminary Quest	ギルドリーグ予選クエスト
 14019	Rare Reward-Angeling-MVP Limit	レア報酬-エンジェリング-MVP制限
 14020	Rare Reward-Deviling-MVP Limit	レア報酬-デビルリング-MVP制限
@@ -55,7 +55,7 @@
 14054	Equipment has not been smelted	装備はまだ精錬されていません
 14055	Equipment requirements not met	装備条件を満たしていません
 14056	^{1}Champion at the Summit^{2}	^{1}頂上の覇者^{2}
-14057	5-Player Challenge - Dark Land	5人チャレンジ - ダークランド
+14057	5-Player Challenge - Dark Land	5人チャレンジ - 暗黒の大地
 14058	The donation period has ended.	寄付期間は終了しました。
 14059	Incorrect Username or Password	ユーザー名またはパスワードが正しくありません
 14060	Head to the Grand Lecture Hall	大講堂へ向かう
@@ -146,7 +146,7 @@
 14145	Double-Cluster Crystalline Ore	二重結晶鉱石
 14146	Clue Treasure Map: Odin Statue	手がかり宝の地図：オーディン像
 14147	Clue Treasure Map: Marketplace	手がかり宝の地図：市場
-14148	Note Pillar@{1}-Mjolnir Garden	ノートピラー@{1}-ミョルニアガーデン
+14148	Note Pillar@{1}-Mjolnir Garden	ノートピラー@{1}-ミョルニール庭園
 14149	Note Pillar@{1}-Western Morroc	ノートピラー@{1}-西モロック
 14150	Vine Puppet Type β - Destroyer	ヴァインパペットβ型 - デストロイヤー
 14151	Sand Puppet Type β - Destroyer	サンドパペットβ型 - デストロイヤー
@@ -441,7 +441,7 @@
 14440	Next Event Auto-Start Countdown	次イベント自動開始カウントダウン
 14441	Insufficient crafting materials	クラフト素材が不足しています
 14442	Kafra · Battle of the Survivors	カプラ・サバイバルバトル
-14443	5-Player Challenge - Dark Realm	5人チャレンジ - ダークレルム
+14443	5-Player Challenge - Dark Realm	5人チャレンジ - ダークドメイン
 14444	Realm of the Gods - Final Trial	神々の領域 - 最終試練
 14445	An unknown queue error occurred	不明なキューエラーが発生しました
 14446	Complete Equipment Forging once	装備製造を1回完了
@@ -786,7 +786,7 @@
 14785	No guild is currently escorting.	現在護衛中のギルドはありません。
 14786	Unlocks on Day @{1} after launch	サーバー開設@{1}日目に解放
 14787	Organize Function is on cooldown	整理機能はクールダウン中です
-14788	5-Player Challenge - Hidden Land	5人チャレンジ - 隠された地
+14788	5-Player Challenge - Hidden Land	5人チャレンジ - 隠された領域
 14789	Complete the mouse-catching game	ネズミ捕りゲームをクリア
 14790	Go Take Part in the Novice Trial	ノービス試練に参加
 14791	Return to Camp and talk to Hawke	キャンプへ戻りホークと話す

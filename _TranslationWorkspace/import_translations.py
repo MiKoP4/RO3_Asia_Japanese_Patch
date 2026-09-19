@@ -94,6 +94,12 @@ KNOWN_BUILD_TEMPLATE = "Suggested Build: ${1}"
 KNOWN_BUILD_NAME = "Exorciser"
 KNOWN_TALK_TEMPLATE = "Talk to ${1}"
 KNOWN_TALK_NAME = "Alphonse"
+KNOWN_CHAT_JOIN_PARTY = "Tap to Join Party"
+KNOWN_CHAT_CARD_TEMPLATE = "${1}[Members: ${2}/${3}]\\n${4}"
+KNOWN_PARTY_NAME_TEMPLATE = "${1}'s Party"
+KNOWN_PARTY_OBJECTIVE_TEMPLATE = "${1}, Party Objective: ${2},"
+KNOWN_PARTY_POWER_TEMPLATE = "${1}, Power Requirement: ${2}, Objective: ${3},"
+KNOWN_PARTY_RECRUITING_TEMPLATE = "${1}'s party is recruiting"
 KNOWN_BUILD_EFFECT_TEMPLATE = (
     "^{1}^{2}【Turn Undead】^{3}^{4}'s percentage-based damage multiplier "
     "increases by ${1}%, and its fixed damage increases by ${2}."
@@ -129,6 +135,125 @@ KNOWN_SERVER_LEVEL_TEMPLATE = (
 )
 OBSERVED_CHOOSE_LABEL = "请选择"
 OBSERVED_CHOOSE_TRANSLATION = "選択してください"
+
+# Fixed Simplified/Traditional-Chinese chat/recruitment strings observed in the
+# zh_CN / zh_TW LanguageKV modules.  The values are *canonical English keys*,
+# not Japanese text: Japanese remains sourced exclusively from split_1000.
+KNOWN_ZH_CHAT_CANONICAL_ALIASES = {
+    "点击组队": KNOWN_CHAT_JOIN_PARTY,
+    "點擊組隊": KNOWN_CHAT_JOIN_PARTY,
+    "${1}[人数：${2}/${3}]\\n${4}": KNOWN_CHAT_CARD_TEMPLATE,
+    "${1}[人數：${2}/${3}]\\n${4}": KNOWN_CHAT_CARD_TEMPLATE,
+    "${1}的队伍": KNOWN_PARTY_NAME_TEMPLATE,
+    "${1}的隊伍": KNOWN_PARTY_NAME_TEMPLATE,
+    "${1}，队伍目标：${2}，": KNOWN_PARTY_OBJECTIVE_TEMPLATE,
+    "${1}，隊伍目標：${2}，": KNOWN_PARTY_OBJECTIVE_TEMPLATE,
+    "${1}，战力要求：${2}，目标：${3}，": KNOWN_PARTY_POWER_TEMPLATE,
+    "${1}，戰力要求：${2}，目標：${3}，": KNOWN_PARTY_POWER_TEMPLATE,
+    "${1}的队伍正在招募": KNOWN_PARTY_RECRUITING_TEMPLATE,
+    "${1}的隊伍正在招募": KNOWN_PARTY_RECRUITING_TEMPLATE,
+    "无目标": "No Objective",
+    "無目標": "No Objective",
+    "期待各位冒险者的加入！": "We look forward to welcoming all Adventurers!",
+    "期待各位冒險者的加入！": "We look forward to welcoming all Adventurers!",
+    "嘉奖宝库-裂隙危机": "Reward Vault - Rift Crisis",
+    "嘉獎寶庫－裂隙危機": "Reward Vault - Rift Crisis",
+    "嘉獎寶庫—裂隙危機": "Reward Vault - Rift Crisis",
+    "嘉獎寶庫-裂隙危機": "Reward Vault - Rift Crisis",
+    "嘉奖宝库": "Commendation Vault",
+    "嘉獎寶庫": "Commendation Vault",
+    "裂隙危机": "Rift Crisis",
+    "裂隙危機": "Rift Crisis",
+    "五人挑战-蛮荒之地": "Five-Player Challenge - Savage Land",
+    "五人挑战-自然之地": "5-Player Challenge - Land of Nature",
+    "五人挑战-暗黑之地": "5-Player Challenge - Dark Land",
+    "五人挑战-蛮荒腹地": "5-Player Challenge - Savage Hinterlands",
+    "五人挑战-自然禁地": "5-Player Challenge - Forbidden Nature Zone",
+    "五人挑战-暗黑领域": "5-Player Challenge - Dark Realm",
+    "五人挑战-隐秘之地": "5-Player Challenge - Hidden Land",
+    "五人挑戰－蠻荒之地": "Five-Player Challenge - Savage Land",
+    "五人挑戰－自然之地": "5-Player Challenge - Land of Nature",
+    "五人挑戰－暗黑之地": "5-Player Challenge - Dark Land",
+    "五人挑戰－蠻荒腹地": "5-Player Challenge - Savage Hinterlands",
+    "五人挑戰－自然禁地": "5-Player Challenge - Forbidden Nature Zone",
+    "五人挑戰－暗黑領域": "5-Player Challenge - Dark Realm",
+    "五人挑戰－隱密之地": "5-Player Challenge - Hidden Land",
+    "蛮荒之地": "Wildlands",
+    "自然之地": "Natural Land",
+    "暗黑之地": "Dark Land",
+    "蛮荒腹地": "Savage Hinterlands",
+    "自然禁地": "Forbidden Wilds",
+    "暗黑领域": "Dark Domain",
+    "隐秘之地": "Hidden Realm",
+    "蠻荒之地": "Wildlands",
+    "自然之地": "Natural Land",
+    "暗黑之地": "Dark Land",
+    "蠻荒腹地": "Savage Hinterlands",
+    "自然禁地": "Forbidden Wilds",
+    "暗黑領域": "Dark Domain",
+    "隱密之地": "Hidden Realm",
+}
+
+KNOWN_RECRUITMENT_OBJECTIVE_ALIASES = (
+    (("无目标", "無目標"), "No Objective"),
+    (
+        (
+            "嘉奖宝库-裂隙危机",
+            "嘉獎寶庫－裂隙危機",
+            "嘉獎寶庫—裂隙危機",
+            "嘉獎寶庫-裂隙危機",
+        ),
+        "Reward Vault - Rift Crisis",
+    ),
+)
+KNOWN_RECRUITMENT_WELCOME_ALIASES = (
+    "We look forward to welcoming all Adventurers!",
+    "期待各位冒险者的加入！",
+    "期待各位冒險者的加入！",
+)
+
+# zh_CN recruitment objective + dungeon-name pairs.  These are used to build
+# whole-card runtime regexes because a remote player's client can send an
+# already-formatted Chinese recruitment body which is then wrapped by the
+# receiver's local [Members] / Join Party template.
+KNOWN_RECRUITMENT_DUNGEON_PAIRS = (
+    ("五人挑战-蛮荒之地", "Five-Player Challenge - Savage Land", "蛮荒之地", "Wildlands"),
+    ("五人挑战-自然之地", "5-Player Challenge - Land of Nature", "自然之地", "Natural Land"),
+    ("五人挑战-暗黑之地", "5-Player Challenge - Dark Land", "暗黑之地", "Dark Land"),
+    (
+        "五人挑战-蛮荒腹地",
+        "5-Player Challenge - Savage Hinterlands",
+        "蛮荒腹地",
+        "Savage Hinterlands",
+    ),
+    (
+        "五人挑战-自然禁地",
+        "5-Player Challenge - Forbidden Nature Zone",
+        "自然禁地",
+        "Forbidden Wilds",
+    ),
+    ("五人挑战-暗黑领域", "5-Player Challenge - Dark Realm", "暗黑领域", "Dark Domain"),
+    ("五人挑战-隐秘之地", "5-Player Challenge - Hidden Land", "隐秘之地", "Hidden Realm"),
+)
+KNOWN_RECRUITMENT_DUNGEON_PAIRS_TW = (
+    ("五人挑戰－蠻荒之地", "Five-Player Challenge - Savage Land", "蠻荒之地", "Wildlands"),
+    ("五人挑戰－自然之地", "5-Player Challenge - Land of Nature", "自然之地", "Natural Land"),
+    ("五人挑戰－暗黑之地", "5-Player Challenge - Dark Land", "暗黑之地", "Dark Land"),
+    (
+        "五人挑戰－蠻荒腹地",
+        "5-Player Challenge - Savage Hinterlands",
+        "蠻荒腹地",
+        "Savage Hinterlands",
+    ),
+    (
+        "五人挑戰－自然禁地",
+        "5-Player Challenge - Forbidden Nature Zone",
+        "自然禁地",
+        "Forbidden Wilds",
+    ),
+    ("五人挑戰－暗黑領域", "5-Player Challenge - Dark Realm", "暗黑領域", "Dark Domain"),
+    ("五人挑戰－隱密之地", "5-Player Challenge - Hidden Land", "隱密之地", "Hidden Realm"),
+)
 LOCALIZATION_PATCH_PREFIXES = (
     # Attribute/stat display names. Card effect panels compose localized stat
     # names with numeric values after the LanguageKV lookup (for example
@@ -176,6 +301,25 @@ LOCALIZATION_PATCH_PREFIXES = (
     "1315",
     # Recommended-build heading, server-level dynamic label, Spirit Tower.
     "250091",
+    # Guild League placement/activity panel. These strings are formatted after
+    # lookup (for example "Guild membership reaches 40" and "Last Week's
+    # Activity: No data"), so translate both templates and inserted labels
+    # upstream before the panel renders.
+    "2516",
+    "2517",
+    "50058",
+    "50059",
+    # Trade/Auction sort labels. Some clients surface the zh_CN table directly,
+    # so patch these IDs in every supported localization module.
+    "21035",
+    "21036",
+    "23287",
+    "23288",
+    "23289",
+    "23290",
+    # Chat UI labels/templates. Recruitment cards can be assembled after these
+    # lookups, so translate the local wrapper upstream before formatting.
+    "340",
     "35031",
     "360",
 )
@@ -217,6 +361,30 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10400400001": "Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.",
     "10400400002": "Clear any Realm of the Gods Dungeon with ^{1}@{1} Guild Members^{2} from your guild.",
     "10400400003": "Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.",
+    "25163": "Last Week's Activity: ${1}",
+    "25164": "Last Week's Active rating: ${1}",
+    "25165": "No data",
+    "25166": "Very Active",
+    "25167": "Moderately Active",
+    "25168": "Active",
+    "25169": "Very Inactive",
+    "25170": "Weekly Activity: Guild Members earn Guild Activity by completing guild content. Weekly Guild Activity is the sum of all Guild Members' activity each week",
+    "25171": "Weekly Active rating: There are 4 Active rating tiers based on Weekly Activity:",
+    "25172": "Very Active: <color=#7E7361>Weekly Activity ≥ ${1}</color>",
+    "25173": "Moderately Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>",
+    "25174": "Active: <color=#7E7361>${1} ≤ Weekly Activity ≤ ${2}</color>",
+    "25175": "Very Inactive: <color=#7E7361>Weekly Activity ＜ ${1}</color>",
+    "25176": "Disbandment Rules: If the guild's Weekly Active rating remains Very Inactive for ${1} consecutive weeks, the guild will automatically disband at 5 o'clock on Monday of week ${2} (the first 2 weeks after the guild is created do not count toward the inactivity period)",
+    "50058": "Guild membership reaches ${1}",
+    "50059": "Your guild's Active rating reached ${1} last week.",
+    "21035": "Price (Descending Order)",
+    "21036": "Price (Ascending Order)",
+    "23287": "Price - Ascending",
+    "23288": "Price - Descending",
+    "23289": "Listing Time - Ascending",
+    "23290": "Listing Time - Descending",
+    "34075": KNOWN_CHAT_JOIN_PARTY,
+    "34076": KNOWN_CHAT_CARD_TEMPLATE,
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
 }
 KNOWN_LOCALIZATION_CANONICAL_ALIASES = {
@@ -488,6 +656,232 @@ def build_runtime_regex(source: str, translated: str, *, force: bool = False) ->
     return f'r:"{pattern}"={replacement}'
 
 
+def remap_dollar_tokens(text: str, mapping: dict[str, str]) -> str:
+    """Remap ${n} placeholders without replacement-order collisions."""
+    return re.sub(
+        r"\$\{(\d+)\}",
+        lambda match: mapping.get(match.group(1), match.group(0)),
+        text,
+    )
+
+
+def build_chat_recruitment_regex_lines(translations: dict[str, str]) -> list[str]:
+    """Build rendered chat-card rules for English and zh_CN recruitment posts.
+
+    Recruitment messages can cross clients after the sender has already
+    localized/expanded the party body.  The receiver then wraps that body in
+    its local Members/Join-Party template, so translating individual LanguageKV
+    strings is too late.  Generate whole-card rules from canonical English/Japanese
+    plus ID-correlated zh_CN source aliases while preserving player-authored text.
+    """
+    lines: list[str] = []
+    join_japanese = translations.get(KNOWN_CHAT_JOIN_PARTY)
+    card_japanese = translations.get(KNOWN_CHAT_CARD_TEMPLATE)
+    party_name_japanese = translations.get(KNOWN_PARTY_NAME_TEMPLATE)
+    party_objective_japanese = translations.get(KNOWN_PARTY_OBJECTIVE_TEMPLATE)
+    dungeon_japanese = translations.get("Dungeon")
+    if not all(
+        (
+            join_japanese,
+            card_japanese,
+            party_name_japanese,
+            party_objective_japanese,
+            dungeon_japanese,
+        )
+    ):
+        return lines
+
+    # The outer wrapper may be English, Simplified Chinese, Traditional Chinese,
+    # or already Japanese (because 340xx is now translated upstream before the
+    # remote recruitment body is concatenated). Cover those observed forms.
+    outer_sources = (
+        "[Members: ${4}/${5}]\\nTap to Join Party",
+        "[人数：${4}/${5}]\\n点击组队",
+        "[人數：${4}/${5}]\\n點擊組隊",
+        "[Members: ${4}/${5}]\\n点击组队",
+        "[Members: ${4}/${5}]\\n點擊組隊",
+        "[人数：${4}/${5}]\\nTap to Join Party",
+        "[人數：${4}/${5}]\\nTap to Join Party",
+        "[メンバー: ${4}/${5}]\\nタップしてパーティ参加",
+    )
+    outer_japanese = remap_dollar_tokens(
+        card_japanese,
+        {
+            "1": "",
+            "2": "${4}",
+            "3": "${5}",
+            "4": join_japanese,
+        },
+    )
+
+    # High-confidence objective values seen in recruitment cards. Translate
+    # these literal values rather than preserving them inside a capture because
+    # XUnity does not recursively translate captured text.
+    welcome_japanese = translations.get("We look forward to welcoming all Adventurers!")
+    for objective_sources, objective_english in KNOWN_RECRUITMENT_OBJECTIVE_ALIASES:
+        objective_japanese = translations.get(objective_english)
+        if not objective_japanese:
+            continue
+        source_variants = [
+            (party_prefix_source, objective_source)
+            for party_prefix_source in (
+                "${1}的队伍，队伍目标：",
+                "${1}的隊伍，隊伍目標：",
+            )
+            for objective_source in objective_sources
+        ]
+        source_variants.append(("${1}'s Party, Party Objective: ", objective_english))
+        for party_prefix_source, objective_source in source_variants:
+            target_party_name = remap_dollar_tokens(party_name_japanese, {"1": "${1}"})
+            target_prefix = remap_dollar_tokens(
+                party_objective_japanese,
+                {"1": target_party_name, "2": objective_japanese},
+            )
+            separator = "," if "Party Objective:" in party_prefix_source else "，"
+            for outer_source in outer_sources:
+                if welcome_japanese:
+                    for welcome_source in KNOWN_RECRUITMENT_WELCOME_ALIASES:
+                        source = (
+                            party_prefix_source
+                            + objective_source
+                            + separator
+                            + welcome_source
+                            + outer_source
+                        )
+                        target = target_prefix + welcome_japanese + outer_japanese
+                        line = build_runtime_regex(source, target, force=True)
+                        if line:
+                            lines.append(line)
+
+                source = party_prefix_source + objective_source + separator + "${2}" + outer_source
+                target = target_prefix + "${2}" + outer_japanese
+                line = build_runtime_regex(source, target, force=True)
+                if line:
+                    lines.append(line)
+
+    # Structured zh_CN recruitment bodies use fixed LanguageKV strings for the
+    # party name, objective, challenge name, and dungeon name.  Translate those
+    # pieces in one pass because XUnity does not recursively translate captures.
+    for challenge_zh, challenge_en, dungeon_zh, dungeon_en in KNOWN_RECRUITMENT_DUNGEON_PAIRS:
+        challenge_japanese = translations.get(challenge_en)
+        localized_dungeon = translations.get(dungeon_en)
+        if not challenge_japanese or not localized_dungeon:
+            continue
+
+        source_prefix = "${1}的队伍，队伍目标：" + challenge_zh + "，"
+        target_party_name = remap_dollar_tokens(party_name_japanese, {"1": "${1}"})
+        target_prefix = remap_dollar_tokens(
+            party_objective_japanese,
+            {"1": target_party_name, "2": challenge_japanese},
+        )
+
+        for outer_source in outer_sources:
+            # Common Chinese-MMO shorthand: "60本" = level-60 dungeon.  Keep
+            # the numeric value dynamic and derive "ダンジョン" from canonical.
+            source = (
+                source_prefix
+                + "${2}本，"
+                + dungeon_zh
+                + "${3}"
+                + outer_source
+            )
+            target = (
+                target_prefix
+                + "Lv.${2}"
+                + dungeon_japanese
+                + "、"
+                + localized_dungeon
+                + "${3}"
+                + outer_japanese
+            )
+            line = build_runtime_regex(source, target, force=True)
+            if line:
+                lines.append(line)
+
+    # Traditional-Chinese variants of the same 5-player challenge cards.
+    for challenge_zh, challenge_en, dungeon_zh, dungeon_en in KNOWN_RECRUITMENT_DUNGEON_PAIRS_TW:
+        challenge_japanese = translations.get(challenge_en)
+        localized_dungeon = translations.get(dungeon_en)
+        if not challenge_japanese or not localized_dungeon:
+            continue
+
+        source_prefix = "${1}的隊伍，隊伍目標：" + challenge_zh + "，"
+        target_party_name = remap_dollar_tokens(party_name_japanese, {"1": "${1}"})
+        target_prefix = remap_dollar_tokens(
+            party_objective_japanese,
+            {"1": target_party_name, "2": challenge_japanese},
+        )
+        for outer_source in outer_sources:
+            source = source_prefix + "${2}本，" + dungeon_zh + "${3}" + outer_source
+            target = (
+                target_prefix
+                + "Lv.${2}"
+                + dungeon_japanese
+                + "、"
+                + localized_dungeon
+                + "${3}"
+                + outer_japanese
+            )
+            line = build_runtime_regex(source, target, force=True)
+            if line:
+                lines.append(line)
+
+            source = source_prefix + "${2}" + dungeon_zh + "${3}" + outer_source
+            target = target_prefix + "${2}" + localized_dungeon + "${3}" + outer_japanese
+            line = build_runtime_regex(source, target, force=True)
+            if line:
+                lines.append(line)
+
+            # Fallback for recruitment bodies whose free-text middle does not
+            # use the "N本" shorthand.  Fixed Chinese labels/names are still
+            # localized while arbitrary user text is preserved verbatim.
+            source = source_prefix + "${2}" + dungeon_zh + "${3}" + outer_source
+            target = target_prefix + "${2}" + localized_dungeon + "${3}" + outer_japanese
+            line = build_runtime_regex(source, target, force=True)
+            if line:
+                lines.append(line)
+
+            # English senders can produce the same already-formatted body.
+            # Preserve arbitrary middle text but localize the canonical party
+            # labels, challenge name, dungeon name, member count, and join CTA.
+            english_source_prefix = "${1}'s Party, Party Objective: " + challenge_en + ","
+            source = english_source_prefix + "${2}" + dungeon_en + "${3}" + outer_source
+            target = target_prefix + "${2}" + localized_dungeon + "${3}" + outer_japanese
+            line = build_runtime_regex(source, target, force=True)
+            if line:
+                lines.append(line)
+
+    # Power-requirement cards are structurally distinct from the party-objective
+    # cards above, so they can safely keep a generic fallback.  Do not emit a
+    # generic Party Objective fallback here: XUnity does not guarantee regex
+    # evaluation order, and such a broad rule can steal matches from the more
+    # specific No Objective / Reward Vault / dungeon rules above.
+    power_japanese = translations.get(KNOWN_PARTY_POWER_TEMPLATE)
+    for outer_source in outer_sources:
+        if power_japanese:
+            for source_prefix in (
+                "${1}，战力要求：${2}，目标：${3}，${4}",
+                "${1}，戰力要求：${2}，目標：${3}，${4}",
+                KNOWN_PARTY_POWER_TEMPLATE + "${4}",
+            ):
+                source = source_prefix + outer_source
+                target = remap_dollar_tokens(
+                    power_japanese,
+                    {"1": "${1}", "2": "${2}", "3": "${3}"},
+                ) + "${4}" + remap_dollar_tokens(
+                    outer_japanese,
+                    {"4": "${5}", "5": "${6}"},
+                )
+                # Re-number the outer source too so its member counts do not collide
+                # with the three placeholders already used by the power template.
+                source = source.replace("${4}/${5}", "${5}/${6}")
+                line = build_runtime_regex(source, target, force=True)
+                if line:
+                    lines.append(line)
+
+    return list(dict.fromkeys(lines))
+
+
 def load_language_kv_rows(prefixes: tuple[str, ...]) -> list[tuple[str, str]]:
     """Return ``(ID, English)`` rows whose LanguageKV IDs match prefixes."""
     if not LANGUAGE_KV_FILE.is_file():
@@ -568,6 +962,20 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
             line = build_runtime_regex(plain_english, plain_japanese, force=True)
             if line:
                 lines.append(line)
+
+    # Chinese chat/recruitment aliases are ID-correlated with canonical English
+    # strings. Generate placeholder-aware rules from the same Japanese values.
+    for chinese, canonical_english in KNOWN_ZH_CHAT_CANONICAL_ALIASES.items():
+        if not RUNTIME_TOKEN_RE.search(chinese):
+            continue
+        japanese = translations.get(canonical_english)
+        if not japanese:
+            continue
+        line = build_runtime_regex(chinese, japanese, force=True)
+        if line:
+            lines.append(line)
+
+    lines.extend(build_chat_recruitment_regex_lines(translations))
 
     # ID 35031 is authored as one rich-text block with a literal "\\n", but the
     # task/server HUD renders its two lines as separate TextMeshPro strings. The
@@ -761,6 +1169,16 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
         if japanese:
             add_variant(f"{english}!", f"{japanese}!")
             add_variant(f"{english}!!", f"{japanese}!!")
+
+    # Exact fixed zh_CN chat labels/names that can arrive already localized by
+    # another client's language setting. Placeholder-bearing aliases are handled
+    # by runtime regexes instead.
+    for chinese, canonical_english in KNOWN_ZH_CHAT_CANONICAL_ALIASES.items():
+        if RUNTIME_TOKEN_RE.search(chinese):
+            continue
+        japanese = translations.get(canonical_english)
+        if japanese:
+            add_variant(chinese, japanese)
 
     # The recommended-build heading receives its build name after the normal
     # LanguageKV lookup. A regex can translate the label, but its captured
@@ -1072,6 +1490,44 @@ def run(check_only: bool) -> int:
                 f"known server-level rendered line did not generate a regex rule: {english!r}"
             )
 
+    for chat_key in (
+        KNOWN_CHAT_JOIN_PARTY,
+        KNOWN_CHAT_CARD_TEMPLATE,
+        KNOWN_PARTY_NAME_TEMPLATE,
+        KNOWN_PARTY_OBJECTIVE_TEMPLATE,
+        KNOWN_PARTY_POWER_TEMPLATE,
+        KNOWN_PARTY_RECRUITING_TEMPLATE,
+        "Dungeon",
+    ):
+        if not translations.get(chat_key):
+            raise ImportErrorWithContext(
+                f"known chat/recruitment canonical key is missing: {chat_key!r}"
+            )
+    chat_regex_lines = build_chat_recruitment_regex_lines(translations)
+    if not any(
+        "五人挑战-蛮荒腹地" in line
+        and "本，蛮荒腹地" in line
+        and "メンバー:" in line
+        and "タップしてパーティ参加" in line
+        for line in chat_regex_lines
+    ):
+        raise ImportErrorWithContext("known Savage Hinterlands recruitment regex did not generate")
+    if not any(
+        "队伍目标：无目标" in line
+        and "メンバー:" in line
+        and "タップしてパーティ参加" in line
+        for line in chat_regex_lines
+    ):
+        raise ImportErrorWithContext("known No Objective recruitment regex did not generate")
+    # A body-agnostic outer-card regex can win before a more specific rule in
+    # XUnity and leave the Chinese recruitment body untranslated. Keep these
+    # rules mutually exclusive by forbidding that broad fallback entirely.
+    if any(
+        line.startswith(r'r:"^(?<ro3_dollar_1_1_i>[\s\S]+?)\[メンバー:')
+        for line in chat_regex_lines
+    ):
+        raise ImportErrorWithContext("broad recruitment outer-card fallback must not generate")
+
     priority_text = "\n".join(priority_override_lines)
     expected_priority_pairs = {
         f"[{KNOWN_EVENT_TITLE}]": f"[{translations[KNOWN_EVENT_TITLE]}]",
@@ -1102,6 +1558,8 @@ def run(check_only: bool) -> int:
             KNOWN_TALK_TEMPLATE
         ].replace("${1}", translations[KNOWN_TALK_NAME]),
         OBSERVED_CHOOSE_LABEL: OBSERVED_CHOOSE_TRANSLATION,
+        "点击组队": translations[KNOWN_CHAT_JOIN_PARTY],
+        "蛮荒腹地": translations["Savage Hinterlands"],
     }
     for source in KNOWN_WORLD_LABELS:
         expected_priority_pairs[source] = translations[source]

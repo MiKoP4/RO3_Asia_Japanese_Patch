@@ -1,4 +1,4 @@
-﻿Index	English	Japanese_Translation
+Index	English	Japanese_Translation
 16001	Increases Physical DEF by ${1}~${2}	物理DEFが${1}～${2}増加
 16002	Increases Physical ATK by ${1}~${2}	物理ATKが${1}～${2}増加
 16003	Physical Damage increased by ${1}%.	物理ダメージが${1}%増加。
@@ -421,7 +421,7 @@
 16420	Monster DEF increases after @{1} sec.	@{1}秒後にモンスターのDEFが上昇。
 16421	Epic Campaign (Easy), Begin Challenge	エピックキャンペーン（イージー）、挑戦開始
 16422	${1} Killed ${2} and became Peerless.	${1}が${2}を倒し、無双状態になりました。
-16423	The Demonic Dragon Soul has appeared!	デモニックドラゴンソウルが出現！
+16423	The Demonic Dragon Soul has appeared!	魔竜の魂が出現！
 16424	The Dragonblood Crystal has appeared!	ドラゴンブラッドクリスタルが出現！
 16425	Shadow of Agony\nNo one can Judex me!	苦痛の影\n誰にも私をジュデックスできない！
 16426	Mechanic alert above message bar test	メッセージバー上部メカニック通知テスト
@@ -864,7 +864,7 @@
 16863	This equipment has no saved attributes.	この装備には保存済み属性がありません。
 16864	Job Advance can unlock more skill slots	転職すると追加スキルスロットを解放できます
 16865	Not enough Coins to purchase a Fly Wing	ハエの羽購入に必要なコインが不足しています
-16866	5-Player Challenge - Savage Hinterlands	5人チャレンジ - サベージ奥地
+16866	5-Player Challenge - Savage Hinterlands	5人チャレンジ - サベージ荒野
 16867	Speak with the Mentor about Job Advance	転職について教官と話す
 16868	Give the poor girl some Clothes to wear	かわいそうな少女に服を着せる
 16869	Ask Hollgrehenn about Equipment Forging	装備製造についてホルグレンに聞く
