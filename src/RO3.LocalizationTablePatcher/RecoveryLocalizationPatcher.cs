@@ -434,12 +434,32 @@ namespace RO3.JapaneseMod
                     break;
                 }
 
-                ModulePatch prepared = PrepareModule(
-                    logicalModule,
-                    payloadPath,
-                    original,
-                    mapping,
-                    String.Equals(logicalModule, "Localization_en", StringComparison.Ordinal));
+                ModulePatch prepared;
+                try
+                {
+                    prepared = PrepareModule(
+                        logicalModule,
+                        payloadPath,
+                        original,
+                        mapping,
+                        String.Equals(logicalModule, "Localization_en", StringComparison.Ordinal));
+                }
+                catch (InvalidDataException)
+                {
+                    // The currently installed Recovery payload may already contain
+                    // Japanese values from an older canonical map. A later rename
+                    // (for example a corrected monster name) can then make the
+                    // fallback scanner see neither the original English string nor
+                    // the new Japanese string and fail before the normal partial-
+                    // patch recovery path is reached. Restore the verified pristine
+                    // same-build backup once and rebuild from the latest map.
+                    if (allowBackupRecovery &&
+                        TryRestoreSameBuildBackups(recoveryRoot, manifestPath, manifest))
+                    {
+                        return ApplyInternal(recoveryRoot, manifestPath, mappingPath, false);
+                    }
+                    throw;
+                }
                 modules.Add(prepared);
             }
 
