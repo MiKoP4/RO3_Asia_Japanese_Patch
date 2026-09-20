@@ -261,6 +261,17 @@ LOCALIZATION_PATCH_PREFIXES = (
     # labels upstream so the final rendered line is assembled in Japanese.
     "100103",
     "100104",
+    # Consumable/food descriptions. Item detail panels expand @{n} values before
+    # rendering, so the final prose can otherwise bypass XUnity exact matching.
+    "100501",
+    # World-map and scene/location labels. Several map widgets read the active
+    # localization table directly; patch these upstream so zh_CN place names do
+    # not leak through when the client is using the Chinese source module.
+    "100800",
+    "106801",
+    "120100",
+    "136200",
+    "321",
     # Skill names/descriptions and linked tooltips. Some combat callouts bypass
     # XUnity after the LanguageKV lookup (for example "Focused Arrow Strike!!").
     "101102",
@@ -361,6 +372,12 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10400400001": "Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.",
     "10400400002": "Clear any Realm of the Gods Dungeon with ^{1}@{1} Guild Members^{2} from your guild.",
     "10400400003": "Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.",
+    "10050100004": "Fresh mushrooms skewered and charcoal-grilled until browned outside and plump within. Increases Life by @{1}~@{2} for @{3} hours.",
+    "10080000003": "Prontera",
+    "10680100010": "Payon",
+    "12010000000": "Prontera",
+    "13620000000": "Prontera",
+    "32106": "Payon Cave",
     "25163": "Last Week's Activity: ${1}",
     "25164": "Last Week's Active rating: ${1}",
     "25165": "No data",

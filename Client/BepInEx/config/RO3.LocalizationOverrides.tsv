@@ -2157,6 +2157,40 @@
 23288	Price - Descending	価格 - 降順
 23289	Listing Time - Ascending	出品時間 - 昇順
 23290	Listing Time - Descending	出品時間 - 降順
+10050100000	A vibrant Green Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	鮮やかな緑の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+10050100001	A bright Red Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	鮮やかな赤の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+10050100002	Slow-simmered tomatoes reduced into a rich orange-red broth with a robust tangy aroma. Increases Physical ATK by @{1}~@{2} for @{3} hours.	じっくり煮込んだトマトを、酸味のきいた芳醇な香りが漂う濃厚なオレンジ色のスープに仕上げた。@{3}時間、物理攻撃が@{1}~@{2}増加する。
+10050100003	Mushrooms and tomatoes simmered together into a fragrant amber broth. Increases Magic ATK by @{1}~@{2} for @{3} hours.	キノコとトマトを一緒に煮込み、香り豊かな琥珀色のスープに仕上げた料理。魔法攻撃力が@{1}～@{2}、@{3}時間増加します。
+10050100004	Fresh mushrooms skewered and charcoal-grilled until browned outside and plump within. Increases Life by @{1}~@{2} for @{3} hours.	外はこんがり、中はふっくらとなるよう炭火で串焼きにした新鮮なキノコ。@{3}時間、HPが@{1}〜@{2}増加する。
+10050100005	Monster meat marinated in chili sauce and seared on a griddle until crisp outside and tender within. Increases Physical DEF by @{1}~@{2} for @{3} hours.	チリソースに漬け込んだ魔物の肉を、外はカリッと中は柔らかくなるまで鉄板で焼き上げた料理。@{3}時間、物理防御力が@{1}～@{2}増加する。
+10050100006	A coarse, thick flatbread baked from Grains flour mixed with monster meat and chili peppers. Increases Magic DEF by @{1}~@{2} for @{3} hours.	穀粉にモンスターの肉と唐辛子を混ぜて焼き上げた、厚みのある素朴なフラットブレッド。@{3}時間、魔法防御が@{1}～@{2}増加する。
+10050100007	A golden Yellow Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	黄金色の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+10050100008	Marinated Beast Meat wrapped in dough made from Grains, then steamed and baked to form a dark red crust. Grants @{1}%~@{2}% Increased Damage to Medium Monsters for @{3} hours.	穀物で作った生地に漬け込んだ獣肉を包み、蒸してから焼き上げて濃い赤色の皮に仕上げた料理。@{3}時間、中型モンスターへの与ダメージが@{1}%～@{2}%増加する。
+10050100009	Herbs simmered into soft rice porridge, leaving a lingering bittersweet aroma. Reduces damage taken from Medium monsters by @{1}%~@{2}% for @{3} hours.	薬草をやわらかなお粥にしてじっくり煮込み、ほろ苦く甘い香りを残した一品。@{3}時間、中型モンスターから受けるダメージを@{1}%～@{2}%軽減する。
+10050100010	Beast hide marinated with herbs and chili peppers, rolled into a tube, and charcoal-grilled. Grants @{1}%~@{2}% DMG vs Demi-Human for @{3} hours.	香草と唐辛子で漬け込み、筒状に丸めて炭火で焼き上げた野獣の皮。@{3}時間、人間種族へのダメージが@{1}%～@{2}%増加する。
+10050100011	Grains, monster meat, and chili peppers stir-fried over high heat until every grain gleams with oil. Reduces damage taken from Demi-Human monsters by @{1}%~@{2}% for @{3} hours.	穀物、モンスター肉、唐辛子を強火で炒め、一粒一粒に油の艶が出るまで仕上げた料理。@{3}時間、人間種族モンスターから受けるダメージが@{1}%～@{2}%減少します。
+10050100012	A deep crimson Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.	深い紅色の回復ポーション。HPを即座に@{1}回復。クールダウン：@{2}秒。
+10050100013	Strawberry juice boiled into amber hard candy and broken into shards. Increases Physical ATK by @{1}~@{2} for @{3} hours.	イチゴの果汁を煮詰めて琥珀色のハードキャンディにし、砕いたもの。@{3}時間、物理攻撃力が@{1}～@{2}増加します。
+10050100014	Round strawberry-and-cocoa-filled candies coated in a hard sugar shell. Increases Magic ATK by @{1}~@{2} for @{3} hours.	イチゴとココアを詰め、硬い砂糖でコーティングした丸いキャンディ。魔法攻撃力が@{1}～@{2}、@{3}時間増加します。
+10050100015	Thick hot cocoa flavored with vanilla and topped with fine Milk foam. Increases Life by @{1}~@{2} for @{3} hours.	バニラ風味の濃厚ホットココアに、きめ細かなミルクフォームをのせた一杯。@{3}時間、HPが@{1}～@{2}増加する。
+10050100016	A vibrant Green Healing Potion brimming with Life that instantly restores @{1} HP. Cooldown: @{2} sec.	生命力に満ちた鮮やかな緑色の回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+10050100017	A thick pink milkshake blended from strawberries and Milk. Increases Physical DEF by @{1}~@{2} for @{3} hours.	イチゴとミルクを混ぜた濃厚なピンク色のミルクシェイク。@{3}時間、物理防御力が@{1}～@{2}増加する。
+10050100018	Strawberry and cocoa melted into warm Milk, creating a rich pinkish-brown drink. Increases Magic DEF by @{1}~@{2} for @{3} hours.	イチゴとココアを温かいミルクに溶かし込んだ、濃厚なピンクがかった茶色のドリンク。@{3}時間、魔法防御力が@{1}〜@{2}増加する。
+10050100019	A smooth brown pudding made by setting cocoa bean juice with Milk. Grants @{1}%-@{2}% Increased Damage to Medium Monsters for @{3} hours.	カカオ豆の果汁をミルクと混ぜて固めた、なめらかなブラウンプディング。@{3}時間、中型モンスターへの与ダメージが@{1}%-@{2}%増加する。
+10050100020	A Stem coated in colorful layers of syrup for a dazzling finish. Reduces damage taken from Medium monsters by @{1}%-@{2}% for @{3} hours.	色鮮やかなシロップを何層にもコーティングして美しく仕上げた茎。@{3}時間、中型モンスターから受けるダメージを@{1}%-@{2}%軽減する。
+10050100021	Dried Strawberry and herb leaves slow-simmered into a light red soup with a delicate sweetness. Grants @{1}%-@{2}% DMG vs Demi-Human for @{3} hours.	乾燥イチゴと薬草の葉をとろ火でじっくり煮込んだ、ほんのり甘い薄紅色のスープ。@{3}時間、人間種族へのダメージが@{1}%～@{2}%増加する。
+10050100022	Dried strawberries coated in cocoa syrup and set on a Stem. Reduces damage taken from Demi-Human monsters by @{1}%-@{2}% for @{3} hours.	ココアシロップでコーティングして茎に刺したドライストロベリー。@{3}時間、人間形モンスターから受けるダメージを@{1}%-@{2}%軽減する。
+10050100023	A Healing Potion imbued with the power of Blessing that instantly restores @{1} HP. Cooldown: @{2} sec.	祝福の力を宿した回復ポーション。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+10050100024	Slow-fermented Grape wine with a deep purple hue and herbal finish. Increases Physical ATK by @{1}~@{2} for @{3} hours.	じっくり発酵させた濃い紫色のブドウ酒。ハーブの余韻が残る一杯。物理攻撃力が@{1}～@{2}、@{3}時間増加します。
+10050100025	A deep purple cocktail of Grape juice, Lemon juice, and Alcohol, shaken well. Increases Magic ATK by @{1}~@{2} for @{3} hours.	ブドウ果汁、レモン果汁、アルコールをよくシェイクした濃い紫色のカクテル。@{3}時間、魔法攻撃力が@{1}～@{2}増加します。
+10050100026	Lemon and herbs infused in Alcohol until as clear as Crystal. Increases Life by @{1}~@{2} for @{3} hours.	レモンとハーブを水晶のように澄むまでアルコールに漬け込んだもの。@{3}時間、HPが@{1}～@{2}増加します。
+10050100027	Grape powder dissolved in sparkling water, topped with persistent purple-red foam. Increases Physical DEF by @{1}~@{2} for @{3} hours.	炭酸水にブドウパウダーを溶かし、消えにくい赤紫色の泡を浮かべた一杯。@{3}時間、物理防御力が@{1}〜@{2}増加する。
+10050100028	Freshly squeezed Grape and Lemon juices blended into a bright, sweet-and-tart drink. Increases Magic DEF by @{1}~@{2} for @{3} hours.	絞りたてのブドウ果汁とレモン果汁をブレンドした、鮮やかで甘酸っぱいドリンク。@{3}時間、魔法防御力が@{1}〜@{2}増加する。
+10050100029	A Fountain of Life surging with boundless vitality that instantly restores @{1} HP. Cooldown: @{2} sec.	尽きることのない生命力が湧き出す生命の泉。使用すると即座にHPを@{1}回復します。クールダウン：@{2}秒。
+10050100030	Lemon slices steeped in orangewood sap, creating a clear, light drink with a citrus aroma. Grants @{1}%~@{2}% Increased Damage to Medium Monsters for @{3} hours.	オレンジの木の樹液にレモンスライスを浸した、柑橘の香りが広がるすっきりとした飲み物。@{3}時間、中型モンスターへの与ダメージが@{1}%～@{2}%増加する。
+10050100031	Herbs and Lemon gently infused in orangewood sap at a low temperature. Reduces damage taken from Medium monsters by @{1}%~@{2}% for @{3} hours.	ハーブとレモンをオレンジウッドの樹液に低温でじっくり漬け込んだもの。@{3}時間、中型モンスターから受けるダメージを@{1}%～@{2}%軽減する。
+10050100032	Grape and herbs slow-simmered in orangewood sap for a rich, woody aroma. Increases damage to Demi-Human monsters by @{1}%~@{2}% for @{3} hours.	オレンジウッドの樹液でブドウとハーブをとろ火で煮込み、豊かな木の香りを引き出した。@{3}時間、人間形モンスターへの与ダメージが@{1}%～@{2}%増加する。
+10050100033	Grape and Lemon simmered in bitter orange juice for a lingering woody sweetness. Use to increase Demi-Human damage reduction by @{1}%~@{2}% for @{3} hours.	ビターオレンジ果汁でブドウとレモンをじっくり煮込み、木の香りを帯びた甘みを引き出した一品。@{3}時間、人間形モンスターから受けるダメージを@{1}%～@{2}%軽減する。
 11190100105	Reach ${1} personal points in Siege War ${2} times	攻城戦で個人ポイント${1}に${2}回到達
 11190100106	Use Play While Downloading ${1} times	プレイしながらダウンロードを${1}回使用
 11190100107	Log in ${1} times	${1}回ログイン
@@ -2261,6 +2295,105 @@
 25177	Congratulations, ${1}!	おめでとう、${1}！
 25178	Please enter text to share first.	先に共有テキストを入力してください。
 25179	Invalid share text.	共有テキストが無効です。
+10680100000	Job Advance Scene	転職シーン
+10680100001	Unknown Area	未知の領域
+10680100002	Test Instance	テストインスタンス
+10680100003	Prontera West Gate	プロンテラ西門
+10680100004	Prontera North Gate	プロンテラ北門
+10680100005	Adventure Party Creation Instance	冒険パーティ作成インスタンス
+10680100006	Rainbow Koi Dungeon	虹色コイダンジョン
+10680100007	Izlude	イズルード
+10680100008	Royal Palace	王宮
+10680100009	Culvert Floor @{1}	地下水路 @{1}階
+10680100010	Payon	フェイヨン
+10680100011	Southern Payon	南フェイヨン
+10680100012	Eastern Payon	東フェイヨン
+10680100013	Payon Forest	フェイヨンの森
+10680100014	Payon Instance	フェイヨンインスタンス
+10680100015	Geffen	ゲフェン
+10680100016	Multiplayer PvP	マルチプレイヤーPvP
+10680100017	Goblin Forest	ゴブリンの森
+10680100018	Geffen East Gate	ゲフェン東門
+10680100019	Desert Crossroad	砂漠の交差路
+10680100020	Ant Hell	蟻地獄
+10680100021	Spirit Tower	精霊の塔
+10680100022	Battleground of the Gods	神々の戦場
+10680100023	RO Survivors	RO生存者
+10680100024	Sky Realm	天空領域
+10680100025	Underground Kingdom	地下王国
+10680100026	Training Ground	訓練場
+10680100027	Guild League - Main Battlefield	ギルドリーグ - メイン戦場
+10680100028	Guild League - Sub-Battlefield	ギルドリーグ - サブ戦場
+10680100029	Shine! Alpaca Girl	輝け！アルパカガール
+10680100030	Mock Battle - Registration Phase	模擬戦 - 登録フェーズ
+10680100031	Mock Battle	模擬戦
+10680100032	War of Emperium	攻城戦
+10680100033	Multilevel Pathfinding	多層経路探索
+10680100034	Stronghold Battle	拠点戦
+10680100035	Eastern Prontera State Capital	プロンテラ東部州都
+10680100036	Western Prontera State Capital	プロンテラ西部州都
+10680100037	Southern Prontera State Capital	プロンテラ南部州都
+10680100038	Eastern Geffen State Capital	ゲフェン東部州都
+10680100039	Western Geffen State Capital	ゲフェン西部州都
+10680100040	Southern Geffen State Capital	ゲフェン南部州都
+10680100041	Eastern Payon State Capital	フェイヨン東部州都
+10680100042	Western Payon State Capital	フェイヨン西部州都
+10680100043	Southern Payon State Capital	フェイヨン南部州都
+10680100044	Eastern Morroc State Capital	モロック東部州都
+10680100045	Western Morroc State Capital	モロック西部州都
+10680100046	South Morroc State Capital	南モロック州都
+10680100047	Eastern Izlude State Capital	イズルード東部州都
+10680100048	Western Izlude State Capital	イズルード西部州都
+10680100049	Southern Izlude State Capital	イズルード南部州都
+10680100050	Eastern Alberta State Capital	アルベルタ東部州都
+10680100051	Western Alberta State Capital	アルベルタ西部州都
+10680100052	Southern Alberta State Capital	アルベルタ南部州都
+10680100053	Territory War Grid - @{1}	領地戦グリッド - @{1}
+10680100054	Stronghold Battle White Box	拠点戦ホワイトボックス
+10680100055	Kafra - Battle for Survival	カプラ - サバイバルバトル
+10680100056	Treasure Chamber	宝物庫
+10680100057	Stage Test Blueprint	ステージテスト設計図
+10680100058	Dragon Hunt	ドラゴンハント
+10680100059	Seal Defense Battle	封印防衛戦
+10680100060	Battle of Dragon Coffin Island	ドラゴンコフィン島の戦い
+10680100061	Dracula's Lair	ドラキュラの隠れ家
+10680100062	Sky Temple (Test)	天空神殿（テスト）
+10680100063	Battle in the Sea of Clouds (Test)	雲海戦（テスト）
+10680100064	Hope Beach (Test)	ホープビーチ（テスト）
+10680100065	Chaos Realm (Test)	カオスレルム（テスト）
+10680100066	Temple of Cadence	律動の神殿
+10680100067	Above the Sea of Clouds	雲海の上
+10680100068	Wailing Tidal Flats	嘆きの干潟
+10680100069	Chaos Court	カオスコート
+10680100070	Whaleback Chute	ホエールバックシュート
+10680100071	Giantbone Wastes	巨骨の荒野
+10680100072	Battle in the Sea of Clouds - Spiral Slide	雲海戦 - スパイラルスライド
+10680100073	S@{1}-GVE-@{2}boss	S@{1}-GVE-@{2}ボス
+10680100074	Realm of the Gods	神々の領域
+10680100075	S@{1} 10-Player Dungeon No. @{2}	S@{1} 10人ダンジョン No. @{2}
+10680100076	S@{1}10-Player Raid No. @{2}-@{3}	S@{1}10人レイド No. @{2}-@{3}
+10680100077	Stronghold Battle-@{1}	拠点戦-@{1}
+10680100078	Orc Village	オークの村
+10680100079	Silent Ship	サイレント・シップ
+10680100080	Mt. Mjolnir	ミョルニール山脈
+10680100081	Culvert	地下水路
+10680100082	Ant Hell	蟻地獄
+10680100083	Pyramid Maze	ピラミッド迷路
+10680100084	Pharaoh	ファラオ
+10680100085	Moonlight Flower	月夜花
+10680100086	Baphomet	バフォメット
+10680100087	Gryphon	グリフォン
+10680100088	Dark Priest	ダークプリースト
+10680100089	Vocal	ボーカル
+10680100090	Maya	マヤー
+10680100091	Orc Hero	オークヒーロー
+10680100092	Eddga	エドガ
+10680100093	Osiris	オシリス
+10680100094	Pirate Captain	海賊船長
+10680100095	Guild	ギルド
+10680100096	Ring Test	リングテスト
+10680100097	MVP Role-Playing Party	MVPロールプレイパーティ
+10680100098	Boss Challenge	ボスチャレンジ
 12390000000	Card: Lunatic	カード：ルナティック
 12390000001	Card: Savage Babe	カード：サベージベイブ
 12390000002	Card: Fabre	カード：ファブル
@@ -4745,6 +4878,19 @@
 10800100299	When 【Gravitation Field】 ends, inflicts 【Immobilize】 on enemies in the area for ${1} sec.	【グラビテーションフィールド】終了時、範囲内の敵に${1}秒間【移動不能】を付与。
 10800100300	【Mystical Amplification】 grants an Extra {1} Cast Speed.	【ミスティカルアンプリフィケーション】で詠唱速度 +{1}。
 10800100301	【Mystical Amplification】 grants an Extra ${1} Magic ATK.	【ミスティカルアンプリフィケーション】で魔法ATK +${1}。
+32101	Abandoned Mine	廃坑
+32102	Hidden Forest	隠れた森
+32103	Geffen Tower	ゲフェンタワー
+32104	Underground Culvert	地下水路
+32105	Undersea Tunnel	海底トンネル
+32106	Payon Cave	フェイヨン洞窟
+32107	Orc Cave	オーク洞窟
+32108	Pyramid	ピラミッドダンジョン
+32109	Ant Hell	蟻地獄
+32110	Sphinx Crypt	スフィンクスの地下室
+32111	Shipwreck Labyrinth	難破船の迷宮
+32112	Glast Heim Underground	グラストヘイム地下
+32113	Map Coordinates	マップ座標
 10400400007	Participate in one Ilmata, God of Nature event.	自然神イルマタのイベントに1回参加。
 10400400008	Participate in Wedding Crashers	結婚式乱入者に参加
 10400400009	Participate in the Hunting Challenge	ハンティングチャレンジに参加する
@@ -6394,6 +6540,22 @@
 10010400216	Game Mode EXP Bonus	ゲームモードEXPボーナス
 10010400217	All EXP Bonus	全EXPボーナス
 10010400218	Field Auto-Battle EXP Bonus	フィールドオートバトルEXPボーナス
+10080000000	Character Selection Scene	キャラクター選択画面
+10080000001	Garden of Time	時の庭
+10080000002	Tritura Academy	クリトゥラ学園
+10080000003	Prontera	プロンテラ
+10080000004	Izlude	イズルード
+10080000005	Byalan Island	バイラン島
+10080000006	Inn	宿屋
+10080000007	Library	図書館
+10080000008	Grand Cathedral	大聖堂
+10080000009	Royal Palace	王宮
+10080000010	Tavern	酒場
+10080000011	Prontera East Gate	プロンテラ東門
+10080000012	Prontera South Gate	プロンテラ南門
+10080000013	Prontera West Gate	プロンテラ西門
+10080000014	Prontera North Gate	プロンテラ北門
+10080000015	Undersea Tunnel Floor @{1}	海底トンネル @{1}F
 13150100000	【Create Adventure Group】Party Leader Hangs the Declaration	【冒険グループ作成】パーティリーダーが宣言を掲示
 13150100001	【Create Adventure Group】Members Water the Sapling	【冒険グループ作成】メンバーが苗木に水やり
 13150100021	Card Objective - Rank Up	カード目標 - ランクアップ
@@ -7166,6 +7328,17 @@
 12390001804	Silverwing Covenant - Prayer	シルバーウィングの盟約 - 祈り
 12390001805	Nine-Tone Mantra: Rainbow Raiment	九音真言：虹の衣
 12390001806	Nine-Hued Sacred Melody · Apsara	九彩の聖なる旋律・天女
+13620000010	Prontera S@{1}	プロンテラ S@{1}
+13620000009	Izlude	イズルード
+13620000008	Sunken Ship	沈没船
+13620000007	Byalan Island	バイラン島
+13620000006	Mt. Mjolnir	ミョルニール山脈
+13620000005	Pharos Lighthouse	ファロス灯台
+13620000004	Morroc	モロック
+13620000003	Payon	フェイヨン
+13620000002	Orc Village	オークの村
+13620000001	Geffen	ゲフェン
+13620000000	Prontera	プロンテラ
 10110200264	Flasher	フラッシャー
 10110200265	Focused Arrow Strike	集中アローストライク
 10110200266	Arm Cannon Enhance	アームキャノン強化
@@ -9940,6 +10113,11 @@
 12390000016	Card: Poring	カード：ポリン
 10110300582	When an ^{1}Offensive-type^{2} Primary Battle Skill Deals DMG to an enemy, inflicts ${1}% ^{3}【Sluggish】^{4} for ${2} sec.	^{1}攻撃型^{2}のメイン戦闘スキルが敵にダメージを与えた時、${2}秒間、${1}%の^{3}【鈍足】^{4}を付与します。
 10110300583	Deals Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicts ${4}% ^{3}【Slow】^{4} for ${5} seconds.	${1}m以内の最大${2}体の敵に、ペット物理攻撃力*^{1}${3}%^{2}の無属性近接物理ダメージを与え、${5}秒間${4}%の^{3}【減速】^{4}を付与します。
+10080000069	Glast Heim Underground Cave Floor @{1}	グラストヘイム地下洞窟 @{1}F
+10080000070	Glast Heim Underground Cemetery	グラストヘイム地下墓地
+10080000071	Glast Heim Underground Prison Floor @{1}	グラストヘイム地下監獄 @{1}F
+10080000072	Realm Sandbox-@{1}	領域サンドボックス-@{1}
+10080000073	Producer's Lair	プロデューサーの隠れ家
 10110200184	Shield Press	シールドプレス
 10110200185	Reflect Damage	ダメージ反射
 10110200186	Shield Cast	シールドキャスト
@@ -9966,6 +10144,48 @@
 10110200207	Shield Auto Counter	シールドオートカウンター
 10110200208	Powerful Auto Counter	強力オートカウンター
 10110200209	Block Impact	ブロックインパクト
+12010000041	Alberta Southern Capital - Base @{1}	アルベルタ南部首都 - 拠点@{1}
+12010000040	Alberta Western Capital - Base @{1}	アルベルタ西部首都 - 拠点 @{1}
+12010000039	Alberta Eastern Capital - Base @{1}	アルベルタ東部首都 - 拠点 @{1}
+12010000038	Alberta Southern Capital	アルベルタ南部地域
+12010000037	Western Alberta Prefecture	アルベルタ西部
+12010000036	Eastern Alberta Prefecture	アルベルタ東部
+12010000035	Alberta	アルベルタ
+12010000034	Southern Izlude Prefecture - Stronghold @{1}	イズルード南部地域 - 拠点 @{1}
+12010000033	Western Izlude Prefecture - Stronghold @{1}	イズルード西部地域 - 拠点 @{1}
+12010000032	Eastern Izlude Prefecture - Stronghold @{1}	イズルード東部地域 - 拠点 @{1}
+12010000031	Southern Izlude Prefecture	イズルード南部
+12010000030	Western Izlude Prefecture	イズルード西部
+12010000029	Eastern Izlude Prefecture	イズルード東部
+12010000028	Izlude	イズルード
+12010000027	South Morroc Prefecture - Stronghold @{1}	南モロック地域 - 拠点 @{1}
+12010000026	Western Morroc Prefecture - Stronghold @{1}	モロック西部地域 - 拠点 @{1}
+12010000025	Eastern Morroc Prefecture - Stronghold @{1}	モロック東部地域 - 拠点 @{1}
+12010000024	South Morroc Prefecture	南モロック地域
+12010000023	Western Morroc Prefecture	モロック西部
+12010000022	Eastern Morroc Prefecture	モロック東部
+12010000021	Morroc	モロック
+12010000020	Southern Payon Prefecture - Stronghold @{1}	フェイヨン南部地域 - 拠点 @{1}
+12010000019	Western Payon Prefecture - Stronghold @{1}	フェイヨン西部地域 - 拠点 @{1}
+12010000018	Eastern Payon Prefecture - Stronghold @{1}	フェイヨン東部地域 - 拠点 @{1}
+12010000017	Southern Payon Prefecture	フェイヨン南部
+12010000016	Western Payon Prefecture	フェイヨン西部地域
+12010000015	Eastern Payon Prefecture	フェイヨン東部地域
+12010000014	Payon	フェイヨン
+12010000013	Southern Geffen Prefecture - Stronghold @{1}	ゲフェン南部地域 - 拠点 @{1}
+12010000012	Western Geffen Prefecture - Stronghold @{1}	ゲフェン西部地域 - 拠点 @{1}
+12010000011	Eastern Geffen Prefecture - Stronghold @{1}	ゲフェン東部地域 - 拠点 @{1}
+12010000010	Southern Geffen Prefecture	ゲフェン南部
+12010000009	Western Geffen Prefecture	ゲフェン西部
+12010000008	Eastern Geffen Prefecture	ゲフェン東部
+12010000007	Geffen	ゲフェン
+12010000006	Southern Prontera Prefecture - Stronghold @{1}	プロンテラ南部地域 - 拠点 @{1}
+12010000005	Western Prontera Prefecture - Stronghold @{1}	プロンテラ西部地域 - 拠点 @{1}
+12010000004	Stronghold @{1}	要塞 @{1}
+12010000003	Southern Prontera Prefecture	プロンテラ南部
+12010000002	Western Prontera Prefecture	プロンテラ西部
+12010000001	Eastern Prontera Prefecture	プロンテラ東部
+12010000000	Prontera	プロンテラ
 11250000070	MATK	魔法攻撃
 11250000069	Continuous Shield	持続シールド
 11250000068	Desperate Defense	決死の防御
@@ -12095,3 +12315,56 @@
 10110200212	Spatial Dimension	空間次元
 10110200211	Test Skill@{1}*	テストスキル@{1}*
 10110200210	Test Skill@{1}	テストスキル@{1}
+10080000068	Glast Heim Chivalry Floor @{1}	グラストヘイム騎士団 @{1}F
+10080000067	Glast Heim Culvert Floor @{1}	グラストヘイム地下水路 @{1}F
+10080000066	Glast Heim Aboveground Floor @{1}	グラストヘイム地上 @{1}F
+10080000065	Glast Heim Monastery	グラストヘイム修道院
+10080000064	Glast Heim the Ancient City	古都グラストヘイム
+10080000063	Shipwreck Labyrinth Floor @{1}	難破船の迷宮 @{1}F
+10080000062	Sunken Ship	沈没船
+10080000061	Port Malaya	ポートマラヤ
+10080000060	Dewata Village	デワタ村
+10080000059	Ayothaya	アヨタヤ
+10080000058	Luoyang	洛陽
+10080000057	Gonryun	コンロン
+10080000056	Amatsu	アマツ
+10080000055	Alberta	アルベルタ
+10080000054	Sphinx Dungeon Floor @{1}	スフィンクスダンジョン @{1}F
+10080000053	Pyramid Floor @{1}	ピラミッド @{1}F
+10080000052	Ant Hell	蟻地獄
+10080000051	Pharos Lighthouse	ファロス灯台
+10080000050	Papuchicha Forest	パプチカの森
+10080000049	Western Morroc	モロック西部
+10080000048	Southern Sograt	ソグラト南部
+10080000047	South Morroc	南モロック
+10080000046	Sograt Desert	ソグラト砂漠
+10080000045	Bridge of Desert	砂漠の橋
+10080000044	Desert Crossroad	砂漠の交差路
+10080000043	Morroc	モロック
+10080000042	Abandoned Mine	廃坑
+10080000041	Hidden Forest	隠れた森
+10080000040	Larva Canyon	ラーバキャニオン
+10080000039	Mt. Mjolnir	ミョルニール山脈
+10080000038	Mjolnir Garden	ミョルニール庭園
+10080000037	Geffen Tower Floor @{1}	ゲフェンタワー @{1}F
+10080000036	Orc Cave	オーク洞窟
+10080000035	Geffen East Gate	ゲフェン東門
+10080000034	Goblin Forest	ゴブリンの森
+10080000033	Geffen Field	ゲフェンフィールド
+10080000032	Geffen West Gate	ゲフェン西門
+10080000031	Geffen Outskirts	ゲフェン郊外
+10080000030	Geffen North Gate	ゲフェン北門
+10080000029	Kordt Forest	コルトの森
+10080000028	Orc Village	オークの村
+10080000027	Geffen	ゲフェン
+10080000026	Abandoned Village	廃村
+10080000025	Payon Cave	フェイヨン洞窟
+10080000024	Payon Forest	フェイヨンの森
+10080000023	Deep Forest	ディープフォレスト
+10080000022	Eastern Payon	東フェイヨン
+10080000021	Southeast Payon	フェイヨン南東部
+10080000020	Poring Island	ポリン島
+10080000019	Southern Payon	南フェイヨン
+10080000018	Archer Village	アーチャーの村
+10080000017	Payon	フェイヨン
+10080000016	Culvert Floor @{1}	地下水路 @{1}階
