@@ -215,7 +215,7 @@ Index	English	Japanese_Translation
 24214	Oh, stop complaining. Look, you picked up a Card: Poring! Wow, that's a great find! It can grant your equipment unexpected STR.	もう、文句を言うのはやめて。見て、カード：ポリンを拾ったよ！ わあ、大発見じゃない！ 装備に思わぬSTRを付与してくれるよ。
 24215	After a blinding flash and a cloud of acrid smoke, a strange, red-bodied ant with twitching antennae appeared in Phines's hand.	目もくらむような閃光と刺激臭のする煙の後、ピクピクと触角を動かす奇妙な赤い体のアリがフィネスの手に現れた。
 24216	The ship will fall apart at this rate! Hurry to starboard and operate the Turret to Auto Counter! Show them what we're made of!	このままじゃ船がバラバラになっちまう！ 急いで右舷に向かい、タレットを操作して自動迎撃しろ！ 我らの底力を見せてやるんだ！
-24217	Kafra Battlefield Manager\nReceive the Blessing of Thor, God of Thunder, granting @{1} Extra exclusive skills for @{2} minutes.	カプラ戦場マネージャー\n雷神トールの祝福を受け、@{2}分間、@{1}個の追加専用スキルを獲得する。
+24217	Kafra Battlefield Manager\nReceive the Blessing of Thor, God of Thunder, granting @{1} Extra exclusive skills for @{2} minutes.	カプラ戦場管理人\n雷神トールの祝福を受け、@{2}分間、@{1}個の追加専用スキルを獲得する。
 24218	Quick Tip\nTime it right! Tap when the pointer passes through the green area. The closer to the center, the higher your Rating!	クイックヒント\nタイミングを合わせよう！ ポインターが緑のエリアを通過した時にタップ。中央に近いほど評価が高くなります！
 24219	The enemy has breached the South Gate perimeter and is advancing toward the Inn! Fall back and defend the Inn area immediately!	敵が南門の防衛線を突破し、宿屋に向かって進軍しています！ 直ちに後退し、宿屋周辺を防衛してください！
 24220	The main guild building determines the Guild Member capacity. Level-up the main building to increase the Guild Member capacity.	ギルドのメイン施設がギルドメンバーの人員上限を決定します。メイン施設をレベルアップしてギルドメンバーの上限を増やしましょう。
@@ -387,7 +387,7 @@ Index	English	Japanese_Translation
 24386	I'm looking for warriors who will stand with me through life and death! If you have both brains and brawn, hesitate no longer—join me!	生死を共にしてくれる戦士を探しているんだ！ 知恵と勇気の両方を兼ね備えているなら、迷わず俺のところへ来い！
 24387	I'll wait up ahead. Once you have the Tree Bark, hurry over. Don't drag your feet, or certain people might change their minds again...	先に行って待っているぞ。木の皮が手に入ったら急いで来てくれ。ぐずぐずしていると、誰かさんがまた気が変わるかもしれないからな…
 24388	Phew, you're finally awake! You really scared me... I never expected the recoil to be so powerful that it would knock you unconscious.	ふう、やっと目が覚めた！ 本当にヒヤヒヤしたよ…反動があんなに強烈で、気絶しちゃうなんて思いもしなかったよ。
-24389	Kafra Battlefield Manager\nAn Evil Eye Emissary carrying a [Large Surprise Chest] has appeared in the Location. Warriors, go seize it!	カプラ戦場マネージャー\n[特大サプライズチェスト]を所持した邪眼の使徒が当該位置に出現しました。戦士たちよ、奪取せよ！
+24389	Kafra Battlefield Manager\nAn Evil Eye Emissary carrying a [Large Surprise Chest] has appeared in the Location. Warriors, go seize it!	カプラ戦場管理人\n[特大サプライズチェスト]を所持した邪眼の使徒が当該位置に出現しました。戦士たちよ、奪取せよ！
 24390	Open this Pack to obtain a Tier @{1} Weapon Crafting Blueprint, an Armor Crafting Blueprint, and the corresponding Crafting Materials.	このパックを開けると、T@{1}の武器製作設計図、防具製作設計図、および対応する製作素材を獲得できます。
 24391	Deals steady Physical damage with cart attacks and provides Buffs that improve the Battle capabilities of both the user and the party.	カートによる攻撃で安定した物理ダメージを与え、自身およびパーティの戦闘能力を高めるバフを提供する。
 24392	When casting a ^{1}Buff-type^{2} or ^{3}Shield-type^{4} Primary Battle Skill, grants the owner ^{5}^{6}Immunity^{7} ^{8} for ${1} sec.	^{1}バフタイプ^{2}または^{3}シールドタイプ^{4}のメイン戦闘スキル発動時、主人に${1}秒間^{5}^{6}免疫^{7}^{8}を付与する。

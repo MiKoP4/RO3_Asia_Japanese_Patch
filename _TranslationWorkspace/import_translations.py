@@ -129,6 +129,19 @@ KNOWN_VIGOR_DESCRIPTION_TEMPLATE = (
     "Consumed when gathering and crafting with a Life Skill. Obtain it from Recommend-Activity "
     "Chests. You can accumulate up to ^{1}@{1}^{2} points."
 )
+KNOWN_KAFRA_BATTLEFIELD_MANAGER = "Kafra Battlefield Manager"
+KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY = (
+    "Receive the Blessing of Odin, King of the Gods, reducing skill Cooldown by "
+    "@{1}% for @{2} minutes."
+)
+KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS = (
+    "10320000354",
+    "10320000356",
+    "10320000357",
+    "10320000358",
+    "10320000375",
+    "10320000377",
+)
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
     "${2}: Server Level Cap increases to Lv. ${3}</color>"
@@ -268,6 +281,9 @@ LOCALIZATION_PATCH_PREFIXES = (
     # localization table directly; patch these upstream so zh_CN place names do
     # not leak through when the client is using the Chinese source module.
     "100800",
+    # Battlefield announcement cards are authored as one literal-\\n string but
+    # rendered as separate title/body Text elements after placeholder expansion.
+    *KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS,
     "106801",
     "120100",
     "136200",
@@ -374,6 +390,9 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10400400003": "Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.",
     "10050100004": "Fresh mushrooms skewered and charcoal-grilled until browned outside and plump within. Increases Life by @{1}~@{2} for @{3} hours.",
     "10080000003": "Prontera",
+    "10320000354": (
+        KNOWN_KAFRA_BATTLEFIELD_MANAGER + "\\n" + KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY
+    ),
     "10680100010": "Payon",
     "12010000000": "Prontera",
     "13620000000": "Prontera",
@@ -994,6 +1013,23 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
 
     lines.extend(build_chat_recruitment_regex_lines(translations))
 
+    # Battlefield announcement cards in 103200 are stored as one literal-\\n
+    # LanguageKV string, then rendered as separate title/body Text elements.
+    # The body receives placeholder expansion before XUnity sees it, so derive
+    # per-line runtime regexes from the canonical pair.
+    for english in load_language_kv_texts(KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS):
+        japanese = translations.get(english)
+        if not japanese or "\\n" not in english or "\\n" not in japanese:
+            continue
+        source_parts = english.split("\\n")
+        target_parts = japanese.split("\\n")
+        if len(source_parts) != len(target_parts):
+            continue
+        for source_part, target_part in zip(source_parts, target_parts):
+            line = build_runtime_regex(source_part, target_part, force=True)
+            if line:
+                lines.append(line)
+
     # ID 35031 is authored as one rich-text block with a literal "\\n", but the
     # task/server HUD renders its two lines as separate TextMeshPro strings. The
     # live values therefore never match either the canonical exact key or the
@@ -1178,6 +1214,21 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
         japanese = translations.get(english)
         if japanese:
             add_variant(english, japanese)
+
+    # Battlefield announcement cards split a literal-\\n LanguageKV value into
+    # separate title/body UI elements. Keep fixed split parts (especially the
+    # title) in the high-priority exact dictionary; placeholder-expanded body
+    # text is covered by the runtime regex derivatives above.
+    for english in load_language_kv_texts(KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS):
+        japanese = translations.get(english)
+        if not japanese or "\\n" not in english or "\\n" not in japanese:
+            continue
+        source_parts = english.split("\\n")
+        target_parts = japanese.split("\\n")
+        if len(source_parts) != len(target_parts):
+            continue
+        for source_part, target_part in zip(source_parts, target_parts):
+            add_variant(source_part, target_part)
 
     # Combat speech bubbles append punctuation to the 101102 skill name after
     # the localization lookup. Generate the observed forms up front.
@@ -1507,6 +1558,25 @@ def run(check_only: bool) -> int:
                 f"known server-level rendered line did not generate a regex rule: {english!r}"
             )
 
+    kafra_odin_key = (
+        KNOWN_KAFRA_BATTLEFIELD_MANAGER + "\\n" + KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY
+    )
+    kafra_odin_japanese = translations.get(kafra_odin_key)
+    if not kafra_odin_japanese:
+        raise ImportErrorWithContext("known Kafra battlefield Odin notification is missing")
+    kafra_odin_parts = kafra_odin_japanese.split("\\n")
+    if len(kafra_odin_parts) != 2:
+        raise ImportErrorWithContext("known Kafra battlefield Odin notification did not split")
+    kafra_odin_regex = build_runtime_regex(
+        KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY,
+        kafra_odin_parts[1],
+        force=True,
+    )
+    if not kafra_odin_regex or kafra_odin_regex not in regex_lines:
+        raise ImportErrorWithContext(
+            "known Kafra battlefield Odin rendered body did not generate a runtime regex"
+        )
+
     for chat_key in (
         KNOWN_CHAT_JOIN_PARTY,
         KNOWN_CHAT_CARD_TEMPLATE,
@@ -1577,6 +1647,7 @@ def run(check_only: bool) -> int:
         OBSERVED_CHOOSE_LABEL: OBSERVED_CHOOSE_TRANSLATION,
         "点击组队": translations[KNOWN_CHAT_JOIN_PARTY],
         "蛮荒腹地": translations["Savage Hinterlands"],
+        KNOWN_KAFRA_BATTLEFIELD_MANAGER: kafra_odin_parts[0],
     }
     for source in KNOWN_WORLD_LABELS:
         expected_priority_pairs[source] = translations[source]

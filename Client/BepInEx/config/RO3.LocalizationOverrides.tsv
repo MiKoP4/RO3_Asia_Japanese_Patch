@@ -7081,6 +7081,12 @@
 13150100541	Job Advance Training	転職訓練
 13150100542	Complete Training	訓練を完了
 13150100543	New Skills	新しいスキル
+10320000354	Kafra Battlefield Manager\nReceive the Blessing of Odin, King of the Gods, reducing skill Cooldown by @{1}% for @{2} minutes.	カプラ戦場管理人\n主神オーディンの祝福を受け、@{2}分間、スキルのクールダウンが@{1}%短縮されます。
+10320000356	Kafra Battlefield Manager\nReceive the Blessing of Baldur, God of Light, increasing MSPD by @{1}% for @{2} minutes.	カプラ戦場管理人\n光の神バルドルの加護を受け、@{2}分間、移動速度が@{1}%増加する。
+10320000357	Kafra Battlefield Manager\nReceive the Blessing of Thor, God of Thunder, granting @{1} Extra exclusive skills for @{2} minutes.	カプラ戦場管理人\n雷神トールの祝福を受け、@{2}分間、@{1}個の追加専用スキルを獲得する。
+10320000358	Kafra Battlefield Manager\nReceive the Blessing of Tyr, God of War, increasing Crit Chance by @{1}% for @{2} minutes.	カプラ戦場管理人\n戦の神テュールの加護を受け、@{2}分間、クリティカル率が@{1}%増加する。
+10320000375	Kafra Battlefield Manager\nAn Evil Eye Messenger carrying a [Small Surprise Chest] has appeared in the Location. Warriors, go seize it!	カプラ戦場管理人\n【小さなサプライズ宝箱】を持った邪眼の使者がこの場所に出現しました。勇者たちよ、奪い取りに向かいましょう！
+10320000377	Kafra Battlefield Manager\nAn Evil Eye Emissary carrying a [Large Surprise Chest] has appeared in the Location. Warriors, go seize it!	カプラ戦場管理人\n[特大サプライズチェスト]を所持した邪眼の使徒が当該位置に出現しました。戦士たちよ、奪取せよ！
 50058	Guild membership reaches ${1}	ギルドメンバー数が${1}に到達
 50059	Your guild's Active rating reached ${1} last week.	先週、ギルド活動評価が${1}に到達しました。
 10110200238	Cleaving Slash	クリービングスラッシュ

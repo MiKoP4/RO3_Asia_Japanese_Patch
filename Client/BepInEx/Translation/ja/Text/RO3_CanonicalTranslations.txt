@@ -12535,11 +12535,11 @@ Kafra Battlefield Administrator\nThe Equipment Merchant has appeared on the batt
 Kafra Battlefield Administrator\nThe Equipment Merchant has left the battlefield.=カプラ戦場管理人\n装備商人は戦場から退出しました。
 Kafra Battlefield Administrator\nYou have received the blessing of Valkyrie. The quality of all players' currently equipped gear has increased=カプラ戦場管理者\nあなたはヴァルキリーの加護を受けました。全プレイヤーが現在装備している装備の品質が向上しました
 Kafra Battlefield Administrator\n[Evil Eye Messenger] has airdropped a ^{1}[Surprise Chest]^{2} onto the battlefield!=カプラ戦場管理者\n[邪眼の使者]が戦場に^{1}[サプライズチェスト]^{2}を空中投下しました！
-Kafra Battlefield Manager\nAn Evil Eye Emissary carrying a [Large Surprise Chest] has appeared in the Location. Warriors, go seize it!=カプラ戦場マネージャー\n[特大サプライズチェスト]を所持した邪眼の使徒が当該位置に出現しました。戦士たちよ、奪取せよ！
+Kafra Battlefield Manager\nAn Evil Eye Emissary carrying a [Large Surprise Chest] has appeared in the Location. Warriors, go seize it!=カプラ戦場管理人\n[特大サプライズチェスト]を所持した邪眼の使徒が当該位置に出現しました。戦士たちよ、奪取せよ！
 Kafra Battlefield Manager\nAn Evil Eye Messenger carrying a [Small Surprise Chest] has appeared in the Location. Warriors, go seize it!=カプラ戦場管理人\n【小さなサプライズ宝箱】を持った邪眼の使者がこの場所に出現しました。勇者たちよ、奪い取りに向かいましょう！
 Kafra Battlefield Manager\nReceive the Blessing of Baldur, God of Light, increasing MSPD by @{1}% for @{2} minutes.=カプラ戦場管理人\n光の神バルドルの加護を受け、@{2}分間、移動速度が@{1}%増加する。
 Kafra Battlefield Manager\nReceive the Blessing of Odin, King of the Gods, reducing skill Cooldown by @{1}% for @{2} minutes.=カプラ戦場管理人\n主神オーディンの祝福を受け、@{2}分間、スキルのクールダウンが@{1}%短縮されます。
-Kafra Battlefield Manager\nReceive the Blessing of Thor, God of Thunder, granting @{1} Extra exclusive skills for @{2} minutes.=カプラ戦場マネージャー\n雷神トールの祝福を受け、@{2}分間、@{1}個の追加専用スキルを獲得する。
+Kafra Battlefield Manager\nReceive the Blessing of Thor, God of Thunder, granting @{1} Extra exclusive skills for @{2} minutes.=カプラ戦場管理人\n雷神トールの祝福を受け、@{2}分間、@{1}個の追加専用スキルを獲得する。
 Kafra Battlefield Manager\nReceive the Blessing of Tyr, God of War, increasing Crit Chance by @{1}% for @{2} minutes.=カプラ戦場管理人\n戦の神テュールの加護を受け、@{2}分間、クリティカル率が@{1}%増加する。
 Kafra Corporation reminds you: There are many roads, but safety comes first. Reckless driving brings tears to your loved ones. Mind your speed while escorting the wagon—the speed limit is @{1} meters per second.=カプラ社からのお知らせです：道は多くとも、安全第一。無謀な運転は大切な人を悲しませます。荷車の護送中は速度にご注意ください。制限速度は毎秒@{1}mです。
 Kafra Shop=カプラショップ
