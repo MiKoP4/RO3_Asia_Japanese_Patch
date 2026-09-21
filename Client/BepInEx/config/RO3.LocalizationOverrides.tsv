@@ -9058,6 +9058,23 @@
 13150000066	Spend @{1} minutes in any Tavern room	任意の酒場ルームで@{1}分過ごす
 13150000065	Complete @{1} to accept this Quest. This Quest cannot currently be completed	@{1}を完了するとこのクエストを受注できます。現在このクエストは完了できません。
 13150000064	This Quest is obtained when the player first enters the game. Its completion requirements are the same as @{1}	このクエストはプレイヤーが初めてゲームに入った時に獲得する。達成条件は@{1}と同じ
+10220200732	Hard Ironwood	ハードアイアンウッド
+10220200731	Sturdy Timber	丈夫な木材
+10220200730	Lightweight Timber	軽量木材
+10220200729	Common Timber	一般的な木材
+10220200728	Divine Silk Vine	神聖な絹の蔓
+10220200727	Spirit Silk Flower	スピリットシルクフラワー
+10220200726	Mossgrass	苔草
+10220200725	Cotton	綿
+10220200724	Wild Hemp Vine	野生の麻ツル
+10220200723	Meteorite Ore	隕石鉱石
+10220200722	Radiant Gold Ore	輝く金鉱石
+10220200721	Mithril Ore	ミスリル鉱石
+10220200720	Coal	石炭
+10220200719	Iron Ore	鉄鉱石
+10220200718	High-Tenacity Sacred Armor Plate	高耐久の聖なる防具プレート
+10220200717	Sacred Armor Plate	聖なる防具プレート
+10220200716	Reinforced Armor Plate	強化アーマープレート
 12390100933	Permanently unlock the Kitty Set Costume appearance	キティセットコスチューム外見を永久解放
 12390100932	Permanently unlock the GM Set Costume appearance	GMセット衣装外見を永久解放
 12390100931	Permanently unlock the Academy Set Costume appearance	アカデミーセットコスチューム外見を永久解放
@@ -11624,6 +11641,1355 @@
 11250000042	Low-Tier Undead Resistance	初級不死属性耐性
 11250000041	Minor Ghost Property Resistance	念属性耐性（小）
 11250000040	Minor Shadow Resistance	闇属性耐性（小）
+10220200000	Blessing	ブレス
+10220200001	Signum Crucis	シグナム・クルシス
+10220200002	Ruwach	ルワッハ
+10220200003	Increase AGI	速度増加
+10220200004	Angelus	アンジェラス
+10220200005	Slow	減速
+10220200006	Pneuma	プネウマ
+10220200007	Mace Mastery	メイスマスタリー
+10220200008	Lex Aeterna	レックス・エテルナ
+10220200009	Recovery	回復
+10220200010	Magnificat	マニフィカト
+10220200011	Gloria	グロリア
+10220200012	Resurrection	リザレクション
+10220200013	Aspersio	アスペルシオ
+10220200014	Kyrie Eleison	キリエエレイソン
+10220200015	Impositio Manus	イムポシティオマヌス
+10220200016	Suffragium	参政権
+10220200017	Assumptio	アサンプティオ
+10220200018	Meditatio	メディタティオ
+10220200019	Mana Recharge	マナリチャージ
+10220200020	Basilica	バシリカ
+10220200021	Arcane Mastery	アーケインマスタリー
+10220200022	Arcane Mastery [Increases Turn Undead's Fixed Value]	アーケインマスタリー［ターンアンデッドの固定値増加］
+10220200023	Turn Undead [Buff Effect]	ターンアンデッド［バフ効果］
+10220200024	Turn Undead [Triggered Skill]	ターンアンデッド【発動スキル】
+10220200025	Increase AGI [Buff Effect]	速度増加［バフ効果］
+10220200026	Swift Blessing	スウィフトブレッシング
+10220200027	Divine Light [Life Detection]	ディバインライト【HP検知】
+10220200028	Basic Attack [Triggered Skill]	通常攻撃［発動スキル］
+10220200029	Cross Exorciser [Buff Effect]	クロスエクソシスト【バフ効果】
+10220200030	Cross Exorciser [Triggered Effect]	クロスエクソシスト［発動効果］
+10220200031	Divine Light/Sanctuary [Buff Effect]	ディバインライト/サンクチュアリ［バフ効果］
+10220200032	Revive [Buff Effect]	復活 [バフ効果]
+10220200033	Sanctuary [Triggered Skill]	サンクチュアリ【発動スキル】
+10220200034	Cross Exorciser [Triggered Buff]	クロスエクソシスト［発動バフ］
+10220200035	Cross Exorciser [Triggered Skill]	クロスエクソシスト［発動スキル］
+10220200036	Basic Attack Damage	通常攻撃ダメージ
+10220200037	Blunt Weapon Normal Attack [Triggered Effect]	鈍器通常攻撃［発動効果］
+10220200038	Cross Exorciser [Skill Mode]	クロスエクソシスト【スキルモード】
+10220200039	Sanctuary	サンクチュアリ
+10220200040	Sanctuary [Buff Check]	サンクチュアリ[バフチェック]
+10220200041	Sanctuary [Buff Effect]	サンクチュアリ【バフ効果】
+10220200042	Basilica [Cast Completion Detection]	バシリカ［詠唱完了検知］
+10220200043	Basilica [Triggered Effect]	バシリカ【発動効果】
+10220200044	Divine Light [Triggered Skill]	ディバインライト［発動スキル］
+10220200045	Hymn of the Lamb	子羊の賛歌
+10220200046	Status Effect	ステータス効果
+10220200047	Movement Restriction	移動制限
+10220200048	Radiant Holy Light	輝けるホーリーライト
+10220200049	Fragrance	フレグランス
+10220200050	Prayer of the Holy Spirit	聖霊の祈り
+10220200051	Respawn	リスポーン
+10220200052	Prayer of Gratitude	感謝の祈り
+10220200053	Wood Spirit's Blessing	ウッドスピリットの加護
+10220200054	Tree Spirit's Blessing Trigger	ツリースピリットの祝福発動
+10220200055	Double Holy Light	ダブルホーリーライト
+10220200056	Holy Spirit Surge	ホーリースピリットサージ
+10220200057	Divine Retribution	ディバインリトリビューション
+10220200058	Stigma Count	スティグマカウント
+10220200059	Hymn of Devotion	献身の賛歌
+10220200060	Tree Spirit's Blessing Invincible	樹霊の祝福・無敵
+10220200061	Stigma Charge Buff	スティグマチャージバフ
+10220200062	Descent of the Holy Spirit Prayer Trigger	聖霊降臨祈祷トリガー
+10220200063	Decay	腐敗
+10220200064	City Fallen	シティ・フォールン
+10220200065	Guild Battle Preparations	ギルド戦準備
+10220200066	Crazy Uproar	クレイジーアップロア
+10220200067	Mammonite Replacement	メマーナイト置換
+10220200068	Crazy Uproar - Mind and Body Renewal	クレイジーアップロア - 心身リフレッシュ
+10220200069	Crazy Uproar - Self-Motivation	クレイジーアップロア - 自己鼓舞
+10220200070	Hilt Binding	ヒルトバインディング
+10220200071	Adrenaline Rush	アドレナリンラッシュ
+10220200072	Power Thrust	パワースラスト
+10220200073	Maximize Power	マキシマイズパワー
+10220200074	Maximize Power - Weapon Polishing	最大出力 - ウェポンポリッシング
+10220200075	Maximize Power - Weapon Enhance	戦力最大化 - 武器強化
+10220200076	Cart Accessory	カートアクセサリ
+10220200077	Cart Boost	カートブースト
+10220200078	High Speed Cart Ram Replacement Mode	ハイスピードカートラム置換モード
+10220200079	Melt Down	メルトダウン
+10220200080	Maximum Over Thrust	オーバートラストマックス
+10220200081	Terminate Stun	スタン解除
+10220200082	Maximum Over Thrust - Enhanced Power Thrust	オーバートラストマックス - 強化パワースラスト
+10220200083	Maximum Over Thrust - Critical Strike	オーバートラストマックス - クリティカルストライク
+10220200084	Cart Reinforcement	カート強化
+10220200085	Mammonite	メマーナイト
+10220200086	Gunpowder Smash	火薬スマッシュ
+10220200087	Anaerobic Training	無酸素トレーニング
+10220200088	Booming Business	商売繁盛
+10220200089	Body Tempering	身体鍛錬
+10220200090	Earth's Power	地球の力
+10220200091	Earth Spike	アーススパイク
+10220200092	Earthshatter	アースシャッター
+10220200093	Rousing Support	奮起のサポート
+10220200094	Mind and Body Renewal	心身リフレッシュ
+10220200095	Self-Motivation	自己鼓舞
+10220200096	Cart Remodeling	カート改造
+10220200097	Weapon Mastery	武器マスタリー
+10220200098	Cart Smash	カートスマッシュ
+10220200099	Speed Is Weight	速さは重さ
+10220200100	Second Wind	セカンドウィンド
+10220200101	Unlimited Acceleration	無制限加速
+10220200102	Finishing Blow	とどめの一撃
+10220200103	Cart Clash	カートクラッシュ
+10220200104	Terminate Blast	ターミネイトブラスト
+10220200105	Limit Break	リミットブレイク
+10220200106	Weapon Polishing	武器研磨
+10220200107	Weapon Enhance	武器強化
+10220200108	Charging Momentum	チャージモメンタム
+10220200109	Accelerating Impact	アクセラレーティングインパクト
+10220200110	Sustained Acceleration	持続加速
+10220200111	AoE Power Thrust	AOEパワースラスト
+10220200112	Enhanced Power Thrust	強化パワースラスト
+10220200113	Critical Strike	クリティカルストライク
+10220200114	Axe Mastery	アックスマスタリー
+10220200115	Slow	減速
+10220200116	Emergency Treatment	応急手当
+10220200117	Emergency Treatment Shield	応急処置シールド
+10220200118	Emergency Treatment Healing	応急処置回復
+10220200119	Blade Mark	ブレードマーク
+10220200120	Cart Tornado - Enhance	カートトルネード - 強化
+10220200121	Cart Tornado - Enhance Count	カートトルネード - 強化回数
+10220200122	Firepower Ready	火力準備完了
+10220200123	Cannon Refresh	キャノンリフレッシュ
+10220200124	Firepower Loaded	火力装填完了
+10220200125	Melody Bubble	メロディーバブル
+10220200126	Season Vulcan Cannon Damage Boost Buff	シーズンバルカンキャノンダメージ増加バフ
+10220200127	Season Vulcan Cannon CRIT Boost Buff	シーズンバルカンキャノンCRIT上昇バフ
+10220200128	Play Season Melody Bubble Effect	シーズン・メロディバブル効果を再生
+10220200129	Play Season Standard Cannon Hit Effect	シーズン通常砲弾ヒットエフェクトを再生
+10220200130	Play Season Enhanced Cannon Hit Effect	シーズン強化砲弾ヒットエフェクトを再生
+10220200131	High-Energy Eruption	高エネルギー噴出
+10220200132	Blade Mark	ブレードマーク
+10220200133	High-Energy Impact Listener	ハイエナジーインパクト監視
+10220200134	High-Energy Impact Mode Switch	ハイエネルギーインパクト モード切替
+10220200135	Vulcan Cannon Floors Listener @{1}	バルカンキャノン階層リスナー @{1}
+10220200136	Vulcan Cannon Floors Listener @{1} Explosion Boost	バルカンキャノン階層リスナー@{1}・爆発強化
+10220200137	Battle Axe Assembly Test	バトルアックス組立テスト
+10220200138	Battle Axe High-Energy Shield	バトルアックス高エネルギーシールド
+10220200139	High-Energy Pulse - Listener	ハイエナジーパルス - 監視
+10220200140	High-Energy Pulse	高エネルギーパルス
+10220200141	High-Energy Pulse - Replace Mode with Axe Tornado	ハイエナジーパルス - モードをアックストルネードに置換
+10220200142	Enhanced Axe Tornado Listener	強化アックストルネード監視
+10220200143	Axe Tornado Listener - Remove Movement Speed Boost and Crowd Control Immunity When Skill Ends	アックストルネード監視 - スキル終了時に移動速度上昇と行動妨害無効を解除
+10220200144	Heavy Axe Strike - Set Mode @{1}	ヘビーアックスストライク - モード設定 @{1}
+10220200145	Heavy Axe Strike Listener - Remove Mode Replacement	ヘビーアックスストライクリスナー - モード置換解除
+10220200146	Crescent Blade Wheel Listener	クレセントブレードホイール監視
+10220200147	Reset Crescent Blade Wheel Cooldown	クレセントブレードホイールのクールダウンをリセット
+10220200148	Energy Release	エネルギー放出
+10220200149	Self-Destruct HP Lock	自爆HP固定
+10220200150	High-Energy Shield	高エネルギーシールド
+10220200151	Crescent Blade Wheel Mark	クレセントブレードホイールマーク
+10220200152	Energy Depletion	エネルギー枯渇
+10220200153	Jet Acceleration	ジェット加速
+10220200154	Monitor Arm Cannon Mode Removal of Season Vulcan Arm Explosion Boost	アームキャノンモード監視：シーズン「バルカンアーム爆発強化」の解除
+10220200155	Energy Release Shield	エネルギー放出シールド
+10220200156	Season Cannon Switch BD @{1}	シーズンキャノン切替 BD @{1}
+10220200157	Season Vulcan Cannon Switch BD @{1}	シーズン・バルカンキャノン切替 BD @{1}
+10220200158	S@{1} High-Energy Impact Replaces Axe Tornado Mode	S@{1} ハイエナジーインパクトがアックストルネードモードを置換
+10220200159	S@{1} Axe Tornado Casts Demonic Roar to Add Floors	S@{1} アックストルネードがデモニックロアを発動して階層追加
+10220200160	S@{1} Axe Tornado Casts Demonic Roar Listener	S@{1} アックストルネードがデモニックロア監視を発動
+10220200161	S@{1} Vulcan Cannon Mode Replacement	S@{1} バルカンキャノンモード置換
+10220200162	S@{1} Vulcan Cannon Counter Stack	S@{1} バルカンキャノン・カウンタースタック
+10220200163	S@{1} Firepower Loading	S@{1} 火力装填
+10220200164	S@{1} Vulcan Cannon Triggers Cannon Follow-Up	S@{1} バルカンキャノンがキャノン追撃を発動
+10220200165	S@{1} High-Energy Impact Listener	S@{1} ハイエナジーインパクト・リスナー
+10220200166	S@{1} High-Energy Impact Mode Switch	S@{1} ハイエネルギーインパクトモード切替
+10220200167	S@{1} Vulcan Cannon Floors Listener	S@{1} バルカンキャノン階層リスナー
+10220200168	HP Lock Buff	HPロックバフ
+10220200169	Live Coal	燃える石炭
+10220200170	Intermediate Live Coal	中級ライブコール
+10220200171	Advanced Live Coal	上級の生きた石炭
+10220200172	Lv. @{1} Bonfire	Lv. @{1} たき火
+10220200173	Normal Live Coal - Live Coal	通常の燃えさし - 燃えさし
+10220200174	Intermediate Live Coal - Live Coal	中級燃えさし - 燃えさし
+10220200175	Advanced Live Coal - Live Coal	上級燃えさし - 燃えさし
+10220200176	New Lv. @{1} Bonfire	新しいLv. @{1} 焚き火
+10220200177	Transform: Poring	変身：ポリン
+10220200178	Transform into Lunatic	ルナティックに変身
+10220200179	Transform into Savage Babe	サベージベイブに変身
+10220200180	Transform into Baby Desert Wolf	ベビーデザートウルフに変身
+10220200181	Transform into Baphomet Jr.	バフォメットJr.に変身
+10220200182	HP Listener	HPリスナー
+10220200183	Trigger Split	トリガースプリット
+10220200184	Transformation Manual	変身マニュアル
+10220200185	Immunity	免疫
+10220200186	Cancel Transformation	変身を解除
+10220200187	Trigger Self-Destruct	自爆を発動
+10220200188	Spawn Stealth	スポーンステルス
+10220200189	Size @{1}	サイズ @{1}
+10220200190	Enlargement Item	拡大アイテム
+10220200191	Size Increased	サイズ増加
+10220200192	Shrinking Item	縮小アイテム
+10220200193	Size Reduced	サイズ縮小
+10220200194	Red Thread Item	赤い糸アイテム
+10220200195	Connected by Red Thread	赤い糸でつながる
+10220200196	Switch Transform@{1}	変身切替@{1}
+10220200197	Red Thread Heart Effect Overhead	頭上の赤い糸ハートエフェクト
+10220200198	Sandman	サンドマン
+10220200199	Sword Fish	ソードフィッシュ
+10220200200	Dokebi	ドケビ
+10220200201	Argiope	アルギオペ
+10220200202	Pasana	パサーナ
+10220200203	Ghostring	ゴーストリング
+10220200204	Golem	ゴーレム
+10220200205	Cornutus	コルヌス
+10220200206	Maya Purple	マヤパープル
+10220200207	Skills @{1}–@{2} have already been used. Don't use them again.	スキル@{1}～@{2}は使用済みです。再使用しないでください。
+10220200208	Drake	ドレイク
+10220200209	Phreeoni	フリオニ
+10220200210	Dracula	ドラキュラ
+10220200211	Doppelganger	ドッペルゲンガー
+10220200212	Baphomet	バフォメット
+10220200213	Golden Thief Bug	黄金蟲
+10220200214	Maya	マヤー
+10220200215	Angeling	エンジェリング
+10220200216	Orc Lord	オークロード
+10220200217	Deviling	デビルリング
+10220200218	Osiris	オシリス
+10220200219	Eddga	エドガ
+10220200220	Moonlight Flower	月夜花
+10220200221	Orc Hero	オークヒーロー
+10220200222	Mistress	ミストレス
+10220200223	Pharaoh	ファラオ
+10220200224	Goblin Leader	ゴブリンリーダー
+10220200225	Kraken	クラーケン
+10220200226	Steel Fur Grizzly	鋼毛のグリズリー
+10220200227	Beetle King	ビートルキング
+10220200228	Driller	ドリラー
+10220200229	Osiris (Red)	オシリス（赤）
+10220200230	Osiris (Orange)	オシリス（オレンジ）
+10220200231	Card Magnum Break	カード・マグナムブレイク
+10220200232	Endure	インデュア
+10220200233	Increased Spear ASPD	槍ASPD上昇
+10220200234	Auto Guard	オートガード
+10220200235	Shield Reflect	シールドリフレクト
+10220200236	Providence	プロビデンス
+10220200237	Defending Aura	ディフェンスオーラ
+10220200238	Recoil	反動
+10220200239	Stun	スタン
+10220200240	Faith	フェイス
+10220200241	Monster Resistance	モンスター耐性
+10220200242	Recoil Animation	反動アニメーション
+10220200243	Sacrifice	サクリファイス
+10220200244	Battle Chant - Reduced Physical and Magic ATK	バトルチャント - 物理ATK・魔法ATK減少
+10220200245	Battle Chant - Increased Physical and Magic DEF	バトルチャント - 物理DEF・魔法DEF増加
+10220200246	Devotion	ディボーション
+10220200247	Battle Chant	ゴスペル
+10220200248	Battle Chant Orbit - Allies	バトルチャント軌道 - 味方
+10220200249	Grand Cross Grants Endure	グランドクロスでインデュア付与
+10220200250	Devotion Self-Link	ディボーション自己リンク
+10220200251	Advanced Monster Resistance	上級モンスター耐性
+10220200252	Holy Cross Triggers AoE Damage	ホーリークロスで範囲ダメージ発動
+10220200253	Grand Cross Triggers ST	グランドクロスが単体攻撃を発動
+10220200254	Grand Cross Triggers AoE	グランドクロスが範囲攻撃を発動
+10220200255	Shield Boomerang Triggers ST	シールドブーメランで単体攻撃発動
+10220200256	Divine Suppression Triggers AoE	ディバインサプレッションで範囲攻撃発動
+10220200257	Divine Suppression Triggers ST	ディバインサプレッションで単体攻撃発動
+10220200258	Holy Cross Weapon Damage (Deprecated; Uses Stunt)	ホーリークロス武器ダメージ（廃止予定・アクション使用）
+10220200259	Holy Cross Attack Frequency	ホーリークロス攻撃頻度
+10220200260	Increased Grand Cross Damage	グランドクロスのダメージ増加
+10220200261	Increased Grand Cross and Other Damage	グランドクロスなどのダメージ増加
+10220200262	Spear Mastery Increased Physical ATK	スピアマスタリー・物理ATK増加
+10220200263	Spear Mastery - Increased Physical ATK	スピアマスタリー - 物理ATK増加
+10220200264	Spear Mastery Increased ASPD	スピアマスタリーASPD増加
+10220200265	Spear Mastery - Increased ASPD	スピアマスタリー - ASPD増加
+10220200266	Spear Mastery Increased ATK	スピアマスタリーATK増加
+10220200267	Spear Mastery - Increased ATK	スピアマスタリー - ATK増加
+10220200268	Spear Mastery Increased Holy Damage	スピアマスタリー・聖属性ダメージ増加
+10220200269	Spear Mastery - Increased Holy Damage	スピアマスタリー - 聖属性ダメージ増加
+10220200270	Shield Bash - Chance to Become AoE	シールドバッシュ - 範囲化確率
+10220200271	Shield Bash - Increased Damage After @{1} Uses	シールドバッシュ - @{1}回使用後ダメージ増加
+10220200272	Reduced Martyr's Reckoning Cost	マーターズレコニング消費軽減
+10220200273	Increased Martyr's Reckoning Normal Attack Damage	マーターズレコニングの通常攻撃ダメージ増加
+10220200274	Auto Guard Increases Attack Life	オートガードで攻撃時HP増加
+10220200275	Auto Guard Increases Shield Bash and Other Damage	オートガードでシールドバッシュなどのダメージ増加
+10220200276	Auto Guard Reduces Damage Taken	オートガードで被ダメージ軽減
+10220200277	Resilient Spirit	不屈の精神
+10220200278	Increased Base Battle Chant Effects	基本バトルチャント効果を強化
+10220200279	Increased Max Life During Battle Chant	バトルチャント中の最大HP増加
+10220200280	Increased Shield Boomerang Damage During Battle Chant	バトルチャント中、シールドブーメランのダメージ増加
+10220200281	Increased Rapid Smiting Damage	ラピッドスマイティングのダメージ増加
+10220200282	Rapid Smiting Triggers ST	ラピッドスマイティングで単体攻撃発動
+10220200283	Rapid Smiting Resets Shield Boomerang CD	ラピッドスマイティングでシールドブーメランCDをリセット
+10220200284	Shield Boomerang Becomes AoE	シールドブーメランを範囲攻撃化
+10220200285	Martyr's Reckoning - Enhances Holy Cross	マーターレコニング - ホーリークロス強化
+10220200286	Shield Boomerang Has No CD	シールドブーメランのCDなし
+10220200287	Over Brand	オーバーブランド
+10220200288	Charge Up Passive	チャージアップパッシブ
+10220200289	Charge Up	チャージアップ
+10220200290	Shield	シールド
+10220200291	Reflect Damage	ダメージ反射
+10220200292	Shield Triggers Damage	シールドがダメージを発動
+10220200293	Earth Drive Debuff	アースドライブデバフ
+10220200294	King's Grace Orbit	キングスグレイス範囲
+10220200295	King's Grace	キングス・グレース
+10220200296	Shield Defense Orbit	シールド防御オービット
+10220200297	DMG Reduction	ダメージ軽減
+10220200298	King's Grace Enemy Orbit	キングスグレイス敵オービット
+10220200299	King's Grace Slows Enemies	キングスグレイスで敵を減速
+10220200300	Piety	パイエティ
+10220200301	Divine Insight	ディバインインサイト
+10220200302	King's Grace Grants a Buff Every @{1} Seconds	キングスグレイスが@{1}秒ごとにバフを付与
+10220200303	Union	ユニオン
+10220200304	Union Passive	ユニオンパッシブ
+10220200305	Enhance Shield Bash Passive	シールドバッシュ強化パッシブ
+10220200306	Shield Stance	シールドスタンス
+10220200307	Enhance Shield Bash	シールドバッシュ強化
+10220200308	Reduce Enhance Shield Bash Floors	シールドバッシュ強化の階層を減少
+10220200309	Charge Countdown	チャージカウントダウン
+10220200310	Reduce Shield Defense Cooldown	シールドディフェンスのクールダウン短縮
+10220200311	Activate Holy Light Suppression	ホーリーライトサプレッションを有効化
+10220200312	Casting Shield Trigger Check	詠唱シールド発動チェック
+10220200313	King's Grace Counter Display	キングスグレイスカウンター表示
+10220200314	Gryphon State	グリフォン状態
+10220200315	Advanced Monster Resistance	上級モンスター耐性
+10220200316	Parry	パリィ
+10220200317	Auto Counter	オートカウンター
+10220200318	Skill Damage Multiplier	スキルダメージ倍率
+10220200319	Fixed Skill Damage	固定スキルダメージ
+10220200320	Extra Skill HIT	追加スキルHIT
+10220200321	Skill Critical Parameters	スキルクリティカルパラメータ
+10220200322	Extra Skill Critical	追加スキルクリティカル
+10220200323	Fixed CT	固定詠唱
+10220200324	Variable CT	可変CT
+10220200325	Cast Animation Time	詠唱モーション時間
+10220200326	Skill Cooldown	スキルクールダウン
+10220200327	Skill Mode	スキルモード
+10220200328	Minimum Cast Distance	最小詠唱距離
+10220200329	Maximum Cast Distance	最大詠唱距離
+10220200330	Logic Parameters	ロジックパラメータ
+10220200331	Fake Damage Count	疑似ダメージカウント
+10220200332	Maximum Number of Targets	最大対象数
+10220200333	Skill Casting Movement State	スキル詠唱中移動状態
+10220200334	Usable	使用可能
+10220200335	Buff Applied to Allies	味方にバフ付与
+10220200336	Buff Applied to Enemies	敵に適用されるバフ
+10220200337	SP Consumption	SP消費量
+10220200338	Custom Damage Parameters	カスタムダメージパラメータ
+10220200339	Special Casting/Chanting State	特殊詠唱/チャント状態
+10220200340	Skill Area of Effect	スキル効果範囲
+10220200341	Accelerate	加速する
+10220200342	Add Attributes	ステータス追加
+10220200357	Spatial Dimension	空間次元
+10220200358	Stasis Space (Deprecated)	静止空間（廃止予定）
+10220200359	Chaotic Space (Deprecated)	混沌空間（廃止予定）
+10220200360	Grant All Players Full Mini Map Vision	全プレイヤーにミニマップ全域視界を付与
+10220200361	Disguise	変装
+10220200362	Hiding	ハイディング
+10220200363	Shadow Step Trail	シャドウステップ軌跡
+10220200364	Shadow Step	シャドウステップ
+10220200365	Enhance Camouflage Stealth	カモフラージュのステルス性能強化
+10220200366	Enhance Camouflage Speed	カモフラージュ速度強化
+10220200367	Blind	暗黒
+10220200368	Rift Impact	リフトインパクト
+10220200369	Magnification	倍率
+10220200370	Burn	火傷
+10220200371	Poisoned	毒状態
+10220200372	Sleep	睡眠
+10220200373	Fear	恐怖
+10220200374	HP Recovery	HP回復
+10220200375	Gravitation Field Sound Effect	グラビテーションフィールド効果音
+10220200376	Instantly Restore @{1}%	@{1}%を即時回復
+10220200377	Focus Orbit	フォーカスオービット
+10220200378	Endurance Orbit	耐久オービット
+10220200379	Evil Orbit	邪悪な軌道
+10220200380	Attack Orbit	アタックオービット
+10220200381	Attribute Orbit	属性オービット
+10220200382	Life Steal Orbit	ライフスティールオービット
+10220200383	Radiance Orbit	ラディアンスオービット
+10220200384	Desolation Orbit	デソレーションオービット
+10220200385	Frozen Orbit	凍結軌道
+10220200386	Instantly restores @{1} HP	HPを@{1}即時回復
+10220200387	Pirate	海賊
+10220200388	Reset Skill Cooldowns	スキルクールダウンをリセット
+10220200389	Alternate	代替
+10220200390	Hide HP Bar	HPバーを隠す
+10220200391	Attack Immunity	攻撃無効
+10220200392	HP Lock	HPロック
+10220200393	Record	記録
+10220200394	Cast Skill	スキル詠唱
+10220200395	Leave Combat	戦闘を離れる
+10220200396	Increases Movement Speed and HP recover	移動速度とHP回復量が増加
+10220200397	Instantly restores all HP	HPを即座に全回復
+10220200398	(Deprecated)	(廃止予定)
+10220200399	Blessing (Deprecated)	ブレッシング（廃止予定）
+10220200400	Death Prevention Visual Listener (Deprecated)	死亡防止ビジュアル監視（廃止予定）
+10220200401	Arrow Storm	アローストーム
+10220200402	Detecting	探知中
+10220200403	Myriad Stars Chase the Moon	万星が月を追う
+10220200404	Tension Relax	テンション・リラックス
+10220200405	Storm Gust (Deprecated)	ストームガスト（廃止予定）
+10220200406	Wind Walker	ウィンドウォーカー
+10220200407	Falcon's Eye	ファルコンズアイ
+10220200408	Equipment Drop Test	装備ドロップテスト
+10220200409	Fire Release	ファイアリリース
+10220200410	Lightning Release	ライトニングリリース
+10220200411	Valkyrie's Blessing	ヴァルキリーの祝福
+10220200412	Blessing of Thor, God of Thunder	雷神トールの祝福
+10220200413	Blessing of Odin, King of the Gods	神々の王オーディンの祝福
+10220200414	Valkyrie's Blessing (Deprecated!)	ヴァルキリーの祝福（廃止予定！）
+10220200415	Blessing of Baldr, God of Light	光神バルドルの祝福
+10220200416	Blessing of Tyr, God of War	軍神テュールの祝福
+10220200417	Battle Royale Victory Buff	バトルロワイヤル勝利バフ
+10220200418	Cooldown Potion	クールダウンポーション
+10220200419	Status Potion	ステータスポーション
+10220200420	Restores @{1}% of Max Life per second	毎秒最大HPの@{1}%を回復
+10220200421	Speed Potion	スピードポーション
+10220200422	Battle Royale HP Drain Buff	バトルロワイヤルHP吸収バフ
+10220200423	Transform: Drops	変身: ドロップス
+10220200424	Transform: Poporing	変身：ポポリン
+10220200425	Transform: Bombring	変身：ボムポリン
+10220200426	Transform: Angeling	変身：エンジェリング
+10220200427	Transform: Deviling	変身：デビルリング
+10220200428	Transform into Lava Poring	ラーヴァポリンに変身
+10220200429	Flying Magic	フライングマジック
+10220200430	Teleportation Magic	テレポーテーション
+10220200431	Ping-Pong Poring	ピンポンポリン
+10220200432	Poring Counterattack	ポリンカウンター
+10220200433	Ball Catch Buff	ボールキャッチバフ
+10220200434	Masked	仮面
+10220200435	Tension Relax	テンション・リラックス
+10220200436	Escort Cart Lightly Damaged	護衛カート軽度損傷
+10220200437	Escort Cart Heavily Damaged	護衛カート重度損傷
+10220200438	Escort Cart Destroyed	護送カート破壊
+10220200439	Escort Cart Endure	護送カートのインデュア
+10220200440	Swift Movement	高速移動
+10220200441	Slow Down!	ゆっくりしてください！
+10220200442	Invincible	無敵
+10220200443	Escort Cart Damage Reduction	護衛カートダメージ軽減
+10220200444	Vehicle Stealth	車両ステルス
+10220200445	Explosion Effect	爆発エフェクト
+10220200446	Vehicle Shield	搭乗物シールド
+10220200447	First Blood Monster	ファーストブラッドモンスター
+10220200448	Movement Disabled	移動不可
+10220200449	Healing Orbit	ヒーリングオービット
+10220200450	Healing Orbit Effect	回復オービット効果
+10220200451	Attack Orbit Effect	攻撃軌道エフェクト
+10220200452	Damage Reduction Orbit	ダメージ軽減軌道
+10220200453	Damage Reduction Orbit Effect	ダメージ軽減オービット効果
+10220200454	Escort Cart Explosion	護送カート爆発
+10220200455	Invincible Zone	無敵ゾーン
+10220200456	Escort Cart Catch-Up Speed Boost	護衛カート追いつき速度アップ
+10220200457	Escort Cart Movement Penalty	護衛カート移動ペナルティ
+10220200458	Protection Orbit	プロテクションオービット
+10220200459	Protection Orbit Mark	保護軌道マーク
+10220200460	Protection Orbit DEF Boost	プロテクションオービットDEF増加
+10220200461	Protection Orbit Effect (Not Full)	プロテクションオービット効果（不完全）
+10220200462	Protection Orbit Effect (Full)	プロテクションオービット効果（完全版）
+10220200463	Invincible Escort Cart	無敵の護送カート
+10220200464	Knockback	ノックバック
+10220200465	Knock-Up	打ち上げ
+10220200466	Frozen	氷結
+10220200467	Petrify	石化
+10220200468	Silence	沈黙
+10220200469	Immobilize	移動不能
+10220200470	Frozen	氷結
+10220200471	Sluggish	鈍化
+10220200472	Bleeding	出血
+10220200473	Debuff Immunity	デバフ無効
+10220200474	Revive Disabled in Instances	インスタンス内復活不可
+10220200475	Boss CC Immunity	ボスCC無効
+10220200476	Stagger	硬直
+10220200477	Severe Wound	重傷
+10220200478	Prayer of the Holy Spirit is disabled in instances	インスタンス内では聖霊の祈りを使用できません
+10220200479	Change Armor to Earth Property	防具属性を地属性に変更
+10220200480	Change Armor to Water Property	防具属性を水属性に変更
+10220200481	Change Armor to Wind Property	防具を風属性に変更
+10220200482	Convert Armor to Poison	防具を毒属性に変換
+10220200483	Convert Armor to Fire Property	防具属性を火属性に変更
+10220200484	Change Armor to Ghost Property	防具属性を念属性に変更
+10220200485	Convert Armor to Holy Property	防具属性を聖属性に変更
+10220200486	Curse	呪い
+10220200487	Meditate	メディタティオ
+10220200488	Flame Blast	フレイムブラスト
+10220200489	Ice Blast	アイスブラスト
+10220200490	Thunder Blast	サンダーブラスト
+10220200491	Earth Blast	アースブラスト
+10220200492	Dispel	ディスペル
+10220200493	Unstoppable	止められない
+10220200494	Item Use Disabled	アイテム使用不可
+10220200495	Item Healing Disabled	アイテム回復無効
+10220200496	Element Counter Immunity	属性相性無効
+10220200497	Class Resonance	クラス共鳴
+10220200498	Guild Resonance	ギルド共鳴
+10220200499	Divine Blessing	神聖な祝福
+10220200500	Fixed-Direction Buff	固定方向バフ
+10220200501	Close Friend (Lv. @{1})	親しいフレンド（Lv. @{1}）
+10220200502	Fortify	補強
+10220200503	Respawn Protection	リスポーン保護
+10220200504	High Morale	高い士気
+10220200505	High Morale	高い士気
+10220200506	Unstoppable	止められない
+10220200507	Blessed Wind	祝福の風
+10220200508	Blessing of Light	光の祝福
+10220200509	Dark Curse	闇の呪い
+10220200510	Weaken	衰弱
+10220200511	Crystal Prison	クリスタルプリズン
+10220200512	Iron Slash	アイアンスラッシュ
+10220200513	Revive Point Protection	復活ポイント保護
+10220200514	Blessing of Water	水の祝福
+10220200515	Carry Cannonball	砲弾を運ぶ
+10220200516	Flight	飛行
+10220200517	Dragonblood Protection	ドラゴンブラッドの加護
+10220200518	Carry Scale	キャリースケール
+10220200519	Fafnir's Fury	ファフニールの怒り
+10220200520	Weak	弱
+10220200521	Poring Poring!	ポリン ポリン！
+10220200522	Madogear Pilot	魔導ギアパイロット
+10220200523	Arcane Acceleration	アーケインアクセラレーション
+10220200524	Ring of Frost	フロストのリング
+10220200525	Lightning Domain	ライトニングドメイン
+10220200526	Freeze	凍結
+10220200527	Rapidness	速さ
+10220200528	Guardian's Will	守護者の意志
+10220200529	Lightning Strike	ライトニングストライク
+10220200530	Dynamite	ダイナマイト
+10220200531	Physical Immune	物理無効
+10220200532	Magic Immune	魔法の免疫
+10220200533	Charge	突撃
+10220200534	Split	分裂
+10220200535	Divine Light	ディバインライト
+10220200536	Manhunt	指名手配
+10220200537	Self-Destruct	自爆
+10220200538	Boss	BOSS
+10220200539	Unstoppable Dragonkin	止められない竜族
+10220200541	Flame Scorch	フレイムスコーチ
+10220200542	Berserk	バーサーク
+10220200543	Lope Start Marker	跳躍開始マーカー
+10220200544	Lope Obstacle-Dodge Marker	跳躍障害物回避マーカー
+10220200545	Bride Character Marker	花嫁キャラクターマーカー
+10220200546	Blood Pool Pull	血の池プル
+10220200547	Spawn Effect @{1}	出現エフェクト @{1}
+10220200548	ATK Boost	攻撃力アップ
+10220200549	DEF Boost	防御力アップ
+10220200550	Cooldown Reduction	クールダウン短縮
+10220200551	CRIT Boost	クリティカルブースト
+10220200552	Movement Speed Boost	移動速度アップ
+10220200553	HP Recovery	HP回復
+10220200554	Chain Bind	チェーンバインド
+10220200555	Nightmare Mystery Box	ナイトメアミステリーボックス
+10220200556	Concentrated Squid Ink	濃縮イカ墨
+10220200557	DEF Injection	DEFインジェクション
+10220200558	Berserk Injection	バーサーク注射
+10220200559	Viscous Machine Oil	粘性機械油
+10220200560	Brass Talisman	真鍮のタリスマン
+10220200561	Gain an ATK Boost	ATKブースト獲得
+10220200562	Gain DEF Boost	DEFブーストを獲得
+10220200563	Gain Cooldown Reduction	クールダウン短縮を獲得
+10220200564	Gain CRIT Boost	CRITブースト獲得
+10220200565	Gain increased Movement Speed	移動速度増加
+10220200566	Recover HP	HPを回復する
+10220200567	Skill Acquisition Effect	スキル習得エフェクト
+10220200568	Adds a Lope button	跳躍ボタンを追加
+10220200569	Transform into a Red Note	レッドノートに変身
+10220200570	Immune to damage while using Lope	跳躍使用中はダメージ無効
+10220200571	Transform into a Blue Note	ブルーノートに変身
+10220200572	Double Jump Buff During Lope	跳躍中ダブルジャンプバフ
+10220200573	Transform into Red Musical Notes Underfoot	足元の赤い音符に変身
+10220200574	Transform into a Blue Note underfoot	足元のブルーノートに変身
+10220200575	HP Lock@{1}%	HPロック@{1}%
+10220200576	BOSS Visual Effects	BOSS視覚効果
+10220200577	Small note idle (stationary)	小音符待機（固定）
+10220200578	Little Note Counterclockwise Skill 2	小音符反時計回りスキル2
+10220200579	Little Note Clockwise Skill 1	小音符 時計回りスキル1
+10220200580	Little Note Counterclockwise Skill 3	小音符反時計回りスキル3
+10220200581	Small Notes Clockwise Skill 4	小音符 時計回りスキル4
+10220200582	Phase 1 Goddess Energy Orb Charge + Burst + Idle Infinite Loop	フェーズ1 女神エネルギーオーブ：チャージ＋バースト＋待機無限ループ
+10220200583	Phase 1 Goddess Large Musical Note@{1}	フェーズ1 女神の大音符@{1}
+10220200584	Slide Player Performance	プレイヤー演奏スライド
+10220200585	Tiamat Effect	ティアマト効果
+10220200586	Tiamat Frontal Damage	ティアマト正面ダメージ
+10220200587	Status Check Buff	状態確認バフ
+10220200588	Little Note Counterclockwise Skill@{1}	小音符反時計回りスキル@{1}
+10220200589	Small Note Clockwise Skill@{1}	小ノート時計回りスキル@{1}
+10220200590	Battle Royale Transition Pull	バトルロワイヤル遷移吸引
+10220200591	Battle Royale Transition Player Effect	バトルロワイヤル遷移プレイヤーエフェクト
+10220200748	Safety Wall	セイフティウォール
+10220200749	Jupitel Thunder	ユピテルサンダー
+10220200750	Frost Nova	フロストノヴァ
+10220200751	Quagmire	クァグマイア
+10220200752	Meteor Storm	メテオストーム
+10220200753	Lord of Vermilion	ロードオブヴァーミリオン
+10220200754	Storm Gust	ストームガスト
+10220200755	Mystical Amplification	ミスティカルアンプリフィケーション
+10220200756	Soul Drain	ソウルドレイン
+10220200757	Gravitation Field	グラビテーションフィールド
+10220200758	Prison	監獄
+10220200759	Intense Telekinesis	強烈な念動力
+10220200760	Penetration	浸透
+10220200761	Ionization	イオン化
+10220200762	Reading Spellbook	スペルブック読解
+10220200763	Spellbook Reset	スペルブックリセット
+10220200764	Trigger Spellbook Reset	スペルブックリセットを発動
+10220200765	Spellbook - Comet	スペルブック - コメット
+10220200766	Spellbook - Thunderclap	スペルブック - サンダークラップ
+10220200767	Spellbook - Crimson Rock	スペルブック - クリムゾンロック
+10220200768	Spellbook - Earth Strain	スペルブック - アースストレイン
+10220200769	Spellbook - Frost Blast	スペルブック - フロストブラスト
+10220200770	Spellbook - Tetra Vortex	スペルブック - テトラボルテックス
+10220200771	Elemental Attunement	属性同調
+10220200772	Soul Combo SFX	ソウルコンボSFX
+10220200773	White Imprison SFX	ホワイトインプリズンSFX
+10220200774	Tetra Vortex SFX	テトラボルテックスSFX
+10220200775	Fire Wall SFX	ファイアウォール効果音
+10220200776	Quagmire SFX	泥沼SFX
+10220200777	Heaven's Drive SFX	ヘヴンズドライブSFX
+10220200778	Lord of Vermilion SFX	ロードオブヴァーミリオンSFX
+10220200779	Frost Spell SFX	フロストスペルSFX
+10220200780	Storm Gust SFX	ストームガストSFX
+10220200781	Ganbantein SFX	ガンバンテインSFX
+10220200782	Page	ページ
+10220200783	Continuous Page Gain	継続ページ獲得
+10220200784	Spellbook - Soul Burst	スペルブック - ソウルバースト
+10220200785	Element Control	属性制御
+10220200786	Telekinetic Orb - Count @{1}	テレキネティックオーブ - 数量 @{1}
+10220200787	Psychokinetic Astral Body	念動アストラルボディ
+10220200788	Intense Telekinesis · Lv@{1}	インテンス・テレキネシス・Lv@{1}
+10220200789	Spellbook - Gravity Impact	スペルブック - グラビティインパクト
+10220200790	Telekinetic Orb HIT AoE	テレキネティックオーブHIT範囲
+10220200791	Wall of Darkness SFX	ダークウォールSFX
+10220200792	Psychic Mastery	サイキックマスタリー
+10220200793	Remove @{1} Pages	@{1}ページ削除
+10220200794	Continuous Slow While Channeling	詠唱中に継続減速
+10220200795	Elemental Arrow Amplification	エレメンタルアロー増幅
+10220200796	Fixed Casting	固定キャスト
+10220200797	Elemental Pursuit	エレメンタルパースート
+10220200798	Elemental Shock	エレメンタルショック
+10220200799	Basic Magic Rune	基本魔法ルーン
+10220200800	Basic Spell Calibration	基本スペル調整
+10220200801	Spell Lock	スペルロック
+10220200802	Flame Enhance	炎強化
+10220200803	Flame Chain	フレイムチェーン
+10220200804	Fireball Burst	ファイアボールバースト
+10220200805	Ice and Thunder Mastery	氷雷マスタリー
+10220200806	Ice Spike	アイススパイク
+10220200807	Thunderbolt	サンダーボルト
+10220200808	Inflict Freeze on Frozen Target HIT	凍結中の対象へのHITで凍結を付与
+10220200809	Earthfire Mark	アースファイアマーク
+10220200810	Flame Burst	フレイムバースト
+10220200811	Ember Zone	エンバーゾーン
+10220200812	Ice and Thunder Mark	氷雷マーク
+10220200813	Frost Burst	フロストバースト
+10220200814	Thunder Shockwave	サンダーショックウェーブ
+10220200815	Arcane Training	秘術トレーニング
+10220200816	Magic Cannon	マジックキャノン
+10220200817	Greater Psychic Shockwave	強化サイキックショックウェーブ
+10220200818	Magic Cannon Energy Removal	マジックキャノンのエネルギー解除
+10220200819	Elemental Preparation	属性準備
+10220200820	Soul Reaper	ソウルリーパー
+10220200821	Arcane Study	難解な研究
+10220200822	Killer Book MATK Increase	キラーブックMATK増加
+10220200823	Gravity Enhance	重力強化
+10220200824	Spatial Distortion	空間歪曲
+10220200825	Gravity Trap	重力トラップ
+10220200826	Intermediate Magic Rune	中級マジックルーン
+10220200827	Magic Calibration	魔法調整
+10220200828	Magic Infusion	マジックインフュージョン
+10220200829	Cast Time Increase @{1}	詠唱時間増加 @{1}
+10220200830	MATK Increase @{1}	MATK増加 @{1}
+10220200831	Meteor Storm Triggers Embers	メテオストームで残り火発生
+10220200832	Bobo Bubble	ボボバブル
+10220200833	Refreshing Breath Medicine	リフレッシュブレス薬
+10220200834	Gentle Breath Medicine	穏やかブレス薬
+10220200835	Premium Breath Medicine	プレミアムブレス薬
+10220200836	Potent Breath Medicine	強力ブレス薬
+10220200837	First Aid Breath Medicine	応急処置用ブレス薬
+10220200838	Concentrated Breath Medicine	濃縮ブレス薬
+10220200839	Superior Breath Medicine	上級ブレス薬
+10220200840	Green Potion	緑ポーション
+10220200841	Red Potion	レッドポーション
+10220200842	Yellow Potion	イエローポーション
+10220200843	Orange Potion	オレンジポーション
+10220200844	Vitality Potion	活力ポーション
+10220200845	Holy Spirit Potion	ホーリースピリットポーション
+10220200846	Fountain of Life	生命の泉
+10220200847	Superior Green Potion	上級グリーンポーション
+10220200848	Superior Red Potion	上級レッドポーション
+10220200849	Superior Yellow Potion	上級イエローポーション
+10220200850	Superior Orange Potion	上級オレンジポーション
+10220200851	Superior Vitality Potion	上級活力ポーション
+10220200852	Superior Spirit Potion	上級スピリットポーション
+10220200853	Superior Fountain of Life	上級生命の泉
+10220200854	Panacea	万能薬
+10220200855	Creamy Tomato Soup	クリーミートマトスープ
+10220200856	Mushroom Tomato Soup	キノコとトマトのスープ
+10220200857	Grilled Mushroom Skewers	焼きキノコ串
+10220200858	Chili Beast Steak	激辛ビーストステーキ
+10220200859	Spicy Meat Patty	スパイシーミートパティ
+10220200860	Meat Bun	肉まん
+10220200861	Herb Porridge	ハーブ粥
+10220200862	Spicy Herb Wrap	スパイシーハーブラップ
+10220200863	Spicy Fried Rice	スパイシー炒飯
+10220200864	Strawberry Hard Candy	ストロベリーハードキャンディ
+10220200865	Strawberry Cocoa Truffle	ストロベリーココアトリュフ
+10220200866	Vanilla Hot Cocoa	バニラホットココア
+10220200867	Strawberry Milkshake	ストロベリーミルクシェイク
+10220200868	Hot Strawberry Cocoa Milk	ホットストロベリーココアミルク
+10220200869	Cocoa Pudding	ココアプリン
+10220200870	Colorful Lollipop	カラフルロリポップ
+10220200871	Berry Herbal Tea	ベリーハーブティー
+10220200872	Strawberry Cocoa Crunch Bar	ストロベリーココアクランチバー
+10220200873	Grape Wine	ぶどうワイン
+10220200874	Green Lemon Cocktail	グリーンレモンカクテル
+10220200875	Refreshing Lemon Brew	爽やかレモンドリンク
+10220200876	Grape Sparkling Water	グレープスパークリングウォーター
+10220200877	Mixed Fruit Juice	ミックスフルーツジュース
+10220200878	Pure Lemon Water	ピュアレモンウォーター
+10220200879	Lemon Herbal Tea	レモンハーブティー
+10220200880	Woody Grape Drink	ウッディグレープドリンク
+10220200881	Citruswood Fruit Tea	シトラスウッドフルーツティー
+10220200882	Training Dummy Auto-Recovery	トレーニングダミー自動回復
+10220200883	Knockback Immunity for Immobile Monsters	移動不能モンスターのノックバック無効
+10220200884	Tower Boss Stat Adjustment @{1}	塔ボスステータス調整 @{1}
+10220200885	Automatic Tower Difficulty Reduction Buff	タワー難易度自動緩和バフ
+10220200886	Tower Area Indicator Mark	塔エリア表示マーク
+10220200887	Endure (Deprecated)	インデュア（廃止予定）
+10220200888	Realm of Light	光の領域
+10220200889	Pyroblast	パイロブラスト
+10220200890	Delusion	妄想
+10220200891	Terrifying Roar	恐怖の咆哮
+10220200892	Blade Whirlwind	ブレードワールウィンド
+10220200893	Stone Coating	ストーンコーティング
+10220200894	Petrify Screen Effect	石化画面エフェクト
+10220200895	Dark Curse	闇の呪い
+10220200896	Realm of Darkness	闇の領域
+10220200897	Acid Corrosion	アシッドコロージョン
+10220200898	Slime Ground	スライムグラウンド
+10220200899	Invincible and Untargetable Deprecated	無敵・ターゲット不可（廃止予定）
+10220200900	Summoned Unit Self-Destruct	召喚ユニット自爆
+10220200901	MVP Skill Reset After Leaving Combat	戦闘離脱後にMVPスキルをリセット
+10220200902	Mandragora Attack	マンドラゴラ攻撃
+10220200903	Movement Speed Increase When Out of Combat	非戦闘時に移動速度増加
+10220200904	Lock Life to Fixed Value @{1} (Deprecated)	HPを固定値@{1}に固定（廃止予定）
+10220200905	Golden Thief Bug Summons Thief Bugs with Paralyze	黄金蟲が麻痺効果付きの盗蟲を召喚
+10220200906	Paralyze	麻痺
+10220200907	Healing Dummy Exclusive Buff	回復ダミー専用バフ
+10220200908	Phreeoni Continuous Drain	フリオニ持続吸収
+10220200909	Goblin Leader ST Target Lock Marker	ゴブリンリーダー単体ターゲットロックマーカー
+10220200910	Pyramid Laser Damage	ピラミッドレーザーダメージ
+10220200911	Brutal Sweep Attack	ブルータルスイープ
+10220200912	Totem ZS (Deprecated)	トーテムZS（廃止予定）
+10220200913	Frequent Pull	頻繁なプル
+10220200914	Check Whether Killed	撃破済みか確認
+10220200915	Orc Lord's Totem	オークロードのトーテム
+10220200916	Moonlight Flower Marker Buff	月夜花マーカーバフ
+10220200917	Dark Corrosion	ダークコロージョン
+10220200918	Bell Activation Effect	ベル起動エフェクト
+10220200919	Undead Phantom	アンデッドファントム
+10220200920	Burn	火傷
+10220200921	Directional Effect Test	方向エフェクトテスト
+10220200922	Osiris Disengagement Check	オシリス離脱チェック
+10220200923	Max Life Increase Buff Test	最大HP増加バフテスト
+10220200924	Goblin Helicopter Jet Effect	ゴブリンヘリコプター噴射エフェクト
+10220200925	Blackhole Boss Shield	ブラックホールボスシールド
+10220200926	Trap Hunter Boss Target	トラップハンター・ボスターゲット
+10220200927	Death Scythe Life Recovery	デスサイズHP回復
+10220200928	Dark Sorcery	ダークソーサリー
+10220200929	Scythe Channeling	大鎌チャネリング
+10220200930	Trauma Drain	トラウマドレイン
+10220200931	Voice of the Dead	死者の声
+10220200932	Undead Convergence	アンデッド収束
+10220200933	Nether Phantom	ネザーファントム
+10220200934	Serpent Spirit's Protection	蛇霊の加護
+10220200935	Serpent Spirit's Embrace	蛇霊の抱擁
+10220200936	Phantom Barrier	ファントムバリア
+10220200937	Sinister Scythe	シニスターサイズ
+10220200938	Sinister Chains	シニスターチェイン
+10220200939	Scythe Slash	サイススラッシュ
+10220200940	Holy Light Descending	ホーリーライト降臨
+10220200941	Holy Spirit Divine Light	聖霊の神聖な光
+10220200942	Clear Breeze	クリアブリーズ
+10220200943	Fox Fury	フォックスフューリー
+10220200944	Raging Gale	荒れ狂う疾風
+10220200945	Taunting Tease	挑発
+10220200946	Harvesting Scythe	収穫の大鎌
+10220200947	Adaptive Attack	適応攻撃
+10220200948	Adaptive Damage	適応ダメージ
+10220200949	Forest's Blessing	森の祝福
+10220200950	Tree Spirit Curse	木霊の呪い
+10220200951	Bobo's Protection	ボボの加護
+10220200952	Moonlit Curse	月夜の呪い
+10220200953	Bell Miracle	ベルの奇跡
+10220200954	Orc Lord Passive	オークロードパッシブ
+10220200955	Lightning Strike HIT Marker	ライトニングストライクHITマーカー
+10220200956	Summon Lightning	雷を召喚
+10220200957	Continuous Lightning Strike Damage Increase Check	ライトニングストライク持続ダメージ増加チェック
+10220200958	Lightning Strike Damage Increase Stack	ライトニングストライク・ダメージ増加スタック
+10220200959	Esen's Execution	エセンの処刑
+10220200960	Esen's Slaughter	エセンの虐殺
+10220200961	Orc Roar	オークの咆哮
+10220200962	Armor-Shattering War Cry	アーマー破壊の雄叫び
+10220200963	Orc Stomp	オークストンプ
+10220200964	Armor Break	アーマーブレイク
+10220200965	Raging Gale	荒れ狂う疾風
+10220200966	Enraged Tiger Roar	激昂する虎の咆哮
+10220200967	Savage Shield	サベージシールド
+10220200968	Tribal Protection	部族の加護
+10220200969	Goat's Protection	ヤギの加護
+10220200970	Stunning Tremor	スタニングトレマー
+10220200971	Demonic Curse	悪魔の呪い
+10220200972	Bongun Passive Check	ボンゴンパッシブ確認
+10220200973	Bongun Life Recovery Trigger	ボンゴンHP回復トリガー
+10220200974	Choco Antics	チョコのおふざけ
+10220200975	Agility Song	アジリティーソング
+10220200976	Swift Trick	スウィフトトリック
+10220200977	Formless Passive	無形パッシブ
+10220200978	Bloodthirsty Impulse	血に飢えた衝動
+10220200979	Ancient Mummy Passive	エンシェントマミーパッシブ
+10220200980	Malicious Curse	悪意の呪い
+10220200981	Protection of the Sands	砂の加護
+10220200982	Detain	拘束
+10220200983	Spectral Protection	スペクトラルプロテクション
+10220200984	Spirit Shield	精霊の盾
+10220200985	Soul's Protection	魂の加護
+10220200986	Corrupted Wander Man Passive	堕落したワンダーマンパッシブ
+10220200987	ATK Reduction	攻撃力減少
+10220200988	Corrupted Wander Man Exclusive Passive	堕落したワンダーマン専用パッシブ
+10220200989	Corrupted Soul Impact	堕落した魂の衝撃
+10220200990	Power of the Wander Man	ワンダーマンの力
+10220200991	Nightmare Passive	ナイトメアパッシブ
+10220200992	Shadow Hoofprint	影の蹄跡
+10220200993	Sinister Cry	邪悪な叫び
+10220200994	Elena Bokba Passive	エレナ・ボクバ パッシブ
+10220200995	Gunshot Wound	銃創
+10220200996	Gun-Smoke Severe Wound	銃煙・重傷
+10220200997	Hard Prismatic Nightmare Passive	ハード・プリズマティックナイトメア パッシブ
+10220200998	Sarah Irene Passive	サラ・アイリーン パッシブ
+10220200999	Flame Fist	フレイムフィスト
+10220201000	Fire Element Vulnerability	火属性弱点
+10220201001	Marionette Passive	マリオネットパッシブ
+10220201002	Marionette's Curse	マリオネットの呪い
+10220201003	Ancient Tree Passive	古木パッシブ
+10220201004	Ancient Tree's Protection	古木の加護
+10220201005	Lava Lizard Passive	ラヴァリザード パッシブ
+10220201006	Scorched Armor	焼け焦げた鎧
+10220201007	Wild Rose Passive	ワイルドローズパッシブ
+10220201008	Lingering Breath	残り香
+10220201009	Pain of the Wind Blade	風刃の痛み
+10220201010	Iron Ball Rampage	鉄球乱舞
+10220201011	Warrior Lola Passive	戦士ローラパッシブ
+10220201012	Concussion	脳震盪
+10220201013	Alicel - Damage Passive Monitor	アリセル - ダメージパッシブ監視
+10220201014	Alicel - Blade	アリセル - ブレイド
+10220201015	Alert Reconnaissance	警戒偵察
+10220201016	Defensive Vigilance	防御警戒
+10220201017	Basilisk Passive	バジリスクパッシブ
+10220201018	Farsight Revelation	遠見の啓示
+10220201019	Detect Stealth	ステルスを検出
+10220201020	Vine Strike	ヴァインストライク
+10220201021	Fruit Tree Turtle Passive	フルーツツリータートル・パッシブ
+10220201022	Fruit Blossom Healing	果実の花の回復
+10220201023	Low Growl	低いうなり声
+10220201024	Clock Passive	クロックパッシブ
+10220201025	Stealth	ステルス
+10220201026	Ninja Art: Smoke Screen	忍法：煙幕
+10220201027	ATK and MATK Reduction	ATK・MATK低下
+10220201028	Silver Moon's Arrival Trigger	シルバームーン到着トリガー
+10220201029	Silver Moon Trigger Buff	シルバームーン発動バフ
+10220201030	Moonlight	ムーンライト
+10220201031	Silver Moon	シルバームーン
+10220201032	Damage Taken Increase	被ダメージ増加
+10220201033	Ranged Damage Increase	遠距離ダメージ増加
+10220201034	Demon's Whisper	悪魔の囁き
+10220201035	Vanguard Shield	ヴァンガードシールド
+10220201036	Wildcat Passive	ワイルドキャットパッシブ
+10220201037	Demonic Aura	悪魔のオーラ
+10220201038	Demon Flame	デモンフレイム
+10220201039	Realm of Light	光の領域
+10220201040	DMG Reduction	ダメージ軽減
+10220201041	Continuous Area Shield	持続エリアシールド
+10220201042	MATK Increase	MATK増加
+10220201043	Celestial Dance	セレスティアルダンス
+10220201044	Fairy Blessing	フェアリーの祝福
+10220201045	Fairy Blessing - HP Lock	フェアリーブレッシング - HP固定
+10220201046	Fairy - Shield	フェアリー - シールド
+10220201047	Fairy Blessing - Max Life	フェアリーブレッシング - 最大HP
+10220201048	Fairy Shield	フェアリーシールド
+10220201049	DEF and MDEF Increase	DEF・MDEF増加
+10220201050	Piamette Passive	ピアメットパッシブ
+10220201051	DEF and MDEF Reduction	DEF・MDEF低下
+10220201052	Butterfly Dance	バタフライダンス
+10220201053	Execution	実行
+10220201054	Executioner	エクスキューショナー
+10220201055	Stat Reduction	ステータス低下
+10220201056	Rocker Rocker	ロッカーロッカー
+10220201057	Petrification Gaze	石化の視線
+10220201058	Serpent Sorcery	サーペントソーサリー
+10220201059	Arcane Silver Serpent	アーケインシルバーサーペント
+10220201060	Flame of Hope	希望の炎
+10220201061	Divine Hope	ディヴァインホープ
+10220201062	Formless Entanglement	無形の束縛
+10220201063	Soul Siphon	ソウルサイフォン
+10220201064	Collective Surveillance	集団監視
+10220201065	Light of Scrutiny	審判の光
+10220201066	Eye of Scrutiny	鑑識の眼
+10220201067	Deliberate Laceration	意図的裂傷
+10220201068	Samurai Charge	サムライチャージ
+10220201069	Same Old Trick	いつもの手
+10220201070	Flame Breath	フレイムブレス
+10220201071	Spreading Frost	広がる霜
+10220201072	Tidal Hymn	潮の賛歌
+10220201073	Dance of the Sea Monster	海獣の舞
+10220201074	Cleaning Time	清掃時間
+10220201075	Alice's Protection	アリスの加護
+10220201076	A Maid's Etiquette	メイドのたしなみ
+10220201077	Transform into Golden Thief Bug	黄金蟲に変身
+10220201078	Universal - Gift Magic Circle	汎用 - ギフト魔法陣
+10220201079	Universal - Grand Gift Magic Circle	汎用 - 豪華ギフト魔法陣
+10220201080	Transform into Little Poring	リトルポリンに変身
+10220201081	Fatal Blow	致命的な一撃
+10220201082	Golden Thief Bug Stealth	黄金蟲ステルス
+10220201083	Block Shield	ブロックシールド
+10220201084	Sandstorm Slow	砂嵐スロウ
+10220201085	Phreeoni Slow	フリオニ・スロー
+10220201086	Move back Afterimage Status	後退残像状態
+10220201087	Mist Formation Stealth	霧形成ステルス
+10220201088	Dungeon Matchmaking Penalty I	ダンジョンマッチングペナルティI
+10220201089	Dungeon Matchmaking Penalty II	ダンジョンマッチングペナルティII
+10220201090	Dungeon Matchmaking Penalty III	ダンジョンマッチングペナルティIII
+10220201091	Blade Deflection	ブレードディフレクション
+10220201092	Full-screen AOE	全画面AOE
+10220201093	Blade Mountain-Greatsword	ブレードマウンテン・グレートソード
+10220201094	Blade Mountain-Greatsword Effect	ブレードマウンテン-グレートソード効果
+10220201095	Shield	シールド
+10220201096	Cast AOE When Shield Ends	シールド終了時に範囲攻撃
+10220201097	Stone Blade	ストーンブレード
+10220201098	BUFF While Protected by Shield	シールド保護中BUFF
+10220201099	Transform: Poring Cannot Be Attacked	変身：ポリンは攻撃不可
+10220201100	Sword, Derived Interaction	ソード派生インタラクション
+10220201101	Shield, Derived Interaction	シールド派生インタラクション
+10220201102	Weapon Deflection Mechanic Callout	武器弾きギミックコールアウト
+10220201103	Arrow Effect	矢の効果
+10220201104	Check Whether It's on a Line	ライン上かどうかを確認
+10220201105	Use a Revive to cancel Transform	復活を使用して変身を解除
+10220201106	Continuously displays a red tether	赤いテザーを継続表示
+10220201107	Invincible and Untargetable	無敵・ターゲット不可
+10220201108	Drake Buff	ドレイクバフ
+10220201109	Minion Buff	ミニオンバフ
+10220201110	Waterspout Buff	ウォータースパウトバフ
+10220201111	Ghost Ship Buff	幽霊船バフ
+10220201112	Ghost Ship Single-Hit Buff	ゴーストシップ単発バフ
+10220201113	Ghost Ship Second Wave Buff	ゴーストシップ第2ウェーブバフ
+10220201114	Player Link	プレイヤーリンク
+10220201115	Detection Distance	検知距離
+10220201116	Petrify Screen Effect	石化画面エフェクト
+10220201117	NPC Only Receives Damage Effect	NPC専用被ダメージ効果
+10220201118	Player Link @{1}	プレイヤーリンク @{1}
+10220201119	New Player Link	新規プレイヤーリンク
+10220201120	Red Line Link	赤い線のリンク
+10220201121	White Line Link	ホワイトラインリンク
+10220201122	New Player Link Node	新規プレイヤーリンクノード
+10220201123	Count	回数
+10220201124	Boss-Player Link	ボス-プレイヤーリンク
+10220201125	Player-to-Player Link	プレイヤー間リンク
+10220201126	Player Accelerate/Slow	プレイヤー加速/減速
+10220201127	Focus Zoom	フォーカスズーム
+10220201128	Summon Marker	サモンマーカー
+10220201129	Coffin Skill	コフィンスキル
+10220201130	Shroud	シュラウド
+10220201131	Shroud Crowd Control Removal	幕による行動妨害を解除
+10220201132	Shroud Detection	シュラウド検知
+10220201133	Shroud Link	シュラウドリンク
+10220201134	Coffin Skill@{1}	コフィンスキル@{1}
+10220201135	Damage Reduction	ダメージ軽減
+10220201136	Damage Reduction Filter	ダメージ軽減フィルター
+10220201137	Increase Aggro	ヘイト増加
+10220201138	Party-Wide Stealth	パーティ全体ステルス
+10220201139	On Removal	削除時
+10220201140	HP Bar Display	HPバー表示
+10220201141	Ultimate Marker	アルティメットマーカー
+10220201142	Laser Marker	レーザーマーカー
+10220201143	AOE Marker	範囲マーカー
+10220201144	Enrage Marker	激怒マーカー
+10220201145	Pyramid Laser	ピラミッドレーザー
+10220201146	Enrage Effect	激怒エフェクト
+10220201147	Laser Link	レーザーリンク
+10220201148	Warning Link	警告リンク
+10220201149	Curse of the Pyramid	ピラミッドの呪い
+10220201150	AOE Effect	範囲効果
+10220201151	Charged Bell	チャージベル
+10220201152	Party-Wide Stealth	パーティ全体ステルス
+10220201153	Cumulative Time Under the Light	光を浴びた累積時間
+10220201154	Continuously Apply Stealth Buff	ステルスバフを継続付与
+10220201155	Bell Untargetable Buff	ベル対象不可バフ
+10220201156	Anti-Flicker Buff	ちらつき防止バフ
+10220201157	Bullet Mark Buff	弾痕バフ
+10220201158	Post-Death Lighting Effect	死亡後ライティングエフェクト
+10220201159	Same-Color Collision Bubble NPC Left	同色衝突バブルNPC・左
+10220201160	Same-Color Collision Bubble NPC Down	同色衝突バブルNPC・下
+10220201161	Red Note	赤い音符
+10220201162	Bubble Movement	バブル移動
+10220201163	Continuous Bubble Deployment	バブル連続配置
+10220201164	Yellow Note	イエローノート
+10220201165	Blue Note	ブルーノート
+10220201166	Green Note	グリーンノート
+10220201167	Invincible and Untargetable (Deprecated)	無敵・ターゲット不可（廃止予定）
+10220201168	Different-Color Collision Bubble NPC Right	異色衝突バブルNPC・右
+10220201169	Different-Color Collision Bubble NPC Up	異色衝突バブルNPC・上
+10220201170	Player	プレイヤー
+10220201171	Stationary Red Bubble	固定レッドバブル
+10220201172	Stationary Yellow Bubble	固定イエローバブル
+10220201173	Stationary Blue Bubble	固定ブルーバブル
+10220201174	Stationary Green Bubble	固定グリーンバブル
+10220201175	Knockback Immunity	ノックバック無効
+10220201176	Wave Slow	ウェーブスロー
+10220201177	A Red Bubble Is Tracking You	レッドバブルがあなたを追尾中
+10220201178	A Yellow Bubble Is Tracking You	イエローバブルに追跡されています
+10220201179	A Blue Bubble Is Tracking You	ブルーバブルがあなたを追尾中
+10220201180	A Green Bubble Is Tracking You	グリーンバブルに追跡されています
+10220201181	Red Tracking Link Effect	レッド追尾リンク効果
+10220201182	p@{1} Speed Buff	p@{1} スピードバフ
+10220201183	Continuously Launch Water Jet	ウォータージェットを連続発射
+10220201184	Yellow Tracking Line Effect	イエロー追尾ラインエフェクト
+10220201185	Blue Tracking Line Effect	ブルー追尾ラインエフェクト
+10220201186	Green Tracking Line Effect	グリーン追尾ラインエフェクト
+10220201187	Boss @{1} Persistent Water Orb Effect	ボス@{1}持続ウォーターオーブ効果
+10220201188	Highest-Aggro Target Effect	最高ヘイト対象エフェクト
+10220201189	Boss Movement Detection Buff	ボス移動検知バフ
+10220201190	Red Bubble Screen Tracking Effect	レッドバブル画面追尾エフェクト
+10220201191	Yellow Bubble Screen Tracking Effect	イエローバブル画面追尾エフェクト
+10220201192	Blue Bubble Screen Tracking Effect	ブルーバブル画面追尾エフェクト
+10220201193	Green Bubble Screen Tracking Effect	グリーンバブル画面追尾エフェクト
+10220201194	Bubble Attraction Control	バブル吸引制御
+10220201195	Duo Dance	デュオダンス
+10220201196	Dance Machine Transform	ダンスマシン変身
+10220201197	Dance Machine Skill Swap	ダンスマシンスキル切替
+10220201198	Summoned NPC Spawn Buff	召喚NPC出現バフ
+10220201199	Link	リンク
+10220201200	Linked Debuff	連動デバフ
+10220201201	Dance Move Check	ダンスムーブ確認
+10220201202	Dance Machine_Remove Transform Buff Remove Transform Buff	ダンスマシン_変身バフ解除 変身バフ解除
+10220201203	Skill @{1} Cast Check	スキル @{1} 詠唱チェック
+10220201204	Remove Skill Check	スキルチェック解除
+10220201205	Perfect State	完璧な状態
+10220201206	Dancing NPC Check	ダンスNPCチェック
+10220201207	Rhythm Button	リズムボタン
+10220201208	Launch Cross Compression Field	クロス圧縮フィールドを発射
+10220201209	Note Replacement on Cooldown	ノート置換はクールダウン中
+10220201210	Red Note Magic Circle Expanding Outer Ring	レッドノート魔法陣・外周拡大
+10220201211	Blue Note Magic Circle Expanding Outer Ring	ブルーノート魔法陣・外周拡大
+10220201212	Yellow Note Magic Circle Expanding Outer Ring	イエローノート魔法陣・外周拡大
+10220201213	Green Note Magic Circle Expanding Outer Ring	グリーンノート魔法陣・外周拡大
+10220201214	White Note Magic Circle Expanding Outer Ring	ホワイトノート魔法陣・外周拡大
+10220201215	Green Energy Barrier Activation	グリーンエネルギーバリア起動
+10220201216	Immune Monolith	無敵モノリス
+10220201217	Lock Life at @{1}%	HPを@{1}%で固定
+10220201218	Green Marker	緑のマーカー
+10220201219	Player Link Node	プレイヤーリンクノード
+10220201220	Knight Note@{1}	ナイトノート@{1}
+10220201221	Crusader Note@{1}	クルセイダーノート@{1}
+10220201222	Mage Note@{1}	メイジノート@{1}
+10220201223	Hunter Note@{1}	ハンターノート@{1}
+10220201224	Harmony Self Buff	ハーモニー自己バフ
+10220201225	Battle Chant Harmony: Harmony	バトルチャントハーモニー：ハーモニー
+10220201226	Spiritual Melody Purification Self Buff	スピリチュアルメロディ浄化セルフバフ
+10220201227	Battle Chant Harmony: Rhythm	バトルチャントハーモニー：リズム
+10220201228	Psalm Self Buff	詩篇セルフバフ
+10220201229	Battle Chant Harmony: Psalm	バトルチャントハーモニー：詩篇
+10220201230	Original Melody Chorus Self Buff	オリジナルメロディコーラス自己バフ
+10220201231	Battle Chant Harmony: Original Melody Chorus	バトルチャント・ハーモニー：原旋律コーラス
+10220201232	Organon Self Buff	オルガノン自己バフ
+10220201233	Low Drone Self Buff	ロウドローン自己バフ
+10220201234	Admonitory Song of Suffering: Low Drone	苦悩の戒めの歌：低音ドローン
+10220201235	Sacrament Baptism Self Buff	サクラメントバプティズム自己バフ
+10220201236	Sacred Music True Form	聖なる音楽・真形態
+10220201237	Divinity True Form Self Buff	神性真形態自己バフ
+10220201238	Voice Part	ボイスパート
+10220201239	Priest Note@{1}	プリーストノート@{1}
+10220201240	Rhythm Performance Buff	リズム演奏バフ
+10220201241	Shield Cooldown Buff	シールドクールダウンバフ
+10220201242	Voice Part Performance Buff	ボイスパート演奏バフ
+10220201243	Assassin Note@{1}	アサシンノート@{1}
+10220201244	Merchant Note@{1}	マーチャントノート@{1}
+10220201245	Soul Burst Skill Detection Buff	ソウルバーストスキル検知バフ
+10220201246	Initial Shield	初期シールド
+10220201247	Persistent Shield	持続シールド
+10220201248	Season Axe Tornado Speed and ATK Boost Listener	シーズン・アックストルネード速度/ATK増加監視
+10220201249	Blade Mark - ATK Up	ブレイドマーク - ATK上昇
+10220201250	Blade Mark-Accelerate	ブレイドマーク-加速
+10220201251	Season High-Energy Impact Switch bd@{1}	シーズン・ハイエナジーインパクト切替 bd@{1}
+10220201252	Season Axe Tornado Switch BD@{1}	シーズン・アックストルネード切替 BD@{1}
+10220201253	Reflect Damage Slow	反射ダメージ鈍足
+10220201254	Switch Thorn	スイッチソーン
+10220201255	King's Grace Unstoppable	キングスグレイス・アンストッパブル
+10220201256	Switch Twilight Light	トワイライトライト切替
+10220201257	Switch (Enhance) Blood Cross	ブラッドクロス（強化）切替
+10220201258	Switch Enhance Blood Cross	ブラッドクロス強化切替
+10220201259	Switch King's Grace	キングスグレイス切替
+10220201260	Shield Damage Reduction	シールドダメージ軽減
+10220201261	Shield Casting Passive	シールド詠唱パッシブ
+10220201262	Modify Shield Press	シールドプレス変更
+10220201263	Switch Shield Press	シールドプレス切替
+10220201264	Switch Blood Cross	ブラッドクロス切替
+10220201265	Switch Moon Slasher	ムーンスラッシャー切替
+10220201266	Earth Drive Slow	アースドライブ・スロー
+10220201267	Switch Earth Drive@{1}	アースドライブ切替@{1}
+10220201268	Switch Earth Drive	アースドライブ切替
+10220201269	Delay	ディレイ
+10220201270	Shooting: BD@{1}	シューティング: BD@{1}
+10220201271	Focused Arrow Strike	集中アローストライク
+10220201272	Wolf Hunt: BD@{1}	ウルフハント：BD@{1}
+10220201273	Frenzy BD VFX	フレンジー BD VFX
+10220201274	Dragon Knight: Fire Mark@{1}	ドラゴンナイト：火の印@{1}
+10220201275	Wind-Pressure Blade	風圧ブレード
+10220201276	Dragon Knight: Wind Mark@{1}	ドラゴンナイト：風の印@{1}
+10220201277	Dragon Transformation	ドラゴン変身
+10220201278	Monitor Slashing Strike	斬撃監視
+10220201279	Slashing Strike Floors	スラッシングストライク階層
+10220201280	Reset Rift Impact CD	リフトインパクトCDをリセット
+10220201281	Lance Knight: Wind Mark@{1}	ランスナイト：風の印@{1}
+10220201282	Target Mark	ターゲットマーク
+10220201283	Reset Phantom Thrust CD	ファントムスラストCDをリセット
+10220201284	Note Mark@{1}	ノートマーク@{1}
+10220201285	Lance Knight: Fire Mark@{1}	ランスナイト：火の印@{1}
+10220201286	Frenzy S@{1}	フレンジー S@{1}
+10220201287	Advanced Hundred Spear Counter S@{1}	上級ハンドレッドスピアカウンターS@{1}
+10220201288	Hundred Spear Mode@{1}	ハンドレッドスピアモード@{1}
+10220201289	Enhance Cloaking	クローク強化
+10220201290	Dark Illusion_S@{1}_BD	ダークイリュージョン_S@{1}_BD
+10220201291	Dark Illusion	ダークイリュージョン
+10220201292	Cross Ripper Slasher_S@{1}_BD	クロスリッパースラッシャー_S@{1}_BD
+10220201293	Rolling Cutter BD_S@{1}_BD	ローリングカッター BD_S@{1}_BD
+10220201294	Cloaking Enhance BD_S@{1}_BD	クローキング強化 BD_S@{1}_BD
+10220201295	Overpower Passive	オーバーパワーパッシブ
+10220201296	Freestyle Rap	フリースタイルラップ
+10220201297	Triple Rhyme	トリプルライム
+10220201298	Hip-Hop Impersonation	ヒップホップものまね
+10220201299	Encore	アンコール
+10220201300	Multi-Rhyme	マルチライム
+10220201301	Move back Afterimage State Season	後退残像状態・シーズン
+10220201302	Syllable	音節
+10220201303	Switch Comet	スイッチコメット
+10220201304	Switch Vortex	スイッチボルテックス
+10220201305	Elemental Attunement-Comet	エレメンタルアチューンメント・コメット
+10220201306	Elemental Attunement Comet	エレメンタルアチューンメント コメット
+10220201307	Normal Attack Counter	通常攻撃カウンター
+10220201308	Switch White Imprison	ホワイトインプリズン切替
+10220201309	Remix Resonance	リミックスレゾナンス
+10220201310	Switch Soul Burst	ソウルバースト切替
+10220201311	Switch Enhance Soul Burst	ソウルバースト強化切替
+10220201312	Spellbook-Little Meteor	スペルブック・リトルメテオ
+10220201313	Switch Psychic Orb	サイキックオーブ切替
+10220201314	Switch Gravity Impact	グラビティインパクト切替
+10220201315	Psychic Orb-Counter	サイキックオーブ-カウンター
+10220201316	Manifestation	顕現
+10220201317	Performance Buff	パフォーマンスバフ
+10220201318	Divine Remnant	ディバイン・レムナント
+10220201319	Free	無料
+10220201320	Buff	バフ
+10220201321	Evil Spirit Possession	悪霊憑依
+10220201322	Praiser Priest Hymn: Equal Grace	賛美プリースト賛歌：平等の恵み
+10220201323	Praiser Priest Hymn: Manifestation	賛美司祭の聖歌：顕現
+10220201324	Praiser Priest Hymn: Divine Remnant	賛美司祭の聖歌：神聖な残滓
+10220201325	Praiser Priest Hymn: Angel Incarnate	賛美プリースト賛歌：天使の化身
+10220201326	Exorciser Spell: Enlightenment	エクソシスト呪文：エンライトメント
+10220201327	Exorciser Spell: Free Will	エクソシスト呪文：フリーウィル
+10220201328	Exorciser Spell: Corruption	エクソシスト呪文：コラプション
+10220201329	Exorciser Spell: Evil Spirit Possession	エクソシスト呪文：悪霊憑依
+10220201330	Chain	チェイン
+10220201331	Reduce Twilight Ray CD	トワイライトレイCD短縮
+10220201332	Replace Fearless Charge	フィアレスチャージを置換
+10220201333	Increase Earth Drive Damage	アースドライブのダメージ増加
+10220201334	Replace Earth Drive	アースドライブ差し替え
+10220201335	Record Damage Dealt	与ダメージを記録
+10220201336	Enhance Guard	ガード強化
+10220201337	Replace Block	ブロックを置き換える
+10220201338	Focused Shot: Dark Night	集中射撃：ダークナイト
+10220201339	Slash Mode@{1}	スラッシュモード@{1}
+10220201340	Phantom Thrust Stacks	ファントムスラストスタック
+10220201341	Reset Sonic Blow CD	ソニックブローCDリセット
+10220201342	Blood Spear	ブラッドスピア
+10220201343	Black Phantom	ブラックファントム
+10220201344	Haste	ヘイスト
+10220201345	Slow	減速
+10220201346	Dark Illusion_S@{1}_BD	ダークイリュージョン_S@{1}_BD
+10220201347	Cross Ripper Slasher_S@{1}_BD	クロスリッパースラッシャー_S@{1}_BD
+10220201348	Rolling CutterBD_S@{1}_BD	ローリングカッターBD_S@{1}_BD
+10220201349	Enhanced CloakingBD_S@{1}_BD	強化クローキングBD_S@{1}_BD
+10220201350	Move back Afterimage_S@{1}_BD	後退残像_S@{1}_BD
+10220201351	Flowing Shadow_S@{1}_BD	フローイングシャドウ_S@{1}_BD
+10220201352	Shadow GuardBD_S@{1}_BD	シャドウガードBD_S@{1}_BD
+10220201353	Shadow PierceBD_S@{1}_BD	シャドウピアスBD_S@{1}_BD
+10220201354	Flowing Shadow Floors	フローイングシャドウ階層
+10220201355	Magic Release	マジックリリース
+10220201356	Healing Reduction	回復量減少
+10220201357	Void Rift	ヴォイドリフト
+10220201359	Test@{1}	テスト@{1}
+10220201360	Replace Intense Telekinesis	インテンス・テレキネシスを置換
+10220201361	Prison Slow	プリズンスロー
+10220201362	Enhanced Psychic Astrolabe Listener	強化サイキックアストロラーベ・リスナー
+10220201363	Enhanced Gravity Impact Listener	強化グラビティインパクト監視
+10220201364	Soul Burst/White Imprison/Gravity Impact Slow	ソウルバースト/ホワイトインプリズン/グラビティインパクト鈍足
+10220201365	Intense Telekinesis@{1}	インテンス・テレキネシス@{1}
+10220201366	Gravity Impact Continuous Ghost Attack	グラビティインパクト持続念属性攻撃
+10220201367	Psychic Astrolabe@{1}	サイキックアストロラーベ@{1}
+10220201368	Spellbook-Gravity ImpactS@{1}	スペルブック-グラビティインパクトS@{1}
+10220201369	Skill Slow Listener	スキル鈍足監視
+10220201370	Magnum Break	マグナムブレイク
+10220201371	DEF increased	DEF増加
+10220201372	Sword Mastery	ソードマスタリー
+10220201373	Provoke	プロボック
+10220201374	Sword Mastery	ソードマスタリー
+10220201375	Spear Mastery	スピアマスタリー
+10220201376	Spear Expert	槍の達人
+10220201377	Sword Quicken	ソードクイッケン
+10220201378	Enhance Auto Counter	オートカウンター強化
+10220201379	Riding	騎乗
+10220201380	Charge	突撃
+10220201381	Sword Attack Speed Increase	剣攻撃速度増加
+10220201382	Aura Blade	オーラブレード
+10220201383	Head Crush	ヘッドクラッシュ
+10220201384	Concentration	集中力
+10220201385	Parry	パリィ
+10220201386	Berserk	バーサーク
+10220201387	Joint Beat	ジョイントビート
+10220201388	Joint Beat Movement Speed Reduction	ジョイントビート・移動速度低下
+10220201389	Joint Beat Attack Speed Reduction	ジョイントビート・攻撃速度低下
+10220201390	Joint Beat Physical DEF Reduction	ジョイントビート・物理DEF低下
+10220201391	Joint Beat Damage Taken Increase	ジョイントビート 被ダメージ増加
+10220201392	Joint Beat Add Immunity Buff	ジョイントビート免疫バフ追加
+10220201393	Aura Blade Max Stack Sound Effect	オーラブレード最大スタック効果音
+10220201394	Dragon Wing	ドラゴンウイング
+10220201395	Shield Visual Effect	シールド視覚効果
+10220201396	Dragon Howling	ドラゴンハウリング
+10220201397	Frenzy Visual Effect	フレンジー視覚効果
+10220201398	Death Bound	デスバウンド
+10220201399	Enchant Blade	エンチャントブレード
+10220201400	Rune Mastery	ルーンマスタリー
+10220201401	Mounted State	装着状態
+10220201402	Dragon Training	ドラゴントレーニング
+10220201403	Mounted State-Dragon	騎乗状態-ドラゴン
+10220201404	Phantom Thrust Target	ファントムスラスト対象
+10220201405	Pinpoint Attack Stacks	ピンポイントアタックスタック
+10220201406	Hundred Spear Charge	ハンドレッドスピア・チャージ
+10220201407	Pinpoint Attack Listener	ピンポイントアタック監視
+10220201408	Furious Storm	猛烈な嵐
+10220201409	Advanced Hundred Spear Count	上級ハンドレッドスピア回数
+10220201410	Wind Blade Slash	ウィンドブレードスラッシュ
+10220201411	Sturdy Strike	頑丈なストライク
+10220201412	Cleave	クリーブ
+10220201413	Napalm Vulcan	ナパームバルカン
+10220201414	Shoot an arrow	矢を放つ
+10220201415	Phantom Arrow	ファントムアロー
+10220201416	Minor Speed Boost	小移動速度アップ
+10220201417	Major Speed Boost	大移動速度アップ
+10220201418	Guide Line Effect	ガイドラインエフェクト
+10220201419	Minor Speed Boost Effect	移動速度上昇（小）
+10220201420	Major Speed Boost Effect	移動速度上昇（大）
+10220201421	Transform Wheel Replacement	変身ホイール置換
+10220201422	Speed Boost Charge	スピードブーストチャージ
+10220201423	Missile Charge	ミサイルチャージ
+10220201424	Trap Hunter Charge	トラップハンターチャージ
+10220201425	Dark Charge	ダークチャージ
+10220201426	Shield Charge	シールドチャージ
+10220201427	Self-Destruct Charge	自爆チャージ
+10220201428	Extreme Speed Boost	超高速ブースト
+10220201429	Extreme Slow	極端に遅い
+10220201430	Self-Destruct Speed Boost	自爆移動速度アップ
+10220201431	Reduced Field of View	視野縮小
+10220201432	Control Immunity	行動妨害無効
+10220201433	Freezing Trap Hunter Effect	フリージングトラップハンター効果
+10220201434	Flame Trap Hunter Effect	フレイムトラップハンター効果
+10220201435	Cheval-de-Frise Area Effect	拒馬エリア効果
+10220201436	Chest Effect	チェストエフェクト
+10220201437	System Buff@{1}	システムバフ@{1}
+10220201438	Damage Increase (Magnum Break)	ダメージ増加（マグナムブレイク）
+10220201439	Damage/Attack Speed (Weak Point Attack)	ダメージ/攻撃速度（弱点攻撃）
+10220201440	Dark Wall (Test)	ダークウォール（テスト）
+10220201441	Increase Dodge (Test)	回避増加（テスト）
+10220201442	Effect (Test)	効果（テスト）
+10220201443	Increase ATK@{1}	ATK増加@{1}
+10220201444	Increase Healing	回復量増加
+10220201445	Reduce Healing	回復量低下
+10220201446	Ten Kills in One Step	一撃で10体撃破
+10220201447	Silence Test	静音テスト
+10220201448	Meditation State	瞑想状態
+10220201449	Orbit Test Buff	オービットテストバフ
+10220201450	Double Attack	ダブルアタック
+10220201451	Double Attack@{1}	ダブルアタック@{1}
+10220201452	Dual-Dagger Logic Script@{1}	二刀流ロジックスクリプト@{1}
+10220201453	Cloaking Passive	クロークパッシブ
+10220201454	Sand Puff Slow	砂煙スロウ
+10220201455	Detoxify	解毒
+10220201456	Katar Mastery	カタルマスタリー
+10220201457	Katar Mastery@{1}	カタールマスタリー@{1}
+10220201458	Sonic Acceleration	ソニックアクセラレーション
+10220201459	Move back Increase Dodge	後退時回避率増加
+10220201460	Dual-Wield Mastery	二刀流マスタリー
+10220201461	Dual-Wield Mastery@{1}	二刀流マスタリー@{1}
+10220201462	Grimtooth	グリムトゥース
+10220201463	Venom Splasher	ベナムスプラッシャー
+10220201464	Envenom	インベナム
+10220201465	Double Attack Increase Dodge	ダブルアタック回避増加
+10220201466	Deadly Poison	デッドリーポイズン
+10220201467	Venom Creation	ヴェノムクリエーション
+10220201468	Advanced Soul Destroyer	上級ソウルデストロイヤー
+10220201469	Damage Increase Effect	ダメージ増加効果
+10220201470	Cross Impact Effect	クロスインパクト効果
+10220201471	Advanced Katar Mastery	上級カタールマスタリー
+10220201472	CRIT	クリティカル
+10220201473	Assassin Talent Placeholder@{1}-@{2}	アサシンタレントプレースホルダー@{1}-@{2}
+10220201474	Premeditation	計画性
+10220201475	Assassin Talent@{1}-@{2} Support Buff	アサシンタレント@{1}-@{2}支援バフ
+10220201476	Black Phantom Damage Increase	ブラックファントムダメージ増加
+10220201477	Black Phantom Slow	ブラックファントム鈍足
+10220201478	Rolling Cutter Passive	ローリングカッターパッシブ
+10220201479	Rolling Cutter Cooldown Reset Buff	ローリングカッター クールダウンリセットバフ
+10220201480	Venom Dance Increase Dodge	ヴェノムダンス回避増加
+10220201481	Black Phantom Floors	ブラックファントムフロア
+10220201482	Black Phantom Timer	ブラックファントムタイマー
+10220201483	Black Phantom Passive	ブラックファントムパッシブ
+10220201484	Thousand Shadows Status	サウザンドシャドウ状態
+10220201485	Shadow Loop Status	シャドウループ状態
+10220201486	Savage Blade	サベージブレード
+10220201487	Magic Blade	マジックブレード
+10220201488	Resolve	決意
+10220201489	Magic Mark	マジックマーク
+10220201490	Holy Guard	ホーリーガード
+10220201491	Divine Message	神託
+10220201492	Ice Guardian	アイスガーディアン
+10220201493	Nature's Blessing	自然の祝福
+10220201494	Magic Amplification	魔法攻撃増幅
+10220201495	Momentum Breaker	モメンタムブレイカー
+10220201496	Magic Damage Cap	魔法ダメージ上限
+10220201497	Magic Convergence	マジックコンバージェンス
+10220201498	Holy Fortress	聖なる要塞
+10220201499	Healing Amplification	回復増幅
+10220201500	Healing Cap	ヒーリングキャップ
+10220201501	Melee Amplification	近接攻撃増幅
+10220201502	Holy Light Convergence	ホーリーライトコンバージェンス
+10220201503	Terminate	終了
+10220201504	Ranged Amplification	遠距離強化
+10220201505	Vengeful Magic	復讐の魔力
+10220201506	Physical Damage Cap	物理ダメージ上限
+10220201507	Abundant Magic	豊穣の魔力
+10220201508	Strength Convergence	力の収束
+10220201509	Magic Reverberation	マジックリバーブレーション
+10220201510	Cure	治療
+10220201511	Holy Light's Protection	ホーリーライトの加護
+10220201512	Defense Cap	ディフェンスキャップ
+10220201513	Defense Convergence	防御収束
+10220201514	Abundant Healing	豊富な回復
+10220201515	Decapitation	斬首
+10220201516	Continuous Healing	持続回復
+10220201517	Vengeful Strength	復讐の力
+10220201518	Battle Ready	戦闘準備完了
+10220201519	Abundant Strength	満ちる力
+10220201520	Multi Strike	マルチストライク
 190001	Current Floors: <color=#CC762A>${1}</color>	現在のフロア：<color=#CC762A>${1}</color>
 190002	Daily Sweep Rewards: <color=#CC762A>${1}/${2}</color>	デイリー掃討報酬：<color=#CC762A>${1}/${2}</color>
 190003	Active MVPs: <color=#63A22B>${1}</color>	出現中MVP：<color=#63A22B>${1}</color>
@@ -13351,6 +14717,151 @@
 10220300482	Cannot move	移動できません
 10220300481	Increases Movement Speed by @{1}%	移動速度が@{1}%増加
 10220300480	Detects hidden enemies within @{1} meters of the Ranger.	レンジャーの@{1}m以内にいる隠れた敵を検知。
+10220201526	CRIT DMG Reduction	クリティカルダメージ軽減
+10220201525	CRIT RES	Cri耐性
+10220201524	CRIT DMG	Criダメージ
+10220201523	Continuous Shield	持続シールド
+10220201522	Desperate Defense	決死の防御
+10220201521	Fortitude Defense	不屈の防御
+10220200747	Energy Coat	エナジーコート
+10220200746	Sight Sprout	サイトスプラウト
+10220200745	Sight	サイト
+10220200744	Wind Element Damage Boost Buff	風属性ダメージ増加バフ
+10220200743	Fire Element Damage Boost Buff	火属性ダメージ増加バフ
+10220200742	Drowning	溺水
+10220200741	Heart Rend	ハートレンド
+10220200740	Generic Blind	ジェネリックブラインド
+10220200739	Generic Slow	一般的な遅い
+10220200738	Generic Immobilize	汎用移動不能
+10220200737	Generic Stun	汎用スタン
+10220200736	Generic Freeze	汎用凍結
+10220200735	Butterfly	蝶
+10220200734	Chonchon	チョンチョン
+10220200733	Sacred Timber	聖なる木材
+10220200715	Armor Plate	アーマープレート
+10220200714	Blessed Sacred Glyph	祝福された聖なるグリフ
+10220200713	Sacred Glyph	セイクリッドグリフ
+10220200712	Spirit Glyph	スピリットグリフ
+10220200711	Glyph	グリフ
+10220200710	Energized Honing Iron	活性化研磨鉄
+10220200709	Honing Iron	ホーニングアイロン
+10220200708	Sharpened Honing Stone	研ぎ澄まされた砥石
+10220200707	Honing Stone	ホーニングストーン
+10220200706	Potion Healing	ポーション回復
+10220200705	Luck Resonance	ラックレゾナンス
+10220200704	Vitality Resonance	VIT共鳴
+10220200703	Dexterity Resonance	DEX共鳴
+10220200702	Intelligence Resonance	INT共鳴
+10220200701	Agility Resonance	AGI共鳴
+10220200700	Strength Resonance	STR共鳴
+10220200699	Swift Warg	スウィフトワーグ
+10220200698	King of the Wargs	ウォーグの王
+10220200697	Wolf's Fang	狼の牙
+10220200696	Warg Accessory	ワーグアクセサリー
+10220200695	Warg Strike	ワーグストライク
+10220200694	Warg Howl	ウォーグハウリング
+10220200693	Warg Strike	ワーグストライク
+10220200692	Warg Strike Trigger	ワーグストライク発動
+10220200691	Warg Bite	ウォーグバイト
+10220200690	Mount Buff	マウントバフ
+10220200689	Keen Senses	鋭い感覚
+10220200688	Unlimited Shooting	無限射撃
+10220200687	Fear Breeze	フィアーブリーズ
+10220200686	Arrow Shower【Timer】	アローシャワー【タイマー】
+10220200685	Sniper's Aim【Invalid Shell】	スナイパーズエイム【無効な弾】
+10220200684	Sniper's Aim【Stat Boost】	スナイパーズエイム【ステータス強化】
+10220200683	Detection Skill【Buff Effect】	検知スキル【バフ効果】
+10220200682	Wind Walk【Buff Effect】	ウィンドウォーク【バフ効果】
+10220200681	General Effect【Buff Effect】	汎用効果【バフ効果】
+10220200680	Falcon Assault【Trigger Effect】	ファルコンアサルト【発動効果】
+10220200679	Falcon Assault【Stat Boost】	ファルコンアサルト【ステータス強化】
+10220200678	Sharp Shooting【Buff Effect】	シャープシューティング【バフ効果】
+10220200677	Sharp Shooting【Stat Boost】	シャープシューティング【ステータス強化】
+10220200676	Trap Hunter Skill【Buff Effect】	トラップハンタースキル【バフ効果】
+10220200675	General Effect【Invalid Shell】	汎用効果【無効な弾】
+10220200674	Blitz Beat【Buff Effect】	ブリッツビート【バフ効果】
+10220200673	Blitz Beat【Invalid Shell】	ブリッツビート【無効な弾】
+10220200672	Arrow Shower【Mode/Trigger】	アローシャワー【モード/発動】
+10220200671	Arrow Shower【Trigger Effect】	アローシャワー【発動効果】
+10220200670	Arrow Shower【Stat Boost】	アローシャワー【ステータス強化】
+10220200669	Blitz Beat【Skill Mode】	ブリッツビート【スキルモード】
+10220200668	Blitz Beat【Trigger Effect】	ブリッツビート【発動効果】
+10220200667	Blitz Beat【Stat Boost】	ブリッツビート【ステータス強化】
+10220200666	Double Strafe【Trigger Effect】	ダブルストレイフィング【発動効果】
+10220200665	Double Strafe【Stat Boost】	ダブルストレイフィング【ステータス強化】
+10220200664	Basic Attack【Trigger Effect】	通常攻撃【発動効果】
+10220200663	Basic Attack【Stat Boost】	通常攻撃【ステータス強化】
+10220200662	True Sight	トゥルーサイト
+10220200661	Steel Crow	スチールクロウ
+10220200660	Blitz Beat	ブリッツビート
+10220200659	Falconry	ファルコナリー
+10220200658	Steady Focus	安定したフォーカス
+10220200657	Hunter Spawn Buff	ハンター出現バフ
+10220200656	Guard Domain	ガードドメイン
+10220200655	Guard Domain Orbit	ガードドメイン範囲
+10220200654	Sandman Slow	サンドマンスロー
+10220200653	Gryphon Skill Shield	グリフォンスキルシールド
+10220200652	AoE Buff	範囲バフ
+10220200651	Goddess's Protection	女神の加護
+10220200650	Morale Surge	士気の高まり
+10220200649	Full Steam Ahead	全速前進
+10220200648	Fatigue Immunity	疲労無効
+10220200647	Safe Zone	安全地帯
+10220200646	Fatigue	疲労度
+10220200645	Locked	ロック中
+10220200644	Repair	修復
+10220200643	Emergency Call	緊急招集
+10220200642	Battle Command	戦闘コマンド
+10220200641	Solo Madogear Pilot Shield Recovery State	ソロ・魔導ギアパイロットシールド回復状態
+10220200640	Solo Madogear Pilot Shield	ソロ魔導ギアパイロットシールド
+10220200639	Idle Speed	アイドル速度
+10220200638	Set Periodic Damage Cap	継続ダメージ上限を設定
+10220200637	Set Single-Hit Damage Cap	単発ダメージ上限を設定
+10220200636	HP Lock	HPロック
+10220200635	Trigger Self-Destruct	自爆を発動
+10220200634	Solo Madogear Pilot Monitoring	ソロ魔導ギアパイロット監視
+10220200633	Rapidness Shot	ラピッドネスショット
+10220200632	Acceleration	加速
+10220200631	Invincible Tank	無敵タンク
+10220200630	Magnificent Burst	マグニフィセントバースト
+10220200629	Magnificent Damage Reduction	マグニフィセントダメージ軽減
+10220200628	Targeted	ターゲット中
+10220200627	Rising Resolve	ライジングリゾルブ
+10220200626	Morale Boost	士気向上
+10220200625	Battle Start Protection	戦闘開始時保護
+10220200624	Ability Enhance	能力強化
+10220200623	DMG Reduction	ダメージ軽減
+10220200622	Repairable Mark	修理可能マーク
+10220200621	Madogear Pilot Repair	魔導ギアパイロット修理
+10220200620	AoE Acceleration	AOE加速
+10220200619	Respawn Buff	リスポーンバフ
+10220200618	Continual Burn	持続燃焼
+10220200617	Electrified	電気を帯びた
+10220200616	HP Recovery	HP回復
+10220200615	Madogear Pilot Protection	魔導ギアパイロット保護
+10220200614	Demonic Dragon Soul Vulnerability	魔竜の魂・脆弱化
+10220200613	Demonic Dragon Soul	魔竜の魂
+10220200612	Death Immunity Buff	死亡無効バフ
+10220200611	Accelerate Buff	加速バフ
+10220200610	HP Buff	HPバフ
+10220200609	Shield Buff	シールドバフ
+10220200608	ATK Buff	攻撃力バフ
+10220200607	Focused Blade	集中ブレード
+10220200606	Protective Shield	プロテクトシールド
+10220200605	Soul Recall Ring	ソウルリコールリング
+10220200604	Blazing Formation	灼熱陣
+10220200603	Tornado Incarnation	トルネードインカーネーション
+10220200602	Power of Tide	潮の力
+10220200601	Blackhole Pull	ブラックホール吸引
+10220200600	Sonic Barrier Field	ソニックバリアフィールド
+10220200599	Suffocation	窒息
+10220200598	Count	回数
+10220200597	Cloud Connection	クラウド接続
+10220200596	Player Aggro Control	プレイヤーのヘイト管理
+10220200595	Force-display targeted players	対象プレイヤーを強制表示
+10220200594	White Circle Underfoot	足元の白いサークル
+10220200593	Player behavior after the opening movement ends	オープニングムーブメント終了後のプレイヤー挙動
+10220200592	An indicator circle appears under the clone monster's feet	分身モンスターの足元にインジケーターサークルが表示される
 10110301167	Increases your Neutral, Ghost, Fire, Water, Wind, and Earth Element DMG Bonus by ^{1}${1}%^{2}. When a Boss target resists your ^{3}^{4}【Frozen】^{5}^{6}, ^{7}^{8}【Petrify】^{9}^{10}, or ^{11}^{12}【Stun】^{13}^{14}, respectively deals Water/Earth/Wind Ranged Magic damage equal to your MATK * ^{15}${2}%^{16} to the target.	無、念、火、水、風、地属性のダメージボーナスが^{1}${1}%^{2}増加します。Boss対象が自身の^{3}^{4}【凍結】^{5}^{6}、^{7}^{8}【石化】^{9}^{10}、^{11}^{12}【スタン】^{13}^{14}にそれぞれ抵抗した場合、対象へ自身のMATK * ^{15}${2}%^{16}に相当する水/地/風属性遠距離魔法ダメージを与えます。
 10110301166	Deals ranged Ghost magic damage equal to Magic ATK * ^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicts ^{3}^{4}【Silence】^{5}^{6} for ${4} sec.	${1}m以内の最大${2}体の敵に魔法攻撃力*^{1}${3}%^{2}の念属性遠距離魔法ダメージを与え、${4}秒間^{3}^{4}【沈黙】^{5}^{6}を付与する。
 10110301165	Deals Ghost ranged magic damage equal to Magic ATK*^{5}${3}%+${4}^{6} to up to ^{3}${2}^{4} enemies within a ^{1}${1}^{2}-meter radius, with a ^{7}${5}%^{8} Chance to inflict ^{9}${6}^{10} sec. of 【Slow】, reducing the targets' Movement Speed by ^{11}${7}%^{12}.	^{1}${1}^{2}m範囲内の最大^{3}${2}^{4}体の敵へ、魔法攻撃力*^{5}${3}%+${4}^{6}の念属性遠距離魔法ダメージを与えます。^{7}${5}%^{8}の確率で^{9}${6}^{10}秒間【減速】を付与し、対象の移動速度を^{11}${7}%^{12}減少させます。

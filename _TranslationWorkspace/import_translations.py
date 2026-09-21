@@ -158,6 +158,16 @@ KNOWN_SERVER_LEVEL_TEMPLATE = (
 OBSERVED_CHOOSE_LABEL = "请选择"
 OBSERVED_CHOOSE_TRANSLATION = "選択してください"
 OBSERVED_CREATE_TEAM_ZH = "创建队伍"
+OBSERVED_STALL_TITLE_ALIASES = {
+    "沉睡的攤位": "休眠中の露店",
+    "沉睡的摊位": "休眠中の露店",
+    "沈睡的攤位": "休眠中の露店",
+    "沈睡的摊位": "休眠中の露店",
+}
+OBSERVED_STALL_ITEM_ALIASES = {
+    "卓越綠色藥水": "上級グリーンポーション",
+    "卓越绿色药水": "上級グリーンポーション",
+}
 KNOWN_MISTRESS_HINT_TEMPLATE = (
     "Mistress summons ^{1}Hornets that charge horizontally and vertically^{2}, "
     "damaging players. Players must evade them."
@@ -321,6 +331,9 @@ LOCALIZATION_PATCH_PREFIXES = (
     # Skill names/descriptions and linked tooltips. Some combat callouts bypass
     # XUnity after the LanguageKV lookup (for example "Focused Arrow Strike!!").
     "101102",
+    # Buff/effect names are also reused as visible item names in some stall
+    # configurations. The zh_TW stall path can read these IDs directly.
+    "102202",
     "101103",
     "102203",
     # NPC/monster/world entity names used by MeshUI overhead nameplates.
@@ -1388,6 +1401,10 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     create_team_japanese = translations.get("Create Team")
     if create_team_japanese:
         add_variant(OBSERVED_CREATE_TEAM_ZH, create_team_japanese)
+    for source, translated in OBSERVED_STALL_TITLE_ALIASES.items():
+        add_variant(source, translated)
+    for source, translated in OBSERVED_STALL_ITEM_ALIASES.items():
+        add_variant(source, translated)
 
     for source in conflicts:
         variants.pop(source, None)

@@ -35,6 +35,7 @@ namespace RO3.JapaneseMod
         {
             "Localization_en",
             "Localization_zh_CN",
+            "Localization_zh_TW",
         };
 
         private sealed class LocalizationEntry
