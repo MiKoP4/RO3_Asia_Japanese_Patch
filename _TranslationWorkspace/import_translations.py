@@ -148,6 +148,11 @@ KNOWN_SERVER_LEVEL_TEMPLATE = (
 )
 OBSERVED_CHOOSE_LABEL = "请选择"
 OBSERVED_CHOOSE_TRANSLATION = "選択してください"
+OBSERVED_CREATE_TEAM_ZH = "创建队伍"
+KNOWN_MISTRESS_HINT_TEMPLATE = (
+    "Mistress summons ^{1}Hornets that charge horizontally and vertically^{2}, "
+    "damaging players. Players must evade them."
+)
 
 # Fixed Simplified/Traditional-Chinese chat/recruitment strings observed in the
 # zh_CN / zh_TW LanguageKV modules.  The values are *canonical English keys*,
@@ -284,6 +289,8 @@ LOCALIZATION_PATCH_PREFIXES = (
     # Battlefield announcement cards are authored as one literal-\\n string but
     # rendered as separate title/body Text elements after placeholder expansion.
     *KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS,
+    # Party menu entry observed directly from the zh_CN table.
+    "24002",
     "106801",
     "120100",
     "136200",
@@ -318,6 +325,9 @@ LOCALIZATION_PATCH_PREFIXES = (
     # strip rich-text placeholders before XUnity sees the final string, so the
     # LanguageKV template must be translated upstream.
     "123901",
+    # Boss hint/tutorial prose. These strings carry ^{n} style placeholders
+    # that are converted to TMP tags before some hint screens reach XUnity.
+    "121101",
     # Event/guild headings and descriptions that are sometimes preformatted.
     "124001",
     "124002",
@@ -393,6 +403,8 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10320000354": (
         KNOWN_KAFRA_BATTLEFIELD_MANAGER + "\\n" + KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY
     ),
+    "24002": "Create Team",
+    "12110100025": KNOWN_MISTRESS_HINT_TEMPLATE,
     "10680100010": "Payon",
     "12010000000": "Prontera",
     "13620000000": "Prontera",
@@ -967,6 +979,7 @@ def load_runtime_keys() -> set[str]:
                 "102203",
                 "104004",
                 "108001",
+                "121101",
                 "124002",
                 "131501",
                 "250091",
@@ -1282,6 +1295,9 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     # that bypasses the English LanguageKV table entirely. Keep the observed
     # runtime alias in the priority file so the surrounding UI is consistent.
     add_variant(OBSERVED_CHOOSE_LABEL, OBSERVED_CHOOSE_TRANSLATION)
+    create_team_japanese = translations.get("Create Team")
+    if create_team_japanese:
+        add_variant(OBSERVED_CREATE_TEAM_ZH, create_team_japanese)
 
     for source in conflicts:
         variants.pop(source, None)
@@ -1501,6 +1517,16 @@ def run(check_only: bool) -> int:
     )
     if not known_event_regex or known_event_regex not in regex_lines:
         raise ImportErrorWithContext("known party-event template did not generate a regex rule")
+    mistress_hint_japanese = translations.get(KNOWN_MISTRESS_HINT_TEMPLATE)
+    if not mistress_hint_japanese:
+        raise ImportErrorWithContext("known Mistress hint template is missing from translations")
+    mistress_hint_regex = build_runtime_regex(
+        KNOWN_MISTRESS_HINT_TEMPLATE,
+        mistress_hint_japanese,
+        force=True,
+    )
+    if not mistress_hint_regex or mistress_hint_regex not in regex_lines:
+        raise ImportErrorWithContext("known Mistress hint template did not generate a regex rule")
     if KNOWN_BUILD_EFFECT_TEMPLATE not in translations:
         raise ImportErrorWithContext("known recommended-build effect template is missing from translations")
     known_build_effect_regex = build_runtime_regex(
@@ -1645,6 +1671,7 @@ def run(check_only: bool) -> int:
             KNOWN_TALK_TEMPLATE
         ].replace("${1}", translations[KNOWN_TALK_NAME]),
         OBSERVED_CHOOSE_LABEL: OBSERVED_CHOOSE_TRANSLATION,
+        OBSERVED_CREATE_TEAM_ZH: translations["Create Team"],
         "点击组队": translations[KNOWN_CHAT_JOIN_PARTY],
         "蛮荒腹地": translations["Savage Hinterlands"],
         KNOWN_KAFRA_BATTLEFIELD_MANAGER: kafra_odin_parts[0],
