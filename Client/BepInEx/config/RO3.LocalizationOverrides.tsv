@@ -11608,6 +11608,8 @@
 11250000042	Low-Tier Undead Resistance	初級不死属性耐性
 11250000041	Minor Ghost Property Resistance	念属性耐性（小）
 11250000040	Minor Shadow Resistance	闇属性耐性（小）
+190003	Active MVPs: <color=#63A22B>${1}</color>	出現中MVP：<color=#63A22B>${1}</color>
+190004	Ranking Reward Count: <color=#CC762A>${1}/${2}</color>\nParticipation Rewards Reward Count: <color=#CC762A>${3}/${4}</color>	ランキング報酬受取可能回数：<color=#CC762A>${1}/${2}</color>\n参加報酬受取可能回数：<color=#CC762A>${3}/${4}</color>
 11250000039	Minor Holy Resistance	聖属性耐性・小
 11250000038	Minor Poison Resistance	毒属性耐性（小）
 11250000037	Minor Water Resistance	水属性耐性・小

@@ -137,6 +137,10 @@ KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY = (
     "Receive the Blessing of Odin, King of the Gods, reducing skill Cooldown by "
     "@{1}% for @{2} minutes."
 )
+KNOWN_MVP_CARD_RUNTIME_IDS = (
+    "190003",
+    "190004",
+)
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
     "${2}: Server Level Cap increases to Lv. ${3}</color>"
@@ -293,6 +297,9 @@ LOCALIZATION_PATCH_PREFIXES = (
     "120100",
     "136200",
     "321",
+    # MVP list-card counters are formatted after lookup and can render as
+    # English even though canonical translations already exist.
+    *KNOWN_MVP_CARD_RUNTIME_IDS,
     # Skill names/descriptions and linked tooltips. Some combat callouts bypass
     # XUnity after the LanguageKV lookup (for example "Focused Arrow Strike!!").
     "101102",
@@ -1016,6 +1023,7 @@ def load_runtime_keys() -> set[str]:
                 "121101",
                 "124002",
                 "131501",
+                *KNOWN_MVP_CARD_RUNTIME_IDS,
                 "25004",
                 "25005",
                 "250091",
@@ -1068,6 +1076,22 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
     # LanguageKV string, then rendered as separate title/body Text elements.
     # Derive per-line runtime regexes whenever source/target line counts align.
     for english in load_language_kv_texts(("103200",)):
+        japanese = translations.get(english)
+        if not japanese or "\\n" not in english or "\\n" not in japanese:
+            continue
+        source_parts = english.split("\\n")
+        target_parts = japanese.split("\\n")
+        if len(source_parts) != len(target_parts):
+            continue
+        for source_part, target_part in zip(source_parts, target_parts):
+            line = build_runtime_regex(source_part, target_part, force=True)
+            if line:
+                lines.append(line)
+
+    # MVP cards may render the two 190004 lines independently after expanding
+    # their counters. Derive per-line regexes so both the combined and split
+    # layouts are covered.
+    for english in load_language_kv_texts(KNOWN_MVP_CARD_RUNTIME_IDS):
         japanese = translations.get(english)
         if not japanese or "\\n" not in english or "\\n" not in japanese:
             continue
