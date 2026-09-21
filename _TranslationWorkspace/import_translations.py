@@ -137,9 +137,19 @@ KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY = (
     "Receive the Blessing of Odin, King of the Gods, reducing skill Cooldown by "
     "@{1}% for @{2} minutes."
 )
-KNOWN_MVP_CARD_RUNTIME_IDS = (
+KNOWN_ACTIVITY_CARD_RUNTIME_IDS = (
+    "190001",
     "190003",
     "190004",
+    "190005",
+    "190006",
+    "10600100000",
+    "56177",
+    "56227",
+    "56197",
+    "56198",
+    "56199",
+    "56200",
 )
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
@@ -297,9 +307,17 @@ LOCALIZATION_PATCH_PREFIXES = (
     "120100",
     "136200",
     "321",
-    # MVP list-card counters are formatted after lookup and can render as
-    # English even though canonical translations already exist.
-    *KNOWN_MVP_CARD_RUNTIME_IDS,
+    # Activity-card labels/counters. These card UIs read LanguageKV directly
+    # and format values after lookup, so both static labels and dynamic counters
+    # need upstream coverage.
+    "1900",
+    "10600100000",
+    "56177",
+    "56227",
+    "56197",
+    "56198",
+    "56199",
+    "56200",
     # Skill names/descriptions and linked tooltips. Some combat callouts bypass
     # XUnity after the LanguageKV lookup (for example "Focused Arrow Strike!!").
     "101102",
@@ -428,6 +446,18 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10080000003": "Prontera",
     "40101": "S-Class Pet guaranteed after ${1} Hatches",
     "40310": "Guaranteed to obtain an <color=#FF993F>S-Class</color> Pet within the next <color=#FF993F>${1} Hatches</color>",
+    "190001": "Current Floors: <color=#CC762A>${1}</color>",
+    "190003": "Active MVPs: <color=#63A22B>${1}</color>",
+    "190004": "Ranking Reward Count: <color=#CC762A>${1}/${2}</color>\\nParticipation Rewards Reward Count: <color=#CC762A>${3}/${4}</color>",
+    "190005": "Remaining Bonus Time: <color=#63A22B>${1}</color>",
+    "190006": "<color=#CC762A>60 minutes</color> of Bonus Time is restored daily at midnight",
+    "10600100000": "Reach Floor @{1} with a pet",
+    "56177": "Clear Reward Count: ${1}",
+    "56227": "Clear Reward Count: ${1}",
+    "56197": "Raid Members: <color=#CC762A>6—10</color>",
+    "56198": "Reward Count resets every Monday at <color=#CC762A>5</color> AM",
+    "56199": "Party Members: <color=#CC762A>3—5</color>",
+    "56200": "Reward Count resets every Monday at <color=#CC762A>5</color> AM",
     "10320000354": (
         KNOWN_KAFRA_BATTLEFIELD_MANAGER + "\\n" + KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY
     ),
@@ -1023,7 +1053,7 @@ def load_runtime_keys() -> set[str]:
                 "121101",
                 "124002",
                 "131501",
-                *KNOWN_MVP_CARD_RUNTIME_IDS,
+                *KNOWN_ACTIVITY_CARD_RUNTIME_IDS,
                 "25004",
                 "25005",
                 "250091",
@@ -1088,10 +1118,10 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
             if line:
                 lines.append(line)
 
-    # MVP cards may render the two 190004 lines independently after expanding
-    # their counters. Derive per-line regexes so both the combined and split
+    # Activity cards may render multiline counter text independently after
+    # expanding values. Derive per-line regexes so both combined and split
     # layouts are covered.
-    for english in load_language_kv_texts(KNOWN_MVP_CARD_RUNTIME_IDS):
+    for english in load_language_kv_texts(KNOWN_ACTIVITY_CARD_RUNTIME_IDS):
         japanese = translations.get(english)
         if not japanese or "\\n" not in english or "\\n" not in japanese:
             continue
