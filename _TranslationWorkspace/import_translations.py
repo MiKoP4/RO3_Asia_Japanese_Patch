@@ -56,6 +56,9 @@ FORCED_RUNTIME_KEYS = {
     "${1}%:JOB",
     "BASE:${1}%",
     "Reach Lv. @{1} to Unlock New Main Quests",
+    "Obtained ${1}",
+    "Obtained ${1} X ${2}",
+    "Skill Unlocked: ${1}",
 }
 
 # The known basic-attack description from the reported screenshot. Keeping it
@@ -133,14 +136,6 @@ KNOWN_KAFRA_BATTLEFIELD_MANAGER = "Kafra Battlefield Manager"
 KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY = (
     "Receive the Blessing of Odin, King of the Gods, reducing skill Cooldown by "
     "@{1}% for @{2} minutes."
-)
-KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS = (
-    "10320000354",
-    "10320000356",
-    "10320000357",
-    "10320000358",
-    "10320000375",
-    "10320000377",
 )
 KNOWN_SERVER_LEVEL_TEMPLATE = (
     "<color=#99FF9F>Current Server Level Cap: Lv. ${1}\\n"
@@ -286,9 +281,12 @@ LOCALIZATION_PATCH_PREFIXES = (
     # localization table directly; patch these upstream so zh_CN place names do
     # not leak through when the client is using the Chinese source module.
     "100800",
-    # Battlefield announcement cards are authored as one literal-\\n string but
-    # rendered as separate title/body Text elements after placeholder expansion.
-    *KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS,
+    # Pet search/hatch UI. Several pity counters and hatch guarantees expand
+    # ${n} values after lookup and can otherwise render as English banners.
+    "40",
+    # Global/top-screen, battle and guild announcements. Many are formatted or
+    # split into title/body Text elements before the final UI assignment.
+    "103200",
     # Party menu entry observed directly from the zh_CN table.
     "24002",
     "106801",
@@ -307,6 +305,8 @@ LOCALIZATION_PATCH_PREFIXES = (
     # placeholders before the activity panel renders, so XUnity can otherwise
     # miss the final English sentence even though the canonical pair exists.
     "104004",
+    # Guild-notification mirror table used by direct LanguageKV consumers.
+    "105600",
     # Suggested-build effect descriptions.
     "108001",
     # Generic overview/help tooltips. These are frequently formatted from @{n}
@@ -354,6 +354,25 @@ LOCALIZATION_PATCH_PREFIXES = (
     "23288",
     "23289",
     "23290",
+    # Party-member kick labels whose English source is itself mistranslated as
+    # "Call Mio!!". Patch by ID so direct LanguageKV consumers get the intended
+    # party-removal wording too.
+    "24021",
+    "24036",
+    # Battle-result/report buttons. These share the generic English "Report"
+    # with abuse-report UI, so they require ID-specific Japanese overrides.
+    "26015",
+    "44013",
+    "44026",
+    "50047",
+    "61041",
+    "61065",
+    # Global Goddess's Overture broadcasts and season countdown banners.
+    "25004",
+    "25005",
+    # Dragon Coffin Island event-open/countdown announcements.
+    "4404",
+    "4405",
     # Chat UI labels/templates. Recruitment cards can be assembled after these
     # lookups, so translate the local wrapper upstream before formatting.
     "340",
@@ -400,11 +419,18 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10400400003": "Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.",
     "10050100004": "Fresh mushrooms skewered and charcoal-grilled until browned outside and plump within. Increases Life by @{1}~@{2} for @{3} hours.",
     "10080000003": "Prontera",
+    "40101": "S-Class Pet guaranteed after ${1} Hatches",
+    "40310": "Guaranteed to obtain an <color=#FF993F>S-Class</color> Pet within the next <color=#FF993F>${1} Hatches</color>",
     "10320000354": (
         KNOWN_KAFRA_BATTLEFIELD_MANAGER + "\\n" + KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY
     ),
     "24002": "Create Team",
+    "24021": "Call Mio!!",
+    "24036": "Are you sure you want to Call Mio!! this party member?",
     "12110100025": KNOWN_MISTRESS_HINT_TEMPLATE,
+    "10320000544": "${1} used the Dragon Sanctuary, causing numerous Red Envelopes to appear in ${2}. Adventurers are invited to claim them.",
+    "250048": "${1} completes Overture I, increasing music energy for the Entire Server",
+    "44049": "Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!",
     "10680100010": "Payon",
     "12010000000": "Prontera",
     "13620000000": "Prontera",
@@ -434,6 +460,16 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "34075": KNOWN_CHAT_JOIN_PARTY,
     "34076": KNOWN_CHAT_CARD_TEMPLATE,
     "35031": KNOWN_SERVER_LEVEL_TEMPLATE,
+}
+KNOWN_LOCALIZATION_ID_JAPANESE_OVERRIDES = {
+    # Context-specific battle-report buttons. Do not change the canonical
+    # `Report=通報`, which is still correct for Tavern/player reporting UI.
+    "26015": ("Report", "戦績"),
+    "44013": ("Report", "戦績"),
+    "44026": ("Report", "戦績"),
+    "50047": ("Report", "戦績"),
+    "61041": ("Report", "戦績"),
+    "61065": ("Report", "戦績"),
 }
 KNOWN_LOCALIZATION_CANONICAL_ALIASES = {
     # LanguageKV has a stray leading space; canonical keeps the normalized key.
@@ -961,28 +997,30 @@ def load_runtime_keys() -> set[str]:
 
     IDs beginning with 100105 are character-attribute display/tooltip records;
     their numeric placeholders are expanded before hover tooltips reach XUnity.
-    IDs beginning with 101103 are skill-description records. IDs beginning
-    with 102203 are linked skill/effect tooltip records. IDs beginning with
-    108001 are recommended-build synergy descriptions, and 250091 is the
-    recommended-build heading. The compact 360xx namespace is the Spirit Tower
-    UI; several of its labels (for example ``Floor ${1}`` and
-    ``Climb ${1} more floors to obtain``) are expanded before XUnity receives
-    them. Restricting runtime regexes to these namespaces plus 360xx avoids
-    loading thousands of unrelated rules while still covering the known
-    game-side expansions.
+    Other selected namespaces cover skill/effect descriptions, pet pity/hatch
+    banners, boss hints, top-screen global announcements, quest HUD templates,
+    recommended-build text and Spirit Tower labels. Keep this list scoped to
+    UI families observed to expand placeholders before XUnity so the runtime
+    regex set stays bounded.
     """
     return set(
         load_language_kv_texts(
             (
                 "100105",
+                "40",
                 "101103",
                 "102203",
                 "104004",
+                "103200",
                 "108001",
                 "121101",
                 "124002",
                 "131501",
+                "25004",
+                "25005",
                 "250091",
+                "4404",
+                "4405",
                 "33001",
                 "35031",
                 "360",
@@ -1026,11 +1064,10 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
 
     lines.extend(build_chat_recruitment_regex_lines(translations))
 
-    # Battlefield announcement cards in 103200 are stored as one literal-\\n
+    # Announcement cards in 103200 are often stored as one literal-\\n
     # LanguageKV string, then rendered as separate title/body Text elements.
-    # The body receives placeholder expansion before XUnity sees it, so derive
-    # per-line runtime regexes from the canonical pair.
-    for english in load_language_kv_texts(KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS):
+    # Derive per-line runtime regexes whenever source/target line counts align.
+    for english in load_language_kv_texts(("103200",)):
         japanese = translations.get(english)
         if not japanese or "\\n" not in english or "\\n" not in japanese:
             continue
@@ -1228,11 +1265,10 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
         if japanese:
             add_variant(english, japanese)
 
-    # Battlefield announcement cards split a literal-\\n LanguageKV value into
-    # separate title/body UI elements. Keep fixed split parts (especially the
-    # title) in the high-priority exact dictionary; placeholder-expanded body
-    # text is covered by the runtime regex derivatives above.
-    for english in load_language_kv_texts(KNOWN_KAFRA_BATTLEFIELD_NOTIFICATION_IDS):
+    # Announcement cards may split a literal-\\n LanguageKV value into separate
+    # title/body UI elements. Keep fixed split parts in the high-priority exact
+    # dictionary; placeholder-expanded parts are covered by regex derivatives.
+    for english in load_language_kv_texts(("103200",)):
         japanese = translations.get(english)
         if not japanese or "\\n" not in english or "\\n" not in japanese:
             continue
@@ -1327,9 +1363,18 @@ def build_localization_patch_lines(translations: dict[str, str]) -> list[str]:
         "# ID<TAB>English<TAB>Japanese; canonical source is split_1000 parts 01-27",
     ]
     for key, english in load_language_kv_rows(LOCALIZATION_PATCH_PREFIXES):
-        alias = KNOWN_LOCALIZATION_CANONICAL_ALIASES.get(key)
-        canonical_english = alias[1] if alias else english
-        japanese = translations.get(canonical_english)
+        id_override = KNOWN_LOCALIZATION_ID_JAPANESE_OVERRIDES.get(key)
+        if id_override:
+            expected_english, japanese = id_override
+            if english != expected_english:
+                raise ImportErrorWithContext(
+                    f"LanguageKV ID override changed: {key} -> {english!r}; "
+                    f"expected {expected_english!r}"
+                )
+        else:
+            alias = KNOWN_LOCALIZATION_CANONICAL_ALIASES.get(key)
+            canonical_english = alias[1] if alias else english
+            japanese = translations.get(canonical_english)
         if not japanese or japanese == english:
             continue
         if (
@@ -1738,6 +1783,18 @@ def run(check_only: bool) -> int:
         if expected_line not in localization_patch_text:
             raise ImportErrorWithContext(
                 f"known localization alias did not generate: {expected_line!r}"
+            )
+    for key, (expected_english, expected_japanese) in KNOWN_LOCALIZATION_ID_JAPANESE_OVERRIDES.items():
+        actual_english = language_kv_by_id.get(key)
+        if actual_english != expected_english:
+            raise ImportErrorWithContext(
+                f"LanguageKV ID override regression row changed: {key} -> {actual_english!r}; "
+                f"expected {expected_english!r}"
+            )
+        expected_line = f"{key}\t{expected_english}\t{expected_japanese}"
+        if expected_line not in localization_patch_text:
+            raise ImportErrorWithContext(
+                f"known localization ID override did not generate: {expected_line!r}"
             )
 
     if not check_only:

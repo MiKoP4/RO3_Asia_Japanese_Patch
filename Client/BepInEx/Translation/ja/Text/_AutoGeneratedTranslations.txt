@@ -2532,7 +2532,7 @@ Are you in love with someone?=好きな人はいるの？
 Are you ready to begin the competition?=競技を始める準備はできた？
 Are you ready to board now?=もう搭乗する準備はできた？
 Are you sure you want to Apply to Support this Adventure Guild?=この冒険者ギルドへの支援申請を行いますか？
-Are you sure you want to Call Mio!! this party member?=このパーティメンバーを「Mio!!」で呼び出しますか？
+Are you sure you want to Call Mio!! this party member?=このパーティメンバーをパーティから外しますか？
 Are you sure you want to Leave Guild?\n1. After you Leave Guild, your Guild Funds Donation records will be cleared. If you rejoin this guild within two weeks, your Guild Funds records will be restored.\n2. If you Leave Guild before an auction ends, you will not receive the Auction Dividend.=ギルドを脱退しますか？\n1. ギルド脱退後、ギルド資金寄付記録は消去されます。2週間以内に同じギルドへ再加入した場合、ギルド資金記録は復元されます。\n2. オークション終了前にギルドを脱退すると、オークション配当を受け取れません。
 Are you sure you want to Leave the dungeon?=ダンジョンを退出しますか？
 Are you sure you want to begin this journey via  ${1}?\n<color=#cc762a>${2}</color>=${1}経由でこの旅を始めますか？\n<color=#cc762a>${2}</color>
@@ -4010,7 +4010,7 @@ Cacao=カカオ
 Café Server=カフェサーバー
 Calendar=カレンダー
 Call Issued=発信されたコール
-Call Mio!!=ミオを呼んでください!!
+Call Mio!!=パーティから外す
 Call Up=召集
 Call all Guild Members to assemble!=ギルドメンバー全員に集合を呼びかける！
 Call all Members in the team to follow you?=チームメンバー全員に追従を呼びかけますか？

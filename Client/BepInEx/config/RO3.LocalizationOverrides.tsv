@@ -2192,6 +2192,8 @@
 10050100032	Grape and herbs slow-simmered in orangewood sap for a rich, woody aroma. Increases damage to Demi-Human monsters by @{1}%~@{2}% for @{3} hours.	オレンジウッドの樹液でブドウとハーブをとろ火で煮込み、豊かな木の香りを引き出した。@{3}時間、人間形モンスターへの与ダメージが@{1}%～@{2}%増加する。
 10050100033	Grape and Lemon simmered in bitter orange juice for a lingering woody sweetness. Use to increase Demi-Human damage reduction by @{1}%~@{2}% for @{3} hours.	ビターオレンジ果汁でブドウとレモンをじっくり煮込み、木の香りを帯びた甘みを引き出した一品。@{3}時間、人間形モンスターから受けるダメージを@{1}%～@{2}%軽減する。
 24002	Create Team	チーム作成
+24021	Call Mio!!	パーティから外す
+24036	Are you sure you want to Call Mio!! this party member?	このパーティメンバーをパーティから外しますか？
 11190100105	Reach ${1} personal points in Siege War ${2} times	攻城戦で個人ポイント${1}に${2}回到達
 11190100106	Use Play While Downloading ${1} times	プレイしながらダウンロードを${1}回使用
 11190100107	Log in ${1} times	${1}回ログイン
@@ -2276,6 +2278,8 @@
 11250000094	CRIT DMG	Criダメージ
 11250000095	CRIT RES	Cri耐性
 11250000096	CRIT DMG Reduction	クリティカルダメージ軽減
+25004	Players	プレイヤー
+25005	Activity	活躍度
 25160	The guild announcement contains inappropriate content	ギルド告知に不適切な内容が含まれています
 25161	The announcement is too long	告知文が長すぎます
 25162	Changed	変更済み
@@ -2411,6 +2415,7 @@
 12390000013	Card: Ambernite	カード: アンバーナイト
 12390000014	Card: Thief Bug Egg	カード：盗蟲の卵
 12390000015	Card: Ant Egg	カード：アントの卵
+26015	Report	戦績
 12390000074	Card: Anubis	カード：アヌビス
 12390000075	Card: Savage	カード：サベージ
 12390000076	Card: Steel Chonchon	カード: スチールチョンチョン
@@ -7215,12 +7220,1226 @@
 13150100541	Job Advance Training	転職訓練
 13150100542	Complete Training	訓練を完了
 13150100543	New Skills	新しいスキル
+40000	Pet	ペット
+40001	Formation	陣形
+40002	Search	検索
+40003	Filter	フィルター
+40004	Type	タイプ
+40005	All	すべて
+40006	Rarity	レアリティ
+40007	Stats	ステータス
+40008	Attack-type	攻撃型
+40009	Defender	ディフェンダー
+40010	Support	支援
+40015	Normal Attack	通常攻撃
+40016	Passive	パッシブ
+40017	Primary Battle Skill	主力戦闘スキル
+40018	Activated Stats	有効ステータス
+40019	Unlock	解放
+40020	Details	詳細
+40021	Deploy	出撃
+40022	Assist	アシスト
+40023	Deployed	出撃中
+40024	Supporting	サポートする
+40025	Locked	ロック中
+40026	Can be unlocked	ロック解除可能
+40027	Not enough items to unlock.	解放に必要なアイテムが不足しています。
+40028	Pet unlocked	ペットのロックが解除されました
+40029	Level-up	レベルアップ
+40030	Advance	進級
+40031	Respawn	リスポーン
+40032	Level Increased	レベルアップ
+40033	Gain 1 Level	レベルが 1 上がります
+40034	Gain 10 Levels	10レベル上げる
+40035	After unlocking a pet, activate its Codex entry to gain a global stat bonus.	ペットを解放後、図鑑項目を有効化すると全体ステータスボーナスを獲得します。
+40036	Active Effect	アクティブエフェクト
+40037	Support Effect	支援効果
+40038	Current	現在
+40039	Next Star Level	次の星レベル
+40040	After Unlocking	ロック解除後
+40041	Utility-slot pets activate Passive Skills\nOnly 1 core Passive Skill can be active at a time	ユーティリティスロットのペットはパッシブスキルを発動\nコアパッシブスキルは同時に1つだけ有効
+40042	Can be used when the pet is in the primary battle slot	ペットがメイン戦闘スロットにいる時に使用可能
+40043	Unlock pets to gain stat bonuses.	ペットを解放してステータスボーナスを獲得。
+40044	Pet Level-up Info	ペットレベルアップ情報
+40045	1. A pet's level cannot exceed the Adventurer's level.\n2. Tap the Level-up button to automatically raise the pet to the specified level. Lower-quality Pet EXP Books will be consumed first.\n3. If the Pet EXP Books consumed provide more EXP than required for the Level-up, the excess will be converted into Pet EXP Books of equivalent value.	1. ペットのLv.は冒険者のLv.を超えられません。\n2. レベルアップボタンをタップすると、指定Lv.まで自動で上昇します。低品質のペットEXPブックから優先して消費されます。\n3. レベルアップ時に消費したペットEXPブックのEXPが必要量を超えた場合、超過分は同価値のペットEXPブックへ変換されます。
+40046	Obtain	獲得
+40047	Pet Not Unlocked	ペット未解放
+40048	Cannot perform this action during combat.	戦闘中はこの操作を行えません。
+40049	Maximum level reached	最大レベルに到達しました
+40050	Leveled up	レベルアップしました
+40051	Confirm Pet Respawn?\nRespawn resets the Pet to <color=#b99556>Lv. 1</color> and Returns all Level-up Materials. Return list:	ペットの再生を確認しますか？\n再生するとペットは<color=#b99556>Lv. 1</color>にリセットされ、レベルアップに使用した素材がすべて返還されます。返還リスト：
+40052	Cannot Respawn a pet while it is deployed or assisting.	配置または支援中のペットは再出現できません。
+40053	Cannot Respawn during combat.	戦闘中は復活できません。
+40054	Pet must be unlocked and complete a Level-up before it can Respawn.	ペットを再生するには、解放済みかつレベルアップを完了している必要があります。
+40055	Backpack is full	バックパックがいっぱいです
+40056	Pet has Respawned	ペットが復活しました
+40057	Pet not yet unlocked	ペットはまだ解放されていません
+40058	Not enough items to unlock.	解放に必要なアイテムが不足しています。
+40059	Pet unlocked	ペットのロックが解除されました
+40060	Takes effect when deployed for battle or support	戦闘または支援に配置すると効果を発揮
+40061	Rank Up	ランクアップ
+40062	Not enough materials. Please obtain the required materials first.	素材が不足しています。必要な素材を先に入手してください。
+40063	Promotion succeeded!	昇格成功！
+40064	Advancing Success	昇格成功
+40065	Tap anywhere to close.	どこでもタップして閉じる。
+40066	Max star level reached. Extra shards can be dismantled.	星ランク上限に到達。余った欠片は解体できます。
+40067	Go to Dismantle	解体へ
+40068	Pet Shard Dismantling	ペットの欠片を解体
+40069	Dismantle to receive	解体して獲得
+40070	Quick Select	クイック選択
+40071	Dismantle	分解
+40072	No Pet Shards available to dismantle	解体可能なペットの欠片がありません
+40073	Dismantled successfully.	解体しました。
+40074	Limit	上限
+40075	Primary Battle Skill	主力戦闘スキル
+40076	Activates the Main Battle Skill of the pet in the Main Battle slot.	メイン戦闘スロットに配置したペットのメイン戦闘スキルを発動します。
+40077	Inactive	非アクティブ
+40078	Stat Overview	ステータスの概要
+40079	Click to open the Pet List	クリックしてペット一覧を開く
+40080	Primary Battle Slot	メイン戦闘スロット
+40081	Utility Slot 1	ユーティリティスロット1
+40082	Utility Slot 2	ユーティリティスロット2
+40083	Utility Slot 3	ユーティリティスロット3
+40084	Pet ${1} has switched from Support to Active.	ペット${1}を支援から出撃へ切り替えました。
+40085	Pet ${1} has switched from active to support.	ペット${1}を出撃から支援へ切り替えました。
+40086	Slot not unlocked	スロット未解放
+40087	Maximum deployment reached	最大配置数に達しました
+40088	Assist cap reached	支援上限に達しました
+40089	Up to ${1} ${2} can be deployed at once.	一度に配置できる${2}は最大${1}個です。
+40090	Slot unlocks at Lv. ${1}	スロットはLv. ${1}で解放
+40091	Lineup Stat Bonuses	編成ステータスボーナス
+40092	Adds 6.9% of the deployed pet's stats to the Adventurer	配置ペットのステータスの6.9%を冒険者に加算
+40093	Stat Bonus Overview	ステータスボーナス概要
+40094	Total Power Bonus	総戦力ボーナス
+40095	Pet Search	ペット検索
+40096	Normal Hatch	ノーマルハッチング
+40097	Advanced Hatch	上級孵化
+40098	Search:	検索:
+40099	Guaranteed S-Rank or higher	Sランク以上確定
+40100	Beginner Benefits	初心者特典
+40101	S-Class Pet guaranteed after ${1} Hatches	${1}回孵化するとSランクペット確定
+40102	Free This Time	今回無料
+40103	Not enough <sprite name="${1}"> <#cc762a>X${2}</color>. Spend <sprite name="${3}"><#cc762a>${4}</color> to purchase?	<sprite name="${1}"> <#cc762a>X${2}</color>が不足しています。<sprite name="${3}"><#cc762a>${4}</color>を消費して購入しますか？
+40104	Prize Pool Preview	報酬プールプレビュー
+40105	Items	アイテム
+40106	Chance Disclosure	確率表示
+40107	Chance of a Complete S-Rank Pet: 3%\nChance of an S-Rank Pet Shard: 37%\nChance of a Pet EXP Book: 60%	Sランクペット本体の確率：3%\nSランクペットの欠片の確率：37%\nペットEXPブックの確率：60%
+40108	Daily Hatch Limit:	1日の孵化上限：
+40109	Hatch Once	一度孵化する
+40110	Seek 10 Times	10回シークする
+40111	Skip Animation	アニメーションをスキップ
+40112	Auto-Purchase	自動購入
+40113	Prize Pool	賞金総額
+40114	Shop	ショップ
+40115	Swipe Through the Grass to Find Pets	草むらをスワイプしてペットを探す
+40116	Skip	スキップ
+40118	Tap a blank area to continue	空白部分をタップして続行
+40119	Congrats on Obtaining	獲得おめでとう
+40120	Repeat pets will automatically be dismantled into Pet Shards	重複ペットは自動的にペットの欠片へ分解されます
+40121	Receive	受取
+40122	You've reached today's search limit.	本日の検索上限に達しました。
+40123	Pet Basics\n1. Unlock pets through Pet Search or by collecting enough shards.\n2. Use EXP Books to Level-up pets. Respawn refunds all EXP Books used for Level-up and resets the pet to Lv. 1.\n3. A pet's base stats are determined by its level and growth rate.\n\nPet Skills\n1. Combat Skill: An active Pet Skill that can be used after the pet enters battle in modes such as Pet Tower.\n2. Passive Skill: A Pet Skill that takes effect when the pet is assigned to a Utility slot.\n3. Main Skill: A Pet Skill that the Adventurer can manually use in battle while the pet is assigned to the main slot.\n4. Stat Activation Skill: A Pet Skill that grants the Adventurer permanent stat bonuses once the pet is unlocked, even when the pet is not deployed.\n\nPet Rank and Star Level\n1. Every 3 pet Rank Ups increases its star level by 1.\n2. Ranking up a pet increases its growth rate.\n3. Increasing a pet's star level raises the star level of its Main, Passive, and Stat Activation Skills. Higher-star skills provide stronger effects.\n	ペット基礎\n1. ペット探索または十分な欠片を集めることでペットを解放します。\n2. EXPブックを使ってペットをレベルアップします。リスポーンするとレベルアップに使用したEXPブックがすべて返却され、ペットはLv. 1へリセットされます。\n3. ペットの基礎ステータスはレベルと成長率で決まります。\n\nペットスキル\n1. 戦闘スキル：ペットタワーなどでペットが戦闘へ参加した後に使用できるアクティブペットスキルです。\n2. パッシブスキル：ペットをユーティリティスロットへ配置した時に効果を発揮するペットスキルです。\n3. メインスキル：ペットをメインスロットへ配置中、冒険者が戦闘で手動使用できるペットスキルです。\n4. ステータス解放スキル：ペットを解放すると、出撃していなくても冒険者へ恒久的なステータスボーナスを付与するペットスキルです。\n\nペットランクと星レベル\n1. ペットを3回ランクアップするごとに星レベルが1上昇します。\n2. ペットをランクアップすると成長率が上昇します。\n3. ペットの星レベルが上がると、メイン、パッシブ、ステータス解放スキルの星レベルも上昇します。高い星のスキルほど効果が強くなります。\n
+40124	Pet Deployment and Assist\n1. The Adventurer can deploy 4 pets and assign 5 pets to Assist at the same time: 1 Main slot, 3 Utility slots, and 5 Assist slots. These slots are gradually unlocked with each Adventurer Level Increased milestone.\n2. Deploying 3 pets from the same Faction activates that Faction's effect. Each Faction has a different effect.\n3. Deployed pets grant the Adventurer a percentage of their base stats. The percentage differs between deployed and Assist pets.\n4. A pet in the Main slot grants the Adventurer its Main Skill, while a pet in a Utility slot grants the Adventurer its Passive Skill.\n5. Some pets in Utility slots provide a Core Passive with enhanced skill effects. If multiple pets with Core Passives are assigned to Utility slots, only the Core Passive in the lowest-numbered Utility slot takes effect.\n	ペット出撃と支援\n1. 冒険者は同時にペット4体を出撃させ、5体を支援に配置できます。内訳はメインスロット1つ、ユーティリティスロット3つ、支援スロット5つです。これらのスロットは冒険者のレベル到達に応じて段階的に解放されます。\n2. 同じ勢力のペットを3体出撃させると、その勢力効果が発動します。勢力ごとに効果が異なります。\n3. 出撃したペットは基礎ステータスの一定割合を冒険者へ付与します。割合は出撃ペットと支援ペットで異なります。\n4. メインスロットのペットはメインスキルを、ユーティリティスロットのペットはパッシブスキルを冒険者へ付与します。\n5. 一部のユーティリティスロットのペットは、強化スキル効果を持つコアパッシブを提供します。複数のコアパッシブ持ちペットをユーティリティスロットへ配置した場合、番号が最も小さいユーティリティスロットのコアパッシブのみ有効です。\n
+40125	Passive Skills gain ranks when the pet's star rating increases.	ペットの星ランク上昇でパッシブスキルのランクも上昇。
+40126	The main battle skill's star rating increases when the pet's star rating increases.	ペットの星ランクが上がると、メイン戦闘スキルの星ランクも上昇します。
+40127	Activated stat skills gain ranks when the pet's star rating increases.	有効化済みのステータススキルは、ペットの星ランク上昇に応じてランクアップします。
+40128	Passive Skill	パッシブスキル
+40129	Activate Attribute Skill	属性スキルを有効化
+40130	Pet level cannot exceed Adventurer level.	ペットレベルは冒険者レベルを超えられません。
+40131	Not enough Level-up materials	レベルアップ素材が不足しています
+40132	Skill Upgrade	スキルアップグレード
+40133	Novice Pool Draw Rules	ノービスプール抽選ルール
+40134	Standard Summon Pool Rules	通常召喚プールルール
+40135	Limited-Time Rate-Up Summon Rules	期間限定確率アップ召喚ルール
+40136	Core Passive	コアパッシブ
+40137	Core Passive Effect	コアパッシブ効果
+40138	Faction	陣営
+40139	There are currently no Faction effects.	現在有効な陣営効果はありません。
+40140	Faction Combination Attributes	陣営組み合わせステータス
+40141	Only the Core Passive effects of pets in lower-numbered Utility slots take effect.	番号の小さいユーティリティスロットにいるペットのコアパッシブ効果のみ有効。
+40142	Deployed Pet ${1}	配置ペット ${1}
+40143	Deploy 3 pets from the same Faction to activate the Faction bonus.	同じ陣営のペットを3体出撃させると、陣営ボーナスが発動します。
+40144	Only 1 Core Passive effect can be active at a time.	コアパッシブ効果は同時に1つだけ有効化できます。
+40145	Summon <color=#fdab5b><size=36>${1}</size></color>/${2} times to guarantee an S-rank pet	召喚<color=#fdab5b><size=36>${1}</size></color>/${2}回でSランクペット確定
+40146	Guaranteed S-Rank Pet within ${1} summons	${1}回以内の召喚でSランクペット確定
+40147	Get ${1} Off Summons	召喚を${1}回分獲得
+40148	Unlock more pets to increase your overall stats	さらにペットを解放して総合ステータスを上げよう
+40149	Activate Stat Overview	ステータス概要を有効化
+40150	No pets are available for battle or support.	戦闘または支援に使用できるペットがいません。
+40151	Beginner Hatch Limit:	初心者孵化上限:
+40152	Rebate	還元
+40153	No Beginner Hatch attempts remaining. Prize Pool closed.	初心者孵化回数が残っていません。賞品プールは終了しました。
+40154	Current Hatch Ended	今回の孵化は終了しました
+40155	Gain bonus stats when deployed or assisting	配置または支援時にボーナスステータス獲得
+40156	In Effect	適用中
+40157	Inactive	非アクティブ
+40158	No attributes	属性なし
+40160	Pet Promotion	ペットプロモーション
+40161	Upgrade	アップグレード
+40162	Advanced	上級
+40163	After Advancement	昇格後
+40164	Maximum Stars	マキシマムスター
+40165	After Star Upgrade	ランクアップ後
+40166	Growth Rate	成長率
+40167	Growth Rate:	成長率:
+40168	${1} Increase	${1} 増加
+40169	Growth Rate Increase	成長率アップ
+40170	Raise Pet Star Level to	ペットの星ランクを上げる
+40171	Upgrade All Skills to	すべてのスキルをレベルアップ
+40173	An S-Rank Pet is guaranteed within <color=#fdab5b><size=36>${1}</size></color> more searches	あと<color=#fdab5b><size=36>${1}</size></color>回以内の検索でSランクペット確定
+40174	Owned	所持中
+40175	Initial	初期
+40176	Max Stars	最大星数
+40177	Grants the Adventurer 2.2% of the Support Pet's stats	支援ペットのステータスの2.2%を冒険者に付与
+40178	The Utility Pet's Passive Skill effects are granted to the Adventurer	支援ペットのパッシブスキル効果が冒険者に付与されます。
+40179	Growth Rate affects pet stats	成長率はペットのステータスに影響します
+40180	Pet Preview	ペットのプレビュー
+40181	Search Rebate	検索還元
+40182	Combat Skills	戦闘スキル
+40183	Pet Follow unlocked	ペット追従を解放
+40184	Unlocks at ${1} stars	${1}星で解放
+40185	Enable Pet Follow	ペット追従を有効化
+40186	Primary Battle Skill	主力戦闘スキル
+40187	Passive	パッシブ
+40188	Core Passive	コアパッシブ
+40189	Follow	追尾
+40190	Follow	追尾
+40191	Enable Effect	効果を有効にする
+40192	Enable Follow under [Wardrobe - Pet Follow]. Once enabled, ${1} will follow close behind you in non-battle locations.	[ワードローブ - ペット追従]で追従を有効にすると、非戦闘エリアで${1}があなたの後ろをついてくる。
+40193	Unlocked	解放済み
+40194	No Pets Available to Hatch	孵化可能なペットがいません
+40195	No pets obtained. Please go obtain one first.	ペットを所持していません。まず入手してください。
+40196	Passive Skill Effects	パッシブスキル効果
+40197	Activate Pet Main Skill	ペットのメインスキルを有効化
+40198	Activate Pet Passive Skill	ペットのパッシブスキルを有効化
+40199	Close the pool after drawing an S-rank pet	Sランクペットを引いたらプールを閉じる
+40200	Total Bonus	合計ボーナス
+40201	Hold the left mouse button and drag to adjust the incubator temperature	マウスの左ボタンを押したままドラッグして、孵化器の温度を調整します。
+40202	Breakthrough	画期的な
+40203	Collection	コレクション
+40204	Breakthrough	画期的な
+40205	Active	アクティブ
+40206	Passive	パッシブ
+40207	Hatchery	孵化場
+40208	Hatching Records	孵化記録
+40209	Permanent Pool	常設召喚
+40210	Limited-Time Pool	期間限定プール
+40211	Slot unlocked at Hatchery Lv. ${1}	孵化場Lv. ${1}でスロット解放
+40212	Hatch Egg	卵を孵化
+40213	Accelerate	加速する
+40214	Hatching Complete	孵化完了
+40215	Skip Animation	アニメーションをスキップ
+40216	Spend the required materials to hatch 1 Pet Egg?	必要素材を消費してペットの卵を1個孵化しますか？
+40217	Do not remind again during this login	このログイン中は再表示しない
+40218	Insufficient Speed-Up Tickets. You need ${1} more to finish instantly. Spend ${2} Sacred Crystals to make up the difference and complete the speed-up?	加速チケットが不足しています。即時完了するにはあと${1}枚必要です。${2}神聖クリスタルを消費して不足分を補い、加速を完了しますか？
+40219	Hatchery Level Increased	孵化場レベルが上がりました
+40220	Hatching Result Chance	孵化結果確率
+40221	Unlock 4 Extra Slots	追加スロット4枠解放
+40222	${1} Quality Chance	${1}品質確率
+40223	Required Proficiency	必要熟練度
+40224	Level-up Time:	レベルアップ時間：
+40225	Level-up	レベルアップ
+40226	Chance-Boosted Pets	確率アップ対象ペット
+40227	Hatching Notes	孵化について
+40228	When a gold-quality pet is obtained, it accounts for 50% of the Chance	金品質のペットを獲得した場合、確率の50%として扱われます。
+40229	All Possible Pet Hatching Results	ペット孵化結果一覧
+40230	All Possible Item Hatching Results	アイテム孵化結果一覧
+40231	Hatching Chance Details	孵化確率詳細
+40232	Upgrading the Hatchery increases the Chance of obtaining high-quality results in every room. Limited-time rooms can hatch certain pets. Preview all possible hatching results, then choose your preferred room.	孵化場をアップグレードすると、すべての部屋で高品質な結果が得られる確率が上昇する。期間限定の部屋では特定のペットを孵化できる。孵化可能な結果をすべてプレビューして、好みの部屋を選ぼう。
+40233	Hatching Chance	孵化確率
+40234	Hatchery	孵化場
+40235	The higher the Hatchery level, the greater the Chance of obtaining high-quality pets.\nLevel Increased will not remove unlocked content and will only raise the base Chance.	孵化場のレベルが高いほど、高品質ペットの獲得確率が上昇します。\nレベルを上げても解放済みの内容は失われず、基礎確率のみが上昇します。
+40236	Hatching Records	孵化記録
+40237	Hatching History	孵化履歴
+40238	*View recent Hatching Records. Results may be slightly delayed. Up to 50 pages of records can be stored.	*最近の孵化記録を確認できます。結果の反映には多少時間がかかる場合があります。最大50ページ分の記録を保存できます。
+40239	Pool Type	ガチャ種類
+40240	Result Type	結果の種類
+40241	Name	名前
+40242	Time	時間
+40243	Repeat pets have been converted into shards	重複ペットは欠片に変換されました
+40244	Limited-Time Hatchery time remaining: <color=#ff993f>${1}</color>	期間限定孵化場の残り時間：<color=#ff993f>${1}</color>
+40245	Pet	ペット
+40246	Hatch	孵化
+40247	Collection	コレクション
+40248	Growth Preview	成長プレビュー
+40249	Battle Skill Effects	戦闘スキル効果
+40250	Level-up to Lv. ${1}	Lv. ${1}までレベルアップ
+40251	Once a pet is unlocked, you can activate its entry in the Pet Album. After activation, you gain the pet's unique stat bonuses without deploying it. Its Pet Album stats also increase with its star rank.	ペットを解放すると、ペット図鑑内の該当項目を有効化できる。有効化後は出撃させなくても、そのペット固有のステータスボーナスを獲得できる。ペット図鑑のステータスは星ランクの上昇に応じて強化される。
+40252	Once a pet reaches certain levels, special materials are Required Materials for a breakthrough. After the breakthrough, the pet gains a large number of stats.	ペットが特定のレベルに達すると、突破に特殊素材が必要になる。突破後、ペットのステータスが大幅に上昇します。
+40253	When a pet is deployed in the Main Slot, the Adventurer gains its Main Skill, which can be activated in battle. The Main Skill's star rank also increases with the pet's star rank.	ペットをメインスロットに出撃させると、冒険者はそのメインスキルを獲得し、戦闘中に使用できます。メインスキルの星ランクもペットの星ランクに応じて上昇します。
+40254	When a pet is deployed in a Utility Slot, its Passive Skill always applies to the Adventurer, making the Main Skill more powerful. The Passive Skill's star rank also increases with the pet's star rank.\nSome pets have a Core Passive Skill. Only 1 Core Passive Skill effect can be active at a time. If multiple pets with Core Passive Skill effects are deployed, only the pet in the lowest-numbered Utility Slot takes effect.	ペットをユーティリティスロットへ配置すると、そのパッシブスキルは常に冒険者へ適用され、メインスキルがより強力になります。パッシブスキルの星ランクもペットの星ランクに応じて上昇します。\n一部のペットにはコアパッシブスキルがあります。コアパッシブスキルの効果は同時に1つだけ有効です。複数のコアパッシブ持ちペットを配置した場合、番号が最も小さいユーティリティスロットのペットのみ効果が発動します。
+40255	In modes where pets fight directly, they automatically use their Battle Skill when its Cooldown ends. The Battle Skill's star rank also increases with the pet's star rank.	ペットが直接戦うモードでは、戦闘スキルのクールダウンが終わると自動的に使用します。戦闘スキルの星ランクもペットの星ランクに応じて上昇します。
+40256	Cooldown: ${1}s	クールダウン: ${1}s
+40257	(${1}% bonus granted to the main character)	（メインキャラクターに${1}%のボーナス付与）
+40258	(Inactive)	(非アクティブ)
+40259	All Main Slots are full. Remove a pet or drag another pet here to replace it.	メインスロットがすべて埋まっています。ペットを外すか、別のペットをここへドラッグして入れ替えてください。
+40260	All Utility Slots are full. Remove a pet or drag another pet here to replace it.	ユーティリティスロットがすべて埋まっています。ペットを外すか、別のペットをここへドラッグして入れ替えてください。
+40261	This pet is currently in a Utility Slot. Change it to a Main Slot?	このペットは現在サポートスロットにいます。メインスロットへ変更しますか？
+40262	This pet is currently in a Main Slot. Change it to a Utility Slot?	このペットは現在メインスロットにいます。サポートスロットへ変更しますか？
+40263	No Speed-Up Tickets remaining. Please obtain more first.	加速チケットがありません。先に入手してください。
+40264	Deployed in a Utility Slot	ユーティリティスロットに配置済み
+40265	Deployed in a Main Slot	メインスロットに配置済み
+40266	Cannot exceed the main character's level	メインキャラクターのレベルを超えられません
+40267	Breakthrough Success	突破成功
+40268	Pet already unlocked. Converted into shards.	ペットは解放済みです。欠片に変換されました。
+40269	Insufficient proficiency. Please obtain more proficiency first.	熟練度不足です。先に熟練度を獲得してください。
+40270	Insufficient Required Materials. Please obtain more materials first.	必要素材が不足しています。先に素材を集めてください。
+40271	Insufficient items. Please obtain more Speed-Up Tickets first.	アイテム不足です。先に加速チケットを入手してください。
+40272	Please upgrade the Alchemy Incubation Room first.	先に錬金孵化室をアップグレードしてください。
+40273	Fusion failed. Please obtain enough materials first.	合成に失敗しました。先に必要な素材を集めてください。
+40274	Accelerated	加速
+40275	Accelerated! Open the Pet Egg!	加速完了！ペットの卵を開けよう！
+40276	The limited-time Incubation Room is closed.	期間限定孵化室は閉鎖中です。
+40277	You've reached today's incubation limit.	本日の孵化上限に達しました。
+40278	Actively cast by the pet in modes where pets are deployed	ペット配置可能モードで、ペットが能動的に使用する
+40279	Assist Slot 1	アシストスロット1
+40280	Assist Slot 2	アシストスロット2
+40281	Assist Slot 3	アシストスロット3
+40282	Assist Slot 4	アシストスロット4
+40283	Assist Slot 5	アシストスロット5
+40284	Not enough materials. Please obtain more materials first.	素材が不足しています。先に必要数を集めてください。
+40285	Pets in Utility slots activate their Passive Skills.	ユーティリティスロットのペットはパッシブスキルを発動します。
+40286	Passive Skills of pets in Utility slots are always active.	ユーティリティ枠のペットのパッシブスキルは常時有効。
+40287	Passive Skills of pets in Utility slots are always active.\nOnly 1 Core Passive Skill can be active at a time.	支援枠に配置したペットのパッシブスキルは常時有効。\nコアパッシブスキルは同時に1つだけ有効にできる。
+40288	You can now upgrade the Alchemy Room. Upgrading it increases the Chance of obtaining high-quality pets. Go to Upgrade now?	錬金術室のアップグレードが可能になりました。アップグレードすると高レアリティのペットの獲得確率が上昇します。今すぐアップグレードしますか？
+40289	Increase the star rating of All Skills	全スキルの星ランクを上げる
+40290	Not enough ${1}. Please obtain enough materials first.	${1}が不足しています。先に必要な素材を集めてください。
+40291	Spend materials to incubate and open ${1} Pet Eggs at once?	素材を消費してペットの卵を${1}個まとめて孵化しますか？
+40292	Rapid Incubation	高速孵化
+40293	Unlocks at Incubation Room Lv. ${1}	孵化室Lv. ${1}で解放
+40294	Automatically performs a Level-up when Proficiency is full	熟練度が最大になると自動でレベルアップ
+40295	No incubation time	孵化時間なし
+40296	Unlocked ${1}/${2}	解放済み ${1}/${2}
+40297	Stat Bonus Overview provided to the Adventurer by all currently unlocked entries	現在解放済みの全項目によって冒険者に付与されるステータスボーナス概要
+40298	Stat Bonus Overview provided to the Adventurer by currently Deployed Pets	現在出撃中のペットが冒険者に付与するステータスボーナス一覧。
+40299	Stat Bonus Overview provided to the Adventurer by current Support Pets	現在の支援ペットが冒険者に付与するステータスボーナス一覧。
+40300	Total Codex Stats	図鑑総ステータス
+40301	Total Deployment Stats	出撃ステータス合計
+40302	Total Assist Stats	支援ステータス合計
+40303	Formation	陣形
+40304	Unlock the Rapid Incubation Function	高速孵化機能を解放
+40305	Not Enough Spirit Pact Stones	スピリットパクトストーンが不足しています
+40306	Always Play	いつでもプレイ
+40307	Play Once per Login	ログインごとに1回再生
+40308	Never Play	決してプレイしないでください
+40309	Hatchery Level-up Complete	孵化場レベルアップ完了
+40310	Guaranteed to obtain an <color=#FF993F>S-Class</color> Pet within the next <color=#FF993F>${1} Hatches</color>	次の<color=#FF993F>${1}回の孵化</color>以内に<color=#FF993F>S級</color>ペットを必ず獲得
+40311	Pet Stats	ペットステータス
+40312	Collection Stats	コレクション統計
+40313	Skills	スキル
+40314	Cost	費用
+40315	Growth Preview	成長プレビュー
+40316	Unlock Collection Entry	コレクション項目を解放
+40317	Congrats on Obtaining the Following Stats	以下のステータスを獲得しました
+40318	Congrats on Obtaining the following rewards	以下の報酬を獲得しました
+40319	Stats are increased.	ステータスが上昇しました。
+40320	Skill Level-up	スキルレベルアップ
+40321	Limit has been reached	上限に達しました
+40322	Pet Codex	ペット図鑑
+40323	Ragnarok Online Pet Encyclopedia	ラグナロクオンライン ペット図鑑
+40324	<size=84>Hatch</size><size=106>ery</size>	<size=84>孵化</size><size=106>場</size>
+40325	Hatching Expertise	孵化熟練度
+40992	Mining Star Treasure Hunt	採掘スター宝探し
+40993	Draw ${1} Times	${1}回引く
+40994	Draw ${1} More Times	あと${1}回引く
+40995	Not enough draws remaining today.	本日の残り抽選回数がありません。
+40996	Draw <color=#63a22b><size=30>${1}</size></color> more times to guarantee a Starlight Stone	あと<color=#63a22b><size=30>${1}</size></color>回抽選するとスターライトストーン確定
+40997	Limited-Time ${1}	期間限定 ${1}
+40998	Daily Draw Limit: ${1}/${2}	デイリー抽選上限：${1}/${2}
+40999	Total Draw Limit: ${1}/${2}	総抽選上限：${1}/${2}
+44013	Report	戦績
+44026	Report	戦績
+44040	Unlock Difficulty	難易度を解放
+44042	Higher difficulty unlocked! A higher difficulty brings greater challenges, but also richer rewards.	高難易度が解放されました！難易度が上がるほど挑戦は厳しくなりますが、報酬も豪華になります。
+44043	Suggested	おすすめ
+44044	Once an administrator starts the challenge, each Guild Member can Enter Dungeon.	管理者がチャレンジを開始すると、各ギルドメンバーがダンジョンへ入場できます。
+44045	Start Challenge	チャレンジ開始
+44046	Start Event	イベント開始
+44047	The selected difficulty is not the highest difficulty unlocked. Start the challenge at the current difficulty?	選択した難易度は解放済みの最高難易度ではありません。現在の難易度で挑戦を開始しますか？
+44048	Rally	集結
+44049	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	「ドラゴンコフィン島を覆う暗雲」- ${1}チャレンジが開放されました！ドラゴン討伐に参加しましょう！
+44050	Reject	拒絶
+44051	Go	GO
+44052	Gloom Over Dragon Sarcophagus Isle - ${1} Challenge is now open! Come join the fight against the dragon!	「ドラゴンコフィン島を覆う暗雲」- ${1}チャレンジが開放されました！ドラゴン討伐に参加しましょう！
+44053	Opens in ${1}	${1}にオープン
+44054	Players	プレイヤー
+44055	Management	管理
+44057	Event Management	イベント管理
+44058	During the event preparation phase, a Guild administrator can manually skip preparation and start the challenge immediately.	イベントの準備フェーズ中、ギルド管理者は手動で準備をスキップして即座に挑戦を開始できます。
+44059	Start Now	今すぐ開始
+10320000000	Ah! Doushale, Doushale!	あっ！ドゥシャレ、ドゥシャレ！
+10320000001	Yikes! I can't handle this!	うわっ！もう無理！
+10320000002	Waiting for the administrator to begin or for the countdown to end	管理者の開始操作、またはカウントダウン終了を待っています。
+10320000003	Monsters begin to appear	モンスターが出現し始める
+10320000004	Stop the monsters from breaking the Dragon Seal	モンスターによるドラゴン封印の破壊を阻止する
+10320000005	Monster Movement Speed increases in @{1} sec.	モンスターの移動速度が@{1}秒後に増加。
+10320000006	More monsters appear	さらにモンスターが出現
+10320000007	Monster DEF increases after @{1} sec.	@{1}秒後にモンスターのDEFが上昇。
+10320000008	All objects turn into Porings for @{1} seconds	すべてのオブジェクトが@{1}秒間ポリンに変身
+10320000009	Players must pass the Dynamite after @{1} seconds	プレイヤーは@{1}秒後にダイナマイトを渡す必要があります
+10320000010	Lightning will strike beneath players after @{1} seconds	@{1}秒後、プレイヤーの足元に雷が落ちます
+10320000011	Blessing Priests appear on the map after @{1} seconds	祝福プリーストは@{1}秒後にマップへ出現
+10320000012	The Monster Boss will appear in @{1} seconds.	モンスターBOSSは@{1}秒後に出現します。
+10320000013	Dragon Seal successfully defended. Challenge complete!	竜の封印を守り切りました。チャレンジ完了！
+10320000014	The Seal Defense is complete. You may proceed to the next stage.	封印防衛完了。次のステージへ進めます。
+10320000015	The monsters destroyed the seal. The battle has failed.	モンスターに封印を破壊されました。戦闘失敗。
+10320000016	The Guild Manager chose to abandon the campaign.	ギルド管理者が作戦放棄を選択しました。
+10320000017	Automatically leaving the battle in @{1} seconds	@{1}秒後に自動で戦闘から退出します
+10320000018	Ability Acquired: Madogear Piloting	能力獲得：魔導ギア操縦
+10320000019	Ability Gained: Arcane Acceleration	能力獲得：アーケインアクセラレーション
+10320000020	Ability Acquired: Frost Ring	能力獲得：フロストリング
+10320000021	Ability Gained: Lightning Domain	能力獲得：ライトニングドメイン
+10320000022	Epic Campaign (Easy), Begin Challenge	エピックキャンペーン（イージー）、挑戦開始
+10320000023	Epic Campaign (Normal), Begin Challenge	エピックキャンペーン（ノーマル）、挑戦開始
+10320000024	Epic Battle (Hard Difficulty), Begin Challenge	エピックバトル（ハード）、チャレンジ開始
+10320000025	Fafnir has entered Battle Status. The portal will close in @{1} seconds.	ファフニールが戦闘状態に入りました。@{1}秒後にポータルが閉じます。
+10320000026	Fafnir has left Battle Status. The encounter will reset in @{1} seconds.	ファフニールが戦闘状態を解除しました。@{1}秒後に戦闘がリセットされます。
+10320000027	Blazing Dragon Breath covers a huge area. Watch out!	灼熱のドラゴンブレスは広範囲を覆う。気をつけて！
+10320000028	Quick! Load the ice shells and shoot Fafnir out of the sky!	急げ！氷弾を装填してファフニールを空から撃ち落とせ！
+10320000029	Fafnir has summoned a wave of flames! Watch out!	ファフニールが炎の波を召喚した！気をつけろ！
+10320000030	Kill the dragonlings summoned by Fafnir quickly, or their ATK will increase!	ファフニールが召喚した幼竜を素早く倒してください。放置すると攻撃力が上昇します！
+10320000031	Fafnir's Molten Gold Breath deals massive damage! Use the scales to build a Shield Wall immediately!	ファフニールの溶金ブレスは大ダメージを与えます！鱗を使ってすぐにシールドウォールを築いてください！
+10320000032	Fafnir is about to go berserk! It will destroy everything in @{1} seconds!	ファフニールが間もなくバーサークします！@{1}秒後にすべてを破壊します！
+10320000033	Fafnir, the Greedy Dragon, has been defeated	貪欲の竜ファフニールを討伐しました
+10320000034	Isti invites you to perform an Ocean Concerto! Quickly touch the bubble matching your note to gain a buff.	イスティが「海の協奏曲」へ招待しています！自分の音符と同じ泡に素早く触れてバフを獲得しましょう。
+10320000035	Trophy Obtained: I Know You're in a Hurry, but Don't Rush	トロフィー獲得：急いでいても焦るな
+10320000036	Watch the bubbles' paths and keep bubbles of different colors from colliding.	バブルの軌道を見て、違う色のバブル同士がぶつからないようにしよう。
+10320000037	【Gather】	【集合】
+10320000038	^{1}^{2}【WARNING】^{3}^{4}[City Gate] HP is below @{1}%	^{1}^{2}【警告】^{3}^{4}[城門] HPが@{1}%未満
+10320000039	^{1}【Warning】^{2}[City Gate] HP below @{1}%	^{1}【警告】^{2}[城門] HPが@{1}%未満
+10320000040	^{1}【Warning】^{2}[Left City Guard] HP below @{1}%	^{1}【警告】^{2}[左側城門守備兵] HPが@{1}%未満
+10320000041	^{1}【Warning】^{2}[Mid-Lane Guard] HP below @{1}%	^{1}【警告】^{2}[中央レーン守備兵]のHPが@{1}%未満
+10320000042	^{1}【URGENT】^{2}[Right Lane City Guard] HP is below @{1}%	^{1}【緊急】^{2}[右レーン衛兵] HPが@{1}%未満
+10320000043	^{1}【URGENT】^{2}[Left Lane Protector] HP is below @{1}%	^{1}【緊急】^{2}[左レーンプロテクター] HPが@{1}%未満
+10320000044	^{1}【Emergency】^{2}[Mid-Lane Protector] HP below @{1}%	^{1}【緊急】^{2}[中央レーン守護者] HPが@{1}%未満
+10320000045	^{1}【Warning】^{2}[Right Lane Protector] HP below @{1}%	^{1}【警告】^{2}[右レーンプロテクター] HPが@{1}%未満
+10320000046	^{1}【Emergency】^{2}[Gorgeous Metal] HP below @{1}%	^{1}【緊急】^{2}[壮麗な金属] HPが@{1}%未満
+10320000047	^{1}^{2}【Warning】^{3}^{4}The enemy's [Left Ladder] is in place.	^{1}^{2}【警告】^{3}^{4}敵の[左はしご]が設置されました。
+10320000048	^{1}【Warning】^{2}The enemy has finished setting up the [Right Ladder].	^{1}【警告】^{2}敵が[右はしご]の設置を完了しました。
+10320000049	^{1}【ALERT】^{2}Enemy [Battering Ram] is in position	^{1}【警報】^{2}敵の[破城槌]が配置されました
+10320000050	^{1}The enemy^{2} has recaptured the central Revive Point!	^{1}敵軍^{2}が中央復活ポイントを奪還しました！
+10320000051	^{1}Our team^{2} captured the central Revive Point!	^{1}味方チーム^{2}が中央復活ポイントを占領！
+10320000052	^{1}^{2}【ALERT】^{3}^{4} [Ornate Metal] is under attack	^{1}^{2}【警報】^{3}^{4} [華麗な金属]が攻撃されています
+10320000053	^{1}【Notice】^{2}Our [Left Ladder] is now in place.	^{1}【通知】^{2}味方の[左はしご]を設置しました。
+10320000054	^{1}【Notice】^{2}Our [Right Ladder] is in place	^{1}【通知】^{2}味方の[右はしご]が設置されました
+10320000055	^{1}【Notice】^{2}Our [Battering Ram] has appeared	^{1}【通知】^{2}味方の[破城槌]が出現しました
+10320000056	^{1}【Notice】^{2}The enemy [Battering Ram] has appeared	^{1}【通知】^{2}敵の[破城槌]が出現しました
+10320000057	^{1}【Notice】^{2}Our [Left Ladder] has appeared	^{1}【通知】^{2}味方の[左はしご]が出現しました
+10320000058	^{1}【Notice】^{2}The enemy [Left Ladder] has appeared	^{1}【通知】^{2}敵の[左はしご]が出現しました
+10320000059	^{1}【Notice】^{2}Our [Right Ladder] has appeared	^{1}【通知】^{2}味方の[右はしご]が出現しました
+10320000060	^{1}【Notice】^{2}The enemy [Right Ladder] has appeared	^{1}【通知】^{2}敵の[右はしご]が出現しました
+10320000061	Our ^{1}${1}^{2} dealt the final blow to the ^{3}Wall^{4}!	味方の^{1}${1}^{2}が^{3}城壁^{4}にとどめを刺しました！
+10320000062	Enemy ^{1}${1}^{2} destroyed the ^{3}Wall^{4}!	敵^{1}${1}^{2}が^{3}城壁^{4}を破壊した！
+10320000063	^{1}【Notice】^{2}[Frontline Revive Point] activated	^{1}【通知】^{2}[前線復活ポイント]を起動しました
+10320000064	^{1}【Notice】^{2}Our [Left-Lane Guard] is under attack	^{1}【通知】^{2}味方の[左レーン守備兵]が攻撃されています
+10320000065	^{1}【Warning】^{2}Our [Left Protector] is under attack	^{1}【警告】^{2}味方の[左プロテクター]が攻撃されています
+10320000066	^{1}【Notice】^{2}[Rear Revive Point] activated	^{1}【通知】^{2}[後方復活ポイント]が起動しました
+10320000067	^{1}【Victory】^{2}[Central Revive Point] captured	^{1}【勝利】^{2}[中央復活ポイント]を占領
+10320000068	^{1}【Notice】^{2}[Central Revive Point] has been captured	^{1}【通知】^{2}[中央復活ポイント]を占領しました
+10320000069	^{1}【Alert】^{2} [Glorious Metal] is under attack	^{1}【警報】^{2} [栄光の金属]が攻撃されています
+10320000070	^{1}【Notice】^{2}The enemy [Left Ladder] is in place	^{1}【通知】^{2}敵の[左はしご]が設置されました
+10320000071	Enemy ^{1}${1}^{2} destroyed our ^{3}Battering Ram^{4}!	敵の^{1}${1}^{2}が味方の^{3}破城槌^{4}を破壊！
+10320000072	Our ^{1}${1}^{2} destroyed the enemy ^{3}Battering Ram^{4}!	味方の^{1}${1}^{2}が敵の^{3}破城槌^{4}を破壊！
+10320000073	^{1}【Warning】^{2}Our [Mid-Lane Guard] is under attack	^{1}【警告】^{2}味方の[中央レーン守備兵]が攻撃されています
+10320000074	^{1}【Warning】^{2}Our [Right-Lane City Guard] is under attack	^{1}【警告】^{2}味方の[右レーン衛兵]が攻撃されています
+10320000075	^{1}【Warning】^{2}Our [Mid-Lane Protector] is under attack	^{1}【警告】^{2}味方の[中央レーン守護者]が攻撃されています
+10320000076	^{1}【Notice】^{2}Our [Right-Lane Protector] is under attack	^{1}【通知】^{2}味方の[右レーン守護者]が攻撃されています
+10320000077	Enemy ^{1}${1}^{2} has defeated the ^{3}City Guard^{4} in the left lane!	敵の^{1}${1}^{2}が左レーンの^{3}シティガード^{4}を撃破しました！
+10320000078	Enemy ^{1}${1}^{2} defeated the ^{3}Central Guard^{4}!	敵の^{1}${1}^{2}が味方の^{3}中央守備兵^{4}を倒した！
+10320000079	Enemy ^{1}${1}^{2} defeated the right-lane ^{3}Guard^{4}!	敵の^{1}${1}^{2}が右レーンの^{3}衛兵^{4}を撃破！
+10320000080	Enemy ^{1}${1}^{2} defeated the left-lane ^{3}Protector^{4}!	敵の^{1}${1}^{2}が左レーンの^{3}守護者^{4}を撃破！
+10320000081	Enemy ^{1}${1}^{2} defeated the center-lane ^{3}Protector^{4}!	敵の^{1}${1}^{2}が中央レーンの^{3}守護者^{4}を撃破！
+10320000082	Enemy ^{1}${1}^{2} defeated the right-lane ^{3}Protector^{4}!	敵の^{1}${1}^{2}が右レーンの^{3}守護者^{4}を撃破！
+10320000083	Our ^{1}${1}^{2} dealt the final blow to the left-lane ^{3}Guard^{4}!	味方の^{1}${1}^{2}が左レーンの^{3}ガード^{4}にとどめを刺しました！
+10320000084	Our ^{1}${1}^{2} dealt the final blow to the center-lane ^{3}Guard^{4}!	味方の^{1}${1}^{2}が中央レーンの^{3}ガード^{4}にとどめを刺しました！
+10320000085	Our ^{1}${1}^{2} dealt the final blow to the right-lane ^{3}Guard^{4}!	味方の^{1}${1}^{2}が右レーンの^{3}ガード^{4}にとどめを刺しました！
+10320000086	Our ^{1}${1}^{2} dealt the final blow to the left-lane ^{3}Protector^{4}!	味方の^{1}${1}^{2}が左レーンの^{3}プロテクター^{4}にとどめを刺しました！
+10320000087	Our ^{1}${1}^{2} dealt the final blow to the center-lane ^{3}Protector^{4}!	味方の^{1}${1}^{2}が中央レーンの^{3}プロテクター^{4}にとどめを刺しました！
+10320000088	Our ^{1}${1}^{2} dealt the final blow to the right-lane ^{3}Protector^{4}!	味方の^{1}${1}^{2}が右レーンの^{3}プロテクター^{4}にとどめを刺しました！
+10320000089	Melkor is about to perform the Final Movement and destroy everything in @{1} seconds!	メルコルが最終楽章を演奏し、@{1}秒後にすべてを破壊しようとしている！
+10320000090	New marker!	新しいマーカー！
+10320000091	^{1}【Notice】^{2}Our forces are assaulting the control point	^{1}【通知】^{2}味方が制圧ポイントを攻撃中
+10320000092	^{1}【Alert】^{2}The enemy is invading the control point	^{1}【警報】^{2}敵が制圧ポイントへ侵入中
+10320000093	Our ^{1}${1}^{2} dealt the final blow to the enemy ^{3}Madogear Pilot^{4}!	味方の^{1}${1}^{2}が敵の^{3}魔導ギアパイロット^{4}にとどめを刺しました！
+10320000094	Enemy ^{1}${1}^{2} destroyed our ^{3}Madogear Pilot^{4}!	敵の^{1}${1}^{2}が味方の^{3}魔導ギアパイロット^{4}を破壊！
+10320000095	${1} achieved a ^{1}@{1} Kill streak^{2}!	${1}が^{1}@{1}連続キル^{2}達成！
+10320000096	${1} Terminated ${2}'s Killstreak!	${1}が${2}の連続キルを止めた！
+10320000097	${1} is the first to reach @{1} Kills!	${1}が最初に@{1}キル達成！
+10320000098	${1} is the first to reach @{1} assists!	${1}が最初に@{1}アシスト達成！
+10320000099	${1} is the first to Revive @{1} allies!	${1}が最初に味方を@{1}人復活！
+10320000100	Phase I\nDestroy the Outer Gate	フェーズI\n外門を破壊せよ
+10320000101	Phase I\nDefend the Gate	フェーズI\n門を守れ
+10320000102	Phase II\nDefeat the Protector	フェーズII\n守護者を倒せ
+10320000103	Phase II\nDefend the Protector	フェーズII\n守護者を守れ
+10320000104	Phase III\nDestroy the Ornate Metal	フェーズIII\n華麗な金属を破壊
+10320000105	Phase III\nDefend the Ornate Metal	フェーズIII\n華麗な金属を守れ
+10320000106	${1} is the first to deal @{1} × 10,000 cannon damage!	${1}が最初に砲撃ダメージ@{1}万を達成！
+10320000107	${1} is the first to destroy @{1} cannons!	${1}が最初に大砲を@{1}門破壊！
+10320000108	Our Madogear Pilot has entered the battlefield	味方の魔導ギアパイロットが戦場に入りました
+10320000109	^{1}${2}^{2} Guild successfully captured ^{3}${4}^{4}	^{1}${2}^{2}ギルドが^{3}${4}^{4}の占領に成功
+10320000110	^{1}${2}^{2} Guild activated ^{3}${4}^{4}	^{1}${2}^{2}ギルドが^{3}${4}^{4}を有効化
+10320000111	^{1}${2}^{2}'s banner HP is below ^{3}${4}^{4}. Seize the opportunity	^{1}${2}^{2}の旗のHPが^{3}${4}^{4}未満です。好機を逃さないでください。
+10320000112	^{1}${2}^{2}'s banner HP is below ^{3}${4}^{4}. Defend it	^{1}${2}^{2}の旗HPが^{3}${4}^{4}未満です。守ってください
+10320000113	^{1}${2}^{2} Guild's ^{3}${4}^{4} has been destroyed	^{1}${2}^{2}ギルドの^{3}${4}^{4}が破壊されました
+10320000114	Our ^{1}${2}^{2} was destroyed	味方の^{1}${2}^{2}が破壊されました
+10320000115	Stronghold barrier activated. The stronghold will be locked in @{1} minutes.	拠点のバリアが起動しました。@{1}分後に拠点が封鎖されます。
+10320000116	The stronghold barrier has been destroyed!	拠点バリアが破壊されました！
+10320000117	Stronghold Battle ends in ^{1}${2}^{2} minutes. Make the most of your last chance!	拠点戦終了まで^{1}${2}^{2}分。最後のチャンスを活かせ！
+10320000118	Territory War: Preparation	領地戦：準備
+10320000119	Battle Starts!	バトル開始！
+10320000120	Statue Ready!	彫像の準備完了!
+10320000121	Southern Vehicle Point Ready!	南部車両ポイント準備完了！
+10320000122	Eastern Vehicle Point ready!	東部車両ポイント準備完了！
+10320000123	Base vehicle point is ready!	中央車両ポイント準備完了！
+10320000124	Behemoth Altar is ready!	ベヒーモス祭壇の準備完了！
+10320000125	Someone has activated the divine statue. Watch out!!!	誰かが神像を起動した。気をつけろ！！！
+10320000126	The southern vehicle has been activated!!!	南側車両が起動しました！！！
+10320000127	The eastern vehicle has been activated!!!	東側車両が起動しました！！！
+10320000128	The Base Vehicle has been activated!!!	拠点車両が起動しました！！！
+10320000129	The Behemoth Altar has been activated, and a Behemoth is advancing toward the stronghold!!!	ベヒーモスの祭壇が起動し、ベヒーモスが拠点へ進軍中！！！
+10320000130	The East Gate has been breached!	東門が突破された！
+10320000131	The west gate has been breached!	西門が突破された！
+10320000132	A Revive Point has changed hands!	復活ポイントの所有権が変わりました！
+10320000133	A stone monument has been activated!	石碑が起動した！
+10320000134	A defensive stone monument has been destroyed!	防御用石碑が破壊されました！
+10320000135	The behemoth has fallen!	ベヒーモスを倒した！
+10320000136	${1} seconds until the dream collapses	夢崩壊まで${1}秒
+10320000137	Use Lope to avoid damage from the ripples on the ground.	跳躍を使って地面の波紋ダメージを回避しよう。
+10320000138	Ilmatar's Shadow will appear at the edge. Defeat it quickly!	イルマタの影が端に出現します。急いで倒せ！
+10320000139	Quickly head to the red note with your allies and destroy it!!!	味方と一緒に赤い音符へ急ぎ、破壊せよ！！！
+10320000140	Hurry to the blue note with your teammates and dispel it!!!	仲間と一緒に青い音符へ急ぎ、消し去れ！！！
+10320000141	Watch out for the spirits' attacks.	精霊の攻撃に気をつけて。
+10320000142	Tap the Commander Button and Start Battle once all Guild Members are Ready.	全ギルドメンバーの準備が整ったら、指揮官ボタンをタップして戦闘を開始してください。
+10320000143	Wait for Guild Management to Start Battle.	ギルド管理者が戦闘を開始するのを待つ。
+10320000144	Tap the Start Battle Button and Start Battle once all Members are Ready.	全メンバーの準備が整ったら「戦闘開始」ボタンをタップして戦闘を開始してください。
+10320000145	Wait for the party leader to Start Battle.	パーティリーダーが戦闘を開始するのを待つ。
+10320000146	Hey, not bad!	やあ、悪くないよ！
+10320000147	You're asking for trouble! Roar, roar, roar~~~!	痛い目に遭いたいようだな！ガオー、ガオー、ガオー～～！
+10320000148	Pick up the giant blade!!!	巨大な剣を拾え！！！
+10320000149	Use the skill granted by the giant blade while facing Orc Hero!	巨大剣から得たスキルを使い、オークヒーローに立ち向かえ！
+10320000150	Orc Hero dropped his shield! Hurry and pick it up!	オークヒーローが盾を落とした！急いで拾え！
+10320000151	Use the shield to block the giant blade launched by Orc Hero!	シールドでオークヒーローが放つ巨大剣を防げ！
+10320000152	Stay away from each other!!!	互いに離れて！！！
+10320000153	Pharaoh is about to unleash powerful Damage Skills. Get behind an obstacle!	ファラオが強力なダメージスキルを放とうとしています。障害物の後ろに隠れて！
+10320000154	A swarm of Bee Infantry is approaching. Watch your positioning	ハチ兵の群れが接近中。位置取りに注意
+10320000155	Bee Cavalry will target players and charge. Watch your positioning	蜂騎兵がプレイヤーを狙って突進します。位置取りに注意してください。
+10320000156	Mistress is Angry! Infantry and cavalry will appear together. Watch out!	ミストレスが怒った！歩兵と騎兵が同時に出現します。気をつけて！
+10320000157	Baphomet is about to unleash a Full-screen attack! Quick, get behind a stone pillar!	バフォメットが全画面攻撃を放つ！急いで石柱の後ろへ！
+10320000158	Baphomet will Charge toward a player! Quickly, hide behind a Stone Pillar!	バフォメットがプレイヤーに向かって突進します！急いで石柱の陰に隠れて！
+10320000159	Stop the illusions from approaching Baphomet!	幻影をバフォメットへ近づけるな！
+10320000160	The stone pillar is about to explode! Move Away!	石柱が爆発する！離れて！
+10320000161	Baphomet will continuously unleash scythes. Keep moving to dodge them!	バフォメットが連続で大鎌を放ちます。動き続けて回避してください！
+10320000162	Your teammate ${1} is trapped in a coffin! Break it open and rescue them!	仲間の${1}が棺に閉じ込められました！棺を壊して救出してください！
+10320000163	Pharaoh is unleashing Cleansing Light! Quickly, hide behind the Pyramid!	ファラオが浄化の光を放とうとしています！急いでピラミッドの陰に隠れて！
+10320000164	Help! Hurry and break this coffin open!	助けて！早くこの棺を壊して！
+10320000165	Kill the Pharaoh's Coffin as soon as possible!	ファラオの棺をできるだけ早く倒せ！
+10320000166	Move Away from the marked player!	マークされたプレイヤーから離れて！
+10320000167	“Whoa... W-we’re so high up! The houses below look like tiny dots...”	「うわぁ……た、高い！下の家が小さな点みたい……」
+10320000168	“Is this rickety ship going to fall out of the sky? The wind's so strong, Bobo's precious feathers are going to blow away!”	「このボロ船、空から落ちたりしないだろうな？風が強すぎて、ボボの大事な羽が吹き飛んじゃうよ！」
+10320000169	“Hey, Master! Hold on tight to me! If Bobo falls, no one will be around to wake you up!”	「師匠、しっかりボボにつかまって！ボボが落ちたら、起こしてくれる人がいなくなるよ！」
+10320000170	“…But the clouds here really do look like cotton candy. I wish I could take a bite…”	「…でもここの雲、本当に綿あめみたい。ひと口食べてみたいな…」
+10320000171	“The winds are calm—perfect weather for Flying. Thank You for your protection, Goddess Freyja.”	「風は穏やか――飛行には絶好の天気ね。守護に感謝します、フレイヤ女神様」
+10320000173	“This route used to be the lifeline of merchant caravans. Now... those damned sky pirates have thrown it into chaos.”	「この道はかつて商隊の生命線だった。今では……忌々しい空賊どものせいでめちゃくちゃだ。」
+10320000174	“They’ve defiled the freedom of the skies. Someday, they’ll pay the price.”	「奴らは空の自由を汚した。いつか必ず、その代償を払わせる」
+10320000175	“Check the safety rope three times, and keep your weapon within reach. Those are the rules.	「安全ロープは3回確認し、武器は手の届く場所に置く。それがルールだ。
+10320000176	“First time on an airship?”	「飛行船は初めて？」
+10320000177	“Remember, you can never let your guard down. The skies are every bit as dangerous as the land.”	「覚えておけ。決して油断するな。空は大地と同じくらい危険なんだ」
+10320000178	“Hey, newbie! What do you think? This view—the scenery—is amazing, right?”	「おい、新入り！どうだ？この眺め、この景色……最高だろ？」
+10320000179	“Hahaha! Judging by the look on your face, is this your first time on an airship? Nervous? Relax—I’ve got your back!”	「ハハハ！その顔を見るに、飛行船は初めてか？緊張してる？安心しろ――俺がついてる！」
+10320000180	“Once we reach the desert, I'll show you a real sunrise over the sea of sand. Now that's a magnificent sight.”	「砂漠に着いたら、本物の砂海の日の出を見せてやる。あれこそ絶景だぞ！」
+10320000181	“Once night falls, we'll camp atop the dunes, and I'll treat you to the strongest desert ale around!”	「夜になったら砂丘の上で野営して、この辺で一番強い砂漠の酒を飲ませてやるよ！」
+10320000182	If you insist on staying on deck instead of going into the cabin, you'd better hold tight to the railing.	船室に入らず甲板に残るっていうなら、手すりにしっかりつかまってろよ。
+10320000183	Waaah! I can't keep my balance... What's happening?	わああ！バランスが取れない…何が起きてるの？
+10320000184	Could it be the Desert Eagle? Just our “luck.”.	まさかデザートイーグル？ついてないな。
+10320000185	It's those damn sky pirates! They just won't leave us alone!	あの忌々しい空賊ども！しつこすぎる！
+10320000186	The ship will fall apart at this rate! Hurry to starboard and operate the Turret to Auto Counter! Show them what we're made of!	このままじゃ船がバラバラになっちまう！ 急いで右舷に向かい、タレットを操作して自動迎撃しろ！ 我らの底力を見せてやるんだ！
+10320000187	They must be planning to board the ship and take us and the cargo in one fell swoop.	奴らは船に乗り込み、私たちも荷物もまとめて奪うつもりだ。
+10320000188	Men! Charge! Take this ship, and everything aboard is ours!	全員突撃！この船も積荷も全部いただくぞ！
+10320000189	Don't... celebrate just yet.	まだ…喜ぶのは早い。
+10320000190	Not bad, rookie. You took down quite a few enemies.	やるじゃないか、新人。かなり倒したな。
+10320000191	Oh no, the captain looks injured! Let's go check on him!	大変、船長がけがしてる！様子を見に行こう！
+10320000192	Oh no... Don't tell me they have... reinforcements.	まさか…増援が来たっていうのか…
+10320000193	I'll help you!	手伝うよ！
+10320000194	Fear, sacrifice chosen by blood!	恐れよ、血が選んだ生贄を！
+10320000195	Fire the cannon at Almagia to make it Weak!	アルマギアに砲撃して弱体化させろ！
+10320000196	Almagia is about to become Weak. Keep it up!	アルマギアが弱体化寸前です。攻撃を続けて！
+10320000197	Almagia is now Weak! Use the grappling hook to board!	アルマギアが弱体化した！グラップリングフックで乗り込め！
+10320000198	The area is swarming with jellyfish! Use the rapid-fire cannon to shoot them down!	クラゲが大量発生中！速射砲で撃ち落とせ！
+10320000199	Grappling line secured! Use Interaction on the rope to reach the other side!	グラップリングロープを固定しました！ロープを操作して向こう側へ渡ってください！
+10320000200	Clouds are gathering and will explode in ${1} seconds!	雲が集まり、${1}秒後に爆発します！
+10320000201	Almachia's minions are coming for you!	アルマキアの手下が迫ってくる！
+10320000202	Ilmata has begun composing a movement. Watch the order of the ground warnings! @{1} more to go!	イルマタが楽章の作曲を始めました。地面の予兆が出る順番を見てください！残り@{1}回！
+10320000203	The movement is complete! Dodge in the order shown by the warnings!	楽章が完成しました！警告表示の順番どおりに回避してください！
+10320000204	Ilmata has summoned Nebula Jellyfish! Hurry into the Safe Zone!	イルマタがネビュラジェリーフィッシュを召喚！急いでセーフゾーンへ！
+10320000205	Almachia is attacking! Watch out for the Blackhole in the center of the area!	アルマキアが攻撃中！エリア中央のブラックホールに注意！
+10320000206	Almachia is attacking! Don't get pushed to the edge of the area!	アルマキアが攻撃中！エリア端へ押し出されないよう注意！
+10320000207	Nebula Impact will strike in ${1} seconds!	ネビュラインパクトが${1}秒後に発動！
+10320000208	^{1}Dracula has appeared	^{1}ドラキュラが出現した
+10320000209	You search through the bushes, but find nothing.	茂みを探したが、何も見つからなかった。
+10320000210	You rummage through the bushes, only to be dazed.	茂みをかき分けて探したが、目が回ってしまった。
+10320000211	You rummage through the bushes and Discover a stick of Dynamite left by Dracula.	茂みを探ると、ドラキュラが置いていったダイナマイトを1本見つけた。
+10320000212	You rummage through the bushes and finally find the key.	茂みを探し回り、ついに鍵を見つけた。
+10320000213	Forward! Let's rescue our bride!	前進！花嫁を救い出そう！
+10320000214	Hurry and search the nearby bushes for the key!	急いで近くの茂みを調べて鍵を探せ！
+10320000215	${1} found the key! Hurry and save the bride!	${1}が鍵を見つけた！急いで花嫁を救え！
+10320000216	Wedding Crashers will begin in @{1} minutes.	ウェディングクラッシャーズは@{1}分後に開始します。
+10320000217	I've been discovered? The Treasure of the Void is mine!	見つかった？虚無の宝は私のものだ！
+10320000218	You've briefly been transformed into a tiny Poring!	一時的に小さなポリンへ変身しました！
+10320000219	Demonic Dragon Soul obtained.	魔竜の魂を獲得しました。
+10320000220	The BOSS will spawn in ${1} seconds!	BOSS出現まで${1}秒！
+10320000221	${1} Killed ${2} and achieved an @{1} Killstreak.	${1}が${2}を倒し、@{1}連続キルを達成しました。
+10320000222	${1} Killed ${2} and became Peerless.	${1}が${2}を倒し、無双状態になりました。
+10320000223	${1} Terminated ${2}'s Peerless streak.	${1}が${2}の無双連続記録を止めました。
+10320000224	BOSS First Strike achieved.	BOSS先制攻撃達成。
+10320000225	BOSS Final Blow achieved.	BOSSへのとどめ達成。
+10320000226	The Demonic Dragon will appear in ${1} seconds!	魔竜は${1}秒後に出現します！
+10320000227	The Dragonblood Crystal will appear in ${1} seconds!	ドラゴンブラッドクリスタルが${1}秒後に出現！
+10320000228	The Demonic Dragon and Dragonblood Crystal will appear in ${1} seconds!	魔竜とドラゴンブラッドクリスタルが${1}秒後に出現します！
+10320000229	The Demonic Dragon Soul is about to appear! Pick it up to gain a powerful Buff. Kill its holder to Score Extra points.	魔竜の魂がまもなく出現します！拾うと強力なバフを獲得できます。所持者を倒すと追加ポイントを獲得できます。
+10320000230	The Demonic Dragon Soul has appeared!	魔竜の魂が出現！
+10320000231	The Dragonblood Crystal has appeared!	ドラゴンブラッドクリスタルが出現！
+10320000232	The Demonic Dragon and Dragonblood Crystal have appeared!	魔竜とドラゴンブラッドクリスタルが出現しました！
+10320000233	The Dragonblood Crystal has appeared in the center of the arena! Pick it up to Score points and gain a Buff.	アリーナ中央にドラゴンブラッドクリスタルが出現した！拾うとポイントを獲得し、バフも得られる。
+10320000234	${1} seconds remain in the Battle!	戦闘終了まで残り${1}秒！
+10320000235	${2} from Guild ${1} activated Experimental Puppet Σ! Adventurers, watch out!	ギルド${1}の${2}が実験用パペットΣを起動！冒険者のみんな、気をつけて！
+10320000236	${2} from Guild ${1} Defeated Experimental Puppet Σ! Let the cheers ring out!	ギルド${1}の${2}が実験用パペットΣを撃破！歓声を上げよう！
+10320000237	Shadow of Agony\nThe taste of freedom…...	苦痛の影\n自由の味…...
+10320000238	Shadow of Agony\nNo one can Judex me!	苦痛の影\n誰にも私をジュデックスできない！
+10320000240	Bottom-bar message test	下部バーメッセージテスト
+10320000241	Floating message display test	フローティングメッセージ表示テスト
+10320000242	Mechanic alert above message bar test	メッセージバー上部メカニック通知テスト
+10320000243	Assistant\nAssistant message test	アシスタント\nアシスタントメッセージテスト
+10320000244	Main-screen Notification interface test	メイン画面通知UIテスト
+10320000246	Chat channel message test	チャットチャンネルメッセージテスト
+10320000247	The test event has begun. Participate Now?	テストイベントが始まりました。参加しますか？
+10320000248	Extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test, extra-long bottom-bar message test	超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト、超長い下部バー表示テスト
+10320000249	Extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test, extra-long floating message display test	超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト、超長いフローティングメッセージ表示テスト
+10320000250	Extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test, extra-long mechanic alert above message bar test	超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト、超長いメッセージバー上部メカニクス警告テスト
+10320000251	Assistant\nExtra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test, extra-long Assistant message test	アシスタント\n超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト、超長いアシスタントメッセージテスト
+10320000252	Extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test, extra-long main-screen Notification interface test	超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト、超長いメイン画面通知UIテスト
+10320000253	Ticker message test	ティッカーメッセージテスト
+10320000254	The air reeks of the Culvert.	地下水路の臭いが漂っている。
+10320000255	The items you listed on the Trade Exchange have expired and been returned.	取引所に出品したアイテムは期限切れとなり、返却されました。
+10320000256	Guild League begins in @{1} minutes	ギルドリーグ開始まで@{1}分
+10320000257	Guild League has begun. Participate Now?	ギルドリーグが始まりました。参加しますか？
+10320000258	Guild League has ended. View the battle report?	ギルドリーグが終了しました。戦績を確認しますか？
+10320000259	^{1}^{2}${2}^{3} has achieved a ${3}-Kill streak!	^{1}^{2}${2}^{3}が${3}連続キルを達成！
+10320000260	^{1}^{2}${2}^{3} terminated ^{4}${4}^{5}'s ${5}-Killstreak!	^{1}^{2}${2}^{3}が^{4}${4}^{5}の${5}連続キルを阻止！
+10320000261	^{1}${2}^{2} has captured Point ${3}!	^{1}${2}^{2} がポイント${3}を占領！
+10320000262	^{1}The flag-bearing Boss has appeared!	^{1}旗持ちボスが出現！
+10320000263	Rally!	集合！
+10320000264	Focus fire!	集中砲火！
+10320000265	^{1}Focus fire!	^{1}集中砲火！
+10320000266	^{1}${2}^{2}'s ^{3}${3}^{4}\nscored the Kill on the Boss!	^{1}${2}^{2}の^{3}${3}^{4}\nがBOSSにとどめを刺しました！
+10320000267	^{1}The Guard has appeared!	^{1}衛兵が現れた！
+10320000268	^{1}The Commander has appeared!	^{1}司令官が出現した！
+10320000269	^{1}Guild League closes in @{1} seconds	^{1}ギルドリーグ終了まで@{1}秒
+10320000270	^{1}The Guard will appear in @{1} seconds!	^{1}ガード出現まで@{1}秒！
+10320000271	^{1}The Boss will appear in @{1} seconds!	^{1}ボス出現まで@{1}秒！
+10320000272	Capture the Flag!	旗を奪え！
+10320000273	Defend the Flag!	旗を守れ！
+10320000274	^{1}Capture the Flag!	^{1}旗を奪え！
+10320000275	^{1}Defend the Flag!	^{1}旗を守れ！
+10320000276	^{1}The flag-bearing Boss has appeared! Defeat it to claim the flag!	^{1}旗を持ったボスが出現しました！倒して旗を奪いましょう！
+10320000277	^{1}${2}^{2}'s ^{3}${3}^{4} claimed the flag!	^{1}${2}^{2}の^{3}${3}^{4}が旗を獲得しました！
+10320000278	^{1}${3}^{2}'s ^{3}${2}^{4} delivered the flag!	^{1}${3}^{2}の^{3}${2}^{4}が旗を届けました！
+10320000279	The guards have appeared!	衛兵が現れた！
+10320000280	The guards and commander have appeared!	衛兵と司令官が出現しました！
+10320000281	Entered the Safe Zone	セーフゾーンに入りました
+10320000282	Left the Safe Zone	セーフゾーンを離れました
+10320000283	^{1}${2}^{2} has reached ^{3}${3}^{4} points! Victory is within reach!	^{1}${2}^{2}が^{3}${3}^{4}ポイントに到達！勝利は目前です！
+10320000284	^{1}${2}^{2}'s ^{3}${3}^{4} scored a Kill on the Boss!	^{1}${2}^{2}の^{3}${3}^{4}がボスを撃破！
+10320000285	The Guild League has begun. Participate Now?	ギルドリーグが始まりました。参加しますか？
+10320000286	I completed my Return Journey[View My Journey]	帰還の旅を完了しました[旅を見る]
+10320000287	^{1}^{2}${1}^{3} spared no expense at the Auction House to obtain ${2}. Congratulations!	^{1}^{2}${1}^{3}がオークションハウスで惜しみなく資金を投じ、${2}を獲得！おめでとう！
+10320000288	Congratulations to ${1}'s team on the First Clear of ${2}!! First Clear Members: ${3}	${1}チーム、${2}初回クリアおめでとう！！初回クリアメンバー：${3}
+10320000289	Congratulations to ${1} for being the first to clear Floor ${2} of the Spirit Tower! All Adventurers can claim the Entire Server reward at the Spirit Tower.	精霊の塔第${2}層の初クリアを達成した${1}様、おめでとうございます！冒険者の皆様は精霊の塔にて全サーバー報酬を受け取ることができます。
+10320000290	The Royal City Battle will begin in @{1} minutes.	王都戦開始まで@{1}分。
+10320000291	The Royal City Battle has begun. Participate Now?	王都戦が始まりました。今すぐ参加しますか？
+10320000292	The Royal City Battle has ended. View the battle report?	王都戦が終了しました。戦闘レポートを確認しますか？
+10320000293	The battle for @{1} State Capital will begin in @{2} minutes.	@{1}州都戦は@{2}分後に開始します。
+10320000294	The battle for @{1} State Capital has begun. Participate Now?	@{1}州都戦が始まりました。参加しますか？
+10320000295	The battle for @{1} State Capital has ended. View the battle report?	@{1}州都争奪戦が終了しました。戦闘レポートを確認しますか？
+10320000296	Magic Crystal donations have reached ${1} Energy.	魔法クリスタルの寄付がエネルギー${1}に到達しました。
+10320000297	^{1}${1}^{2} disturbed a terrifying BOSS while treasure hunting in ^{3}${2}^{4}! Help Defeat it to receive a ^{5}Support Chest^{6}!	^{1}${1}^{2}が^{3}${2}^{4}で宝探し中に恐ろしいBOSSを刺激してしまいました！ 討伐に協力して^{5}支援宝箱^{6}を手に入れましょう！
+10320000298	Territory War escort Trade has begun. Please proceed to the corresponding Trade screen.	領地戦の護衛取引が始まりました。対応する取引画面へ進んでください。
+10320000299	Territory War escort Trade has ended.	領地戦の護衛取引が終了しました。
+10320000300	The Escort event has begun. Participate Now.	護衛イベントが始まりました。参加しましょう。
+10320000301	The Battle of the Producers event has begun. Players are welcome to Participate Now.	プロデューサー討伐イベントが始まりました。ぜひご参加ください。
+10320000302	The Battle of the Producers event has ended. See you next time.	プロデューサーの戦いイベントは終了しました。また次回！
+10320000303	${1} has spawned on the ${2} map.	${1}が${2}マップに出現しました。
+10320000304	${1} was defeated by ${2}.	${1}は${2}に倒されました。
+10320000305	Congratulations to player 【${2}】 for defeating 【${1}】 and earning a Rare reward!	プレイヤー【${2}】が【${1}】を撃破し、レア報酬を獲得しました！
+10320000306	${1} has been appointed to the ${2} position in this guild.	${1}がこのギルドの${2}役職に任命されました。
+10320000307	${1} appointed you as ${2}.	${1}があなたを${2}に任命しました。
+10320000308	${1} has been removed from the ${2} position in this guild.	${1}がこのギルドの${2}役職から解除されました。
+10320000309	${1} removed you from the ${2} position.	${1}があなたを${2}役職から解除しました。
+10320000310	Player ${1} gave ${2} ${3} ${4} and said: ${5}	プレイヤー${1}が${2}に${3} ${4}を贈り、こう伝えました：${5}
+10320000311	Successfully gave player ${1} ${2} ${3}.	プレイヤー${1}に${2} ${3}を渡しました。
+10320000312	Rumi\nAssistant Message Test	ルミ\nアシスタントメッセージテスト
+10320000313	Search the area for the source of the strange odor	周辺を調べて奇妙な臭いの原因を探す
+10320000314	Work together to defeat the Golden Thief Bug	力を合わせて黄金蟲を倒す
+10320000315	The strange odor has faded from the air	奇妙な臭いが空気から消えた
+10320000316	The source of the strange odor is getting closer	奇妙な臭いの発生源が近づいている
+10320000317	Eliminate the monsters nearby	近くのモンスターを倒す
+10320000318	Eliminate the monsters in the area	エリア内のモンスターを一掃
+10320000319	The northern portal is becoming unstable	北側ポータルが不安定になっています
+10320000320	The western portal is becoming unstable	西側ポータルが不安定になっている
+10320000321	The western and eastern portals are becoming unstable	西と東のポータルが不安定になっている
+10320000322	An elite monster has appeared at the northern portal	北側ポータルにエリートモンスターが出現
+10320000323	Orc Hero will unleash its ultimate skill in ${1} seconds. Pick up the Giant Blade and interrupt Orc Hero's charging!	オークヒーローが${1}秒後に必殺技を発動します。巨大な剣を拾い、オークヒーローのチャージを中断してください！
+10320000324	Note collection is on cooldown	ノート収集はクールダウン中です
+10320000325	You collected this note	この音符を集めました
+10320000326	You have reached the collection limit for this note	この音符の収集上限に達しました
+10320000327	The drumbeat will explode in ${1} seconds	ドラムビートは${1}秒後に爆発
+10320000328	The notes will disappear in @{1} seconds. Memorize their positions quickly!	音符は@{1}秒後に消えます。位置をすぐに覚えてください！
+10320000329	Heroes, collect the notes on the ground	英雄たちよ、地面の音符を集めろ
+10320000330	Enter the circles in order to compose the melody. ${1} seconds remaining	順番にサークルへ入り、メロディーを完成させてください。残り${1}秒
+10320000331	Players with the corresponding notes must Kill the matching Musical Instrument	対応する音符を持つプレイヤーは、同じ音符の楽器を倒してください
+10320000332	The Boss will use the recorded skills	ボスは記録されたスキルを使用します
+10320000333	Block the bubbles strategically to prevent bubbles of different colors from colliding	泡をうまく遮り、異なる色の泡同士が衝突しないようにしよう
+10320000334	Reach your performance position within ${1} seconds	${1}秒以内に演奏位置へ移動
+10320000335	Dance to the beat!	ビートに合わせて踊ろう！
+10320000336	Heretical dancers who remain in the darkness will face Judex	闇に残る異端の踊り子にはジュデックスが下される
+10320000337	Too slow! Go practice and come back later...	遅すぎる！もっと練習して出直してきな…
+10320000338	Wonderful... Finally, someone who can keep up with my steps...	素晴らしい…やっと私のステップについて来られる人が…
+10320000339	Step onto the staff of rhythm. One wrong move means eternal silence	リズムの五線譜を踏み進め。一歩でも間違えれば永遠の静寂が待つ
+10320000340	Ta-da! It's time for your test!	ジャーン！試験の時間だよ！
+10320000341	Mirko is about to unleash the final movement, destroying everything in ${1} seconds!	ミルコが最終楽章を放とうとしている。${1}秒後、すべてを破壊します！
+10320000342	Activate three Safe Zones simultaneously. ${1} seconds until the beat explodes	3つのセーフゾーンを同時に起動。ビート爆発まで${1}秒
+10320000343	Activate four Safe Zones simultaneously. ${1} seconds until the beat explodes	4つのセーフゾーンを同時に起動。ビート爆発まで${1}秒
+10320000344	Activate two Safe Zones simultaneously. ${1} seconds until the beat explodes	2つの安全地帯を同時に起動してください。ビート爆発まで残り${1}秒。
+10320000345	^{1}${2}^{2} eliminated ^{3}${4}^{4}	^{1}${2}^{2} が ^{3}${4}^{4} を撃破
+10320000346	The Safe Zone will shrink in ${1} seconds!	セーフゾーン縮小まで${1}秒！
+10320000347	[Drake], carrying a ^{1}[Surprise Chest]^{2}, will appear in the Location in ${1} seconds.	^{1}[サプライズチェスト]^{2}を持った[ドレイク]が${1}秒後に出現します。
+10320000348	Entering\nFinal Stage!	最終ステージへ\n突入！
+10320000349	Kafra Battlefield Administrator\n[Evil Eye Messenger] has airdropped a ^{1}[Surprise Chest]^{2} onto the battlefield!	カプラ戦場管理者\n[邪眼の使者]が戦場に^{1}[サプライズチェスト]^{2}を空中投下しました！
+10320000350	[Evil Eye Messenger] has left the battlefield	[邪眼の使者]が戦場を離れました
+10320000351	Grants full-map vision, allowing you to view every warrior's location on the Mini Map	マップ全域の視界を得て、ミニマップ上ですべての戦士の位置を確認できる
+10320000352	Deviling\nThe Pirate's Hidden Treasure is now open! Warriors can use the portal to enter the treasure area and fight for it!	デビルリング\n海賊の秘宝が開放されたぞ！勇者たちはポータルを通って秘宝エリアに入り、宝を奪い合え！
+10320000353	Deviling\nThe entrance to the Pirate's Hidden Treasure has closed	デビルリング\n海賊の秘宝への入口が閉じたぞ
 10320000354	Kafra Battlefield Manager\nReceive the Blessing of Odin, King of the Gods, reducing skill Cooldown by @{1}% for @{2} minutes.	カプラ戦場管理人\n主神オーディンの祝福を受け、@{2}分間、スキルのクールダウンが@{1}%短縮されます。
+10320000355	Kafra Battlefield Administrator\nYou have received the blessing of Valkyrie. The quality of all players' currently equipped gear has increased	カプラ戦場管理者\nあなたはヴァルキリーの加護を受けました。全プレイヤーが現在装備している装備の品質が向上しました
 10320000356	Kafra Battlefield Manager\nReceive the Blessing of Baldur, God of Light, increasing MSPD by @{1}% for @{2} minutes.	カプラ戦場管理人\n光の神バルドルの加護を受け、@{2}分間、移動速度が@{1}%増加する。
 10320000357	Kafra Battlefield Manager\nReceive the Blessing of Thor, God of Thunder, granting @{1} Extra exclusive skills for @{2} minutes.	カプラ戦場管理人\n雷神トールの祝福を受け、@{2}分間、@{1}個の追加専用スキルを獲得する。
 10320000358	Kafra Battlefield Manager\nReceive the Blessing of Tyr, God of War, increasing Crit Chance by @{1}% for @{2} minutes.	カプラ戦場管理人\n戦の神テュールの加護を受け、@{2}分間、クリティカル率が@{1}%増加する。
+10320000359	[Pirate King] will Enter Battlefield in ${1} seconds!	[海賊王]が${1}秒後に戦場へ進入！
+10320000360	[Pirate King] will spawn a ^{1}[Surprise Chest]^{2} nearby in ${1} seconds	[海賊王]が${1}秒後、近くに^{1}[サプライズチェスト]^{2}を出現させます。
+10320000361	Deviling\nThe Treasure Island is about to sink! Warriors, escape immediately!!	デビルリング\n宝島が沈むぞ！戦士たちよ、すぐに脱出しろ！！
+10320000362	Deviling\n[Pirate King] dropped a ^{1}[Surprise Chest]^{2} on the battlefield!	デビルリング\n[海賊王]が戦場に^{1}[サプライズチェスト]^{2}を落とした！
+10320000363	Deviling\nThe fate-changing [Mystery Cube] has appeared on the battlefield	デビルリング\n運命を変える[ミステリーキューブ]が戦場に出現したよ。
+10320000364	${1} eliminated ${2}	${1}が${2}を撃破
+10320000365	[Evil Eye Messenger] will spawn a ^{1}[Surprise Chest]^{2} nearby in ${1} seconds	[邪眼の使者]が${1}秒後、近くに^{1}[サプライズチェスト]^{2}を出現させます
+10320000366	Deviling\n[Pirate Captain] has entered the battlefield	デビルリング\n[海賊船長]が戦場へ進入
+10320000367	The portal to the Pirate's Hidden Treasure will close in ${1} seconds	海賊の秘宝へのポータルは${1}秒後に閉じます。
+10320000368	${1} died outside the Safe Zone	${1}がセーフゾーン外で死亡しました
+10320000369	${1} voluntarily left the battlefield. Their ID Tag is now invalid	${1}が自ら戦場を離脱しました。IDタグは無効になりました。
+10320000370	You successfully rescued your teammate ${1}	チームメイト${1}の救助に成功しました
+10320000371	Your teammate ${1} rescued you	チームメイト${1}に救助されました
+10320000372	You successfully rescued ${1} using the ambulance	救急車を使って${1}の救助に成功しました
+10320000373	Your teammate ${1} rescued you using the ambulance	チームメイト${1}が救急車であなたを救助しました
+10320000374	Kafra Battlefield Administrator\nThe Equipment Merchant has appeared on the battlefield! Today's equipment is discounted, so hurry over before it's gone.	カプラ戦場管理人\n戦場に装備商人が現れました！ 本日の装備は割引価格となっておりますので、売り切れる前にお急ぎください。
 10320000375	Kafra Battlefield Manager\nAn Evil Eye Messenger carrying a [Small Surprise Chest] has appeared in the Location. Warriors, go seize it!	カプラ戦場管理人\n【小さなサプライズ宝箱】を持った邪眼の使者がこの場所に出現しました。勇者たちよ、奪い取りに向かいましょう！
+10320000376	Kafra Battlefield Administrator\nThe Equipment Merchant has left the battlefield.	カプラ戦場管理人\n装備商人は戦場から退出しました。
 10320000377	Kafra Battlefield Manager\nAn Evil Eye Emissary carrying a [Large Surprise Chest] has appeared in the Location. Warriors, go seize it!	カプラ戦場管理人\n[特大サプライズチェスト]を所持した邪眼の使徒が当該位置に出現しました。戦士たちよ、奪取せよ！
+10320000378	Tap above a wormhole to enter it and emerge from another wormhole	ワームホールの上をタップすると入り、別のワームホールから出ます。
+10320000379	A sandstorm is coming! Use the wormholes to avoid it!	砂嵐が来る！ワームホールで避けろ！
+10320000380	Guide Golden Thief Bug toward a wormhole! Sandstorms will soon strike randomly from all sides of the map!	黄金蟲をワームホールへ誘導してください！まもなくマップの四方からランダムに砂嵐が襲ってきます！
+10320000381	Golden Thief Bug will burrow again in ${1} seconds!	黄金蟲が${1}秒後に再び地中へ潜ります！
+10320000382	Bombard the puppets with cannon fire	大砲でパペットを砲撃する
+10320000383	Ghost ships will arrive in ${1} seconds! Destroy them with explosive barrels!	ゴーストシップが${1}秒後に到着！爆発樽で破壊しよう！
+10320000405	Congratulations! You're a lucky star! Enter before @{1}:@{2}!	おめでとう！ラッキースターだ！@{1}:@{2}までに入場して！
+10320000406	Great news! Our Guild Member “${1}” is today's Festival Invitation lucky star! Let's go cheer them on! Go Support	朗報！ギルドメンバー「${1}」が本日の祝典招待ラッキースターに選ばれました！みんなで応援しに行こう！応援する
+10320000407	We've got a seriously lucky player in our group! ${1} is the Festival Invitation lucky star! Let's go check it out! Go Support	私たちのグループにものすごい幸運の持ち主がいるぞ！${1}が祝祭の招待状のラッキースターに選ばれた！見に行ってみよう！応援に行く
+10320000408	Your friend ${1} has become today's Festival Invitation LUK Star! Go check them out!	フレンド${1}が本日の祭典招待LUKスターになりました！見に行こう！
+10320000409	Bobo\nThe answer will be revealed in ${1} seconds.	ボボ\n${1}秒後に答えが発表されるよ。
+10320000410	Bobo\nThe Gala Invitation quiz begins in @{1} seconds!	ボボ\nガラ招待クイズ開始まで@{1}秒！
+10320000411	Bobo\nCongratulations! That's correct!	ボボ\nおめでとう！正解！
+10320000412	Bobo\nSorry, that's the wrong answer~	ボボ\n残念、不正解～
+10320000413	Bobo\nI'm about to ask a question, so get ready!	ボボ\nこれから問題を出すから準備してね！
+10320000414	Congratulations to ${1} for winning First Place in the Festival Invitation! What an impressive wealth of knowledge!	祝典招待で1位を獲得した${1}さん、おめでとうございます！見事な知識量でした！
+10320000415	Unfortunately, no one took first place in this Gala Invitation. Better luck next time, everyone~	残念ながら、今回の祝典の招待では1等賞の当選者はいませんでした。次回に期待しましょう～
+10320000416	I'm amazing! I snagged First Place in the Festival Invitation! To all my darlings who picked me—you've got a great eye!	私ってすごい！祝典の招待で1位になっちゃった！私を選んでくれたみんな、見る目があるね！
+10320000417	The lucky-star drawing is complete. All selected lucky stars, please enter as soon as possible!	ラッキースターの抽選が完了しました。選ばれたラッキースターの皆様は、できるだけ早く入場してください！
+10320000418	The Gala Invitation has begun! In ${1} minutes, the System will select ${2} lucky stars from among Online players across the Entire Server. Get ready!	祝典の招待が始まりました！ ${1}分後、全サーバーのオンラインプレイヤーの中からシステムがラッキースター${2}名を選出します。準備をお忘れなく！
+10320000419	The Festival Invitation will select @{2} LUK Stars in @{1} minutes. Everyone, get Ready!	祭典招待で@{1}分後に@{2}人のラッキースターを選出します。みんな準備して！
+10320000420	Advancing to the Finals!	決勝進出！
+10320000422	${1} approved ${2}'s application to Join a guild. Welcome, ${2}!	${1}が${2}のギルド加入申請を承認しました。ようこそ、${2}！
+10320000423	Unfortunately, ${1} has left the guild.	残念ながら${1}はギルドを脱退しました。
+10320000424	${1} removed ${2} from the guild.	${1}が${2}をギルドから除名しました。
+10320000425	${1} changed ${2}'s position from ${3} to ${4}.	${1}が${2}の役職を${3}から${4}に変更しました。
+10320000426	${1} transferred guild leadership to ${2}.	${1}がギルドリーダーを${2}に譲渡しました。
+10320000427	${1} successfully impeached Guild Leader ${2} and became the new Guild Leader.	${1}がギルドマスター${2}の弾劾に成功し、新たなギルドマスターになりました。
+10320000428	${1} joined the guild. Welcome, welcome!	${1}がギルドに加入しました。ようこそ！
+10320000429	${1} spent ${2} Guild Contribution to Level-up the ${3} building to Lv. ${4}.	${1}がギルド貢献度${2}を消費し、${3}施設をLv. ${4}にレベルアップしました。
+10320000430	${1} spent ${2} Guild Supplies to Level-up the ${3} effect.	${1}がギルド物資${2}を消費して${3}効果をレベルアップしました。
+10320000431	${1} spent ${2} Guild Supplies to activate the ${4} strategy for ${3}.	${1}がギルド物資${2}を消費し、${3}に対して戦略${4}を発動しました。
+10320000432	${1} spent ${2} Guild Funds to purchase ${3} × ${4}.	${1}がギルド資金${2}を使って${3} × ${4}を購入しました。
+10320000433	Guild Member ${1} has chosen to Impeach the Guild Leader. Please respond and help keep the guild thriving.	ギルドメンバー${1}がギルドマスターへの弾劾を選択しました。回答して、ギルドの発展を支えてください。
+10320000434	Item used. ${1} unlocked.	アイテムを使用。${1}を解放しました。
+10320000435	${1}, ${2}, and ${3} founded the guild together. This is where the dream begins!	${1}、${2}、${3}が力を合わせてギルドを設立。夢はここから始まる！
+10320000436	${1} has officially been founded. From now on, we're family!	${1}が正式に設立されました。今日から家族です！
+10320000437	Welcome, ${1}, to the Adventure Party!	${1}さん、冒険パーティへようこそ！
+10320000438	Unfortunately, ${1} has left the Adventure Party.	残念ながら${1}は冒険パーティを離脱しました。
+10320000439	The Adventure Party has reached Lv. ${1}.	冒険パーティがLv. ${1}に到達。
+10320000440	${1} watered the Adventure Party's sapling.	${1}が冒険パーティの苗木に水やりしました。
+10320000441	${1} renamed the Adventure Party to: ${2}	${1}が冒険パーティ名を${2}に変更しました
+10320000442	${1} unlocked the Adventure Party calling card “${2}.”	${1}が冒険パーティ名刺「${2}」を解放しました。
+10320000443	${1} removed ${2} from the Adventure Party.	${1}が${2}を冒険パーティから除外しました。
+10320000444	The leader of ^{1}${1} Adventure Party^{2} has been changed to ${2}.	^{1}${1}冒険パーティ^{2}のリーダーが${2}に変更されました。
+10320000445	${1} has transferred leadership of ^{1}${2} Adventure Party^{2} to you.	${1}が^{1}${2}冒険パーティ^{2}のリーダー権限をあなたに譲渡しました。
+10320000446	^{1}${1} Adventure Party^{2} has been disbanded.	^{1}${1} 冒険グループ^{2}は解散しました。
+10320000447	Member ${1} accepted your rally request.	メンバー${1}が集結要請を承認しました。
+10320000448	Member ${1} Declined your rally request.	メンバー${1}が集結要請を拒否しました。
+10320000449	You have joined ^{1}${1} Adventure Party^{2}.	^{1}${1} 冒険グループ^{2}に参加しました。
+10320000450	You have left ^{1}${1} Adventure Party^{2}.	^{1}${1} 冒険パーティ^{2}を退出しました。
+10320000451	On a killing spree	連続キル中
+10320000452	The central Boss has respawned!	中央ボスが復活しました！
+10320000453	${1} Adamantine Madogear Pilot has respawned.	${1} アダマンタイト魔導ギアパイロットが復活しました。
+10320000454	Outer supplies have Spawned!	外周補給品が出現しました！
+10320000455	Central supplies have Spawned!	中央物資が出現しました！
+10320000456	Outer supplies will spawn in @{1} seconds!	外周物資が@{1}秒後に出現！
+10320000457	Central supplies will spawn in @{1} seconds!	中央補給品は@{1}秒後に出現します！
+10320000458	The central Boss will spawn in @{1} seconds!	中央BOSSは@{1}秒後に出現します！
+10320000459	The deathmatch phase begins in @{1} seconds!	デスマッチフェーズは@{1}秒後に開始します！
+10320000460	The battlefield closes in ${1} seconds.	戦場終了まで${1}秒。
+10320000461	Mock Battle begins in @{1} minutes.	模擬戦開始まで@{1}分。
+10320000462	Mock Battle has begun. Go there now?	模擬戦が始まりました。今すぐ向かいますか？
+10320000463	Collect Live Coals and add them to the Bonfire\nPrepare for the party	生きた石炭を集めて焚き火に入れよう\nパーティの準備をしよう
+10320000464	The Bonfire reached Lv. ${1} and unlocked a new ability.	焚き火がLv.${1}に到達し、新しい能力が解放されました。
+10320000465	Thanks to everyone's tireless efforts, the Bonfire has reached the maximum level!	みんなの努力のおかげで、焚き火が最大Lv.に到達しました！
+10320000466	^{1}[${1}]^{2} added an accelerant, replacing [${2}] with [${3}].	^{1}[${1}]^{2}が促進剤を追加し、[${2}]を[${3}]に置き換えました。
+10320000467	^{1}[${1}]^{2} added a high-quality accelerant, replacing [${2}] with [${3}].	^{1}[${1}]^{2}が高品質促進剤を追加し、[${2}]を[${3}]に置き換えました。
+10320000468	Congratulations! ${1} won the ${2} Prize!	おめでとう！${1}が${2}賞を獲得！
+10320000469	Congratulations and best wishes for prosperity! ${1} won the ${2} Prize!	おめでとうございます！ますますのご発展を！${1}が${2}賞を獲得しました！
+10320000470	Everyone successfully repelled the BOSS!	みんなでBOSSを撃退しました！
+10320000471	The Bonfire Party has come to a successful close. See you next time!	焚き火パーティは無事終了しました。また次回お会いしましょう！
+10320000472	${1} added Fuel, changing the Bonfire's abilities!	${1}が燃料を追加し、焚き火の能力が変化しました！
+10320000473	${1} added High-Quality Fuel!	${1}が高品質燃料を追加しました！
+10320000474	Everyone successfully repelled the BOSS!\n[${1}] landed the final blow!	全員でBOSSの撃退に成功！\n[${1}]が最後の一撃を決めました！
+10320000475	Now for an exciting moment! Who will be the lucky winner?\nThird Prize Drawing	さあ、ドキドキの瞬間です！幸運をつかむのは誰だ？\n3等抽選
+10320000476	The stage is set for the grand finale. The ultimate showdown is about to begin!	舞台は整った。いよいよグランドフィナーレ、究極の決戦が始まる！
+10320000477	The fun and good fortune keep coming! It's time for the prize drawing!\nSecond Prize Drawing	楽しさと幸運はまだ続く！いよいよ抽選タイム！\n2等抽選
+10320000478	The long-awaited grand prize is about to be revealed! Who will be tonight's luckiest winner?\nFirst Prize Drawing	待ちに待った豪華賞品がまもなく発表！今夜一番幸運なのは誰だ？\n1等抽選
+10320000479	The party's Third Prize will be drawn in @{1} seconds. Stay tuned!	パーティの3等賞は@{1}秒後に抽選されます。お楽しみに！
+10320000480	The party's Second Prize will be drawn in @{1} seconds. Stay tuned!	パーティの2等賞は@{1}秒後に抽選されます。お楽しみに！
+10320000481	The party's First Prize will be drawn in @{1} seconds. Stay tuned!	パーティの1等賞は@{1}秒後に抽選されます。お楽しみに！
+10320000482	A huge wave of treasure-laden Porings is being drawn to the Bonfire!	宝を抱えた大量のポリンが焚き火に引き寄せられています！
+10320000483	The Bonfire Party will begin in @{1} minutes	焚き火パーティは@{1}分後に開始します
+10320000484	The Bonfire Party has begun. Head there now?	焚き火パーティが始まりました。今すぐ向かいますか？
+10320000485	The party has officially begun!	パーティが正式に始まりました！
+10320000486	It's time for the grand finale! Get ready for the ultimate showdown—\n【MVP Challenge】	いよいよクライマックス！究極の決戦に備えよう――\n【MVPチャレンジ】
+10320000487	Attention, Audience! The show is about to begin, and the fun is about to start!	観客の皆さん、注目！ショーの幕開けです。楽しい時間が始まります！
+10320000488	Give a big round of applause for our opening act—\n【${1}】	オープニングを飾る演目に盛大な拍手を！\n【${1}】
+10320000489	Watch out!\nThe mischievous little monsters are getting restless below the stage!	注意！\nいたずらモンスターたちがステージ下で騒ぎ始めています！
+10320000490	The adorable monsters can't wait any longer! Enjoy this fun-filled game—\n【${1}】	かわいいモンスターたちはもう待ちきれない！楽しいゲームを満喫しよう—\n【${1}】
+10320000491	Attention!\nA group of little monsters carrying treasure is ready!	注意！\nお宝を持った小型モンスターの群れが準備できました！
+10320000492	A thrilling and fun challenge is about to begin—\n【${1}】	スリル満点の楽しいチャレンジがまもなく開始！\n【${1}】
+10320000493	Too few players joined the party, so the Troublemaker Poring took the rewards!	パーティ参加者が少なすぎたため、いたずらポリンが報酬を持っていきました！
+10320000494	Unfortunately, there are no players with the corresponding transformation type here.\nThe drawing has no winner.	残念ながら、対応する変身タイプのプレイヤーがいません。\n今回の抽選に当選者はいません。
+10320000495	An exciting moment is approaching!\nPlayers in 【${1}】, get ready!	胸が高鳴る瞬間が近づいています！\n【${1}】のプレイヤーは準備してください！
+10320000496	Good fortune is still brewing!\nPlayers in 【${1}】, get ready!	幸運はまだ続く！\n【${1}】のプレイヤーは準備して！
+10320000497	The most exciting grand prize is about to be revealed!\nPlayers in 【${1}】, rejoice!	ついに注目の大賞発表です！\n【${1}】のプレイヤーのみなさん、盛り上がって！
+10320000498	${1} made ${2}'s head huge.	${1}が${2}の頭を巨大化させました。
+10320000499	Gain the Big Head effect and choose You or an Other player to give a big head.	ビッグヘッド効果を獲得し、自分または他のプレイヤーを大頭にできます。
+10320000500	^{1}${1}^{2} used Enlarge on ^{3}${2}^{4}, making them big and mighty!	^{1}${1}^{2}が^{3}${2}^{4}に巨大化を使用し、大きく強力にしました！
+10320000501	Gain the Enlarge effect and choose You or an Other player to Enlarge.	巨大化効果を獲得し、自分または他のプレイヤーを選んで巨大化させます。
+10320000502	^{1}${1}^{2} made ^{3}${2}^{4} Shrink—so tiny and Cute!	^{1}${1}^{2}が^{3}${2}^{4}を縮小—こんなに小さくて可愛い！
+10320000503	Gain the Shrink effect and choose You or an Other player to Shrink.	縮小効果を獲得し、自分または他のプレイヤー1人を選んで縮小します。
+10320000504	^{1}${1}^{2} and ^{3}${2}^{4} are bound by the red thread of fate, their hearts beating as one!	^{1}${1}^{2}と^{3}${2}^{4}は運命の赤い糸で結ばれ、心をひとつにしました！
+10320000505	Obtain a Red Thread and choose one player to connect with.	赤い糸を入手し、つなぐプレイヤーを1人選ぶ。
+10320000506	A new Live Coal has appeared in the territory	領地に新しい燃えさしが出現しました
+10320000507	A group of troublemakers has arrived at the venue. Repel them!\nRepel the Troublemakers	会場にならず者の一団が現れた。撃退せよ！\nならず者を撃退
+10320000508	New troublemakers have appeared in the territory	領地に新たなならず者が現れました
+10320000509	Choose yourself or another player to make them bigger	自分またはほかのプレイヤーを選んで巨大化
+10320000510	Choose yourself or another player to make them smaller	自分またはほかのプレイヤーを選んで小さくする
+10320000511	Choose another player to link with	別のプレイヤーを選んでリンク
+10320000512	${1} Guild will begin transporting supplies in ${2}	${1}ギルドが${2}後に物資輸送を開始
+10320000513	Supply Transport Begins\n${1} Guild has begun escorting supplies	物資輸送開始\n${1}ギルドが物資護衛を開始しました
+10320000514	${1} Guild will finish transporting supplies in ${2}	${1}ギルドの物資輸送完了まで${2}
+10320000515	Supply Transport Ends\n${1} Guild has finished transporting supplies	補給輸送終了\n${1}ギルドが物資の輸送を完了しました。
+10320000516	All Supply Transport for today has ended!	本日の物資輸送はすべて終了しました！
+10320000517	${1} has claimed an Elite Treasure Cart!	${1}がエリート宝物カートを獲得！
+10320000518	${1} has delivered an Elite Treasure Cart!	${1}がエリート宝物カートを届けました！
+10320000519	@{1} of our ^{1}Elite Treasure Carts^{2} are under attack!^{3}^{4}^{5}Rescue Now^{6}^{7}^{8}	味方の^{1}エリート宝物カート^{2}@{1}台が攻撃されています！^{3}^{4}^{5}今すぐ救援^{6}^{7}^{8}
+10320000520	Guild Supply Transport will begin in @{1}s	ギルド物資輸送は@{1}秒後に開始
+10320000521	Guild Supply Transport has begun!	ギルド物資輸送が始まりました！
+10320000522	Your party successfully escorted the supplies	パーティが補給品の護送に成功しました
+10320000523	${1} successfully escorted a Basic Supply Cart!	${1}が基本補給カートの護送に成功しました！
+10320000524	${1} successfully escorted an Elite Treasure Cart!	${1}がエリート宝物カートの護衛に成功しました！
+10320000525	${1} successfully raided another Guild's Supply Cart and obtained ${2} supplies!	${1}が他ギルドの補給カートを襲撃し、物資${2}を獲得！
+10320000526	Supply Transport has begun! A fierce battle is about to unfold on the Territory War map.	物資輸送が始まった！領地戦マップで激戦が始まろうとしている。
+10320000527	Supply Transport will begin in @{1} minutes. Every Member, get ready!	補給輸送は@{1}分後に開始します。メンバー全員、準備してください！
+10320000528	${1}'s party successfully escorted @{1} Basic Supply Cart(s), adding ${3} Military Supplies to the Guild.	${1}のパーティがベーシック補給カート@{1}台の護衛に成功し、ギルド軍需物資が${3}増加しました。
+10320000529	The Supply Transport event has ended. During this event, all Members transported a total of ^{1}${1}^{2}/${2} Military Supplies.\nThe key Member who transported the supplies was: \n${3}  ${4} points	物資輸送イベントが終了しました。本イベント中、全メンバーが輸送した軍需物資は合計^{1}${1}^{2}/${2}個です。\n物資輸送の主要メンバー：\n${3}  ${4}ポイント
+10320000530	${1} turned in ${2} Military Supplies, further increasing the Guild's strategic reserves!	${1}が軍需物資${2}を納品し、ギルドの戦略備蓄がさらに増加！
+10320000531	${1}'s party successfully escorted @{1} Elite Treasure Cart(s), adding ${3} Military Supplies to the Guild.	${1}のパーティが精鋭財宝カート@{1}台の護送に成功し、ギルドに軍需物資${3}を追加しました。
+10320000532	The Supply Transport event has ended. During this event, all Members transported a total of ^{1}${1}^{2}/${2} Military Supplies.\nThe Members who transported the supplies were: \n${3}  ${4} points\n${5}  ${6} points	物資輸送イベントが終了しました。本イベント中、全メンバーが輸送した軍需物資は合計^{1}${1}^{2}/${2}個です。\n物資を輸送したメンバー：\n${3}  ${4}ポイント\n${5}  ${6}ポイント
+10320000533	The Supply Transport event has ended. During this event, all Members transported a total of ^{1}${1}^{2}/${2} Military Supplies.\nThe top three Members by supplies transported were: \n${3}  ${4} points\n${5}  ${6} points\n${7}  ${8} points	物資輸送イベントが終了しました。イベント期間中、全メンバーが輸送した軍需物資は合計^{1}${1}^{2}/${2}です。\n輸送量上位3名：\n${3}  ${4}ポイント\n${5}  ${6}ポイント\n${7}  ${8}ポイント
+10320000534	${1}'s party has accepted a Basic Supply Cart.	${1}のパーティが基本補給カートを受け取りました。
+10320000535	${1}'s party has accepted an Elite Treasure Cart.	${1}のパーティがエリート宝物カートを受け取りました。
+10320000536	The ${1} Guild's Elite Treasure Cart has been completely destroyed!	ギルド${1}のエリート宝物カートが完全に破壊されました！
+10320000537	The ${1} Guild has completed its supply escort!	${1}ギルドが補給護送を完了しました！
+10320000538	Guild Supply Transport has begun. Tap to go to the corresponding map.	ギルド補給輸送が始まりました。タップして対象マップへ移動します。
+10320000539	You have been muted until ${1}.	${1}までミュートされています。
+10320000540	${1} has started the Dragon Crafting quest and invites all Adventurers to help!	${1}がドラゴンクラフトクエストを開始し、冒険者のみんなに協力を求めています！
+10320000541	${1} will begin the Dragon's Descent ritual in Prontera in ${2} seconds and invites all Adventurers to participate!	${1}が${2}秒後にプロンテラで「竜の降臨」の儀式を開始し、すべての冒険者を招待します！
+10320000542	${1} has begun the Starshatter Dragon summoning ritual. Adventurers, go lend a hand!${2}	${1}がスターシャッタードラゴン召喚儀式を開始しました。冒険者のみんな、手を貸そう！${2}
+10320000543	${1} has completed the summoning ritual. The Starshatter Dragon will descend upon the capital in @{1} seconds. Adventurers are invited to come watch!${2}	${1}が召喚の儀式を完了しました。@{1}秒後にスターシャッタードラゴンが王都に降臨します。冒険者の皆様、ぜひご覧にお越しください！${2}
+10320000544	${1} used the Dragon Sanctuary, causing numerous Red Envelopes to appear in ${2}. Adventurers are invited to claim them.	${1}がドラゴンサンクチュアリを使用し、${2}に多数の紅包が出現しました。冒険者の皆様はぜひお受け取りください。
+10320000545	A Rift Stone has appeared on Channel ^{3}${2}^{4} in ^{1}${1}^{2}. Adventurers, hurry over and challenge it~	^{1}${1}^{2}のチャンネル^{3}${2}^{4}に亀裂の石が出現しました。冒険者のみなさん、急いで挑戦しに行きましょう～
+10320000546	Congratulations to all Adventurers for successfully resolving this Rift Crisis.	冒険者のみなさん、リフトクライシス解決おめでとうございます！
+10320000547	Unexpected Reward!	思いがけない報酬！
+10320000548	Quick Tip\nTime it right! Tap when the pointer passes through the green area. The closer to the center, the higher your Rating!	クイックヒント\nタイミングを合わせよう！ ポインターが緑のエリアを通過した時にタップ。中央に近いほど評価が高くなります！
+10320000549	Quick Tip\nTap the button rapidly to increase your progress. The more energy you have when time runs out, the higher your score!	クイックヒント\nボタンを素早く連打して進捗を上げましょう。時間切れのときにエネルギーが多いほど、スコアが高くなります！
+10320000550	Round ${1}	ラウンド ${1}
+10320000551	Game Over	ゲームオーバー
+10320000552	Mysterious Voice\nSing! Sing for me...	謎の声\n歌え！私のために歌え…
+10320000553	Mysterious Voice\n(Upbeat melody) La la la la...	謎の声\n（軽快な旋律）ララララ…
+10320000554	Mysterious Voice\n(Sorrowful melody) La... la la...	謎の声\n（悲しげな旋律）ラ…ララ…
+10320000555	Bewitched Passerby\n...Huh? What was I just doing?	魅了された通行人\n…あれ？私は今何をしてたんだ？
+10320000556	Bewitched Passerby\n...Ah, I offer this to you, to... what?	魅了された通行人\n…ああ、これをあなたに捧げて…え？
+10320000557	Talking to Themselves\n...Phew, that's much better.	独り言\n…ふう、ずいぶん楽になった。
+10320000558	Talking to Themselves\n...Is that streetlamp singing? Am I seeing things?	独り言\n……あの街灯、歌ってる？私、幻でも見てるのかな？
+10320000559	Talking to Themselves\nThat melody again...	独り言\nまたあの旋律…
+10320000560	The Goddess's army will invade ${2} in ${1}.	女神軍が${1}後に${2}へ侵攻します。
+10320000561	The Goddess's army has begun its invasion! Head to Prontera immediately and fight back!	女神軍の侵攻が始まった！すぐプロンテラへ向かい、迎撃せよ！
+10320000562	The Goddess's invasion has ended. ${1} successfully repelled the invasion; unfortunately, ${2} fell during the invasion.	女神の侵攻が終了しました。${1}は侵攻を食い止めることに成功しましたが、残念ながら${2}は侵攻中に倒れました。
+10320000563	${1}'s City Defense has fallen below ${2}! Bolster the defenses!	${1}の都市防衛値が${2}未満です！防御を強化しよう！
+10320000564	Attention, everyone! The intensity of the Goddess's invasion has increased to ${1}!	みなさん注目！女神侵攻の強度が${1}に上昇しました！
+10320000565	Prontera could not withstand the Goddess's massive invasion and has fallen!	プロンテラは女神の大侵攻に耐え切れず、陥落しました！
+10320000566	Warning! A high-level rift has appeared in ${1}. Destroy it immediately!	警告！${1}に高レベルの亀裂が出現しました。直ちに破壊してください！
+10320000567	The Guild has designated ${1} as its main garrison city.	ギルドは${1}を主要駐屯都市に指定しました。
+10320000568	Enemy forces are gathering south of Prontera. All defenders, prepare for battle!	敵軍がプロンテラ南部に集結中。守備隊は戦闘準備を！
+10320000569	The main enemy force is highly likely to attack from the south!	敵主力は南から攻めてくる可能性が高い！
+10320000570	Scattered enemies have also appeared to the east and west, but Prontera South Gate remains our primary defensive line.	東西にも散発的に敵が出現していますが、プロンテラ南門が引き続き最優先の防衛線です。
+10320000571	The Goddess's army has begun its invasion! Prontera South Gate is under direct assault. Head there and engage the enemy immediately!	女神の軍勢が侵攻を開始しました！ プロンテラ南門が直接攻撃を受けています。直ちに向かい、迎撃してください！
+10320000572	Numerous invading monsters have appeared at Prontera South Gate. Nearby Adventurers, provide support immediately!	プロンテラ南門に多数の侵入モンスターが出現！近くの冒険者は直ちに支援せよ！
+10320000573	A small group of invading monsters has been discovered at Prontera East Gate. Nearby defenders should handle them first; there is no need for everyone to fall back and defend the gate.	プロンテラ東門で少数の侵入モンスターが確認されました。近くの防衛担当者が優先して対処してください。全員が門へ戻って防衛する必要はありません。
+10320000574	The battle at Prontera South Gate has intensified! The enemy is trying to break through the outer defenses. All combat-ready personnel, reinforce the South Gate first!	プロンテラ南門での戦闘が激化しています！敵は外郭防衛線を突破しようとしています。戦闘可能な者は全員、まず南門へ増援に向かってください！
+10320000575	Enemy forces are harassing Prontera West Gate. Nearby defenders, suppress them before the flank falls!	敵軍がプロンテラ西門を襲撃しています。近くの防衛兵は側面を突破される前に撃退してください！
+10320000576	Prontera South Gate's defenses are under pressure, and the enemy continues to gather. More defenders, reinforce the gate immediately!	プロンテラ南門の防衛線が圧迫され、敵が集結し続けています。防衛部隊は直ちに南門へ増援に向かってください！
+10320000577	South Gate defenders, take heed! The enemy is advancing into the city, and the Inn area may become the next battlefield!	南門の防衛兵たち、警戒せよ！敵が市街地へと進軍しており、宿屋エリアが次の戦場になる恐れがある！
+10320000578	The enemy has breached the South Gate perimeter and is advancing toward the Inn! Fall back and defend the Inn area immediately!	敵が南門の防衛線を突破し、宿屋に向かって進軍しています！ 直ちに後退し、宿屋周辺を防衛してください！
+10320000579	The Inn's defenses are under heavy pressure! The enemy is trying to push into the southern district. Support the Inn immediately!	宿屋の防衛線が猛烈な攻撃に晒されています！ 敵が南部地区へ突入を試みています。直ちに宿屋の救援に向かってください！
+10320000580	Signs of enemy activity have been discovered near the Library. All defenders, stay alert!	図書館付近で敵の活動痕跡を発見。防衛隊は全員警戒せよ！
+10320000581	Invading monsters have appeared near the Library. Some defenders should assist there while the rest continue holding the Inn!	侵攻してきたモンスターが図書館の近くに出現しました！一部の防衛兵は救援に向かい、残りは引き続き宿屋を死守してください！
+10320000582	The situation at the Inn is critical! If it falls, the enemy will directly threaten the central district!	宿屋の状況が危機的です！ここが陥落すれば、敵が中央地区を直接脅かします！
+10320000583	Numerous invading monsters have been discovered in the Inn area. Nearby Adventurers, eliminate them!	宿屋エリアに多数の侵攻モンスターが出現しました。近くの冒険者は直ちに討伐してください！
+10320000584	Signs of a breakthrough are mounting! Enemy vanguards have appeared on the central district's main road. Prepare to fall back toward the center!	突破されそうだ！ 中央地区の目抜き通りに敵の前衛部隊が出現した。中央に向けて後退の準備をせよ！
+10320000585	Alert! The enemy is nearing Prontera's core, and the central defensive line is about to become the Main Battlefield!	警報！敵がプロンテラ中枢へ接近中。中央防衛線がまもなく主戦場になる！
+10320000586	The enemy has pushed into the central district! Head to the central perimeter defenses and engage them immediately!	敵が中央地区へ侵入した！直ちに中央外周の防衛線へ向かい、迎撃せよ！
+10320000587	Large numbers of invading monsters have appeared along the central perimeter. All mobile defenders, provide support immediately!	中央の外郭沿いに侵略モンスターが多数出現しました。遊撃防衛部隊は直ちに救援に向かってください！
+10320000588	Enemy stragglers are still harassing the South Gate, but our top priority is holding the central district's defensive line!	敵の残党が依然として南門を脅かしているが、我々の最優先任務は中央地区の防衛線を死守することだ！
+10320000589	The central district's defenses are under pressure! The enemy is closing in on Prontera's core. Prioritize the central defenses!	中央地区の防衛線が圧迫されています！ 敵がプロンテラ中枢に迫っています。中央の防衛を最優先してください！
+10320000590	All defenders, fall back to the center immediately! The enemy is closing in on the heart of Prontera! This is our last line of defense!	防衛隊全員、直ちに中央へ後退せよ！敵がプロンテラの中心部に迫っている！ここが我らの最終防衛線だ！
+10320000591	Elite enemy forces have appeared in the central area! All combat-ready personnel, assemble there immediately!	中央エリアに敵の精鋭部隊が出現！戦闘可能な全員は直ちに中央へ集合せよ！
+10320000592	The central defenses are under heavy attack! If they fall, Prontera will quickly be overrun!	中央防衛線が猛攻を受けている！ここが落ちればプロンテラは一気に制圧されるぞ！
+10320000593	A powerful enemy has arrived! A high-threat target has appeared in the central area! Focus your attacks and eliminate it immediately!	強敵が来襲しました！ 中央エリアに高脅威ターゲットが出現！ 攻撃を集中して直ちに撃破してください！
+10320000594	The central area is under relentless assault! All defenders, fight with everything you have! Do not Move back!	中央エリアが猛攻を受けている！防衛側は全力で応戦せよ！絶対に退くな！
+10320000595	This is our last line of defense! All defenders, hold the center at all costs! The fate of Prontera will be decided here!	ここが我々の最終防衛線だ！防衛兵全員、何としても中央を死守せよ！プロンテラの運命はここで決まる！
+10320000596	Attention, all defenders! Final Settlement is imminent! Hold the central defenses!	守備隊に告ぐ！最終精算間近！中央防衛線を死守せよ！
+10320000597	Good news! Prontera's central defenses have held, and the Goddess Legion's latest assault has been repelled!	朗報だ！プロンテラ中央防衛線は持ちこたえ、女神軍団の最新の襲撃を退けた！
+10320000598	Guild Readiness has increased to 【Lv. ${1}】.	ギルド準備度が【Lv. ${1}】に上昇しました。
+10320000599	Terrible news... Prontera's central defenses have been breached, and the capital has fallen!	最悪の知らせだ…プロンテラ中央防衛線が突破され、首都が陥落した！
+10320000600	Quick, we can't hold out much longer...	急いで、もう長くは持たない…
+10320000601	Help! Help! Can anyone save us?	助けて！誰か助けて！
+10320000602	Bobo\nThey ran into Eddga! Let's go help them!	ボボ\nエドガに遭遇した！助けに行こう！
+10320000603	Bobo\nThe great king has arrived! All you monsters and fiends, clear the way!	ボボ\n大王様のお出ましだ！モンスターも悪党も道を開けろー！
+10320000604	Bobo\n(Gasps) W-w-why is it Eddga?!!! (Squeezes eyes shut) Never mind! Saving them comes first! Adventurer, let's go!	ボボ\n（息をのむ）な、な、なんでエドガなの？！！！（ぎゅっと目を閉じる）もういい！まず助けるのが先！冒険者、行こう！
+10320000605	Bobo\nWhoa! Watch out for its claws!	ボボ\nうわっ！爪に気をつけて！
+10320000606	Bobo\nEddga jumped into the air! Get Away from it!	ボボ\nエドガが飛び上がった！離れて！
+10320000607	It's so hot...	暑い...
+10320000608	Bobo\nSomething's wrong with these flames! Don't stand too close!	ボボ\nこの炎、なんだか変だよ！近づきすぎないで！
+10320000609	We actually defeated Eddga! I can't believe it!	本当にエドガを倒した！信じられない！
+10320000610	(Wipes away tears) We're saved... Thank you, our saviors...	（涙を拭う）助かった…本当にありがとう、恩人たちよ…
+10320000611	Bobo\nHehe, we did it! We really defeated Eddga!	ボボ\nへへ、やった！本当にエドガを倒した！
+10320000612	Bobo\n(Flies around in circles) Hehe! We got to help people and Complete the Commission! We're amazing!	ボボ\n（くるくる飛び回る）えへへ！人助けもできて依頼も達成したよ！ボボたち、すごいね！
+10320000613	Bobo\nThe sound's getting louder! It's just ahead!	ボボ\n音が大きくなってる！すぐ先だ！
+10320000614	Wule, this is an emergency! Use the signal flare, quickly! If Eddga reaches town, we're in serious trouble!	ウーレ、緊急事態だ！早く信号弾を使え！エドガが街まで来たら大変なことになる！
+10320000615	Player, I need a little more time to launch the signal flare. Can you hold off Eddga for a while?	冒険者さん、信号弾を上げるまであと少し時間が必要です。しばらくエドガを食い止めてもらえますか？
+10320000616	(Panting) Rookie, you shouldn't have come... Cough, cough...	（息を切らして）新人、お前は来るべきじゃなかった…ゴホッ…
+10320000617	Bobo\nAah! What a huge tiger! Bobo's going to be eaten!	ボボ\nうわっ！でっかい虎！ボボ、食べられちゃう！
+10320000618	Wule\n^{1}PlayerName^{2}, quick! The red circle marks Eddga's attack range. Get out of there!	ウーレ\n^{1}PlayerName^{2}、早く！赤い円はエドガの攻撃範囲だ。そこから離れて！
+10320000619	We can't go on like this. If only someone nearby could help us...	このままじゃ無理だ。近くに誰か助けてくれる人がいれば…
+10320000620	This is humiliating... We actually let a rookie protect us...	情けない…新人に守ってもらうなんて…
+10320000621	There's only one option left. Let's hope there are other Adventurers nearby.	残された方法は一つだけだ。近くに他の冒険者がいることを祈ろう。
+10320000622	You still have a signal flare? Let's take our chances!	まだ信号弾があるの？一か八かやってみよう！
+10320000623	Bobo\nAah! What do we do? We really can't hold out much longer!	ボボ\nああっ！どうしよう？もう長くは持たないよ！
+10320000624	Huh? What's Eddga doing here?!	えっ？どうしてエドガがここに？！
+10320000625	Call for backup! I'll heal him first~	援軍を呼べ！まずこいつを回復する～
+10320000626	I have fire armor! Healer, cast Safety Wall on Me!	火属性防具を着てる！ヒーラー、私にセイフティウォールを！
+10320000627	Everyone, use Water skills if you can! They're effective against Eddga!	みんな、水属性スキルを使えるなら使って！エドガに有効だよ！
+10320000628	Bobo\nWow! Fighting together makes such a difference! I think we're going to win~	ボボ\nわあ！一緒に戦うと全然違うね！勝てそうだよ～
+10320000629	You found Eddga already? You're amazing, Party Leader~	もうエドガを見つけたの？さすがパーティリーダー～
+10320000630	Bobo\nI Discover you, crate thief! You dared to steal our cargo, so today we're turning you into lamb skewers!	ボボ\n見つけたぞ、木箱泥棒！僕たちの積み荷を盗むなんて、今日はラム串にしてやる！
+10320000631	Bobo\nMaster, watch out! Stay out of Baphomet's attack range!	ボボ\n師匠、気をつけて！バフォメットの攻撃範囲から離れて！
+10320000632	Bobo\nQuick, hide behind the pillar!	ボボ\n早く、柱の後ろに隠れて！
+10320000633	Bobo\nHehe, Baphomet isn't so tough after all!	ボボ\nへへ、バフォメットも大したことないね！
+10320000634	Bobo\nThere are more crates ahead. Let's see if any of the Professor's supplies are inside!	ボボ\n前にも箱があるよ。教授の物資が入ってないか見てみよう！
+10320000635	Bobo\nIs this the Shadow Clone Technique of Legend...?!	ボボ\nこれが伝説の影分身の術…？！
+10320000636	Phew! Giving it a good beating made me feel much better!	ふぅ！思いっきり叩いたらスッキリした！
+10320000637	Thank you for your help!	助けてくれてありがとう！
+10320000638	There are more crates ahead. Let's check them out together!	この先にも箱がある。一緒に確認しよう！
+10320000639	Bobo\nWe almost beat it! Let's try again!	ボボ\nあと少しだった！もう一度やろう！
+10320000640	Bobo\nUgh, I'm so dizzy... Where are we?	ボボ\nうぅ、目が回る…ここはどこ？
+10320000641	Bobo\nPharaoh?! Did Pharaoh trap us inside a coffin?	ボボ\nファラオ？！ファラオに棺へ閉じ込められたの？！
+10320000642	Bobo\nNo fair, ganging up on us! Be careful, Master!	ボボ\nずるい、みんなで襲ってくるなんて！気をつけて、師匠！
+10320000643	Bobo\nStay Away from those beams! They'll burn you!	ボボ\nあの光線から離れて！焼かれちゃう！
+10320000644	Bobo\nWe must have entered Pharaoh's illusion. He appeared and vanished so quickly. How strange...	ボボ\nファラオの幻覚に入り込んじゃったみたい。あっという間に現れて消えたよ。変なの……
+10320000645	Bobo\nUgh, I don't understand any of this. Let's go ask the Professor.	ボボ\nうぅ、何を言ってるのか全然分からないよ。教授に聞きに行こう。
+10320000646	Bobo\nThis Pharaoh is stronger than any monster we've faced before. Is it because of the Relic?	ボボ\nこのファラオ、今まで戦ったどのモンスターより強いよ。遺物のせいなのかな？
+10320000647	Bobo\nUgh, I don't understand any of this. Let's go ask the Professor!	ボボ\nうぅ、何を言ってるのか全然分からないよ。教授に聞きに行こう！
+10320000648	Bobo\nWe almost beat it! Let's try again	ボボ\nあと少しだった！もう一度やろう
+10320000649	Bobo\nI heard Maya's minions built an underground kingdom for her. Is this it?	ボボ\nマヤーの配下が地下王国を作ったって聞いたけど…ここなのかな？
+10320000650	Bobo\nThe sand is moving... No good, I'm being sucked in! Quick, save Me!	ボボ\n砂が動いてる……だめ、吸い込まれる！早く助けて～！
+10320000651	Bobo\n(Cries echo from nearby) Waaah! ^{1}PlayerName^{2}, are you there?!	ボボ\n（近くから泣き声が響く）うわぁぁん！^{1}PlayerName^{2}、そこにいるの？！
+10320000652	Bobo\n(A splat, as if something was hit) Aaaaah! What is this stuff? It's all sticky!	ボボ\n（何かにぶつかったようなベチャッという音）うわぁぁ！何これ！？ベタベタする！
+10320000653	Bobo\n(Weakly) Am I... still alive...?	ボボ\n（弱々しく）ぼ、僕…まだ生きてる…？
+10320000654	Use the movement wheel or the A and D keys to steer. Be careful to avoid the ant eggs.	移動ホイールまたはA・Dキーで方向を操作。アリの卵を避けて進もう。
+10320000655	Bobo\n There's a big pit up ahead. I'll go check it out!	ボボ\n 前に大きな穴がある。ちょっと見てくる！
+10320000656	There seems to be a huge pit up ahead...	前方に大きな穴があるみたい…
+10320000657	Ah! Why is the sand moving?! No good, I'm being sucked in!!!	あっ！砂が動いてる！？まずい、吸い込まれる！！！
+10320000658	Bobo\n Aaaah... This hole is so deep! Help!	ボボ\n あああ…この穴、深すぎる！助けて！
+10320000659	Bobo\nYou're finally here! Any later and you would've lost the world's Cutest Bobo!	ボボ\nやっと来た！もっと遅かったら世界一かわいいボボを失うところだったよ！
+10320000660	Bobo\nUgh, I'm filthy! I can barely even spread my wings.	ボボ\nうぅ、汚れちゃった！羽も広げられないよ。
+10320000661	Bobo\nWhere are we?	ボボ\nここはどこ？
+10320000662	Bobo\nIt's a dead end... Aaaah, look over there! Something's crawling toward us! It's all black... Huh? It looks like an ant!	ボボ\n行き止まりだ…きゃあああ、あそこを見て！何かがこっちに向かって這ってくるよ！真っ黒だ…えっ？アリみたい！
+10320000663	Bobo\nIt seems to like those glowing things—I've got it! Let's gather some to bribe it into carrying us across.	ボボ\nあいつ、あの光るものが好きみたい――わかった！いくつか集めて、向こうまで運んでもらえるよう買収しよう。
+10320000664	Bobo\nIt's so big, but surprisingly Agile! Maybe I should recruit it as my minion!	ボボ\nこんなに大きいのに意外と素早い！手下にしたいかも！
+10320000665	Bobo\nIt's too narrow here for the ant. Should we squeeze through?	ボボ\nここは狭すぎてアリが通れないよ。僕たちだけでくぐり抜ける？
+10320000666	Bobo\nIt seems to know exactly where it's going. Is there something special over there?	ボボ\n行き先が分かってるみたい。あっちに何か特別なものがあるのかな？
+10320000667	Bobo\nThis should be enough. Let's go find that giant ant!	ボボ\nこれで十分だ。あの巨大アリを探しに行こう！
+10320000668	Bobo\nGreat! Our bribe worked!	ボボ\nよし！賄賂が効いた！
+10320000669	Bobo\nAh, it's Maya! (Covers mouth with wings) I don't see the professor. Did she hide him somewhere?	ボボ\nあっ、マヤーだ！（翼で口を覆う）教授が見当たらないよ。どこかに隠したのかな？
+10320000670	Bobo\nWhatever! Let's defeat her first!	ボボ\nもういい！先にあいつを倒そう！
+10320000671	Bobo\nHmph! Maya wasn't so tough! I heard monsters hide their treasures in their nests. Could the professor be here?	ボボ\nふん！マヤーなんて大したことなかったね！モンスターは巣に宝物を隠すって聞いたよ。教授もここにいるかな？
+10320000672	Bobo\nWhere could the professor be?	ボボ\n教授はどこにいるんだろう？
+10320000673	Bobo\nThere's a path up ahead! Let's check it out!	ボボ\n前に道がある！見に行こう！
+10320000674	Bobo\nDo you think the Professor is still alive...?	ボボ\n教授、まだ生きてるかな…？
+10320000675	Bobo\n(Shakes head) No, no, no! He has to be okay! We still need him to pay our commission!	ボボ\n（首を振る）ダメダメ！教授には無事でいてもらわないと！まだ報酬を払ってもらってないんだから！
+10320000676	Bobo\nThere are so many ant eggs, and I can just make out pieces of armor... It looks like a lot of people died here...	ボボ\nアリの卵がこんなにたくさん…それに鎧の破片まで見えるよ。ここで大勢の人が死んだみたい…
+10320000677	Help me... Help me...	助けて…助けて…
+10320000678	Bobo\nThat's the professor's voice! Let's hurry and get him down!	ボボ\n教授の声だ！急いで下ろしてあげよう！
+10320000679	(Clutches lower back) Owww... I feel like every bone in my body is falling apart...	（腰を押さえる）いたたた…体中の骨がバラバラになりそうだ…
+10320000680	Whoa... We're Flying s-so high! The houses below look like tiny dots...	うわぁ……た、高いところを飛んでる！下の家が小さな点みたい……
+10320000681	Is this wreck going to fall out of the sky? The wind's so strong, it's going to blow away Bobo's precious feathers!	このボロ船、空から落ちたりしないよね？風が強すぎて、ボボの大事な羽まで吹き飛ばされそう！
+10320000682	Hey, you'd better hold on tight to me! If Bobo falls, there'll be no one to wake you up!	ほら、しっかりボボにつかまって！ボボが落ちたら、起こしてくれる人がいなくなるよ！
+10320000683	...But the clouds up here really do look like Cotton candy. I wish I could take a bite...	…でも、ここの雲って本当に綿あめみたい。ひと口食べてみたいな…
+10320000684	The skies are calm. It's perfect weather for Flying. Thank You for your protection, Goddess Freyja.	空は穏やか。飛行には絶好の天気ね。守護に感謝します、フレイヤ女神様。
+10320000685	The White Dove and I go way back. She may be steady now, but she once saved my Life in a storm.	白鳩号とは長い付き合いだ。今でこそ安定して飛ぶが、昔は嵐の中で俺の命を救ってくれたこともある。
+10320000686	This route used to be the Life line of merchant caravans. Now... those damn air pirates have made it anything but peaceful.	この交易路はかつて商隊の命綱だった。だが今は…あの忌々しい空賊どものせいで、平和とは程遠い有様だ。
+10320000687	They've defiled the freedom of flight. Someday, they'll pay for it.	奴らは空を飛ぶ自由を汚した。いつか必ず報いを受けるさ。
+10320000688	Check the safety ropes three times, and keep your weapon within reach. Those are the rules.	安全ロープは3回確認し、武器は手の届く場所に置く。それがルールだ。
+10320000689	First time on an airship?	飛行船は初めて？
+10320000690	Remember, never let your guard down. The sky is every bit as dangerous as the land.	覚えておけ。決して油断するな。空も地上と同じくらい危険だ。
+10320000691	Hey, rookie! How's it feel? This view is amazing, isn't it?	やあ、新人！どうだ？この景色、最高だろ？
+10320000692	Hahaha! Judging by your face, you must be nervous about your first airship ride. Relax—I've got your back!	ハハハ！その顔を見るに、初めての飛行船で緊張してるな？安心しろ、俺がついてる！
+10320000693	Once we reach the desert, I'll show you a real sunrise over the sea of sand. Now that's a magnificent sight!	砂漠に着いたら、本物の砂海の日の出を見せてやる。あれこそ絶景だぞ！
+10320000694	When night falls, we'll camp atop the dunes, and I'll treat you to the strongest desert ale around!	夜になったら砂丘の上で野営して、この辺で一番強い砂漠の酒を飲ませてやるよ！
+10320000695	Captain\nIf you're set on staying on deck instead of going inside, you'd better hold on to the railing.	船長\n船室に入らず甲板に残るっていうなら、手すりにしっかりつかまってろよ。
+10320000696	Captain\nIf the wind blows you off the airship, don't blame me! Hahahaha!	船長\n風に飛ばされて飛行船から落ちても、俺を恨むなよ！ハハハハ！
+10320000697	Bobo\nWaaaaah! I can't keep my balance... What's happening?	ボボ\nうわぁぁ！バランスが取れない…何が起きてるの？
+10320000698	Captain\nDamn! Could it be...?	船長\nくそっ！まさか…？
+10320000699	Eden Group Leader\nCould it be the Desert Eagles? Aren't we just "lucky"?	楽園団団長\nまさかデザートイーグルか？俺たちも本当に「運がいい」な？
+10320000700	Captain\nIt's those damn air pirates! They just won't leave us alone!	船長\nあの忌々しい空賊どもだ！しつこい奴らめ！
+10320000701	Eden Group Leader\nThe ship will fall apart at this rate! Wuller, take some people belowdecks and assess the damage! You're quick on your feet—get to the starboard Turret and launch an Auto Counter! Show them what we're made of!	楽園団団長\nこのままじゃ船がバラバラになる！ウーレ、何人か連れて船倉へ行き、損傷状況を確認しろ！お前は足が速い――右舷のターレットへ行ってオートカウンターを撃て！俺たちの底力を見せてやれ！
+10320000702	Captain\nAim before You fire! Conserve ammo and target their engines and sails!	船長\n撃つ前によく狙え！弾を節約して、エンジンと帆を狙うんだ！
+10320000703	Eden Group Leader\nThis is bad. Their ship is getting closer. Wuller, Boya, prepare to defend!	楽園団団長\nまずい。奴らの船が近づいてくる。ウーレ、ボヤ、防衛準備だ！
+10320000704	Captain\nThey're probably planning to board us and seize both the crew and cargo. I'll leave the fighting to you while I try to shake these bastards!	船長\n奴らめ、船に乗り込んできて乗組員も積み荷も根こそぎ奪う気配だ。戦いはあんたに任せる。俺はこのクソ野郎どもを振り切ってみせるぜ！
+10320000705	Air Pirate Boss\nAll right, boys! Charge! Take this ship, and everything aboard is ours!	空賊のボス\nよし野郎ども、突撃だ！この船も積荷も全部いただくぞ！
+10320000706	Wuller\nHey, rookie! You handle the small fry over here! We'll stop their leader!	ウーレ\nおい、ルーキー！こっちの雑魚は任せた！リーダーは俺たちが止める！
+10320000707	Air Pirate Lackey\nTake out the one with the pet!	空賊の手下\nペット連れのやつを狙え！
+10320000708	Air Pirate Boss\nDon't... celebrate just yet... By the Desert Eagles, I swear... Blood... will be repaid in blood...	空賊団長\nまだ……勝った気になるな……デザートイーグルに誓って……血には……血で報いる……
+10320000709	Captain\nBah! If blood truly had to be repaid in blood, you'd have died eight hundred times over!	船長\nふん！本当に血を血で償うなら、お前なんぞ八百回は死んでるぞ！
+10320000710	Eden Group Leader\nThose air pirates were tougher than I expected. You did well, rookie. You took down quite a few enemies.	楽園団団長\nあの空賊どもは思っていた以上に手強かったな。よくやったぞ、新人。かなりの数の敵を倒してくれたな。
+10320000711	Boya\nHa! When we work together, those air pirates don't stand a chance!	ボヤ\nハッ！力を合わせれば、あんな空賊なんて敵じゃないね！
+10320000712	Captain\nUh... Adventurer, could you come over here?	船長\nあの…冒険者さん、こっちへ来てもらえる？
+10320000713	Bobo\nOh no! The Captain looks hurt! Let's go check on him!	ボボ\n大変！船長がけがしてる！様子を見に行こう！
+10320000714	Captain\nOw, that hurts...	船長\nいてて…
+10320000715	Captain\nDamn... Don't tell me they have... reinforcements?	船長\nくそっ…まさか、援軍が…？
+10320000716	Bobo\nWe almost won. Let's Try Again!	ボボ\nあと少しだった。もう一度挑戦しよう！
+10320000717	Professor Ryan\n(Checks inside his coat) Good, it's not damaged.	ライアン教授\n（上着の中を確認）よし、壊れてない。
+10320000718	Bobo\nLook! There's a treasure chest up ahead!	ボボ\n見て！前に宝箱がある！
+10320000719	Bobo\nWe're rich! What a haul! Hehe!	ボボ\n大儲けだ！すごい戦利品！へへっ！
+10320000720	Bobo\nWe almost won. Let's Try Again!	ボボ\nあと少しだった。もう一度挑戦しよう！
+10320000721	Bobo\nWaaaah! It's a huge Sandstorm! We can't dodge it! I'll help You!	ボボ\nうわぁぁ！すごい砂嵐だ！避けられないよ！ボボも手伝う！
+10320000722	Bobo\nIs that... a tornado?! Run!	ボボ\nあれは…竜巻！？逃げろ！
+10320000723	Bobo\nOoh, what does riding a giant ant feel like? Does it make You dizzy? Bobo wants to try too...	ボボ\nわあ、巨大なアリに乗るってどんな感じ？目が回ったりする？ボボも乗ってみたい……
+10320000724	Help! Help! Won't somebody save us?[g@{1}]	助けて！誰か助けてくれないの！？[g@{1}]
+10320000725	Help! Help! Is nobody really going to save us?[g@{1}]	助けて！本当に誰も助けてくれないの！？[g@{1}]
+10320000726	Brave Adventurer, please save us~[g@{1}]	勇敢な冒険者よ、助けて～[g@{1}]
+10320000727	Moonlight Flower\nTaunt them, then start the game again!	月夜花\n挑発してから、もう一度ゲームを始めよう！
+10320000728	Louis\nGuess which Bell my cat is hiding in!	ルイス\nうちの猫がどのベルに隠れてるか当てて！
+10320000729	Louis\nCongratulations, you got it right! Let's go again—this time it'll be harder!	ルイ\nおめでとう、正解！もう一回いこう。次はもっと難しいよ！
+10320000730	Louis\nSorry, wrong guess! Let's try again.	ルイス\n残念、外れ！もう一度やろう。
+10320000731	Moonlight Flower\nI'm about to catch you! Watch out!	月夜花\nもう捕まえちゃうよ！気をつけて！
+10320000732	Moonlight Flower\nYou're pretty good at hide-and-seek! Play with me a little longer!	月夜花\nかくれんぼ上手だね！もう少し遊ぼうよ！
+10320000733	Moonlight Flower\nI didn't know you were so good! I had a great time~	月夜花\nこんなに強いなんて知らなかった！楽しかったよ～
+10320000734	Louis\nLet's start the game! Guess where my cat will move!	ルイス\nゲーム開始！猫がどこへ動くか当ててみて！
+10320000735	Louis\nDarn, you got it right again! I give up.	ルイス\nくそっ、また正解か！もう降参だ。
+10320000736	Hide in the darkness and don't let them Discover you!	暗闇に隠れて、見つからないように！
+10320000737	Meow, meow! Let the hide-and-seek begin!	ニャー、ニャー！かくれんぼ開始！
+10320000738	Hehe, I'm the Moonlit Challenger of hide-and-seek!	へへっ、僕はかくれんぼのムーンリットチャレンジャーだ！
+10320000739	Can your eyes see me?	私の姿が見える？
+10320000740	You're no good at hide-and-seek! Hahaha! Play with me again~	かくれんぼ下手だね！ハハハ！また遊ぼう～
+10320000741	I didn't know you were so good! I had a great time~	そんなに上手いなんて知らなかった！楽しかったよ～
+10320000742	Bobo\nThe device is over there. Let's hurry and bring it back to the Professor.	ボボ\n装置はあそこだ。早く教授のところへ持ち帰ろう。
+10320000743	Woof, woof, woof!	ワン、ワン、ワン！
+10320000744	Bobo\nGot it! Let's get out of here~	ボボ\nよし！ここから逃げよう～
+10320000745	Meow, meow! Meow!	ニャー、ニャー！ ニャー！
+10320000746	Tsk, tsk. You guessed it.	ちぇっ、当てられたか。
+10320000747	You've got to be kidding...	冗談でしょ…
+10320000748	Meow, meow~ Meow!	ニャー、ニャー～ ニャー！
+10320000749	Looks like you're not taking this very seriously.	どうやら本気でやる気はないみたいだね。
+10320000750	Your eyesight is terrible! Hahahahaha!	目が悪すぎる！ハハハハ！
+10320000751	Meow, meow! Meow! Meow, meow!	ニャー、ニャー！ニャー！ニャー、ニャー！
+10320000752	Tsk, tsk. It's only the first round.	ちぇっ、まだ第1ラウンドだ。
+10320000753	You actually lost that? You're not even smart enough to be a lackey...	本当にあれをなくしたの？子分にするにも頭が足りないな……
+10320000754	Meow, meow~ Meow, meow!	ニャー、ニャー♪ ニャー、ニャー！
+10320000755	Hahaha, Martha, calm down. Give him one more chance.	ハハハ、マーサ、落ち着いて。もう一度チャンスをあげよう。
+10320000756	You lost, lackey!	負けだよ、子分！
+10320000757	Meow, meow, meow!	ニャー、ニャー、ニャー！
+10320000758	This round really is a little tricky, but...	今回はちょっと難しいけど…
+10320000759	Tch... No idea what you were acting so smug about at first.	ちっ…最初に何をそんなに得意げにしてたんだか。
+10320000760	Bobo\nHuh? Someone over there is waving at us~ I guess we can go see what they want!	ボボ\nん？あっちで誰か手を振ってる～。行ってみようか！
+10320000761	Rhine\nHey, Adventurer! Are You here for the Novice Trial? Come over here.	ライン\nやあ、冒険者！ノービス試練を受けに来たのか？こっちへおいで。
+10320000762	Bobo\nThe Elder Lady said we could use the Fly Wing once we reached the forest. This must be the place, right?	ボボ\nおばあさんが、森に着いたらハエの羽を使えばいいって言ってたよね。ここで合ってるよね？
+10320000763	Bobo\nDid you hear something? It sounded like it came from up ahead.	ボボ\n何か聞こえた？前のほうから聞こえた気がするよ。
+10320000764	Mysterious Voice\nAdventurer, please wait.	謎の声\n冒険者よ、少し待ちなさい。
+10320000765	Bobo\nWhoa! W-What's happening? This compass is glowing!	ボボ\nうわっ！な、何が起きてるの？コンパスが光ってる！
+10320000766	Bobo\nUgh, why do these Chonchons keep following us? Shoo!	ボボ\nもう、なんでチョンチョンがずっとついてくるの？あっち行け！
+10320000767	Bobo\nThere's a man over there covered in dirt. Could he be the Professor?	ボボ\nあそこに泥だらけの人がいるよ。あの人が教授かな？
+10320000768	Bobo\nWhew, we're finally back! I'm going to get some beauty sleep!	ボボ\nふぅ、やっと戻ってきた！ボボ、ひと眠りして美容睡眠するね！
+10320000769	Bobo\nMaster, look at these claw marks... Baphomet might be nearby.	ボボ\nご主人様、この爪痕を見て…バフォメットが近くにいるかもしれないよ。
+10320000770	Bobo\nHey, there's another chest over there. Waaah—!! M-Master, help! Is that Baphomet?!	ボボ\nねえ、あそこにも箱があるよ。うわぁー！！し、師匠、助けて！あれバフォメット！？
+10320000771	Bobo\nFound it! It's this shiny thing right here~	ボボ\n見つけた！このキラキラしたやつだよ～
+10320000772	Bobo\n(Shakes head) I feel awful as soon as I get near this place... Is the Relic causing it?	ボボ\n（首を振る）ここに近づくだけで気分が悪くなる…遺物のせいなのかな？
+10320000773	Bobo\nDon't worry! We're here!	ボボ\n心配しないで！僕たちがいる！
+10320000774	Guard\nThis monster's tough... Ngh... Hah!	衛兵\nこのモンスター、強い…ぐっ…はぁ！
+10320000775	Bobo\nThat must be the Relic up ahead! Whew, we finally found it!	ボボ\nあれが前にある遺物だね！ふぅ、やっと見つけた！
+10320000776	Bobo\nAdventurer! Adventurer! Wake up!	ボボ\n冒険者！冒険者！起きて！
+10320000777	Bobo\nThis famous port city lives up to its reputation! I can already feel the sea breeze!	ボボ\nさすが有名な港町！もう潮風を感じるよ！
+10320000778	Mysterious Boy\nProfessional Job Advance tests! Step right up and don't miss out!	謎の少年\n上位転職試験だよ！さあさあ、見逃さないで！
+10320000779	Rhine\nAdventurers here for the Novice Trial, please come this way!	ライン\nノービス試験を受ける冒険者はこちらへお越しください！
+10320000780	Bobo\nMaster~ That hunk of junk is glowing again... This can't be good!	ボボ\nご主人～、あのガラクタがまた光ってる……嫌な予感がするよ！
+10320000781	Bobo\nLook! Prontera is just beyond that gate! Let's go!	ボボ\n見て！あの門の向こうがプロンテラだ！行こう！
+10320000782	Young Male Voice\nCan we be reasonable here? You've been sitting here since five in the morning without fighting a single monster! You're hogging the spot and doing nothing!	若い男性の声\n少しは話し合おうよ！朝5時からずっとここに座って、モンスターを1匹も倒してないじゃないか！場所だけ占領して何もしてないだろ！
+10320000783	Elderly Male Voice\nYoung man, all that anger is bad for your liver... This is the best spot around for soaking up the sun.	老人の声\n若者よ、そんなに怒ると肝臓に毒じゃぞ…ここは日向ぼっこをするには最高の場所なんじゃから。
+10320000784	Gruff Voice\nSo you're the ones who ruined my plans, huh? Take this!	野太い声\n俺の計画を台無しにしたのはお前らか？これでもくらえ！
+10320000785	Vendor's Cry\nStep right up! Freshly forged Novice Steel Swords! With one of these, your mom will never worry about you running into a Fabre again!	露天商の呼び込み\nさあさあいらっしゃい！ 鍛え立てのノービス用スチールソードだよ！ これさえあれば、ファブルに出くわしてもお母さんに心配かけずに済むぜ！
+10320000786	Vendor's Cry\nOne bottle perks you up, two keep fatigue away! Limited-time special!	売り子の声\n1本で元気、2本で疲れ知らず！今だけ特価！
+10320000787	Kitten\nMeow! Meow! Meow!	子猫\nニャー！ニャー！ニャー！
+10320000788	Weak Voice\nHelp me... I need water...	弱い声\n助けて…水を…
+10320000789	Nice moves!	素敵な動き！
+10320000790	You got the move wrong!	動きを間違えた！
+10320000791	Focus!	集中！
+10320000792	The ball is about to begin. Get ready!	舞踏会が始まるよ。準備して！
+10320000793	Quickly press the arrow key corresponding to the direction of Luna's Dance Move.	ルナのダンス方向に対応する矢印キーを素早く押そう。
+10320000794	Bobo\nHey, hey~ Master! That Elder Lady over there seems to be waving us over. Let's go see what she wants.	ボボ\nねえねえ～ご主人！あそこにいるおばあさん、こっちに手招きしてるみたい。何の用か見に行こうよ。
+10320000795	Explosive barrels blast a cross-shaped area. Be sure to dodge!	爆発樽は十字範囲を吹き飛ばす。必ず避けろ！
+10320000796	Graceful dance moves	優雅なダンスムーブ
+10320000797	What a captivating dance	なんて魅力的なダンス
+10320000798	How could you get that move wrong?	どうしてその動きを間違えるの？
+10320000799	Where are you going?	どこへ行くの？
+10320000800	Maya\nKids, come on out!	マヤー\nみんな、出ておいで！
+10320000801	Maya\nCome back!	マヤー\n戻ってきて！
+10320000802	Ouch, that hurts!	いたっ、痛い！
+10320000803	Professor\nI knew it! You really can activate it! Hahahahaha!	教授\nやっぱり！本当に起動できるんだ！ハハハハ！
+10320000804	Bobo\nA coffin? What do You mean?	ボボ\n棺？どういうこと？
+10320000805	Ah! Professor! Professor, save us—	あっ！教授！教授、助けて—
+10320000806	The Professor was taken?! What do we do now?	教授が連れ去られた！？どうしよう？
+10320000807	Was I seeing things just now? Maya actually carried someone off? My goodness, I can't believe I witnessed something like that...	さっきのは見間違いかしら？ マヤーが本当に誰かを連れ去ったの？ なんてこと、あんな光景を目撃するなんて信じられない…
+10320000808	Follow Me. See that door over there?	ついてきて。あの扉が見える？
+10320000809	You've glimpsed the truth of this world. Be careful~	この世界の真実を垣間見たね。気をつけて～
+10320000810	Martha\nDarn it! We almost won. Louie, let's challenge them again!	マーサ\nもう！あと少しで勝てたのに！ルイ、もう一回挑戦しよう！
+10320000811	Louie\nA bet's a bet, Martha. This investigator is truly skilled. We admit defeat.	ルイ\n賭けは賭けだ、マーサ。この調査員は本物だ。私たちの負けだよ。
+10320000812	Katie\nMeow, meow meow!	ケイティ\nニャー、ニャニャー！
+10320000813	Church Knight\nYou couldn't have come at a worse time. Watch out!	教会騎士\n最悪のタイミングで来たな。気をつけろ！
+10320000814	Professor\nOh my gosh, help!	教授\nうわっ、助けて！
+10320000815	Bobo\nAh! Save us—	ボボ\nあっ！助けて—
+10320000816	Merchant\nIn business, the goods have to match the order. You brought them back way too quickly. There's no way you did a thorough job, so I can't give you the original price for these airship tickets anymore~	商人\n商売ってのは、注文に見合う品を揃えてもらわないと困るんだよ。あんた、あまりにも早く戻ってきたじゃないか。ちゃんと仕事したとは思えないね。だから、この飛行船チケットを元の値段で渡すわけにはいかないよ～
+10320000817	Boya\nSay that again! I'll kick your head around like a ball! I hate cheats more than anything!	ボヤ\nもう一度言ってみなさい！頭をボールみたいに蹴り飛ばしてやる！あたしは卑怯者が何より嫌いなの！
+10320000818	Merchant\nF-Fine... You win. You got the better of me today!	商人\nわ、分かった…今日は君の勝ちだ！
+10320000819	W-What are you going to do?!	な、何をするつもり？！
+10320000820	Fervor! Fervor! Where are you?!	ファーヴァー！ファーヴァー！どこにいるの？！
+10320000821	Woof woof woof!	ワンワンワン！
+10320000822	Huh? The investigator is a dog?	えっ？調査員って犬なの？
+10320000823	Woof, woof woof!	ワン、ワンワン！
+10320000824	Ah! Why did it suddenly run off? Could it be...	あっ！なんで急に逃げたんだ？もしかして…
+10320000825	Sprazzi\nBeginners, please gather over here!	スプラッキ\n初心者のみんな、こっちに集まって！
+10320000826	I'm definitely going to pass!	絶対に合格してみせる！
+10320000827	The village chief never said there'd be a test...	村長、試験があるなんて言ってなかったぞ…
+10320000828	Bobo\nHuh? It looks like Fervor stopped someone up ahead!	ボボ\nあれ？ファーヴァーが前で誰かを止めたみたい！
+10320000829	Cockroach Researcher\nUgh, stupid dog! Go away! Stay away from me!	ゴキブリ研究者\nうわっ、このバカ犬！あっち行け！近寄るな！
+10320000830	Cockroach Researcher\nT-That was terrifying... I've been afraid of dogs since I was little. I'm getting out of here!	ゴキブリ研究者\nこ、怖かった……子どもの頃から犬が苦手なんだ。もうここから逃げる！
+10320000831	Bobo\nSeriously... I hope this Clue is actually useful. Let's hurry and follow Fervor.	ボボ\nまったく…この手がかり、本当に役立つといいけど。急いでファーヴァーを追おう。
+10320000832	Bobo\nCould that little thief be inside the Culvert? Let's hurry over and see~	ボボ\nあの小泥棒、地下水路にいるのかな？早く見に行こう～
+10320000833	Mysterious Woman\nIs anyone there? Help Me~ Help Me~	謎の女性\n誰かいる？助けて～、助けて～
+10320000834	Bobo\nCome on, hurry! Let's get on the airship already. I can't wait!	ボボ\nほら、急いで！早く飛行船に乗ろうよ。待ちきれない！
+10320000835	Why are you walking so slowly—	なんでそんなにゆっくり歩いてるの—
+10320000836	Bobo\nW-What's going on? Why is that compass on your chest glowing? That's scary! It's not going to explode, is it?!	ボボ\nな、何これ？胸のコンパスがどうして光ってるの？怖いよ！爆発したりしないよね？！
+10320000837	Bobo\nHurry and Take off the compass so we can check it!	ボボ\n急いでコンパスを外して確認しよう！
+10320000838	Bobo\nWhoa, why is this thing glowing again?	ボボ\nわあ、なんでまた光ってるの？
+10320000839	Bobo\nI've got a bad feeling whenever this lousy compass lights up. Hurry and check it, bo!	ボボ\nこのポンコツコンパスが光るたび嫌な予感がするよ。早く確認して、ボ！
+10320000841	Bobo\nYou rotten thieves! You're the ones who stole the Professor's instruments, aren't you?!	ボボ\nこの泥棒ども！教授の楽器を盗んだのはお前たちだろ！？
+10320000842	Louie\nWell, well. I'm surprised you managed to follow us all the way here.	ルイ\nほうほう。まさかここまで追って来られるとは思わなかったよ。
+10320000843	Fervor\nWoof, woof, woof! Woof, woof, woof!	ファーヴァー\nワン、ワン、ワン！ワン、ワン、ワン！
+10320000844	Bobo\nLook! That's a Peco Peco nest over there, right? And there are two people there!	ボボ\n見て！あれ、ペコペコの巣だよね？しかも人が2人いる！
+10320000845	Soldier\nReporting, Commander! Something unusual is happening at the Pyramid!	兵士\n報告します、隊長！ピラミッドで異変が起きています！
+10320000846	Bobo\nWhoa! There are so many people up ahead. What are they doing?	ボボ\nわあ！前に人がいっぱいいるよ。何してるんだろう？
+10320000847	Rhine\nHey, Adventurer! Are you here to take the Novice Trial? Please come over here.	ライン\nやあ、冒険者！ノービス試練を受けに来たの？こっちへ来て。
+10320000848	Bobo\nCould that be the egg we're looking for in those bushes?	ボボ\nあの茂みにあるの、探してた卵じゃない？
+10320000849	Bobo\nOh no! We flew right into a horde of monsters!	ボボ\n大変！モンスターの群れに突っ込んじゃった！
+10320000850	Boya\nDamn, this Eddga is really tough!	ボヤ\nくそっ、このエドガは本当に強い！
+10320000851	Bobo\nIzlude may be right next to Prontera, but the scenery is completely different.	ボボ\nイズルードはプロンテラのすぐ隣なのに、景色が全然違うね。
+10320000852	Bobo\nThe Party Leader who was carried off by a bird? Could it be that Peco Peco up ahead?	ボボ\n鳥にさらわれたパーティリーダー？もしかして前にいるあのペコペコ？
+10320000853	Monster Research Adventurer\nDamn it, these blasted Chonchons! Please Help Me!	モンスター研究冒険者\nくそっ、このチョンチョンども！お願いだ、助けてくれ！
+10320000854	Bobo\nWhere's the Professor? These ants didn't bury them in the sand, did they?! Hurry and drive these pesky ants away!	ボボ\n教授はどこ？まさか、このアリたちが砂の中に埋めちゃったんじゃないよね？！早くこの邪魔なアリたちを追い払おう！
+10320000855	Bobo\nThere's no one here. We may need to look farther inside. But these ants are so annoying! Why don't we clear them out while we're at it? We'd be doing everyone a favor!	ボボ\n誰もいないね。もっと奥まで探す必要がありそう。でもこのアリたち、本当にうっとうしい！ついでに片付けちゃおうよ。みんなのためにもなるし！
+10320000856	Bobo\nLet's keep going.	ボボ\nこのまま進もう。
+10320000857	Bobo\nThe place circled in red in the notes must be the Professor's destination. Looks like we need to keep going.	ボボ\nメモで赤丸が付いてる場所が教授の目的地に違いないよ。まだ先へ進まなきゃ。
+10320000858	Bobo\nLook! Could that old man be the Professor?	ボボ\n見て！あのおじいさん、教授じゃない？
+10320000859	Bobo\nWhoa, there's a hole here!	ボボ\nうわっ、ここに穴がある！
+10320000860	Bobo\nFervor ran off! Hurry, follow him!	ボボ\nファーヴァーが逃げた！急いで追いかけよう！
+10320000861	Bobo\nHuh? It looks like he stopped up ahead.	ボボ\nあれ？前で止まったみたい。
+10320000862	Bobo\nFervor stopped again.	ボボ\nファーヴァーがまた止まった。
+10320000863	Bobo\nHuh? He stopped. Is he scared of that swarm of bats up ahead?	ボボ\nえっ？止まっちゃった。前にいるコウモリの群れが怖いのかな？
+10320000864	Bobo\nLook! Fervor stopped someone. Could that guy be the thief?	ボボ\n見て！ファーヴァーが誰かを止めた。あいつが泥棒かな？
+10320000865	Bobo\nHuh? He stopped. Is there another Monster up ahead that he's afraid of? Are all dogs this timid?	ボボ\nん？止まったよ。前にまた怖いモンスターでもいるのかな？犬ってみんなこんなに臆病なの？
+10320000866	Bobo\nWhy did he stop again? I hope it's not because of food this time...	ボボ\nなんでまた止まったの？今度は食べ物のせいじゃないといいけど……
+10320000867	Bobo\nWhy did he stop next to the Culvert inlet? The thief couldn't be inside, could they?!	ボボ\nなんで地下水路の入口で止まったんだ？まさか泥棒、中にいるの！？
+10320000868	Bobo\nThose three little thieves have no taste at all. Why would they set up their headquarters in the Culvert? It stinks...	ボボ\nあいつら泥棒3人組はちっともセンスがないね。なんで地下水道なんかにアジトを作ったのかな？すっごく臭いよ…
+10320000869	Bobo\nHey, look at these claw marks... Baphomet may be Nearby.	ボボ\n見て、この爪痕…バフォメットが近くにいるかも。
+10320000870	Bobo\nThere's someone over there! Could he be looking for the goods too?	ボボ\nあそこに誰かいる！あの人も荷物を探してるのかな？
+10320000871	Bobo\nLook! There's a chest over there~	ボボ\n見て！あそこに宝箱があるよ～
+10320000872	Bobo\nSomething doesn't feel right around here...	ボボ\nなんだかこの辺、様子がおかしいよ…
+10320000873	Bobo\nWe found them. It's this shiny thing right here~ Let's hurry back. That old man must be getting impatient!	ボボ\n見つけたよ。このキラキラしたやつだ～。早く戻ろう。あのお爺さん、きっと待ちくたびれてるよ！
+10320000874	Bobo\nI feel irritated whenever we Enter the Pyramid. Is the Relic causing it?	ボボ\nピラミッドに入るとイライラするんだ。これも遺物のせいかな？
+10320000875	Struggling Soldier\nDamn Monster, get away!	苦戦する兵士\nくそっ、モンスターめ、離れろ！
+10320000876	Struggling Soldier\nThank goodness... Thank you for your help!	苦戦する兵士\n助かった…本当にありがとう！
+10320000877	Injured Soldier\nThis Monster is tough... Ngh... Hah!	負傷兵\nこのモンスター、強い…ぐっ…はぁ！
+10320000878	Injured Soldier\nI almost couldn't hold out any longer. Good thing you came.	負傷兵\nもう少しで耐えられないところだった。来てくれて助かったよ。
+10320000879	Bobo\nHuh? Something's wrong up ahead! The Professor and the others are surrounded by Monsters!	ボボ\nえっ？前のほうで何か起きてる！教授たちがモンスターに囲まれてるよ！
+10320000880	Bobo\nAdventurer! Adventurer! Wake up!	ボボ\n冒険者！冒険者！起きて！
+10320000881	Bobo\n(Flies up from the ground) We tried to help, but we got beaten up instead! Huh? Where's the Professor?	ボボ\n（地面から飛び上がる）助けようとしたのに、逆にやられちゃった！あれ？教授はどこ？
+10320000882	Monsters are about to appear. Get ready!	モンスターがまもなく出現します。準備して！
+10320000883	A huge wave of monsters is approaching!	巨大なモンスターの群れが迫っている！
+10320000884	Final wave!	最終ウェーブ！
+10320000885	Bobo\n(Sniff, sniff) Something's not right. I smell monsters!	ボボ\n（クンクン）何か変だ。モンスターの匂いがする！
+10320000886	Bobo\nWhoa! What's going on?! There are monsters everywhere!	ボボ\nうわっ！何が起きてるの！？モンスターだらけだ！
+10320000887	Bobo\nC-could it be because of that egg?!	ボボ\nま、まさか、あの卵のせい！？
+10320000888	Bobo\nAaargh! There are more?! Adventurer, you have to hang in there!	ボボ\nうわぁぁ！まだいるの？！冒険者さん、頑張って！
+10320000889	Bobo\nThey just keep coming~ This egg-stealing request is both dangerous and unethical...	ボボ\nまだ来るよ～。卵を盗む依頼なんて危険だし、良くないことだよね…
+10320000890	Bobo\nWhew, it's finally over~ Thank goodness we're still alive!	ボボ\nふぅ、やっと終わった～。生きててよかった！
+10320000891	Guild ^{1}${1}^{2} used ^{3}${2}^{4} on Our Guild, causing a ^{5}${3}^{6} effect!	ギルド^{1}${1}^{2}が味方ギルドに^{3}${2}^{4}を使用し、^{5}${3}^{6}効果を与えました！
+10320000892	Our Guild used ^{1}${2}^{2} on Guild ^{3}${1}^{4}, causing a ^{5}${3}^{6} effect!	味方ギルドがギルド^{3}${1}^{4}に^{1}${2}^{2}を使用し、^{5}${3}^{6}効果を与えました！
+10320000893	You will obtain a Personal Skill and a Command Skill in @{1}s!	@{1}秒後に個人スキルとコマンドスキルを獲得！
+10320000894	You will obtain a Personal Skill in @{1}s!	@{1}秒後に個人スキルを獲得！
+10320000895	Baphomet has become Weak! Focus your attacks!	バフォメットが弱体化した！一気に攻めよう！
+10320000896	The Hunting Challenge will begin in @{1} minutes.	ハンティングチャレンジ開始まで@{1}分。
+10320000897	The Hunting Challenge has begun. Go now?	ハンティングチャレンジが始まりました。今すぐ行きますか？
+50047	Report	戦績
 50058	Guild membership reaches ${1}	ギルドメンバー数が${1}に到達
 50059	Your guild's Active rating reached ${1} last week.	先週、ギルド活動評価が${1}に到達しました。
 10110200238	Cleaving Slash	クリービングスラッシュ
@@ -8226,6 +9445,20 @@
 12390100539	Grants a chance to obtain a Blue Quality Card.	青品質カードを獲得できる可能性があります。
 12390100538	A radiant Soul Echo.	輝くソウルエコー。
 12390100537	An ornate Soul Echo.	華麗なソウルエコー。
+10560000000	${1} approved ${2}'s application to Join a guild. Welcome, ${2}!	${1}が${2}のギルド加入申請を承認しました。ようこそ、${2}！
+10560000001	Unfortunately, ${1} has left the guild.	残念ながら${1}はギルドを脱退しました。
+10560000002	${1} removed ${2} from the guild.	${1}が${2}をギルドから除名しました。
+10560000003	${1} changed ${2}'s position from ${3} to ${4}.	${1}が${2}の役職を${3}から${4}に変更しました。
+10560000004	${1}'s position changed from ${2} to xxx (Deprecated)	${1}の役職が${2}からxxxへ変更（廃止予定）
+10560000005	${1} transferred guild leadership to ${2}.	${1}がギルドリーダーを${2}に譲渡しました。
+10560000006	${1} successfully impeached Guild Leader ${2} and became the new Guild Leader.	${1}がギルドマスター${2}の弾劾に成功し、新たなギルドマスターになりました。
+10560000007	${1} joined the guild. Welcome, welcome!	${1}がギルドに加入しました。ようこそ！
+10560000008	The guild spent ${1} Guild Funds to Level-up building ${2} to Lv. ${3}.	ギルドはギルド資金${1}を消費し、建物${2}をLv.${3}にレベルアップしました。
+10560000009	${1} spent ${2} Guild Contribution to Level-up the ${3} building to Lv. ${4}.	${1}がギルド貢献度${2}を消費し、${3}施設をLv. ${4}にレベルアップしました。
+10560000010	${1} spent ${2} Guild Supplies to Level-up the ${3} effect.	${1}がギルド物資${2}を消費して${3}効果をレベルアップしました。
+10560000011	${1} spent ${2} Guild Supplies to activate the ${4} strategy for ${3}.	${1}がギルド物資${2}を消費し、${3}に対して戦略${4}を発動しました。
+10560000012	${1} spent ${2} Guild Funds to purchase ${3} × ${4}.	${1}がギルド資金${2}を使って${3} × ${4}を購入しました。
+10560000013	${1}, ${2}, and ${3} founded the guild together. This is where the dream begins!	${1}、${2}、${3}が力を合わせてギルドを設立。夢はここから始まる！
 12390100536	A fine Soul Echo.	上質なソウルエコー。
 12390100535	Grants a chance to obtain the following items.	次のアイテムを獲得できる可能性があります。
 12390100534	Ornate Tier @{1} Purple Equipment, clearly crafted by the Moonlit Challenger.	月夜の挑戦者が作ったと思われる、華麗なTier @{1}紫装備。
@@ -8362,6 +9595,24 @@
 12390100403	A common Arrow that can be found anywhere. Can be exchanged for Headwear.	どこでも見つかる一般的な矢。頭装備と交換できます。
 12390100402	Used to unlock Muka Emotes.	ムカのエモート解放に使用。
 12390100401	Used to unlock Deviling Emotes.	デビルリングのエモート解放に使用。
+250040	Play Music	音楽を再生する
+250041	Tap to continue	タップして続ける
+250042	Performance Successful	演奏成功
+250043	View	確認
+250044	Awaiting Performance	演奏待機中
+250045	Goddess's Overture II	女神の序曲 II
+250046	Cannot claim before check-in time	チェックイン時刻前は受け取れません
+250047	Overture I rings out as ${1} successfully contributes music energy	${1}が音楽エネルギーの提供に成功し、「序曲I」が響き渡ります。
+250048	${1} completes Overture I, increasing music energy for the Entire Server	${1}が「序曲I」を完成させ、全サーバーの音楽エネルギーが増加しました。
+250049	A beautiful melody rings out as ${1} successfully performs Overture II	${1}が「序曲II」の演奏に成功し、美しいメロディーが響き渡ります。
+250050	Thanks to ${1}, Overture II rings out once more	${1}のおかげでオーバーチュアIIが再び響き渡る
+250051	${1} performs Overture III, increasing music energy	${1}が序曲IIIを演奏し、音楽エネルギーが増加
+250052	${1} successfully performs the beautiful movement of Overture III	${1}が美しい「序曲III」の楽章を見事に演奏しました。
+250053	${1} completes Overture IV, performing an incomparable movement	${1}が序曲IVを完了し、比類なき楽章を演奏
+250054	Music energy increases as ${1} completes Overture IV	${1}が序曲IVを完了すると音楽エネルギーが増加
+250055	Distance until S1 Season officially begins: <color=#ede79d><size=72>${1}</size></color> days	S1シーズン正式開始まで：<color=#ede79d><size=72>${1}</size></color>日
+250056	Distance until S1 Season officially begins: <color=#ede79d><size=72>${1}</size></color> hours	S1シーズン正式開始まで：<color=#ede79d><size=72>${1}</size></color>時間
+250057	Distance until S1 Season officially begins: <color=#ede79d><size=72>${1}</size></color> minutes	S1シーズン正式開始まで：<color=#ede79d><size=72>${1}</size></color>分
 12390100400	Used to unlock various Emotes.	各種エモートの解放に使用。
 12390100399	Use to receive Advanced Guild Benefits.	使用すると上級ギルド特典を受け取れます。
 12390100398	Use to receive Intermediate Guild Benefits.	使用すると中級ギルド特典を獲得。
@@ -10542,6 +11793,8 @@
 12390100349	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine a Weapon or Accessory. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	ドワーフの国ワット・アルヘイム産の極めて貴重な鉱石。あらゆる職人が欲しがる逸品。\n^{1}効果：武器またはアクセサリーの精錬に使用します。成功率が上昇し、精錬に失敗しても精錬値の低下や装備の破損を防ぎます。^{2}
 12390100350	An ore from the dwarven realm of Wat Alheim, said to have received the Blessing of a legendary dwarven craftsman.\n^{1}Effect: Used to Refine Armor. Prevents level loss if Refinement Failed.^{2}	伝説のドワーフ職人の祝福を受けたとされる、ドワーフの国ヴァルトアルヘイム産の鉱石。\n^{1}効果：防具の精錬に使用する。精錬失敗時も精錬値が低下しない。^{2}
 12390100351	An extremely precious ore from the dwarven realm of Wat Alheim, coveted by every craftsman.\n^{1}Effect: Used to Refine Armor. Increases the Success Rate and prevents level loss or damage if Refinement Failed.^{2}	すべての職人が欲しがる、ドワーフの国ヴァルトアルヘイム産の極めて貴重な鉱石。\n^{1}効果：防具の精錬に使用する。成功率が上昇し、精錬失敗時の精錬値低下や破損を防ぐ。^{2}
+61041	Report	戦績
+61065	Report	戦績
 10110300000	Call down an Angel's blessing, increasing STR, DEX, and INT by ^{1}${3}^{2} for you and up to ${2} allies within a ${1}-meter radius for ${4} seconds.	天使の祝福を祈り求め、${4}秒間、自身および半径${1}m以内の味方最大${2}体のSTR、DEX、INTを^{1}${3}^{2}増加させる。
 10110300001	When you cast ^{1}【Holy Light】^{2}, reduces the Physical DEF of ^{3}Undead-property^{4} targets and ^{5}Demon Race^{6} targets by ^{7}${1}^{8} for ${2} sec.	^{1}【ホーリーライト】^{2}を発動した時、${2}秒間、^{3}不死属性^{4}の対象および^{5}悪魔系^{6}の対象の物理防御力を^{7}${1}^{8}減少させる。
 10110300002	Summon a holy spirit that circles around you and locates one enemy within a ${1}-meter radius who is under the ^{1}^{2}[Disguise]^{3}^{4} Status Effect. Removes their ^{5}^{6}[Disguise]^{7}^{8} Status Effect and deals Holy Ranged Magic damage equal to MATK * ^{9}${2}%^{10}. The holy spirit lasts ${3} seconds and disappears after Discovering a target.	自身の周囲を旋回する聖霊を召喚し、半径${1}m以内にいる^{1}^{2}[変装]^{3}^{4}状態の敵を1体発見します。対象の^{5}^{6}[変装]^{7}^{8}状態を解除し、MATK * ^{9}${2}%^{10}の聖属性遠距離魔法ダメージを与えます。聖霊は${3}秒間持続し、対象を発見すると消滅します。
@@ -11560,6 +12813,27 @@
 10400400002	Clear any Realm of the Gods Dungeon with ^{1}@{1} Guild Members^{2} from your guild.	ギルドの^{1}@{1}人のメンバー^{2}と任意の神々の領域ダンジョンをクリア。
 10400400001	Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.	^{1}@{1}人のギルドメンバー^{2}と任意のファントムレルムダンジョンをクリア。
 10400400000	Dispatch the Royal Caravan once.	王都キャラバンを1回派遣する。
+10320000404	Festival Invitation has begun! In @{1} minutes, the System will select ${1} lucky stars from all Online players across the Entire Server. Get Ready!	祝典の招待が始まりました！ @{1}分後、全サーバーのオンラインプレイヤーの中からシステムがラッキースター${1}名を選出します。準備をお忘れなく！
+10320000403	The Gala Invitation will begin in @{1} minutes. Get ready!	祭典招待は@{1}分後に開始します。準備しよう！
+10320000402	Epic Battle ${1} difficulty is now available!\nAnswer the summons?	エピックバトルの${1}難易度が開放されました！\n召集に応じますか？
+10320000401	The Guild Auction has ended.	ギルドオークションは終了しました。
+10320000400	The Guild Auction has officially begun. Visit the Auction House to place your bids.	ギルドオークションが正式に開始しました。オークションハウスで入札できます。
+10320000399	The Guild Auction will begin at ${1}. Please be prepared.	ギルドオークションは${1}に開始します。準備してください。
+10320000398	You've been outbid on an item. Please check it now.	ほかのプレイヤーに高値更新されました。確認してください。
+10320000397	Our guild successfully cleared ${1} mode of the Nature God Irmata Challenge. After the event ends, please visit the auction to view the Auctioned items.	ギルドが自然の神イルマタの試練の${1}モードをクリアしました！ イベント終了後、オークションを訪れて出品アイテムをご確認ください。
+10320000396	The Nature God Irmata Challenge has come to an end.	自然神イルマタのチャレンジは終了しました。
+10320000395	The challenge against Ilmata, God of Nature, is now open. The Guild Master or Vice Guild Master must initiate the challenge.	自然の神イルマタへの挑戦が開放されました。ギルドマスターまたはサブギルドマスターが挑戦を開始する必要があります。
+10320000394	The challenge against Ilmata, God of Nature, is now open. Guilds can enter through the Guild interface.	自然の神イルマタへの挑戦が開放されました。ギルド画面から参加できます。
+10320000393	Quicksand will appear in ${1} seconds! Hide behind a stone pillar so you don't get pulled in!	${1}秒後に流砂が出現！吸い込まれないよう石柱の後ろへ隠れろ！
+10320000392	Sandstorm meteors will strike in ${1} seconds! Get behind a stone pillar to avoid taking damage!	${1}秒後に砂嵐の隕石が落下します！石柱の後ろに隠れてダメージを回避してください！
+10320000391	Maya is summoning quicksand again! Hide behind a stone pillar so you don't get pulled in!	マヤーがまた流砂を召喚している！吸い込まれないよう石柱の後ろへ隠れろ！
+10320000390	Quicksand will strike in ${1} seconds! Hide behind a stone pillar so you don't get pulled in!	${1}秒後に流砂が襲来！吸い込まれないよう石柱の後ろへ隠れろ！
+10320000389	Prioritize avoiding the charged Bells! They'll explode sooner	チャージ済みベルを最優先で避けろ！先に爆発するぞ
+10320000388	Focus on the charged Bell and smash it!	チャージされたベルに集中して叩き壊せ！
+10320000387	Moonlight Flower is preparing to select a target. Stay out of the moonlight!	月夜花がターゲットを選ぼうとしています。月明かりから離れて！
+10320000386	A teammate is trapped inside a Bell! Hurry and smash the Bell!	仲間がベルの中に閉じ込められた！急いでベルを壊せ！
+10320000385	Star Shift will strike in ${1} seconds! Keep moving to dodge it!	スターシフトが${1}秒後に発動！動き続けて避けろ！
+10320000384	Dark Pulse will be unleashed in ${1} seconds! Use Dark Pulse to destroy the Horongs!	${1}秒後にダークパルス発動！ダークパルスでホロンを破壊しよう！
 10220300970	CRIT DMG Reduction Stat	クリティカルダメージ軽減ステータス
 10220300969	CRIT RES Stat	クリティカル耐性ステータス
 10220300968	CRIT DMG Stat	クリティカルダメージステータス
@@ -12508,3 +13782,8 @@
 10080000018	Archer Village	アーチャーの村
 10080000017	Payon	フェイヨン
 10080000016	Culvert Floor @{1}	地下水路 @{1}階
+260154	Adventure Guild names must be 2-7 characters long	冒険者ギルド名は2～7文字で入力してください
+260153	Recruitment withdrawn successfully.	募集を取り下げました。
+260152	Recruitment posted successfully.	募集を掲載しました。
+260151	Refreshed successfully.	更新しました。
+260150	N/A	なし
