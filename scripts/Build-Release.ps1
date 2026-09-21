@@ -8,6 +8,18 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+
+function Assert-PackagingBatchFile([string]$Path) {
+    $bytes = [System.IO.File]::ReadAllBytes($Path)
+    if ($bytes.Length -ge 3 -and $bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF) {
+        throw "Packaging BAT must not contain a UTF-8 BOM: $Path"
+    }
+    $text = [System.Text.Encoding]::ASCII.GetString($bytes)
+    if ($text -notmatch 'echo "%TARGET%"') {
+        throw "Packaging BAT does not quote TARGET path output: $Path"
+    }
+}
+
 if ([string]::IsNullOrWhiteSpace($GameRoot)) {
     $GameRoot = Split-Path -Parent $RepoRoot
 }
@@ -48,6 +60,8 @@ Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Update-Latest.ps1') -Dest
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Uninstall-Japanese.bat') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Restore-Recovery.ps1') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\README.txt') -Destination $Stage
+Assert-PackagingBatchFile (Join-Path $Stage 'Install-Japanese.bat')
+Assert-PackagingBatchFile (Join-Path $Stage 'Uninstall-Japanese.bat')
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'THIRD_PARTY_NOTICES.md') -Destination $Stage
 New-Item -ItemType Directory -Path (Join-Path $Stage 'licenses') -Force | Out-Null
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'third_party\BepInEx-LICENSE.txt') -Destination (Join-Path $Stage 'licenses\BepInEx-LICENSE.txt')

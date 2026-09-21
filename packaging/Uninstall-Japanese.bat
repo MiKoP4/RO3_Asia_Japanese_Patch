@@ -34,7 +34,7 @@ if "%TARGET:~-1%"=="\" set "TARGET=%TARGET:~0,-1%"
 if not exist "%TARGET%\ro3.exe" (
     echo.
     echo [ERROR] ro3.exe was not found in:
-    echo %TARGET%
+    echo "%TARGET%"
     echo.
     if not defined NO_PAUSE pause
     exit /b 1
@@ -62,7 +62,7 @@ if not "%BEPINEX_PREEXISTING%"=="0" (
 
 echo.
 echo Removing Japanese patch from:
-echo %TARGET%
+echo "%TARGET%"
 echo.
 
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%BASE%Restore-Recovery.ps1" -GameClient "%TARGET%"

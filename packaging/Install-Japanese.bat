@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 setlocal EnableExtensions
 title RO3 Asia Japanese Patch Installer
 
@@ -38,7 +38,7 @@ if "%TARGET:~-1%"=="\" set "TARGET=%TARGET:~0,-1%"
 if not exist "%TARGET%\ro3.exe" (
     echo.
     echo [ERROR] ro3.exe was not found in:
-    echo %TARGET%
+    echo "%TARGET%"
     echo.
     if not defined NO_PAUSE pause
     exit /b 1
@@ -72,7 +72,7 @@ if defined UPDATE_MODE (
 ) else (
     echo Installing Japanese patch version %PATCH_VERSION% to:
 )
-echo %TARGET%
+echo "%TARGET%"
 echo.
 
 rem Robocopy overwrites same-name files, so installing over a previous patch is supported.

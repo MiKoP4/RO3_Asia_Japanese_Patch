@@ -8,6 +8,18 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+
+function Assert-PackagingBatchFile([string]$Path) {
+    $bytes = [System.IO.File]::ReadAllBytes($Path)
+    if ($bytes.Length -ge 3 -and $bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF) {
+        throw "Packaging BAT must not contain a UTF-8 BOM: $Path"
+    }
+    $text = [System.Text.Encoding]::ASCII.GetString($bytes)
+    if ($text -notmatch 'echo "%TARGET%"') {
+        throw "Packaging BAT does not quote TARGET path output: $Path"
+    }
+}
+
 $BaseReleaseZip = [System.IO.Path]::GetFullPath($BaseReleaseZip)
 
 if (-not (Test-Path -LiteralPath $BaseReleaseZip -PathType Leaf)) {
@@ -114,6 +126,8 @@ try {
         }
         Copy-Item -LiteralPath $source -Destination $Stage -Force
     }
+    Assert-PackagingBatchFile (Join-Path $Stage 'Install-Japanese.bat')
+    Assert-PackagingBatchFile (Join-Path $Stage 'Uninstall-Japanese.bat')
 
     Copy-Item -LiteralPath (Join-Path $RepoRoot 'THIRD_PARTY_NOTICES.md') -Destination $Stage -Force
     New-Item -ItemType Directory -Path (Join-Path $Stage 'licenses') -Force | Out-Null
