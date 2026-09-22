@@ -9649,6 +9649,7 @@
 12390100395	Use to send every guild Member except each Temporary Member an Intermediate Pack by mail. The Pack contains intermediate growth Material.	使用すると、仮メンバーを除く全ギルドメンバーへ中級パックがメールで送られます。パックには中級の育成素材が入っています。
 12390100394	Use to send every guild Member except each Temporary Member a Basic Pack by mail. The Pack contains basic growth Material.	使用すると、臨時メンバーを除くギルドメンバー全員にベーシックパックがメールで送られます。パックには基本的な育成素材が入っています。
 12390100393	Use to unlock the guild Frame: Hunting Emblem · Executioner.	ギルドフレーム「狩猟エンブレム・処刑者」を解放。
+250089	Current Max level reached	現在の最大レベルに到達済み
 250091	Suggested Build: ${1}	おすすめビルド：${1}
 12390100392	Use to unlock the guild Frame: Hunting Emblem · Conqueror.	ギルドフレーム「狩猟エンブレム・征服者」を解放。
 12390100391	Use to unlock the guild Frame: Hunting Emblem · Pursuer.	ギルドフレーム「狩猟エンブレム・追跡者」を解放。
@@ -10728,6 +10729,55 @@
 12390001015	Moon Star Core - Gray	ムーンスターコア - 灰
 12390001014	Sun Star Core - Red	太陽のスターコア - 赤
 12390001013	Sun Star Core - Orange	サンスターコア - オレンジ
+11530000000	Guild Caravan	ギルドキャラバン
+11530000001	Spirit Tower	精霊の塔
+11530000003	AFK in the Field	フィールドでAFK
+11530000004	Life Skills	ライフスキル
+11530000005	Realm of the Gods	神々の領域
+11530000006	Guild League - Preliminaries	ギルドリーグ - 予選
+11530000007	Guild League - Semifinals	ギルドリーグ - 準決勝
+11530000008	Guild League - Finals	ギルドリーグ - 決勝
+11530000009	Phantom Realm	ファントムレルム
+11530000010	Kafra: Survivor Battle	カプラ：サバイバルバトル
+11530000011	Royal City War	王都戦
+11530000012	Bonfire Party	焚き火パーティ
+11530000013	Blackhole	ブラックホール
+11530000014	Trap Hunter	トラップハンター
+11530000015	Faction Quest	ファクションクエスト
+11530000016	Caravan Escort	キャラバンエスコート
+11530000017	Stronghold War	拠点戦争
+11530000018	Regional Capital War	地域首都戦
+11530000019	Ilmata, God of Nature	自然神イルマタ
+11530000020	Battle of Dragon Coffin Island	ドラゴンコフィン島の戦い
+11530000021	Guild League - Placement	ギルドリーグ - 順位
+11530000022	Commendation Vault	表彰保管庫
+11530000023	Rift Crisis	亀裂の危機
+11530000024	Hidden Treasure PVP Placeholder	隠された宝PVPプレースホルダー
+11530000025	Spirit Tower S@{1}	精霊の塔 S@{1}
+11530000026	Royal City War S@{1}	王都戦 S@{1}
+11530000027	Daily Tavern Quests	酒場デイリークエスト
+11530000028	【Guild Joint Battle】Phantom Realm	【ギルド共闘】ファントムレルム
+11530000029	【Guild Joint Battle】Realm of the Gods	【ギルド共闘】神々の領域
+11530000030	【Guild Co-op】Kafra Survivor Battle	【ギルド協力】カプラ・サバイバルバトル
+11530000031	【Guild Co-op】Battle of Dragon Coffin Island	【ギルド協力】ドラゴンコフィン島の戦い
+11530000032	Wedding Crashers	結婚式の乱入者
+11530000033	Hunting Challenge	ハンティングチャレンジ
+11530000034	Guild League - Preliminaries (Auction Check)	ギルドリーグ - 予選（オークション確認）
+11530000035	Guild League - Semifinals (Auction Check)	ギルドリーグ - 準決勝（オークション確認）
+11530000036	Guild League - Finals (Auction Check)	ギルドリーグ - 決勝（オークション確認）
+11530000037	Caravan Escort (Auction Check)	キャラバン護衛（オークション確認）
+11530000038	Stronghold War (Auction Check)	拠点戦（オークション確認）
+11530000039	Regional Capital War (Auction Check)	地方首都戦（オークション確認）
+11530000040	Royal City War (Auction Check)	王都戦（オークション確認）
+11530000041	Irmata, God of Nature (Auction Check)	自然神イルマタ（オークション確認）
+11530000042	【Adventure Party】Watering Quest	【冒険パーティ】水やりクエスト
+11530000043	【Adventure Party】MVP	【冒険パーティ】MVP
+11530000044	【Adventure Party】Phantom Realm	【冒険パーティ】ファントムレルム
+11530000045	【Adventure Party】Realm of the Gods	【冒険パーティ】神々の領域
+11530000046	【Adventure Party】Kafra Survivor Battle	【冒険パーティ】カプラサバイバルバトル
+11530000047	Festival Invitation	祭典招待
+11530000048	Dumby's Request	ダンビーの依頼
+11530000049	Mock Battle	模擬戦
 12390001012	Sun Star Core - Purple	サンスターコア - パープル
 12390001011	Sun Star Core - Green	サンスターコア - 緑
 12390001010	Sun Star Core - Blue	サンスターコア - 青

@@ -173,6 +173,28 @@ OBSERVED_STALL_ITEM_ALIASES = {
     "卓越綠色藥水": "上級グリーンポーション",
     "卓越绿色药水": "上級グリーンポーション",
 }
+OBSERVED_CALENDAR_ZH_ALIASES = {
+    "开始时间": "開始時間",
+    "模拟对抗战": "模擬戦",
+    "盛典邀约": "祭典招待",
+    "篝火晚会": "焚き火パーティ",
+    "公会联赛-初赛": "ギルドリーグ - 予選",
+    "公会联赛-复赛": "ギルドリーグ - 準決勝",
+    "自然之神伊尔玛塔": "自然神イルマタ",
+    "王城战": "王都戦",
+    "狩猎挑战": "ハンティングチャレンジ",
+}
+OBSERVED_HATCHERY_ZH_ALIASES = {
+    "已达最大等级": "最大レベルに到達しました",
+    "孵化结果概率": "孵化結果確率",
+    "孵化技艺": "孵化熟練度",
+    "孵化时长": "孵化時間",
+}
+OBSERVED_HATCHERY_QUALITY_ALIASES = {
+    "Blue": "青",
+    "Purple": "紫",
+    "Orange": "オレンジ",
+}
 KNOWN_MISTRESS_HINT_TEMPLATE = (
     "Mistress summons ^{1}Hornets that charge horizontally and vertically^{2}, "
     "damaging players. Players must evade them."
@@ -381,6 +403,11 @@ LOCALIZATION_PATCH_PREFIXES = (
     "1315",
     # Recommended-build heading, server-level dynamic label, Spirit Tower.
     "250091",
+    # Current-max-level label used by level-up summary panels.
+    "250089",
+    # Calendar activity names. The calendar reads this namespace directly from
+    # LanguageKV, so patch it upstream instead of relying on final TMP setters.
+    "115300",
     # Guild League placement/activity panel. These strings are formatted after
     # lookup (for example "Guild membership reaches 40" and "Last Week's
     # Activity: No data"), so translate both templates and inserted labels
@@ -528,6 +555,10 @@ KNOWN_LOCALIZATION_ID_JAPANESE_OVERRIDES = {
     "50047": ("Report", "戦績"),
     "61041": ("Report", "戦績"),
     "61065": ("Report", "戦績"),
+    # Calendar event names whose generic canonical wording is awkward in this
+    # compact schedule context.
+    "11530000011": ("Royal City War", "王都戦"),
+    "11530000047": ("Festival Invitation", "祭典招待"),
     # Guild Caravan uses this tab for requesting/receiving cargo assistance.
     # Keep the canonical `Tips=ヒント` for unrelated UI that shares the same
     # English text, and override only this LanguageKV ID.
@@ -1433,6 +1464,20 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
         add_variant(source, translated)
     for source, translated in OBSERVED_STALL_ITEM_ALIASES.items():
         add_variant(source, translated)
+    for source, translated in OBSERVED_CALENDAR_ZH_ALIASES.items():
+        add_variant(source, translated)
+    for source, translated in OBSERVED_HATCHERY_ZH_ALIASES.items():
+        add_variant(source, translated)
+
+    # The hatchery localizes the placeholder-bearing Quality Chance template before
+    # substituting an internal English color name. XUnity therefore receives
+    # mixed strings such as "Blue品質確率". Cover both the pre- and
+    # post-template forms so the visible color name is translated as well.
+    for english_color, japanese_color in OBSERVED_HATCHERY_QUALITY_ALIASES.items():
+        translated = f"{japanese_color}品質確率"
+        add_variant(f"{english_color} Quality Chance", translated)
+        add_variant(f"{english_color}品质概率", translated)
+        add_variant(f"{english_color}品質確率", translated)
 
     for source in conflicts:
         variants.pop(source, None)
@@ -1836,6 +1881,13 @@ def run(check_only: bool) -> int:
         "蛮荒腹地": translations["Savage Hinterlands"],
         KNOWN_KAFRA_BATTLEFIELD_MANAGER: kafra_odin_parts[0],
     }
+    expected_priority_pairs.update(OBSERVED_CALENDAR_ZH_ALIASES)
+    expected_priority_pairs.update(OBSERVED_HATCHERY_ZH_ALIASES)
+    for english_color, japanese_color in OBSERVED_HATCHERY_QUALITY_ALIASES.items():
+        translated = f"{japanese_color}品質確率"
+        expected_priority_pairs[f"{english_color} Quality Chance"] = translated
+        expected_priority_pairs[f"{english_color}品质概率"] = translated
+        expected_priority_pairs[f"{english_color}品質確率"] = translated
     for source in KNOWN_WORLD_LABELS:
         expected_priority_pairs[source] = translations[source]
     for source, translated in expected_priority_pairs.items():
