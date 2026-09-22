@@ -109,6 +109,11 @@ KNOWN_BUILD_EFFECT_TEMPLATE = (
 )
 KNOWN_SPIRIT_TOWER_FLOOR_TEMPLATE = "Floor ${1}"
 KNOWN_SPIRIT_TOWER_CLIMB_TEMPLATE = "Climb ${1} more floors to obtain"
+KNOWN_USAGE_REMAINING_PREFIXES = (
+    "Daily Uses Remaining:",
+    "Weekly Uses Remaining:",
+    "Monthly Uses Remaining:",
+)
 KNOWN_PREREQUISITE_SKILL_TEMPLATE = "Prerequisite Skill <color=#cc762a>${1}</color>"
 KNOWN_SOUL_ECHO_TOOLTIP_TEMPLATE = (
     "@{1}.Every @{2} levels, a Soul Echo unlocks an element and gains a random attribute\\n"
@@ -397,6 +402,9 @@ LOCALIZATION_PATCH_PREFIXES = (
     # party-removal wording too.
     "24021",
     "24036",
+    # Guild Caravan assistance tab. The same English "Tips" text is reused in
+    # unrelated UI, so include only this context-specific LanguageKV ID.
+    "25368",
     # Battle-result/report buttons. These share the generic English "Report"
     # with abuse-report UI, so they require ID-specific Japanese overrides.
     "26015",
@@ -520,6 +528,10 @@ KNOWN_LOCALIZATION_ID_JAPANESE_OVERRIDES = {
     "50047": ("Report", "戦績"),
     "61041": ("Report", "戦績"),
     "61065": ("Report", "戦績"),
+    # Guild Caravan uses this tab for requesting/receiving cargo assistance.
+    # Keep the canonical `Tips=ヒント` for unrelated UI that shares the same
+    # English text, and override only this LanguageKV ID.
+    "25368": ("Tips", "支援"),
 }
 KNOWN_LOCALIZATION_CANONICAL_ALIASES = {
     # LanguageKV has a stray leading space; canonical keeps the normalized key.
@@ -1101,6 +1113,22 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
             if line:
                 lines.append(line)
 
+    # The item tooltip localizes these fixed labels first, then appends the
+    # current/maximum counter without a separating space (for example
+    # "Daily Uses Remaining:8/10"). The canonical keys contain only the label,
+    # so synthesize the rendered form before XUnity lookup.
+    for english in KNOWN_USAGE_REMAINING_PREFIXES:
+        japanese = translations.get(english)
+        if not japanese:
+            continue
+        line = build_runtime_regex(
+            f"{english}${{1}}/${{2}}",
+            f"{japanese}${{1}}/${{2}}",
+            force=True,
+        )
+        if line:
+            lines.append(line)
+
     # Chinese chat/recruitment aliases are ID-correlated with canonical English
     # strings. Generate placeholder-aware rules from the same Japanese values.
     for chinese, canonical_english in KNOWN_ZH_CHAT_CANONICAL_ALIASES.items():
@@ -1670,6 +1698,22 @@ def run(check_only: bool) -> int:
         if not known_tower_regex or known_tower_regex not in regex_lines:
             raise ImportErrorWithContext(
                 f"known Spirit Tower template did not generate a regex rule: {known_tower_template!r}"
+            )
+
+    for usage_prefix in KNOWN_USAGE_REMAINING_PREFIXES:
+        japanese = translations.get(usage_prefix)
+        if not japanese:
+            raise ImportErrorWithContext(
+                f"known usage-remaining label is missing from translations: {usage_prefix!r}"
+            )
+        usage_regex = build_runtime_regex(
+            f"{usage_prefix}${{1}}/${{2}}",
+            f"{japanese}${{1}}/${{2}}",
+            force=True,
+        )
+        if not usage_regex or usage_regex not in regex_lines:
+            raise ImportErrorWithContext(
+                f"known usage-remaining rendered form did not generate a regex rule: {usage_prefix!r}"
             )
 
     prerequisite_japanese = translations.get(KNOWN_PREREQUISITE_SKILL_TEMPLATE)
