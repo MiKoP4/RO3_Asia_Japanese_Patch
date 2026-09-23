@@ -2203,6 +2203,7 @@
 24002	Create Team	チーム作成
 24021	Call Mio!!	パーティから外す
 24036	Are you sure you want to Call Mio!! this party member?	このパーティメンバーをパーティから外しますか？
+11420000003	Dedicated Scholar-@{1}	熱心な学者-@{1}
 11190100105	Reach ${1} personal points in Siege War ${2} times	攻城戦で個人ポイント${1}に${2}回到達
 11190100106	Use Play While Downloading ${1} times	プレイしながらダウンロードを${1}回使用
 11190100107	Log in ${1} times	${1}回ログイン
@@ -5027,6 +5028,11 @@
 12110100130	Drake summons waves at^{1}@{1} random locations on the battlefield^{2}. The waves surge at irregular intervals,^{3}damaging targets in their area when they surge^{4}.	ドレイクが^{1}戦場内のランダムな@{1}箇所に波を召喚する^{2}。波は不規則な間隔で押し寄せ、^{3}押し寄せるたびに範囲内の対象へダメージを与える^{4}。
 12110100131	Drake summons^{1}a large number of Dynamite charges^{2}. When the countdown ends, Dynamite rapidly falls @{1} times in succession^{3}on and around the player^{4}.	ドレイクが^{1}大量のダイナマイト^{2}を召喚する。カウントダウン終了時、ダイナマイトが^{3}プレイヤーの頭上および周囲^{4}へ目まぐるしく@{1}回連続で落下する。
 12110100132	Drake summons^{1}several large Dynamite barrels on the battlefield^{2}. When the countdown ends, the barrels explode, damaging^{3}a cross-shaped area centered on themselves^{4}.	ドレイクが戦場に^{1}大型のダイナマイト樽を複数召喚します^{2}。カウントダウンが終了すると樽が爆発し、^{3}自身を中心とした十字形の範囲^{4}へダメージを与えます。
+11530500000	Join the Caravan: ${1}/${2}	キャラバンに参加：${1}/${2}
+11530500001	Kill MVPs: ${1}/${2}	MVP討伐数: ${1}/${2}
+11530500002	High-Reward Auto Mode: ${1}/${2}	高報酬オートモード: ${1}/${2}
+11530500003	Consume Vigor: ${1}/${2}	活力消費：${1}/${2}
+11530500004	Complete the Commission: ${1}/${2}	依頼を完了：${1}/${2}
 32101	Abandoned Mine	廃坑
 32102	Hidden Forest	隠れた森
 32103	Geffen Tower	ゲフェンタワー
@@ -11661,6 +11667,20 @@
 12010000002	Western Prontera Prefecture	プロンテラ西部
 12010000001	Eastern Prontera Prefecture	プロンテラ東部
 12010000000	Prontera	プロンテラ
+57083	Monsters Unlocked: ${1}/${2}	解放モンスター：${1}/${2}
+11530400012	Complete the Commission Quests Post by Daidai to earn tons of rewards.	ダイダイが掲示する依頼クエストを達成して、大量の報酬を獲得しましょう。
+11530400011	Lead your Pet in a Challenge against the Spirit Tower.	ペットを連れて精霊の塔に挑戦。
+11530400010	Participate in any Misc activity in the Treasure Vault to earn an Eden Group Commendation.	宝物庫の任意のコンテンツに参加して、楽園団表彰を獲得。
+11530400009	Participate Solo or with a party.	ソロまたはパーティで参加。
+11530400008	Complete a Territory War Faction Quest.	領地戦陣営クエストを1件完了。
+11530400007	Participate Solo or with a party in fair Competition.	ソロまたはパーティで公平競技に参加。
+11530400006	Take on a squad Challenge against the Phantom Realm BOSS with @{1} players to earn tons of rewards.	@{1}人でファントムレルムBOSSに挑むチームチャレンジに参加し、大量の報酬を獲得しましょう。
+11530400005	Take on a Party Challenge against the Realm of the Gods BOSS with @{1} players to earn tons of rewards.	@{1}人で神域BOSSに挑むパーティチャレンジに参加し、大量の報酬を獲得しましょう。
+11530400004	Consume Vigor to gather open-world resources and craft Tradeable items.	活力を消費してフィールド資源を採集し、取引可能なアイテムを製作します。
+11530400003	Spend Bonus Time to obtain Monster Drop Rewards	ボーナスタイムを消費してモンスタードロップ報酬を獲得
+11530400002	Participate in the Kill of any MVP to earn Rare rewards	任意のMVP討伐に参加してレア報酬を獲得
+11530400001	Lead your Pet in a Challenge of the Spirit Tower and push the limits	ペットを率いて精霊の塔に挑戦し、限界を目指しましょう。
+11530400000	Complete a Royal Caravan Departure to earn Personal Rewards and Guild Funds	王家キャラバンの出発を1回完了すると、個人報酬とギルド資金を獲得します。
 11250000070	MATK	魔法攻撃
 11250000069	Continuous Shield	持続シールド
 11250000068	Desperate Defense	決死の防御

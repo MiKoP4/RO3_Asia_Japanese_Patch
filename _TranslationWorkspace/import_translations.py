@@ -408,6 +408,14 @@ LOCALIZATION_PATCH_PREFIXES = (
     # Calendar activity names. The calendar reads this namespace directly from
     # LanguageKV, so patch it upstream instead of relying on final TMP setters.
     "115300",
+    # Collection counters/titles and Activity task progress/descriptions. The
+    # updated client can expand these placeholders after the bootstrap plugin
+    # is destroyed, so they must also be available to the process-lifetime
+    # display translator.
+    "57083",
+    "11420000003",
+    "115304",
+    "115305",
     # Guild League placement/activity panel. These strings are formatted after
     # lookup (for example "Guild membership reaches 40" and "Last Week's
     # Activity: No data"), so translate both templates and inserted labels
@@ -470,7 +478,9 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "10010300151": "DMG vs Large Enemies %",
     "10010400015": "PATK",
     "10010400016": "MATK",
+    "10010400043": "Magic Damage Increase",
     "10010400147": "Increase DMG vs Large Enemies",
+    "10050100000": "A vibrant Green Healing Potion that instantly restores @{1} HP. Cooldown: @{2} sec.",
     "10530000045": "Piere",
     "10530000058": "Magnolia",
     "10530000067": "Isis",
@@ -487,6 +497,15 @@ KNOWN_LOCALIZATION_PATCH_IDS = {
     "12390001064": "Milk",
     "12390100342": KNOWN_ORIDECON_ITEM_DESCRIPTION_TEMPLATE,
     "12980100000": KNOWN_VIGOR_DESCRIPTION_TEMPLATE,
+    "57083": "Monsters Unlocked: ${1}/${2}",
+    "11420000003": "Dedicated Scholar-@{1}",
+    "11530400005": "Take on a Party Challenge against the Realm of the Gods BOSS with @{1} players to earn tons of rewards.",
+    "11530400006": "Take on a squad Challenge against the Phantom Realm BOSS with @{1} players to earn tons of rewards.",
+    "11530500000": "Join the Caravan: ${1}/${2}",
+    "11530500001": "Kill MVPs: ${1}/${2}",
+    "11530500002": "High-Reward Auto Mode: ${1}/${2}",
+    "11530500003": "Consume Vigor: ${1}/${2}",
+    "11530500004": "Complete the Commission: ${1}/${2}",
     "10400400001": "Clear any Phantom Realm dungeon with ^{1}@{1} Guild Members^{2}.",
     "10400400002": "Clear any Realm of the Gods Dungeon with ^{1}@{1} Guild Members^{2} from your guild.",
     "10400400003": "Complete one Kafra: Battle of the Survivors with ^{1}@{1} Guild Members^{2}.",

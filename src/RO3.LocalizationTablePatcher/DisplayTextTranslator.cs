@@ -7,8 +7,47 @@ namespace RO3.JapaneseMod
     // Display fallback for MeshUI and UI paths that bypass LanguageMain/Lua table hooks.
     internal sealed class DisplayTextTranslator
     {
+        private sealed class DynamicRule
+        {
+            public Regex Pattern;
+            public string Japanese;
+            public Dictionary<string, string> Groups;
+        }
+
+        private sealed class PrefixRule
+        {
+            public string English;
+            public string Japanese;
+        }
+
         private readonly Dictionary<string, string> exact = new Dictionary<string, string>(StringComparer.Ordinal);
         private static readonly Regex Slot = new Regex(@"\$\{([0-9]+)\}");
+        private static readonly Regex RuntimeToken = new Regex(@"\$\{[0-9]+\}|@\{[0-9]+\}|\^\{[0-9]+\}");
+        private static readonly HashSet<string> DynamicIds = new HashSet<string>(StringComparer.Ordinal)
+        {
+            "57083",
+            "11420000003",
+            "11530400005",
+            "11530400006",
+            "11530500000",
+            "11530500001",
+            "11530500002",
+            "11530500003",
+            "11530500004",
+            "12980100000",
+            "10050100000",
+            "12390100209",
+        };
+        private static readonly HashSet<string> NumericPrefixIds = new HashSet<string>(StringComparer.Ordinal)
+        {
+            "10010300015",
+            "10010300016",
+            "10010400015",
+            "10010400016",
+            "10010400043",
+        };
+        private readonly List<DynamicRule> dynamicRules = new List<DynamicRule>();
+        private readonly List<PrefixRule> numericPrefixRules = new List<PrefixRule>();
         private Regex serverPattern;
         private string serverTranslation;
         private string questEnglish;
@@ -21,6 +60,15 @@ namespace RO3.JapaneseMod
             english = english.Replace(@"\n", "\n");
             japanese = japanese.Replace(@"\n", "\n");
             exact[english] = japanese;
+            if (DynamicIds.Contains(id))
+            {
+                DynamicRule rule = BuildDynamicRule(english, japanese);
+                if (rule != null) dynamicRules.Add(rule);
+            }
+            if (NumericPrefixIds.Contains(id))
+            {
+                numericPrefixRules.Add(new PrefixRule { English = english, Japanese = japanese });
+            }
             if (id == "13150600321")
             {
                 questEnglish = english;
@@ -44,6 +92,63 @@ namespace RO3.JapaneseMod
                 pattern += Regex.Escape(english.Substring(start)) + "\\z";
                 serverPattern = new Regex(pattern, RegexOptions.Singleline, TimeSpan.FromMilliseconds(20));
             }
+        }
+
+        private static DynamicRule BuildDynamicRule(string english, string japanese)
+        {
+            MatchCollection tokens = RuntimeToken.Matches(english);
+            if (tokens.Count == 0) return null;
+
+            Dictionary<string, string> groups = new Dictionary<string, string>(StringComparer.Ordinal);
+            string pattern = "\\A";
+            int start = 0;
+            int nextGroup = 0;
+            foreach (Match tokenMatch in tokens)
+            {
+                pattern += Regex.Escape(english.Substring(start, tokenMatch.Index - start));
+                string token = tokenMatch.Value;
+                string group;
+                if (groups.TryGetValue(token, out group))
+                {
+                    pattern += "\\k<" + group + ">";
+                }
+                else
+                {
+                    group = "d" + nextGroup++;
+                    groups[token] = group;
+                    if (token.StartsWith("^{", StringComparison.Ordinal))
+                        pattern += "(?<" + group + ">(?:<[^>]+>)*)";
+                    else
+                        pattern += "(?<" + group + ">[\\s\\S]+?)";
+                }
+                start = tokenMatch.Index + tokenMatch.Length;
+            }
+            pattern += Regex.Escape(english.Substring(start)) + "\\z";
+            return new DynamicRule
+            {
+                Pattern = new Regex(pattern, RegexOptions.Singleline, TimeSpan.FromMilliseconds(20)),
+                Japanese = japanese,
+                Groups = groups,
+            };
+        }
+
+        private static string ApplyDynamicRule(DynamicRule rule, Match match)
+        {
+            return RuntimeToken.Replace(rule.Japanese, delegate(Match token)
+            {
+                string group;
+                if (!rule.Groups.TryGetValue(token.Value, out group)) return token.Value;
+                return match.Groups[group].Value;
+            });
+        }
+
+        private static bool LooksLikeNumericSuffix(string suffix)
+        {
+            int index = 0;
+            while (index < suffix.Length && Char.IsWhiteSpace(suffix[index])) index++;
+            if (index >= suffix.Length) return false;
+            char current = suffix[index];
+            return Char.IsDigit(current) || current == '+' || current == '-' || current == '−' || current == '.';
         }
 
         private static string StripOuterColor(string text)
@@ -70,6 +175,21 @@ namespace RO3.JapaneseMod
             while (end > 0 && text[end - 1] == '!') end--;
             if (end != text.Length && exact.TryGetValue(text.Substring(0, end), out translated))
                 return translated + text.Substring(end);
+            foreach (DynamicRule rule in dynamicRules)
+            {
+                try
+                {
+                    Match match = rule.Pattern.Match(text);
+                    if (match.Success) return ApplyDynamicRule(rule, match);
+                }
+                catch (RegexMatchTimeoutException) { /* Leave unexpected text unchanged. */ }
+            }
+            foreach (PrefixRule rule in numericPrefixRules)
+            {
+                if (!text.StartsWith(rule.English, StringComparison.Ordinal)) continue;
+                string suffix = text.Substring(rule.English.Length);
+                if (LooksLikeNumericSuffix(suffix)) return rule.Japanese + suffix;
+            }
             if (serverPattern != null && text.StartsWith("Current Server Level Cap:", StringComparison.Ordinal))
             {
                 try
