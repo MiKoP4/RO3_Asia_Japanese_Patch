@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace RO3.JapaneseMod
 {
-    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.3")]
+    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.4")]
     public sealed class LocalizationTablePatcherPlugin : BaseUnityPlugin
     {
         private sealed class ReferenceComparer<T> : IEqualityComparer<T> where T : class
@@ -47,7 +47,12 @@ namespace RO3.JapaneseMod
         }
 
         private readonly List<Entry> _entries = new List<Entry>();
-        private readonly DisplayTextTranslator _displayTranslator = new DisplayTextTranslator();
+        // RO3 destroys BepInEx's Unity components during bootstrap. Display hooks
+        // need process lifetime and must not depend on Unity's destroyed-object null check.
+        private static DisplayTextTranslator _displayTranslator = new DisplayTextTranslator();
+        private static Harmony _displayHarmony;
+        private static BepInEx.Logging.ManualLogSource _displayLog;
+        private static int _displayTranslatedCount;
         private readonly Dictionary<long, Entry> _entriesById = new Dictionary<long, Entry>();
         private static LocalizationTablePatcherPlugin _current;
         private bool _done;
@@ -147,6 +152,7 @@ namespace RO3.JapaneseMod
 
         private void OnDestroy()
         {
+            Logger.LogInfo("[LocalizationTablePatcher][Display] Unity component destroyed; process-lifetime display hooks retained.");
             UnsubscribeRetryEvents();
             if (_harmony != null)
             {
@@ -1303,7 +1309,9 @@ namespace RO3.JapaneseMod
 
         private void InstallDisplayHooks()
         {
-            if (_harmony == null) return;
+            if (_displayHarmony != null) return;
+            _displayHarmony = new Harmony("com.ro3.localizationtablepatcher.display");
+            _displayLog = Logger;
             string[] typeNames = { "HUDUber.Graphic", "HUDUber.Text", "TMPro.TMP_Text", "UnityEngine.UI.Text" };
             foreach (string name in typeNames)
             {
@@ -1315,7 +1323,7 @@ namespace RO3.JapaneseMod
                         if ((method.Name != "SetText" && method.Name != "set_text") || args.Length == 0 || args[0].ParameterType != typeof(string)) continue;
                         try
                         {
-                            _harmony.Patch(method, prefix: new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("DisplayTextPrefix", BindingFlags.Static | BindingFlags.NonPublic)));
+                            _displayHarmony.Patch(method, prefix: new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("DisplayTextPrefix", BindingFlags.Static | BindingFlags.NonPublic)));
                             Logger.LogInfo("[LocalizationTablePatcher][Display] Hook installed: " + method.DeclaringType.FullName + "." + method);
                         }
                         catch (Exception ex)
@@ -1329,8 +1337,14 @@ namespace RO3.JapaneseMod
 
         private static void DisplayTextPrefix(ref string __0)
         {
-            LocalizationTablePatcherPlugin plugin = _current;
-            if (plugin != null) __0 = plugin._displayTranslator.Translate(__0);
+            string translated = _displayTranslator.Translate(__0);
+            if (translated != __0)
+            {
+                __0 = translated;
+                int count = Interlocked.Increment(ref _displayTranslatedCount);
+                if (count <= 3 || count == 100)
+                    _displayLog.LogInfo("[LocalizationTablePatcher][Display] Translated render call count=" + count);
+            }
         }
 
         private void LoadEntries()

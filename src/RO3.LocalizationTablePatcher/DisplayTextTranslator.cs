@@ -11,17 +11,28 @@ namespace RO3.JapaneseMod
         private static readonly Regex Slot = new Regex(@"\$\{([0-9]+)\}");
         private Regex serverPattern;
         private string serverTranslation;
+        private string questEnglish;
+        private string questJapanese;
+        private string serverPrefix;
+        private string serverJapanesePrefix;
 
         public void Add(string id, string english, string japanese)
         {
             english = english.Replace(@"\n", "\n");
             japanese = japanese.Replace(@"\n", "\n");
             exact[english] = japanese;
+            if (id == "13150600321")
+            {
+                questEnglish = english;
+                questJapanese = japanese;
+            }
             // This UI substitutes values before sending the text to its renderer.
             if (id == "35031")
             {
                 english = StripOuterColor(english);
                 serverTranslation = StripOuterColor(japanese);
+                serverPrefix = english.Split(new[] { "${1}" }, StringSplitOptions.None)[0];
+                serverJapanesePrefix = serverTranslation.Split(new[] { "${1}" }, StringSplitOptions.None)[0];
                 string pattern = "\\A";
                 int start = 0;
                 foreach (Match slot in Slot.Matches(english))
@@ -69,6 +80,10 @@ namespace RO3.JapaneseMod
                 }
                 catch (RegexMatchTimeoutException) { /* Leave unexpected text unchanged. */ }
             }
+            // Quest tracker renders a combined rich-text block; XUnity can already
+            // have translated its other lines. Replace only these known literals.
+            if (!String.IsNullOrEmpty(questEnglish)) text = text.Replace(questEnglish, questJapanese);
+            if (!String.IsNullOrEmpty(serverPrefix)) text = text.Replace(serverPrefix, serverJapanesePrefix);
             return text;
         }
     }

@@ -22,6 +22,7 @@ class DisplayTextTranslatorTest
             { "mikosurihan", "mikosurihan" },
             { "ゴブリンアーチャー", "ゴブリンアーチャー" },
             { "Current Server Level Cap: unexpected format", "Current Server Level Cap: unexpected format" },
+            { "Take part in events and enjoy your adventures in this world\n<color=#99FF9F>Current Server Level Cap: Lv. 69\n09/24/2026 05:00:00: サーバーレベル上限がLv.79に上昇</color>", "イベントに参加して、この世界での冒険を楽しもう\n<color=#99FF9F>現在のサーバーレベル上限：Lv.69\n09/24/2026 05:00:00: サーバーレベル上限がLv.79に上昇</color>" },
             { "", "" },
             { null, null }
         };
