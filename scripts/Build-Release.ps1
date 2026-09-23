@@ -59,6 +59,7 @@ Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Update-Japanese.bat') -De
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Update-Latest.ps1') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Uninstall-Japanese.bat') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Restore-Recovery.ps1') -Destination $Stage
+Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\Recover-Japanese.bat') -Destination $Stage
 Copy-Item -LiteralPath (Join-Path $RepoRoot 'packaging\README.txt') -Destination $Stage
 Assert-PackagingBatchFile (Join-Path $Stage 'Install-Japanese.bat')
 Assert-PackagingBatchFile (Join-Path $Stage 'Uninstall-Japanese.bat')

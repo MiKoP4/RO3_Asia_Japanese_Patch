@@ -1,69 +1,56 @@
-param(
-    [Parameter(Mandatory = $true)]
-    [string]$GameClient
-)
-
+param([Parameter(Mandatory = $true)][string]$GameClient)
 $ErrorActionPreference = 'Stop'
-$GameClient = [System.IO.Path]::GetFullPath($GameClient)
+function Get-Sha256([string]$Path) {
+    $stream = [IO.File]::OpenRead($Path)
+    $sha = [Security.Cryptography.SHA256]::Create()
+    try { return [BitConverter]::ToString($sha.ComputeHash($stream)).Replace('-', '') }
+    finally { $stream.Dispose(); $sha.Dispose() }
+}
+$GameClient = [IO.Path]::GetFullPath($GameClient)
+if (-not (Test-Path -LiteralPath (Join-Path $GameClient 'ro3.exe') -PathType Leaf)) {
+    throw 'Select the Client folder containing ro3.exe.'
+}
+$Launcher = Join-Path (Split-Path -Parent $GameClient) 'RO3AsiaLauncher.exe'
+if (Get-Process ro3,RO3AsiaLauncher -ErrorAction SilentlyContinue | Where-Object {
+    -not $_.Path -or $_.Path -eq (Join-Path $GameClient 'ro3.exe') -or $_.Path -eq $Launcher
+}) {
+    throw 'Close RO3 and RO3AsiaLauncher, then retry.'
+}
+# Disable before restoring: the old plugin rewrites these files during Awake.
+$Plugin = Join-Path $GameClient 'BepInEx\plugins\RO3.LocalizationTablePatcher.dll'
+if (Test-Path -LiteralPath $Plugin) {
+    Move-Item -LiteralPath $Plugin -Destination ($Plugin + '.disabled-' + [Guid]::NewGuid().ToString('N'))
+}
 $Recovery = Join-Path $GameClient 'ro3_Data\StreamingAssets\Recovery'
-$Manifest = Join-Path $Recovery 'recovery-compatibility-manifest.json'
 $State = Join-Path $GameClient 'BepInEx\config\RO3.RecoveryPatchState.txt'
-$Targets = @(
-    $Manifest,
-    (Join-Path $Recovery 'LuaPayload\Localization_en.lua.bytes'),
-    (Join-Path $Recovery 'LuaPayload\Localization_zh_CN.lua.bytes')
-)
-
-if (-not (Test-Path -LiteralPath $State -PathType Leaf)) {
-    Write-Host '[Recovery] No Japanese-patch recovery state was found; nothing to restore.'
-    exit 0
-}
-
-$StateValues = @{}
-foreach ($line in Get-Content -LiteralPath $State) {
-    if ($line -match '^([^=]+)=(.*)$') {
-        $StateValues[$matches[1]] = $matches[2]
-    }
-}
-$ExpectedManifestHash = $StateValues['PATCHED_MANIFEST_SHA256']
-if ([string]::IsNullOrWhiteSpace($ExpectedManifestHash)) {
-    throw 'Recovery patch state is missing PATCHED_MANIFEST_SHA256.'
-}
-
+$Targets = @('recovery-compatibility-manifest.json', 'LuaPayload\Localization_en.lua.bytes',
+    'LuaPayload\Localization_zh_CN.lua.bytes', 'LuaPayload\Localization_zh_TW.lua.bytes') |
+    ForEach-Object { Join-Path $Recovery $_ }
 $Backups = @($Targets | ForEach-Object { $_ + '.ro3-ja-original' })
-$BackupCount = @($Backups | Where-Object { Test-Path -LiteralPath $_ -PathType Leaf }).Count
-if ($BackupCount -eq 0) {
-    Remove-Item -LiteralPath $State -Force
-    Write-Host '[Recovery] No original Recovery backups exist; state marker removed.'
+$Count = @($Backups | Where-Object { Test-Path -LiteralPath $_ -PathType Leaf }).Count
+if ($Count -eq 0 -and -not (Test-Path -LiteralPath $State)) {
+    Write-Host '[Recovery] No previous Recovery patch detected. Old patcher disabled if present.'
     exit 0
 }
-if ($BackupCount -ne $Backups.Count) {
-    throw "Recovery backup set is incomplete ($BackupCount/$($Backups.Count)); uninstall stopped."
+if ($Count -ne 4) {
+    throw "Incomplete original backups ($Count/4). Old patcher disabled. Use official launcher repair; backups preserved."
 }
-
-if (-not (Test-Path -LiteralPath $Manifest -PathType Leaf)) {
-    throw 'Current Recovery manifest is missing; uninstall stopped.'
-}
-$CurrentManifestHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $Manifest).Hash
-if (-not [string]::Equals(
-        $CurrentManifestHash,
-        $ExpectedManifestHash,
-        [System.StringComparison]::OrdinalIgnoreCase)) {
-    # The game updater replaced Recovery after the last Japanese-patch run.
-    # Restoring the older backups here would roll the game itself backwards.
-    foreach ($backup in $Backups) {
-        Remove-Item -LiteralPath $backup -Force
+$Expected = ''
+if (Test-Path -LiteralPath $State) {
+    foreach ($line in Get-Content -LiteralPath $State) {
+        if ($line -match '^PATCHED_MANIFEST_SHA256=([0-9a-fA-F]{64})$') { $Expected = $matches[1] }
     }
-    Remove-Item -LiteralPath $State -Force
-    Write-Host '[Recovery] Current game Recovery changed after patching; stale backups discarded without restoring.'
-    exit 0
 }
-
-for ($index = 0; $index -lt $Targets.Count; $index++) {
-    Copy-Item -LiteralPath $Backups[$index] -Destination $Targets[$index] -Force
+$Current = Get-Sha256 $Targets[0]
+$Original = Get-Sha256 $Backups[0]
+if ($Current -ne $Original -and $Current -ne $Expected) {
+    throw 'Unknown manifest version. Old patcher disabled. Use official launcher repair; no backups deleted.'
 }
-foreach ($backup in $Backups) {
-    Remove-Item -LiteralPath $backup -Force
+for ($i = 0; $i -lt $Targets.Count; $i++) {
+    Copy-Item -LiteralPath $Backups[$i] -Destination $Targets[$i] -Force
+    if ((Get-Sha256 $Targets[$i]) -ne (Get-Sha256 $Backups[$i])) {
+        throw "Restore verification failed: $($Targets[$i])"
+    }
 }
-Remove-Item -LiteralPath $State -Force
-Write-Host '[Recovery] Original localization payload and compatibility manifest restored.'
+Write-Host '[Recovery] Four files restored and SHA-256 verified. Backups and state preserved.'
+Write-Host '[Recovery] Start through RO3AsiaLauncher, not ro3.exe directly.'

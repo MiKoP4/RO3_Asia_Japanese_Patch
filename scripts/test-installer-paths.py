@@ -13,7 +13,7 @@ def main():
         root = pathlib.Path(directory)
         package = root / "package"
         package.mkdir()
-        for name in ("Install-Japanese.bat", "Uninstall-Japanese.bat"):
+        for name in ("Install-Japanese.bat", "Uninstall-Japanese.bat", "Restore-Recovery.ps1"):
             shutil.copyfile(packaging / name, package / name)
         (package / "payload").mkdir()
         (package / "payload" / "winhttp.dll").write_bytes(b"test payload")

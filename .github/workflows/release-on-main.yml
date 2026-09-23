@@ -36,6 +36,14 @@ jobs:
             throw "Translation validation failed with exit code $LASTEXITCODE"
           }
 
+      - name: Test installer and recovery
+        shell: pwsh
+        run: |
+          python scripts/test-installer-paths.py
+          if ($LASTEXITCODE -ne 0) { throw 'Installer tests failed' }
+          python scripts/test-recovery.py
+          if ($LASTEXITCODE -ne 0) { throw 'Recovery tests failed' }
+
       - name: Require rebuilt patcher DLL when patcher source changes
         shell: pwsh
         env:

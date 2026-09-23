@@ -75,6 +75,13 @@ if defined UPDATE_MODE (
 echo "%TARGET%"
 echo.
 
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%BASE%Restore-Recovery.ps1" -GameClient "%TARGET%"
+if errorlevel 1 (
+    echo [ERROR] Recovery preparation failed. Installation stopped.
+    if not defined NO_PAUSE pause
+    exit /b 4
+)
+
 rem Robocopy overwrites same-name files, so installing over a previous patch is supported.
 robocopy "%PAYLOAD%" "%TARGET%" /E /COPY:DAT /DCOPY:T /R:1 /W:1 /NP /NFL /NDL /NJH /NJS
 set "COPY_RC=%ERRORLEVEL%"
@@ -97,7 +104,7 @@ if defined UPDATE_MODE (
 ) else (
     echo [OK] Japanese patch installed: %PATCH_VERSION%.
 )
-echo Launch RO3 normally.
+echo Launch RO3 through RO3AsiaLauncher, not ro3.exe directly.
 echo.
 if not defined NO_PAUSE pause
 exit /b 0

@@ -117,6 +117,7 @@ try {
         'Update-Latest.ps1',
         'Uninstall-Japanese.bat',
         'Restore-Recovery.ps1',
+        'Recover-Japanese.bat',
         'README.txt'
     )
     foreach ($name in $rootFiles) {
