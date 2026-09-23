@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace RO3.JapaneseMod
 {
-    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.2")]
+    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.3")]
     public sealed class LocalizationTablePatcherPlugin : BaseUnityPlugin
     {
         private sealed class ReferenceComparer<T> : IEqualityComparer<T> where T : class
@@ -47,6 +47,7 @@ namespace RO3.JapaneseMod
         }
 
         private readonly List<Entry> _entries = new List<Entry>();
+        private readonly DisplayTextTranslator _displayTranslator = new DisplayTextTranslator();
         private readonly Dictionary<long, Entry> _entriesById = new Dictionary<long, Entry>();
         private static LocalizationTablePatcherPlugin _current;
         private bool _done;
@@ -115,6 +116,7 @@ namespace RO3.JapaneseMod
             _awakeThreadId = Thread.CurrentThread.ManagedThreadId;
 
             InstallRequireHook();
+            InstallDisplayHooks();
             SeedLanguageMainCache("Awake");
 
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -1299,6 +1301,38 @@ namespace RO3.JapaneseMod
             }
         }
 
+        private void InstallDisplayHooks()
+        {
+            if (_harmony == null) return;
+            string[] typeNames = { "HUDUber.Graphic", "HUDUber.Text", "TMPro.TMP_Text", "UnityEngine.UI.Text" };
+            foreach (string name in typeNames)
+            {
+                foreach (Type type in FindTypes(name))
+                {
+                    foreach (MethodInfo method in type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+                    {
+                        ParameterInfo[] args = method.GetParameters();
+                        if ((method.Name != "SetText" && method.Name != "set_text") || args.Length == 0 || args[0].ParameterType != typeof(string)) continue;
+                        try
+                        {
+                            _harmony.Patch(method, prefix: new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("DisplayTextPrefix", BindingFlags.Static | BindingFlags.NonPublic)));
+                            Logger.LogInfo("[LocalizationTablePatcher][Display] Hook installed: " + method.DeclaringType.FullName + "." + method);
+                        }
+                        catch (Exception ex)
+                        {
+                            Logger.LogWarning("[LocalizationTablePatcher][Display] Hook failed: " + name + "." + method.Name + ": " + ex.Message);
+                        }
+                    }
+                }
+            }
+        }
+
+        private static void DisplayTextPrefix(ref string __0)
+        {
+            LocalizationTablePatcherPlugin plugin = _current;
+            if (plugin != null) __0 = plugin._displayTranslator.Translate(__0);
+        }
+
         private void LoadEntries()
         {
             _entries.Clear();
@@ -1334,6 +1368,7 @@ namespace RO3.JapaneseMod
                     Japanese = parts[2],
                 };
                 _entries.Add(entry);
+                _displayTranslator.Add(entry.Id, entry.English, entry.Japanese);
 
                 long id;
                 if (long.TryParse(entry.Id, NumberStyles.None, CultureInfo.InvariantCulture, out id))

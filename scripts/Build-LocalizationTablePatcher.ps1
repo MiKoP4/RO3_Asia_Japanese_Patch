@@ -46,7 +46,7 @@ $references = @(
 
 $compilerArgs = @('/nologo', '/target:library', "/out:$Output")
 $compilerArgs += $references | ForEach-Object { "/reference:$_" }
-$compilerArgs += @($Source, $RecoverySource)
+$compilerArgs += @($Source, $RecoverySource, (Join-Path $RepoRoot 'src\RO3.LocalizationTablePatcher\DisplayTextTranslator.cs'))
 
 & $Csc @compilerArgs
 
