@@ -87,6 +87,10 @@ namespace RO3.JapaneseMod
         private static readonly Regex MapLink = new Regex(@"\A(?<prefix>[^<>\r\n:：]+[:：])?(?<map>[^<>\r\n:：]+?)(?<coords>\([0-9]+,[0-9]+\))\z");
         private static readonly Regex FindPathLink = new Regex(@"<link=""findpath/[0-9]+(?:/[+-]?[0-9]+(?:\.[0-9]+)?){4}"">(?<label>[^<>\r\n]+)</link>");
         private static readonly Regex SpawnNotice = new Regex(@"\A(?<boss>[^<>\r\n]+?)(?: has spawned on the |が)(?<map>[^<>\r\n]+?)(?: map\.|マップに出現しました。)\z");
+        private static readonly Regex RareRewardEnglish = new Regex(@"\ACongratulations to player 【[^】\r\n]+】 for defeating 【(?<boss>[^】\r\n]+)】 and earning a Rare reward!\z");
+        private static readonly Regex RareRewardJapanese = new Regex(@"\Aプレイヤー【[^】\r\n]+】が【(?<boss>[^】\r\n]+)】を撃破し、レア報酬を獲得しました！\z");
+        private static readonly Regex DefeatNoticeEnglish = new Regex(@"\A(?<boss>[^<>\r\n]+?) was defeated by [^<>\r\n]+\.\z");
+        private static readonly Regex DefeatNoticeJapanese = new Regex(@"\A(?<boss>[^<>\r\n]+?)は[^<>\r\n]+に倒されました。\z");
         private static readonly Regex EquipmentType = new Regex(@"\A(?<hand>1H|2H|Off-Hand|Main-Hand)\s*-\s*(?<type>[A-Za-z ]+)\z");
         private static readonly Regex JobRequirement = new Regex(@"\A(?:Level Req\s*[:：]\s*(?<level>[0-9]+)\s*)?Job\s*Restriction\s*[:：]\s*(?<jobs>[\p{L} ,、\r\n]+)\z");
         private static readonly Regex QuestHeading = new Regex(@"\A(?<marker>\[(?:Main Quest|Side Quest|Commission|メインクエスト|サブクエスト|依頼)\])\s*(?:(?<chapter>Chapter(?: One| [0-9]+)|第[0-9]+章)[:：]\s*)?(?<title>[^<>\r\n]+)\z");
@@ -677,9 +681,43 @@ namespace RO3.JapaneseMod
                     int offset = label.Index - link.Index + map.Groups["map"].Index;
                     return link.Value.Substring(0, offset) + replacement + link.Value.Substring(offset + name.Length);
                 });
-            if (result.IndexOf(" has spawned on the ", StringComparison.Ordinal) < 0
-                && result.IndexOf("マップに出現しました。", StringComparison.Ordinal) < 0) return result;
-            Match notice = SpawnNotice.Match(Markup.Replace(result, ""));
+            bool rewardCandidate = result.IndexOf("Congratulations to player", StringComparison.Ordinal) >= 0
+                || result.IndexOf("レア報酬を獲得", StringComparison.Ordinal) >= 0;
+            bool defeatCandidate = result.IndexOf(" was defeated by ", StringComparison.Ordinal) >= 0
+                || result.IndexOf("に倒されました。", StringComparison.Ordinal) >= 0;
+            bool spawnCandidate = result.IndexOf(" has spawned on the ", StringComparison.Ordinal) >= 0
+                || result.IndexOf("マップに出現しました。", StringComparison.Ordinal) >= 0;
+            if (!rewardCandidate && !defeatCandidate && !spawnCandidate) return result;
+            string visible = Markup.Replace(result, "");
+            // The system announcement interpolates a live monster name after
+            // localizing its sentence. Match the complete notice and change
+            // only its typed monster slot; player names and chat stay intact.
+            if (rewardCandidate)
+            {
+                Match reward = RareRewardEnglish.Match(visible);
+                if (!reward.Success) reward = RareRewardJapanese.Match(visible);
+                if (reward.Success)
+                {
+                    Group monster = reward.Groups["boss"];
+                    string localized;
+                    if (monsterNames.TryGetValue(monster.Value, out localized) && localized != monster.Value)
+                        return ReplaceVisibleRange(result, monster.Index, monster.Length, localized);
+                }
+            }
+            if (defeatCandidate)
+            {
+                Match defeat = DefeatNoticeEnglish.Match(visible);
+                if (!defeat.Success) defeat = DefeatNoticeJapanese.Match(visible);
+                if (defeat.Success)
+                {
+                    Group monster = defeat.Groups["boss"];
+                    string localized;
+                    if (monsterNames.TryGetValue(monster.Value, out localized) && localized != monster.Value)
+                        return ReplaceVisibleRange(result, monster.Index, monster.Length, localized);
+                }
+            }
+            if (!spawnCandidate) return result;
+            Match notice = SpawnNotice.Match(visible);
             if (!notice.Success) return result;
             string boss = notice.Groups["boss"].Value, translatedBoss;
             if (!monsterNames.TryGetValue(boss, out translatedBoss))

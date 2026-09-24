@@ -35,6 +35,16 @@ class DisplayTextTranslatorTest
         }
         string[,] cases = {
             { "Goblin Archer", "ゴブリンアーチャー" },
+            { "プレイヤー【TestPlayer】が【Eddga】を撃破し、レア報酬を獲得しました！", "プレイヤー【TestPlayer】が【エドガ】を撃破し、レア報酬を獲得しました！" },
+            { "Moonlight FlowerはTestPlayerに倒されました。", "月夜花はTestPlayerに倒されました。" },
+            { "Moonlight Flower was defeated by TestPlayer.", "月夜花はTestPlayerに倒されました。" },
+            { "<color=#fdab5b>Moonlight Flower</color>は<color=#fdab5b>TestPlayer</color>に倒されました。", "<color=#fdab5b>月夜花</color>は<color=#fdab5b>TestPlayer</color>に倒されました。" },
+            { "EddgaはUnlistedPlayerに倒されました。", "エドガはUnlistedPlayerに倒されました。" },
+            { "UnlistedBossはEddgaに倒されました。", "UnlistedBossはEddgaに倒されました。" },
+            { "プレイヤー【<color=#fdab5b>TestPlayer</color>】が【<color=#fdab5b>Eddga</color>】を撃破し、レア報酬を獲得しました！", "プレイヤー【<color=#fdab5b>TestPlayer</color>】が【<color=#fdab5b>エドガ</color>】を撃破し、レア報酬を獲得しました！" },
+            { "Congratulations to player 【TestPlayer】 for defeating 【Baphomet】 and earning a Rare reward!", "プレイヤー【TestPlayer】が【バフォメット】を撃破し、レア報酬を獲得しました！" },
+            { "Congratulations to player 【<color=#fdab5b>TestPlayer</color>】 for defeating 【<color=#fdab5b>Eddga</color>】 and earning a Rare reward!", "プレイヤー【<color=#fdab5b>TestPlayer</color>】が【<color=#fdab5b>エドガ</color>】を撃破し、レア報酬を獲得しました！" },
+            { "プレイヤー【Eddga】が【UnlistedBoss】を撃破し、レア報酬を獲得しました！", "プレイヤー【Eddga】が【UnlistedBoss】を撃破し、レア報酬を獲得しました！" },
             { "Magnus Exorcismus!!", "マグヌスエクソシズム!!" },
             { "Take part in events and enjoy your adventures in this world", "イベントに参加して、この世界での冒険を楽しもう" },
             { "<color=#FF0000>Goblin Archer</color>", "<color=#FF0000>ゴブリンアーチャー</color>" },
