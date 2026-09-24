@@ -45,6 +45,8 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw 'Recovery tests failed' }
           python scripts/test-display.py
           if ($LASTEXITCODE -ne 0) { throw 'Display translation tests failed' }
+          python scripts/test-history.py
+          if ($LASTEXITCODE -ne 0) { throw 'History translation tests failed' }
 
       - name: Require rebuilt patcher DLL when patcher source changes
         shell: pwsh

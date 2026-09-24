@@ -15,7 +15,7 @@ Index	English	Japanese_Translation
 2014	Game Info	ゲーム情報
 2015	Low Growl	低いうなり声
 2016	Moonlight	ムーンライト
-2017	Execution	実行
+2017	Execution	処刑
 2018	Blue Note	ブルーノート
 2019	Wave Slow	ウェーブスロー
 2020	Duo Dance	デュオダンス
@@ -100,7 +100,7 @@ Index	English	Japanese_Translation
 2099	Management	管理
 2100	Totem Life	トーテムライフ
 2101	HP recover	HP回復
-2102	Cast Speed	キャストスピード
+2102	Cast Speed	詠唱速度
 2103	Crit Bonus	クリティカルボーナス
 2104	Global CD%	グローバル CD%
 2105	Bonus MATK	ボーナスMATK
@@ -128,7 +128,7 @@ Index	English	Japanese_Translation
 2127	Add Friend	友達を追加
 2128	Buff Build	バフビルド
 2129	Guild Hall	ギルドホール
-2130	Build ${1}	${1} をビルドする
+2130	Build ${1}	ビルド ${1}
 2131	Protection	保護
 2132	Rune Sword	ルーンソード
 2133	Rune Spear	ルーンスピア
@@ -140,7 +140,7 @@ Index	English	Japanese_Translation
 2139	Next Level	次のレベル
 2140	Armor Slot	アーマースロット
 2141	Cloak Slot	マントスロット
-2142	Life Skill	ライフスキル
+2142	Life Skill	生活スキル
 2143	Class Role	クラスの役割
 2144	Collection	コレクション
 2145	Footprints	足跡
@@ -215,13 +215,13 @@ Index	English	Japanese_Translation
 2214	Holy Light	ホーリーライト
 2215	Magnificat	マニフィカト
 2216	Lex Divina	レックス・ディヴィナ
-2217	Suffragium	参政権
+2217	Suffragium	サフラギウム
 2218	Overcharge	オーバーチャージ
 2219	Cart Boost	カートブースト
 2220	Cart Clash	カートクラッシュ
 2221	Arm Cannon	アームキャノン
 2222	Vulcan Arm	バルカンアーム
-2223	Dark Orbit	ダークオービット
+2223	Dark Orbit	闇のリング
 2224	Auto Guard	オートガード
 2225	Holy Cross	ホーリークロス
 2226	Providence	プロビデンス
@@ -249,7 +249,7 @@ Index	English	Japanese_Translation
 2248	Blitz Beat	ブリッツビート
 2249	Steel Crow	スチールクロウ
 2250	True Sight	トゥルーサイト
-2251	Swift Warg	スウィフトワーグ
+2251	Swift Warg	スウィフトウォーグ
 2252	Sonic Blow	ソニックブロー
 2253	Fierce Boa	激しいボア
 2254	Salamander	サンショウウオ
@@ -665,7 +665,7 @@ Index	English	Japanese_Translation
 2664	openID：${1}	openID：${1}
 2665	Mock Battle	模擬戦
 2666	Guild Store	ギルドストア
-2667	Red Quality	赤の品質
+2667	Red Quality	赤品質
 2668	Dreamweaver	ドリームウィーバー
 2669	Gold Emblem	ゴールドエンブレム
 2670	Auto-Battle	オートバトル
@@ -680,7 +680,7 @@ Index	English	Japanese_Translation
 2679	Power Bonus	パワーボーナス
 2680	Holy Knight	ホーリーナイト
 2681	Wind Walker	ウィンドウォーカー
-2682	Warg Hunter	ワーグハンター
+2682	Warg Hunter	ウォーグハンター
 2683	Soul Buster	ソウルバスター
 2684	Season Data	シーズンデータ
 2685	${1} Revive	${1} 復活させる
@@ -689,7 +689,7 @@ Index	English	Japanese_Translation
 2688	Player Card	プレイヤーカード
 2689	Job Advance	ジョブアドバンス
 2690	Launch Fest	ローンチフェスト
-2691	Life Skills	ライフスキル
+2691	Life Skills	生活スキル
 2692	Competition	競争
 2693	Auto-Potion	オートポーション
 2694	Share Stall	シェアストール
@@ -801,7 +801,7 @@ Index	English	Japanese_Translation
 2800	Axe Tornado	アックストルネード
 2801	Pile Bunker	パイルバンカー
 2802	Fast Travel	ファストトラベル
-2803	Angel Sweep	エンジェルスウィープ
+2803	Angel Sweep	エンジェルスイープ
 2804	Marin Split	マリンスプリット
 2805	Grand Cross	グランドクロス
 2806	Cross Blast	クロスブラスト
@@ -833,13 +833,13 @@ Index	English	Japanese_Translation
 2832	Fear Breeze	フィアーブリーズ
 2833	Keen Senses	鋭い感覚
 2834	Wolf Taming	オオカミを飼いならす
-2835	Warg Strike	ワーグストライク
+2835	Warg Strike	ウォーグストライク
 2836	Wolf's Fang	狼の牙
 2837	Take Flight	飛び立つ
 2838	Bobo Bubble	ボボバブル
 2839	Greedy Kaho	貪欲なカホ
 2840	Toad Skills	トードのスキル
-2841	Angel Swipe	エンジェルスワイプ
+2841	Angel Swipe	エンジェルスイープ
 2842	Total Kills	総キル数
 2843	Wins/Losses	勝敗
 2844	Match Stats	試合の統計

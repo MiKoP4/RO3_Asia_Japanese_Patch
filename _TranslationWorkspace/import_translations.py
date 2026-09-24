@@ -36,6 +36,8 @@ CACHE_FILE = WORKSPACE / "translations_cache.json"
 CONFIG_FILE = ROOT / "Client" / "BepInEx" / "config" / "AutoTranslatorConfig.ini"
 LOCALIZATION_PATCH_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.LocalizationOverrides.tsv"
 LANGUAGE_KV_FILE = WORKSPACE / "LanguageKV_full_en.tsv"
+WORLD_ALIAS_SOURCE = WORKSPACE / "world_label_aliases.json"
+LOCALIZATION_ALIAS_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.LocalizationAliases.tsv"
 
 
 # Game placeholders and formatting tokens which translations must preserve.
@@ -115,6 +117,102 @@ KNOWN_USAGE_REMAINING_PREFIXES = (
     "Monthly Uses Remaining:",
 )
 KNOWN_PREREQUISITE_SKILL_TEMPLATE = "Prerequisite Skill <color=#cc762a>${1}</color>"
+TERMINOLOGY_CONFLICTS = {
+    "Basic Attack": ("基本攻撃",), "Life Skill": ("ライフスキル",),
+    "Stronghold War": ("拠点戦争",), "Cast Speed": ("キャストスピード",),
+    "Soul Destroyer": ("ソウルデストロイヤー",), "Spiral Pierce": ("スパイラルピアス",),
+    "First Clear": ("ファーストクリア",), "Revive Point": ("リバイブポイント",),
+    "Daily Activity": ("デイリーアクティビティ",), "Weekly Activity": ("週間アクティビティ",),
+    "Pet Shard": ("ペットのかけら",), "Purple Quality": ("パープルクオリティ",),
+    "Blue Quality": ("ブルークオリティ",), "Orange Quality": ("オレンジの品質",),
+    "Suffragium": ("参政権",), "Royal City War": ("ロイヤルシティ戦争", "王城戦"),
+    "Festival Invitation": ("祭典招待状", "祝典招待", "祝典の招待", "祝祭の招待状"),
+    "Song of Suffering": ("苦痛の歌", "苦悩の歌", "苦悩の戒めの歌", "苦痛の声"),
+    "Vice Guild Master": ("サブギルドマスター",),
+    "Regional Capital War": ("地域首都戦",),
+    "Guild Technology": ("ギルド技術",),
+    "Fashion Rating": ("ファッションの評価",),
+    "Red Quality": ("赤の品質",),
+    "Combat Power": ("戦力ランキング",),
+    "Warg": ("ワーグ",),
+}
+SKILL_TERMS = {
+    "Heal": "ヒール",
+    "Musical Phrase": "楽句",
+    "Phrases": "楽句",
+    "Song of Suffering - Murmur": "苦難の諫歌 - ローハム",
+    "Admonitory Song of Suffering: Low Drone": "苦難の諫歌：ローハム",
+    "Battle Chant Harmony: Harmony": "バトルチャント・ハーモニー：コンソナンス",
+    "Part": "ボイスパート",
+    "Pages": "ブックページ",
+    "Intensified Telekinesis": "インテンス・テレキネシス",
+    "Twin Holy Light": "デュプレライト",
+    "Intense Telekinesis": "インテンス・テレキネシス",
+    "Furious Storm": "フューリアスストーム",
+    "Warg Strike": "ウォーグストライク",
+    "Empowered Warg Strike": "強化ウォーグストライク",
+    "Weaponry Research": "武器研究",
+    "Execution": "処刑",
+    "Status Effect": "状態異常",
+    "Immunity": "行動妨害無効",
+    "Blind": "暗黒",
+    "Frozen": "凍結",
+    "Burn": "火傷",
+    "Sluggish": "鈍足",
+    "Detect Stealth": "ステルス検知",
+    "Dragon Transformation": "ドラゴン変身",
+    "Enhance Cloaking": "強化クローキング",
+    "King of the Wargs": "群れの王",
+    "Knock-Up": "打ち上げ",
+    "Myriad Stars Chase the Moon": "千の星が月を追う",
+    "Powerful Auto Counter": "強力オートカウンター",
+    "Prison": "監獄",
+    "Psychokinetic Astral Body": "念動アストラルボディ",
+    "Radiant Holy Light": "輝けるホーリーライト",
+    "Raging Gale": "レイジングゲイル",
+    "Unlimited Shooting": "アンリミテッドシューティング",
+    "Psychokinetic Astral Bodies": "念動アストラルボディ",
+    "Dragon Form": "ドラゴン変身",
+    "Knock Up": "打ち上げ",
+    "Knock-up": "打ち上げ",
+    "Wolf Hunt": "ウォーグハント",
+    "Warg Hunt": "ウォーグハント",
+}
+SKILL_TERMS.update({
+    "Radiant Orbit": "光のリング", "Ring of Light": "光のリング",
+    "Radiant Poring Normal Attack - Holy": "ラディアントポリン通常攻撃 - 聖属性",
+    "Light Poring Normal Attack-Holy": "ラディアントポリン通常攻撃 - 聖属性",
+    "Orc Hero Normal Attack-Earth": "オークヒーロー通常攻撃 - 地属性",
+    "Orc Hero Normal Attack - Ground": "オークヒーロー通常攻撃 - 地属性",
+    "Acceleration": "加速", "Haste": "加速",
+    "Fallen Sweep": "フォールン・スイープ", "Fallen Swipe": "フォールン・スイープ",
+    "Angel Sweep": "エンジェルスイープ", "Angel Swipe": "エンジェルスイープ",
+    "Cannonball Barrage": "降り注ぐ砲弾", "Falling Cannonball": "降り注ぐ砲弾",
+    "Cat o' Nine-Tail Skills": "九尾狐のスキル", "Cat o' Nine-Tail Skill": "九尾狐のスキル",
+    "Gryphon Skills": "グリフォンのスキル", "Gryphon Skill": "グリフォンのスキル",
+    "Rock-Shattering Strike": "ロックシャッター", "Rock Shatter": "ロックシャッター",
+    "Dark Orbit": "闇のリング", "Ring of Darkness": "闇のリング",
+})
+SKILL_STYLED_LINK = re.compile(r"((?:\^\{\d+\})+)(?:【([^】]+)】|\[([^\]]+)\])")
+
+
+def validate_skill_terms(translations: dict[str, str]) -> None:
+    for english, japanese in translations.items():
+        if english in SKILL_TERMS and japanese != SKILL_TERMS[english]:
+            raise ImportErrorWithContext(f"inconsistent skill name: {english!r}")
+        if english.startswith("Battle Chant Harmony") and not japanese.startswith("バトルチャント・ハーモニー"):
+            raise ImportErrorWithContext(f"inconsistent skill family: {english!r}")
+        if ("musical phrase" in english.lower() or "phrase launched by a Sacrament" in english) and "楽節" in japanese:
+            raise ImportErrorWithContext(f"inconsistent Musical Phrase description: {english!r}")
+        source_links = {re.search(r"\d+", match.group(1)).group(): match.group(2) or match.group(3)
+                        for match in SKILL_STYLED_LINK.finditer(english)}
+        if not any(term in SKILL_TERMS for term in source_links.values()):
+            continue
+        target_links = {re.search(r"\d+", match.group(1)).group(): match.group(2) or match.group(3)
+                        for match in SKILL_STYLED_LINK.finditer(japanese)}
+        for marker, term in source_links.items():
+            if term in SKILL_TERMS and target_links.get(marker) != SKILL_TERMS[term]:
+                raise ImportErrorWithContext(f"inconsistent skill reference {term!r}: {english!r}")
 KNOWN_SOUL_ECHO_TOOLTIP_TEMPLATE = (
     "@{1}.Every @{2} levels, a Soul Echo unlocks an element and gains a random attribute\\n"
     "@{3}.You can equip up to @{4} Soul Echoes\\n"
@@ -163,6 +261,80 @@ KNOWN_SERVER_LEVEL_TEMPLATE = (
 OBSERVED_CHOOSE_LABEL = "请选择"
 OBSERVED_CHOOSE_TRANSLATION = "選択してください"
 OBSERVED_CREATE_TEAM_ZH = "创建队伍"
+OBSERVED_UI_ZH_ALIASES = {
+    # Signed localization row 36073; the ranking prefab keeps its Chinese title.
+    "排行榜": "ランキング",
+    # This collection-filter prefab label has no English LanguageKV row.
+    "筛选当前道具列表": "現在のアイテム一覧を絞り込む",
+    "篩選當前道具列表": "現在のアイテム一覧を絞り込む",
+    # Login/character-selection prefabs observed after a full launcher restart.
+    "客服": "サポート",
+    "新建": "作成",
+    # Fixed headings in the guild-donation prefab, including labels which are
+    # absent from the English LanguageKV table. Avoid a global alias for 无/無:
+    # the profile's empty rank is translated only as a complete labeled field.
+    "排名": "順位",
+    "职务": "役職",
+    "職務": "役職",
+    "捐赠额度": "寄付額",
+    "捐贈額度": "寄付額",
+    # The buff context menu uses a prefab label absent from LanguageKV.
+    "右键清除": "右クリックで解除",
+    "右鍵清除": "右クリックで解除",
+}
+OBSERVED_UI_CANONICAL_ALIASES = {
+    # Original zh_CN/zh_TW rows, verified against the signed localization data.
+    # Keep Japanese in split_1000 and retain the original numeric/style slots.
+    "一键领取": "Claim All", "一鍵領取": "Claim All",
+    "上架中": "Listed", "公示中": "Under Review",
+    "组队平台": "Finder", "組隊平台": "Finder",
+    "资金榜": "Fund Rankings", "資金榜": "Fund Rankings",
+    "玩家名称": "Player name", "玩家名稱": "Player name",
+    "职位": "Position", "職位": "Position",
+    "无主灵魂核心": "Masterless Soul Core", "無主靈魂核心": "Masterless Soul Core",
+    "珠泪螺壳": "Pearltear Conch", "珠淚螺殼": "Pearltear Conch",
+    "活动任务": "Event Quest", "活動任務": "Event Quest",
+    "邮件": "Mail", "郵件": "Mail", "信件": "Mail",
+    "邮件存储上限：${1}/${2}": "Mail Storage Limit: ${1}/${2}",
+    "信件儲存上限：${1}/${2}": "Mail Storage Limit: ${1}/${2}",
+    "邮件存储上限：<color=#FA983A>${1}</color>/${2}": "Mail Storage Limit: <color=#FA983A>${1}</color>/${2}",
+    "信件儲存上限：<color=#FA983A>${1}</color>/${2}": "Mail Storage Limit: <color=#FA983A>${1}</color>/${2}",
+    "筛选": "Filter", "篩選": "Filter",
+    "排行": "Ranking",
+    "活动尚未开启": "Event Not Yet Available", "活動尚未開啟": "Event Not Yet Available",
+    "审判": "Judex", "審判": "Judex",
+    # 10110200003 is exactly 治愈术/治癒術; the different Divine Light
+    # row 10110200819 contains an extra annotation, so this exact alias is safe.
+    "治愈术": "Heal", "治癒術": "Heal",
+    "讴歌": "Holy Reckoning", "謳歌": "Holy Reckoning",
+    "圣痕": "Holy Stigma", "聖痕": "Holy Stigma",
+    "天罚": "Divine Retribution", "天罰": "Divine Retribution",
+    "${1}天后过期": "Expires in ${1} days", "${1}天後過期": "Expires in ${1} days",
+    "公会联赛": "Guild League", "公會聯賽": "Guild League",
+    "领土战争": "Territory War", "領地爭霸戰": "Territory War",
+    "自然之神伊尔玛塔": "Ilmata, God of Nature", "自然之神伊爾瑪塔": "Ilmata, God of Nature",
+    "衣橱时尚度达到@{1}级": "Reach Wardrobe Fashion Rating Lv. @{1}",
+    "衣櫥時尚度達到@{1}級": "Reach Wardrobe Fashion Rating Lv. @{1}",
+    "外观@{1}": "Appearance @{1}", "外觀@{1}": "Appearance @{1}",
+    "成就达成：<#c27b47>${1}</color>/${2}": "Trophies Achieved: <#c27b47>${1}</color>/${2}",
+    "成就達成：<#c27b47>${1}</color>/${2}": "Trophies Achieved: <#c27b47>${1}</color>/${2}",
+    "${1}的队伍正在招募": KNOWN_PARTY_RECRUITING_TEMPLATE,
+    "${1}的隊伍正在招募": KNOWN_PARTY_RECRUITING_TEMPLATE,
+    "公会人数达到${1}人": "Guild membership reaches ${1}",
+    "公會人數達到${1}人": "Guild membership reaches ${1}",
+    "公会人数达到${1}": "Guild membership reaches ${1}",
+    "公會人數達到${1}": "Guild membership reaches ${1}",
+    "上周公会活跃评级达到${1}": "Your guild's Active rating reached ${1} last week.",
+    "上週公會活躍評級達到${1}": "Your guild's Active rating reached ${1} last week.",
+}
+OBSERVED_UI_ZH_TEMPLATES = {
+    # This prefab's displayed time differs from the static English table's
+    # 05:03. Translate its wording while preserving the actual displayed time.
+    "每赛程首周周一 ${1}:${2}": "各日程の第1週・月曜日 ${1}:${2}",
+    "每赛程首周周一${1}:${2}": "各日程の第1週・月曜日 ${1}:${2}",
+    "每賽程首週週一 ${1}:${2}": "各日程の第1週・月曜日 ${1}:${2}",
+    "每賽程首週週一${1}:${2}": "各日程の第1週・月曜日 ${1}:${2}",
+}
 OBSERVED_STALL_TITLE_ALIASES = {
     "沉睡的攤位": "休眠中の露店",
     "沉睡的摊位": "休眠中の露店",
@@ -319,12 +491,21 @@ KNOWN_RECRUITMENT_DUNGEON_PAIRS_TW = (
     ("五人挑戰－隱密之地", "5-Player Challenge - Hidden Land", "隱密之地", "Hidden Realm"),
 )
 LOCALIZATION_PATCH_PREFIXES = (
+    # Collection counters, event instructions and market stock counters are
+    # formatted after localization, including through recovered Lua modules.
+    "570", "106300", "21075", "25483",
+    "103600",
+    "232", "105701", "16059", "49017", "49031", "64000", "74014", "74019", "290054", "38008", "38024", "12300200000",
+    "19014", "10600100004",
     # Attribute/stat display names. Card effect panels compose localized stat
     # names with numeric values after the LanguageKV lookup (for example
     # "Increase DMG vs Large Enemies +2.88%" / "PATK +19"). Translate the
     # labels upstream so the final rendered line is assembled in Japanese.
     "100103",
     "100104",
+    # Character stat tooltips can expand the current-Life value before the
+    # display hook runs, so keep their localized templates in the ID patch.
+    "100105",
     # Consumable/food descriptions. Item detail panels expand @{n} values before
     # rendering, so the final prose can otherwise bypass XUnity exact matching.
     "100501",
@@ -772,6 +953,7 @@ def regex_escape_literal(text: str) -> str:
     text. Accept either representation so a single canonical TSV entry covers
     both paths.
     """
+    text = text.replace(r"\n", "\n")
     pieces: list[str] = []
     cursor = 0
     for match in re.finditer(r"【([^】]+)】", text):
@@ -1115,9 +1297,12 @@ def load_runtime_keys() -> set[str]:
     UI families observed to expand placeholders before XUnity so the runtime
     regex set stays bounded.
     """
-    return set(
+    return set(KNOWN_LOCALIZATION_PATCH_IDS.values()) | set(
         load_language_kv_texts(
             (
+                "570", "106300", "21075", "25483",
+                "109600", "19014", "10600100004", "100800", "106801",
+                "232", "105701", "16059", "49017", "49031", "64000", "74014", "74019", "290054", "38008", "38024", "12300200000",
                 "100105",
                 "40",
                 "101103",
@@ -1147,6 +1332,9 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
     lines: list[str] = []
     for english, japanese in translations.items():
         if english not in runtime_keys and english not in FORCED_RUNTIME_KEYS:
+            continue
+        # Short unit templates (${1}s / ${1}d) must not consume arbitrary prose.
+        if len(RUNTIME_TOKEN_RE.sub("", english).strip()) < 4:
             continue
         line = build_runtime_regex(english, japanese, force=True)
         if line:
@@ -1187,6 +1375,16 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
         japanese = translations.get(canonical_english)
         if not japanese:
             continue
+        line = build_runtime_regex(chinese, japanese, force=True)
+        if line:
+            lines.append(line)
+
+    # The mail prefab can display the original Chinese template or expand its
+    # two counters before the text reaches the translator.
+    for chinese, canonical_english in OBSERVED_UI_CANONICAL_ALIASES.items():
+        if not chinese.startswith(("邮件存储上限：", "信件儲存上限：")):
+            continue
+        japanese = translations[canonical_english]
         line = build_runtime_regex(chinese, japanese, force=True)
         if line:
             lines.append(line)
@@ -1317,6 +1515,15 @@ def build_runtime_regex_lines(translations: dict[str, str]) -> list[str]:
             if line:
                 lines.append(line)
 
+    # Observed post-formatting/mixed-language forms from the September screenshots.
+    for source in ("灵蛇守护Lv.${1}", "靈蛇守護Lv.${1}"):
+        lines.append(build_runtime_regex(source, translations["Serpent Spirit's Protection"] + "Lv.${1}", force=True))
+    for source in load_language_kv_texts(("101103", "102203", "10600100004", "108001", "121101")):
+        target = translations.get(source)
+        if target and "'s " in source:
+            line = build_runtime_regex(source.replace("'s ", "の"), target, force=True)
+            if line:
+                lines.append(line)
     # Preserve deterministic order while discarding duplicate derivatives.
     lines = list(dict.fromkeys(lines))
     return lines
@@ -1329,6 +1536,20 @@ def strip_rich_text(text: str) -> str:
 def strip_style_placeholders(text: str) -> str:
     """Remove RO3's non-value style placeholders such as ^{1} and ^{2}."""
     return re.sub(r"\^\{\d+\}", "", text)
+
+
+def build_observed_ui_aliases(translations: dict[str, str]) -> dict[str, str]:
+    aliases = dict(OBSERVED_UI_ZH_TEMPLATES)
+    for source, canonical in OBSERVED_UI_CANONICAL_ALIASES.items():
+        target = translations.get(canonical)
+        if not target:
+            raise ImportErrorWithContext(f"missing canonical UI alias: {canonical!r}")
+        validate_translation(source, target, f"UI alias {source!r}")
+        aliases[source] = target
+        plain_source, plain_target = strip_rich_text(source), strip_rich_text(target)
+        if plain_source != source:
+            aliases[plain_source] = plain_target
+    return aliases
 
 
 def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
@@ -1345,6 +1566,11 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     def add_variant(source: str, translated: str) -> None:
         if not source or source == translated or "=" in source or "\n" in source:
             return
+        # Removing a style/name wrapper can produce an existing canonical key
+        # with a different meaning (Captain, Fervor, Fixed CT, etc.). Its explicit
+        # translation must win; derived context remains available through its ID.
+        if source in translations and translations[source] != translated:
+            return
         previous = variants.get(source)
         if previous is None:
             variants[source] = translated
@@ -1355,6 +1581,32 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     # JOB=JOB is not sufficient to defeat that built-in entry in an already
     # running process, so keep a visually zero-width non-identity override.
     variants["JOB"] = "JOB\u200b"
+    variants["价格排序"] = "価格順"
+    variants["價格排序"] = "価格順"
+    # Guild-shop requirements contain a localized role, not a numeric rank.
+    # Derive complete known-role sentences; never replace names in free text.
+    for role in load_language_kv_texts(("103600",)):
+        translated_role = translations.get(role)
+        if translated_role:
+            target = translated_role + "以上で購入可能"
+            for source in ("Available for purchase at position " + role + " or above",
+                           "順位" + role + "以上で購入可能", role + "以上で購入可能"):
+                variants[source] = target
+    variants.update({
+        "价格升序": "価格（安い順）", "價格升序": "価格（安い順）",
+        "价格降序": "価格（高い順）", "價格降序": "価格（高い順）",
+        "首发": "初期編成", "首發": "初期編成", "替补": "控え", "替補": "控え",
+        "属性总览": "ステータス一覧", "屬性總覽": "ステータス一覧",
+        "普隆德拉": "プロンテラ", "斐扬": "フェイヨン", "斐揚": "フェイヨン",
+        "吉芬": "ゲフェン", "兽人村落": "オーク村", "獸人村落": "オーク村",
+        "梦罗克": "モロック", "夢羅克": "モロック",
+        "领土战争": "領土戦争", "領土戰爭": "領土戦争",
+        "公会联赛": "ギルドリーグ", "公會聯賽": "ギルドリーグ",
+        "敬请期待": "近日公開", "敬請期待": "近日公開",
+        "已售罄": "売り切れ", "商城": "ショップ",
+    })
+    variants["灵蛇守护"] = translations["Serpent Spirit's Protection"]
+    variants["靈蛇守護"] = translations["Serpent Spirit's Protection"]
 
     # The game frequently removes <color>/<size>/other TMP tags before handing
     # text to XUnity. Add the plain-text form when it is unambiguous.
@@ -1479,6 +1731,9 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     create_team_japanese = translations.get("Create Team")
     if create_team_japanese:
         add_variant(OBSERVED_CREATE_TEAM_ZH, create_team_japanese)
+    for source, translated in OBSERVED_UI_ZH_ALIASES.items():
+        variants[source] = translated
+    variants.update(build_observed_ui_aliases(translations))
     for source, translated in OBSERVED_STALL_TITLE_ALIASES.items():
         add_variant(source, translated)
     for source, translated in OBSERVED_STALL_ITEM_ALIASES.items():
@@ -1501,6 +1756,10 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     for source in conflicts:
         variants.pop(source, None)
 
+    for _, source, target in build_world_alias_rows(translations):
+        if not RUNTIME_TOKEN_RE.search(source):
+            variants[source] = target
+
     header = [
         "// RO3 high-priority runtime collision/variant overrides",
         "// Generated by _TranslationWorkspace/import_translations.py",
@@ -1508,7 +1767,26 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
         f"// Variants: {len(variants)}; ambiguous stripped variants skipped: {len(conflicts)}",
         "// -----------------------------------------------------",
     ]
-    return header + [f"{key}={value}" for key, value in sorted(variants.items())]
+    return header + [encode_translation_pair(key, value) for key, value in sorted(variants.items())]
+
+
+def encode_translation_field(text: str) -> str:
+    """Encode one field for XUnity's decoder, not for the regex engine."""
+    return (text.replace("\\", "\\\\").replace("=", r"\=")
+            .replace("//", r"\u002F\u002F").replace("%3D", r"\u00253D")
+            .replace("\r", r"\r").replace("\n", r"\n"))
+
+
+def encode_translation_pair(source: str, target: str) -> str:
+    return (encode_translation_field(source.replace(r"\n", "\n")) + "="
+            + encode_translation_field(target.replace(r"\n", "\n")))
+
+
+def encode_regex_line(line: str) -> str:
+    source, target = line.split('"=', 1)
+    # Regex escapes must survive the file decoder unchanged.
+    return (encode_translation_field(source + '"') + "="
+            + encode_translation_field(target.replace(r"\n", "\n")))
 
 
 def build_localization_patch_lines(translations: dict[str, str]) -> list[str]:
@@ -1552,6 +1830,34 @@ def build_localization_patch_lines(translations: dict[str, str]) -> list[str]:
     return lines
 
 
+def build_world_alias_rows(translations: dict[str, str]) -> list[tuple[str, str, str]]:
+    """Resolve original zh_CN/zh_TW world labels through canonical IDs.
+
+    The checked-in source is extracted offline from the signed modules. No
+    live client or Recovery modification is required to regenerate releases.
+    Ambiguous text-only aliases are excluded instead of choosing a random ID.
+    """
+    source = json.loads(WORLD_ALIAS_SOURCE.read_text(encoding="utf-8"))
+    english_by_id = dict(load_language_kv_rows(("100800", "106801", "104700", "105300")))
+    candidates: set[tuple[str, str, str]] = set()
+    targets: dict[str, set[str]] = {}
+    japanese_values = set(translations.values())
+    for key, _, simplified, traditional in source["rows"]:
+        if key not in english_by_id:
+            raise ImportErrorWithContext(f"world alias has unknown ID: {key}")
+        japanese = translations.get(english_by_id[key])
+        if not japanese:
+            continue
+        for alias in (simplified, traditional):
+            if not alias or alias in japanese_values or any(c in alias + japanese for c in "\t\r\n"):
+                continue
+            if set(PROTECTED_RE.findall(alias)) != set(PROTECTED_RE.findall(japanese)):
+                continue
+            candidates.add((key, alias, japanese))
+            targets.setdefault(alias, set()).add(japanese)
+    return sorted(row for row in candidates if len(targets[row[1]]) == 1)
+
+
 def atomic_write_text(path: Path, text: str, encoding: str = "utf-8-sig") -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temp_name = tempfile.mkstemp(prefix=path.name + ".", suffix=".tmp", dir=str(path.parent))
@@ -1586,6 +1892,7 @@ def write_outputs(
     backup_if_exists(PRIORITY_OVERRIDE_FILE, timestamp)
     backup_if_exists(RUNTIME_REGEX_FILE, timestamp)
     backup_if_exists(LOCALIZATION_PATCH_FILE, timestamp)
+    backup_if_exists(LOCALIZATION_ALIAS_FILE, timestamp)
 
     dictionary_lines = [
         "// RO3 Asia Master Japanese Translation Dictionary",
@@ -1593,7 +1900,7 @@ def write_outputs(
         "// Canonical source: _TranslationWorkspace/split_1000 parts 01-27",
         "// -----------------------------------------------------",
     ]
-    dictionary_lines.extend(f"{key}={value}" for key, value in sorted(translations.items()))
+    dictionary_lines.extend(encode_translation_pair(key, value) for key, value in sorted(translations.items()))
     dictionary_text = "\n".join(dictionary_lines) + "\n"
     atomic_write_text(OUTPUT_FILE, dictionary_text)
     # XUnity gives its configured OutputFile the lowest translation priority.
@@ -1610,11 +1917,14 @@ def write_outputs(
         f"// Rules: {len(regex_lines)}",
         "// -----------------------------------------------------",
     ]
-    atomic_write_text(RUNTIME_REGEX_FILE, "\n".join(regex_header + regex_lines) + "\n")
+    atomic_write_text(RUNTIME_REGEX_FILE, "\n".join(regex_header + [encode_regex_line(line) for line in regex_lines]) + "\n")
     atomic_write_text(
         LOCALIZATION_PATCH_FILE,
         "\n".join(localization_patch_lines) + "\n",
     )
+    aliases = ["# ID<TAB>Original world label<TAB>Japanese; generated from world_label_aliases.json"]
+    aliases.extend("\t".join(row) for row in build_world_alias_rows(translations))
+    atomic_write_text(LOCALIZATION_ALIAS_FILE, "\n".join(aliases) + "\n")
 
     cache_text = json.dumps(translations, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
     atomic_write_text(CACHE_FILE, cache_text, encoding="utf-8")
@@ -1687,6 +1997,11 @@ def configure_xunity() -> tuple[bool, bool, bool, bool, bool]:
 def run(check_only: bool) -> int:
     translations, index_to_english, total_rows, duplicate_overrides = read_split_files()
     imported_pairs, changed_pairs = apply_import_overrides(translations, index_to_english)
+    for english, japanese in translations.items():
+        for term, rejected in TERMINOLOGY_CONFLICTS.items():
+            if term in english and any(variant in japanese for variant in rejected):
+                raise ImportErrorWithContext(f"inconsistent translation of {term!r}: {english!r}")
+    validate_skill_terms(translations)
     regex_lines = build_runtime_regex_lines(translations)
     priority_override_lines = build_priority_override_lines(translations)
     localization_patch_lines = build_localization_patch_lines(translations)
@@ -1900,6 +2215,8 @@ def run(check_only: bool) -> int:
         "蛮荒腹地": translations["Savage Hinterlands"],
         KNOWN_KAFRA_BATTLEFIELD_MANAGER: kafra_odin_parts[0],
     }
+    expected_priority_pairs.update(OBSERVED_UI_ZH_ALIASES)
+    expected_priority_pairs.update(build_observed_ui_aliases(translations))
     expected_priority_pairs.update(OBSERVED_CALENDAR_ZH_ALIASES)
     expected_priority_pairs.update(OBSERVED_HATCHERY_ZH_ALIASES)
     for english_color, japanese_color in OBSERVED_HATCHERY_QUALITY_ALIASES.items():
@@ -1910,7 +2227,7 @@ def run(check_only: bool) -> int:
     for source in KNOWN_WORLD_LABELS:
         expected_priority_pairs[source] = translations[source]
     for source, translated in expected_priority_pairs.items():
-        if f"{source}={translated}" not in priority_text:
+        if encode_translation_pair(source, translated) not in priority_text:
             raise ImportErrorWithContext(
                 f"known runtime variant did not generate: {source!r} -> {translated!r}"
             )

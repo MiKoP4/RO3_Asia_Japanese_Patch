@@ -40,6 +40,7 @@ $files = @(
     'BepInEx\Translation\ja\Text\RO3_RuntimePlaceholders.txt',
     'BepInEx\config\AutoTranslatorConfig.ini',
     'BepInEx\config\RO3.LocalizationOverrides.tsv',
+    'BepInEx\config\RO3.LocalizationAliases.tsv',
     'BepInEx\plugins\RO3.LocalizationTablePatcher.dll',
     'arialuni_sdf_u2022'
 )

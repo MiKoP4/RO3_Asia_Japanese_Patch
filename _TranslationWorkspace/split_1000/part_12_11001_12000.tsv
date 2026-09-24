@@ -24,7 +24,7 @@ Index	English	Japanese_Translation
 11023	S@{1}Black Phantom Void	S@{1}ブラックファントムヴォイド
 11024	Greatsword Sweep Attack	大剣なぎ払い
 11025	YU-Sweep All Directions	YU・全方向なぎ払い
-11026	Advanced Soul Destroyer	上級ソウルデストロイヤー
+11026	Advanced Soul Destroyer	上級ソウルブレイカー
 11027	Holy Light's Protection	ホーリーライトの加護
 11028	Players Completed: ${1}	完了プレイヤー数：${1}
 11029	Crit increases by ${1}.	クリティカルが${1}増加。
@@ -851,7 +851,7 @@ Index	English	Japanese_Translation
 11850	War of Emperium Entrance	攻城戦入口
 11851	Template Editor - [${1}]	テンプレートエディター - [${1}]
 11852	Character limit exceeded	文字数制限を超えています
-11853	Pirate King Basic Attack	海賊王基本攻撃
+11853	Pirate King Basic Attack	海賊王通常攻撃
 11854	Unable to like right now	現在はいいねできません
 11855	Not enough listing space	出品枠が不足しています
 11856	Incorrect equipment slot	装備スロットが正しくありません
@@ -892,7 +892,7 @@ Index	English	Japanese_Translation
 11891	Damage to BOSS Monsters %	BOSSモンスターへのダメージ%
 11892	^{1}Preparation Phase^{2}	^{1}準備フェーズ^{2}
 11893	No rewards for this tier.	このランクには報酬がありません。
-11894	Reach @{1} Daily Activity	デイリーアクティビティ@{1}に到達
+11894	Reach @{1} Daily Activity	デイリー活動@{1}に到達
 11895	Activate the Growth Badge	成長バッジを有効化
 11896	Teleport! Whoosh! Whoosh!	テレポート！ヒュン！ヒュン！
 11897	Help the Soldiers escape.	兵士たちの脱出を手伝う。
@@ -979,7 +979,7 @@ Index	English	Japanese_Translation
 11978	Skill@{1} Cloud Explosion	スキル@{1} クラウド爆発
 11979	Kun Appears (Boss Action)	クン出現（ボスアクション）
 11980	Continuous Ring Drum @{1}	連続リングドラム @{1}
-11981	Enhance Warg Hunt (Melee)	ワーグハント強化（近接）
+11981	Enhance Warg Hunt (Melee)	ウォーグハント強化（近接）
 11982	Maya Purple Normal Attack	マヤパープル通常攻撃
 11983	Dark Priest Normal Attack	ダークプリースト通常攻撃
 11984	This Week's Limit Reached	今週の上限に達しました

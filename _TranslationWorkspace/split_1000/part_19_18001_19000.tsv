@@ -910,7 +910,7 @@
 18909	Landing points cannot be selected at this stage.	この段階では着地点を選択できません。
 18910	Guild League participation count must reach ${1}	ギルドリーグ参加回数が${1}以上必要
 18911	Whether the player is currently the Party Leader	プレイヤーが現在パーティリーダーかどうか
-18912	Available for purchase at position ${1} or above	順位${1}以上で購入可能
+18912	Available for purchase at position ${1} or above	${1}以上で購入可能
 18913	Skill rank exceeds the maximum number of points.	スキルランクが最大ポイント数を超えています。
 18914	Attack (Hold for Accuracy/Right-click to Cancel)	攻撃（長押しで照準/右クリックでキャンセル）
 18915	This target does not exist and cannot be marked.	対象が存在しないためマークできません。

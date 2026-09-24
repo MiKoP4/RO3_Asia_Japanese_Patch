@@ -234,7 +234,7 @@ Index	English	Japanese_Translation
 4233	Mana Recharge	マナリチャージ
 4234	Highness Heal	ハイネスヒール
 4235	Knuckle Boost	ナックルブースト
-4236	Radiant Orbit	ラジアントオービット
+4236	Radiant Orbit	光のリング
 4237	Monster Fruit	モンスターフルーツ
 4238	Mole Teleport	モグラテレポート
 4239	Splash - Card	スプラッシュ - カード
@@ -311,7 +311,7 @@ Index	English	Japanese_Translation
 4310	Melody Impact	メロディインパクト
 4311	Melody Vortex	メロディーヴォルテックス
 4312	Radiant Bloom	ラディアントブルーム
-4313	Rhythmic Warg	リズミックワーグ
+4313	Rhythmic Warg	リズミックウォーグ
 4314	Double Volume	ダブルボリューム
 4315	Freestyle Rap	フリースタイルラップ
 4316	Petrify Curse	石化の呪い
@@ -322,12 +322,12 @@ Index	English	Japanese_Translation
 4321	Manifestation	顕現
 4322	Black Phantom	ブラックファントム
 4323	Rolling Blade	ローリングブレード
-4324	Gryphon Skill	グリフォンスキル
+4324	Gryphon Skill	グリフォンのスキル
 4325	Sword Mastery	ソードマスタリー
 4326	Sword Quicken	ソードクイッケン
 4327	Charge Attack	チャージアタック
 4328	Concentration	集中力
-4329	Spiral Pierce	スパイラルピアス
+4329	Spiral Pierce	スパイラルピアース
 4330	Enchant Blade	エンチャントブレード
 4331	Slash Monitor	スラッシュモニター
 4332	Double Attack	ダブルアタック
@@ -436,7 +436,7 @@ Index	English	Japanese_Translation
 4435	Undead Damage	アンデッドダメージ
 4436	Event Period:	イベント期間：
 4437	Guild Details	ギルド詳細
-4438	Fund Rankings	ファンドランキング
+4438	Fund Rankings	資金ランキング
 4439	Confirm Rally	ラリーの確認
 4440	Online Status	オンラインステータス
 4441	Guild Member:	ギルドメンバー:
@@ -661,7 +661,7 @@ Index	English	Japanese_Translation
 4660	Kafra's Sword	カプラの剣
 4661	Dark Illusion	ダークイリュージョン
 4662	Long Distance	長距離
-4663	Status Effect	ステータス効果
+4663	Status Effect	状態異常
 4664	Earth's Power	地球の力
 4665	Melody Bubble	メロディーバブル
 4666	Trigger Split	トリガースプリット
@@ -707,7 +707,7 @@ Index	English	Japanese_Translation
 4706	ElementBD@{1}	ElementBD@{1}
 4707	DEF increased	DEF増加
 4708	Mounted State	装着状態
-4709	Furious Storm	猛烈な嵐
+4709	Furious Storm	フューリアスストーム
 4710	Sturdy Strike	頑丈なストライク
 4711	Phantom Arrow	ファントムアロー
 4712	Shield Charge	シールドチャージ
@@ -861,8 +861,8 @@ Index	English	Japanese_Translation
 4860	Madogear Pilot	魔導ギアパイロット
 4861	Failed to sell	販売に失敗しました
 4862	Sort by Rating	評価順
-4863	Purple Quality	パープルクオリティ
-4864	Orange Quality	オレンジの品質
+4863	Purple Quality	紫品質
+4864	Orange Quality	オレンジ品質
 4865	Smelting Cost:	製錬コスト:
 4866	Filter by Slot	スロットによるフィルター
 4867	Headless Giant	首なし巨人
@@ -888,15 +888,15 @@ Index	English	Japanese_Translation
 4887	Earthfire Mage	アースファイアメイジ
 4888	Start Matching	マッチング開始
 4889	Caravan Escort	キャラバンエスコート
-4890	Stronghold War	拠点戦争
-4891	Royal City War	ロイヤルシティ戦争
+4890	Stronghold War	拠点戦
+4891	Royal City War	王都戦
 4892	Left Accessory	左のアクセサリ
 4893	Material Cost:	材料費:
 4894	Auto Skill Bar	オートスキルバー
 4895	Butterfly Wing	蝶の羽
 4896	Trade Exchange	貿易取引所
 4897	Character Info	キャラクター情報
-4898	Fashion Rating	ファッションの評価
+4898	Fashion Rating	ファッション評価
 4899	Class Overview	職業概要
 4900	Season Cooking	シーズン料理
 4901	Evenly Matched	均等に一致
@@ -968,7 +968,7 @@ Index	English	Japanese_Translation
 4967	Dracula's Lair	ドラキュラの隠れ家
 4968	Pirate Captain	海賊船長
 4969	Boss Challenge	ボスチャレンジ
-4970	Detect Stealth	ステルスを検出
+4970	Detect Stealth	ステルス検知
 4971	Card: Familiar	カード：ファミリアー
 4972	Card: Skeleton	カード：スケルトン
 4973	Card: Magnolia	カード：マグノリア

@@ -17,7 +17,7 @@
 13016	DMG Reduction vs Demi-Human	人間形へのダメージ軽減
 13017	Teamfight Initiation Damage	集団戦開始時ダメージ
 13018	Holy Reckoning (Deprecated)	ホーリーレコニング（廃止予定）
-13019	Myriad Stars Chase the Moon	万星が月を追う
+13019	Myriad Stars Chase the Moon	千の星が月を追う
 13020	Gravitational Impact (Copy)	グラビテーショナルインパクト（コピー）
 13021	Memory Game-Circular Damage	メモリーゲーム・円形ダメージ
 13022	Silverwing Covenant - Order	シルバーウィングの盟約・秩序
@@ -116,7 +116,7 @@
 13115	Ghost Ship Second Wave Buff	ゴーストシップ第2ウェーブバフ
 13116	Yellow Tracking Line Effect	イエロー追尾ラインエフェクト
 13117	Highest-Aggro Target Effect	最高ヘイト対象エフェクト
-13118	Battle Chant Harmony: Psalm	バトルチャントハーモニー：詩篇
+13118	Battle Chant Harmony: Psalm	バトルチャント・ハーモニー：詩篇
 13119	Sacrament Baptism Self Buff	サクラメントバプティズム自己バフ
 13120	Voice Part Performance Buff	ボイスパート演奏バフ
 13121	Lance Knight: Wind Mark@{1}	ランスナイト：風の印@{1}
@@ -319,8 +319,8 @@
 13318	Eight Consecutive Shockwaves	8連続衝撃波
 13319	@{1} Simultaneous Shockwaves	@{1}同時衝撃波
 13320	Piccolo Targets @{1} Players	ピッコロが@{1}人を対象
-13321	Warg Companion (Warg Strike)	ワーグコンパニオン（ワーグストライク）
-13322	Orc Hero Normal Attack-Earth	オークヒーロー通常攻撃-地属性
+13321	Warg Companion (Warg Strike)	ウォーグコンパニオン（ウォーグストライク）
+13322	Orc Hero Normal Attack-Earth	オークヒーロー通常攻撃 - 地属性
 13323	Orc Lord Normal Attack-Earth	オークロード通常攻撃-地属性
 13324	Moonlight Flower-Placeholder	月夜花-プレースホルダー
 13325	Download everything to claim	すべてダウンロードして受け取る
@@ -333,7 +333,7 @@
 13332	Moonlight Flower Ground Slam	月夜花グラウンドスラム
 13333	Same-Color Colliding Bubbles	同色バブル衝突
 13334	Launch Stationary Red Bubble	固定レッドバブルを発射
-13335	Battle Chant Harmony - Psalm	バトルチャントハーモニー - 詩篇
+13335	Battle Chant Harmony - Psalm	バトルチャント・ハーモニー - 詩篇
 13336	Hundred Spears Stack Monitor	ハンドレッドスピアスタック監視
 13337	Assassin Cross Normal Attack	アサシンクロス通常攻撃
 13338	Magic ATK +【Your Level*@{1}】	魔法ATK +【自分のLv*@{1}】
@@ -547,7 +547,7 @@
 13546	A Red Bubble Is Tracking You	レッドバブルがあなたを追尾中
 13547	Boss Movement Detection Buff	ボス移動検知バフ
 13548	Note Replacement on Cooldown	ノート置換はクールダウン中
-13549	Battle Chant Harmony: Rhythm	バトルチャントハーモニー：リズム
+13549	Battle Chant Harmony: Rhythm	バトルチャント・ハーモニー：リズム
 13550	Divinity True Form Self Buff	神性真形態自己バフ
 13551	Switch (Enhance) Blood Cross	ブラッドクロス（強化）切替
 13552	Dragon Knight: Fire Mark@{1}	ドラゴンナイト：火の印@{1}
@@ -739,8 +739,8 @@
 13738	Blade Mountain-Rectangle-@{1}	ブレードマウンテン-長方形-@{1}
 13739	Stone Pillar@{1} (Deprecated)	石柱@{1}（廃止予定）
 13740	Launch Stationary Blue Bubble	固定ブルーバブルを発射
-13741	Battle Chant Harmony - Rhythm	バトルチャントハーモニー - リズム
-13742	Battle Chant Harmony - Chorus	バトルチャントハーモニー - コーラス
+13741	Battle Chant Harmony - Rhythm	バトルチャント・ハーモニー - リズム
+13742	Battle Chant Harmony - Chorus	バトルチャント・ハーモニー - コーラス
 13743	Melodic Axe Tornado - Enhance	メロディックアックストルネード - 強化
 13744	Enhanced Focused Arrow Strike	強化フォーカストアロー
 13745	Cast Speed increases by ${1}.	詠唱速度が${1}増加。
@@ -922,7 +922,7 @@
 13921	Dungeon Matchmaking Penalty I	ダンジョンマッチングペナルティI
 13922	A Blue Bubble Is Tracking You	ブルーバブルがあなたを追尾中
 13923	Continuously Launch Water Jet	ウォータージェットを連続発射
-13924	Battle Chant Harmony: Harmony	バトルチャントハーモニー：ハーモニー
+13924	Battle Chant Harmony: Harmony	バトルチャント・ハーモニー：コンソナンス
 13925	Cross Ripper Slasher_S@{1}_BD	クロスリッパースラッシャー_S@{1}_BD
 13926	Move back Afterimage_S@{1}_BD	後退残像_S@{1}_BD
 13927	Spellbook-Gravity ImpactS@{1}	スペルブック-グラビティインパクトS@{1}

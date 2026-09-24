@@ -81,7 +81,7 @@
 9080	Enters Blind status	暗闇状態になる
 9081	Lucky Poring Lv@{1}	ラッキーポリン Lv@{1}
 9082	Dexterity Resonance	DEX共鳴
-9083	Warg Strike Trigger	ワーグストライク発動
+9083	Warg Strike Trigger	ウォーグストライク発動
 9084	Arrow Shower【Timer】	アローシャワー【タイマー】
 9085	Settlement in ${1}h	${1}時間後に精算
 9086	My guild Rank: ${1}	自ギルド順位: ${1}
@@ -147,7 +147,7 @@
 9146	Game Mode Bid Outbid	ゲームモード入札・高値更新
 9147	Guild Auction Closed	ギルドオークション終了
 9148	Kill Orc Warrior@{1}	オーク戦士@{1}を倒す
-9149	Daily Activity Quest	デイリーアクティビティクエスト
+9149	Daily Activity Quest	デイリー活動クエスト
 9150	Can escort ${1} more	あと${1}回護衛可能
 9151	Campfire Interaction	焚き火インタラクション
 9152	Mining Star Treasure	採掘スター宝箱
@@ -175,7 +175,7 @@
 9174	Career Total Assists	通算アシスト数
 9175	Career Total Healing	通算回復量
 9176	Return to checkpoint	チェックポイントに戻る
-9177	Regional Capital War	地域首都戦
+9177	Regional Capital War	地方首都戦
 9178	Success Rate Details	成功率詳細
 9179	Right Accessory Slot	右アクセサリースロット
 9180	Guild Funds Rankings	ギルド資金ランキング

@@ -21,7 +21,7 @@ Index	English	Japanese_Translation
 23020	After use, the Supply Cart gains a shield equal to ${1}% of its maximum Life for ${2} seconds.	使用すると、補給カートに最大HPの${1}%に相当するシールドを${2}秒間付与します。
 23021	Maya summons a sandstorm, dealing minor damage to players throughout a large surrounding area.	マヤーが砂嵐を召喚し、周囲の広範囲にいるプレイヤーへ小ダメージを与えます。
 23022	Angeling restores ^{1}${3}%^{2} ^{3}Life^{4} to self and up to ${2} allies within ${1} meters.	エンジェリングが自身および${1}m以内の味方最大${2}体の^{3}HP^{4}を^{1}${3}%^{2}回復します。
-23023	After casting Soul Destroyer @{1} times, increases your damage dealt by @{2}% for @{3} seconds	ソウルデストロイヤーを@{1}回発動すると、@{3}秒間、与ダメージが@{2}%増加します。
+23023	After casting Soul Destroyer @{1} times, increases your damage dealt by @{2}% for @{3} seconds	ソウルブレイカーを@{1}回発動すると、@{3}秒間、与ダメージが@{2}%増加します。
 23024	Complete <color=#c27b47>Echo Growth Quests</color> during the event to earn bountiful rewards!	イベント期間中に<color=#c27b47>エコー成長クエスト</color>を達成して、豪華報酬を獲得しましょう！
 23025	Extends bandages from the Horong and lashes downward, creating @{1} rectangular AOEs around it	ホロンから包帯を伸ばして下方へ叩きつけ、周囲に長方形の範囲攻撃を@{1}個生成します。
 23026	After a @{1}-second warning, damages players within @{2} meters and reduces their Attack Speed	@{1}秒の予兆後、@{2}m以内のプレイヤーにダメージを与え、攻撃速度を低下させます。
@@ -79,7 +79,7 @@ Index	English	Japanese_Translation
 23078	Lock on to a player; lock on again after hitting, chaining up to three times. End if it misses.	プレイヤー1人をロックオンし、命中後に再度ロックオンして最大3回まで連鎖します。命中しなかった場合は終了します。
 23079	Chance for Normal Attack to trigger AOE damage (internal CD: @{1}s), hitting up to @{2} targets	通常攻撃時、一定確率で範囲ダメージが発動します（内部クールダウン：@{1}秒）。最大@{2}体に命中します。
 23080	Summons Sight around you, revealing hidden enemies within a ${2}-meter radius for ${1} seconds.	自身の周囲にサイトを展開し、${1}秒間、半径${2}m以内の隠れている敵を発見します。
-23081	A faint hum produced by the Song of Suffering. Lasts @{1} seconds and stacks up to @{2} floors.	「苦痛の歌」から生まれたかすかな響き。@{1}秒間持続し、最大@{2}スタックまで累積します。
+23081	A faint hum produced by the Song of Suffering. Lasts @{1} seconds and stacks up to @{2} floors.	「苦難の諫歌」から生まれたかすかな響き。@{1}秒間持続し、最大@{2}スタックまで累積します。
 23082	The Bonfire Party has come to a wonderful close. Thank You all for spending the evening with us!	篝火パーティは素晴らしい締めくくりを迎えました。今夜を一緒に過ごしてくれた皆さん、ありがとうございました！
 23083	Failed to save the file. There may not be enough storage space. Free up some space and Retry....	ファイルの保存に失敗しました。空き容量が不足している可能性があります。容量を確保してからもう一度お試しください。
 23084	\n${1} is your favorite way to train. Training makes you stronger and earns you greater respect.	\n${1}はあなたが最も好んだ修行方法です。鍛錬はあなたを強くし、より大きな尊敬をもたらしました。
@@ -401,7 +401,7 @@ Index	English	Japanese_Translation
 23400	We meet again, Adventurer from afar. It seems the 【Nail of Cosmic Law】 has taken quite a liking to you.	また会いましたね、遠方から来た冒険者さん。どうやら【宇宙法則の釘】はあなたをずいぶん気に入ったようです。
 23401	The challenge against Ilmata, God of Nature, is now open. Guilds can enter through the Guild interface.	自然の神イルマタへの挑戦が開放されました。ギルド画面から参加できます。
 23402	When dealing damage while above @{1}% Life, Magic ATK is treated as being increased by Base Lv. * @{2}.	HPが@{1}%を上回っている状態でダメージを与える時、魔法攻撃力がBase Lv.*@{2}増加したものとして扱われます。
-23403	Every third cast of 【Soul Destroyer】 becomes 【Advanced Soul Destroyer】, increasing its damage by ${1}%.	【ソウルデストロイヤー】を3回発動するごとに【上級ソウルデストロイヤー】となり、ダメージが${1}%増加します。
+23403	Every third cast of 【Soul Destroyer】 becomes 【Advanced Soul Destroyer】, increasing its damage by ${1}%.	【ソウルブレイカー】を3回発動するごとに【上級ソウルブレイカー】となり、ダメージが${1}%増加します。
 23404	^{1}^{2}【Gravitation Field】^{3}^{4} DMG multiplier +^{5}${1}%^{6} and fixed skill damage +^{7}${2}^{8}.	^{1}^{2}【グラビテーションフィールド】^{3}^{4}のダメージ倍率+^{5}${1}%^{6}、固定スキルダメージ+^{7}${2}^{8}。
 23405	Professional artisans skilled in Cooking and one of the key professions for creating restorative dishes.	料理に精通した職人。回復料理を作るうえで欠かせない生活職業の一つです。
 23406	Failed to refresh the update files. Some cache files may be in use, or there may be a Permissions issue.	アップデートファイルの更新に失敗しました。一部のキャッシュファイルが使用中か、権限に問題がある可能性があります。
@@ -488,7 +488,7 @@ Index	English	Japanese_Translation
 23487	What a terrible waste... Fine, until we meet again. And we will meet again, little Poring. I know we will.	なんてもったいない……まあいい。また会う日まで。きっとまた会えるよ、ちびポリン。私はそう信じてる。
 23488	It's finally over! Today was even more exhausting than being chased by a Peco Peco! Time to get some rest~	やっと終わった～！今日はペコペコに追いかけられるより疲れたよ！そろそろ休もう～
 23489	Why are you looking at Me? Didn't the queen order you to give Me your full cooperation? Is that a problem?	何を見てるの？女王様から私に全面協力するよう命令されてるでしょ？何か問題でも？
-23490	Guild Challenge: Eternal Land is now open. The Guild Master or Vice Guild Master must start the challenge.	ギルドチャレンジ「エターナルランド」が開放されました。ギルドマスターまたはサブギルドマスターが挑戦を開始する必要があります。
+23490	Guild Challenge: Eternal Land is now open. The Guild Master or Vice Guild Master must start the challenge.	ギルドチャレンジ「エターナルランド」が開放されました。ギルドマスターまたは副ギルドマスターが挑戦を開始する必要があります。
 23491	Isti invites you to perform an Ocean Concerto! Quickly touch the bubble matching your note to gain a buff.	イスティが「海の協奏曲」へ招待しています！自分の音符と同じ泡に素早く触れてバフを獲得しましょう。
 23492	Guild Member ${1} has chosen to Impeach the Guild Leader. Please respond and help keep the guild thriving.	ギルドメンバー${1}がギルドマスターへの弾劾を選択しました。回答して、ギルドの発展を支えてください。
 23493	A semi-finished silk material designed for shoulder armor. Used to craft fine shoulder equipment or armor.	肩防具用に加工された絹の半製品素材。上質な肩装備や防具の製作に使用します。
@@ -541,7 +541,7 @@ Index	English	Japanese_Translation
 23540	This location cannot be selected as your drop point. You have been automatically switched to a nearby area.	この場所は降下地点に指定できません。近くのエリアへ自動的に変更されました。
 23541	(Grins foolishly) Instructor touched my head... and is going to teach me how to roast rabbit heads. Hehe...	（にやけながら）教官が頭を撫でてくれた……それにウサギの頭の焼き方も教えてくれるって。へへ……
 23542	Damage reduction increased by @{1}%. Each Floor of a defensive buff grants an Extra @{2}% damage reduction.	ダメージ軽減が@{1}%増加する。防御バフ1スタックごとに、さらにダメージ軽減が@{2}%増加する。
-23543	^{1}【Radiant Holy Light】^{2}'s ATK coefficient for percentage-based HP recovery increases by ^{3}${1}%^{4}.	^{1}【輝く聖光】^{2}の割合HP回復におけるATK係数が^{3}${1}%^{4}増加する。
+23543	^{1}【Radiant Holy Light】^{2}'s ATK coefficient for percentage-based HP recovery increases by ^{3}${1}%^{4}.	^{1}【輝けるホーリーライト】^{2}の割合HP回復におけるATK係数が^{3}${1}%^{4}増加する。
 23544	Individual rewards are distributed based on rankings on the <color=#fdab5b>Battle Merit Leaderboard</color>.	個人報酬は<color=#fdab5b>戦功ランキング</color>の順位に応じて配布されます。
 23545	With matters in Sograt Desert settled for now, go to the Eden Group and see what new requests are available.	ソグラト砂漠の件はひとまず片付いた。楽園団へ行って、新しい依頼がないか確認しよう。
 23546	Due to multiple violations, your suspension periods have been combined. Please refer to the latest end time.	複数回の違反により、利用停止期間が合算されました。最新の終了日時をご確認ください。
@@ -606,7 +606,7 @@ Index	English	Japanese_Translation
 23605	An exceptionally ornate dagger. Those of noble status often carry it as an accessory or use it in ceremonies.	極めて華美な短剣。貴族が装飾品として携えたり、儀式に使用したりすることが多い。
 23606	When second prize is drawn, the reward is increased by an Extra @{1}% if using the Baby Desert Wolf Transform	ベビーデザートウルフ変身を使用している場合、2等抽選時の報酬が追加で@{1}%増加する
 23607	No Guild: A Guild is required to enter this area. Players who leave their Guild while inside will be removed.	ギルド未加入：このエリアへの入場にはギルド加入が必要です。エリア内でギルドを脱退したプレイヤーは退出させられます。
-23608	Removes ^{1}^{2}【Silence】^{3}^{4} and ^{5}^{6}【Blind】^{7}^{8} from the designated ST ally within ${1} meters.	${1}m以内の指定した味方単体から^{1}^{2}【沈黙】^{3}^{4}と^{5}^{6}【暗闇】^{7}^{8}を解除する。
+23608	Removes ^{1}^{2}【Silence】^{3}^{4} and ^{5}^{6}【Blind】^{7}^{8} from the designated ST ally within ${1} meters.	${1}m以内の指定した味方単体から^{1}^{2}【沈黙】^{3}^{4}と^{5}^{6}【暗黒】^{7}^{8}を解除する。
 23609	Increases Physical ATK for you and up to @{1} allies within a ${1}-meter radius by ^{1}${2}^{2} for ${3} sec.	${3}秒間、自身および半径${1}m以内の味方最大@{1}人の物理攻撃力を^{1}${2}^{2}増加させる。
 23610	Summon a vending cart nearby where you can purchase Battle Royale items. The vending cart lasts for @{1} sec.	近くに自動販売カートを召喚し、バトルロイヤル用アイテムを購入できる。カートは@{1}秒間持続する。
 23611	Deals Physical ATK*^{1}${2}%+${3}^{2} as Neutral melee Physical damage to the targeted ST enemy within ${1}m.	${1}m以内の対象の敵単体に物理攻撃力*^{1}${2}%+${3}^{2}の無属性近接物理ダメージを与える。
@@ -616,7 +616,7 @@ Index	English	Japanese_Translation
 23615	Failed to read the remote configuration file. This may be a Network issue. Check your connection and Retry....	リモート設定ファイルの読み込みに失敗しました。ネットワークに問題がある可能性があります。接続を確認して再試行してください……
 23616	A thick pink milkshake blended from strawberries and Milk. Increases Physical DEF by @{1}~@{2} for @{3} hours.	イチゴとミルクを混ぜた濃厚なピンク色のミルクシェイク。@{3}時間、物理防御力が@{1}～@{2}増加する。
 23617	Rally your guild's strength and crush the enemy formation in one fell swoop! Victory or defeat—it's up to you!	ギルドの力を結集し、一気に敵陣を打ち砕け！勝敗は君たち次第だ！
-23618	Confirm Exit from Festival Invitation?\n(You may enter or leave the Location at any time while getting Ready.)	祝典招待から退出しますか？\n（準備中はいつでも会場への出入りが可能です。）
+23618	Confirm Exit from Festival Invitation?\n(You may enter or leave the Location at any time while getting Ready.)	祭典招待から退出しますか？\n（準備中はいつでも会場への出入りが可能です。）
 23619	^{1}^{2}【Sharp Shooting】^{3}^{4} increases its percentage damage multiplier by ${1}% and fixed damage by ${2}.	^{1}^{2}【シャープシューティング】^{3}^{4}の割合ダメージ倍率が${1}%、固定ダメージが${2}増加する。
 23620	When ^{1}^{2}[Sanctuary]^{3}^{4} is cast, it restores MATK*${2}%+${3} HP to up to ${1} allies within the area.	^{1}^{2}[サンクチュアリ]^{3}^{4}発動時、範囲内の味方最大${1}人のHPをMATK*${2}%+${3}回復する。
 23621	When receiving a fatal attack from a player, there is a ${1}% Chance to Revive with ${2}% Life (Unique Effect)	プレイヤーから致命的な攻撃を受けた時、${1}%の確率でHP${2}%の状態で復活する（固有効果）
@@ -728,7 +728,7 @@ Index	English	Japanese_Translation
 23727	Hmm... There are still mysteries left unsolved. Talk to other Adventurers, and you may find the answers you seek.	ふむ……まだ解けていない謎が残っている。他の冒険者に話を聞けば、探している答えが見つかるかもしれない。
 23728	You haven't used one before, have you? A Fly Wing can randomly Teleport You to another location within this area.	使ったことないだろ？ハエの羽を使うと、このエリア内の別の場所へランダムでテレポートできるんだ。
 23729	You can continue participating in the auction after switching dungeons, leaving the dungeon, or leaving the party	ダンジョンを切り替えたり、退出したり、パーティを抜けたりしても、引き続きオークションに参加できます
-23730	Great news! Our Guild Member “${1}” is today's Festival Invitation lucky star! Let's go cheer them on! Go Support	朗報！ギルドメンバー「${1}」が本日の祝典招待ラッキースターに選ばれました！みんなで応援しに行こう！応援する
+23730	Great news! Our Guild Member “${1}” is today's Festival Invitation lucky star! Let's go cheer them on! Go Support	朗報！ギルドメンバー「${1}」が本日の祭典招待ラッキースターに選ばれました！みんなで応援しに行こう！応援する
 23731	The long-awaited grand prize is about to be revealed! Who will be tonight's luckiest winner?\nFirst Prize Drawing	待ちに待った豪華賞品がまもなく発表！今夜一番幸運なのは誰だ？\n1等抽選
 23732	Numerous invading monsters have appeared at Prontera South Gate. Nearby Adventurers, provide support immediately!	プロンテラ南門に多数の侵入モンスターが出現！近くの冒険者は直ちに支援せよ！
 23733	Without looking back, Jack ran into the woods. In the distance, a scream rang out as a branch tore his clothes...	ジャックは振り返りもせず森へ逃げ込んだ。遠くから、枝に服を引き裂かれた悲鳴が響いた……
@@ -746,7 +746,7 @@ Index	English	Japanese_Translation
 23745	When a damage/control Protector skill deals damage, adds ${2} hit(s) of ^{1}${3}%^{2} Fire melee Physical damage.	攻撃/行動妨害型の守護スキルがダメージを与えると、^{1}${3}%^{2}の火属性近接物理ダメージを${2}回追加する。
 23746	When a damage/control Protector skill deals damage, adds ${1} hit(s) of ^{1}${2}%^{2} Fire melee Physical damage.	攻撃/行動妨害型の守護スキルがダメージを与えると、^{1}${2}%^{2}の火属性近接物理ダメージを${1}回追加する。
 23747	You no longer own some items in the recommended preset. Replace personal preset ${1} with the recommended preset:	おすすめプリセット内の一部アイテムを所持していません。個人プリセット${1}をおすすめプリセットに置き換えますか：
-23748	When using certain Job Talents, consumes corresponding ^{1}【Pages】^{2} Floors to cast them an Extra @{1} time(s).	一部の職業タレント使用時、対応する^{1}【ページ】^{2}を消費し、追加で@{1}回発動する。
+23748	When using certain Job Talents, consumes corresponding ^{1}【Pages】^{2} Floors to cast them an Extra @{1} time(s).	一部の職業タレント使用時、対応する^{1}【ブックページ】^{2}を消費し、追加で@{1}回発動する。
 23749	Participate in the Tower of Spirits during the event. Rewards will be issued based on rankings during Settlement.	イベント期間中に精霊の塔へ参加しよう。集計時のランキングに応じて報酬が配布されます。
 23750	Amplifies your magic power, increasing Magic ATK by ^{1}${1}^{2} and Cast Speed by ^{3}${2}^{4} for ${3} seconds.	魔力を増幅し、${3}秒間、魔法攻撃力を^{1}${1}^{2}、詠唱速度を^{3}${2}^{4}増加させる。
 23751	Every @{1} DEX grants @{2} HIT, @{3} ranged-class Physical ATK, @{4}% ranged-class Physical ATK, and @{5} CT Speed	DEXが@{1}増えるごとに、命中+@{2}、遠距離系物理攻撃力+@{3}、遠距離系物理攻撃力+@{4}%、CT速度+@{5}
@@ -796,7 +796,7 @@ Index	English	Japanese_Translation
 23795	Your compass... It should begin collecting Soul Echoes soon, shouldn't it? They're more important than you realize.	あなたのコンパス……もうすぐソウルエコーを集め始めるはずよね？あれは、あなたが思っている以上に重要なの。
 23796	Eat <color=#C27B47>Special Dishes</color> to increase base stats. These bonuses are cleared when the Season changes	<color=#C27B47>特別料理</color>を食べると基礎ステータスが増加する。このボーナスはシーズン切り替え時にリセットされる
 23797	Kafra Battlefield Manager\nReceive the Blessing of Baldur, God of Light, increasing MSPD by @{1}% for @{2} minutes.	カプラ戦場管理人\n光の神バルドルの加護を受け、@{2}分間、移動速度が@{1}%増加する。
-23798	Congratulations to ${1} for winning First Place in the Festival Invitation! What an impressive wealth of knowledge!	祝典招待で1位を獲得した${1}さん、おめでとうございます！見事な知識量でした！
+23798	Congratulations to ${1} for winning First Place in the Festival Invitation! What an impressive wealth of knowledge!	祭典招待で1位を獲得した${1}さん、おめでとうございます！見事な知識量でした！
 23799	${1} will begin the Dragon's Descent ritual in Prontera in ${2} seconds and invites all Adventurers to participate!	${1}が${2}秒後にプロンテラで「竜の降臨」の儀式を開始し、すべての冒険者を招待します！
 23800	The enemy has pushed into the central district! Head to the central perimeter defenses and engage them immediately!	敵が中央地区へ侵入した！直ちに中央外周の防衛線へ向かい、迎撃せよ！
 23801	Open this gift box for a chance to obtain a large amount of Diamonds, Equipment Refining Materials, and Rare Cards.	このギフトボックスを開けると、大量のダイヤ、装備精錬素材、レアカードなどを獲得できることがある。
@@ -969,7 +969,7 @@ Index	English	Japanese_Translation
 23968	If the Challenge difficulty is too high, you can abandon the stage from within the Dungeon and select a new difficulty.	挑戦難易度が高すぎる場合は、ダンジョン内からステージを放棄し、別の難易度を選択できます。
 23969	Guild Challenge: Eternal Land - ${1} difficulty is now open. Join your fellow Guild Members in battle! Click to join >>	ギルドチャレンジ：エターナルランド - ${1}難易度が開放されました。ギルドメンバーと共に戦いましょう！クリックして参加 >>
 23970	The selected difficulty is not the highest difficulty you have unlocked. Start the challenge at the current difficulty?	選択した難易度は現在解放済みの最高難易度ではありません。この難易度で挑戦を開始しますか？
-23971	I'm amazing! I snagged First Place in the Festival Invitation! To all my darlings who picked me—you've got a great eye!	私ってすごい！祝典の招待で1位になっちゃった！私を選んでくれたみんな、見る目があるね！
+23971	I'm amazing! I snagged First Place in the Festival Invitation! To all my darlings who picked me—you've got a great eye!	私ってすごい！祭典招待で1位になっちゃった！私を選んでくれたみんな、見る目があるね！
 23972	Bobo\nThere are so many ant eggs, and I can just make out pieces of armor... It looks like a lot of people died here...	ボボ\nアリの卵がこんなにたくさん…それに鎧の破片まで見えるよ。ここで大勢の人が死んだみたい…
 23973	Bobo\nWhere's the Professor? These ants didn't bury them in the sand, did they?! Hurry and drive these pesky ants away!	ボボ\n教授はどこ？まさか、このアリたちが砂の中に埋めちゃったんじゃないよね？！早くこの邪魔なアリたちを追い払おう！
 23974	Some of your Pre-purchase bids are currently the highest. You can only cancel those that are not the highest. Continue?	事前購入の入札のうち、一部が現在最高額になっています。最高額ではない入札のみキャンセルできます。続行しますか？

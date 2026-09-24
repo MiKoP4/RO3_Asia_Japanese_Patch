@@ -4,6 +4,27 @@ using RO3.JapaneseMod;
 
 class DisplayTextTranslatorTest
 {
+    class GetterTranslatedText
+    {
+        private string m_text;
+        public GetterTranslatedText(string raw) { m_text = raw; }
+        public string text { get { return "Getter already translated"; } }
+    }
+    class BufferedText : GetterTranslatedText
+    {
+        private bool m_IsTextBackingStringDirty;
+        private readonly string buffer;
+        public BufferedText(string raw, string current, bool dirty) : base(raw)
+        { buffer = current; m_IsTextBackingStringDirty = dirty; }
+        private string InternalTextBackingArrayToString() { return buffer; }
+    }
+    class LegacyText
+    {
+        private string m_Text = "Legacy raw";
+        public string text { get { return "Getter already translated"; } }
+    }
+    class OtherText { public string text { get { return "Fallback raw"; } } }
+
     static int Main(string[] args)
     {
         var translator = new DisplayTextTranslator();
@@ -51,7 +72,37 @@ class DisplayTextTranslatorTest
                 failed++;
             }
         }
-        Console.WriteLine("Tests: " + (cases.GetLength(0) - failed) + "/" + cases.GetLength(0) + " passed");
+        string[,] backingCases = {
+            { DisplayTextBackingStore.Read(new GetterTranslatedText("Goblin Archer")), "Goblin Archer" },
+            { DisplayTextBackingStore.Read(new GetterTranslatedText("Second instance")), "Second instance" },
+            { DisplayTextBackingStore.Read(new BufferedText("Stale", "Current buffer", true)), "Current buffer" },
+            { DisplayTextBackingStore.Read(new BufferedText("Current string", "Stale buffer", false)), "Current string" },
+            { DisplayTextBackingStore.Read(new BufferedText("Stale", "", true)), "" },
+            { DisplayTextBackingStore.Read(new LegacyText()), "Legacy raw" },
+            { DisplayTextBackingStore.Read(new OtherText()), "Fallback raw" },
+            { DisplayTextBackingStore.Read(null), null },
+        };
+        for (int i = 0; i < backingCases.GetLength(0); i++)
+            if (backingCases[i, 0] != backingCases[i, 1]) { Console.WriteLine("FAILED: backing text case " + i); failed++; }
+        translator.AddOfflineExact("None", "なし");
+        string[] rankPath = { "Team_TTxt", "TeamType_TTxt", "Layout_Info", "Info", "Top_GraphicSwitchG", "TipsRoot_RTransform" };
+        string[,] rankCases = {
+            { "无", "なし" }, { "無", "なし" },
+            { "<color=#7e7361>无</color>", "<color=#7e7361>なし</color>" },
+            { "无題", "无題" }, { "TestPlayer", "TestPlayer" }, { "なし", "なし" },
+        };
+        for (int i = 0; i < rankCases.GetLength(0); i++)
+            if (translator.TranslateProfileRankValue(rankCases[i, 0], rankPath) != rankCases[i, 1])
+            { Console.WriteLine("FAILED: scoped rank case " + i); failed++; }
+        for (int i = 0; i < rankPath.Length; i++)
+        {
+            string[] otherSlot = (string[])rankPath.Clone();
+            otherSlot[i] = "OtherField";
+            if (translator.TranslateProfileRankValue("无", otherSlot) != "无")
+            { Console.WriteLine("FAILED: unrelated rank slot " + i); failed++; }
+        }
+        int total = cases.GetLength(0) + backingCases.GetLength(0) + rankCases.GetLength(0) + rankPath.Length;
+        Console.WriteLine("Tests: " + (total - failed) + "/" + total + " passed");
         return failed == 0 ? 0 : 1;
     }
 }

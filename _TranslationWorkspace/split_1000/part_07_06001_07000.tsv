@@ -71,7 +71,7 @@ Index	English	Japanese_Translation
 6070	Initial Preview	初期プレビュー
 6071	Maximum Skills:	最大スキル数:
 6072	Effect Overview	効果概要
-6073	Pet Shard: Goat	ペットのかけら: ヤギ
+6073	Pet Shard: Goat	ペットの欠片: ヤギ
 6074	Zherlthsh Shard	ゼルトシュのかけら
 6075	Spicy Herb Wrap	スパイシーハーブラップ
 6076	Vitality Potion	活力ポーション
@@ -377,7 +377,7 @@ Index	English	Japanese_Translation
 6376	AFK in the Field	フィールドでAFK
 6377	Time Until Start	開始までの時間
 6378	Position Changes	ポジション変更
-6379	Guild Technology	ギルド技術
+6379	Guild Technology	ギルドテクノロジー
 6380	Additional Affix	追加アフィックス
 6381	No Card Inserted	カード未装着
 6382	Restoration Cost	復元コスト
@@ -712,7 +712,7 @@ Index	English	Japanese_Translation
 6711	Size Level: ${1}	サイズレベル: ${1}
 6712	Draw First Prize	1等を引く
 6713	Draw Third Prize	3等を引く
-6714	Learn Life Skill	ライフスキルを習得
+6714	Learn Life Skill	生活スキルを習得
 6715	Start Next Stage	次のステージを開始
 6716	Synthesis Result	合成結果
 6717	Defend the Flag!	旗を守れ！
@@ -793,7 +793,7 @@ Index	English	Japanese_Translation
 6792	Divine Silk Vine	神聖な絹の蔓
 6793	Radiant Gold Ore	輝く金鉱石
 6794	PATCH_CHECK_INFO	PATCH_CHECK_INFO
-6795	Life Skill Adept	ライフスキルの達人
+6795	Life Skill Adept	生活スキルの達人
 6796	Enhanced Potency	効果強化
 6797	An empty bottle.	空のボトル。
 6798	Sword of Victory	勝利の剣
@@ -803,12 +803,12 @@ Index	English	Japanese_Translation
 6802	Abundant Healing	豊富な回復
 6803	Magic Damage Cap	魔法ダメージ上限
 6804	Momentum Breaker	モメンタムブレイカー
-6805	Pet Shard: Vocal	ペットのかけら: ボーカル
-6806	Pet Shard: Choco	ペットのかけら: チョコ
-6807	Pet Shard: Clock	ペットのかけら: クロック
-6808	Pet Shard: Bokba	ペットのかけら: ボクバ
+6805	Pet Shard: Vocal	ペットの欠片: ボーカル
+6806	Pet Shard: Choco	ペットの欠片: チョコ
+6807	Pet Shard: Clock	ペットの欠片: クロック
+6808	Pet Shard: Bokba	ペットの欠片: ボクバ
 6809	Evil Nymph Shard	邪妖精のかけら
-6810	Pet Shard: Sohee	ペットのかけら: ソヒ
+6810	Pet Shard: Sohee	ペットの欠片: ソヒ
 6811	Demon Maid Shard	デーモンメイドのかけら
 6812	Spicy Meat Patty	スパイシーミートパティ
 6813	Spicy Fried Rice	スパイシー炒飯
@@ -899,7 +899,7 @@ Index	English	Japanese_Translation
 6898	Advanced Rewards	上級報酬
 6899	Monster Research	モンスター研究
 6900	Kills: ${1}/${2}	キル数: ${1}/${2}
-6901	Enhance Cloaking	クローク強化
+6901	Enhance Cloaking	強化クローキング
 6902	Other Violations	その他の違反
 6903	Gambling Content	ギャンブルコンテンツ
 6904	Abusive Language	暴言
@@ -965,7 +965,7 @@ Index	English	Japanese_Translation
 6964	Gift to a Friend	フレンドにギフト
 6965	Purchase RO Pass	ROパスを購入
 6966	Movement Rewards	移動報酬
-6967	Life Skill Rules	ライフスキルルール
+6967	Life Skill Rules	生活スキルルール
 6968	Tree Hollow Chat	ツリーホロウチャット
 6969	Tax Rate Details	税率詳細
 6970	Devotion's Grace	献身の恩寵

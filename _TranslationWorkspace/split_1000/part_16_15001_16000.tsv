@@ -500,7 +500,7 @@ Index	English	Japanese_Translation
 15499	Coffin Restraint@{1}Remove Stealth	棺拘束@{1}ステルス解除
 15500	Moonlight Flower Bell Incoming@{1}	月夜花ベル接近@{1}
 15501	Advancing Cone Damage-No Logic Yet	前進コーンダメージ（ロジック未実装）
-15502	Rhythmic Warg Minion (Warg Charge)	リズミックワーグミニオン（ワーグチャージ）
+15502	Rhythmic Warg Minion (Warg Charge)	リズミックウォーグミニオン（ウォーグチャージ）
 15503	Praiser Priest Hymn: Manifestation	賛美司祭の聖歌：顕現
 15504	${1} Trophy Category Level Rewards	${1}トロフィーカテゴリーレベル報酬
 15505	For every +${1} Refine, CRIT +${2}	精錬+${1}ごとにCRIT +${2}
@@ -765,7 +765,7 @@ Index	English	Japanese_Translation
 15764	Learn more of the truth from Bragis	ブラギスから真相をさらに聞く
 15765	Costume System is not yet available	コスチュームシステムはまだ利用できません
 15766	You have successfully Revived ${1}!	${1}の復活に成功しました！
-15767	Regional Capital War Auction - Open	地域首都戦オークション - 開催中
+15767	Regional Capital War Auction - Open	地方首都戦オークション - 開催中
 15768	Equip the item before enhancing it.	強化する前にアイテムを装備してください。
 15769	Tap Reforge to reroll 3 attributes.	「再鍛造」をタップして3つの属性を再抽選。
 15770	\nYou enjoyed fine food ${1} times.	\n美食を${1}回楽しみました。

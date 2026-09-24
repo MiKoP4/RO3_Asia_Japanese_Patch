@@ -120,7 +120,7 @@
 3119	Event Rules	イベントルール
 3120	Match Rules	試合ルール
 3121	Boss Skills	ボススキル
-3122	First Clear	ファーストクリア
+3122	First Clear	初回クリア
 3123	In Position	インポジション
 3124	Discard All	すべて破棄
 3125	Entry Alert	エントリーアラート
@@ -175,7 +175,7 @@
 3174	Flame Chain	フレイムチェーン
 3175	Flame Burst	フレイムバースト
 3176	Frost Burst	フロストバースト
-3177	Raging Gale	荒れ狂う疾風
+3177	Raging Gale	レイジングゲイル
 3178	Armor Break	アーマーブレイク
 3179	Silver Moon	シルバームーン
 3180	Demon Flame	デモンフレイム
@@ -332,7 +332,7 @@
 3331	Guild League	ギルドリーグ
 3332	Poring Chest	ポリンチェスト
 3333	Profile Card	プロフィールカード
-3334	Basic Attack	基本攻撃
+3334	Basic Attack	通常攻撃
 3335	Trade Review	トレードレビュー
 3336	Stall Closed	露店閉店
 3337	Monster Hunt	モンスターハント
@@ -356,14 +356,14 @@
 3355	Divine Totem	神術トーテム
 3356	Novice Trial	ノービストライアル
 3357	Unidentified	未鑑定
-3358	Blue Quality	ブルークオリティ
+3358	Blue Quality	青品質
 3359	All Monsters	すべてのモンスター
 3360	Tavern Gifts	酒場の贈り物
 3361	Log In Again	再度ログインしてください
 3362	Reach Izlude	イズルードに到達
 3363	Help the Man	男を助けて
 3364	Talk to Boya	ボヤと話す
-3365	Life Skills:	ライフスキル:
+3365	Life Skills:	生活スキル:
 3366	Astral Level	アストラルレベル
 3367	Reset Points	リセットポイント
 3368	Test STR@{1}	STR@{1} をテストします
@@ -434,7 +434,7 @@
 3433	Refresh Time	リフレッシュ時間
 3434	Free to Join	参加無料
 3435	Party Marker	パーティマーカー
-3436	Revive Point	リバイブポイント
+3436	Revive Point	復活ポイント
 3437	Increase Bid	入札額を引き上げる
 3438	Request sent	リクエストを送信しました
 3439	Announcement	お知らせ
@@ -534,7 +534,7 @@
 3533	Divine Light	ディバインライト
 3534	Arrow Attack	アローアタック
 3535	Vocal Skills	ボーカルスキル
-3536	Fallen Swipe	フォールン・スワイプ
+3536	Fallen Swipe	フォールン・スイープ
 3537	Shatterblade	シャッターブレード
 3538	Beehive Toss	蜂の巣投げ
 3539	Bandage Lash	包帯ラッシュ

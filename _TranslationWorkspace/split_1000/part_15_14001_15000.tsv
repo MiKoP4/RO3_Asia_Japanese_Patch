@@ -83,7 +83,7 @@ Index	English	Japanese_Translation
 14082	The inviter has left the party	招待者がパーティを退出しました
 14083	No longer a Deputy Raid Leader	レイド副リーダーを解任されました
 14084	No players available to invite	招待可能なプレイヤーがいません
-14085	Daily Activity Point Reward II	デイリーアクティビティポイント報酬II
+14085	Daily Activity Point Reward II	デイリー活動ポイント報酬II
 14086	Stronghold War - Auction Phase	拠点戦 - オークションフェーズ
 14087	A bid has already been placed.	すでに入札済みです。
 14088	Supply Transport - Trade Phase	物資輸送 - 取引フェーズ
@@ -471,7 +471,7 @@ Index	English	Japanese_Translation
 14470	This Group Chat has been muted.	このグループチャットはミュートされています。
 14471	Hidden Treasure PVP Placeholder	隠された宝PVPプレースホルダー
 14472	Learned Moonlit Challenger-@{1}	ムーンリットチャレンジャー-@{1}を習得
-14473	Guild Weekly Activity Reward II	ギルド週間アクティビティ報酬II
+14473	Guild Weekly Activity Reward II	ギルド週間活動報酬II
 14474	Stronghold Battle - In Progress	拠点戦 - 進行中
 14475	Select a region to bid on first	先に入札地域を選択してください
 14476	No guilds are currently bidding	現在入札中のギルドはありません
@@ -508,7 +508,7 @@ Index	English	Japanese_Translation
 14507	Skill@{1} Eight-Way@{2} Players	スキル@{1} 8方向@{2}人
 14508	Skill@{1} Fin Dimensional Slash	スキル@{1} フィン次元斬り
 14509	Mandragora Ranged Normal Attack	マンドラゴラ遠距離通常攻撃
-14510	Light Poring Normal Attack-Holy	ライトポリン通常攻撃-聖属性
+14510	Light Poring Normal Attack-Holy	ラディアントポリン通常攻撃 - 聖属性
 14511	Updating the game. Please wait.	ゲームを更新中です。お待ちください。
 14512	Tap to enter an invitation code	タップして招待コードを入力
 14513	Ring Blade Kunai - Boss Landing	リングブレードクナイ - ボス着地
@@ -746,7 +746,7 @@ Index	English	Japanese_Translation
 14745	Increases Physical ATK by @{1}%	物理ATK +@{1}%
 14746	Savage Babe Reward Boost Lv@{1}	サベージベイブ報酬ブースト Lv@{1}
 14747	Sandstorm Inner and Outer Rings	サンドストーム内外周
-14748	Orc Hero Normal Attack - Ground	オークヒーロー通常攻撃 - 地面
+14748	Orc Hero Normal Attack - Ground	オークヒーロー通常攻撃 - 地属性
 14749	Cloaking Dimension (Unreleased)	クロークディメンション（未実装）
 14750	Modify recruitment information?	募集情報を変更しますか？
 14751	Afternoon Stroll · Warm Sunshine	午後の散歩・暖かな陽射し
@@ -795,7 +795,7 @@ Index	English	Japanese_Translation
 14794	Save your stat allocation first?	先にステータス割り振りを保存しますか？
 14795	Seriously? I can't stop smiling!	本当に？笑いが止まらない！
 14796	Accept ${1}'s Revive invitation?	${1}の復活招待を受けますか？
-14797	Regional Capital War Preparation	地域首都戦準備
+14797	Regional Capital War Preparation	地方首都戦準備
 14798	The upgrade cap has been reached	強化上限に達しました
 14799	New levels unlock after Base${1}	Base${1}到達後に新レベル解放
 14800	\nYou managed a guild ${1} times	\nギルドを${1}回管理しました
@@ -847,8 +847,8 @@ Index	English	Japanese_Translation
 14846	Cross Bombardment (No Animation)	クロス砲撃（アニメーションなし）
 14847	Tile-Occupying Derived Skill@{1}	タイル占有派生スキル@{1}
 14848	Rhythmic Moonlit Challenger@{1}s	リズミック・ムーンリットチャレンジャー@{1}s
-14849	Battle Chant Harmony - Resonance	バトルチャントハーモニー - 共鳴
-14850	Rhythmic Warg Minion (Warg Bite)	リズミックワーグミニオン（ワーグバイト）
+14849	Battle Chant Harmony - Resonance	バトルチャント・ハーモニー - 共鳴
+14850	Rhythmic Warg Minion (Warg Bite)	リズミックウォーグミニオン（ウォーグバイト）
 14851	Psychokinetic Astral Body (Copy)	念動アストラルボディ（コピー）
 14852	Interwoven Light and Dark: Magic	光と闇の交錯：魔法
 14853	Praiser Priest Hymn: Equal Grace	賛美プリースト賛歌：平等の恵み

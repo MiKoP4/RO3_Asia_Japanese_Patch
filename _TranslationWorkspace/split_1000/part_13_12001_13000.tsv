@@ -430,8 +430,8 @@
 12429	Memory Game-Bottom Warning	メモリーゲーム・下警告
 12430	Fly Away During Transition	遷移中に飛び去る
 12431	Monster Normal Attack-Fire	モンスター通常攻撃-火属性
-12432	Warg Companion (Warg Bite)	ワーグコンパニオン（ワーグバイト）
-12433	Enhance Warg Hunt (Ranged)	ワーグハント強化（遠距離）
+12432	Warg Companion (Warg Bite)	ウォーグコンパニオン（ウォーグバイト）
+12433	Enhance Warg Hunt (Ranged)	ウォーグハント強化（遠距離）
 12434	Monster Normal Attack-Wind	モンスター通常攻撃-風属性
 12435	Monster Normal Attack-Void	モンスター通常攻撃-無属性
 12436	Monster Normal Attack-Dark	モンスター通常攻撃-闇属性
@@ -451,7 +451,7 @@
 12450	Skill@{1}Meteor Shower@{2}	スキル@{1}メテオシャワー@{2}
 12451	Skill@{1}Melodic Flame@{2}	スキル@{1}メロディックフレイム@{2}
 12452	Roar Rockfall-No Logic Yet	咆哮落石（ロジック未実装）
-12453	Song of Suffering - Murmur	苦痛の歌 - ささやき
+12453	Song of Suffering - Murmur	苦難の諫歌 - ローハム
 12454	Melodic High-Energy Impact	メロディック高エネルギー衝撃
 12455	Exorciser Spell: Free Will	エクソシスト呪文：フリーウィル
 12456	S@{1}Rolling Blade Barrage	S@{1}ローリングブレード連撃
@@ -743,7 +743,7 @@
 12742	Unable to make a Donation.	寄付できません。
 12743	Resistance Intensity: ${1}	抵抗強度：${1}
 12744	Outpost's Group Warp Skill	前哨基地グループワープスキル
-12745	Drake minion Basic Attack.	ドレイクミニオン基本攻撃。
+12745	Drake minion Basic Attack.	ドレイクミニオン通常攻撃。
 12746	You've already liked this.	すでに「いいね」済みです。
 12747	This is Left-Hand Mastery.	これは左手修練です。
 12748	Total Rewards over 30 Days	30日間の総報酬
@@ -817,7 +817,7 @@
 12816	Increases your MDMG output.	魔法ダメージ出力が増加します。
 12817	Emi Continent Royal Capital	エミ大陸王都
 12818	Impeachment to be responded	弾劾への応答待ち
-12819	Daily Activity Compensation	デイリーアクティビティ補償
+12819	Daily Activity Compensation	デイリー活動補償
 12820	Trade Penalty Appeal Denied	取引ペナルティ異議申立て却下
 12821	Festival Invitation Rewards	祭典招待報酬
 12822	Secret Trove Activity Quest	秘密宝庫アクティビティクエスト
@@ -921,8 +921,8 @@
 12920	Skill@{1}_Dance Machine_New	スキル@{1}_ダンスマシン_New
 12921	Skill@{1}_Summon Circle@{2}	スキル@{1}_召喚サークル@{2}
 12922	Skill@{1}Multihit Charge Up	スキル@{1}マルチヒットチャージ
-12923	Song of Suffering - Organum	苦痛の歌 - オルガヌム
-12924	Song of Suffering - Baptism	苦痛の歌 - バプティズム
+12923	Song of Suffering - Organum	苦難の諫歌 - オルガヌム
+12924	Song of Suffering - Baptism	苦難の諫歌 - バプティズム
 12925	Exorciser Spell: Corruption	エクソシスト呪文：コラプション
 12926	Increase Recuperative Power	回復力増加
 12927	I have completed the trial.	試練を完了しました。

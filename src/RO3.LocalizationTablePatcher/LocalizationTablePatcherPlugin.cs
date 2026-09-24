@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace RO3.JapaneseMod
 {
-    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.5")]
+    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.27")]
     public sealed class LocalizationTablePatcherPlugin : BaseUnityPlugin
     {
         private sealed class ReferenceComparer<T> : IEqualityComparer<T> where T : class
@@ -53,6 +53,14 @@ namespace RO3.JapaneseMod
         private static Harmony _displayHarmony;
         private static BepInEx.Logging.ManualLogSource _displayLog;
         private static int _displayTranslatedCount;
+        private static readonly Dictionary<long, string> _persistentTranslationsById = new Dictionary<long, string>();
+        private delegate bool OfflineTranslate(string text, out string translation);
+        private static OfflineTranslate _offlineTranslate;
+        private static bool _offlineWarning;
+        private static bool _displayTraceEnabled;
+        private static bool _displayFailureLogged;
+        private static readonly HashSet<string> _displayTraceInputs = new HashSet<string>(StringComparer.Ordinal);
+        [ThreadStatic] private static bool _insideDisplayTranslation;
         private readonly Dictionary<long, Entry> _entriesById = new Dictionary<long, Entry>();
         private static LocalizationTablePatcherPlugin _current;
         private bool _done;
@@ -1312,7 +1320,36 @@ namespace RO3.JapaneseMod
             if (_displayHarmony != null) return;
             _displayHarmony = new Harmony("com.ro3.localizationtablepatcher.display");
             _displayLog = Logger;
-            string[] typeNames = { "HUDUber.Graphic", "HUDUber.Text", "TMPro.TMP_Text", "UnityEngine.UI.Text" };
+            _displayTraceEnabled = File.Exists(Path.Combine(Paths.ConfigPath, "RO3.DisplayTrace.enable"));
+            string dictionaryRoot = Path.Combine(Path.GetDirectoryName(Paths.ConfigPath), "Translation/ja/Text");
+            int exactRows = 0;
+            foreach (string file in new[] { "RO3_CanonicalTranslations.txt", "RO3_PriorityOverrides.txt" })
+            {
+                string path = Path.Combine(dictionaryRoot, file);
+                if (!File.Exists(path)) continue;
+                foreach (string line in File.ReadAllLines(path))
+                {
+                    string[] pair = DisplayTextTranslator.DecodeDictionaryLine(line.TrimStart('\uFEFF'));
+                    if (pair == null || pair[0].StartsWith("r:\"", StringComparison.Ordinal)) continue;
+                    _displayTranslator.AddOfflineExact(pair[0], pair[1]);
+                    exactRows++;
+                }
+            }
+            Logger.LogInfo("[LocalizationTablePatcher][Display] Exact dictionary rows loaded=" + exactRows);
+            _displayTranslator.OfflineLookup = TryOfflineTranslation;
+            foreach (Type type in FindTypes("LanguageMain"))
+            {
+                MethodInfo lookup = type.GetMethod("Obf_gO", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic,
+                    null, new[] { typeof(long) }, null);
+                if (lookup == null) continue;
+                try
+                {
+                    _displayHarmony.Patch(lookup, postfix: new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("PersistentLanguagePostfix", BindingFlags.Static | BindingFlags.NonPublic)));
+                    Logger.LogInfo("[LocalizationTablePatcher][Display] Persistent ID lookup installed.");
+                }
+                catch (Exception ex) { Logger.LogWarning("[LocalizationTablePatcher][Display] ID hook failed: " + ex.Message); }
+            }
+            string[] typeNames = { "HUDUber.Graphic", "HUDUber.Text", "TMPro.TMP_Text", "UnityEngine.UI.Text", "MTextData", "TextMeshBuilder" };
             foreach (string name in typeNames)
             {
                 foreach (Type type in FindTypes(name))
@@ -1320,10 +1357,15 @@ namespace RO3.JapaneseMod
                     foreach (MethodInfo method in type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
                     {
                         ParameterInfo[] args = method.GetParameters();
-                        if ((method.Name != "SetText" && method.Name != "set_text") || args.Length == 0 || args[0].ParameterType != typeof(string)) continue;
+                        bool displayEntry = method.Name == "SetText" || method.Name == "set_text"
+                            || (name == "MTextData" && method.Name == "set_Context")
+                            || (name == "TextMeshBuilder" && method.Name == "Append");
+                        if (!displayEntry || args.Length == 0 || args[0].ParameterType != typeof(string)) continue;
                         try
                         {
-                            _displayHarmony.Patch(method, prefix: new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("DisplayTextPrefix", BindingFlags.Static | BindingFlags.NonPublic)));
+                            var prefix = new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("DisplayTextPrefix", BindingFlags.Static | BindingFlags.NonPublic));
+                            prefix.priority = Priority.Last;
+                            _displayHarmony.Patch(method, prefix: prefix);
                             Logger.LogInfo("[LocalizationTablePatcher][Display] Hook installed: " + method.DeclaringType.FullName + "." + method);
                         }
                         catch (Exception ex)
@@ -1333,18 +1375,190 @@ namespace RO3.JapaneseMod
                     }
                 }
             }
+            // Prefab text can be deserialized without ever calling a text setter.
+            foreach (string name in new[] { "TMPro.TextMeshProUGUI", "TMPro.TextMeshPro", "UnityEngine.UI.Text", "HUDUber.Text", "HUDUber.Graphic" })
+            {
+                foreach (Type type in FindTypes(name))
+                {
+                    MethodInfo enable = type.GetMethod("OnEnable", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly, null, Type.EmptyTypes, null);
+                    if (enable == null) continue;
+                    try
+                    {
+                        _displayHarmony.Patch(enable, prefix: new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("DisplayEnabledPrefix", BindingFlags.Static | BindingFlags.NonPublic)));
+                        Logger.LogInfo("[LocalizationTablePatcher][Display] Serialized text hook installed: " + name + ".OnEnable");
+                    }
+                    catch (Exception ex) { Logger.LogWarning("[LocalizationTablePatcher][Display] Serialized text hook failed: " + name + ": " + ex.Message); }
+                }
+            }
+            InstallRenderTextHooks();
         }
 
-        private static void DisplayTextPrefix(ref string __0)
+        private void InstallRenderTextHooks()
         {
-            string translated = _displayTranslator.Translate(__0);
-            if (translated != __0)
+            // TMP's StringBuilder/char-array overloads bypass string setters.
+            // Parsing is the common point before layout/geometry consumes them.
+            foreach (string name in new[] { "TMPro.TMP_Text", "UnityEngine.UI.Text" })
+                foreach (Type type in FindTypes(name))
+                    foreach (MethodInfo method in type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly))
+                    {
+                        if (method.Name != "ParseInputText" && method.Name != "OnPopulateMesh") continue;
+                        try
+                        {
+                            _displayHarmony.Patch(method, prefix: new HarmonyMethod(typeof(LocalizationTablePatcherPlugin).GetMethod("DisplayEnabledPrefix", BindingFlags.Static | BindingFlags.NonPublic)));
+                            Logger.LogInfo("[LocalizationTablePatcher][Display] Render text hook installed: " + name + "." + method.Name);
+                        }
+                        catch (Exception ex) { Logger.LogWarning("[LocalizationTablePatcher][Display] Render text hook failed: " + name + ": " + ex.Message); }
+                    }
+        }
+
+        private static void DisplayTextPrefix(object __instance, ref string __0)
+        {
+            if (_insideDisplayTranslation) return;
+            _insideDisplayTranslation = true;
+            try
             {
-                __0 = translated;
-                int count = Interlocked.Increment(ref _displayTranslatedCount);
-                if (count <= 3 || count == 100)
-                    _displayLog.LogInfo("[LocalizationTablePatcher][Display] Translated render call count=" + count);
+                string input = __0;
+                Component component = __instance as Component;
+                if (component != null && DisplayTextTranslator.IsEmptyProfileRank(input))
+                {
+                    string[] ancestry = new string[6];
+                    Transform transform = component.transform;
+                    for (int i = 0; i < ancestry.Length && transform != null; i++, transform = transform.parent)
+                        ancestry[i] = transform.name;
+                    input = _displayTranslator.TranslateProfileRankValue(input, ancestry);
+                }
+                string translated = _displayTranslator.Translate(input);
+                TraceDisplayText(__instance, __0, translated);
+                if (translated != __0)
+                {
+                    __0 = translated;
+                    int count = Interlocked.Increment(ref _displayTranslatedCount);
+                    if (count <= 3 || count == 100)
+                        _displayLog.LogInfo("[LocalizationTablePatcher][Display] Translated render call count=" + count);
+                }
             }
+            catch (Exception ex) { LogDisplayFailure(ex); }
+            finally { _insideDisplayTranslation = false; }
+        }
+
+        private static void DisplayEnabledPrefix(object __instance)
+        {
+            if (_insideDisplayTranslation) return;
+            try
+            {
+                PropertyInfo text = __instance.GetType().GetProperty("text", BindingFlags.Public | BindingFlags.Instance);
+                if (text == null || !text.CanRead || !text.CanWrite || text.PropertyType != typeof(string)) return;
+                string original = DisplayTextBackingStore.Read(__instance);
+                string translated = original;
+                DisplayTextPrefix(__instance, ref translated);
+                if (translated != original) text.SetValue(__instance, translated, null);
+            }
+            catch (Exception ex) { LogDisplayFailure(ex); }
+        }
+
+        private static void LogDisplayFailure(Exception ex)
+        {
+            if (_displayFailureLogged) return;
+            _displayFailureLogged = true;
+            _displayLog.LogWarning("[LocalizationTablePatcher][Display] Translation skipped after " + ex.GetType().Name + ": " + ex.Message);
+        }
+
+        private static void TraceDisplayText(object instance, string original, string translated)
+        {
+            // Opt-in, bounded developer trace. Never included in release payloads.
+            if (!_displayTraceEnabled || String.IsNullOrEmpty(original) || _displayTraceInputs.Count >= 1000) return;
+            bool relevant = original == "无" || original == "無";
+            foreach (string token in new[] { "For every ", "Song of Suffering", "Job", "Minted Coin", "Sharp Scale", "吉芬", "下水道", "斐扬", "斐揚", "Abandoned Village", "虫蛹", "蟲蛹", "Tap to Join Party", "排行榜", "Deity", "Reward Count", "Kills:", "Monsters to Earn Rewards", "Increases the target", "Standard Cards Collected", "筛选当前道具列表", "篩選當前道具列表", "Time to Explore Freely", "end of the current main", "During the event, each player", "For Sale:",
+                "Reach Wardrobe", "Trophies Achieved", "Appearance ", "一键领取", "一鍵領取", "ランク:", "Rank:",
+                "上架中", "公示中", "组队平台", "組隊平台", "party is recruiting", "资金榜", "資金榜", "排名", "玩家名称", "职务", "捐赠额度",
+                "Prerequisite Skill", "Mana Recharge", "十字驅魔攻擊", "十字驱魔攻击", "審判", "謳歌", "聖痕", "天罰", "郵件", "篩選", "排行", "右鍵清除", "活動尚未開啟", "Minute ", "sec後",
+                "无主灵魂核心", "無主靈魂核心", "公会人数达到", "公會人數達到", "上周公会活跃", "上週公會活躍", "每赛程首周", "每賽程首週", "珠泪螺壳", "Rating ", "Admonitory Song", "Song of Suffering", "Musical Phrase", "Battle Chant Harmony", "Prontera North Gate", "活动任务", "公会联赛", "领土战争", "自然之神伊尔玛塔", "邮件", "天后过期" })
+                if (original.Contains(token)) { relevant = true; break; }
+            if (!relevant || !_displayTraceInputs.Add(original)) return;
+            if (!File.Exists(Path.Combine(Paths.ConfigPath, "RO3.DisplayTrace.enable")))
+            {
+                _displayTraceEnabled = false;
+                return;
+            }
+            string path = instance == null ? "<null>" : instance.GetType().FullName;
+            Component component = instance as Component;
+            if (component != null)
+            {
+                Transform transform = component.transform;
+                for (int i = 0; transform != null && i < 6; i++, transform = transform.parent)
+                    path += "/" + transform.name;
+            }
+            string source = original.Replace("\r", @"\r").Replace("\n", @"\n").Replace("\t", @"\t");
+            string result = (translated ?? "").Replace("\r", @"\r").Replace("\n", @"\n").Replace("\t", @"\t");
+            if (source.Length > 2400) source = source.Substring(0, 2400);
+            if (result.Length > 2400) result = result.Substring(0, 2400);
+            _displayLog.LogInfo("[LocalizationTablePatcher][DisplayTrace] " + path + " source=" + source + " => " + result);
+        }
+
+        private static void PersistentLanguagePostfix(long __0, ref string __result)
+        {
+            string translated;
+            if (_persistentTranslationsById.TryGetValue(__0, out translated)) __result = translated;
+        }
+
+        private static string TryOfflineTranslation(string text)
+        {
+            try
+            {
+                if (_offlineTranslate == null)
+                {
+                    Type api = FindType("XUnity.AutoTranslator.Plugin.Core.AutoTranslator");
+                    Type contract = FindType("XUnity.AutoTranslator.Plugin.Core.ITranslator");
+                    if (api == null || contract == null) return null;
+                    object translator = api.GetProperty("Default").GetValue(null, null);
+                    // Do not use UnityEngine.Object's destroyed-component equality.
+                    if (ReferenceEquals(translator, null)) return null;
+                    MethodInfo method = contract.GetMethod("TryTranslate", new[] { typeof(string), typeof(string).MakeByRefType() });
+                    _offlineTranslate = (OfflineTranslate)Delegate.CreateDelegate(typeof(OfflineTranslate), translator, method);
+                    _displayLog.LogInfo("[LocalizationTablePatcher][Display] Local XUnity dictionary lookup connected (no web requests).");
+                    RunDisplayRegressionChecks();
+                }
+                string result;
+                return _offlineTranslate(text, out result) ? result : null;
+            }
+            catch (Exception ex)
+            {
+                if (!_offlineWarning)
+                {
+                    _offlineWarning = true;
+                    _displayLog.LogWarning("[LocalizationTablePatcher][Display] Offline dictionary lookup unavailable: " + ex.GetType().Name);
+                }
+                return null;
+            }
+        }
+
+        private static void RunDisplayRegressionChecks()
+        {
+            // Optional developer fixture, not shipped or populated from game/chat text.
+            string path = Path.Combine(Paths.ConfigPath, "RO3.DisplayRegressionChecks.tsv");
+            if (!File.Exists(path)) return;
+            int total = 0, failed = 0;
+            foreach (string line in File.ReadAllLines(path))
+            {
+                string[] parts = line.Split(new[] { '\t' }, 3);
+                if (parts.Length != 3 || line.StartsWith("#", StringComparison.Ordinal)) continue;
+                total++;
+                string actual;
+                if (parts[0].StartsWith("id:", StringComparison.Ordinal))
+                {
+                    long id = Int64.Parse(parts[0].Substring(3), CultureInfo.InvariantCulture);
+                    MethodInfo lookup = FindType("LanguageMain").GetMethod("Obf_gO", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic,
+                        null, new[] { typeof(long) }, null);
+                    actual = lookup.Invoke(null, new object[] { id }) as string;
+                }
+                else actual = _displayTranslator.Translate(parts[1].Replace(@"\n", "\n"));
+                if (actual != parts[2].Replace(@"\n", "\n"))
+                {
+                    failed++;
+                    _displayLog.LogWarning("[LocalizationTablePatcher][Regression] FAILED case=" + parts[0] + " actual=" + (actual ?? "<null>").Replace("\n", @"\n"));
+                }
+            }
+            _displayLog.LogInfo("[LocalizationTablePatcher][Regression] passed=" + (total - failed) + "/" + total);
         }
 
         private void LoadEntries()
@@ -1388,8 +1602,24 @@ namespace RO3.JapaneseMod
                 if (long.TryParse(entry.Id, NumberStyles.None, CultureInfo.InvariantCulture, out id))
                 {
                     _entriesById[id] = entry;
+                    _persistentTranslationsById[id] = entry.Japanese;
                 }
             }
+            string aliasPath = Path.Combine(Paths.ConfigPath, "RO3.LocalizationAliases.tsv");
+            int aliases = 0;
+            if (File.Exists(aliasPath))
+            {
+                foreach (string line in File.ReadAllLines(aliasPath))
+                {
+                    string[] parts = line.TrimStart('\uFEFF').Split(new[] { '\t' }, 3);
+                    if (parts.Length != 3 || parts[0].StartsWith("#", StringComparison.Ordinal)) continue;
+                    if (!parts[0].StartsWith("100800", StringComparison.Ordinal) && !parts[0].StartsWith("106801", StringComparison.Ordinal)
+                        && !parts[0].StartsWith("104700", StringComparison.Ordinal) && !parts[0].StartsWith("105300", StringComparison.Ordinal)) continue;
+                    _displayTranslator.Add(parts[0], parts[1], parts[2]);
+                    aliases++;
+                }
+            }
+            Logger.LogInfo("[LocalizationTablePatcher][Display] World label aliases loaded=" + aliases);
         }
 
         private void SeedLanguageMainCache(string source)

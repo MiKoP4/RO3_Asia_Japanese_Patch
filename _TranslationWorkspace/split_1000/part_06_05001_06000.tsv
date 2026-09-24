@@ -418,7 +418,7 @@ Index	English	Japanese_Translation
 5417	Lv. ${1}: ${2}	Lv. ${1}: ${2}
 5418	Enter Directly	直接入場
 5419	Challenge Role	挑戦ロール
-5420	Daily Activity	デイリーアクティビティ
+5420	Daily Activity	デイリー活動
 5421	Echo Dismantle	エコー分解
 5422	Naisha's Trial	ナーシャの試練
 5423	Blooming Waves	ブルーミングウェーブ
@@ -563,7 +563,7 @@ Index	English	Japanese_Translation
 5562	Generic Freeze	汎用凍結
 5563	Potion Healing	ポーション回復
 5564	Luck Resonance	ラックレゾナンス
-5565	Warg Accessory	ワーグアクセサリー
+5565	Warg Accessory	ウォーグアクセサリー
 5566	Not Challenged	未挑戦
 5567	Rising Resolve	ライジングリゾルブ
 5568	Continual Burn	持続燃焼
@@ -749,7 +749,7 @@ Index	English	Japanese_Translation
 5748	Cancel Response	応答をキャンセル
 5749	Valid for: ${1}	有効期間: ${1}
 5750	Display Filters	表示フィルター
-5751	Weekly Activity	週間アクティビティ
+5751	Weekly Activity	週間活動
 5752	Confirm Removal	削除を確認
 5753	Over ${1} hours	${1}時間以上
 5754	Change Position	位置を変更

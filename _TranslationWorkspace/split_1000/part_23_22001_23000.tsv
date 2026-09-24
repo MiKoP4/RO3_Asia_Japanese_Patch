@@ -129,7 +129,7 @@
 22128	This Trade violated the Trade rules. The System has automatically taken action.	この取引は取引規約に違反しました。システムが自動的に処理しました。
 22129	A teammate's ID Tag. Use it or take it to an ambulance to Revive that teammate.	チームメイトのIDタグ。使用するか救護車へ持っていくと、そのチームメイトを復活できます。
 22130	Auto-Bid is currently active. Bidding manually will disable Auto-Bid. Continue?	自動入札が有効です。手動で入札すると自動入札が無効になります。続行しますか？
-22131	Weekly Active rating: There are 4 Active rating tiers based on Weekly Activity:	週間アクティブ評価：週間アクティビティに応じて4段階の評価があります：
+22131	Weekly Active rating: There are 4 Active rating tiers based on Weekly Activity:	週間アクティブ評価：週間活動に応じて4段階の評価があります：
 22132	Gain ${1}% damage reduction and one chance to Respawn upon taking fatal damage.	ダメージ軽減 +${1}%、致死ダメージ時に1回復活できます。
 22133	Grants permanent 【Endure】 (immune to knockback, knock-up, and hitstun effects).	永続【インデュア】を獲得（ノックバック、打ち上げ、のけぞり無効）。
 22134	^{1}^{2}【Sharp Shooting】^{3}^{4} gains ${1}% Crit Chance but no longer pierces.	^{1}^{2}【シャープシューティング】^{3}^{4}のクリティカル率 +${1}%、ただし貫通しなくなる。
@@ -617,11 +617,11 @@
 22616	When both professions are crafting professions, crafting Vigor cost is reduced by @{1}	両方の職業が製作系の場合、製作時の活力消費を@{1}軽減
 22617	Are you sure you want to consume Soul Echoes of Orange Quality or higher for Level-up?	オレンジ品質以上のソウルエコーを消費してレベルアップしますか？
 22618	Cart-exclusive skill. Merchants gain ^{1}${1}^{2} Extra slots while operating a Stall.	カート専用スキル。マーチャントが露店営業中、追加スロットを^{1}${1}^{2}個獲得。
-22619	Removes ^{1}【Silence】^{2} and ^{3}【Blind】^{4} from a designated ST ally within ${1} m.	${1}m以内の指定した味方単体から^{1}【沈黙】^{2}と^{3}【暗闇】^{4}を解除。
+22619	Removes ^{1}【Silence】^{2} and ^{3}【Blind】^{4} from a designated ST ally within ${1} m.	${1}m以内の指定した味方単体から^{1}【沈黙】^{2}と^{3}【暗黒】^{4}を解除。
 22620	Max Life increases by ^{1}${1}^{2}, and Holy damage taken is reduced by ^{3}${2}%^{4}.	最大HP +^{1}${1}^{2}、受ける聖属性ダメージ -^{3}${2}%^{4}。
 22621	Participate in Guild activities and make a Donation of supplies to repel the invasion.	ギルド活動に参加して物資を寄付し、侵攻を退けよう。
 22622	Charge forward with the supply cart, knocking back and Stunning enemies along the way.	補給カートで突進し、進路上の敵をノックバックさせてスタンさせる。
-22623	After using 【Soul Destroyer】 ${1} times, damage dealt increases by ${2}% for ${3} sec.	【ソウルデストロイヤー】を${1}回使用後、${3}秒間与ダメージ +${2}%。
+22623	After using 【Soul Destroyer】 ${1} times, damage dealt increases by ${2}% for ${3} sec.	【ソウルブレイカー】を${1}回使用後、${3}秒間与ダメージ +${2}%。
 22624	Deals ranged Fire magic damage equal to ^{1}${1}%^{2} of your Magic ATK to the target.	対象に魔法ATKの^{1}${1}%^{2}分の遠距離火属性魔法ダメージを与える。
 22625	We eventually got married, but he always felt guilty for not giving me a wedding ring.	結局私たちは結婚したけど、彼は結婚指輪を贈れなかったことをずっと気にしていた。
 22626	Matchmaking is already underway for another mode. You cannot initiate new matchmaking.	別モードのマッチング中です。新しいマッチングは開始できません。
@@ -822,7 +822,7 @@
 22821	Brilliant Tier @{1} Orange Equipment with impressive offensive and defensive capabilities.	攻守に優れた輝かしいTier @{1}オレンジ装備。
 22822	A strangely shaped Green, root-like object. One of the Materials used to create a Pet Egg.	奇妙な形をした緑色の根のような物体。ペットの卵を作る素材のひとつ。
 22823	Battle of Dragon Coffin Island Misc Net Victory Points (Victory Points), used for Level-up	ドラゴンコフィン島の戦い・勝利ポイント差（勝利ポイント）。レベルアップに使用
-22824	Use Soul Destroyer from a safe Distance for steady damage, then evade enemies with stealth	安全な距離からソウルデストロイヤーで安定したダメージを与え、ステルスで敵をかわす。
+22824	Use Soul Destroyer from a safe Distance for steady damage, then evade enemies with stealth	安全な距離からソウルブレイカーで安定したダメージを与え、ステルスで敵をかわす。
 22825	It revealed no illusion, but the calamity that the continent of Midgard will one day face—	映し出されたのは幻ではなく、いつかミッドガルド大陸を襲う災厄だった――
 22826	Participate in any Misc activity in the Treasure Vault to earn an Eden Group Commendation.	宝物庫の任意のコンテンツに参加して、楽園団表彰を獲得。
 22827	You recently chose to Leave Guild. Please Wait ${1} before attempting to Join a new guild.	最近ギルドを脱退しました。新しいギルドに加入するには${1}お待ちください。

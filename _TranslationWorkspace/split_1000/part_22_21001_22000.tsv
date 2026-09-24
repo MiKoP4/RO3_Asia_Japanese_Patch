@@ -31,7 +31,7 @@ Index	English	Japanese_Translation
 21030	A decorative eggshell worn on the head. It's surprisingly sturdy.	頭にかぶる装飾用の卵の殻。見た目に反して意外と頑丈です。
 21031	A radiant, sacred unicorn that looks enchanting from every angle.	どの角度から見ても幻想的な、聖なる輝きを放つユニコーン。
 21032	Flames bloom wherever you tread, each step writing a poem in ash.	歩みを進めるたびに炎が咲き、一歩ごとに灰の詩が刻まれる。
-21033	"Emergency Call" is an exclusive skill for the Vice Guild Master.	「緊急招集」はサブギルドマスター専用スキルです。
+21033	"Emergency Call" is an exclusive skill for the Vice Guild Master.	「緊急招集」は副ギルドマスター専用スキルです。
 21034	Consuming a "Yggdrasil Berry" instantly restores @{1}% HP and SP.	「イグドラシルの実」を使用すると、HPとSPを即座に@{1}%回復します。
 21035	Guild Management Members cannot be removed with Banish from Guild	ギルド管理メンバーは「ギルド追放」で除名できません。
 21036	Automatically Ride the Ostrich Mount After the Balloon Is Removed	バルーン解除後、自動的にダチョウの乗り物へ騎乗します。
@@ -729,7 +729,7 @@ Index	English	Japanese_Translation
 21728	Excellent work, rookie. Thanks to your help, we can take off immediately.	よくやった、新人。君のおかげで、すぐにでも離陸できる。
 21729	The next time we meet... I hope you'll bring Me a more interesting Story.	次に会う時は……もっと面白い話を持ってきてくれるといいな。
 21730	Hahaha! That's my enlightened, motivated, and courageous Chief assistant!	ハハハ！さすが物分かりがよく、やる気と勇気にあふれた私の主任助手だ！
-21731	Please wait for the Guild Master or Vice Guild Master to start the event.	ギルドマスターまたはサブギルドマスターがイベントを開始するまでお待ちください。
+21731	Please wait for the Guild Master or Vice Guild Master to start the event.	ギルドマスターまたは副ギルドマスターがイベントを開始するまでお待ちください。
 21732	Our ^{1}${1}^{2} dealt the final blow to the left-lane ^{3}Protector^{4}!	味方の^{1}${1}^{2}が左レーンの^{3}プロテクター^{4}にとどめを刺しました！
 21733	Your teammate ${1} is trapped in a coffin! Break it open and rescue them!	仲間の${1}が棺に閉じ込められました！棺を壊して救出してください！
 21734	Talking to Themselves\n...Is that streetlamp singing? Am I seeing things?	独り言\n……あの街灯、歌ってる？私、幻でも見てるのかな？
@@ -975,7 +975,7 @@ Index	English	Japanese_Translation
 21974	Haha! She disliked every gift I gave her, and you still dare ask my opinion?	ハハ！俺が贈った物は全部気に入らなかったのに、それでも俺に意見を聞くのか？
 21975	Are you sure you want to transfer leadership of the Adventure Group to ${1}?	冒険者グループのリーダー権限を${1}に譲渡しますか？
 21976	Moonlight Flower is preparing to select a target. Stay out of the moonlight!	月夜花がターゲットを選ぼうとしています。月明かりから離れて！
-21977	Increases 【Soul Destroyer】 damage by ${1}% and reduces variable CT by ${2}%.	【ソウルデストロイヤー】のダメージが${1}%増加し、変動詠唱時間が${2}%短縮されます。
+21977	Increases 【Soul Destroyer】 damage by ${1}% and reduces variable CT by ${2}%.	【ソウルブレイカー】のダメージが${1}%増加し、変動詠唱時間が${2}%短縮されます。
 21978	Enveloped by Sacred Chorus Musical Notes, gaining a damage-absorbing Shield.	聖歌の音符に包まれ、ダメージを吸収するシールドを獲得します。
 21979	Increases Wind/Earth/Water/Fire/Neutral/Ghost damage dealt by ^{1}${1}%^{2}.	風/地/水/火/無/念属性の与ダメージが^{1}${1}%^{2}増加します。
 21980	Deals ${2}% Neutral melee Physical damage to an ST enemy within ${1} meters.	${1}m以内の単体の敵に${2}%の無属性近接物理ダメージを与えます。

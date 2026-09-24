@@ -157,7 +157,7 @@ Index	English	Japanese_Translation
 8156	Dynamite Explosion	ダイナマイト爆発
 8157	Blazing Tiger Roar	ブレイジングタイガーロア
 8158	Wavebreaker Strike	ウェーブブレイカーストライク
-8159	Cannonball Barrage	砲弾連射
+8159	Cannonball Barrage	降り注ぐ砲弾
 8160	[Guild Invitation]	[ギルド招待]
 8161	Healing per Second	秒間回復量
 8162	Battle Record ${1}	戦績 ${1}
@@ -344,7 +344,7 @@ Index	English	Japanese_Translation
 8343	Enlarge the target	対象を巨大化
 8344	Defense Successful	防衛成功
 8345	Normal Attack @{1}	通常攻撃 @{1}
-8346	Drake Basic Attack	ドレイク基本攻撃
+8346	Drake Basic Attack	ドレイク通常攻撃
 8347	Applied: ${1}/${2}	適用済み：${1}/${2}
 8348	Enter a book title	本のタイトルを入力
 8349	Reset Confirmation	リセット確認
@@ -504,7 +504,7 @@ Index	English	Japanese_Translation
 8503	Add Friend/Unfriend	フレンド追加/解除
 8504	Gacha Master Toggle	ガチャマスター切替
 8505	Nature God · Ilmata	自然神・イルマタ
-8506	Festival Invitation	祭典招待状
+8506	Festival Invitation	祭典招待
 8507	Currency Redemption	通貨交換
 8508	Expires in ${1} hr.	${1}時間後に期限切れ
 8509	Default Chat Bubble	デフォルトチャット吹き出し
@@ -830,7 +830,7 @@ Index	English	Japanese_Translation
 8829	Death of the Prince	王子の死
 8830	Stigma (Deprecated)	スティグマ（廃止予定）
 8831	Enhanced Bow Attack	弓攻撃強化
-8832	Intense Telekinesis	強烈な念動力
+8832	Intense Telekinesis	インテンス・テレキネシス
 8833	Dragonkin Sacrifice	竜族の生贄
 8834	Young Dragon Charge	幼竜チャージ
 8835	Bone-Chilling Frost	骨まで凍る冷気
