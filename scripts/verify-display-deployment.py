@@ -96,6 +96,8 @@ for required in ('Render text hook installed: TMPro.TMP_Text.ParseInputText',
 # Report aggregate behavior only. Never export names, chat bodies, character IDs,
 # or recruitment link identifiers from the user's game log.
 categories = {
+    'reward-popup': ('恭喜获得', '恭喜獲得', 'Congrats on Obtaining'),
+    'item-share': ('Discover a great item! Come check it out!', 'Mink Coat'),
     'resonance': ('For every ', 'Song of Suffering'),
     'equipment': ('JobRestriction:', 'Job Restriction:', 'Job Restriction：'),
     'pickup': ('Minted Coin', 'Sharp Scale'),
