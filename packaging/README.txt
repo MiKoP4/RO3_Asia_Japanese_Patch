@@ -44,6 +44,8 @@ RO3とRO3AsiaLauncherを終了し Recover-Japanese.bat にClientフォルダを�
 
 アップデーターはGitHub Releasesから最新版を確認し、必要な場合だけダウンロードして更新します。
 GitHub側でSHA-256が提供されている場合は、整合性を確認してから展開します。
+GitHubへ接続せず、展開済みのReleaseに含まれるファイルで更新する場合は、Update-Japanese.bat に --local を指定します。
+例: Update-Japanese.bat --local "C:\Games\RO3\Client"（Clientフォルダを省略すると、後から入力できます）
 
 アンインストール
 ----------------
