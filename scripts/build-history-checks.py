@@ -49,6 +49,9 @@ for i, source in enumerate((data.KNOWN_KAFRA_BATTLEFIELD_MANAGER, data.KNOWN_KAF
     target = translations[combined].split(r'\n')[i]
     rows.append(('split-kafra:' + str(i), render(source), render(target)))
 rows.extend([
+    ('screen-skill-level-cn', '技能队列Lv.1', 'スキルバーLv.1'),
+    ('screen-skill-level-tw', '技能隊列 Lv.10', 'スキルバー Lv.10'),
+    ('screen-skill-level-free-text', 'TestPlayer:技能队列Lv.1', 'TestPlayer:技能队列Lv.1'),
     ('screen-reward-heading-cn', '恭喜获得', translations['Congrats on Obtaining']),
     ('screen-reward-heading-tw', '恭喜獲得', translations['Congrats on Obtaining']),
     ('screen-reward-heading-rich', '<color=#ffce63>恭喜获得</color>', '<color=#ffce63>' + translations['Congrats on Obtaining'] + '</color>'),

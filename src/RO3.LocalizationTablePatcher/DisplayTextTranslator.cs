@@ -109,6 +109,7 @@ namespace RO3.JapaneseMod
         private static readonly Regex Players = new Regex(@"\ARecommended\s+Players:\s*(?<count>[0-9]+)\z");
         private static readonly Regex Prerequisite = new Regex(@"\APrerequisite Skill (?<open><color=[^>]+>)(?<name>[^<>\r\n]+)</color>\z");
         private static readonly Regex PrerequisiteLevel = new Regex(@"(?<name>[^<>\r\n]+?)(?<level>\s*Lv\.?\s*[0-9]+)");
+        private static readonly Regex SkillLevel = new Regex(@"\A(?<name>[^<>\r\n]{1,120}?)(?<level>[ \t]*Lv\.?[ \t]*[0-9]+)\z");
         private static readonly Regex MixedCountdown = new Regex(@"(?<![0-9])(?<minutes>[0-9]{1,3})\s+Minute(?:s)?\s+(?<seconds>[0-9]{1,2})\s+sec(?=後に)");
         private static readonly Regex Slot = new Regex(@"\$\{([0-9]+)\}");
         private static readonly Regex RuntimeToken = new Regex(@"\$\{[0-9]+\}|@\{[0-9]+\}|\^\{[0-9]+\}|(?<!\{)\{[0-9]+\}(?!\})");
@@ -465,6 +466,13 @@ namespace RO3.JapaneseMod
             string normalized = Regex.Replace(text, @"\s+", " ").Trim();
             if (normalized != text && (offlineExact.TryGetValue(normalized, out translated)
                 || exact.TryGetValue(normalized, out translated))) return translated;
+            // The skill tooltip joins its localized name and level into one TMP label.
+            if (text.IndexOf("Lv", StringComparison.Ordinal) >= 0)
+            {
+                Match skillLevel = SkillLevel.Match(text);
+                if (skillLevel.Success && skillNames.TryGetValue(skillLevel.Groups["name"].Value, out translated))
+                    return translated + skillLevel.Groups["level"].Value;
+            }
             if (text.StartsWith("Prerequisite Skill ", StringComparison.Ordinal)
                 || text.StartsWith("前提スキル ", StringComparison.Ordinal))
             {

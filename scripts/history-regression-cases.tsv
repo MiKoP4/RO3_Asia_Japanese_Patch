@@ -180,6 +180,9 @@ id:11530000047	Festival Invitation	祭典招待
 id:25368	Tips	支援
 split-kafra:0	Kafra Battlefield Manager	カプラ戦場管理人
 split-kafra:1	Receive the Blessing of Odin, King of the Gods, reducing skill Cooldown by 11% for 22 minutes.	主神オーディンの祝福を受け、22分間、スキルのクールダウンが11%短縮されます。
+screen-skill-level-cn	技能队列Lv.1	スキルバーLv.1
+screen-skill-level-tw	技能隊列 Lv.10	スキルバー Lv.10
+screen-skill-level-free-text	TestPlayer:技能队列Lv.1	TestPlayer:技能队列Lv.1
 screen-reward-heading-cn	恭喜获得	獲得おめでとう
 screen-reward-heading-tw	恭喜獲得	獲得おめでとう
 screen-reward-heading-rich	<color=#ffce63>恭喜获得</color>	<color=#ffce63>獲得おめでとう</color>
