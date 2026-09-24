@@ -91,6 +91,12 @@ namespace RO3.JapaneseMod
         private static readonly Regex RareRewardJapanese = new Regex(@"\Aプレイヤー【[^】\r\n]+】が【(?<boss>[^】\r\n]+)】を撃破し、レア報酬を獲得しました！\z");
         private static readonly Regex DefeatNoticeEnglish = new Regex(@"\A(?<boss>[^<>\r\n]+?) was defeated by [^<>\r\n]+\.\z");
         private static readonly Regex DefeatNoticeJapanese = new Regex(@"\A(?<boss>[^<>\r\n]+?)は[^<>\r\n]+に倒されました。\z");
+        private static readonly Regex DismantleEnglish = new Regex(@"\A(?<kind>Automatically|Successfully) dismantled (?<item1>[^<>\r\n]+?) [Xx×]\s*[0-9]+ and obtained (?<item2>[^<>\r\n]+?) [Xx×]\s*[0-9]+\.\z");
+        private static readonly Regex DismantleJapanese = new Regex(@"\A(?<item1>[^<>\r\n]+?) [Xx×]\s*[0-9]+を(?:自動)?解体し、(?<item2>[^<>\r\n]+?) [Xx×]\s*[0-9]+を獲得しました。\z");
+        private static readonly Regex CombineSuccessEnglish = new Regex(@"\ACombine is successful\. Obtained (?<item>[^<>\r\n]+?) [Xx×]\s*[0-9]+\.\z");
+        private static readonly Regex CombineSuccessJapanese = new Regex(@"\A合成成功。(?<item>[^<>\r\n]+?) [Xx×]\s*[0-9]+を獲得しました。\z");
+        private static readonly Regex ObtainedCountEnglish = new Regex(@"\AObtained (?<item>[^<>\r\n]+?) (?<quantity>[Xx×]\s*[0-9]+)\z");
+        private static readonly Regex ObtainedCountJapanese = new Regex(@"\A(?<item>[^<>\r\n]+?) [Xx×]\s*[0-9]+ を獲得\z");
         private static readonly Regex EquipmentType = new Regex(@"\A(?<hand>1H|2H|Off-Hand|Main-Hand)\s*-\s*(?<type>[A-Za-z ]+)\z");
         private static readonly Regex JobRequirement = new Regex(@"\A(?:Level Req\s*[:：]\s*(?<level>[0-9]+)\s*)?Job\s*Restriction\s*[:：]\s*(?<jobs>[\p{L} ,、\r\n]+)\z");
         private static readonly Regex QuestHeading = new Regex(@"\A(?<marker>\[(?:Main Quest|Side Quest|Commission|メインクエスト|サブクエスト|依頼)\])\s*(?:(?<chapter>Chapter(?: One| [0-9]+)|第[0-9]+章)[:：]\s*)?(?<title>[^<>\r\n]+)\z");
@@ -681,14 +687,78 @@ namespace RO3.JapaneseMod
                     int offset = label.Index - link.Index + map.Groups["map"].Index;
                     return link.Value.Substring(0, offset) + replacement + link.Value.Substring(offset + name.Length);
                 });
+            bool dismantleCandidate = result.IndexOf(" dismantled ", StringComparison.Ordinal) >= 0
+                || result.IndexOf("解体し、", StringComparison.Ordinal) >= 0;
+            bool combineCandidate = result.IndexOf("Combine is successful. Obtained ", StringComparison.Ordinal) >= 0
+                || result.IndexOf("合成成功。", StringComparison.Ordinal) >= 0;
+            bool obtainedCandidate = result.IndexOf("Obtained ", StringComparison.Ordinal) >= 0
+                || result.IndexOf(" を獲得", StringComparison.Ordinal) >= 0;
             bool rewardCandidate = result.IndexOf("Congratulations to player", StringComparison.Ordinal) >= 0
                 || result.IndexOf("レア報酬を獲得", StringComparison.Ordinal) >= 0;
             bool defeatCandidate = result.IndexOf(" was defeated by ", StringComparison.Ordinal) >= 0
                 || result.IndexOf("に倒されました。", StringComparison.Ordinal) >= 0;
             bool spawnCandidate = result.IndexOf(" has spawned on the ", StringComparison.Ordinal) >= 0
                 || result.IndexOf("マップに出現しました。", StringComparison.Ordinal) >= 0;
-            if (!rewardCandidate && !defeatCandidate && !spawnCandidate) return result;
+            if (!dismantleCandidate && !combineCandidate && !obtainedCandidate && !rewardCandidate && !defeatCandidate && !spawnCandidate) return result;
             string visible = Markup.Replace(result, "");
+            if (dismantleCandidate)
+            {
+                Match dismantle = DismantleEnglish.Match(visible);
+                bool english = dismantle.Success;
+                if (!english) dismantle = DismantleJapanese.Match(visible);
+                if (dismantle.Success)
+                {
+                    Group first = dismantle.Groups["item1"], second = dismantle.Groups["item2"];
+                    string firstJapanese, secondJapanese;
+                    // Work right to left so visible positions still refer to the source.
+                    if (english) result = ReplaceVisibleRange(result, visible.Length - 1, 1, "を獲得しました。");
+                    if (itemNames.TryGetValue(second.Value, out secondJapanese) && secondJapanese != second.Value)
+                        result = ReplaceVisibleRange(result, second.Index, second.Length, secondJapanese);
+                    if (english)
+                        result = ReplaceVisibleRange(result, visible.IndexOf(" and obtained ", StringComparison.Ordinal), " and obtained ".Length,
+                            dismantle.Groups["kind"].Value == "Automatically" ? "を自動解体し、" : "を解体し、");
+                    if (itemNames.TryGetValue(first.Value, out firstJapanese) && firstJapanese != first.Value)
+                        result = ReplaceVisibleRange(result, first.Index, first.Length, firstJapanese);
+                    if (english) result = ReplaceVisibleRange(result, 0, dismantle.Groups["kind"].Length + " dismantled ".Length, "");
+                    if (result != text) return result;
+                }
+            }
+            if (combineCandidate)
+            {
+                Match combine = CombineSuccessEnglish.Match(visible);
+                bool english = combine.Success;
+                if (!english) combine = CombineSuccessJapanese.Match(visible);
+                if (combine.Success)
+                {
+                    Group item = combine.Groups["item"];
+                    string localized;
+                    if (english) result = ReplaceVisibleRange(result, visible.Length - 1, 1, "を獲得しました。");
+                    if (itemNames.TryGetValue(item.Value, out localized) && localized != item.Value)
+                        result = ReplaceVisibleRange(result, item.Index, item.Length, localized);
+                    if (english) result = ReplaceVisibleRange(result, 0, "Combine is successful. Obtained ".Length, "合成成功。");
+                    if (result != text) return result;
+                }
+            }
+            if (obtainedCandidate)
+            {
+                Match obtained = ObtainedCountEnglish.Match(visible);
+                bool english = obtained.Success;
+                if (!english) obtained = ObtainedCountJapanese.Match(visible);
+                if (obtained.Success)
+                {
+                    Group item = obtained.Groups["item"];
+                    string localized;
+                    if (english)
+                    {
+                        Group quantity = obtained.Groups["quantity"];
+                        result = ReplaceVisibleRange(result, quantity.Index, quantity.Length, quantity.Value + " を獲得");
+                    }
+                    if (itemNames.TryGetValue(item.Value, out localized) && localized != item.Value)
+                        result = ReplaceVisibleRange(result, item.Index, item.Length, localized);
+                    if (english) result = ReplaceVisibleRange(result, 0, "Obtained ".Length, "");
+                    if (result != text) return result;
+                }
+            }
             // The system announcement interpolates a live monster name after
             // localizing its sentence. Match the complete notice and change
             // only its typed monster slot; player names and chat stay intact.

@@ -214,6 +214,11 @@ for i, (key, source, target) in enumerate(data.build_world_alias_rows(translatio
     if key.startswith(('100800', '106801')):
         rows.append(('world-coordinate-' + str(i), 'TestPlayer:' + render(source) + '(40,109)', 'TestPlayer:' + render(target) + '(40,109)'))
 rows.extend([
+    ('live-auto-dismantle-mixed', '<color=#6890D2>Earrings</color> X 1を自動解体し、<color=#6890D2>Minted Coin</color> X 50を獲得しました。', '<color=#6890D2>イヤリング</color> X 1を自動解体し、<color=#6890D2>鋳造されたコイン</color> X 50を獲得しました。'),
+    ('live-auto-dismantle-english', 'Automatically dismantled <color=#62AF5E>Rod</color> X 1 and obtained <color=#6890D2>Minted Coin</color> X 5.', '<color=#62AF5E>ロッド</color> X 1を自動解体し、<color=#6890D2>鋳造されたコイン</color> X 5を獲得しました。'),
+    ('audit-dismantle-manual', 'Successfully dismantled <color=#62AF5E>Ring</color> X 1 and obtained <color=#6890D2>Minted Coin</color> X 5.', '<color=#62AF5E>リング</color> X 1を解体し、<color=#6890D2>鋳造されたコイン</color> X 5を獲得しました。'),
+    ('audit-combine-success', 'Combine is successful. Obtained <color=#62AF5E>Ring</color> X 1.', '合成成功。<color=#62AF5E>リング</color> X 1を獲得しました。'),
+    ('audit-obtained-count', 'Obtained <color=#6890D2>Minted Coin</color> X 50', '<color=#6890D2>鋳造されたコイン</color> X 50 を獲得'),
     ('rich-pickup-coin', '<color=#9fc3ed>Minted Coin</color> X 50', '<color=#9fc3ed>' + translations['Minted Coin'] + '</color> X 50'),
     ('rich-pickup-scale', '<sprite=2><color=#70ba84>Sharp Scale</color> X 1', '<sprite=2><color=#70ba84>' + translations['Sharp Scale'] + '</color> X 1'),
     ('rich-pickup-unknown', '<color=#9fc3ed>Unlisted Item</color> X 50', '<color=#9fc3ed>Unlisted Item</color> X 50'),
