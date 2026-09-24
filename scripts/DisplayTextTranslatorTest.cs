@@ -39,6 +39,12 @@ class DisplayTextTranslatorTest
             if (fields.Length == 3 && !fields[0].StartsWith("#")) translator.Add(fields[0], fields[1], fields[2]);
         }
         string[,] cases = {
+            { "嘉酷Biubiubiu: Discover a great item! Come check it out! [Mink Coat]", "嘉酷Biubiubiu: すごいアイテムを見つけた！見に来て！ [ミンクのコート]" },
+            { "<#d5b376><nlink=openplayerInfo/12345>TestPlayer</nlink>:</color>I Discover a great item! Come check it out! <color=#FDAB5B><u><link=\"item/67890\">[Mink Coat]</link></u></color>", "<#d5b376><nlink=openplayerInfo/12345>TestPlayer</nlink>:</color>すごいアイテムを見つけた！見に来て！ <color=#FDAB5B><u><link=\"item/67890\">[ミンクのコート]</link></u></color>" },
+            { "I Discover a great item! Come check it out! [Mink Coat]", "すごいアイテムを見つけた！見に来て！ [ミンクのコート]" },
+            { "TestPlayer: すごいアイテムを見つけた！見に来て！<color=#FDAB5B><u><link=\"item/67890\">[Mink Coat]</link></u></color>", "TestPlayer: すごいアイテムを見つけた！見に来て！<color=#FDAB5B><u><link=\"item/67890\">[ミンクのコート]</link></u></color>" },
+            { "TestPlayer: Discover a great item! Come check it out! [Unknown Item]", "TestPlayer: Discover a great item! Come check it out! [Unknown Item]" },
+            { "TestPlayer: Discover a great item! Come check it out! is my slogan [Mink Coat]", "TestPlayer: Discover a great item! Come check it out! is my slogan [Mink Coat]" },
             { "紅辣椒", "赤唐辛子" },
             { "红辣椒", "赤唐辛子" },
             { "紅色藥草", "赤ハーブ" },

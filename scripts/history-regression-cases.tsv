@@ -1,3 +1,5 @@
+text:21187	I Discover a great item! Come check it out!	すごいアイテムを見つけた！見に来て！
+text:21190	I Discover a great item! Come check it out!11	すごいアイテムを見つけた！見に来て！11
 text:12360000000	Miner	採掘師
 text:12360000001	Chef	調理師
 text:12360000004	Gardener	園芸師
@@ -7640,6 +7642,7 @@ template-history:190010	Current Stage: <color=#CC762A>Floor 11</color>	現在の
 template-history:190011	Stage Boss: <color=#CC762A>11</color>	ステージボス：<color=#CC762A>11</color>
 template-history:19014	After reaching Refinement +11, failure will not reduce it below +22	精錬値+11到達後は、失敗しても+22未満には下がりません。
 template-history:21075	For Sale: 11	販売中: 11
+template-history:21190	I Discover a great item! Come check it out!11	すごいアイテムを見つけた！見に来て！11
 template-history:23204	11 days remaining	残り11日
 template-history:23205	11 hr. remaining	残り11時間
 template-history:23206	11 min. remaining	残り11分
@@ -8468,7 +8471,6 @@ canonical-template:11007	Hmm, everything is in order. It seems you've built a so
 canonical-template:11140	How about 11 copper coins?	銅貨11枚ではどう？
 canonical-template:11220	Hunting Challenge Group Rank 11	ハンティングチャレンジ・グループ順位 11
 canonical-template:11221	Hunting Challenge: Entire Server Rank 11	ハンティングチャレンジ：全サーバー順位 11
-canonical-template:11246	I Discover a great item! Come check it out!11	いいアイテムを見つけた！見に来て！11
 canonical-template:11250	I actually came here to extract this—【Memory Form】 . You can think of it as energy formed from intense human emotions and memories.	実はこれ――【記憶体】を抽出しに来たんだ。人間の強い感情や記憶から形成されたエネルギーだと思ってもらえればいい。
 canonical-template:11258	I can't believe you managed to slip away from Moonlight Flower. You've got some skill after all, unlike the fools who came before you.\nIt seems you've barely passed the first round of our carefully designed "qualification test." After all, anyone who can't even play the game has no right to challenge us.\nBut don't get cocky. That was just a warm-up. If you truly think you have what it takes to stand against us, come settle this at the Sandsea Labyrinth in South Morroc (exact coordinates: 11, 22).\nWe solemnly swear that we will keep our word this time and face you in a fair fight!\nP.S. If you lose, everything you're carrying belongs to us. The victor deserves to take all.	ムーンライトフラワーから逃げ切るとは驚いた。先に来た間抜けどもとは違って、少しは腕があるようだな。\nどうやら我々が念入りに用意した「資格試験」の第一段階は、ぎりぎり合格したらしい。ゲームすらできない者に我々へ挑む資格などないからな。\nだが調子に乗るな。あれはただの肩慣らしだ。本当に我々へ立ち向かう覚悟があるなら、モロック南部の砂海迷宮（正確な座標：11, 22）へ来い。そこで決着をつけよう。\n今度こそ約束を守り、公平に戦うと厳粛に誓おう！\n追伸：負けたら、お前が持っているものは全部いただく。勝者がすべてを得るのは当然だろう。
 canonical-template:11263	I completed the Beginner Challenge 11	初心者チャレンジ11を完了しました

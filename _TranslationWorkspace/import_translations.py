@@ -497,6 +497,9 @@ KNOWN_RECRUITMENT_DUNGEON_PAIRS_TW = (
     ("五人挑戰－隱密之地", "5-Player Challenge - Hidden Land", "隱密之地", "Hidden Realm"),
 )
 LOCALIZATION_PATCH_PREFIXES = (
+    # Item-share chat interpolates its linked item after fetching the canned
+    # sentence, and can bypass the final text hook.
+    "21187", "21190",
     # Life-skill profession names are composed with EXP gains after lookup.
     "12360000000", "12360000001", "12360000004",
     "10160000209", "10160000210", "10160000211",
@@ -664,6 +667,8 @@ KNOWN_WORLD_NAME_PAIRS = {
     "Thara Frog": "タラ・フロッグ",
 }
 KNOWN_LOCALIZATION_PATCH_IDS = {
+    "21187": "I Discover a great item! Come check it out!",
+    "21190": "I Discover a great item! Come check it out!${1}",
     "12360000000": "Miner",
     "12360000001": "Chef",
     "12360000004": "Gardener",

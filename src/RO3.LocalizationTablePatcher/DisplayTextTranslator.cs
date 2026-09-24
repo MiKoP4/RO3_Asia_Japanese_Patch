@@ -116,6 +116,7 @@ namespace RO3.JapaneseMod
         private static readonly Regex Wrapper = new Regex(@"\A<(?<tag>color|size|b|i|u|s|link|mark|font|nobr|sub|sup)(?:=[^>]*)?>", RegexOptions.IgnoreCase);
         private static readonly Regex RecruitmentFooter = new Regex(@"(?<members>\[(?:Members:|メンバー:|人数：|人數：)\s*(?<count>[0-9]+)/(?<limit>[0-9]+)\])(?<gap>\r?\n[ \t]*)(?<open><color=#[0-9A-Fa-f]{6,8}><u><link=""jointeam/[0-9]+/[01]"">)(?<label>[^<>]+)(?<close></link></u></color>)\z");
         private static readonly Regex ChatSender = new Regex(@"\A<(?:#[0-9A-Fa-f]{6,8}|color=#[0-9A-Fa-f]{6,8})><nlink=openplayerInfo/[0-9]+>[^<>]*</nlink>[:：]</color>");
+        private static readonly Regex ItemShareChat = new Regex(@"\A(?:[^<>:：\r\n]{1,64}[:：]\s*)?(?<phrase>(?:I )?Discover a great item! Come check it out!|すごいアイテムを見つけた！見に来て！)\s*\[(?<item>[^\[\]<>\r\n]{1,120})\]\z");
         private static readonly Regex RecruitmentBody = new Regex(@"\A(?<owner>[^<>\r\n]+?)(?:'s Party, Party Objective: |的队伍，队伍目标：|的隊伍，隊伍目標：)(?<objective>[^,，<>\r\n]+)[,，](?<message>[\s\S]*)\z");
         private static readonly HashSet<string> NumericPrefixIds = new HashSet<string>(StringComparer.Ordinal)
         {
@@ -683,6 +684,25 @@ namespace RO3.JapaneseMod
 
         private string TranslateWorldComposition(string text)
         {
+            // Item-share chat inserts a linked item name after the localized
+            // template. Preserve the sender and link markup; only the fixed
+            // sentence and a name present in the item ID table may change.
+            if (text.IndexOf("Discover a great item! Come check it out!", StringComparison.Ordinal) >= 0
+                || text.IndexOf("すごいアイテムを見つけた！見に来て！", StringComparison.Ordinal) >= 0)
+            {
+                Match share = ItemShareChat.Match(Markup.Replace(text, ""));
+                if (share.Success)
+                {
+                    string item, phrase = LookupWord("I Discover a great item! Come check it out!");
+                    if (itemNames.TryGetValue(share.Groups["item"].Value, out item)
+                        && phrase != "I Discover a great item! Come check it out!")
+                    {
+                        Group name = share.Groups["item"], sentence = share.Groups["phrase"];
+                        string sharedText = ReplaceVisibleRange(text, name.Index, name.Length, item);
+                        return ReplaceVisibleRange(sharedText, sentence.Index, sentence.Length, phrase);
+                    }
+                }
+            }
             // A findpath link is a typed system field even inside a player's
             // custom message or a system notice. Modify its known map label
             // only; leave the sender, route, coordinates and surrounding prose.

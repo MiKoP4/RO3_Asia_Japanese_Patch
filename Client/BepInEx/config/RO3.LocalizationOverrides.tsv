@@ -2058,6 +2058,8 @@
 21035	Price (Descending Order)	価格（高い順）
 21036	Price (Ascending Order)	価格（昇順）
 21075	For Sale: ${1}	販売中: ${1}
+21187	I Discover a great item! Come check it out!	すごいアイテムを見つけた！見に来て！
+21190	I Discover a great item! Come check it out!${1}	すごいアイテムを見つけた！見に来て！${1}
 10960000000	@{1}.Consume Equipment Blueprints and other specified materials to perform Equipment Forging.\n@{2}.Forged equipment has random attributes.\n@{3}.Equipment Forging always produces equipment of Purple Quality or higher. Orange and red equipment will be unidentified.	@{1}.装備設計図と指定素材を消費して装備製造を行います。\n@{2}.製造した装備にはランダムな属性が付きます。\n@{3}.装備製造では必ず紫品質以上の装備が作られます。オレンジ品質と赤品質の装備は未鑑定状態になります。
 10960000001	@{1}.Equipment Forging, defeating monsters, and other activities may yield unidentified equipment.\n@{2}.Identifying equipment does not consume any materials. Its attributes are randomized upon identification. Tap the ^{1}Equipment Forging Info^{2} button to view the possible attributes for the equipment.	@{1}.装備製造やモンスター討伐などで未鑑定装備を獲得することがあります。\n@{2}.装備の鑑定には素材を消費しません。鑑定時に属性がランダムで決まります。^{1}装備製造情報^{2}ボタンをタップすると、その装備に付く可能性がある属性を確認できます。
 10960000002	Players who obtain a Throne Token can purchase throne-exclusive items from the Season Shop during the new Season.	王座トークンを獲得したプレイヤーは、新シーズン中にシーズンショップで王座限定アイテムを購入できる。
@@ -11722,12 +11724,12 @@
 12390000479	Silk Robe	シルクローブ
 12390000478	Steel Chain Mail	スチールチェインメイル
 12390000477	Iron Armor	アイアンアーマー
-12390000476	Mink Coat-STR/VIT-DEF	ミンクコート-STR/VIT-DEF
-12390000475	Mink Coat-DEX/AGI-ATK	ミンクコート-DEX/AGI-ATK
-12390000474	Mink Coat-INT/DEX-ATK	ミンクコート-INT/DEX-ATK
-12390000473	Mink Coat-STR/VIT-ATK	ミンクコート-STR/VIT-ATK
-12390000472	Mink Coat-STR/LUK-ATK	ミンクコート-STR/LUK-ATK
-12390000471	Mink Coat-STR/AGI-ATK	ミンクコート-STR/AGI-ATK
+12390000476	Mink Coat-STR/VIT-DEF	ミンクのコート-STR/VIT-DEF
+12390000475	Mink Coat-DEX/AGI-ATK	ミンクのコート-DEX/AGI-ATK
+12390000474	Mink Coat-INT/DEX-ATK	ミンクのコート-INT/DEX-ATK
+12390000473	Mink Coat-STR/VIT-ATK	ミンクのコート-STR/VIT-ATK
+12390000472	Mink Coat-STR/LUK-ATK	ミンクのコート-STR/LUK-ATK
+12390000471	Mink Coat-STR/AGI-ATK	ミンクのコート-STR/AGI-ATK
 12390000470	Mink Coat	ミンクのコート
 12390000469	Adventurer's Suit	冒険者のスーツ
 12390000468	Novice Coat	ノービスコート

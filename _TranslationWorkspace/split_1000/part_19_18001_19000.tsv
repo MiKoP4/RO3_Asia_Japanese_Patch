@@ -618,7 +618,7 @@
 18617	Defeat the Tarou ahead that are scaring Fervor*	前方のタロウを倒してファーヴァーを助ける*
 18618	No points have been allocated. Unable to reset.	ポイントが未割り振りのためリセットできません。
 18619	Item removed successfully. Check your Backpack.	アイテムを削除しました。バックパックを確認してください。
-18620	I Discover a great item! Come check it out!${1}	いいアイテムを見つけた！見に来て！${1}
+18620	I Discover a great item! Come check it out!${1}	すごいアイテムを見つけた！見に来て！${1}
 18621	Filter Star Cores in your Backpack by slot type	バックパック内のスターコアをスロット種別で絞り込む
 18622	Crafting has a @{1}% Chance to consume no Vigor	クラフト時@{1}%の確率で活力を消費しません
 18623	Confirm whether to transfer Party Leader status	パーティリーダー権限を譲渡しますか？
