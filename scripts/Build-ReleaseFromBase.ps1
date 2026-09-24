@@ -119,6 +119,7 @@ try {
         'Uninstall-Japanese.bat',
         'Restore-Recovery.ps1',
         'Recover-Japanese.bat',
+        'Recover-After-Official-Repair.bat',
         'README.txt'
     )
     foreach ($name in $rootFiles) {
