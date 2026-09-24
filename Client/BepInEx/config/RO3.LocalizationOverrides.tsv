@@ -12164,6 +12164,85 @@
 57097	Finished reading Chapter [${2}] of Book [${1}]	書籍[${1}]の第[${2}]章を読了
 57098	Chapter [${2}] of Book [${1}] unlocked	書籍[${1}]の第[${2}]章を解放
 57099	Familiar	ファミリアー
+11770000078	Bidder ID	入札者ID
+11770000077	Element	属性
+11770000076	Elemental Mage	エレメンタルメイジ
+11770000075	Earthfire Mage	アースファイアメイジ
+11770000074	Frost Mage	フロストメイジ
+11770000073	Warg Hunter	ウォーグハンター
+11770000072	Wind Walker	ウィンドウォーカー
+11770000071	Speedy Hunter	高速ハンター
+11770000070	Eagle Eye Hunter	イーグルアイハンター
+11770000069	Trap Hunter	トラップハンター
+11770000068	Rolling Cutter Assassin	ローリングカッターアサシン
+11770000067	Soul Breaker Assassin	ソウルブレイカーアサシン
+11770000066	Stealth Assassin	ステルスアサシン
+11770000065	Ambush Assassin	アンブッシュアサシン
+11770000064	Iron Axe Artisan	鉄斧職人
+11770000063	Wandering Merchant	流浪の商人
+11770000062	Cart Merchant	カートマーチャント
+11770000061	Exorciser	エクソサイザー
+11770000060	Praiser Priest	賛美プリースト
+11770000059	Shield Crusader	シールドクルセイダー
+11770000058	Spear Crusader	槍クルセイダー
+11770000057	Dragon Knight	ドラゴンナイト
+11770000056	Steel Shield Knight	スティールシールドナイト
+11770000055	Lance Knight	ランスナイト
+11770000054	Swift Knight	スウィフトナイト
+11770000053	Kafra's Ring	カプラの指輪
+11770000052	Survivor's Running Shoes	サバイバーズランニングシューズ
+11770000051	Survivor's Coat	サバイバーコート
+11770000050	Survivor's Muffler	サバイバーズマフラー
+11770000049	Kafra's Sword	カプラの剣
+11770000048	Wind Style - Monsoon	風属性 - モンスーン
+11770000047	Lightning Style - Rolling Thunder	雷遁 - ローリングサンダー
+11770000046	Fire Style - Flame Jet	火遁 - 火炎噴射
+11770000045	Body Style - Expansion	体術 - 拡張
+11770000044	Earth Style - Burrow	地属性 - 潜行
+11770000043	Wind Style - Tornado	風属性 - トルネード
+11770000042	Hide-and-Seek	かくれんぼ
+11770000041	Flame Launcher	フレイムランチャー
+11770000040	Pile Bunker	パイルバンカー
+11770000039	Arm Cannon Enhance	アームキャノン強化
+11770000038	Flasher	フラッシャー
+11770000037	Anklesnare	アンクルスネア
+11770000036	Myriad Stars Chase the Moon	千の星が月を追う
+11770000035	Detecting	探知中
+11770000034	Arrow Storm	アローストーム
+11770000033	Charge Arrow	チャージアロー
+11770000032	Hymn of the Lamb	子羊の賛歌
+11770000031	Hymn of Devotion	献身の賛歌
+11770000030	Highness Heal	ハイネスヒール
+11770000029	Sanctuary	サンクチュアリ
+11770000028	Radiant Holy Light	輝けるホーリーライト
+11770000027	Gravitation Field	グラビテーションフィールド
+11770000026	Earth Strain	アースストレイン
+11770000025	Jack Frost	ジャックフロスト
+11770000024	Crimson Rock	クリムゾンロック
+11770000023	Thunderclap	雷鳴
+11770000022	Comet	コメット
+11770000021	Tetra Vortex	テトラ ボルテックス
+11770000020	Heavy Cannon Shot	ヘビーキャノンショット
+11770000019	Shield Defense	シールド防御
+11770000018	Twilight	トワイライト
+11770000017	Spear Formation - Crescent Moon	槍陣 - 三日月
+11770000016	Fearless Charge	恐れなき突撃
+11770000015	Rain of Spears	レインオブスピア
+11770000014	Phantom Thrust	ファントムスラスト
+11770000013	Rift Impact	リフトインパクト
+11770000012	Evil Spirit Threat	悪霊の脅威
+11770000011	Dark Illusion	ダークイリュージョン
+11770000010	Meteor Assault	メテオアサルト
+11770000009	Enhance Cloaking	強化クローキング
+11770000008	Soul Destroyer	ソウルブレイカー
+11770000007	Shadow Step	シャドウステップ
+11770000006	Disguise	変装
+11770000005	Kaka Coin	カカコイン
+11770000004	Cooldown Potion	クールダウンポーション
+11770000003	Speed Potion	スピードポーション
+11770000002	Instant Recovery Potion	即時回復ポーション
+11770000001	Regeneration Potion	リジェネレーションポーション
+11770000000	Panacea	万能薬
 11530400012	Complete the Commission Quests Post by Daidai to earn tons of rewards.	ダイダイが掲示する依頼クエストを達成して、大量の報酬を獲得しましょう。
 11530400011	Lead your Pet in a Challenge against the Spirit Tower.	ペットを連れて精霊の塔に挑戦。
 11530400010	Participate in any Misc activity in the Treasure Vault to earn an Eden Group Commendation.	宝物庫の任意のコンテンツに参加して、楽園団表彰を獲得。

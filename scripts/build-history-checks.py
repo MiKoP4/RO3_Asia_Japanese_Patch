@@ -37,6 +37,11 @@ for category in ('OBSERVED_UI_ZH_ALIASES', 'OBSERVED_STALL_TITLE_ALIASES', 'OBSE
 for key, source, target in data.build_item_alias_rows(translations):
     if key in ('12390001302', '12390001307'):
         rows.append(('stall-item:' + key, source, target))
+for key, source, target in data.build_skill_alias_rows(translations):
+    if key in ('10110200020', '10110200023', '10110200043', '10110200045',
+               '10110200057', '10110201060', '11770000028',
+               '11770000030', '11770000031'):
+        rows.append(('skill-alias:' + key, source, target))
 for key, (source, target) in data.KNOWN_LOCALIZATION_ID_JAPANESE_OVERRIDES.items():
     rows.append(('id:' + key, source, target))
 for i, source in enumerate((data.KNOWN_KAFRA_BATTLEFIELD_MANAGER, data.KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY)):

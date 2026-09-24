@@ -243,7 +243,8 @@ namespace RO3.JapaneseMod
                 exact[english + "以上で購入可能"] = japanese + "以上で購入可能";
             }
             if (id.StartsWith("123900", StringComparison.Ordinal)) itemNames[english] = japanese;
-            if (id.StartsWith("101102", StringComparison.Ordinal)) skillNames[english] = japanese;
+            if (id.StartsWith("101102", StringComparison.Ordinal) || id.StartsWith("117700", StringComparison.Ordinal))
+                skillNames[english] = japanese;
             if (id.StartsWith("102202", StringComparison.Ordinal)) buffNames[english] = japanese;
             if (id.StartsWith("104700", StringComparison.Ordinal)) monsterNames[english] = japanese;
             if (id.StartsWith("131501", StringComparison.Ordinal)) questTitles[english] = japanese;

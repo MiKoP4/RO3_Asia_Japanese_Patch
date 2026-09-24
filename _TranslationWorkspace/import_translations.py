@@ -38,6 +38,7 @@ LOCALIZATION_PATCH_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.Localiza
 LANGUAGE_KV_FILE = WORKSPACE / "LanguageKV_full_en.tsv"
 WORLD_ALIAS_SOURCE = WORKSPACE / "world_label_aliases.json"
 ITEM_ALIAS_SOURCE = WORKSPACE / "item_name_aliases.json"
+SKILL_ALIAS_SOURCE = WORKSPACE / "skill_name_aliases.json"
 LOCALIZATION_ALIAS_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.LocalizationAliases.tsv"
 
 
@@ -555,6 +556,8 @@ LOCALIZATION_PATCH_PREFIXES = (
     # Skill names/descriptions and linked tooltips. Some combat callouts bypass
     # XUnity after the LanguageKV lookup (for example "Focused Arrow Strike!!").
     "101102",
+    # Auto-battle skill selection uses this second name table directly.
+    "117700",
     # Buff/effect names are also reused as visible item names in some stall
     # configurations. The zh_TW stall path can read these IDs directly.
     "102202",
@@ -670,6 +673,15 @@ KNOWN_WORLD_NAME_PAIRS = {
     "Thara Frog": "タラ・フロッグ",
 }
 KNOWN_LOCALIZATION_PATCH_IDS = {
+    "10110200020": "Resurrection",
+    "10110200023": "Kyrie Eleison",
+    "10110200043": "Highness Heal",
+    "10110200045": "Radiant Holy Light",
+    "10110200057": "Hymn of Devotion",
+    "10110201060": "Skill Bar",
+    "11770000028": "Radiant Holy Light",
+    "11770000030": "Highness Heal",
+    "11770000031": "Hymn of Devotion",
     "41000": "Congrats on Obtaining",
     "21187": "I Discover a great item! Come check it out!",
     "21190": "I Discover a great item! Come check it out!${1}",
@@ -1790,6 +1802,9 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     for _, source, target in build_item_alias_rows(translations):
         if not RUNTIME_TOKEN_RE.search(source):
             variants[source] = target
+    for _, source, target in build_skill_alias_rows(translations):
+        if not RUNTIME_TOKEN_RE.search(source):
+            variants[source] = target
 
     header = [
         "// RO3 high-priority runtime collision/variant overrides",
@@ -1903,6 +1918,29 @@ def build_item_alias_rows(translations: dict[str, str]) -> list[tuple[str, str, 
     return build_localized_alias_rows(translations, ITEM_ALIAS_SOURCE, ("123900",))
 
 
+def build_skill_alias_rows(translations: dict[str, str]) -> list[tuple[str, str, str]]:
+    existing: dict[str, set[str]] = {}
+    for _, source, target in build_world_alias_rows(translations) + build_item_alias_rows(translations):
+        existing.setdefault(source, set()).add(target)
+    for source, target in OBSERVED_UI_ZH_ALIASES.items():
+        existing.setdefault(source, set()).add(target)
+    for source, target in build_observed_ui_aliases(translations).items():
+        existing.setdefault(source, set()).add(target)
+    return [
+        (key, source, target)
+        for key, source, target in build_localized_alias_rows(
+            translations, SKILL_ALIAS_SOURCE, ("101102", "117700")
+        )
+        if re.search(r"[\u3400-\u9fff]", source)
+        and "无需翻译" not in source and "無需翻譯" not in source
+        # Generic UI uses a different, established translation for this text.
+        # Its skill ID still receives the canonical ID-specific translation.
+        and source not in {"敬请期待", "敬請期待"}
+        and (source not in translations or translations[source] == target)
+        and (source not in existing or existing[source] == {target})
+    ]
+
+
 def atomic_write_text(path: Path, text: str, encoding: str = "utf-8-sig") -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temp_name = tempfile.mkstemp(prefix=path.name + ".", suffix=".tmp", dir=str(path.parent))
@@ -1970,6 +2008,7 @@ def write_outputs(
     aliases = ["# ID<TAB>Original zh_CN/zh_TW label<TAB>Japanese; generated from signed localization tables"]
     aliases.extend("\t".join(row) for row in build_world_alias_rows(translations))
     aliases.extend("\t".join(row) for row in build_item_alias_rows(translations))
+    aliases.extend("\t".join(row) for row in build_skill_alias_rows(translations))
     atomic_write_text(LOCALIZATION_ALIAS_FILE, "\n".join(aliases) + "\n")
 
     cache_text = json.dumps(translations, ensure_ascii=False, indent=1, sort_keys=True) + "\n"

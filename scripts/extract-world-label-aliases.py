@@ -12,7 +12,10 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--game-root', type=Path, default=repo.parent)
 parser.add_argument('--find', help='Inspect matching original labels without changing the export')
 parser.add_argument('--item-names', action='store_true', help='Export original item names for stall translation')
+parser.add_argument('--skill-names', action='store_true', help='Export skill and auto-battle names')
 options = parser.parse_args()
+if options.item_names and options.skill_names:
+    parser.error('Choose one export at a time')
 root = options.game_root.resolve()
 plugins = root / 'Client/ro3_Data/Plugins/x86_64'
 cookie = os.add_dll_directory(str(plugins))
@@ -92,11 +95,17 @@ if options.find:
         if any(query.search(value) for value in row):
             print(json.dumps(row, ensure_ascii=False))
     raise SystemExit(0)
-prefixes = ('123900',) if options.item_names else ('100800', '106801', '105300', '104700')
+prefixes = ('123900',) if options.item_names else (
+    ('101102', '117700') if options.skill_names
+    else ('100800', '106801', '105300', '104700')
+)
 for key, english in tables['en'].items():
     if key.startswith(prefixes):
         selected.append([key, english, tables['zh_CN'].get(key, ''), tables['zh_TW'].get(key, '')])
 selected.sort()
-target = repo / ('_TranslationWorkspace/item_name_aliases.json' if options.item_names else '_TranslationWorkspace/world_label_aliases.json')
+target = repo / ('_TranslationWorkspace/item_name_aliases.json' if options.item_names else (
+    '_TranslationWorkspace/skill_name_aliases.json' if options.skill_names
+    else '_TranslationWorkspace/world_label_aliases.json'
+))
 target.write_text(json.dumps({'source_sha256': hashes, 'rows': selected}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-print('Exported', 'item-name' if options.item_names else 'world-name', 'rows:', len(selected), 'to', target)
+print('Exported', 'item-name' if options.item_names else ('skill-name' if options.skill_names else 'world-name'), 'rows:', len(selected), 'to', target)

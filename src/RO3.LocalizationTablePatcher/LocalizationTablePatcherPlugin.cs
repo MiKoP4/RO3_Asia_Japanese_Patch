@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace RO3.JapaneseMod
 {
-    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.34")]
+    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.35")]
     public sealed class LocalizationTablePatcherPlugin : BaseUnityPlugin
     {
         private sealed class ReferenceComparer<T> : IEqualityComparer<T> where T : class
@@ -1472,7 +1472,7 @@ namespace RO3.JapaneseMod
                 "Reach Wardrobe", "Trophies Achieved", "Appearance ", "一键领取", "一鍵領取", "ランク:", "Rank:",
                 "上架中", "公示中", "组队平台", "組隊平台", "party is recruiting", "资金榜", "資金榜", "排名", "玩家名称", "职务", "捐赠额度", "Discover a great item", "Mink Coat", "恭喜获得", "恭喜獲得", "Congrats on Obtaining",
                 "Prerequisite Skill", "Mana Recharge", "十字驅魔攻擊", "十字驱魔攻击", "審判", "謳歌", "聖痕", "天罰", "郵件", "篩選", "排行", "右鍵清除", "活動尚未開啟", "Minute ", "sec後",
-                "无主灵魂核心", "無主靈魂核心", "公会人数达到", "公會人數達到", "上周公会活跃", "上週公會活躍", "每赛程首周", "每賽程首週", "珠泪螺壳", "Rating ", "Admonitory Song", "Song of Suffering", "Musical Phrase", "Battle Chant Harmony", "Prontera North Gate", "活动任务", "公会联赛", "领土战争", "自然之神伊尔玛塔", "邮件", "天后过期", "Eddga", "Moonlight Flower", "Congratulations to player", "レア報酬を獲得", " was defeated by ", "に倒されました。", "Defeat Monsters", "Geffen Outskirts", "Gardener", "紅辣椒", "紅色藥草", "红辣椒", "红色药草" })
+                "无主灵魂核心", "無主靈魂核心", "公会人数达到", "公會人數達到", "上周公会活跃", "上週公會活躍", "每赛程首周", "每賽程首週", "珠泪螺壳", "Rating ", "Admonitory Song", "Song of Suffering", "Musical Phrase", "Battle Chant Harmony", "Prontera North Gate", "活动任务", "公会联赛", "领土战争", "自然之神伊尔玛塔", "邮件", "天后过期", "Eddga", "Moonlight Flower", "Congratulations to player", "レア報酬を獲得", " was defeated by ", "に倒されました。", "Defeat Monsters", "Geffen Outskirts", "Gardener", "紅辣椒", "紅色藥草", "红辣椒", "红色药草", "高阶治愈术", "高階治癒術", "奉献颂歌", "奉獻頌歌", "灿烂圣光", "燦爛聖光", "复活术", "復活術", "霸邪之阵", "霸邪之陣", "技能队列", "技能隊列" })
                 if (original.Contains(token)) { relevant = true; break; }
             if (!relevant || !_displayTraceInputs.Add(original)) return;
             if (!File.Exists(Path.Combine(Paths.ConfigPath, "RO3.DisplayTrace.enable")))
@@ -1615,12 +1615,14 @@ namespace RO3.JapaneseMod
                     if (parts.Length != 3 || parts[0].StartsWith("#", StringComparison.Ordinal)) continue;
                     if (!parts[0].StartsWith("100800", StringComparison.Ordinal) && !parts[0].StartsWith("106801", StringComparison.Ordinal)
                         && !parts[0].StartsWith("104700", StringComparison.Ordinal) && !parts[0].StartsWith("105300", StringComparison.Ordinal)
-                        && !parts[0].StartsWith("123900", StringComparison.Ordinal)) continue;
+                        && !parts[0].StartsWith("123900", StringComparison.Ordinal)
+                        && !parts[0].StartsWith("101102", StringComparison.Ordinal)
+                        && !parts[0].StartsWith("117700", StringComparison.Ordinal)) continue;
                     _displayTranslator.Add(parts[0], parts[1], parts[2]);
                     aliases++;
                 }
             }
-            Logger.LogInfo("[LocalizationTablePatcher][Display] World/item aliases loaded=" + aliases);
+            Logger.LogInfo("[LocalizationTablePatcher][Display] World/item/skill aliases loaded=" + aliases);
         }
 
         private void SeedLanguageMainCache(string source)

@@ -1,3 +1,12 @@
+text:10110200020	Resurrection	リザレクション
+text:10110200023	Kyrie Eleison	キリエエレイソン
+text:10110200043	Highness Heal	ハイネスヒール
+text:10110200045	Radiant Holy Light	輝けるホーリーライト
+text:10110200057	Hymn of Devotion	献身の賛歌
+text:10110201060	Skill Bar	スキルバー
+text:11770000028	Radiant Holy Light	輝けるホーリーライト
+text:11770000030	Highness Heal	ハイネスヒール
+text:11770000031	Hymn of Devotion	献身の賛歌
 text:41000	Congrats on Obtaining	獲得おめでとう
 text:21187	I Discover a great item! Come check it out!	すごいアイテムを見つけた！見に来て！
 text:21190	I Discover a great item! Come check it out!11	すごいアイテムを見つけた！見に来て！11
@@ -142,6 +151,24 @@ stall-item:12390001302	紅色藥草	赤ハーブ
 stall-item:12390001302	红色药草	赤ハーブ
 stall-item:12390001307	紅辣椒	赤唐辛子
 stall-item:12390001307	红辣椒	赤唐辛子
+skill-alias:10110200020	复活术	リザレクション
+skill-alias:10110200020	復活術	リザレクション
+skill-alias:10110200023	霸邪之阵	キリエエレイソン
+skill-alias:10110200023	霸邪之陣	キリエエレイソン
+skill-alias:10110200043	高阶治愈术	ハイネスヒール
+skill-alias:10110200043	高階治癒術	ハイネスヒール
+skill-alias:10110200045	灿烂圣光	輝けるホーリーライト
+skill-alias:10110200045	燦爛聖光	輝けるホーリーライト
+skill-alias:10110200057	奉献颂歌	献身の賛歌
+skill-alias:10110200057	奉獻頌歌	献身の賛歌
+skill-alias:10110201060	技能队列	スキルバー
+skill-alias:10110201060	技能隊列	スキルバー
+skill-alias:11770000028	灿烂圣光	輝けるホーリーライト
+skill-alias:11770000028	燦爛聖光	輝けるホーリーライト
+skill-alias:11770000030	高阶治愈术	ハイネスヒール
+skill-alias:11770000030	高階治癒術	ハイネスヒール
+skill-alias:11770000031	奉献颂歌	献身の賛歌
+skill-alias:11770000031	奉獻頌歌	献身の賛歌
 id:26015	Report	戦績
 id:44013	Report	戦績
 id:44026	Report	戦績
