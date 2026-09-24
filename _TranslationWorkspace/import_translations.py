@@ -37,6 +37,7 @@ CONFIG_FILE = ROOT / "Client" / "BepInEx" / "config" / "AutoTranslatorConfig.ini
 LOCALIZATION_PATCH_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.LocalizationOverrides.tsv"
 LANGUAGE_KV_FILE = WORKSPACE / "LanguageKV_full_en.tsv"
 WORLD_ALIAS_SOURCE = WORKSPACE / "world_label_aliases.json"
+ITEM_ALIAS_SOURCE = WORKSPACE / "item_name_aliases.json"
 LOCALIZATION_ALIAS_FILE = ROOT / "Client" / "BepInEx" / "config" / "RO3.LocalizationAliases.tsv"
 
 
@@ -496,6 +497,10 @@ KNOWN_RECRUITMENT_DUNGEON_PAIRS_TW = (
     ("五人挑戰－隱密之地", "5-Player Challenge - Hidden Land", "隱密之地", "Hidden Realm"),
 )
 LOCALIZATION_PATCH_PREFIXES = (
+    # Life-skill profession names are composed with EXP gains after lookup.
+    "12360000000", "12360000001", "12360000004",
+    "10160000209", "10160000210", "10160000211",
+    "10790100052", "10790100053", "10790100054",
     # Collection counters, event instructions and market stock counters are
     # formatted after localization, including through recovered Lua modules.
     "570", "106300", "21075", "25483",
@@ -659,6 +664,15 @@ KNOWN_WORLD_NAME_PAIRS = {
     "Thara Frog": "タラ・フロッグ",
 }
 KNOWN_LOCALIZATION_PATCH_IDS = {
+    "12360000000": "Miner",
+    "12360000001": "Chef",
+    "12360000004": "Gardener",
+    "10160000209": "Life Skill - Miner",
+    "10160000210": "Life Skill - Chef",
+    "10160000211": "Life Skill - Gardener",
+    "10790100052": "Life Skill - Miner",
+    "10790100053": "Life Skill - Chef",
+    "10790100054": "Life Skill - Gardener",
     "10010300015": "PATK",
     "10010300016": "MATK",
     "10010300151": "DMG vs Large Enemies %",
@@ -1764,6 +1778,9 @@ def build_priority_override_lines(translations: dict[str, str]) -> list[str]:
     for _, source, target in build_world_alias_rows(translations):
         if not RUNTIME_TOKEN_RE.search(source):
             variants[source] = target
+    for _, source, target in build_item_alias_rows(translations):
+        if not RUNTIME_TOKEN_RE.search(source):
+            variants[source] = target
 
     header = [
         "// RO3 high-priority runtime collision/variant overrides",
@@ -1835,21 +1852,25 @@ def build_localization_patch_lines(translations: dict[str, str]) -> list[str]:
     return lines
 
 
-def build_world_alias_rows(translations: dict[str, str]) -> list[tuple[str, str, str]]:
-    """Resolve original zh_CN/zh_TW world labels through canonical IDs.
+def build_localized_alias_rows(
+    translations: dict[str, str], source_path: Path, prefixes: tuple[str, ...]
+) -> list[tuple[str, str, str]]:
+    """Resolve original zh_CN/zh_TW labels through canonical IDs.
 
     The checked-in source is extracted offline from the signed modules. No
     live client or Recovery modification is required to regenerate releases.
     Ambiguous text-only aliases are excluded instead of choosing a random ID.
     """
-    source = json.loads(WORLD_ALIAS_SOURCE.read_text(encoding="utf-8"))
-    english_by_id = dict(load_language_kv_rows(("100800", "106801", "104700", "105300")))
+    source = json.loads(source_path.read_text(encoding="utf-8"))
+    english_by_id = dict(load_language_kv_rows(prefixes))
     candidates: set[tuple[str, str, str]] = set()
     targets: dict[str, set[str]] = {}
     japanese_values = set(translations.values())
-    for key, _, simplified, traditional in source["rows"]:
+    for key, source_english, simplified, traditional in source["rows"]:
         if key not in english_by_id:
-            raise ImportErrorWithContext(f"world alias has unknown ID: {key}")
+            raise ImportErrorWithContext(f"{source_path.name} has unknown ID: {key}")
+        if source_english != english_by_id[key]:
+            raise ImportErrorWithContext(f"{source_path.name} has stale English for ID {key}")
         japanese = translations.get(english_by_id[key])
         if not japanese:
             continue
@@ -1861,6 +1882,16 @@ def build_world_alias_rows(translations: dict[str, str]) -> list[tuple[str, str,
             candidates.add((key, alias, japanese))
             targets.setdefault(alias, set()).add(japanese)
     return sorted(row for row in candidates if len(targets[row[1]]) == 1)
+
+
+def build_world_alias_rows(translations: dict[str, str]) -> list[tuple[str, str, str]]:
+    return build_localized_alias_rows(
+        translations, WORLD_ALIAS_SOURCE, ("100800", "106801", "104700", "105300")
+    )
+
+
+def build_item_alias_rows(translations: dict[str, str]) -> list[tuple[str, str, str]]:
+    return build_localized_alias_rows(translations, ITEM_ALIAS_SOURCE, ("123900",))
 
 
 def atomic_write_text(path: Path, text: str, encoding: str = "utf-8-sig") -> None:
@@ -1927,8 +1958,9 @@ def write_outputs(
         LOCALIZATION_PATCH_FILE,
         "\n".join(localization_patch_lines) + "\n",
     )
-    aliases = ["# ID<TAB>Original world label<TAB>Japanese; generated from world_label_aliases.json"]
+    aliases = ["# ID<TAB>Original zh_CN/zh_TW label<TAB>Japanese; generated from signed localization tables"]
     aliases.extend("\t".join(row) for row in build_world_alias_rows(translations))
+    aliases.extend("\t".join(row) for row in build_item_alias_rows(translations))
     atomic_write_text(LOCALIZATION_ALIAS_FILE, "\n".join(aliases) + "\n")
 
     cache_text = json.dumps(translations, ensure_ascii=False, indent=1, sort_keys=True) + "\n"

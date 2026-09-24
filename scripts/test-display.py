@@ -14,7 +14,8 @@ with tempfile.TemporaryDirectory(prefix='ro3-display-tests-') as temp:
     if build.returncode:
         print('FAILED: display test compilation (scripts/DisplayTextTranslatorTest.cs)')
         raise SystemExit(build.returncode)
-    result = subprocess.run([str(exe), str(root / 'Client/BepInEx/config/RO3.LocalizationOverrides.tsv')],
+    result = subprocess.run([str(exe), str(root / 'Client/BepInEx/config/RO3.LocalizationOverrides.tsv'),
+                             str(root / 'Client/BepInEx/config/RO3.LocalizationAliases.tsv')],
                             capture_output=True, timeout=30)
     print('Quiet test run: ' + ('PASSED' if result.returncode == 0 else 'FAILED'))
     print(result.stdout.decode(errors='replace').strip())

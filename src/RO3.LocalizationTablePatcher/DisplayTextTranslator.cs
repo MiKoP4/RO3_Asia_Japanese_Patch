@@ -100,6 +100,8 @@ namespace RO3.JapaneseMod
         private static readonly Regex EquipmentType = new Regex(@"\A(?<hand>1H|2H|Off-Hand|Main-Hand)\s*-\s*(?<type>[A-Za-z ]+)\z");
         private static readonly Regex JobRequirement = new Regex(@"\A(?:Level Req\s*[:：]\s*(?<level>[0-9]+)\s*)?Job\s*Restriction\s*[:：]\s*(?<jobs>[\p{L} ,、\r\n]+)\z");
         private static readonly Regex QuestHeading = new Regex(@"\A(?<marker>\[(?:Main Quest|Side Quest|Commission|メインクエスト|サブクエスト|依頼)\])\s*(?:(?<chapter>Chapter(?: One| [0-9]+)|第[0-9]+章)[:：]\s*)?(?<title>[^<>\r\n]+)\z");
+        private static readonly Regex QuestMapObjective = new Regex(@"\A(?<map>[^<>\r\n]+?)で[^\r\n]*[0-9]+/[0-9]+\s*\z");
+        private static readonly Regex LifeSkillExperience = new Regex(@"\A(?<name>Gardener|Miner|Chef)\s*(?:経験(?:値)?|EXP)\s*\+[0-9]+(?:\s*\([0-9]+/[0-9]+\))?\s*\z");
         private static readonly Regex AuctionCountdown = new Regex(@"\A[0-9]{1,3}:[0-9]{2}(?::[0-9]{2})?\s*(?<suffix>Ends)\z");
         private static readonly Regex ProfileRank = new Regex(@"\A(?<label>Rank|ランク|头衔|頭銜)[:：]\s*(?<value>None|无|無)\z");
         private static readonly Regex Pickup = new Regex(@"\A(?<name>[^\r\n<>]+) (?<separator>[Xx×])\s*(?<count>[0-9]+)\z");
@@ -231,6 +233,8 @@ namespace RO3.JapaneseMod
             // These strings have ID-specific meanings; leave text-only lookup
             // to the canonical dictionary instead of letting the last ID win.
             if (english != "Report" && english != "Tips") exact[english] = japanese;
+            if (id == "13150300004" || id == "13150300005" || id == "13150300008")
+                exact[Regex.Replace(english, @"\^\{[0-9]+\}", "")] = Regex.Replace(japanese, @"\^\{[0-9]+\}", "");
             if (id.StartsWith("103600", StringComparison.Ordinal))
             {
                 exact["Available for purchase at position " + english + " or above"] = japanese + "以上で購入可能";
@@ -444,6 +448,13 @@ namespace RO3.JapaneseMod
             string translated;
             translated = TranslateWorldComposition(text);
             if (translated != text) return Translate(translated, depth + 1);
+            Match lifeSkillExperience = LifeSkillExperience.Match(Markup.Replace(text, ""));
+            if (lifeSkillExperience.Success)
+            {
+                Group name = lifeSkillExperience.Groups["name"];
+                translated = LookupWord(name.Value);
+                if (translated != name.Value) return ReplaceVisibleRange(text, name.Index, name.Length, translated);
+            }
             // Known fixed instructions must beat templates such as Kill ${1}.
             if (offlineExact.TryGetValue(text, out translated)) return translated;
             if (exact.TryGetValue(text, out translated)) return translated;
@@ -498,7 +509,7 @@ namespace RO3.JapaneseMod
             }
             translated = TranslateRichComposition(text);
             if (translated != text) return translated;
-            translated = TranslateQuestHeading(text);
+            translated = TranslateQuestHeading(text, depth);
             if (translated != null) return translated;
             Match rank = ProfileRank.Match(Markup.Replace(text, ""));
             if (rank.Success)
@@ -687,6 +698,14 @@ namespace RO3.JapaneseMod
                     int offset = label.Index - link.Index + map.Groups["map"].Index;
                     return link.Value.Substring(0, offset) + replacement + link.Value.Substring(offset + name.Length);
                 });
+            Match objective = QuestMapObjective.Match(Markup.Replace(result, ""));
+            if (objective.Success)
+            {
+                Group map = objective.Groups["map"];
+                string objectiveMapTranslation = TranslateMapName(map.Value);
+                if (objectiveMapTranslation != map.Value)
+                    result = ReplaceVisibleRange(result, map.Index, map.Length, objectiveMapTranslation);
+            }
             bool dismantleCandidate = result.IndexOf(" dismantled ", StringComparison.Ordinal) >= 0
                 || result.IndexOf("解体し、", StringComparison.Ordinal) >= 0;
             bool combineCandidate = result.IndexOf("Combine is successful. Obtained ", StringComparison.Ordinal) >= 0
@@ -802,7 +821,7 @@ namespace RO3.JapaneseMod
             return ReplaceVisibleRange(result, notice.Groups["boss"].Index, boss.Length, translatedBoss);
         }
 
-        private string TranslateQuestHeading(string text)
+        private string TranslateQuestHeading(string text, int depth)
         {
             if (!text.StartsWith("[", StringComparison.Ordinal) && !text.StartsWith("<", StringComparison.Ordinal)) return null;
             Match heading = QuestHeading.Match(Markup.Replace(text, ""));
@@ -811,8 +830,12 @@ namespace RO3.JapaneseMod
             string translatedTitle;
             if (!questTitles.TryGetValue(title, out translatedTitle))
             {
-                if (!questTitles.ContainsValue(title)) return text;
-                translatedTitle = title;
+                if (questTitles.ContainsValue(title)) translatedTitle = title;
+                else
+                {
+                    translatedTitle = Translate(title, depth + 1);
+                    if (translatedTitle == title) return text;
+                }
             }
             // Work backwards through visible spans so TMP color/link boundaries
             // and the original chapter punctuation remain byte-for-byte intact.

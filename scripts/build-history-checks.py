@@ -34,6 +34,9 @@ for category in ('OBSERVED_UI_ZH_ALIASES', 'OBSERVED_STALL_TITLE_ALIASES', 'OBSE
                  'OBSERVED_HATCHERY_QUALITY_ALIASES'):
     for i, (source, target) in enumerate(getattr(data, category).items()):
         rows.append((category + ':' + str(i), source, target))
+for key, source, target in data.build_item_alias_rows(translations):
+    if key in ('12390001302', '12390001307'):
+        rows.append(('stall-item:' + key, source, target))
 for key, (source, target) in data.KNOWN_LOCALIZATION_ID_JAPANESE_OVERRIDES.items():
     rows.append(('id:' + key, source, target))
 for i, source in enumerate((data.KNOWN_KAFRA_BATTLEFIELD_MANAGER, data.KNOWN_KAFRA_BATTLEFIELD_ODIN_BODY)):
@@ -96,6 +99,12 @@ rows.extend([
     ('extra-quest-chapter-mixed', '[メインクエスト]Chapter 8: 自由探索の時間', '[メインクエスト]第8章: 自由探索の時間'),
     ('extra-quest-unknown', '[Main Quest]Chapter 8: My Custom Title', '[Main Quest]Chapter 8: My Custom Title'),
     ('extra-quest-chat', 'TestPlayer:[Main Quest]Chapter 8: Time to Explore Freely', 'TestPlayer:[Main Quest]Chapter 8: Time to Explore Freely'),
+    ('extra-commission-counter', '[Commission] Defeat Monsters (2/10)', '[依頼] モンスター討伐（2/10）'),
+    ('extra-commission-counter-rich', '<color=#ec8c2f>[Commission]</color> Defeat Monsters (2/10)', '<color=#ec8c2f>[依頼]</color> モンスター討伐（2/10）'),
+    ('extra-commission-map-objective', 'Geffen Outskirtsでモンスターを討伐：0/20', 'ゲフェン郊外でモンスターを討伐：0/20'),
+    ('extra-life-skill-exp-gardener', 'Gardener 経験 +270 (51930/55000)', '園芸師 経験 +270 (51930/55000)'),
+    ('extra-life-skill-exp-miner', 'Miner 経験 +30 (10/100)', '採掘師 経験 +30 (10/100)'),
+    ('extra-life-skill-exp-chef', '<color=#cccccc>Chef</color> 経験 +20 (3/100)', '<color=#cccccc>調理師</color> 経験 +20 (3/100)'),
     ('live-quest-body-english', r"You've reached the end of the current main Quests. Check out the events and enjoy your adventures in this world!\nCurrent Server Level Cap: Lv. 69\n09/24/2026 05:00:00: Server Level Cap increases to Lv. 79", r'現在のメインクエストはここまでです。イベントもチェックして、この世界での冒険を楽しみましょう！\n現在のサーバーレベル上限：Lv.69\n09/24/2026 05:00:00：サーバーレベル上限がLv.79に上昇'),
     ('live-quest-body-mixed', r"You've reached the end of the current main Quests. Check out the events and enjoy your adventures in this world!\n現在のサーバーレベル上限：Lv.69\n09/24/2026 05:00:00：サーバーレベル上限がLv.79に上昇", r'現在のメインクエストはここまでです。イベントもチェックして、この世界での冒険を楽しみましょう！\n現在のサーバーレベル上限：Lv.69\n09/24/2026 05:00:00：サーバーレベル上限がLv.79に上昇'),
     ('extra-quest-wrapped-prose', r"You've reached the end of the current main Quests. Check out the events\n and enjoy your adventures in this world!", '現在のメインクエストはここまでです。イベントもチェックして、この世界での冒険を楽しみましょう！'),

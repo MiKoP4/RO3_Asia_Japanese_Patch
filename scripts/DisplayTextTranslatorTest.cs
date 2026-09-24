@@ -33,7 +33,16 @@ class DisplayTextTranslatorTest
             string[] fields = line.TrimStart('\uFEFF').Split(new[] { '\t' }, 3);
             if (fields.Length == 3) translator.Add(fields[0], fields[1], fields[2]);
         }
+        foreach (string line in File.ReadAllLines(args[1]))
+        {
+            string[] fields = line.TrimStart('\uFEFF').Split(new[] { '\t' }, 3);
+            if (fields.Length == 3 && !fields[0].StartsWith("#")) translator.Add(fields[0], fields[1], fields[2]);
+        }
         string[,] cases = {
+            { "紅辣椒", "赤唐辛子" },
+            { "红辣椒", "赤唐辛子" },
+            { "紅色藥草", "赤ハーブ" },
+            { "红色药草", "赤ハーブ" },
             { "Goblin Archer", "ゴブリンアーチャー" },
             { "プレイヤー【TestPlayer】が【Eddga】を撃破し、レア報酬を獲得しました！", "プレイヤー【TestPlayer】が【エドガ】を撃破し、レア報酬を獲得しました！" },
             { "Moonlight FlowerはTestPlayerに倒されました。", "月夜花はTestPlayerに倒されました。" },
@@ -62,6 +71,15 @@ class DisplayTextTranslatorTest
             { "Monsters Unlocked: 136/162", "解放モンスター：136/162" },
             { "Dedicated Scholar-2", "熱心な学者-2" },
             { "Complete the Commission: 0/1", "依頼を完了：0/1" },
+            { "[Commission] Defeat Monsters (2/10)", "[依頼] モンスター討伐（2/10）" },
+            { "<color=#ec8c2f>[Commission]</color> Defeat Monsters (2/10)", "<color=#ec8c2f>[依頼]</color> モンスター討伐（2/10）" },
+            { "Geffen Outskirtsでモンスターを討伐：0/20", "ゲフェン郊外でモンスターを討伐：0/20" },
+            { "Geffen Outskirtsで待ち合わせ", "Geffen Outskirtsで待ち合わせ" },
+            { "Unknown Placeでモンスターを討伐：0/20", "Unknown Placeでモンスターを討伐：0/20" },
+            { "Gardener 経験 +270 (51930/55000)", "園芸師 経験 +270 (51930/55000)" },
+            { "Miner 経験 +30 (10/100)", "採掘師 経験 +30 (10/100)" },
+            { "<color=#cccccc>Chef</color> 経験 +20 (3/100)", "<color=#cccccc>調理師</color> 経験 +20 (3/100)" },
+            { "Gardenerとの会話 +270 (51930/55000)", "Gardenerとの会話 +270 (51930/55000)" },
             { "Kill MVPs: 0/5", "MVP討伐数: 0/5" },
             { "Join the Caravan: 0/1", "キャラバンに参加：0/1" },
             { "High-Reward Auto Mode: 60/60", "高報酬オートモード: 60/60" },

@@ -2052,6 +2052,9 @@
 19008	Next Level	次のレベル
 19009	Achieved	達成
 19014	After reaching Refinement +${1}, failure will not reduce it below +${2}	精錬値+${1}到達後は、失敗しても+${2}未満には下がりません。
+10160000209	Life Skill - Miner	生活スキル - 採掘師
+10160000210	Life Skill - Chef	生活スキル - 調理師
+10160000211	Life Skill - Gardener	生活スキル - 園芸師
 21035	Price (Descending Order)	価格（高い順）
 21036	Price (Ascending Order)	価格（昇順）
 21075	For Sale: ${1}	販売中: ${1}
@@ -2352,7 +2355,7 @@
 10960000297	This is the system's Suggested route. You may freely choose another route based on the Battle conditions. Good luck!	これはシステムのおすすめルートです。戦況に応じて別のルートを自由に選べます。健闘を祈ります！
 10960000298	In some game modes and maps, HP bar display rules take priority over these settings	一部のゲームモードやマップでは、HPバー表示ルールがこの設定より優先されます
 10960000299	Includes information such as player name, Guild name, Guild emblem, and Trophy	プレイヤー名、ギルド名、ギルドエンブレム、トロフィーなどの情報を含みます
-10960000300	Life Skills include professions such as ^{1}【Miner】, 【Gardener】, and 【Chef】^{2}. You may learn any two of them.\nGathering or crafting with a Life Skill consumes ^{3}Vigor^{4} and grants profession EXP used to increase your profession level.\nOnce your profession Level Increased, more profession abilities Can be unlocked, including gathering higher-level resources and preparing higher-level recipes.	生活スキルには^{1}【鉱夫】、【園芸家】、【料理人】^{2}などの職業があり、そのうち任意の2つを習得できます。\n生活スキルで採集や製作を行うと^{3}活力^{4}を消費し、職業レベルを上げるための職業EXPを獲得します。\n職業レベルが上がると、高レベル資源の採集や高レベルレシピの調理など、さらに多くの職業能力を解放できます。
+10960000300	Life Skills include professions such as ^{1}【Miner】, 【Gardener】, and 【Chef】^{2}. You may learn any two of them.\nGathering or crafting with a Life Skill consumes ^{3}Vigor^{4} and grants profession EXP used to increase your profession level.\nOnce your profession Level Increased, more profession abilities Can be unlocked, including gathering higher-level resources and preparing higher-level recipes.	生活スキルには^{1}【採掘師】、【園芸師】、【調理師】^{2}などの職業があり、そのうち任意の2つを習得できます。\n生活スキルで採集や製作を行うと^{3}活力^{4}を消費し、職業レベルを上げるための職業EXPを獲得します。\n職業レベルが上がると、高レベル資源の採集や高レベルレシピの調理など、さらに多くの職業能力を解放できます。
 10960000301	While Cooking, there is a Chance to trigger ^{1}Flash of Inspiration^{2} and obtain a higher-rarity ^{3}Rare item^{4}	料理中、確率で^{1}ひらめき^{2}が発生し、より高レアリティの^{3}レアアイテム^{4}を獲得できる
 10960000302	Cooking success is affected by several factors. Higher-quality dishes have lower success rates. If cooking fails, you will receive one ^{1}Yor's Kitchen Creation.^{2}\nBase Success Rate: ^{3}Green-@{1}%^{4}, ^{5}Blue-@{2}%^{6}, ^{7}Purple-@{3}%^{8}, ^{9}Orange-@{4}%^{10}\nChef title skills also affect cooking success rates.	料理の成功率は複数の要素に影響されます。品質が高い料理ほど成功率は低くなります。調理に失敗すると^{1}ヨルのキッチンクリエーション^{2}を1個獲得します。\n基本成功率：^{3}緑-@{1}%^{4}、^{5}青-@{2}%^{6}、^{7}紫-@{3}%^{8}、^{9}オレンジ-@{4}%^{10}\nシェフ称号スキルも料理の成功率へ影響します。
 10960000303	Engraving is a reward for players who own premium appearances	刻印はプレミアム外見所持者向けの報酬です
@@ -7915,6 +7918,9 @@
 40997	Limited-Time ${1}	期間限定 ${1}
 40998	Daily Draw Limit: ${1}/${2}	デイリー抽選上限：${1}/${2}
 40999	Total Draw Limit: ${1}/${2}	総抽選上限：${1}/${2}
+12360000000	Miner	採掘師
+12360000001	Chef	調理師
+12360000004	Gardener	園芸師
 44013	Report	戦績
 44026	Report	戦績
 44040	Unlock Difficulty	難易度を解放
@@ -9745,17 +9751,17 @@
 12390100632	An umbrella-shaped mushroom with thick, savory flesh, often used in stews and stir-fries.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	傘のような形をしたキノコ。肉厚で旨味があり、煮込みや炒め物によく使われます。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が料理に使用します。
 12390100631	A juicy, bright Red fruit with a sweet-and-sour flavor, perfect for stews or soup bases.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	みずみずしく鮮やかな赤色で、甘酸っぱい風味を持つ果実。煮込み料理やスープのベースに最適です。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が料理に使用します。
 12390100630	Dark brown beans that can be ground into Cacao powder for making desserts.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	挽いてカカオパウダーにし、デザート作りに使える濃い茶色の豆。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
-12390100629	A round Purple fruit that can be made into fine wine or desserts.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	上質なワインやデザートに使える丸い紫色の果実。\n^{1}生活スキル - 園芸家^{2}で入手可能。生活スキル - 料理人が調理に使用する。
-12390100628	Bright Red and spicy, it adds heat and aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	真っ赤でスパイシー。料理に辛味と香りを加える。\n^{1}生活スキル - 園芸家^{2}で入手可能。生活スキル「料理人」の調理に使用する。
+12390100629	A round Purple fruit that can be made into fine wine or desserts.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	上質なワインやデザートに使える丸い紫色の果実。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が調理に使用する。
+12390100628	Bright Red and spicy, it adds heat and aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	真っ赤でスパイシー。料理に辛味と香りを加える。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師の調理に使用する。
 12390100627	Golden Grains that can be ground into flour for noodles, pastries, and other dishes.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	麺類や菓子などに使う小麦粉へ挽くことができる黄金色の穀物。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が料理に使用します。
 12390100626	Tender Green leaves from a Basic herb that adds aroma and flavor to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	料理に香りと風味を添える、基本的な薬草の柔らかな緑の葉。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
-12390100625	White Herb: Its pure White leaves add a subtle herbal aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	ホワイトハーブ：純白の葉が料理に繊細なハーブの香りを添える。\n^{1}生活スキル - 園芸家^{2}で入手可能。生活スキル - 料理人が調理に使用する。
+12390100625	White Herb: Its pure White leaves add a subtle herbal aroma to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	ホワイトハーブ：純白の葉が料理に繊細なハーブの香りを添える。\n^{1}生活スキル - 園芸師^{2}で入手可能。生活スキル - 調理師が調理に使用する。
 12390100624	Yellow Herb: Golden in color, it enhances the aroma and flavor of Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	イエローハーブ：黄金色の薬草で、料理の香りと風味を引き立てる。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
 12390100623	A bright Red Herb that adds a unique flavor and medicinal properties to Cooking.\nObtainable through ^{1}Life Skill - Gardener^{2}. Used by the Life Skill - Chef for Cooking.	料理に独特の風味と薬効を加える、鮮やかな赤色の薬草。\n^{1}生活スキル - 園芸師^{2}で獲得可能。生活スキル - 調理師が料理に使用する。
 12390100622	Legendary sharpening Material imbued with the power of a meteorite. It grants Weapons devastating power.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	隕石の力を宿した伝説級の研磨素材。武器に破壊的な力を与えます。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用します。
 12390100621	Premium sharpening Material infused with the essence of luminous gold. It gives Weapons astonishing sharpness.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	輝く金の精髄を注ぎ込んだ最高級の研磨素材。武器に驚異的な切れ味を与えます。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用します。
 12390100620	A whetstone polished multiple times to greatly improve a weapon's cutting power and durability.	何度も研磨された砥石。武器の切れ味と耐久性を大幅に高めます。
-12390100619	A whetstone made using a special process. It improves a Weapon's sharpness.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	特殊な製法で作られた砥石。武器の切れ味を高める。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100619	A whetstone made using a special process. It improves a Weapon's sharpness.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	特殊な製法で作られた砥石。武器の切れ味を高める。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用する。
 12390100618	A hilt forged from Meteor Metal and imbued with the power of a falling star. It greatly improves weapon performance and handling.	メテオメタルから鍛造され、流れ星の力を宿した柄。武器の性能と取り回しを大幅に向上させる。
 12390100617	A dense Meteor Metal block compressed using a special process. Its energy purity and strength have reached their peak, making it ideal for crafting advanced weapons.	特殊な製法によって圧縮された高密度の隕鉄ブロック。エネルギーの純度と強度が極限に達しており、高度な武器の製作に最適である。
 12390100616	A sharp blade forged from Meteor Metal. Its potential to pierce anything makes it a vital component of advanced weapons.	メテオメタルから鍛造された鋭利な刃。あらゆるものを貫く可能性を秘めており、高度な武器に不可欠な部品です。
@@ -9771,15 +9777,15 @@
 12390100606	Soaking iron several times in a special solution increases its strength, producing harder weapons and armor.	鉄を特殊な溶液に何度も浸して強度を高めることで、より硬い武器や防具を作れる。
 12390100605	High-quality compressed coal that burns at extremely high temperatures. Combining it with iron produces stronger steel.	高品質に圧縮された石炭。非常に高温で燃焼し、鉄と組み合わせることでより強靭な鋼鉄を作れます。
 12390100604	Not only is it sufficiently hard, but it is also easier to work with than other Metals.	十分な硬さを持ちながら、ほかの金属より加工しやすい。
-12390100603	Ore containing meteorite that can be refined into a Meteorite Chunk.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬して隕石の塊にできる隕石を含んだ鉱石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
-12390100602	A precious gemstone that gleams like a cat's eye and radiates a beautiful light.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	キャッツアイのように輝き、美しい光を放つ貴石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
-12390100601	An extremely sturdy stone with exceptional hardness, used to make Weapons.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	並外れた硬度を誇る極めて頑丈な石。武器の製造に使用される。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
-12390100600	Ore containing luminous gold that can be refined into a Luminous Gold Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	発光性の金を含む鉱石。精錬して発光金インゴットにできる。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
-12390100599	Ore containing mithril that can be refined into a Mithril Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬してミスリルインゴットにできるミスリルを含んだ鉱石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100603	Ore containing meteorite that can be refined into a Meteorite Chunk.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬して隕石の塊にできる隕石を含んだ鉱石。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100602	A precious gemstone that gleams like a cat's eye and radiates a beautiful light.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	キャッツアイのように輝き、美しい光を放つ貴石。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100601	An extremely sturdy stone with exceptional hardness, used to make Weapons.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	並外れた硬度を誇る極めて頑丈な石。武器の製造に使用される。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100600	Ore containing luminous gold that can be refined into a Luminous Gold Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	発光性の金を含む鉱石。精錬して発光金インゴットにできる。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100599	Ore containing mithril that can be refined into a Mithril Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬してミスリルインゴットにできるミスリルを含んだ鉱石。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用する。
 12390100598	As night falls, the stars resemble carefully Collected gemstones. Awed by their light rippling like water, people named this stone Sobbing Starlight.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	夜が訪れると、星々は丹念に集められた宝石のように輝く。その光が水面のように揺らめく様子に心を奪われ、人々はこの石を「すすり泣く星明かり」と名付けた。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用します。
-12390100597	A Normal stone found almost anywhere. It may look unremarkable, but it still has its uses.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	どこにでもある普通の石。目立たない見た目だが、ちゃんと使い道はある。\n^{1}生活スキル - 採掘工^{2}で獲得可能。T@{1}装備の製作に使用する。
-12390100596	Ore rich in carbon. The coal extracted from it can be refined with iron to produce Steel.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	炭素を豊富に含む鉱石。採取した石炭は鉄と精錬して鋼鉄を作ることができる。\n^{1}生活スキル - 採掘工^{2}で獲得可能。T@{1}装備の製作に使用する。
-12390100595	Ore containing iron that can be refined into an Iron Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬して鉄インゴットにできる鉄を含んだ鉱石。\n^{1}生活スキル - 採掘^{2}で入手可能。T@{1}装備の製作に使用する。
+12390100597	A Normal stone found almost anywhere. It may look unremarkable, but it still has its uses.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	どこにでもある普通の石。目立たない見た目だが、ちゃんと使い道はある。\n^{1}生活スキル - 採掘師^{2}で獲得可能。T@{1}装備の製作に使用する。
+12390100596	Ore rich in carbon. The coal extracted from it can be refined with iron to produce Steel.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	炭素を豊富に含む鉱石。採取した石炭は鉄と精錬して鋼鉄を作ることができる。\n^{1}生活スキル - 採掘師^{2}で獲得可能。T@{1}装備の製作に使用する。
+12390100595	Ore containing iron that can be refined into an Iron Ingot.\nObtainable through ^{1}Life Skill - Miner^{2}. Used to Craft T@{1} Equipment.	精錬して鉄インゴットにできる鉄を含んだ鉱石。\n^{1}生活スキル - 採掘師^{2}で入手可能。T@{1}装備の製作に使用する。
 12390100594	Restores @{1} Life Skill Vigor upon use.	使用すると生活スキル活力を@{1}回復。
 12390100593	An official certificate issued by the workshop, signifying that the holder has passed the Job Advance assessment and is qualified to independently pursue a Life Skill.	工房が発行する公式認定証。所持者が転職審査に合格し、生活スキルを独立して修める資格を得たことを証明する。
 12390100592	Item used to Learn a skill.	スキル習得に使用するアイテム。
@@ -11988,6 +11994,9 @@
 56200	Reward Count resets every Monday at <color=#CC762A>5</color> AM	報酬回数は毎週月曜<color=#CC762A>5</color>時にリセット
 56227	Clear Reward Count: ${1}	クリア報酬回数：${1}
 12390000016	Card: Poring	カード：ポリン
+10790100052	Life Skill - Miner	生活スキル - 採掘師
+10790100053	Life Skill - Chef	生活スキル - 調理師
+10790100054	Life Skill - Gardener	生活スキル - 園芸師
 10110300582	When an ^{1}Offensive-type^{2} Primary Battle Skill Deals DMG to an enemy, inflicts ${1}% ^{3}【Sluggish】^{4} for ${2} sec.	^{1}攻撃型^{2}のメイン戦闘スキルが敵にダメージを与えた時、${2}秒間、${1}%の^{3}【鈍足】^{4}を付与します。
 10110300583	Deals Neutral melee Physical damage equal to Pet Physical ATK*^{1}${3}%^{2} to up to ${2} enemies within a ${1}-meter radius and inflicts ${4}% ^{3}【Slow】^{4} for ${5} seconds.	${1}m以内の最大${2}体の敵に、ペット物理攻撃力*^{1}${3}%^{2}の無属性近接物理ダメージを与え、${5}秒間${4}%の^{3}【減速】^{4}を付与します。
 10080000069	Glast Heim Underground Cave Floor @{1}	グラストヘイム地下洞窟 @{1}F
