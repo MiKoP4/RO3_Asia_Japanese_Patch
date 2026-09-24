@@ -286,6 +286,7 @@ OBSERVED_UI_ZH_ALIASES = {
 OBSERVED_UI_CANONICAL_ALIASES = {
     # Original zh_CN/zh_TW rows, verified against the signed localization data.
     # Keep Japanese in split_1000 and retain the original numeric/style slots.
+    "恭喜获得": "Congrats on Obtaining", "恭喜獲得": "Congrats on Obtaining",
     "一键领取": "Claim All", "一鍵領取": "Claim All",
     "上架中": "Listed", "公示中": "Under Review",
     "组队平台": "Finder", "組隊平台": "Finder",
@@ -497,6 +498,8 @@ KNOWN_RECRUITMENT_DUNGEON_PAIRS_TW = (
     ("五人挑戰－隱密之地", "5-Player Challenge - Hidden Land", "隱密之地", "Hidden Realm"),
 )
 LOCALIZATION_PATCH_PREFIXES = (
+    # The draw reward popup reads this heading directly after LanguageKV lookup.
+    "41000",
     # Item-share chat interpolates its linked item after fetching the canned
     # sentence, and can bypass the final text hook.
     "21187", "21190",
@@ -667,6 +670,7 @@ KNOWN_WORLD_NAME_PAIRS = {
     "Thara Frog": "タラ・フロッグ",
 }
 KNOWN_LOCALIZATION_PATCH_IDS = {
+    "41000": "Congrats on Obtaining",
     "21187": "I Discover a great item! Come check it out!",
     "21190": "I Discover a great item! Come check it out!${1}",
     "12360000000": "Miner",

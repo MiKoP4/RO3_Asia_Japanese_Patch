@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace RO3.JapaneseMod
 {
-    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.33")]
+    [BepInPlugin("com.ro3.localizationtablepatcher", "RO3 Localization Table Patcher", "2.7.34")]
     public sealed class LocalizationTablePatcherPlugin : BaseUnityPlugin
     {
         private sealed class ReferenceComparer<T> : IEqualityComparer<T> where T : class
@@ -1470,7 +1470,7 @@ namespace RO3.JapaneseMod
             bool relevant = original == "无" || original == "無";
             foreach (string token in new[] { "For every ", "Song of Suffering", "Job", "Minted Coin", "Sharp Scale", "吉芬", "下水道", "斐扬", "斐揚", "Abandoned Village", "虫蛹", "蟲蛹", "Tap to Join Party", "排行榜", "Deity", "Reward Count", "Kills:", "Monsters to Earn Rewards", "Increases the target", "Standard Cards Collected", "筛选当前道具列表", "篩選當前道具列表", "Time to Explore Freely", "end of the current main", "During the event, each player", "For Sale:",
                 "Reach Wardrobe", "Trophies Achieved", "Appearance ", "一键领取", "一鍵領取", "ランク:", "Rank:",
-                "上架中", "公示中", "组队平台", "組隊平台", "party is recruiting", "资金榜", "資金榜", "排名", "玩家名称", "职务", "捐赠额度", "Discover a great item", "Mink Coat",
+                "上架中", "公示中", "组队平台", "組隊平台", "party is recruiting", "资金榜", "資金榜", "排名", "玩家名称", "职务", "捐赠额度", "Discover a great item", "Mink Coat", "恭喜获得", "恭喜獲得", "Congrats on Obtaining",
                 "Prerequisite Skill", "Mana Recharge", "十字驅魔攻擊", "十字驱魔攻击", "審判", "謳歌", "聖痕", "天罰", "郵件", "篩選", "排行", "右鍵清除", "活動尚未開啟", "Minute ", "sec後",
                 "无主灵魂核心", "無主靈魂核心", "公会人数达到", "公會人數達到", "上周公会活跃", "上週公會活躍", "每赛程首周", "每賽程首週", "珠泪螺壳", "Rating ", "Admonitory Song", "Song of Suffering", "Musical Phrase", "Battle Chant Harmony", "Prontera North Gate", "活动任务", "公会联赛", "领土战争", "自然之神伊尔玛塔", "邮件", "天后过期", "Eddga", "Moonlight Flower", "Congratulations to player", "レア報酬を獲得", " was defeated by ", "に倒されました。", "Defeat Monsters", "Geffen Outskirts", "Gardener", "紅辣椒", "紅色藥草", "红辣椒", "红色药草" })
                 if (original.Contains(token)) { relevant = true; break; }

@@ -1,3 +1,4 @@
+text:41000	Congrats on Obtaining	獲得おめでとう
 text:21187	I Discover a great item! Come check it out!	すごいアイテムを見つけた！見に来て！
 text:21190	I Discover a great item! Come check it out!11	すごいアイテムを見つけた！見に来て！11
 text:12360000000	Miner	採掘師
@@ -152,6 +153,10 @@ id:11530000047	Festival Invitation	祭典招待
 id:25368	Tips	支援
 split-kafra:0	Kafra Battlefield Manager	カプラ戦場管理人
 split-kafra:1	Receive the Blessing of Odin, King of the Gods, reducing skill Cooldown by 11% for 22 minutes.	主神オーディンの祝福を受け、22分間、スキルのクールダウンが11%短縮されます。
+screen-reward-heading-cn	恭喜获得	獲得おめでとう
+screen-reward-heading-tw	恭喜獲得	獲得おめでとう
+screen-reward-heading-rich	<color=#ffce63>恭喜获得</color>	<color=#ffce63>獲得おめでとう</color>
+screen-reward-heading-free-text	TestPlayer:恭喜获得宝石	TestPlayer:恭喜获得宝石
 latest-trophy-level	Reach Wardrobe Fashion Rating Lv. 3	ワードローブのファッション評価をLv.3にする
 latest-trophy-level-varied	Reach Wardrobe Fashion Rating Lv. 12	ワードローブのファッション評価をLv.12にする
 latest-trophy-appearance	Appearance 1	外見 1
@@ -9487,45 +9492,47 @@ latest-alias:22	天罚	ディバインリトリビューション
 latest-alias:23	天罰	ディバインリトリビューション
 latest-alias:24	审判	ジュデックス
 latest-alias:25	審判	ジュデックス
-latest-alias:26	成就达成：11/22	達成トロフィー：11/22
-latest-alias:27	成就达成：<#c27b47>11</color>/22	達成トロフィー：<#c27b47>11</color>/22
-latest-alias:28	成就達成：11/22	達成トロフィー：11/22
-latest-alias:29	成就達成：<#c27b47>11</color>/22	達成トロフィー：<#c27b47>11</color>/22
-latest-alias:30	排行	ランキング
-latest-alias:31	无主灵魂核心	主なきソウルコア
-latest-alias:32	每賽程首週週一 11:22	各日程の第1週・月曜日 11:22
-latest-alias:33	每賽程首週週一11:22	各日程の第1週・月曜日 11:22
-latest-alias:34	每赛程首周周一 11:22	各日程の第1週・月曜日 11:22
-latest-alias:35	每赛程首周周一11:22	各日程の第1週・月曜日 11:22
-latest-alias:36	治愈术	ヒール
-latest-alias:37	治癒術	ヒール
-latest-alias:38	活动任务	イベントクエスト
-latest-alias:39	活动尚未开启	イベントはまだ利用できません
-latest-alias:40	活動任務	イベントクエスト
-latest-alias:41	活動尚未開啟	イベントはまだ利用できません
-latest-alias:42	無主靈魂核心	主なきソウルコア
-latest-alias:43	玩家名称	プレイヤー名
-latest-alias:44	玩家名稱	プレイヤー名
-latest-alias:45	珠泪螺壳	パールティアコンチ
-latest-alias:46	珠淚螺殼	パールティアコンチ
-latest-alias:47	筛选	フィルター
-latest-alias:48	篩選	フィルター
-latest-alias:49	組隊平台	パーティ検索
-latest-alias:50	组队平台	パーティ検索
-latest-alias:51	职位	役職
-latest-alias:52	聖痕	ホーリースティグマ
-latest-alias:53	職位	役職
-latest-alias:54	自然之神伊尔玛塔	自然神イルマタ
-latest-alias:55	自然之神伊爾瑪塔	自然神イルマタ
-latest-alias:56	衣橱时尚度达到11级	ワードローブのファッション評価をLv.11にする
-latest-alias:57	衣櫥時尚度達到11級	ワードローブのファッション評価をLv.11にする
-latest-alias:58	謳歌	ホーリーレコニング
-latest-alias:59	讴歌	ホーリーレコニング
-latest-alias:60	資金榜	資金ランキング
-latest-alias:61	资金榜	資金ランキング
-latest-alias:62	邮件	メール
-latest-alias:63	邮件存储上限：11/22	メール保存上限：11/22
-latest-alias:64	邮件存储上限：<color=#FA983A>11</color>/22	メール保存上限：<color=#FA983A>11</color>/22
-latest-alias:65	郵件	メール
-latest-alias:66	領地爭霸戰	領地戦
-latest-alias:67	领土战争	領地戦
+latest-alias:26	恭喜獲得	獲得おめでとう
+latest-alias:27	恭喜获得	獲得おめでとう
+latest-alias:28	成就达成：11/22	達成トロフィー：11/22
+latest-alias:29	成就达成：<#c27b47>11</color>/22	達成トロフィー：<#c27b47>11</color>/22
+latest-alias:30	成就達成：11/22	達成トロフィー：11/22
+latest-alias:31	成就達成：<#c27b47>11</color>/22	達成トロフィー：<#c27b47>11</color>/22
+latest-alias:32	排行	ランキング
+latest-alias:33	无主灵魂核心	主なきソウルコア
+latest-alias:34	每賽程首週週一 11:22	各日程の第1週・月曜日 11:22
+latest-alias:35	每賽程首週週一11:22	各日程の第1週・月曜日 11:22
+latest-alias:36	每赛程首周周一 11:22	各日程の第1週・月曜日 11:22
+latest-alias:37	每赛程首周周一11:22	各日程の第1週・月曜日 11:22
+latest-alias:38	治愈术	ヒール
+latest-alias:39	治癒術	ヒール
+latest-alias:40	活动任务	イベントクエスト
+latest-alias:41	活动尚未开启	イベントはまだ利用できません
+latest-alias:42	活動任務	イベントクエスト
+latest-alias:43	活動尚未開啟	イベントはまだ利用できません
+latest-alias:44	無主靈魂核心	主なきソウルコア
+latest-alias:45	玩家名称	プレイヤー名
+latest-alias:46	玩家名稱	プレイヤー名
+latest-alias:47	珠泪螺壳	パールティアコンチ
+latest-alias:48	珠淚螺殼	パールティアコンチ
+latest-alias:49	筛选	フィルター
+latest-alias:50	篩選	フィルター
+latest-alias:51	組隊平台	パーティ検索
+latest-alias:52	组队平台	パーティ検索
+latest-alias:53	职位	役職
+latest-alias:54	聖痕	ホーリースティグマ
+latest-alias:55	職位	役職
+latest-alias:56	自然之神伊尔玛塔	自然神イルマタ
+latest-alias:57	自然之神伊爾瑪塔	自然神イルマタ
+latest-alias:58	衣橱时尚度达到11级	ワードローブのファッション評価をLv.11にする
+latest-alias:59	衣櫥時尚度達到11級	ワードローブのファッション評価をLv.11にする
+latest-alias:60	謳歌	ホーリーレコニング
+latest-alias:61	讴歌	ホーリーレコニング
+latest-alias:62	資金榜	資金ランキング
+latest-alias:63	资金榜	資金ランキング
+latest-alias:64	邮件	メール
+latest-alias:65	邮件存储上限：11/22	メール保存上限：11/22
+latest-alias:66	邮件存储上限：<color=#FA983A>11</color>/22	メール保存上限：<color=#FA983A>11</color>/22
+latest-alias:67	郵件	メール
+latest-alias:68	領地爭霸戰	領地戦
+latest-alias:69	领土战争	領地戦
